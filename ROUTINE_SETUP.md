@@ -41,11 +41,11 @@ Full (required for web searches)
 ```
 Read briefing_system_prompt.md from the repository for full instructions. Then:
 
-1. Read briefing_archive.md fully from the repository
-2. Run 5–8 web searches (follow-up threads from archive first, then fresh news)
+1. Read briefing_archive.md (the compact active working memory) fully from the repository. Do NOT read briefing_archive_detail.md in full — open only a single edition block from it if you need an exact source URL or wording to chase a specific follow-up thread.
+2. Run 5–8 web searches (the OPEN FOLLOW-UP THREADS list first, then fresh news). Fetch the full page for every credible source you intend to use — research depth is not where we save tokens.
 3. Write the full Frontier Intelligence HTML briefing following all instructions in briefing_system_prompt.md
 4. Save the HTML as briefings/YYYY-MM-DD.html in the repository (use today's actual date)
-5. Update briefing_archive.md by appending today's edition block before the summary table, then update the table. Commit both files.
+5. Update memory per the ARCHIVE UPDATE PROTOCOL: append the full edition block to briefing_archive_detail.md, then update the compact sections of briefing_archive.md in place (open threads — adding new and PRUNING resolved ones; dedup index; vocabulary; action tracker; summary table). Keep briefing_archive.md lean. Commit both files.
 6. Send an email via Gmail to angelo.gunther@gmail.com with subject "Frontier Intelligence — [today's date]". The body should be a short HTML email (not the full briefing) containing: the lead headline, a 3–4 bullet summary of the edition's top stories, and a single prominent link to read the full briefing at https://lazybreadzero.github.io/DailyBrief/briefings/YYYY-MM-DD.html (substitute today's actual date). Do NOT paste the full briefing HTML into the email body.
 ```
 
@@ -59,6 +59,6 @@ When you add the **Gmail connector** to the routine, grant it **send** scope (no
 
 ## After creating it
 
-1. **Run it once manually** (the "Run now" / "Test run" button) to confirm the email arrives and a `briefings/YYYY-MM-DD.html` file plus an updated `briefing_archive.md` get committed.
+1. **Run it once manually** (the "Run now" / "Test run" button) to confirm the email arrives and a `briefings/YYYY-MM-DD.html` file plus an updated `briefing_archive.md` (compact memory) and `briefing_archive_detail.md` (cold log) all get committed.
 2. The seed memory is **Edition 1 (2 June 2026)**, so the first real run will produce **Edition 2** and build on Edition 1's open follow-up threads (Science Corp CE mark, Samsung Galaxy XR ship date, Meta case management conference, etc.).
 3. Leave it on the daily 08:00 Europe/Vienna schedule and it will self-extend the archive each morning.
