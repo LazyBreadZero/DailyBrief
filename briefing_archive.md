@@ -69,11 +69,65 @@ BCI architecture spectrum, CE mark vs FDA pathways, Android XR open platform, Pr
 
 ---
 
+## EDITION 2 — Sunday, 1 June 2026
+
+### Lead Story
+**Title:** Samsung Galaxy XR Has Shipped at $1,800 — the Android XR Platform Is Now Commercially Real
+**Category:** Extended Reality · Platform
+**Core argument:** Samsung Galaxy XR crossed from roadmap to retail at $1,800, making it the first Android XR headset in market. The bigger story is Fall 2026: Android XR smart glasses with Warby Parker and Gentle Monster, running Gemini, positioned to displace Ray-Ban Meta. Open platform logic (Samsung hardware + Google OS + Qualcomm silicon) mirrors 2008 Android vs iPhone dynamic. Enterprise XR ($12bn, +20% YoY) is the near-term revenue base; consumer mainstream starts with smart glasses, not headsets.
+**Key companies introduced:** Warby Parker (Android XR glasses), Gentle Monster (Android XR glasses)
+**Key people introduced:** None new
+**Key concepts introduced:** German §14 Medical Device Regulation early access pathway; Android XR automatic spatial 2D app conversion (reinforced); Fall 2026 smart glasses timeline; Samsung-Google-Qualcomm trilateral platform coalition
+**Sources used:** 9to5Google (9/10), Road to VR (9/10), SamMobile (8/10), FrameSixty (7/10), Chrome Unboxed (7/10), Next Reality (7/10)
+**Angelo's Angle delivered:** Rotterdam Immersive Tech Week (Jun 23–25) as venue for Android XR thesis; European studios underserved on platform
+**Follow-up threads to watch:** Fall 2026 Android XR smart glasses launch pricing and availability; Project Aura (XREAL) commercial pricing; Apple Vision Pro price response
+
+### Story 2
+**Title:** BCI Sector Raises More Than $1.1bn in Weeks — the Venture Phase Is Ending
+**Category:** Brain-Computer Interfaces · Investment
+**Core argument:** Synchron $200M Series D (pivotal trials), Neuralink $650M Series E (high-volume production, automated surgery), Merge Labs $250M seed (OpenAI-backed, Sam Altman). Capital is now directed at scale execution, not research validation. OpenAI's financial stake in a BCI firm signals post-screen neural interface as active investment thesis at frontier AI labs.
+**Key companies introduced:** Merge Labs (Sam Altman's BCI startup, OpenAI-backed)
+**Key people introduced:** None new (Altman already known)
+**Key concepts introduced:** Transcranial focused ultrasound (tFUS) as consumer BCI modality; BCI scale-investment phase vs research-bet phase
+**Sources used:** MedTech Insight (9/10), TechCrunch (9/10), FierceBiotech (9/10)
+**Angelo's Angle delivered:** Post-screen AI+BCI convergence essay as Q3 2026 public thesis project
+**Follow-up threads to watch:** Merge Labs architecture disclosure; Neuralink automated surgical procedure timeline; Synchron pivotal trial patient enrolment
+
+### Story 3
+**Title:** Science Corp Submits CE Mark for PRIMA — Germany Targeted as First Commercial BCI Market
+**Category:** Brain-Computer Interfaces · Regulatory
+**Core argument:** CE mark application submitted (follow-up from Edition 1 lead). Germany §14 pathway = probable first market. 47 patients trialled (up from 38), 80% meaningful visual acuity improvement. If mid-2026 approval holds, PRIMA is the first BCI product at commercial scale anywhere. Commercial narrative gap persists — extraordinary results, minimal brand profile.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** German §14 early access pathway (new)
+**Sources used:** Science Corp primary (10/10), MedTech Dive (9/10), The Next Web (8/10)
+**Angelo's Angle delivered:** Map German clinical opinion leader network now, before CE mark approval; prescriber community is small and identifiable
+**Follow-up threads to watch:** CE mark decision date (mid-2026); Germany first-prescriber network; Max Hodak public communications
+
+### Intelligence Briefs
+**Brief 1 — Meta Ray-Ban Case Management Conference (June 2026):** Bartone et al. v. Meta Platforms reaches first case management conference. Discovery scope to be set. Will produce first detailed legal record of ambient device data pipeline. Follow-up: discovery filings; UK ICO parallel findings.
+**Brief 2 — AWE 2026 (June 15–18, Long Beach):** Evan Spiegel keynotes "Making Computing More Human." Research poster track debuts with neuroscience and spatial AI. Angelo's consent essay deadline = June 15. Follow-up: Auggie Award winners; enterprise XR deployment announcements.
+**Brief 3 — Prophetic Halo ($449, shipping end 2026):** First consumer tFUS BCI product. Dual tier $449, Phase tier $1,299 with closed-loop EEG. Donders Institute research partnership. Technology novel; market size unproven. Follow-up: Donders Institute data publication; pre-order volumes.
+**Brief 4 — OpenAI + Merge Labs ($250M seed, $850M valuation):** OpenAI writes largest check in Merge Labs round. Architecture undisclosed. Signal: frontier AI labs are financially committed to neural interface layer. Follow-up: architecture disclosure; Altman public statements on BCI vision.
+
+### New concepts in Angelo's working vocabulary (do not re-explain)
+Transcranial focused ultrasound (tFUS) as consumer BCI modality, German §14 Medical Device Regulation early access pathway, Merge Labs (OpenAI/Altman BCI), Android XR Developer Catalyst Programme, AWE "I, Spatial" framing, Samsung-Google-Qualcomm trilateral coalition logic, Warby Parker + Gentle Monster as Android XR distribution play
+
+### Angelo's Angles Issued — Track Completion
+- [ ] Draft consent layer essay (300 words) — publish before AWE June 15 2026 *(carried from Edition 1)*
+- [ ] Reach out to Science Corp — commercial narrative conversation *(carried from Edition 1)*
+- [ ] Attend Rotterdam Immersive Tech Week June 23–25 with Android XR thesis *(carried from Edition 1)*
+- [ ] Map German neurologist/ophthalmologist network (first PRIMA prescribers) — begin before CE mark
+- [ ] Write Q3 2026 essay: "What does post-screen experience look like when AI and BCI both mature?"
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Companies | Actions Issued |
 |---------|------|------------|-----------------|---------------|----------------|
 | 1 | 2 Jun 2026 | Science Corp $230m BCI | BCI landscape, Android XR, Meta privacy, 8th Wall, Oura, China BCI | Science Corp, Synchron, Paradromics, XREAL, Samsung XR, Oura | Consent thesis; Science Corp outreach; Rotterdam |
+| 2 | 1 Jun 2026 | Samsung Galaxy XR ships ($1,800); Android XR commercially real | Android XR platform, BCI $1.1bn funding surge, Science Corp CE mark submitted, Meta lawsuit CMC, AWE 2026, Prophetic Halo, Merge Labs | Warby Parker (XR), Gentle Monster (XR), Merge Labs | German neurologist network; Q3 post-screen essay |
 
 ---
-*Last updated: Edition 1 — 2 June 2026*
+*Last updated: Edition 2 — 1 June 2026*

@@ -46,7 +46,7 @@ Read briefing_system_prompt.md from the repository for full instructions. Then:
 3. Write the full Frontier Intelligence HTML briefing following all instructions in briefing_system_prompt.md
 4. Save the HTML as briefings/YYYY-MM-DD.html in the repository (use today's actual date)
 5. Update briefing_archive.md by appending today's edition block before the summary table, then update the table. Commit both files.
-6. Send an email via Gmail to angelo.gunther@gmail.com with subject "Frontier Intelligence — [today's date]" and the full HTML as the email body
+6. Send an email via Gmail to angelo.gunther@gmail.com with subject "Frontier Intelligence — [today's date]". The body should be a short HTML email (not the full briefing) containing: the lead headline, a 3–4 bullet summary of the edition's top stories, and a single prominent link to read the full briefing at https://lazybreadzero.github.io/DailyBrief/briefings/YYYY-MM-DD.html (substitute today's actual date). Do NOT paste the full briefing HTML into the email body.
 ```
 
 ---

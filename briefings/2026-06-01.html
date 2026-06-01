@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontier Intelligence — 1 June 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #FAF8F2;
+      color: #1a1a1a;
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    a { color: #8B1A1A; }
+    a:hover { text-decoration: underline; }
+
+    .page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 28px 80px;
+    }
+
+    /* ── NAMEPLATE ── */
+    .nameplate {
+      border-top: 4px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+      padding: 22px 0 16px;
+      margin-bottom: 0;
+      text-align: center;
+    }
+    .nameplate-kicker {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 10px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #666;
+      margin-bottom: 8px;
+    }
+    .nameplate h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 48px;
+      font-weight: 900;
+      letter-spacing: -1px;
+      color: #1a1a1a;
+      line-height: 1;
+    }
+    .dateline {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 3px solid #1a1a1a;
+      margin-top: 12px;
+      padding: 6px 0;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      font-family: 'Source Serif 4', Georgia, serif;
+      text-transform: uppercase;
+      color: #444;
+    }
+    .dateline .edition { color: #8B1A1A; font-weight: 600; }
+
+    /* ── TYPOGRAPHY ── */
+    h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #1a1a1a;
+      margin-bottom: 12px;
+    }
+    h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 1.25;
+      color: #1a1a1a;
+      margin-bottom: 10px;
+    }
+    h4 {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #8B1A1A;
+      margin-bottom: 10px;
+    }
+    p { margin-bottom: 14px; }
+    p:last-child { margin-bottom: 0; }
+
+    /* ── SECTION RULES ── */
+    .rule-single {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      margin: 32px 0;
+    }
+    .rule-double {
+      border: none;
+      border-top: 3px double #1a1a1a;
+      margin: 36px 0;
+    }
+
+    /* ── LEAD STORY ── */
+    .lead {
+      padding: 28px 0 0;
+    }
+    .lead .category {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #8B1A1A;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .lead h2 {
+      font-size: 36px;
+      margin-bottom: 8px;
+      line-height: 1.15;
+    }
+    .lead .deck {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 19px;
+      font-weight: 300;
+      color: #333;
+      line-height: 1.5;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 18px;
+    }
+    .lead .byline {
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 22px;
+    }
+    .lead p {
+      font-size: 17px;
+      line-height: 1.78;
+    }
+    .deep-read-link {
+      display: inline-block;
+      margin-top: 16px;
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #FAF8F2;
+      background: #8B1A1A;
+      padding: 7px 14px;
+      text-decoration: none;
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+    }
+    .deep-read-link:hover { background: #5a1010; color: #FAF8F2; text-decoration: none; }
+
+    /* ── PULLQUOTE ── */
+    .pullquote {
+      border-top: 3px solid #8B1A1A;
+      border-bottom: 1px solid #8B1A1A;
+      margin: 32px 0;
+      padding: 20px 0 18px;
+    }
+    .pullquote blockquote {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 22px;
+      font-style: italic;
+      color: #1a1a1a;
+      line-height: 1.4;
+    }
+    .pullquote cite {
+      display: block;
+      margin-top: 10px;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #888;
+      font-style: normal;
+      font-family: 'Source Serif 4', Georgia, serif;
+    }
+
+    /* ── TWO-COLUMN SECTION ── */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      margin: 0;
+    }
+    .two-col .story { }
+    .two-col .story .category {
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #8B1A1A;
+      font-weight: 600;
+      margin-bottom: 8px;
+      font-family: 'Source Serif 4', Georgia, serif;
+    }
+    .two-col .story h3 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    .two-col .story p {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #333;
+    }
+    .col-divider {
+      border-left: 1px solid #ccc;
+    }
+
+    /* ── SOURCE BADGES ── */
+    .source-line {
+      margin-top: 12px;
+      font-size: 11px;
+      font-family: 'Source Serif 4', Georgia, serif;
+      color: #888;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+    .source-line span { color: #aaa; }
+    .badge {
+      display: inline-block;
+      font-size: 10px;
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 2px;
+      text-decoration: none;
+      letter-spacing: 0.04em;
+    }
+    .badge-green { background: #E8F5EC; color: #1A5C2A; }
+    .badge-amber { background: #FFF3D6; color: #7A4A00; }
+
+    /* ── INTELLIGENCE BRIEFS ── */
+    .intel-section { }
+    .intel-item {
+      border-top: 1px solid #ddd;
+      padding: 18px 0;
+    }
+    .intel-item:last-child { border-bottom: 1px solid #ddd; }
+    .intel-item .category {
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #8B1A1A;
+      font-weight: 600;
+      margin-bottom: 6px;
+      font-family: 'Source Serif 4', Georgia, serif;
+    }
+    .intel-item h3 {
+      font-size: 17px;
+      margin-bottom: 6px;
+    }
+    .intel-item p {
+      font-size: 14.5px;
+      color: #333;
+      line-height: 1.68;
+    }
+
+    /* ── ANGELO'S ANGLE ── */
+    .angle-section {
+      background: #1a1a1a;
+      color: #FAF8F2;
+      padding: 28px 32px;
+      margin: 36px 0;
+    }
+    .angle-section h4 {
+      color: #c8a882;
+      letter-spacing: 0.2em;
+      margin-bottom: 20px;
+    }
+    .angle-item {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .angle-item:last-child { margin-bottom: 0; }
+    .angle-num {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 28px;
+      font-weight: 900;
+      color: #8B1A1A;
+      line-height: 1;
+      flex-shrink: 0;
+      width: 28px;
+      padding-top: 2px;
+    }
+    .angle-item p {
+      font-size: 15px;
+      color: #d8d4cc;
+      line-height: 1.68;
+      margin-bottom: 0;
+    }
+    .angle-item strong { color: #FAF8F2; }
+
+    /* ── EVENTS + SIGNAL/NOISE ── */
+    .bottom-two {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      margin-top: 8px;
+    }
+    .events-col h4, .signal-col h4 {
+      border-bottom: 2px solid #8B1A1A;
+      padding-bottom: 8px;
+      margin-bottom: 14px;
+    }
+    .event-item {
+      border-bottom: 1px solid #e8e4dc;
+      padding: 10px 0;
+    }
+    .event-item:last-child { border-bottom: none; }
+    .event-date {
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #8B1A1A;
+      font-weight: 600;
+      font-family: 'Source Serif 4', Georgia, serif;
+    }
+    .event-name {
+      font-size: 14px;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+    .event-note { font-size: 13px; color: #666; }
+
+    .signal-item-row {
+      padding: 10px 0;
+      border-bottom: 1px solid #e8e4dc;
+    }
+    .signal-item-row:last-child { border-bottom: none; }
+    .signal-tag {
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: 'Source Serif 4', Georgia, serif;
+      margin-bottom: 3px;
+    }
+    .signal-tag.sig { color: #1A5C2A; }
+    .signal-tag.noise { color: #8B1A1A; }
+    .signal-body { font-size: 13.5px; color: #333; line-height: 1.55; }
+
+    /* ── CONTINUITY CALLOUT ── */
+    .continuity {
+      background: #f0ece2;
+      border-left: 3px solid #8B1A1A;
+      padding: 12px 16px;
+      margin: 18px 0;
+      font-size: 14px;
+      color: #555;
+      font-style: italic;
+    }
+
+    /* ── FOOTER ── */
+    .footer {
+      border-top: 3px double #1a1a1a;
+      padding-top: 20px;
+      margin-top: 40px;
+      font-size: 11px;
+      color: #888;
+      letter-spacing: 0.06em;
+      font-family: 'Source Serif 4', Georgia, serif;
+      text-align: center;
+      line-height: 1.9;
+    }
+    .footer strong { color: #1a1a1a; }
+
+    /* ── DEEP READ PAGE ── */
+    #deep-read-1 {
+      display: none;
+    }
+    .deep-read-page {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 40px 28px 80px;
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #8B1A1A;
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      background: none;
+      padding: 0;
+      margin-bottom: 32px;
+      text-decoration: none;
+    }
+    .back-btn:hover { text-decoration: underline; color: #8B1A1A; }
+    .deep-read-page .dr-category {
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #8B1A1A;
+      font-weight: 600;
+      margin-bottom: 10px;
+      font-family: 'Source Serif 4', Georgia, serif;
+    }
+    .deep-read-page h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 10px;
+    }
+    .deep-read-page .dr-deck {
+      font-size: 20px;
+      font-weight: 300;
+      color: #444;
+      line-height: 1.5;
+      margin-bottom: 24px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+    }
+    .deep-read-page p {
+      font-size: 17px;
+      line-height: 1.8;
+      margin-bottom: 16px;
+      color: #1a1a1a;
+    }
+    .deep-read-page h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 22px;
+      font-weight: 700;
+      margin: 28px 0 10px;
+    }
+    .deep-read-page .dr-note {
+      background: #f0ece2;
+      border-left: 3px solid #8B1A1A;
+      padding: 14px 18px;
+      margin: 24px 0;
+      font-size: 15px;
+      font-style: italic;
+      color: #555;
+    }
+
+    @media (max-width: 640px) {
+      .nameplate h1 { font-size: 32px; }
+      .two-col { grid-template-columns: 1fr; gap: 0; }
+      .col-divider { border-left: none; border-top: 1px solid #ccc; padding-top: 24px; }
+      .bottom-two { grid-template-columns: 1fr; gap: 0; }
+      .angle-section { padding: 20px; }
+      .dateline { flex-direction: column; gap: 4px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════
+     MAIN BRIEFING
+     ═══════════════════════════════════════════════ -->
+<div id="main">
+<div class="page">
+
+  <!-- ── NAMEPLATE ── -->
+  <header class="nameplate">
+    <div class="nameplate-kicker">Personal Intelligence Briefing</div>
+    <h1>Frontier Intelligence</h1>
+    <div class="dateline">
+      <span class="edition">Edition 2</span>
+      <span>Sunday, 1 June 2026</span>
+      <span>NeuroTech · XR · BCI · Spatial Computing</span>
+    </div>
+  </header>
+
+  <!-- ── LEAD STORY ── -->
+  <section class="lead">
+    <div class="category">Extended Reality · Platform</div>
+    <h2>Samsung Galaxy XR Has Shipped at $1,800 — the Android XR Platform Is Now Commercially Real</h2>
+    <p class="deck">As introduced in Edition 1, Samsung Galaxy XR's commercial ship date was the open thread in the Android XR story. That headset is now in retail. The more consequential announcement is the one that arrives in autumn.</p>
+    <div class="byline">Compiled 1 June 2026</div>
+
+    <div class="continuity">
+      As introduced in Edition 1 (2 June 2026), the Samsung Galaxy XR ship date was the key unresolved thread in the Android XR platform story. That product has now crossed the announcement-to-retail threshold at $1,800 — making it the first commercially available Android XR headset.
+    </div>
+
+    <p>The hardware specifications are honest rather than exceptional: dual Micro-OLED displays at 3,552 × 3,840 per eye, Qualcomm Snapdragon XR2+ Gen 2, 16GB RAM, 256GB storage, priced between Apple's Vision Pro (approximately $3,500) and Meta Quest 3 ($500). Samsung and Google are not trying to win a spec sheet war. They are trying to plant a flag.</p>
+
+    <p>The platform logic is more important than any single device. Android XR does to spatial computing what Android did to the smartphone: it creates an open hardware-software ecosystem in which multiple manufacturers can participate under a common operating layer. XREAL (Project Aura), Lenovo, and a forthcoming Samsung Galaxy XR headset expansion to additional markets are the near-term hardware surface. But the product category that matters for consumer mainstream is smart glasses, not headsets — and that is where the autumn timeline becomes important.</p>
+
+    <p>Google and Samsung have confirmed Fall 2026 for their first Android XR smart glasses. Two models are in development in partnership with Warby Parker and Gentle Monster — consumer eyewear brands with distribution, not technology brands asking consumers to look past ugly hardware. The strategic framing is explicit: the target is Ray-Ban Meta's installed base, now under active legal scrutiny (see Intelligence Briefs). Android XR glasses running Gemini as a contextual AI layer, wrapped in Warby Parker frames, is the first credible consumer answer to the question of what comes after the smartphone screen.</p>
+
+    <p>Enterprise is the revenue base for now. XR enterprise hit $12 billion in 2026, up 20% year-on-year as recorded in Edition 1. The Android XR Developer Catalyst Programme is generating studios, and Google has since rolled out five new spatial computing features to the platform. The CES 2026 Sphere takeover in Las Vegas was the clearest signal of intent: this is a bet made with the marketing commitment of a platform launch, not a research project.</p>
+
+    <p>The question analysts have begun to ask is whether a third platform can succeed where Microsoft HoloLens, Google Glass Enterprise, and Magic Leap failed to achieve consumer scale. The Android answer is structural rather than technical: none of those products had an open OS with the distribution of Google's app ecosystem, the manufacturing partnerships of Samsung, and the silicon commitment of Qualcomm. The comparison to watch is not HoloLens. It is 2008 Android versus 2007 iPhone — the moment when openness began to matter more than elegance.</p>
+
+    <button class="deep-read-link" onclick="showDeepRead('deep-read-1')">Deep Read: The Android XR Platform Thesis →</button>
+
+    <div class="source-line">
+      <span>Sources:</span>
+      <a href="https://9to5google.com/2026/05/19/google-samsung-android-xr-glasses-styles-release-date/" class="badge badge-green" target="_blank">9to5Google 9/10</a>
+      <a href="https://roadtovr.com/samsung-galaxy-xr-headset-price-specs-release-date/" class="badge badge-green" target="_blank">Road to VR 9/10</a>
+      <a href="https://www.sammobile.com/news/samsung-galaxy-xr-launch-additional-countries-2026/" class="badge badge-green" target="_blank">SamMobile 8/10</a>
+      <a href="https://framesixty.com/android-xr/" class="badge badge-amber" target="_blank">FrameSixty 7/10</a>
+    </div>
+  </section>
+
+  <!-- ── PULLQUOTE ── -->
+  <div class="pullquote">
+    <blockquote>"The comparison to watch is not HoloLens. It is 2008 Android versus 2007 iPhone — the moment when openness began to matter more than elegance."</blockquote>
+    <cite>Frontier Intelligence Analysis, Edition 2</cite>
+  </div>
+
+  <hr class="rule-double" />
+
+  <!-- ── TWO-COLUMN SECTION ── -->
+  <div class="two-col">
+
+    <div class="story">
+      <div class="category">Brain-Computer Interfaces · Investment</div>
+      <h3>BCI Sector Raises More Than $1.1bn in Weeks — the Venture Phase Is Ending</h3>
+      <p>Three rounds in rapid succession have recalibrated what BCI investment looks like. Synchron closed a $200 million Series D to fund pivotal clinical trials and early commercialisation of its Stentrode implant. Neuralink followed with a $650 million Series E, with Elon Musk announcing high-volume production and a move toward an almost entirely automated surgical procedure. Then, most unexpectedly, OpenAI wrote the largest single check in Merge Labs' $250 million seed round at an $850 million valuation — a BCI startup founded by Sam Altman himself.</p>
+      <p>The structural point is not the headline numbers. It is what the capital is being directed toward. Synchron is explicitly funding pivotal trials — the clinical step that precedes commercialisation. Neuralink is redesigning surgery for throughput, not proof-of-concept. These are not research bets. They are scale bets. The $1.1 billion flowing into BCI within weeks of one another suggests investors have concluded the technology is valid and the race is now operational: who ships to patients first, and at what volume.</p>
+      <p>The OpenAI/Merge Labs investment is the most structurally significant of the three. The world's leading AI company taking a financial stake in a BCI firm signals that the post-screen interface layer is now an active investment thesis at the frontier AI labs, not a peripheral curiosity.</p>
+      <div class="source-line">
+        <a href="https://insights.citeline.com/medtech-insight/business/financing/synchron-secures-200m-series-d-plans-new-brain-interface-with-potentially-more-applications-U6MRTIDOVRHXXGDHGHUD35SA5Q/" class="badge badge-green" target="_blank">MedTech Insight 9/10</a>
+        <a href="https://techcrunch.com/2026/01/15/openai-invests-in-sam-altmans-brain-computer-interface-startup-merge-labs/" class="badge badge-green" target="_blank">TechCrunch 9/10</a>
+        <a href="https://www.fiercebiotech.com/medtech/elon-musks-neuralink-kickstart-high-volume-production-brain-computer-interface-devices" class="badge badge-green" target="_blank">FierceBiotech 9/10</a>
+      </div>
+    </div>
+
+    <div class="story col-divider" style="padding-left: 32px;">
+      <div class="category">Brain-Computer Interfaces · Regulatory</div>
+      <h3>Science Corp Submits CE Mark for PRIMA — Germany Targeted as First Commercial BCI Market</h3>
+      <p>Science Corporation has submitted its CE mark application for the PRIMA retinal implant, advancing the timeline introduced in Edition 1. Germany is the probable first market: the country's §14 pathway under the Medical Device Regulation allows early patient access to novel devices before full market approval, and the company has explicitly named it as its likely commercial entry point. If mid-2026 CE mark approval holds, PRIMA becomes the first BCI product to reach commercial scale anywhere.</p>
+      <p>The clinical data has strengthened since the original NEJM publication. Forty-seven patients have now been trialled (up from 38 in the published study), with 80% showing meaningful improvement in visual acuity. The PRIMA chip — a 2mm photovoltaic implant beneath the retina, powered wirelessly via near-infrared glasses — treats geographic atrophy and age-related macular degeneration, conditions with no pharmaceutical treatment options. The commercial narrative gap identified in Edition 1 remains: Science Corp's results are extraordinary, its brand profile minimal.</p>
+      <p>Germany as first market also concentrates the initial prescriber network into a small, identifiable group of hospital neurologists and ophthalmologists. That network is mappable now, before approval.</p>
+      <div class="source-line">
+        <a href="https://science.xyz/news/prima-ce-mark-application-submitted/" class="badge badge-green" target="_blank">Science Corp (primary) 10/10</a>
+        <a href="https://www.medtechdive.com/news/science-corporation-raises-230m-for-prima-vision-restoration-device/814118/" class="badge badge-green" target="_blank">MedTech Dive 9/10</a>
+        <a href="https://thenextweb.com/news/science-corp-biohybrid-brain-sensor-first-human-hodak-yale" class="badge badge-green" target="_blank">The Next Web 8/10</a>
+      </div>
+    </div>
+  </div>
+
+  <hr class="rule-single" />
+
+  <!-- ── INTELLIGENCE BRIEFS ── -->
+  <section class="intel-section">
+    <h4>Intelligence Briefs</h4>
+
+    <div class="intel-item">
+      <div class="category">Regulatory · Ambient Computing</div>
+      <h3>Meta Ray-Ban Lawsuit Reaches Case Management Conference This Month</h3>
+      <p>Bartone et al. v. Meta Platforms (filed March 4, N.D. California) — the class action arising from Ray-Ban smart glasses footage being routed to Sama subcontractors in Kenya for AI training review — reaches its first case management conference in June 2026. Plaintiffs allege that privacy-centric marketing was paired with structurally inadequate disclosures on transmission, cloud processing, and human review of captured media. No ruling on merits; the conference sets discovery scope. What emerges from discovery will be the first detailed legal record of how an always-on ambient device handles its data pipeline — a template that BCI companies will face at higher stakes. The consent gap is now being litigated, not just discussed.</p>
+      <div class="source-line">
+        <a href="https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/" class="badge badge-green" target="_blank">TechCrunch 9/10</a>
+        <a href="https://natlawreview.com/article/smart-glasses-and-privacy-wearable-surveillance-and-disclosure-issues" class="badge badge-green" target="_blank">National Law Review 9/10</a>
+      </div>
+    </div>
+
+    <div class="intel-item">
+      <div class="category">Events · XR</div>
+      <h3>AWE 2026 Opens in 14 Days — Spiegel Headlines with "Making Computing More Human"</h3>
+      <p>Augmented World Expo USA 2026 (June 15–18, Long Beach, California) is the industry's annual clearing house for XR strategy, with 5,000 attendees, 250 exhibitors, and 400 speakers. Snap Inc. co-founder Evan Spiegel delivers the Tuesday morning keynote titled "Making Computing More Human" — a title that reads like a direct response to the ambient-computing consent backlash. The Research Poster Track debuts this year with 40 submissions spanning neuroscience and AI-enabled spatial computing. Angelo's commitment from Edition 1 — draft 300 words on "the consent layer is broken" before AWE — has a 14-day deadline.</p>
+      <div class="source-line">
+        <a href="https://www.awexr.com/usa-2026" class="badge badge-green" target="_blank">AWE Official 10/10</a>
+        <a href="https://www.prnewswire.com/news-releases/save-the-date-evan-spiegel-to-headline-augmented-world-expo-on-june-16-2026-302757214.html" class="badge badge-green" target="_blank">PR Newswire 9/10</a>
+      </div>
+    </div>
+
+    <div class="intel-item">
+      <div class="category">NeuroTech · Consumer</div>
+      <h3>Prophetic Halo: Ultrasound Lucid Dreaming at $449, Shipping End of 2026</h3>
+      <p>Prophetic — one of the watchlist companies named in the system prompt — has set pricing on its Halo headband: the entry Dual tier at $449, shipping end of 2026; the Phase tier at $1,299 adding closed-loop EEG, shipping mid-to-late 2027. The device uses transcranial focused ultrasound (tFUS) to activate the dorsolateral prefrontal cortex during REM sleep, with the goal of inducing lucid dreams on demand. The underlying AI system, Morpheus-1, incorporates multi-element focused ultrasound and generative 3D spatial pulse controls. Research partner: the Donders Institute at Radboud University. Whether the device produces reliable lucid dreaming in consumer conditions is unproven. What it represents is more significant: this is the first non-clinical, non-therapeutic consumer product to use ultrasound as a BCI modality — a technology previously confined to research labs. The design surface for BCI is expanding into consciousness and sleep, not just motor rehabilitation.</p>
+      <div class="source-line">
+        <a href="https://www.neurofounders.co/articles/prophetic-announces-a-dream-inducing-ultrasound-headband" class="badge badge-green" target="_blank">Neurofounders 8/10</a>
+        <a href="https://www.propheticai.org/pages/reserve.html" class="badge badge-green" target="_blank">Prophetic (primary) 10/10</a>
+      </div>
+    </div>
+
+    <div class="intel-item">
+      <div class="category">AI · BCI Convergence</div>
+      <h3>OpenAI Backs Sam Altman's Merge Labs at $850m Valuation — the AI-BCI Thesis Is Now Financially Committed</h3>
+      <p>OpenAI participated in the largest single check of Merge Labs' $250 million seed round, backing Sam Altman's own BCI startup at an $850 million valuation. Merge Labs' architecture has not been publicly disclosed. The significance is institutional rather than technical: this is the world's leading AI company making a financial stake in brain-computer interface infrastructure. The implication is that OpenAI views the next interface layer — beyond voice, beyond screen — as neural. The post-screen thesis has moved from speculative to venture-capital underwritten, with the AI lab most associated with the current technological era putting money behind it. OpenAI + Merge Labs is the AI-BCI convergence trade, and it is now on the record.</p>
+      <div class="source-line">
+        <a href="https://techcrunch.com/2026/01/15/openai-invests-in-sam-altmans-brain-computer-interface-startup-merge-labs/" class="badge badge-green" target="_blank">TechCrunch 9/10</a>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule-single" />
+
+  <!-- ── ANGELO'S ANGLE ── -->
+  <div class="angle-section">
+    <h4>Angelo's Angle</h4>
+
+    <div class="angle-item">
+      <div class="angle-num">1</div>
+      <p><strong>AWE is in 14 days and Spiegel's keynote is titled "Making Computing More Human."</strong> That title is Angelo's thesis. The 300-word essay on the consent layer committed to in Edition 1 has a concrete deadline: drafted, edited, and published — on LinkedIn or a Substack — before June 15. A published position before AWE creates a conversation hook with speakers, founders, and investors in the room. A draft on your laptop creates nothing. The conference has a neuroscience research poster track. The combination of published essay + research engagement makes AWE a working event, not a networking one.</p>
+    </div>
+
+    <div class="angle-item">
+      <div class="angle-num">2</div>
+      <p><strong>Science Corp has submitted its CE mark application and named Germany as its first commercial market.</strong> Angelo's European base — specifically Vienna, with its proximity to Munich, Berlin, and the DACH clinical network — is a structural advantage, not a consolation prize for not being in San Francisco. The prescriber community that will write the first PRIMA scripts is a small, identifiable group of German ophthalmologists and neurosurgeons. That network is mappable now, before approval. The right action is not to wait for the CE mark: it is to identify three to five key German clinical opinion leaders and understand their current perspective on retinal BCI. That is a two-day research task, not a project.</p>
+    </div>
+
+    <div class="angle-item">
+      <div class="angle-num">3</div>
+      <p><strong>OpenAI's financial stake in Merge Labs means the frontier AI labs are now committed to the neural interface thesis.</strong> The question Angelo should be answering publicly — in an essay, talk, or long-form interview — in Q3 2026 is this: what does a product experience actually look like when AI and BCI both mature simultaneously? Altman is betting on neural input. Google is betting on spatial output. Nobody has written a clear, non-technical narrative of what this means for how ordinary people will experience products, work, and consciousness in ten years. That gap is exactly where Angelo's positioning — translator and commercial accelerator — is most useful. No technical expertise required. Conceptual clarity and editorial nerve are the skills. Write it before someone else does.</p>
+    </div>
+  </div>
+
+  <!-- ── EVENTS RADAR + SIGNAL/NOISE ── -->
+  <div class="bottom-two">
+
+    <div class="events-col">
+      <h4>Events Radar</h4>
+
+      <div class="event-item">
+        <div class="event-date">June 15–18</div>
+        <div class="event-name">AWE USA 2026</div>
+        <div class="event-note">Long Beach, CA — Spiegel keynote; consent gap thesis deadline</div>
+      </div>
+
+      <div class="event-item">
+        <div class="event-date">June, TBC</div>
+        <div class="event-name">Meta Ray-Ban Case Management Conference</div>
+        <div class="event-note">N.D. California — discovery scope set; Bartone et al. v. Meta</div>
+      </div>
+
+      <div class="event-item">
+        <div class="event-date">June 23–25</div>
+        <div class="event-name">Rotterdam Immersive Tech Week</div>
+        <div class="event-note">Netherlands — Android XR thesis venue (Edition 1)</div>
+      </div>
+
+      <div class="event-item">
+        <div class="event-date">Mid-2026</div>
+        <div class="event-name">Science Corp CE Mark Decision</div>
+        <div class="event-note">EU — first commercial BCI product if approved</div>
+      </div>
+
+      <div class="event-item">
+        <div class="event-date">Fall 2026</div>
+        <div class="event-name">Android XR Smart Glasses Launch</div>
+        <div class="event-note">Warby Parker + Gentle Monster × Samsung/Google</div>
+      </div>
+    </div>
+
+    <div class="signal-col">
+      <h4>Signal vs. Noise</h4>
+
+      <div class="signal-item-row">
+        <div class="signal-tag sig">Signal</div>
+        <div class="signal-body">Samsung Galaxy XR at retail ($1,800) — Android XR is no longer a roadmap. The platform is real and in market.</div>
+      </div>
+
+      <div class="signal-item-row">
+        <div class="signal-tag sig">Signal</div>
+        <div class="signal-body">Synchron + Neuralink + Merge Labs = $1.1bn+ in weeks. BCI has entered the scale-investment phase, not the research-bet phase.</div>
+      </div>
+
+      <div class="signal-item-row">
+        <div class="signal-tag sig">Signal</div>
+        <div class="signal-body">Science Corp CE mark submitted. Germany §14 pathway = first BCI commercial prescriptions possible within months, not years.</div>
+      </div>
+
+      <div class="signal-item-row">
+        <div class="signal-tag noise">Noise</div>
+        <div class="signal-body">Prophetic Halo consumer demand predictions. The ultrasound modality is genuinely novel; the lucid dreaming market size is unproven and the clinical evidence thin. Watch the technology, not the TAM claim.</div>
+      </div>
+
+      <div class="signal-item-row">
+        <div class="signal-tag noise">Noise</div>
+        <div class="signal-body">XR headset unit-sales projections for 2026. Samsung Galaxy XR at 100,000+ units is enterprise infrastructure spend, not consumer traction. The consumer story starts with Fall 2026 smart glasses.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── NEW CONCEPTS ── -->
+  <hr class="rule-single" />
+  <p style="font-size:12px;color:#888;letter-spacing:0.06em;font-family:'Source Serif 4',Georgia,serif;">
+    <strong style="color:#555;text-transform:uppercase;letter-spacing:0.12em;">New to Angelo's working vocabulary this edition:</strong>
+    Transcranial focused ultrasound (tFUS) as consumer BCI modality · German §14 Medical Device Regulation early access pathway · Merge Labs (OpenAI-backed, Sam Altman) · Android XR Developer Catalyst Programme · AWE "I, Spatial" — spatial AI + human agency framing
+  </p>
+  <p style="font-size:12px;color:#888;letter-spacing:0.06em;font-family:'Source Serif 4',Georgia,serif;margin-top:8px;">
+    <strong style="color:#555;text-transform:uppercase;letter-spacing:0.12em;">Open actions from Edition 1:</strong>
+    ☐ Draft consent layer essay (→ before AWE June 15) &nbsp;·&nbsp; ☐ Reach out to Science Corp &nbsp;·&nbsp; ☐ Rotterdam Immersive Tech Week June 23–25
+  </p>
+
+  <!-- ── FOOTER ── -->
+  <div class="footer">
+    <strong>Frontier Intelligence</strong> · Edition 2 · Sunday, 1 June 2026<br />
+    Personal briefing for Angelo Gunther · BCI · XR · Spatial Computing · Consciousness Tech<br />
+    <a href="https://github.com/LazyBreadZero/DailyBrief" target="_blank" style="color:#8B1A1A;">github.com/LazyBreadZero/DailyBrief</a>
+  </div>
+
+</div><!-- /page -->
+</div><!-- /main -->
+
+
+<!-- ═══════════════════════════════════════════════
+     DEEP READ 1: Android XR Platform Thesis
+     ═══════════════════════════════════════════════ -->
+<div id="deep-read-1">
+<div class="deep-read-page">
+
+  <a class="back-btn" onclick="showMain()" href="#">← Back to Briefing</a>
+
+  <div class="dr-category">Deep Read · Extended Reality · Platform Analysis</div>
+  <h2>The Android XR Platform Thesis: Why This Time Is Different</h2>
+  <p class="dr-deck">Google has tried spatial computing before and failed. The difference in 2026 is not the technology — it is the coalition, the business model, and the form factor that actually matters.</p>
+
+  <p>When Google announced Android XR, the instinct of anyone who watched Google Glass fail in 2014 or Magic Leap implode in 2023 was scepticism. Spatial computing has a long list of confident announcements and short lists of commercial successes. So the question worth asking is not whether Android XR is a good product. It is whether the conditions for platform success are materially different from every prior attempt.</p>
+
+  <h3>What Failed Before, and Why</h3>
+
+  <p>Google Glass Enterprise failed for three reasons. First, the hardware was socially unacceptable — the "Glasshole" backlash made the product toxic in consumer settings, confining it to enterprise warehouses. Second, there was no app ecosystem worth using; the developer incentive was absent without consumer scale, and consumer scale was absent without apps. Third, Google did not control the silicon: display and chip limitations meant the device was either underpowered or had a two-hour battery life.</p>
+
+  <p>Magic Leap raised $3.5 billion and shipped a product that cost $2,295 and weighed 316 grams with an external computing tether. The fundamental problem was that impressive optical waveguide technology was attached to a product experience no enterprise user wanted to wear for more than twenty minutes. Microsoft HoloLens 2 solved the tether problem but not the weight, heat, or price problem, and Microsoft's enterprise sales motion was too slow to generate the network effects that would attract developers.</p>
+
+  <p>Apple Vision Pro ($3,499) is a technically extraordinary product that has created a spatial computing design vocabulary. It has not created a platform. Sales figures are not publicly confirmed; developer attention is real but thin; the price point eliminates the consumer audience; and Apple's closed ecosystem prevents the hardware diversity that drives platform adoption.</p>
+
+  <h3>Why Android XR Is Structurally Different</h3>
+
+  <p>The Samsung-Google-Qualcomm alliance solves the coalition problem that killed every prior attempt. Samsung brings hardware manufacturing scale, retail distribution, and an installed base of Galaxy device users who are familiar with the brand's product cadence. Google brings the app ecosystem — the 3.3 million apps on the Play Store, plus Gemini as a contextual AI layer that the platform owns. Qualcomm brings silicon roadmap commitment: the Snapdragon XR family is being designed specifically for this use case, with each generation improving the performance-per-watt equation that makes all-day wearability possible.</p>
+
+  <p>The open platform model creates a flywheel that closed platforms cannot replicate. When XREAL, Lenovo, Warby Parker, and Gentle Monster all build on Android XR, each device sale expands the market for Android XR apps. Each app written for the platform works across all Android XR devices. The developer has one codebase; the consumer has choice of hardware. This is precisely what made Android dominant in smartphones against an Apple ecosystem that was technically superior at launch.</p>
+
+  <div class="dr-note">
+    The automatic spatial 2D app conversion feature — allowing standard Android apps to run in a spatial environment without developer modification — is the mechanism that solves the cold-start problem. Android XR headsets and glasses will have useful apps on day one, not after two years of developer investment.
+  </div>
+
+  <h3>The Form Factor That Actually Matters</h3>
+
+  <p>The Samsung Galaxy XR headset at $1,800 is not the mass-market product. It is the developer and enterprise device — the anchor that proves the platform works and attracts the studios that will build the experiences that justify the consumer form factor. The consumer form factor is the smart glasses arriving in Fall 2026.</p>
+
+  <p>Warby Parker and Gentle Monster are not technology brands. They are fashion brands with established retail presence and customer bases who buy products for how they look, not for their specification sheets. Distributing Android XR glasses through opticians and fashion retailers — rather than through tech electronics stores — is a fundamental shift in the go-to-market logic of spatial computing. It is also the approach Meta has used successfully with Ray-Ban Meta, which sold over 7 million units before the privacy lawsuit.</p>
+
+  <p>The Ray-Ban Meta installed base is the competitive benchmark. Android XR smart glasses with Gemini running contextually, in Warby Parker frames, at a price point below $500, is the first product with a genuine chance of displacing that installed base or growing the category.</p>
+
+  <h3>What This Means Commercially</h3>
+
+  <p>For Angelo's positioning as a commercial operator in frontier human experience technology, the Android XR moment represents a specific window. The platform has been confirmed but the ecosystem is not yet formed. European XR studios building on Android XR are underserved — the Developer Catalyst Programme is US-centric, and European immersive experience companies are behind their US counterparts in spatial computing investment. Rotterdam Immersive Tech Week on June 23–25 is the right room to be in with a prepared Android XR ecosystem thesis targeted at European studio founders and brand clients.</p>
+
+  <p>The specific claim worth making: the Android XR platform will capture enterprise XR market share faster than Apple Vision Pro because open platforms outcompete closed platforms in B2B contexts where procurement teams need hardware flexibility. That claim is testable, specific, and not yet conventional wisdom. Being on record with it before the Fall 2026 smart glasses launch is the positioning move.</p>
+
+  <div class="source-line" style="margin-top:28px;">
+    <a href="https://9to5google.com/2026/05/19/google-samsung-android-xr-glasses-styles-release-date/" class="badge badge-green" target="_blank">9to5Google 9/10</a>
+    <a href="https://roadtovr.com/samsung-galaxy-xr-headset-price-specs-release-date/" class="badge badge-green" target="_blank">Road to VR 9/10</a>
+    <a href="https://framesixty.com/android-xr/" class="badge badge-amber" target="_blank">FrameSixty 7/10</a>
+    <a href="https://chromeunboxed.com/android-xr-takes-center-stage-at-ces-2026-with-a-massive-sphere-takeover/" class="badge badge-amber" target="_blank">Chrome Unboxed 7/10</a>
+    <a href="https://virtual.reality.news/news/2026-xr-revolution-android-platform-changes-everything/" class="badge badge-amber" target="_blank">Next Reality 7/10</a>
+  </div>
+
+  <div style="margin-top:36px;padding-top:20px;border-top:1px solid #ccc;">
+    <a class="back-btn" onclick="showMain()" href="#">← Back to Briefing</a>
+  </div>
+
+</div>
+</div><!-- /deep-read-1 -->
+
+
+<script>
+  function showDeepRead(id) {
+    document.getElementById('main').style.display = 'none';
+    var els = document.querySelectorAll('[id^="deep-read"]');
+    els.forEach(function(el){ el.style.display = 'none'; });
+    document.getElementById(id).style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+  function showMain() {
+    var els = document.querySelectorAll('[id^="deep-read"]');
+    els.forEach(function(el){ el.style.display = 'none'; });
+    document.getElementById('main').style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+</script>
+
+</body>
+</html>
