@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontier Intelligence — 2 June 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #FAF8F2; color: #1a1a1a; font-family: 'Source Serif 4', Georgia, serif; font-size: 17px; line-height: 1.75; }
+    a { color: #8B1A1A; } a:hover { text-decoration: underline; }
+    .page { max-width: 800px; margin: 0 auto; padding: 0 28px 80px; }
+
+    .nameplate { border-top: 4px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; padding: 22px 0 16px; text-align: center; }
+    .nameplate .kicker { font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: #888; margin-bottom: 8px; }
+    .nameplate h1 { font-family: 'Playfair Display', Georgia, serif; font-size: 48px; font-weight: 900; letter-spacing: -1px; color: #1a1a1a; line-height: 1; }
+    .dateline { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #1a1a1a; border-bottom: 3px solid #1a1a1a; margin-top: 12px; padding: 6px 0; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #444; }
+    .dateline .edition { color: #8B1A1A; font-weight: 600; }
+
+    h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 30px; font-weight: 700; line-height: 1.2; color: #1a1a1a; margin-bottom: 12px; }
+    h3 { font-family: 'Playfair Display', Georgia, serif; font-size: 21px; font-weight: 700; line-height: 1.25; color: #1a1a1a; margin-bottom: 10px; }
+    h4 { font-family: 'Source Serif 4', Georgia, serif; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8B1A1A; margin-bottom: 10px; }
+    p { margin-bottom: 14px; } p:last-child { margin-bottom: 0; }
+
+    .rule-single { border: none; border-top: 1px solid #1a1a1a; margin: 32px 0; }
+    .rule-double { border: none; border-top: 3px double #1a1a1a; margin: 36px 0; }
+
+    .lead { padding: 28px 0 0; }
+    .lead .category { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #8B1A1A; font-weight: 600; margin-bottom: 10px; }
+    .lead h2 { font-size: 36px; margin-bottom: 8px; line-height: 1.15; }
+    .lead .deck { font-size: 19px; font-weight: 300; color: #333; line-height: 1.5; margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 18px; }
+    .lead .byline { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #888; margin-bottom: 22px; }
+    .lead p { font-size: 17px; line-height: 1.78; }
+
+    .continuity { background: #f0ece2; border-left: 3px solid #8B1A1A; padding: 12px 16px; margin: 18px 0; font-size: 14px; color: #555; font-style: italic; }
+    .reinforcement { background: #1a1a1a; color: #c8b898; padding: 14px 18px; margin: 22px 0; font-size: 14px; font-style: italic; border-left: 3px solid #8B1A1A; }
+
+    .deep-read-link { display: inline-block; margin-top: 16px; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #FAF8F2; background: #8B1A1A; padding: 7px 14px; text-decoration: none; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; cursor: pointer; border: none; }
+    .deep-read-link:hover { background: #5a1010; color: #FAF8F2; text-decoration: none; }
+
+    .pullquote { border-top: 3px solid #8B1A1A; border-bottom: 1px solid #8B1A1A; margin: 32px 0; padding: 20px 0 18px; }
+    .pullquote blockquote { font-family: 'Playfair Display', Georgia, serif; font-size: 22px; font-style: italic; color: #1a1a1a; line-height: 1.4; }
+    .pullquote cite { display: block; margin-top: 10px; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #888; font-style: normal; }
+
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+    .two-col .story .category { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #8B1A1A; font-weight: 600; margin-bottom: 8px; }
+    .two-col .story h3 { font-size: 20px; margin-bottom: 8px; }
+    .two-col .story p { font-size: 15px; line-height: 1.7; color: #333; }
+    .col-divider { border-left: 1px solid #ccc; padding-left: 32px; }
+
+    .source-line { margin-top: 12px; font-size: 11px; color: #888; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .source-line span { color: #aaa; }
+    .badge { display: inline-block; font-size: 10px; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; padding: 2px 7px; border-radius: 2px; text-decoration: none; }
+    .badge-green { background: #E8F5EC; color: #1A5C2A; }
+    .badge-amber { background: #FFF3D6; color: #7A4A00; }
+
+    .intel-section { }
+    .intel-item { border-top: 1px solid #ddd; padding: 18px 0; }
+    .intel-item:last-child { border-bottom: 1px solid #ddd; }
+    .intel-item .category { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #8B1A1A; font-weight: 600; margin-bottom: 6px; }
+    .intel-item h3 { font-size: 17px; margin-bottom: 6px; }
+    .intel-item p { font-size: 14.5px; color: #333; line-height: 1.68; }
+
+    .angle-section { background: #1a1a1a; color: #FAF8F2; padding: 28px 32px; margin: 36px 0; }
+    .angle-section h4 { color: #c8a882; letter-spacing: 0.2em; margin-bottom: 20px; }
+    .angle-item { display: flex; gap: 16px; margin-bottom: 20px; }
+    .angle-item:last-child { margin-bottom: 0; }
+    .angle-num { font-family: 'Playfair Display', Georgia, serif; font-size: 28px; font-weight: 900; color: #8B1A1A; line-height: 1; flex-shrink: 0; width: 28px; padding-top: 2px; }
+    .angle-item p { font-size: 15px; color: #d8d4cc; line-height: 1.68; margin-bottom: 0; }
+    .angle-item strong { color: #FAF8F2; }
+
+    .bottom-two { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 8px; }
+    .events-col h4, .signal-col h4 { border-bottom: 2px solid #8B1A1A; padding-bottom: 8px; margin-bottom: 14px; }
+    .event-item { border-bottom: 1px solid #e8e4dc; padding: 10px 0; }
+    .event-item:last-child { border-bottom: none; }
+    .event-date { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #8B1A1A; font-weight: 600; }
+    .event-name { font-size: 14px; font-weight: 600; color: #1a1a1a; }
+    .event-note { font-size: 13px; color: #666; }
+    .signal-item-row { padding: 10px 0; border-bottom: 1px solid #e8e4dc; }
+    .signal-item-row:last-child { border-bottom: none; }
+    .signal-tag { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700; margin-bottom: 3px; }
+    .signal-tag.sig { color: #1A5C2A; }
+    .signal-tag.noise { color: #8B1A1A; }
+    .signal-body { font-size: 13.5px; color: #333; line-height: 1.55; }
+
+    .footer { border-top: 3px double #1a1a1a; padding-top: 20px; margin-top: 40px; font-size: 11px; color: #888; letter-spacing: 0.06em; text-align: center; line-height: 1.9; }
+    .footer strong { color: #1a1a1a; }
+
+    /* Deep Read */
+    #deep-read-1 { display: none; }
+    .deep-read-page { max-width: 700px; margin: 0 auto; padding: 40px 28px 80px; }
+    .back-btn { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #8B1A1A; font-weight: 600; cursor: pointer; border: none; background: none; padding: 0; margin-bottom: 32px; text-decoration: none; }
+    .back-btn:hover { text-decoration: underline; color: #8B1A1A; }
+    .deep-read-page .dr-category { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #8B1A1A; font-weight: 600; margin-bottom: 10px; }
+    .deep-read-page h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 36px; font-weight: 700; line-height: 1.15; margin-bottom: 10px; }
+    .deep-read-page .dr-deck { font-size: 20px; font-weight: 300; color: #444; line-height: 1.5; margin-bottom: 24px; border-bottom: 1px solid #ccc; padding-bottom: 20px; }
+    .deep-read-page p { font-size: 17px; line-height: 1.8; margin-bottom: 16px; }
+    .deep-read-page h3 { font-family: 'Playfair Display', Georgia, serif; font-size: 22px; font-weight: 700; margin: 28px 0 10px; }
+    .deep-read-page .dr-note { background: #f0ece2; border-left: 3px solid #8B1A1A; padding: 14px 18px; margin: 24px 0; font-size: 15px; font-style: italic; color: #555; }
+
+    @media (max-width: 640px) {
+      .nameplate h1 { font-size: 32px; }
+      .two-col, .bottom-two { grid-template-columns: 1fr; gap: 0; }
+      .col-divider { border-left: none; border-top: 1px solid #ccc; padding-left: 0; padding-top: 24px; }
+      .dateline { flex-direction: column; gap: 4px; text-align: center; }
+      .angle-section { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="main">
+<div class="page">
+
+  <header class="nameplate">
+    <div class="kicker">Personal Intelligence Briefing</div>
+    <h1>Frontier Intelligence</h1>
+    <div class="dateline">
+      <span class="edition">Edition 3</span>
+      <span>Monday, 2 June 2026</span>
+      <span>NeuroTech · XR · BCI · Spatial Computing</span>
+    </div>
+  </header>
+
+  <!-- LEAD -->
+  <section class="lead">
+    <div class="category">Brain-Computer Interfaces · Geopolitics</div>
+    <h2>China Approves the World's First Commercial Brain Implant — and NeuroXess Breaks Ground on Its Super Factory</h2>
+    <p class="deck">The state-coordinated BCI strategy introduced in Edition 1 has produced its first commercial endpoint. The implications for Science Corp's CE mark race, Angelo's regulatory framing, and the global BCI narrative are immediate.</p>
+    <div class="byline">Compiled 2 June 2026</div>
+
+    <div class="continuity">
+      As introduced in Edition 1 (2 June 2026), China's BCI strategy — ethics guidance in 2024, standardisation committee in 2025, NMPA approvals in 2026 — was producing commercial throughput. That pipeline has now reached its logical endpoint: Euronews reported on March 14 that China approved the world's first brain implant for commercialisation.
+    </div>
+
+    <p>The approved device is not Neuralink's. It belongs to NeuroXess — a Shanghai-based company whose implant sits on the cortical surface rather than piercing brain tissue, using a polyimide and metal mesh architecture. NeuroXess has completed 54 human BCI implantations since its founding in 2021, compared to Neuralink's 12 since September 2025. The company has developed an AI language model that decodes Mandarin at 300 characters per minute — faster than the average native speaking speed of 220 characters per minute. The clinical demonstration: a 28-year-old man with a spinal cord injury controlling household appliances by moving a computer cursor with his thoughts.</p>
+
+    <p>The commercial approval follows a registration of clinical trials and construction of what NeuroXess has called a "super factory" for mass production, scheduled to begin operations in the second half of 2026. China's NMPA approval pathway, which operates under different risk-benefit criteria than the FDA or CE mark, has moved faster than either Western regulatory body on this specific architecture. That is not an accident. The state coordination documented in Edition 1 — from national ethics guidance through standardisation committees to commercial licensing — has functioned as intended.</p>
+
+    <p>The competitive implication for Science Corp is structural rather than immediate. Science Corp's PRIMA retinal implant targets a different indication (geographic atrophy, macular degeneration) and uses a different architecture (photovoltaic, sub-retinal). The two products do not compete directly in any near-term market. But the narrative competition is real: the first company to be described in press and policy as "the first commercial BCI" will shape how investors, regulators, and the public understand what commercial BCI means. NeuroXess has now claimed that description in the world's largest market by population.</p>
+
+    <p>For the Western BCI ecosystem, the more significant development is what China's approval demonstrates about regulatory velocity. The NMPA moved from first human implants to commercial approval for NeuroXess in under five years. The FDA's IDE pathway and the EU's CE mark process operate on longer timescales by design — with higher evidential requirements and more independent safety review. Whether that difference represents a quality gap or a competitive disadvantage is now a live policy debate, not a theoretical one.</p>
+
+    <button class="deep-read-link" onclick="showDeepRead('deep-read-1')">Deep Read: China's BCI Pipeline — From State Strategy to Super Factory →</button>
+
+    <div class="source-line">
+      <span>Sources:</span>
+      <a href="https://www.euronews.com/next/2026/03/14/china-approves-worlds-first-brain-implant-for-commercialisation" class="badge badge-green" target="_blank">Euronews 9/10</a>
+      <a href="https://www.tomshardware.com/peripherals/wearable-tech/china-brain-computer-interface-outfit-accelerates-to-human-trials-in-quest-to-outpace-neuralink-mix-of-government-backing-and-investor-enthusiasm-speeds-time-to-market-for-neuroxess" class="badge badge-green" target="_blank">Tom's Hardware 9/10</a>
+      <a href="https://www.neurofounders.co/articles/chinas-bci-push-meets-a-new-clinical-phase" class="badge badge-green" target="_blank">Neurofounders 8/10</a>
+      <a href="https://www.nature.com/articles/d41586-026-01468-x" class="badge badge-green" target="_blank">Nature 10/10</a>
+    </div>
+  </section>
+
+  <div class="reinforcement">
+    Reinforcement: The BCI architecture spectrum introduced in Edition 1 now has commercial products at multiple points — NeuroXess (cortical surface, NMPA-approved), Science Corp PRIMA (sub-retinal, CE mark pending), Neuralink (penetrating, FDA IDE). Architecture determines regulatory pathway, and regulatory pathway now determines which market you reach first.
+  </div>
+
+  <div class="pullquote">
+    <blockquote>"NeuroXess has completed 54 human BCI implantations since 2021. Neuralink has completed 12 since September 2025. The headline count obscures the architectural difference — but the commercial approval does not."</blockquote>
+    <cite>Frontier Intelligence Analysis, Edition 3</cite>
+  </div>
+
+  <hr class="rule-double" />
+
+  <!-- TWO-COLUMN -->
+  <div class="two-col">
+
+    <div class="story">
+      <div class="category">Extended Reality · Apple</div>
+      <h3>Apple Retreats on Vision Pro — Cheaper Successor Not Until 2028, but WWDC Arrives in Six Days</h3>
+      <p>Reports from PYMNTS, Tom's Hardware, and MacRumors now converge on a consistent picture: Apple has pulled back from Vision Pro as a near-term product push. Consumer demand came in below projections for a $3,499 first-generation headset, Apple has scaled back production and marketing, and Bloomberg's Mark Gurman places a meaningful price reduction — to roughly $1,750, the level IDC projected would shift sales momentum — no earlier than late 2028. The "Vision Pro is discontinued" narrative is premature: Apple continues to hire into its Vision Production Group and the device remains on sale with an M5 chip. But the aggressive market-expansion story is over for now.</p>
+      <p>The timing intersects directly with the Android XR thesis developed in Editions 1 and 2. Apple's retreat does not weaken spatial computing — it clarifies the competitive structure. Three platforms remain: Android XR (open, growing, Fall 2026 smart glasses incoming), Meta Quest (mid-tier, under legal pressure from Ray-Ban lawsuit), and visionOS (premium, retreating on hardware). The three-platform consolidation is now visible. WWDC 2026 opens on June 8 — six days from now — where visionOS 3 is expected. The software roadmap will determine whether Apple can hold developer attention while deferring the hardware price reduction by two years.</p>
+      <div class="source-line">
+        <a href="https://www.pymnts.com/apple/2026/apple-retreats-on-vision-pro-as-consumer-demand-falls-short/" class="badge badge-green" target="_blank">PYMNTS 9/10</a>
+        <a href="https://www.macrumors.com/2026/06/01/slimmer-lighter-apple-vision-pro-late-2028/" class="badge badge-green" target="_blank">MacRumors 9/10</a>
+        <a href="https://www.tomshardware.com/virtual-reality/apple-has-given-up-on-vision-pro-report-claims-costly-price-and-weight-behind-purported-failure-but-the-company-continues-to-hire-into-its-vision-production-group" class="badge badge-green" target="_blank">Tom's Hardware 9/10</a>
+      </div>
+    </div>
+
+    <div class="story col-divider">
+      <div class="category">Wearables · Consumer BCI</div>
+      <h3>Oura Ring 5 Ships — 40% Slimmer, Blood Pressure Added — and the Doublepoint Acquisition Clarifies the Gesture Play</h3>
+      <p>Edition 1 reported Oura's acquisition of a gesture startup under the name "Proxy." The correct name is Doublepoint Technologies, a Finnish startup whose system uses AI and biometric signals to translate subtle hand and finger movements into device controls — skipping tracks, dismissing notifications, interacting with connected interfaces. Oura CEO Tom Hale confirmed gesture controls are coming but "not tomorrow," stressing the feature needs to be meaningful to Oura's health-tracking customer base before it ships.</p>
+      <p>Simultaneously, Oura launched the Ring 5: 40% slimmer than the Ring 4 while maintaining week-long battery life, and adding blood pressure monitoring — the feature Samsung and Apple have been racing toward. The combination of Ring 5's thinness and Doublepoint's gesture technology is the most concrete step yet toward a post-screen wearable control layer. The thesis from Edition 1 holds — gesture-plus-voice as the XR control surface — but the timeline is "not near-term" per Hale. The hardware is ready. The UX design work is not.</p>
+      <div class="source-line">
+        <a href="https://www.t3.com/active/fitness-trackers/oura-ring-5-launch-0526" class="badge badge-green" target="_blank">T3 8/10</a>
+        <a href="https://www.pymnts.com/acquisitions/2026/oura-buys-gesture-startup-doublepoint-expand-smart-ring-controls/" class="badge badge-green" target="_blank">PYMNTS 9/10</a>
+        <a href="https://www.androidcentral.com/wearables/oura-ring/oura-ring-5-is-here" class="badge badge-green" target="_blank">Android Central 8/10</a>
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="rule-single" />
+
+  <!-- INTELLIGENCE BRIEFS -->
+  <section class="intel-section">
+    <h4>Intelligence Briefs</h4>
+
+    <div class="intel-item">
+      <div class="category">XR · Defence</div>
+      <h3>Varjo Launches Integrated XR Systems for Air-Gapped Military Environments — Support Guaranteed to 2030</h3>
+      <p>Varjo — the Finnish high-fidelity XR company and a watchlist entry — launched its Integrated XR Systems on February 26: complete, ready-to-deploy solutions combining XR-4 Series headsets, certified workstations, pre-installed software, and expert support, designed specifically for defence programs, system integrators, and air-gapped professional environments. Hardware and software support is guaranteed through 2030. The XR-4 Focal Edition adds autofocus mixed-reality passthrough for cockpit training and aerospace simulation. Varjo's niche is the opposite of Samsung's mass-market Android XR play: maximum fidelity, maximum security, maximum price, narrow deployment. The defence and simulation training market operates on decade-long procurement cycles — which is precisely why Varjo's 2030 support commitment is a product feature, not a footnote. Enterprise XR is not one market; Varjo and Samsung are addressing entirely different buyers.</p>
+      <div class="source-line">
+        <a href="https://varjo.com/news/varjo-launches-ready-to-deploy-xr-systems-for-secure-and-air-gapped-environments" class="badge badge-green" target="_blank">Varjo (primary) 10/10</a>
+        <a href="https://www.joint-forces.com/world-news/defence-news/89430-varjo-launches-ready-to-deploy-xr-systems" class="badge badge-green" target="_blank">Joint Forces News 8/10</a>
+      </div>
+    </div>
+
+    <div class="intel-item">
+      <div class="category">Consumer BCI · Regulatory</div>
+      <h3>NAOX LINK Receives FDA 510(k) Clearance — the First In-Ear EEG Device Cleared for Healthcare and Home</h3>
+      <p>NAOX LINK has received FDA 510(k) clearance as the first in-ear EEG device designed for both healthcare and home environments. The product translates brainwave data from the ear canal into usable biometric signals — the same anatomical site that Arctop has identified as the focal point for consumer brain-sensing. Arctop itself is developing Brain ID and BCI capabilities specifically for EEG earbuds; the NAOX clearance validates that the FDA considers in-ear EEG a safe and effective modality for non-clinical use. The consumer BCI stack is now assembling from multiple directions simultaneously: ultrasound (Prophetic Halo, $449, end-2026 shipping), in-ear EEG (NAOX LINK, FDA-cleared), and gesture ring (Oura/Doublepoint, post-screen control). The missing layer is integration — a platform that combines these input modalities into a coherent consciousness-tech experience.</p>
+      <div class="source-line">
+        <a href="https://iduntechnologies.com/ces2026" class="badge badge-green" target="_blank">IDUN/CES 2026 8/10</a>
+        <a href="https://www.neurofounders.co/articles/the-best-neurotech-at-ces-2026" class="badge badge-green" target="_blank">Neurofounders 8/10</a>
+        <a href="https://arctop.com/deep-dives/consumer-eeg-hardware" class="badge badge-green" target="_blank">Arctop 8/10</a>
+      </div>
+    </div>
+
+    <div class="intel-item">
+      <div class="category">XR · Apple</div>
+      <h3>WWDC 2026 Opens June 8 — visionOS 3 Expected with Deeper Apple Intelligence Integration</h3>
+      <p>Apple's Worldwide Developers Conference begins in six days (June 8). visionOS 3 is expected to be a headline announcement, with deeper Apple Intelligence integration, improved Mac Virtual Display, new spatial capabilities, and expanded developer tools. visionOS 2.4 already shipped Writing Tools, Image Playground, and Genmoji to the platform. The WWDC announcement matters less for the hardware story — Vision Pro's consumer retreat is documented — and more for whether Apple can sustain developer engagement on a platform whose hardware roadmap has been pushed to 2028. If visionOS 3 ships meaningful spatial AI features, it gives enterprise developers a reason to maintain dual codebases (visionOS + Android XR). If it is incremental, the developer migration toward Android XR accelerates.</p>
+      <div class="source-line">
+        <a href="https://www.macobserver.com/tips/is-apple-vision-pro-discontinued-in-2026-sales-updates/" class="badge badge-green" target="_blank">MacObserver 8/10</a>
+        <a href="https://b2b.anvio.com/en/blog/apple-vision-pro-2026-apple-ai-visionos" class="badge badge-amber" target="_blank">Anvio 7/10</a>
+      </div>
+    </div>
+
+    <div class="intel-item">
+      <div class="category">Events · XR</div>
+      <h3>AWE Auggie Awards — 17th Annual, Winners Announced June 17 Across 18 Categories Including Enterprise XR</h3>
+      <p>The Auggie Awards — the XR industry's most established recognition programme — will announce winners live on June 17 at AWE USA 2026 across 18 categories, including enterprise XR deployments and spatial computing innovations. The Auggie finalists have already been published; they constitute a current-state map of who is actually shipping enterprise XR at scale, not who is pitching it. For Angelo's Rotterdam Immersive Tech Week thesis (June 23–25), the Auggie winners list published June 17 is the most credible evidence set for the "which companies are leading enterprise XR" argument. Read the winners before getting on the plane to Rotterdam.</p>
+      <div class="source-line">
+        <a href="https://www.awexr.com/usa-2026/auggie" class="badge badge-green" target="_blank">AWE Official 10/10</a>
+      </div>
+    </div>
+
+  </section>
+
+  <hr class="rule-single" />
+
+  <!-- ANGELO'S ANGLE -->
+  <div class="angle-section">
+    <h4>Angelo's Angle</h4>
+
+    <div class="angle-item">
+      <div class="angle-num">1</div>
+      <p><strong>China's commercial BCI approval gives Angelo a specific public argument he doesn't yet have: the three-way regulatory race.</strong> FDA (US), CE mark (EU), NMPA (China) are now each on track to produce their first commercially approved BCI product within a 12-month window. Science Corp targets Europe, Neuralink targets the US, NeuroXess has already reached China. The framing Angelo should own publicly is not "BCI is coming" — everyone says that. It is "the regulatory jurisdiction you approve in first determines your market, your narrative, and your funding pool for the next five years." That is a precise, non-obvious claim. It is the kind of thing Hassabis or Hodak would find worth discussing. Write it as 400 words this week. Publish it before AWE on June 15.</p>
+    </div>
+
+    <div class="angle-item">
+      <div class="angle-num">2</div>
+      <p><strong>The consumer BCI stack — ultrasound headband (Prophetic), in-ear EEG (NAOX LINK), gesture ring (Oura/Doublepoint) — now has three validated hardware layers with no integration platform.</strong> This is the commercial white space Angelo identified instinctively when he wrote that his role is "translator and commercial accelerator." The question is: who builds the integration layer? It will not be a hardware company. It will be a software platform, a standards body, or a distribution aggregator. Angelo's job is to name this gap publicly and position himself as the person mapping it. That is a Substack essay, a conference talk, or a paid consulting thesis. Not all three at once — pick the one with the highest near-term signal value. The essay is fastest.</p>
+    </div>
+
+    <div class="angle-item">
+      <div class="angle-num">3</div>
+      <p><strong>AWE Auggie Award finalists are public now; winners are announced June 17 — six days before Rotterdam.</strong> Read the finalists today. Identify the two or three enterprise XR companies in the list that have no meaningful European presence. Those are the companies for whom Angelo's network in Vienna, Munich, and London is a genuine asset, not a curiosity. The pitch at Rotterdam is not "I understand XR" — it is "here is a specific company winning an Auggie for enterprise XR in the US that has not figured out the DACH market, and I know the three procurement leads they need to meet." That is a connector conversation, not a thought-leadership speech.</p>
+    </div>
+  </div>
+
+  <!-- EVENTS + SIGNAL/NOISE -->
+  <div class="bottom-two">
+
+    <div class="events-col">
+      <h4>Events Radar</h4>
+
+      <div class="event-item">
+        <div class="event-date">June 8</div>
+        <div class="event-name">WWDC 2026</div>
+        <div class="event-note">Apple — visionOS 3 expected; spatial AI integration</div>
+      </div>
+      <div class="event-item">
+        <div class="event-date">June 15–18</div>
+        <div class="event-name">AWE USA 2026</div>
+        <div class="event-note">Long Beach — consent essay deadline; Auggie finalists to study</div>
+      </div>
+      <div class="event-item">
+        <div class="event-date">June 17</div>
+        <div class="event-name">Auggie Awards Ceremony</div>
+        <div class="event-note">AWE Main Stage — 18 enterprise XR categories; read before Rotterdam</div>
+      </div>
+      <div class="event-item">
+        <div class="event-date">June, TBC</div>
+        <div class="event-name">Meta Ray-Ban CMC</div>
+        <div class="event-note">N.D. California — Bartone v. Meta discovery scope set</div>
+      </div>
+      <div class="event-item">
+        <div class="event-date">June 23–25</div>
+        <div class="event-name">Rotterdam Immersive Tech Week</div>
+        <div class="event-note">Netherlands — Auggie winners + Android XR thesis</div>
+      </div>
+      <div class="event-item">
+        <div class="event-date">H2 2026</div>
+        <div class="event-name">NeuroXess Super Factory</div>
+        <div class="event-note">Shanghai — mass production begins; commercial BCI supply chain</div>
+      </div>
+    </div>
+
+    <div class="signal-col">
+      <h4>Signal vs. Noise</h4>
+
+      <div class="signal-item-row">
+        <div class="signal-tag sig">Signal</div>
+        <div class="signal-body">China's commercial BCI approval is real and consequential. The first "commercial BCI" narrative now belongs to NeuroXess in the world's largest market.</div>
+      </div>
+      <div class="signal-item-row">
+        <div class="signal-tag sig">Signal</div>
+        <div class="signal-body">Apple Vision Pro retreat + Android XR launch = spatial computing platform consolidation is happening now, not in 2028.</div>
+      </div>
+      <div class="signal-item-row">
+        <div class="signal-tag sig">Signal</div>
+        <div class="signal-body">NAOX LINK FDA clearance: in-ear EEG is now a validated consumer modality, not an experimental one.</div>
+      </div>
+      <div class="signal-item-row">
+        <div class="signal-tag noise">Noise</div>
+        <div class="signal-body">"Apple has given up on Vision Pro." Apple continues hiring into Vision Production Group. Retreat ≠ exit. visionOS 3 at WWDC this week.</div>
+      </div>
+      <div class="signal-item-row">
+        <div class="signal-tag noise">Noise</div>
+        <div class="signal-body">NeuroXess "outpacing Neuralink" on implant count. Surface cortical implants (NeuroXess) and penetrating implants (Neuralink) are different architectures with different risk profiles. The count is not directly comparable.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="rule-single" />
+  <p style="font-size:12px;color:#888;letter-spacing:0.06em;line-height:1.8;">
+    <strong style="color:#555;text-transform:uppercase;letter-spacing:0.12em;font-size:11px;">New this edition:</strong>
+    NeuroXess (first commercial BCI approval, China) · Doublepoint Technologies (Oura gesture acquisition, corrected from "Proxy") · NAOX LINK (FDA-cleared in-ear EEG) · Varjo Integrated XR Systems (military/air-gapped) · Three-way regulatory race framing (FDA/CE mark/NMPA)
+  </p>
+  <p style="font-size:12px;color:#888;letter-spacing:0.06em;margin-top:8px;line-height:1.8;">
+    <strong style="color:#555;text-transform:uppercase;letter-spacing:0.12em;font-size:11px;">Open actions:</strong>
+    ☐ Consent layer essay — publish before AWE June 15 &nbsp;·&nbsp;
+    ☐ Regulatory race essay (new, this edition) — 400 words, before AWE &nbsp;·&nbsp;
+    ☐ Read Auggie finalists before June 17 &nbsp;·&nbsp;
+    ☐ Science Corp outreach &nbsp;·&nbsp;
+    ☐ Rotterdam June 23–25 &nbsp;·&nbsp;
+    ☐ Map German neurologist network &nbsp;·&nbsp;
+    ☐ Q3 post-screen essay
+  </p>
+
+  <div class="footer">
+    <strong>Frontier Intelligence</strong> · Edition 3 · Monday, 2 June 2026<br />
+    Personal briefing for Angelo Gunther · BCI · XR · Spatial Computing · Consciousness Tech<br />
+    <a href="https://github.com/LazyBreadZero/DailyBrief" target="_blank" style="color:#8B1A1A;">github.com/LazyBreadZero/DailyBrief</a>
+  </div>
+
+</div>
+</div><!-- /main -->
+
+
+<!-- DEEP READ 1: China's BCI Pipeline -->
+<div id="deep-read-1">
+<div class="deep-read-page">
+
+  <a class="back-btn" onclick="showMain()" href="#">← Back to Briefing</a>
+
+  <div class="dr-category">Deep Read · Brain-Computer Interfaces · Geopolitics</div>
+  <h2>China's BCI Pipeline: From State Strategy to Super Factory</h2>
+  <p class="dr-deck">The commercial BCI approval that surprised Western observers in March 2026 was not a surprise to anyone who had been reading China's policy documents since 2024. This is what a coordinated state industrial strategy looks like when it works.</p>
+
+  <p>In February 2024, China's National Health Commission published its first national guidance document on BCI ethics — a framework covering consent, data security, and equitable access for neural implant research. At the time, it was read primarily as a regulatory checkpoint that might slow Chinese BCI development. That reading was wrong. The ethics guidance was the first stage of a systematic pipeline designed to produce commercial BCI products by 2026.</p>
+
+  <h3>The Three-Stage Pipeline</h3>
+
+  <p>Stage one was the ethics and standards framework (2024). Stage two was the creation of a national BCI standardisation committee (2025), which established technical benchmarks that companies would need to meet for commercial approval — effectively pre-clearing the regulatory pathway before applications arrived. Stage three was the NMPA commercial approvals (2026), of which NeuroXess's is the first confirmed instance. Gestala's RMB 150 million raise and Neuracle's implantable BCI approval (both covered in Edition 1) were earlier signals in the same pipeline.</p>
+
+  <p>The speed of this pipeline — from first ethics guidance to commercial approval in approximately two years — is significantly faster than the FDA or CE mark process for comparable devices. The FDA's Investigational Device Exemption pathway requires years of pre-clinical data, safety reviews, and phased human trials before commercial approval. The CE mark process under EU MDR 2017/745 requires clinical evaluation, notified body review, and post-market surveillance commitments. Neither is designed for velocity. The NMPA, operating under different statutory criteria and with explicit government prioritisation of BCI as a strategic technology, moved faster by design.</p>
+
+  <div class="dr-note">
+    The key question this raises for Western regulators is not whether the NMPA cut corners — it is whether the FDA and CE mark processes are calibrated correctly for a technology category where China's faster approval pathway is creating commercial facts on the ground.
+  </div>
+
+  <h3>What NeuroXess Actually Built</h3>
+
+  <p>NeuroXess's architecture is worth understanding precisely because it differs from Neuralink in ways that matter for approval speed. The NeuroXess implant sits on the cortical surface — it does not pierce brain tissue. This surface approach means less acute surgical risk, a simpler safety profile for regulators to evaluate, and a less invasive procedure for patients and surgeons. The trade-off is signal resolution: surface implants capture signals from larger neural populations than penetrating implants, which limits the granularity of what can be decoded.</p>
+
+  <p>The Mandarin speech decoding result — 300 characters per minute, faster than average native speaking speed — is technically significant because it demonstrates that surface-level neural signals contain enough information for high-fidelity language decoding when paired with a sufficiently powerful AI model. The AI language model component is doing substantial computational work to reconstruct intent from coarser signals. This is a different engineering paradigm than Neuralink's approach, which extracts finer-grained signals from within cortical tissue. Both paradigms are valid; they optimise for different properties.</p>
+
+  <h3>The Super Factory and What It Signals</h3>
+
+  <p>NeuroXess's decision to break ground on a "super factory" — mass production beginning H2 2026 — before receiving commercial approval anywhere outside China suggests the company is confident in both the domestic approval pathway and its ability to pursue international approvals on a parallel track. Building manufacturing capacity ahead of regulatory clearance is a characteristic move of companies that believe their approval timeline is predictable rather than uncertain. In China, with state backing and a standardisation committee that effectively pre-cleared the pathway, that confidence is warranted.</p>
+
+  <p>For the global BCI market, mass production infrastructure in China for BCI devices creates a cost dynamic that Western companies will eventually need to address. Neuralink's high-volume production ambitions and automated surgical procedure (announced in Edition 2) are partly a response to this dynamic: if NeuroXess can manufacture surface BCI implants at scale in Shanghai, the price point for entry-level BCI devices will be set in China, not in San Francisco or Vienna.</p>
+
+  <h3>The Regulatory Race and Angelo's Framing</h3>
+
+  <p>The strategic implication for Angelo is the one flagged in Angelo's Angle: the three-way regulatory race is now a concrete, dateable competitive fact rather than a speculative framework. NeuroXess has China (commercial, H2 2026 production). Science Corp targets the CE mark (EU, mid-2026 decision pending). Neuralink targets the FDA (US, IDE trials ongoing). Each regulatory jurisdiction produces a different first commercial BCI product, a different set of investors and acquirers, and a different media narrative. The company that earns the "first commercial BCI" description in each jurisdiction will define the sector's public story in that market for years.</p>
+
+  <p>The argument Angelo should be making publicly is not that China "won" the BCI race — that framing is too simple and inaccurate. It is that the BCI sector is entering a phase where regulatory jurisdiction is a more important strategic variable than technology leadership. The best technology does not necessarily get to patients first. The technology with the best regulatory strategy for a specific jurisdiction does. This is a non-obvious, commercially important claim that has not been clearly articulated in the public conversation — and it is one that sits squarely at the intersection of Angelo's neuroscience background, his commercial operator experience, and the frontier human experience technology thesis he is building.</p>
+
+  <div class="source-line" style="margin-top:28px;">
+    <a href="https://www.euronews.com/next/2026/03/14/china-approves-worlds-first-brain-implant-for-commercialisation" class="badge badge-green" target="_blank">Euronews 9/10</a>
+    <a href="https://www.nature.com/articles/d41586-026-01468-x" class="badge badge-green" target="_blank">Nature 10/10</a>
+    <a href="https://www.tomshardware.com/peripherals/wearable-tech/china-brain-computer-interface-outfit-accelerates-to-human-trials-in-quest-to-outpace-neuralink-mix-of-government-backing-and-investor-enthusiasm-speeds-time-to-market-for-neuroxess" class="badge badge-green" target="_blank">Tom's Hardware 9/10</a>
+    <a href="https://thedebrief.org/china-advances-in-bci-race-with-50-human-implants-real-time-chinese-speech-decoding/" class="badge badge-green" target="_blank">The Debrief 8/10</a>
+    <a href="https://www.neurofounders.co/articles/chinas-bci-push-meets-a-new-clinical-phase" class="badge badge-green" target="_blank">Neurofounders 8/10</a>
+  </div>
+
+  <div style="margin-top:36px;padding-top:20px;border-top:1px solid #ccc;">
+    <a class="back-btn" onclick="showMain()" href="#">← Back to Briefing</a>
+  </div>
+
+</div>
+</div><!-- /deep-read-1 -->
+
+<script>
+  function showDeepRead(id) {
+    document.getElementById('main').style.display = 'none';
+    document.querySelectorAll('[id^="deep-read"]').forEach(function(el){ el.style.display = 'none'; });
+    document.getElementById(id).style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+  function showMain() {
+    document.querySelectorAll('[id^="deep-read"]').forEach(function(el){ el.style.display = 'none'; });
+    document.getElementById('main').style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+</script>
+
+</body>
+</html>

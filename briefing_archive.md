@@ -122,12 +122,68 @@ Transcranial focused ultrasound (tFUS) as consumer BCI modality, German §14 Med
 
 ---
 
+## EDITION 3 — Tuesday, 2 June 2026
+
+### Lead Story
+**Title:** China Approves the World's First Commercial Brain Implant — NeuroXess Enters Production
+**Category:** Brain-Computer Interfaces · China · Regulatory
+**Core argument:** China's state-coordinated BCI strategy (ethics guidance 2024 → standardisation 2025 → approvals 2026) has produced its most significant result: NMPA approval for NeuroXess as a commercial-grade implantable BCI. 54 human implants completed; Mandarin decoding at 300 characters/min — highest-throughput language BCI published. Super factory planned for H2 2026. China now holds the commercial BCI first-mover advantage over the West. US and EU regulatory timelines cannot match this cadence.
+**Key companies introduced:** NeuroXess (commercial NMPA approval, super factory H2 2026)
+**Key people introduced:** None new
+**Key concepts introduced:** NMPA commercial approval vs CE mark/FDA (regulatory race framing); Mandarin character decoding as distinct BCI benchmark; BCI super factory as production-scale signal
+**Sources used:** Neurofounders (8/10), Nature Medicine primary (10/10), MIT Tech Review (9/10), South China Morning Post (8/10)
+**Angelo's Angle delivered:** Regulatory race essay before AWE June 15; China's 2026 = US/EU's ~2029 on current trajectory
+**Follow-up threads to watch:** NeuroXess super factory H2 2026 groundbreaking; US/EU regulatory response to Chinese commercial approval; Science Corp CE mark decision (still mid-2026); Neuracle next NMPA approval
+
+### Story 2
+**Title:** Apple Retreats on Vision Pro — Cheaper Successor Not Until 2028
+**Category:** Extended Reality · Apple
+**Core argument:** Apple has effectively paused Vision Pro momentum. No cheaper successor until 2028. WWDC June 8 (6 days away) expected to preview visionOS 3 without new hardware. This gives Android XR 2+ years of uncontested mid-market XR. Apple's retreat validates the Android XR platform thesis from Editions 1–2.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** Apple Vision Pro product cadence vs Android XR velocity; WWDC as visionOS signal event
+**Sources used:** Bloomberg (9/10), The Verge (8/10), MacRumors (7/10)
+**Angelo's Angle delivered:** None — pure context/continuity story feeding Android XR thesis
+**Follow-up threads to watch:** WWDC June 8 — visionOS 3 features and developer tools; Apple Vision Pro sales figures (not yet disclosed); any Apple smart glasses rumours
+
+### Story 3
+**Title:** Oura Ring 5 Adds Blood Pressure — and the Doublepoint Acquisition Reshapes the Post-Screen Stack
+**Category:** Wearables · Post-Screen Interaction
+**Core argument:** Oura Ring 5 (40% slimmer, continuous blood pressure monitoring) cements Oura's position as the dominant passive biometric platform. The acquisition is Doublepoint Technologies (not "Proxy" as stated in Edition 1 — correction noted). Doublepoint's WowMouse gesture SDK turns the ring into an active controller, merging passive health monitoring with active XR input. This is the most complete post-screen interaction stack from a single wearable.
+**Key companies introduced:** Doublepoint Technologies (gesture SDK, acquired by Oura — corrects Edition 1 "Proxy" error)
+**Key people introduced:** None new
+**Key concepts introduced:** Continuous blood pressure monitoring in consumer wearable; WowMouse gesture SDK; passive biometric + active controller convergence in one ring form factor
+**Sources used:** The Verge (8/10), TechCrunch (8/10), Doublepoint official (10/10)
+**Angelo's Angle delivered:** Consumer BCI integration gap — wearables moving faster than implants toward mass market; white space to own
+**Follow-up threads to watch:** Oura Ring 5 launch date and pricing; Doublepoint gesture SDK third-party developer adoption; Samsung Galaxy Ring competitive response
+
+### Intelligence Briefs
+**Brief 1 — Varjo Integrated XR Systems (military/enterprise air-gapped):** Varjo pivoting to defence sector; systems designed for air-gapped environments; support contracts to 2030. Signals: XR hardware premium tier is defence, not consumer. Follow-up: NATO member procurement; US DoD XR contracts.
+**Brief 2 — NAOX LINK FDA 510(k) Clearance:** First in-ear EEG device cleared for healthcare and home use. Form factor: hearing-aid style. Clinical: sleep staging, seizure monitoring. Consumer pathway: meditation, focus. First time EEG leaves the hospital in a mass-market form. Follow-up: prescriber adoption; consumer app partnerships; insurance reimbursement codes.
+**Brief 3 — WWDC June 8 Preview (visionOS 3):** 6 days away. Expected: visionOS 3 with improved hand tracking, shared immersive spaces, and developer tools. No new hardware confirmed. Watch for: any spatial audio improvements; signs of Apple intelligence deep integration; XR developer retention signals amid Android XR momentum.
+**Brief 4 — AWE Auggie Awards June 17:** Finalist list published. Categories: enterprise XR, consumer AR, spatial computing, XR for good. Action: review finalists before Rotterdam — identify US enterprise XR companies with no EU footprint as BD targets.
+
+### New concepts in Angelo's working vocabulary (do not re-explain)
+NMPA commercial approval vs CE mark/FDA regulatory race, NeuroXess Mandarin decoding benchmark (300 chars/min), BCI super factory as production-scale signal, Doublepoint Technologies WowMouse gesture SDK (replaces incorrect "Proxy" from Edition 1), NAOX LINK in-ear EEG, Varjo defence/air-gapped XR positioning, continuous blood pressure monitoring in consumer wearables
+
+### Angelo's Angles Issued — Track Completion
+- [ ] Draft consent layer essay (300 words) — publish before AWE June 15 2026 *(carried from Editions 1–2)*
+- [ ] Reach out to Science Corp — commercial narrative conversation *(carried from Editions 1–2)*
+- [ ] Attend Rotterdam Immersive Tech Week June 23–25 with Android XR thesis *(carried from Editions 1–2)*
+- [ ] Map German neurologist/ophthalmologist network (first PRIMA prescribers) — begin before CE mark *(carried from Edition 2)*
+- [ ] Write Q3 2026 essay: post-screen experience when AI and BCI both mature *(carried from Edition 2)*
+- [ ] Write regulatory race essay: China's 2026 = US/EU's ~2029 — publish before AWE June 15
+- [ ] Review AWE Auggie Award finalists; identify US enterprise XR companies with no EU presence for Rotterdam BD targeting
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Companies | Actions Issued |
 |---------|------|------------|-----------------|---------------|----------------|
 | 1 | 2 Jun 2026 | Science Corp $230m BCI | BCI landscape, Android XR, Meta privacy, 8th Wall, Oura, China BCI | Science Corp, Synchron, Paradromics, XREAL, Samsung XR, Oura | Consent thesis; Science Corp outreach; Rotterdam |
 | 2 | 1 Jun 2026 | Samsung Galaxy XR ships ($1,800); Android XR commercially real | Android XR platform, BCI $1.1bn funding surge, Science Corp CE mark submitted, Meta lawsuit CMC, AWE 2026, Prophetic Halo, Merge Labs | Warby Parker (XR), Gentle Monster (XR), Merge Labs | German neurologist network; Q3 post-screen essay |
+| 3 | 2 Jun 2026 | China approves NeuroXess as world's first commercial brain implant | China BCI commercial approval, Apple Vision Pro retreat/2028, Oura Ring 5 + Doublepoint (corrects Ed.1), Varjo defence XR, NAOX LINK EEG, WWDC preview, AWE Auggie Awards | NeuroXess (commercial), Doublepoint Technologies, NAOX | Regulatory race essay before AWE; Auggie finalist BD targeting |
 
 ---
-*Last updated: Edition 2 — 1 June 2026*
+*Last updated: Edition 3 — 2 June 2026*
