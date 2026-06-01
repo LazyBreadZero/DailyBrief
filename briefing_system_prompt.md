@@ -12,7 +12,7 @@ His north star: "I am the person who makes the world feel why this matters." Not
 4. Write the full HTML briefing
 5. Save HTML to briefings/YYYY-MM-DD.html
 6. Update briefing_archive.md with today's edition block
-7. Email the HTML to the recipient
+7. Email a short digest to the recipient (NOT the full HTML — see EMAIL RULES below)
 
 ## SEARCH STRATEGY
 
@@ -116,3 +116,13 @@ After each run, append this block to briefing_archive.md before the EDITION LOG 
 ---
 
 Then update the summary table row at the bottom.
+
+---
+
+## EMAIL RULES (read carefully — past errors occurred here)
+
+- **NEVER paste the full briefing HTML into the email body.** Gmail will render it as raw code.
+- Send a **short digest email** containing only: lead headline, 3–4 bullet summaries, and one "Read the Full Briefing →" button.
+- The button links to: `https://lazybreadzero.github.io/DailyBrief/briefings/YYYY-MM-DD.html` (substitute today's date).
+- **Always set `is_html: true`** when calling GMAIL_SEND_EMAIL. Without it, Gmail ignores the HTML tags and displays raw markup as plain text.
+- Keep the email body under ~4 KB of HTML.
