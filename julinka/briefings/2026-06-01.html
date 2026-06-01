@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Appetite — 1 June 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,900;1,9..144,400;1,9..144,500&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --ivory:#FBF9F3; --ink:#1F1B16; --ink-soft:#4A4036; --muted:#928775;
+      --gold:#E7B43A; --gold-deep:#A8761A; --gold-pale:#F4E8C9;
+      --brick:#B23A3A; --sage:#7E8B6D; --line:#E5DAC4; --dark:#211C16;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--ivory); color: var(--ink); font-family: 'Source Serif 4', Georgia, serif; font-size: 17px; line-height: 1.78; }
+    a { color: var(--gold-deep); } a:hover { text-decoration: underline; }
+    .page { max-width: 820px; margin: 0 auto; padding: 0 30px 90px; }
+
+    /* Vichy / gingham rule — an enSoie nod */
+    .gingham { height: 16px; margin: 0 auto; max-width: 820px;
+      background-color: var(--ivory);
+      background-image:
+        repeating-linear-gradient(0deg, rgba(231,180,58,.42) 0 8px, transparent 8px 16px),
+        repeating-linear-gradient(90deg, rgba(231,180,58,.42) 0 8px, transparent 8px 16px); }
+
+    .nameplate { text-align: center; padding: 30px 0 14px; }
+    .sun { display:block; margin: 0 auto 12px; width: 42px; height: 42px; }
+    .nameplate .kicker { font-family:'DM Sans',sans-serif; font-size: 10.5px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+    .nameplate h1 { font-family: 'Fraunces', Georgia, serif; font-size: 70px; font-weight: 900; letter-spacing: -1.5px; color: var(--ink); line-height: 0.95; }
+    .nameplate .strap { font-family:'Fraunces',Georgia,serif; font-style: italic; font-weight: 400; font-size: 16px; color: var(--ink-soft); margin-top: 12px; }
+    .dateline { display: flex; justify-content: space-between; align-items: center; border-top: 2px solid var(--ink); border-bottom: 3px solid var(--ink); margin-top: 18px; padding: 7px 0; font-family:'DM Sans',sans-serif; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); }
+    .dateline .edition { color: var(--gold-deep); font-weight: 700; }
+
+    h2 { font-family: 'Fraunces', Georgia, serif; font-size: 31px; font-weight: 600; line-height: 1.18; color: var(--ink); margin-bottom: 12px; }
+    h3 { font-family: 'Fraunces', Georgia, serif; font-size: 22px; font-weight: 600; line-height: 1.25; color: var(--ink); margin-bottom: 10px; }
+    h4 { font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-deep); margin-bottom: 12px; }
+    p { margin-bottom: 14px; } p:last-child { margin-bottom: 0; }
+
+    .rule-single { border: none; border-top: 1px solid var(--line); margin: 34px 0; }
+    .rule-double { border: none; border-top: 3px double var(--ink); margin: 38px 0; }
+
+    .lead { padding: 30px 0 0; }
+    .lead .category, .two-col .category, .intel-item .category { font-family:'DM Sans',sans-serif; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold-deep); font-weight: 600; margin-bottom: 10px; }
+    .lead h2 { font-size: 38px; margin-bottom: 10px; line-height: 1.12; font-weight: 900; letter-spacing: -0.5px; }
+    .lead .deck { font-family:'Fraunces',Georgia,serif; font-size: 20px; font-weight: 400; color: var(--ink-soft); line-height: 1.5; margin-bottom: 20px; border-bottom: 1px solid var(--line); padding-bottom: 18px; }
+    .lead .byline { font-family:'DM Sans',sans-serif; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 22px; }
+    .lead p { font-size: 17px; line-height: 1.8; }
+
+    .editor-note { background: var(--gold-pale); border-left: 3px solid var(--gold); border-radius: 0 8px 8px 0; padding: 14px 18px; margin: 20px 0; font-size: 14.5px; color: var(--ink-soft); font-style: italic; }
+    .editor-note strong { font-style: normal; font-family:'DM Sans',sans-serif; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold-deep); display:block; margin-bottom: 4px; }
+    .reinforcement { background: var(--dark); color: #E7DECF; padding: 16px 20px; margin: 24px 0; font-size: 14.5px; font-style: italic; border-left: 3px solid var(--gold); border-radius: 0 8px 8px 0; }
+    .reinforcement strong { color: var(--gold); }
+
+    .deep-read-link { display: inline-block; margin-top: 16px; font-family:'DM Sans',sans-serif; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ivory); background: var(--gold-deep); padding: 9px 20px; text-decoration: none; font-weight: 600; cursor: pointer; border: none; border-radius: 100px; }
+    .deep-read-link:hover { background: #8a5f12; color: var(--ivory); text-decoration: none; }
+
+    .pullquote { border-top: 3px solid var(--gold); border-bottom: 1px solid var(--gold); margin: 34px 0; padding: 22px 0 20px; }
+    .pullquote blockquote { font-family: 'Fraunces', Georgia, serif; font-size: 23px; font-style: italic; font-weight: 500; color: var(--ink); line-height: 1.42; }
+    .pullquote cite { display: block; margin-top: 12px; font-family:'DM Sans',sans-serif; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); font-style: normal; }
+
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; }
+    .two-col .story h3 { font-size: 21px; margin-bottom: 8px; }
+    .two-col .story p { font-size: 15px; line-height: 1.72; color: var(--ink-soft); }
+    .col-divider { border-left: 1px solid var(--line); padding-left: 34px; }
+
+    .source-line { margin-top: 14px; font-family:'DM Sans',sans-serif; font-size: 11px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .source-line .lbl { color: var(--muted); letter-spacing:0.04em; }
+    .badge { display: inline-block; font-family:'DM Sans',sans-serif; font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: 4px; text-decoration: none; }
+    .badge-green { background: #E8F1E4; color: #3A6B2A; }
+    .badge-amber { background: var(--gold-pale); color: #7A5A12; }
+
+    .intel-item { border-top: 1px solid var(--line); padding: 20px 0; }
+    .intel-item:last-child { border-bottom: 1px solid var(--line); }
+    .intel-item h3 { font-size: 18px; margin-bottom: 6px; }
+    .intel-item p { font-size: 14.5px; color: var(--ink-soft); line-height: 1.7; }
+
+    .angle-section { background: var(--dark); color: var(--ivory); padding: 32px 34px; margin: 38px 0; border-radius: 12px; }
+    .angle-section h4 { color: var(--gold); letter-spacing: 0.2em; margin-bottom: 22px; }
+    .angle-item { display: flex; gap: 18px; margin-bottom: 22px; }
+    .angle-item:last-child { margin-bottom: 0; }
+    .angle-num { font-family: 'Fraunces', Georgia, serif; font-size: 30px; font-weight: 900; color: var(--gold); line-height: 1; flex-shrink: 0; width: 30px; padding-top: 2px; }
+    .angle-item p { font-size: 15px; color: #D9D0BF; line-height: 1.7; margin-bottom: 0; }
+    .angle-item strong { color: var(--ivory); }
+
+    .bottom-two { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; margin-top: 8px; }
+    .events-col h4, .signal-col h4 { border-bottom: 2px solid var(--gold); padding-bottom: 8px; margin-bottom: 14px; }
+    .event-item { border-bottom: 1px solid var(--line); padding: 11px 0; }
+    .event-item:last-child { border-bottom: none; }
+    .event-date { font-family:'DM Sans',sans-serif; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold-deep); font-weight: 700; }
+    .event-name { font-family:'Fraunces',Georgia,serif; font-size: 15px; font-weight: 600; color: var(--ink); }
+    .event-note { font-size: 13px; color: var(--ink-soft); }
+    .signal-item-row { padding: 11px 0; border-bottom: 1px solid var(--line); }
+    .signal-item-row:last-child { border-bottom: none; }
+    .signal-tag { font-family:'DM Sans',sans-serif; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700; margin-bottom: 3px; }
+    .signal-tag.sig { color: var(--sage); }
+    .signal-tag.noise { color: var(--brick); }
+    .signal-body { font-size: 13.5px; color: var(--ink-soft); line-height: 1.55; }
+
+    .footer { border-top: 3px double var(--ink); padding-top: 22px; margin-top: 42px; font-family:'DM Sans',sans-serif; font-size: 11px; color: var(--muted); letter-spacing: 0.05em; text-align: center; line-height: 2; }
+    .footer strong { color: var(--ink); }
+    .meta-line { font-family:'DM Sans',sans-serif; font-size:12px; color:var(--muted); letter-spacing:0.04em; line-height:1.85; }
+    .meta-line strong { color:var(--ink-soft); text-transform:uppercase; letter-spacing:0.12em; font-size:11px; }
+
+    /* Deep Read */
+    #deep-read-1 { display: none; }
+    .deep-read-page { max-width: 720px; margin: 0 auto; padding: 44px 30px 90px; }
+    .back-btn { display: inline-flex; align-items: center; gap: 6px; font-family:'DM Sans',sans-serif; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold-deep); font-weight: 600; cursor: pointer; border: none; background: none; padding: 0; margin-bottom: 34px; text-decoration: none; }
+    .back-btn:hover { text-decoration: underline; }
+    .deep-read-page .dr-category { font-family:'DM Sans',sans-serif; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold-deep); font-weight: 600; margin-bottom: 10px; }
+    .deep-read-page h2 { font-family: 'Fraunces', Georgia, serif; font-size: 38px; font-weight: 900; line-height: 1.12; margin-bottom: 12px; letter-spacing:-0.5px; }
+    .deep-read-page .dr-deck { font-family:'Fraunces',Georgia,serif; font-size: 20px; font-weight: 400; color: var(--ink-soft); line-height: 1.5; margin-bottom: 26px; border-bottom: 1px solid var(--line); padding-bottom: 22px; }
+    .deep-read-page p { font-size: 17px; line-height: 1.82; margin-bottom: 16px; }
+    .deep-read-page h3 { font-family: 'Fraunces', Georgia, serif; font-size: 23px; font-weight: 600; margin: 30px 0 10px; }
+    .deep-read-page .dr-note { background: var(--gold-pale); border-left: 3px solid var(--gold); border-radius:0 8px 8px 0; padding: 16px 20px; margin: 26px 0; font-size: 15px; font-style: italic; color: var(--ink-soft); }
+
+    @media (max-width: 640px) {
+      .page { padding: 0 20px 70px; }
+      .nameplate h1 { font-size: 46px; }
+      .lead h2, .deep-read-page h2 { font-size: 28px; }
+      .two-col, .bottom-two { grid-template-columns: 1fr; gap: 0; }
+      .col-divider { border-left: none; border-top: 1px solid var(--line); padding-left: 0; padding-top: 26px; margin-top: 26px; }
+      .dateline { flex-direction: column; gap: 4px; text-align: center; }
+      .angle-section { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="main">
+<div class="gingham"></div>
+<div class="page">
+
+  <header class="nameplate">
+    <svg class="sun" viewBox="0 0 100 100" fill="none" stroke="#E7B43A" stroke-width="3" stroke-linecap="round">
+      <circle cx="50" cy="50" r="18"/>
+      <line x1="50" y1="6" x2="50" y2="20"/><line x1="50" y1="80" x2="50" y2="94"/>
+      <line x1="6" y1="50" x2="20" y2="50"/><line x1="80" y1="50" x2="94" y2="50"/>
+      <line x1="19" y1="19" x2="29" y2="29"/><line x1="71" y1="71" x2="81" y2="81"/>
+      <line x1="81" y1="19" x2="71" y2="29"/><line x1="29" y1="71" x2="19" y2="81"/>
+    </svg>
+    <div class="kicker">A Personal Intelligence Briefing for Julinka Naomi Waesche</div>
+    <h1>Appetite</h1>
+    <div class="strap">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+    <div class="dateline">
+      <span class="edition">Edition 1</span>
+      <span>Monday, 1 June 2026</span>
+      <span>Venture · Food · Art · Nature</span>
+    </div>
+  </header>
+
+  <!-- LEAD -->
+  <section class="lead">
+    <div class="category">Venture Capital · Europe</div>
+    <h2>Europe's Venture Market Splits in Two — and Calm/Storm Has Planted Its Flag on the Quieter Side</h2>
+    <p class="deck">Artificial intelligence took more than half of the €17.6bn that flowed into European startups in the first quarter, even as the number of seed deals fell by nearly half. Beneath the consolidation, a slower conviction — that prevention, not just intelligence, is the category of the decade — is exactly where your new fund has put its money.</p>
+    <div class="byline">Compiled 1 June 2026 · Edition 1</div>
+
+    <div class="editor-note">
+      <strong>Editor's note · Edition 1</strong>
+      Welcome to <em>Appetite</em> — a daily reading of the four worlds you actually live in: venture capital, food science, art and the natural world. The house style is the one you already read at breakfast (the <em>FT</em> and the <em>Economist</em>): declarative, numerate, allergic to hype. Each morning it follows the threads it opened the day before. Today, it opens them.
+    </div>
+
+    <p>The numbers describe a market that is growing and shrinking at the same time. European startups raised roughly €17.6bn in the first quarter of 2026 — up almost 30% year on year and the second consecutive quarter of gains. Yet the count of deals collapsed beneath that headline: seed-stage deal volume fell 44%, early-stage volume 30%. More money, fewer recipients. Artificial intelligence absorbed more than half of the quarter's total, the single gravitational force bending the whole field toward itself.</p>
+
+    <p>Step back, and the shape is familiar. The 2021 boom — when a strong team could raise on a deck of buzzwords and a $500,000–$750,000 pre-seed cheque was routine — was a function of nearly free money. That era is closed. The pre-seed round has reset upward to $1m–$3m, but the bar to clear it has risen further still: investors now want what the trade press calls "tangible science and real unit economics," not a narrative. Capital did not leave the room in 2026. It got harder to convince.</p>
+
+    <p>This is the market into which you arrive at <strong>Calm/Storm Ventures</strong> — the Vienna fund that, in a year of AI maximalism, closed a €30m second vehicle to back something less fashionable: human health before it breaks. Founded by Lucanus Polagnoli (formerly of Speedinvest) and Michael Ströck, the firm writes early cheques — historically €50,000–€300,000, rising in the new fund — into the parts of healthcare that polite venture decks tend to skip: mental health, sexual wellness, fertility, chronic conditions, "the taboo and the overlooked." It has backed more than 60 companies; roughly a third are led by non-male founders. Its 2026 cheques so far have gone to Oska Health and Circle Health.</p>
+
+    <p>The thesis is deceptively plain — shift medicine "from reactive treatment to preventive care" — but it is a genuine contrarian position in 2026. Prevention does not demo as well as a foundation model. It compounds slowly, in cohorts and biomarkers rather than benchmarks. And it is, not incidentally, the lane where a fund's edge comes from judgement about biology and behaviour rather than access to GPUs. Calm/Storm has said it is extending the mandate of its new fund into <strong>climate and nutrition technology</strong> — the second of which is not a coincidence in your case. It is the door you walk through.</p>
+
+    <p>Because the quiet side of this market has a quiet labour shortage: people who can tell whether the science under a health or food company is real. The generalist associate reads the deck; reference-checks the founder; models the TAM. The associate who trained as a food scientist reads the protein assay, the fermentation titre, the shelf-life data and the scale-up capital expenditure — and knows which of them the founder is quietly hoping no one asks about. In a market repricing rigour upward, that is not a softer skill. It is the skill.</p>
+
+    <button class="deep-read-link" onclick="showDeepRead('deep-read-1')">Deep Read: The Lab Coat in the Boardroom — Why 2026 Made Food Science a Venture Edge →</button>
+
+    <div class="source-line">
+      <span class="lbl">Sources:</span>
+      <a href="https://news.crunchbase.com/venture/funding-picked-up-ai-led-europe-q1-2026/" class="badge badge-green" target="_blank">Crunchbase News 9/10</a>
+      <a href="https://sifted.eu/articles/calm-storm-closes-30m-fund" class="badge badge-green" target="_blank">Sifted 9/10</a>
+      <a href="https://techfundingnews.com/calm-storm-ventures-launches-30m-healthtech-fund/" class="badge badge-green" target="_blank">TechFundingNews 8/10</a>
+      <a href="https://www.calmstorm.vc/portfolio" class="badge badge-green" target="_blank">Calm/Storm (primary) 10/10</a>
+    </div>
+  </section>
+
+  <div class="reinforcement">
+    <strong>The throughline of this brief, stated once:</strong> prevention is the category, nutrition is the substrate, and rigour is the moat. Every venture story here will be read through that lens — and your training is the instrument that reads it.
+  </div>
+
+  <div class="pullquote">
+    <blockquote>"Seed deal volume fell 44%. The capital didn't leave — it got pickier. In a market that now pays a premium for tangible science, a food scientist who can read a balance sheet is not a career pivot. She's a thesis."</blockquote>
+    <cite>Appetite — Edition 1</cite>
+  </div>
+
+  <hr class="rule-double" />
+
+  <!-- TWO-COLUMN -->
+  <div class="two-col">
+
+    <div class="story">
+      <div class="category">Food Science · Innovation</div>
+      <h3>Meal Replacement Grows Up — 20 Grams of Protein, and a Quiet Pivot to Fermentation</h3>
+      <p>The meal-replacement category has spent a decade living down its origins as beige engineered sludge. In 2026 it is, improbably, one of food's growth stories: the segment is worth roughly $19bn this year and is forecast past $32bn by 2034. In January, Danone's plant brand Alpro launched a "Meal to Go" line delivering 20g of plant protein in a 500ml bottle — a signal that the incumbents now treat the category as mainstream nutrition rather than a fad diet.</p>
+      <p>The more durable shift is upstream. Plant-based is repositioning from <em>imitation</em> to <em>nutrition</em> — protein and fibre, not a convincing burger bleed — while the real capital is moving toward fermentation. Precision and biomass fermentation are forecast to roughly double, from $3.46bn in 2026 toward $7.16bn by 2035, as firms such as Climax Foods (AI-designed plant proteins) and New School Foods (a directional-freezing process that builds whole-cut muscle structure) chase function rather than mimicry. Upcycled ingredients — yesterday's waste streams — are crossing from R&D into commercial supply. The industry's own framing for 2026 is tidy: scale what works (fermentation), elevate the underused (upcycling), refine what stalled (plant-based).</p>
+      <div class="source-line">
+        <a href="https://www.innovamarketinsights.com/trends/plant-based-trends-5-top-global-trend-for-2026/" class="badge badge-green" target="_blank">Innova Market Insights 8/10</a>
+        <a href="https://www.nature.com/articles/s41538-026-00841-4" class="badge badge-green" target="_blank">npj Science of Food 10/10</a>
+        <a href="https://gfi.org/state-of-the-industry-series/" class="badge badge-green" target="_blank">Good Food Institute 8/10</a>
+      </div>
+    </div>
+
+    <div class="story col-divider">
+      <div class="category">Art · Market</div>
+      <h3>Art Basel Returns to Messe Basel, 18–21 June — and "Conviviality" Is the Word</h3>
+      <p>An hour's train from Zurich, the art world reassembles. Art Basel's flagship fair runs 18–21 June (preview days 16–17), with 290 galleries — 21 of them first-timers — and more than 4,000 artists across five continents. The two inaugural Art Basel Awards Gold Awardees take the city's public squares: Nairy Baghramian on the Messeplatz, Ibrahim Mahama with a large-scale installation on the Münsterplatz.</p>
+      <p>Curatorially, the edition is being read as a reset. Ruba Katrib leads her first Unlimited — the fair's hall for outsized work that no booth can contain — while Stefanie Hessler sets a new direction for Parcours, the citywide programme that spills art into Basel's streets and buildings. The Premiere sector, for recent work, expands to 17 presentations from ten, under the theme "conviviality." For someone who reads Bauhaus and paints botanicals, the week is less a market than a field trip — and, this year, a room full of the operators and patrons who also happen to write cheques.</p>
+      <div class="source-line">
+        <a href="https://www.artbasel.com/stories/art-basel-unveils-leading-galleries-and-first-highlights-for-its-2026-flagship-show-in-basel" class="badge badge-green" target="_blank">Art Basel (primary) 10/10</a>
+        <a href="https://www.artsy.net/article/artsy-editorial-art-basels-flagship-fair-announces-participating-galleries-new-highlights-2026-edition" class="badge badge-green" target="_blank">Artsy 8/10</a>
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="rule-single" />
+
+  <!-- INTELLIGENCE BRIEFS -->
+  <section class="intel-section">
+    <h4>Intelligence Briefs</h4>
+
+    <div class="intel-item">
+      <div class="category">Food · Culture · Korea</div>
+      <h3>The K-Wave Reaches the Table — Seoul Targets $16bn in Food Exports, and Fried Chicken Outranks Kimchi</h3>
+      <p>The same cultural machine that exported BTS and <em>Squid Game</em> is now exporting dinner. South Korea's K-food market reached $13.6bn in 2025, and Seoul has set a $16bn food-and-agriculture export target for 2026, backed by state strategy and supermarket distribution rather than viral luck — "intentional global strategy, not trend cycles," as one analysis put it. Europe matters: the continent accounts for 27.5% of global Hallyu coverage. In a worldwide survey, Korean-style fried chicken topped the most-preferred K-foods at 14%, ahead of kimchi (9.5%) and bibimbap (8.2%); ramyeon, repositioned as affordable premium, is the wedge product. Tellingly, the capital is following the culture — agrifoodtech funding into South Korea surged 171% last year.</p>
+      <div class="source-line">
+        <a href="https://www.koreaherald.com/article/10428329" class="badge badge-green" target="_blank">Korea Herald 9/10</a>
+        <a href="https://www.statista.com/topics/9836/korean-food-worldwide/" class="badge badge-green" target="_blank">Statista 8/10</a>
+        <a href="https://www.seoulz.com/k-food-global-market-2026/" class="badge badge-amber" target="_blank">Seoulz 7/10</a>
+      </div>
+    </div>
+
+    <div class="intel-item">
+      <div class="category">Nature · Finance</div>
+      <h3>Nature Credits Get a Rulebook — an EU Expert Group, COP17 in Yerevan, and a Market Sized at $69bn</h3>
+      <p>The attempt to make biodiversity investable is acquiring institutions. Biodiversity credits — payments for measurable ecological gains — are projected to reach $2bn by 2030 and as much as $69bn by 2050. The European Commission is convening an expert group to co-develop certification methods for a nature-credits market, with first results due in 2026; separately, from 18 March 2026 large EU companies must report auditable data on their biodiversity impact. Momentum builds toward COP17 of the Convention on Biological Diversity in Yerevan this October. The gap the money must close is stark: roughly $220bn flows globally into restoring nature against $7.3tn into activities that degrade it. The WEF's pilot insists at least 75% of funding reach the land stewards themselves — the test of whether "nature finance" means farmers or merely intermediaries.</p>
+      <div class="source-line">
+        <a href="https://www.nature.com/articles/s44358-026-00155-z" class="badge badge-green" target="_blank">Nature Reviews Biodiversity 10/10</a>
+        <a href="https://www.esgtoday.com/eu-to-develop-nature-credits-market-to-fund-more-sustainable-agriculture-practices/" class="badge badge-green" target="_blank">ESG Today 8/10</a>
+        <a href="https://www.unepfi.org/themes/ecosystems/action-on-nature-what-can-financial-institutions-expect-in-2026/" class="badge badge-green" target="_blank">UNEP FI 9/10</a>
+      </div>
+    </div>
+
+    <div class="intel-item">
+      <div class="category">Food · Regulation</div>
+      <h3>Brussels Tells Cultivated Meat What It May Not Be Called</h3>
+      <p>Europe's cultivated-meat fight has moved from the lab to the dictionary. New EU rules move to bar cultivated products from using traditional "meaty" terms — beef, chicken, pork, steak — across all member states, a naming battle that doubles as a market-access barrier. No cultivated product has yet cleared EU approval: France's Gourmey filed the bloc's first novel-food application (cultivated foie gras) in July 2024, a process expected to take at least 18 months under EFSA's exacting review, and has sought faster routes abroad. The EU remains markedly more cautious than Singapore, the US or Australia. For an investor, the read is unsentimental: in Europe, regulatory and labelling timelines — not the science — are the binding constraint, and they are measured in years.</p>
+      <div class="source-line">
+        <a href="https://www.foodnavigator.com/Article/2026/04/16/eu-bans-cultivated-meat-terminology/" class="badge badge-green" target="_blank">FoodNavigator 9/10</a>
+        <a href="https://www.foodnavigator-usa.com/Article/2026/02/18/cultivated-meat-regulation-where-countries-stand-in-2026/" class="badge badge-green" target="_blank">FoodNavigator-USA 9/10</a>
+      </div>
+    </div>
+
+    <div class="intel-item">
+      <div class="category">Venture · Agrifoodtech</div>
+      <h3>Agrifoodtech's Flight to "Tangible Science" — Deeptech Is Now 32% of Deals, at a 78% Seed Premium</h3>
+      <p>Global agrifoodtech funding was essentially flat in 2025 at $16.2bn (deal count down 12%), but the composition is the story. Upstream startups — those building the biology and machinery of food production rather than delivering it — drew $9bn, up 7%. Deeptech's share of deals has climbed to 32% from 22% over the decade, and seed-stage deeptech now commands a 78% premium over everything else. Debt rose to 18.2% of funding, its highest in a decade (Chestnut Carbon, Cambrian Innovation). The verdict, in the sector's own words: "the era of $3bn mega-rounds for grocery delivery apps is over." What gets funded now is what can be measured — which is precisely the kind of company a trained food scientist is built to underwrite.</p>
+      <div class="source-line">
+        <a href="https://agfundernews.com/agrifoodtech-funding-is-flat-the-interesting-part-is-where-it-isnt" class="badge badge-green" target="_blank">AgFunderNews 9/10</a>
+        <a href="https://agfunder.com/research/agfunder-global-agrifoodtech-investment-report-2026/" class="badge badge-green" target="_blank">AgFunder Report 2026 (primary) 10/10</a>
+      </div>
+    </div>
+
+  </section>
+
+  <hr class="rule-single" />
+
+  <!-- JULINKA'S ANGLE -->
+  <div class="angle-section">
+    <h4>Julinka's Angle</h4>
+
+    <div class="angle-item">
+      <div class="angle-num">1</div>
+      <p><strong>Calm/Storm is extending into nutrition tech — so claim the territory before someone else on the team improvises into it.</strong> You are the only person at the fund who can read a metabolic-health or functional-nutrition pitch the way you read a research paper. Within your first 30 days, write a one-page sourcing thesis on where prevention meets nutrition — the metabolic, gut-health and women's-nutrition lane — and make it the artefact that defines your remit. The deeptech-food companies in this edition (Climax Foods, New School Foods) are exactly the kind you can diligence cold while a generalist is still googling "biomass fermentation."</p>
+    </div>
+
+    <div class="angle-item">
+      <div class="angle-num">2</div>
+      <p><strong>Turn the food-science background from a biographical footnote into your public edge.</strong> The market is now paying a 78% seed premium for "tangible science," and deeptech is a third of agrifoodtech deals — yet most investors evaluating food and health companies cannot actually read the science. Three years at Migros taught you what survives a real supply chain, not just a tasting panel. Publish one short, sharp piece — "How to read a protein claim," or "Five things a food scientist checks that your term sheet doesn't" — and you become the person in European venture who understands the lab. That is durable positioning, and it is free.</p>
+    </div>
+
+    <div class="angle-item">
+      <div class="angle-num">3</div>
+      <p><strong>Use Art Basel (18–21 June) as deliberate, low-pretext deal-flow — your art fluency is real, so let it do the work.</strong> The fair is an hour from Zurich and dense with founders, LPs and operators. Pick three Calm/Storm-adjacent people who will be there and open not with "what do you invest in" but with Baghramian on the Messeplatz. Separately, the nature-finance rulebook taking shape this year (EU nature credits, COP17 in October) is the on-ramp to the fund's new climate mandate — start a watch-list of European regenerative-ag and natural-capital teams now, while the category is still being defined.</p>
+    </div>
+  </div>
+
+  <!-- EVENTS + SIGNAL/NOISE -->
+  <div class="bottom-two">
+
+    <div class="events-col">
+      <h4>On the Radar</h4>
+
+      <div class="event-item">
+        <div class="event-date">15–21 June</div>
+        <div class="event-name">Liste Art Fair, Basel</div>
+        <div class="event-note">The discovery satellite — younger galleries, emerging artists; the scouting ground</div>
+      </div>
+      <div class="event-item">
+        <div class="event-date">16–17 June</div>
+        <div class="event-name">Art Basel — Preview Days</div>
+        <div class="event-note">Messe Basel; the quietest, best hours to actually see the work</div>
+      </div>
+      <div class="event-item">
+        <div class="event-date">18–21 June</div>
+        <div class="event-name">Art Basel in Basel</div>
+        <div class="event-note">290 galleries; Baghramian (Messeplatz) &amp; Mahama (Münsterplatz); Unlimited under Katrib</div>
+      </div>
+      <div class="event-item">
+        <div class="event-date">18 March (in force)</div>
+        <div class="event-name">EU biodiversity reporting</div>
+        <div class="event-note">Large companies must report auditable nature-impact data — the data layer nature finance needs</div>
+      </div>
+      <div class="event-item">
+        <div class="event-date">October 2026</div>
+        <div class="event-name">COP17 — CBD, Yerevan</div>
+        <div class="event-note">Biodiversity framework progress; the policy backdrop to the nature-credits market</div>
+      </div>
+    </div>
+
+    <div class="signal-col">
+      <h4>Signal vs. Noise</h4>
+
+      <div class="signal-item-row">
+        <div class="signal-tag sig">Signal</div>
+        <div class="signal-body">European funding is up (+30% YoY) even as deal volume falls. Capital is concentrating, not retreating — and health/prevention is a real conviction lane outside the AI gravity well.</div>
+      </div>
+      <div class="signal-item-row">
+        <div class="signal-tag sig">Signal</div>
+        <div class="signal-body">Agrifoodtech deeptech is now 32% of deals at a 78% seed premium. "Tangible science" is being repriced upward — structurally good for anyone who can actually read it.</div>
+      </div>
+      <div class="signal-item-row">
+        <div class="signal-tag sig">Signal</div>
+        <div class="signal-body">K-food is a state strategy ($16bn 2026 target) with Europe a priority market — and South Korean agrifoodtech funding rose 171%. Culture and capital are moving together.</div>
+      </div>
+      <div class="signal-item-row">
+        <div class="signal-tag noise">Noise</div>
+        <div class="signal-body">"Plant-based is dead." It's repositioning (imitation → nutrition); meal-replacement and fermentation are growing double digits. Maturing, not dying.</div>
+      </div>
+      <div class="signal-item-row">
+        <div class="signal-tag noise">Noise</div>
+        <div class="signal-body">"Cultivated meat will fill EU shelves soon." No EU approval exists yet; Gourmey's first application runs 18 months-plus, and Brussels is still fighting over what to call it.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="rule-single" />
+  <p class="meta-line">
+    <strong>New this edition:</strong>
+    Calm/Storm Ventures (Polagnoli &amp; Ströck; €30m fund; prevention thesis; nutrition-tech expansion) · the European "growing-and-shrinking" funding split · agrifoodtech's deeptech repricing (32% of deals, 78% seed premium) · fermentation pivot (Climax Foods, New School Foods) · K-food as state strategy · EU nature-credits market · cultivated-meat naming ban
+  </p>
+  <p class="meta-line" style="margin-top:8px;">
+    <strong>Open actions:</strong>
+    ☐ One-page nutrition-tech sourcing thesis — within 30 days &nbsp;·&nbsp;
+    ☐ Draft "How to read a protein claim" essay &nbsp;·&nbsp;
+    ☐ Pick 3 people to meet at Art Basel (16–21 June) &nbsp;·&nbsp;
+    ☐ Start a regenerative-ag / natural-capital watch-list
+  </p>
+
+  <div class="footer">
+    <strong>Appetite</strong> · Edition 1 · Monday, 1 June 2026<br />
+    A personal briefing for Julinka Naomi Waesche · Venture Capital · Food · Art · Nature<br />
+    <a href="https://julinkanaomi.com/" target="_blank">julinkanaomi.com</a>
+  </div>
+
+</div>
+</div><!-- /main -->
+
+
+<!-- DEEP READ 1 -->
+<div id="deep-read-1">
+<div class="gingham"></div>
+<div class="deep-read-page">
+
+  <a class="back-btn" onclick="showMain()" href="#">← Back to Appetite</a>
+
+  <div class="dr-category">Deep Read · Venture · Food Science</div>
+  <h2>The Lab Coat in the Boardroom: Why 2026 Made Food Science a Venture Edge</h2>
+  <p class="dr-deck">Agrifoodtech funding is flat — but the share going to hard science is climbing, and the seed-stage premium for "tangible science" has reached 78%. For someone who spent three years at Migros learning what actually survives a factory, this is not a market she is joining. It is a market that just started paying for what she already knows.</p>
+
+  <p>For most of the last venture cycle, the food and health sectors were underwritten by people who could not read them. A generalist associate, fluent in SaaS metrics and marketplaces, would assess a fermentation startup or a metabolic-health company the way a tourist assesses a menu in a language they do not speak: by the pictures, the price, and the confidence of the person recommending it. In a zero-interest-rate world awash with capital, that worked well enough — the cost of being wrong was diluted across a portfolio and a rising market. In 2026 it does not work at all.</p>
+
+  <h3>The repricing of rigour</h3>
+
+  <p>The data is unambiguous. Global agrifoodtech funding was roughly flat in 2025 at $16.2bn, and deal count fell 12% — but underneath that flat surface the money sorted itself by substance. Upstream companies, the ones building the actual biology and hardware of food production, took $9bn, up 7%. Deeptech's share of all deals climbed to 32%, from 22% a decade ago. Most striking, seed-stage deeptech now commands a 78% premium over non-deeptech at the same stage: investors are paying materially more, earlier, for companies whose advantage is scientific rather than commercial. Debt financing hit 18.2% of the total, its highest in a decade, as capital-intensive science (Chestnut Carbon, Cambrian Innovation) reached for instruments beyond equity. The sector's own summary is blunt: "the era of $3bn mega-rounds for grocery delivery apps is over."</p>
+
+  <p>What replaces it is a market that pays for what can be measured — protein function, fermentation yield, regulatory pathway, unit economics at scale. And that creates a peculiar labour market inefficiency: demand for scientific judgement has risen sharply, while the supply of investors who can exercise it has not. Funds have responded by hiring scientists into investment roles, not just advisory ones. The lab coat has a seat at the table because the table can no longer evaluate the deal without it.</p>
+
+  <div class="dr-note">
+    The asymmetry is the whole point. A generalist must trust the founder's account of the science. A trained food scientist can verify it — or falsify it — in the first meeting. In a market repricing rigour upward, the ability to say "that titre doesn't scale" before the term sheet is not diligence. It is alpha.
+  </div>
+
+  <h3>What a food scientist sees that a generalist doesn't</h3>
+
+  <p>Consider the companies in today's edition. Climax Foods uses machine learning to design plant proteins that behave like animal ones; New School Foods builds whole-cut muscle structure by directionally freezing a hydrocolloid gel. To a generalist these are two slides of comparable plausibility. To a food scientist they are two entirely different risk profiles: one is a formulation-and-data problem, the other a process-engineering-and-capex problem, and they fail in different ways at different scales. Knowing which questions to ask — about shelf life, about sensory drift over time, about the cost curve of the input proteins, about whether the pilot line's results survive a 100x scale-up — is the difference between a conviction cheque and an expensive lesson.</p>
+
+  <p>Three years inside Migros — Switzerland's largest grocer — is an unusually good teacher of the part that kills food companies: not the hero product, but the supply chain, the margin structure, the regulatory file, and the unglamorous question of whether a thing that works in a kitchen works in a factory and on a shelf. That is institutional knowledge most investors simply do not have, and cannot quickly acquire. It is also, conveniently, exactly the knowledge the cultivated-meat naming fight and the EU's novel-food timelines reward: the investor who priced in Europe's regulatory drag from the first meeting did not get surprised by it.</p>
+
+  <h3>The convergence with Calm/Storm's mandate</h3>
+
+  <p>This is where the personal and the structural meet. Calm/Storm's core thesis — moving healthcare from reactive treatment to preventive care — has always pointed at nutrition without quite naming it; the fund has now said it is extending into nutrition and climate technology explicitly. Prevention, at its root, is metabolic and behavioural, and metabolism is food. A fund building a preventive-health portfolio needs someone who can tell whether a functional-nutrition or gut-health company is doing real science or selling a story. That is not a role the firm has to invent for you. It is a gap that already exists, that the market is paying a premium to fill, and that your CV happens to describe.</p>
+
+  <p>There is even a macro tailwind. The same flight to substance is visible by geography: South Korea's agrifoodtech funding rose 171% last year, China's 43% — capital chasing state-backed food and biotech strategy, and, in Korea's case, riding the same cultural wave that put fried chicken ahead of kimchi in global demand. Food is simultaneously a science problem, a culture problem and a capital-allocation problem in 2026. The rare investor who can hold all three at once is not a generalist with a food hobby. She is a food scientist who learned to allocate capital.</p>
+
+  <h3>The positioning, in one line</h3>
+
+  <p>So the brief's throughline, restated for the role you are stepping into: prevention is the category, nutrition is the substrate, and rigour is the moat. The market has, almost on cue, started paying for the exact combination you bring — the science to read the company, the operating scars to know what scales, and the cultural range to see where demand is going next. The task for the next year is not to acquire an edge. It is to name the one you already have, loudly enough that the deals come to you.</p>
+
+  <div class="source-line" style="margin-top:28px;">
+    <a href="https://agfundernews.com/agrifoodtech-funding-is-flat-the-interesting-part-is-where-it-isnt" class="badge badge-green" target="_blank">AgFunderNews 9/10</a>
+    <a href="https://agfunder.com/research/agfunder-global-agrifoodtech-investment-report-2026/" class="badge badge-green" target="_blank">AgFunder Report 2026 10/10</a>
+    <a href="https://sifted.eu/articles/calm-storm-closes-30m-fund" class="badge badge-green" target="_blank">Sifted 9/10</a>
+    <a href="https://news.crunchbase.com/venture/funding-picked-up-ai-led-europe-q1-2026/" class="badge badge-green" target="_blank">Crunchbase News 9/10</a>
+    <a href="https://www.koreaherald.com/article/10428329" class="badge badge-green" target="_blank">Korea Herald 9/10</a>
+  </div>
+
+  <div style="margin-top:38px;padding-top:22px;border-top:1px solid var(--line);">
+    <a class="back-btn" onclick="showMain()" href="#">← Back to Appetite</a>
+  </div>
+
+</div>
+</div><!-- /deep-read-1 -->
+
+<script>
+  function showDeepRead(id) {
+    document.getElementById('main').style.display = 'none';
+    document.querySelectorAll('[id^="deep-read"]').forEach(function(el){ el.style.display = 'none'; });
+    document.getElementById(id).style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+  function showMain() {
+    document.querySelectorAll('[id^="deep-read"]').forEach(function(el){ el.style.display = 'none'; });
+    document.getElementById('main').style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+</script>
+
+</body>
+</html>
