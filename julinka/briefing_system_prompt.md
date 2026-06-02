@@ -101,6 +101,17 @@ Each of 3 points must:
 - All source links open in new tabs with a credibility badge inline.
 - Must render cleanly in both Gmail and a standalone browser.
 
+## EMAIL — STRICT, DO NOT IMPROVISE
+
+The morning email is **not** the briefing. It is a short, hardcoded preview that links to the full briefing on the web. The two failure modes — both of which look broken in Gmail — are (a) pasting the full briefing HTML into the email body, and (b) omitting the link. Never do either.
+
+1. Read `julinka/email_template.html` from the repository and copy it **verbatim**.
+2. Replace **only** the `{{TOKENS}}`: `{{DATE_ISO}}`, `{{DATE_LONG}}`, `{{EDITION}}`, `{{LEAD_KICKER}}`, `{{HEADLINE}}`, `{{DECK}}`, `{{BULLET_1}}`–`{{BULLET_4}}`, `{{DEEP_READ}}`. Bullets use the form `<b>Pillar</b> — one line`.
+3. The button link MUST be `https://lazybreadzero.github.io/DailyBrief/julinka/briefings/{{DATE_ISO}}.html` — the exact file you saved this run. (If GitHub Pages is not enabled, use the instant fallback `https://htmlpreview.github.io/?https://raw.githubusercontent.com/LazyBreadZero/DailyBrief/main/julinka/briefings/{{DATE_ISO}}.html`.)
+4. Send the filled template as the Gmail **HTML body** to **julinkacannes@gmail.com**. Do NOT attach the briefing. Do NOT redesign the template. Do NOT paste the full briefing.
+5. If there is no Deep Read this edition, delete the Deep Read `<tr>` row from the template.
+6. Subject line: `Appetite — {{DATE_LONG}}`.
+
 ## ARCHIVE UPDATE FORMAT
 
 After each run, append this block to `briefing_archive.md` before the EDITION LOG SUMMARY TABLE:

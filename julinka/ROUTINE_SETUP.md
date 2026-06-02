@@ -1,16 +1,23 @@
 # Appetite (Julinka's Brief) — Routine Setup
 
-The daily briefing is produced by a **Claude Code Routine** (a scheduled automation). Routines run in Anthropic's cloud on a schedule — no machine needs to be on. A routine **cannot be created by a tool/agent**; you create it once yourself in the Claude Code web or desktop app. It takes about a minute.
+The daily briefing is produced by a **Claude Code Routine** (a scheduled automation) running in Anthropic's cloud. You create it once in the Claude Code web or desktop app. This system lives entirely in the `julinka/` folder of `LazyBreadZero/DailyBrief` and is independent of the original *Frontier Intelligence* briefing.
 
-> **Note:** This system lives entirely in the `julinka/` folder of the `LazyBreadZero/DailyBrief` repository and is independent of the original *Frontier Intelligence* briefing. Once this folder is on the default branch (`main`), the routine can read it directly and the published pages go live.
+---
+
+## ⚠️ One-time setup: enable GitHub Pages (so the email link works)
+
+The email links to `https://lazybreadzero.github.io/DailyBrief/julinka/briefings/<date>.html`. That URL only resolves once **GitHub Pages is enabled**:
+
+**GitHub → repo Settings → Pages → Source: "Deploy from a branch" → Branch: `main` / `/(root)` → Save.** (The repo is public.) Verify after ~1 min by opening `https://lazybreadzero.github.io/DailyBrief/julinka/briefings/2026-06-01.html`.
+
+**Zero-setup fallback** (works right now, no Pages needed):
+`https://htmlpreview.github.io/?https://raw.githubusercontent.com/LazyBreadZero/DailyBrief/main/julinka/briefings/<date>.html`
 
 ---
 
 ## Create the routine
 
 **Where:** Claude Code on the web (https://claude.com/code) or the desktop app → **Automations / Routines** → **New routine**.
-
-Use these exact settings:
 
 ### Name
 ```
@@ -24,7 +31,7 @@ LazyBreadZero/DailyBrief   (branch: main)
 
 ### Connectors
 ```
-Gmail (with send permission — see note below)
+Gmail (with SEND permission)
 ```
 
 ### Schedule
@@ -37,34 +44,34 @@ Daily at 08:00, timezone Europe/Vienna
 Full (required for web searches)
 ```
 
-### Prompt
+### Prompt  (paste this exactly — it is deliberately strict about the email)
 ```
-Read julinka/briefing_system_prompt.md from the repository for full instructions. Then:
+You generate today's "Appetite" briefing for Julinka. Work from the repository LazyBreadZero/DailyBrief on branch main, inside the julinka/ folder.
 
-1. Read julinka/briefing_archive.md fully from the repository
-2. Run 5–8 web searches (follow-up threads from the archive first, then fresh news across Venture Capital, Food, Art and Nature)
-3. Write the full "Appetite" HTML briefing following all instructions in julinka/briefing_system_prompt.md
-4. Save the HTML as julinka/briefings/YYYY-MM-DD.html in the repository (use today's actual date)
-5. Update julinka/briefing_archive.md by appending today's edition block before the summary table, then update the table. Commit both files.
-6. Send an email via Gmail to julinkacannes@gmail.com with subject "Appetite — [today's date]". The body should be a short HTML email (NOT the full briefing) containing: the lead headline, a 3–4 bullet summary of the edition's top stories, and a single prominent link to read the full briefing at https://lazybreadzero.github.io/DailyBrief/julinka/briefings/YYYY-MM-DD.html (substitute today's actual date). Do NOT paste the full briefing HTML into the email body.
+1. Read julinka/briefing_system_prompt.md fully — your house style and instructions.
+2. Read julinka/briefing_archive.md fully — the memory of all prior editions. Build continuity; do not repeat covered stories.
+3. Run 5–8 web searches across the four pillars (Venture Capital, Food, Art, Nature) — follow-up threads from the archive first, then fresh news. Use today's real date.
+4. Write the full self-contained HTML briefing per julinka/briefing_system_prompt.md and save it as julinka/briefings/YYYY-MM-DD.html (today's actual date).
+5. Append today's edition block to julinka/briefing_archive.md before the summary table, update the table, and commit both files.
+
+6. SEND THE EMAIL — follow this exactly; do NOT improvise the email:
+   a. Read julinka/email_template.html from the repo and copy it VERBATIM.
+   b. Replace ONLY the {{TOKENS}}: {{DATE_ISO}} (e.g. 2026-06-03), {{DATE_LONG}} (e.g. Tuesday, 3 June 2026), {{EDITION}}, {{LEAD_KICKER}}, {{HEADLINE}}, {{DECK}}, {{BULLET_1}}..{{BULLET_4}} (form: <b>Pillar</b> — one line), {{DEEP_READ}} (or delete that <tr> if none).
+   c. The button link must be exactly https://lazybreadzero.github.io/DailyBrief/julinka/briefings/{{DATE_ISO}}.html
+   d. Send the FILLED TEMPLATE as the HTML body via Gmail to julinkacannes@gmail.com, subject "Appetite — {{DATE_LONG}}".
+   e. NEVER paste the full briefing into the email. NEVER attach it. NEVER redesign the template. The email is only the preview + the link.
 ```
 
 ---
 
 ## Gmail send permission
 
-When you add the **Gmail connector** to the routine, grant it **send** scope (not just read/compose-draft) during the Google OAuth consent screen. If the connector only has draft scope, the routine will create a Gmail draft each morning instead of sending — still useful, but someone has to press send.
-
----
-
-## Publishing (GitHub Pages)
-
-The email links to `https://lazybreadzero.github.io/DailyBrief/julinka/briefings/YYYY-MM-DD.html`. For that link to resolve, GitHub Pages must be enabled for the repository and the `julinka/` folder present on the published branch (`main`). The HTML files are fully self-contained and render the same standalone or via Pages.
+When adding the **Gmail connector**, grant **send** scope during OAuth. If it only has draft scope, the routine will create a draft each morning instead of sending.
 
 ---
 
 ## After creating it
 
-1. **Run it once manually** (the "Run now" / "Test run" button) to confirm the email arrives and a `julinka/briefings/YYYY-MM-DD.html` file plus an updated `julinka/briefing_archive.md` get committed.
-2. The seed memory is **Edition 1 (1 June 2026)**, so the first real run will produce **Edition 2** and build on Edition 1's open follow-up threads (Calm/Storm's next cheque and nutrition-tech mandate, Art Basel read-out, Gourmey's EFSA progress, EU nature-credit methodology, etc.).
-3. Leave it on the daily 08:00 Europe/Vienna schedule and it will self-extend the archive each morning.
+1. **Run it once manually** ("Run now") and confirm: a new `julinka/briefings/YYYY-MM-DD.html` is committed, the archive is updated, and the email that arrives is the **short template preview with a working "Read the full brief" button** (not the full HTML).
+2. Seed memory is **Edition 1 (1 June 2026)**, so the first run produces **Edition 2** and builds on Edition 1's open threads.
+3. Leave it on the daily 08:00 Europe/Vienna schedule.

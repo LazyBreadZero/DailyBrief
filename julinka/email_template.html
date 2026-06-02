@@ -1,0 +1,102 @@
+<!--
+  APPETITE (Julinka's Brief) — DAILY EMAIL TEMPLATE  (email-safe, hardcoded)
+  =========================================================================
+  This is the ONLY layout the daily routine may send. Do NOT paste the full
+  briefing into the email. Do NOT redesign this. Each morning, copy this file
+  verbatim and replace ONLY the {{TOKENS}} below, then send as the HTML body.
+
+  TOKENS:
+    {{DATE_ISO}}    e.g. 2026-06-03   (must match julinka/briefings/<DATE_ISO>.html)
+    {{DATE_LONG}}   e.g. Tuesday, 3 June 2026
+    {{EDITION}}     e.g. 2
+    {{LEAD_KICKER}} e.g. Today's Lead · Venture Capital
+    {{HEADLINE}}    lead headline (plain text)
+    {{DECK}}        1–2 sentence lead summary (plain text)
+    {{BULLET_1}} .. {{BULLET_4}}   one line each: <b>Pillar</b> — summary
+    {{DEEP_READ}}   Deep Read title, OR remove that row if none
+
+  LINK: button points to GitHub Pages. If Pages is not enabled, use the fallback:
+    https://htmlpreview.github.io/?https://raw.githubusercontent.com/LazyBreadZero/DailyBrief/main/julinka/briefings/{{DATE_ISO}}.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — {{DATE_LONG}}</title>
+</head>
+<body style="margin:0; padding:0; background:#EFE9DC;">
+<div style="display:none; max-height:0; overflow:hidden; opacity:0;">{{HEADLINE}}</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#EFE9DC;">
+<tr><td align="center" style="padding:28px 14px;">
+
+  <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px; width:100%; background:#FBF9F3; border-radius:14px; overflow:hidden; box-shadow:0 2px 14px rgba(31,27,22,0.08);">
+
+    <tr><td style="height:8px; background:#E7B43A; line-height:8px; font-size:8px;">&nbsp;</td></tr>
+
+    <!-- Masthead -->
+    <tr><td align="center" style="padding:28px 36px 8px;">
+      <div style="font-family:Arial,Helvetica,sans-serif; font-size:11px; letter-spacing:3px; text-transform:uppercase; color:#A8761A;">Your Morning Brief · {{DATE_LONG}}</div>
+      <div style="font-family:Georgia,'Times New Roman',serif; font-size:50px; font-weight:bold; color:#1F1B16; letter-spacing:-1px; line-height:1.05; padding-top:6px;">Appetite</div>
+      <div style="font-family:Georgia,serif; font-style:italic; font-size:14px; color:#4A4036; padding-top:8px;">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+    </td></tr>
+
+    <!-- Dateline -->
+    <tr><td style="padding:14px 36px 0;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-top:2px solid #1F1B16; border-bottom:2px solid #1F1B16;">
+        <tr><td style="padding:7px 0; font-family:Arial,Helvetica,sans-serif; font-size:11px; letter-spacing:1px; text-transform:uppercase; color:#A8761A; font-weight:bold;">Edition {{EDITION}}</td>
+        <td align="right" style="padding:7px 0; font-family:Arial,Helvetica,sans-serif; font-size:11px; letter-spacing:1px; text-transform:uppercase; color:#4A4036;">Venture · Food · Art · Nature</td></tr>
+      </table>
+    </td></tr>
+
+    <!-- Lead -->
+    <tr><td style="padding:24px 36px 0;">
+      <div style="font-family:Arial,Helvetica,sans-serif; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#A8761A; font-weight:bold;">{{LEAD_KICKER}}</div>
+      <div style="font-family:Georgia,'Times New Roman',serif; font-size:25px; font-weight:bold; color:#1F1B16; line-height:1.22; padding-top:8px;">{{HEADLINE}}</div>
+      <div style="font-family:Georgia,serif; font-size:15px; color:#4A4036; line-height:1.6; padding-top:10px;">{{DECK}}</div>
+    </td></tr>
+
+    <!-- Bullets -->
+    <tr><td style="padding:22px 36px 0;">
+      <div style="font-family:Arial,Helvetica,sans-serif; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#A8761A; font-weight:bold; padding-bottom:6px;">Also in this edition</div>
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+        <tr><td valign="top" style="font-family:Georgia,serif; font-size:15px; color:#E7B43A; padding:7px 10px 7px 0; line-height:1.5;">●</td><td style="font-family:Georgia,serif; font-size:15px; color:#1F1B16; padding:7px 0; line-height:1.5;">{{BULLET_1}}</td></tr>
+        <tr><td valign="top" style="font-family:Georgia,serif; font-size:15px; color:#E7B43A; padding:7px 10px 7px 0; line-height:1.5;">●</td><td style="font-family:Georgia,serif; font-size:15px; color:#1F1B16; padding:7px 0; line-height:1.5;">{{BULLET_2}}</td></tr>
+        <tr><td valign="top" style="font-family:Georgia,serif; font-size:15px; color:#E7B43A; padding:7px 10px 7px 0; line-height:1.5;">●</td><td style="font-family:Georgia,serif; font-size:15px; color:#1F1B16; padding:7px 0; line-height:1.5;">{{BULLET_3}}</td></tr>
+        <tr><td valign="top" style="font-family:Georgia,serif; font-size:15px; color:#E7B43A; padding:7px 10px 7px 0; line-height:1.5;">●</td><td style="font-family:Georgia,serif; font-size:15px; color:#1F1B16; padding:7px 0; line-height:1.5;">{{BULLET_4}}</td></tr>
+      </table>
+    </td></tr>
+
+    <!-- Deep Read note (remove this <tr> if no deep read this edition) -->
+    <tr><td style="padding:18px 36px 0;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F4E8C9; border-radius:8px;">
+        <tr><td style="padding:14px 18px; font-family:Georgia,serif; font-size:14px; color:#4A4036; line-height:1.55;"><b style="color:#A8761A;">Deep Read inside:</b> <i>{{DEEP_READ}}</i></td></tr>
+      </table>
+    </td></tr>
+
+    <!-- CTA button -->
+    <tr><td align="center" style="padding:26px 36px 8px;">
+      <table role="presentation" cellpadding="0" cellspacing="0"><tr>
+        <td align="center" style="border-radius:100px; background:#A8761A;">
+          <a href="https://lazybreadzero.github.io/DailyBrief/julinka/briefings/{{DATE_ISO}}.html" target="_blank" style="display:inline-block; padding:14px 34px; font-family:Arial,Helvetica,sans-serif; font-size:14px; font-weight:bold; letter-spacing:1px; text-transform:uppercase; color:#FBF9F3; text-decoration:none; border-radius:100px;">Read the full brief →</a>
+        </td>
+      </tr></table>
+    </td></tr>
+
+    <!-- Footer -->
+    <tr><td style="padding:18px 36px 30px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-top:1px solid #E5DAC4;">
+        <tr><td align="center" style="padding-top:16px; font-family:Arial,Helvetica,sans-serif; font-size:11px; color:#928775; line-height:1.8; letter-spacing:0.5px;">
+          <b style="color:#1F1B16;">APPETITE</b> · Edition {{EDITION}} · {{DATE_LONG}}<br />
+          A personal briefing for Julinka Naomi Waesche · Venture · Food · Art · Nature
+        </td></tr>
+      </table>
+    </td></tr>
+
+  </table>
+
+</td></tr>
+</table>
+</body>
+</html>
