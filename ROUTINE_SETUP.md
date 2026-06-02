@@ -1,81 +1,65 @@
-# Frontier Intelligence — Routine Setup
+# Routine Setup — ONE routine, BOTH briefings
 
-The daily briefing is produced by a **Claude Code Routine** (a scheduled automation). Routines run in Anthropic's cloud on a schedule — no machine of yours needs to be on. You create it once in the Claude Code web or desktop app.
+A single **Claude Code Routine** produces *both* daily briefings in one run and sends *two* emails:
+- **Frontier Intelligence** (Angelo) — files at the repo root → emails `angelo.gunther@gmail.com`
+- **Appetite** (Julinka) — files in `julinka/` → emails `julinkacannes@gmail.com`
 
-> **All files live on `main`**, so the routine reads them directly.
-
----
-
-## ⚠️ One-time setup: enable GitHub Pages (so the email link works)
-
-The email links to the full briefing at `https://lazybreadzero.github.io/DailyBrief/briefings/<date>.html`. That URL only resolves once **GitHub Pages is enabled**:
-
-**GitHub → repo Settings → Pages → Build and deployment → Source: "Deploy from a branch" → Branch: `main` / `/(root)` → Save.**
-
-The repo must also be **public** (it is). Give it ~1 minute to build. To verify, open `https://lazybreadzero.github.io/DailyBrief/briefings/2026-06-02.html`.
-
-**Don't want to enable Pages?** The template's button also works with this zero-setup fallback URL (renders the same file straight from the public repo):
-`https://htmlpreview.github.io/?https://raw.githubusercontent.com/LazyBreadZero/DailyBrief/main/briefings/<date>.html`
+Their content, memory, and outputs stay completely separate (root vs `julinka/` folders). See `HOW_IT_WORKS.md` for the architecture.
 
 ---
 
-## Create the routine
+## One-time setup
+1. **GitHub Pages** — ✅ enabled (Source: `main` / `(root)`). The emails link to `https://lazybreadzero.github.io/DailyBrief/...`.
+2. **Gmail connector** — must have **send** scope (not just draft). Only Gmail is required; other connectors (Canva, Calendar, Drive, Notion) are unused and can be removed.
+3. **Repo** — the routine must be connected to `LazyBreadZero/DailyBrief` (branch `main`).
 
-**Where:** Claude Code on the web (https://claude.com/code) or the desktop app → **Automations / Routines** → **New routine**.
+---
 
-### Name
-```
-Frontier Intelligence Daily Briefing
-```
+## Configure the routine
+Claude Code → **Routines** → open *Frontier Intelligence Daily Briefing* → ✏️ **Edit**.
+- **Name:** `Daily Briefings — Frontier Intelligence + Appetite`
+- **Repository:** `LazyBreadZero/DailyBrief` (branch `main`)
+- **Connectors:** Gmail (send)
+- **Schedule:** Daily at 08:00, Europe/Vienna
+- **Network:** Full
+- **Instructions:** replace everything with the block below, then **Save**.
 
-### Repository
+### Instructions (paste verbatim)
 ```
-LazyBreadZero/DailyBrief   (branch: main)
-```
+You produce TWO separate daily briefings in ONE run, each with its own data and its own email. Keep them fully separate — never mix their content or memory. Work from LazyBreadZero/DailyBrief, branch main. Use today's real date for everything.
 
-### Connectors
-```
-Gmail (with SEND permission)
-```
+═══ BRIEF 1 — FRONTIER INTELLIGENCE (Angelo) · files at repo ROOT ═══
+1. Read briefing_goal.md (the mission) and briefing_system_prompt.md (house style + rules).
+2. Read briefing_archive.md fully — your memory of every prior edition. Build continuity; never repeat a covered story.
+3. Run 5–8 web searches ONLY on the beats in briefing_system_prompt.md (NeuroTech, XR, AR/VR, BCI, spatial computing). Do NOT drift into general AI-industry news. Follow-up threads from the archive first, then fresh news.
+4. Write the full self-contained HTML briefing per briefing_system_prompt.md and save it as briefings/YYYY-MM-DD.html.
+5. Append today's edition block to briefing_archive.md before the summary table, update the table, and commit.
+6. EMAIL (do exactly; never improvise):
+   - Read email_template.html and copy it VERBATIM.
+   - Replace ONLY the {{TOKENS}}: {{DATE_ISO}}, {{DATE_LONG}}, {{EDITION}}, {{CATEGORIES}}, {{LEAD_KICKER}}, {{HEADLINE}}, {{DECK}}, {{BULLET_1}}..{{BULLET_4}} (each "<b>Topic</b> — one line"), {{DEEP_READ}} (or delete that <tr> if none).
+   - Button link MUST be exactly https://lazybreadzero.github.io/DailyBrief/briefings/{{DATE_ISO}}.html
+   - Send the FILLED TEMPLATE as the Gmail HTML body to angelo.gunther@gmail.com, subject "Frontier Intelligence — {{DATE_LONG}}".
+   - NEVER paste the full briefing into the email. NEVER attach it. Preview + button only.
 
-### Schedule
-```
-Daily at 08:00, timezone Europe/Vienna
-```
+═══ BRIEF 2 — APPETITE (Julinka) · files in julinka/ ═══
+7. Read julinka/briefing_goal.md and julinka/briefing_system_prompt.md.
+8. Read julinka/briefing_archive.md fully. Build continuity; never repeat a covered story.
+9. Run 5–8 web searches across the four pillars (Venture Capital, Food, Art, Nature). Follow-up threads first, then fresh news.
+10. Write the full self-contained HTML briefing per julinka/briefing_system_prompt.md and save it as julinka/briefings/YYYY-MM-DD.html.
+11. Append today's edition block to julinka/briefing_archive.md before the summary table, update the table, and commit.
+12. EMAIL (do exactly; never improvise):
+   - Read julinka/email_template.html and copy it VERBATIM.
+   - Replace ONLY the {{TOKENS}}: {{DATE_ISO}}, {{DATE_LONG}}, {{EDITION}}, {{LEAD_KICKER}}, {{HEADLINE}}, {{DECK}}, {{BULLET_1}}..{{BULLET_4}} (each "<b>Pillar</b> — one line"), {{DEEP_READ}} (or delete that <tr> if none).
+   - Button link MUST be exactly https://lazybreadzero.github.io/DailyBrief/julinka/briefings/{{DATE_ISO}}.html
+   - Send the FILLED TEMPLATE as the Gmail HTML body to julinkacannes@gmail.com, subject "Appetite — {{DATE_LONG}}".
+   - NEVER paste the full briefing into the email. NEVER attach it. Preview + button only.
 
-### Network access
-```
-Full (required for web searches)
-```
-
-### Prompt  (paste this exactly — it is deliberately strict about the email)
-```
-You generate today's "Frontier Intelligence" briefing. Work from the repository LazyBreadZero/DailyBrief on branch main.
-
-1. Read briefing_system_prompt.md fully — it is your house style and instructions.
-2. Read briefing_archive.md fully — the memory of all prior editions. Build continuity; do not repeat covered stories.
-3. Run 5–8 web searches (follow-up threads from the archive first, then fresh news in NeuroTech / XR / BCI / spatial computing). Use today's real date.
-4. Write the full self-contained HTML briefing per briefing_system_prompt.md and save it as briefings/YYYY-MM-DD.html (today's actual date).
-5. Append today's edition block to briefing_archive.md before the summary table, update the table, and commit both files.
-
-6. SEND THE EMAIL — follow this exactly; do NOT improvise the email:
-   a. Read email_template.html from the repo and copy it VERBATIM.
-   b. Replace ONLY the {{TOKENS}}: {{DATE_ISO}} (e.g. 2026-06-03), {{DATE_LONG}} (e.g. Tuesday, 3 June 2026), {{EDITION}}, {{CATEGORIES}}, {{LEAD_KICKER}}, {{HEADLINE}}, {{DECK}}, {{BULLET_1}}..{{BULLET_4}} (form: <b>Topic</b> — one line), {{DEEP_READ}} (or delete that <tr> if none).
-   c. The button link must be exactly https://lazybreadzero.github.io/DailyBrief/briefings/{{DATE_ISO}}.html
-   d. Send the FILLED TEMPLATE as the HTML body via Gmail to angelo.gunther@gmail.com, subject "Frontier Intelligence — {{DATE_LONG}}".
-   e. NEVER paste the full briefing into the email. NEVER attach it. NEVER redesign the template. The email is only the preview + the link.
+Do BRIEF 1 completely, then BRIEF 2 completely. End state: two new HTML files committed (one at root briefings/, one in julinka/briefings/), both archives updated, and two preview emails sent.
 ```
 
 ---
 
-## Gmail send permission
-
-When adding the **Gmail connector**, grant **send** scope during OAuth. If it only has draft scope, the routine will create a draft each morning instead of sending.
-
----
-
-## After creating it
-
-1. **Run it once manually** ("Run now") and confirm: a new `briefings/YYYY-MM-DD.html` is committed, the archive is updated, and the email that arrives is the **short template preview with a working "Read the full briefing" button** (not the full HTML).
-2. Click the button in the email to confirm the link resolves (enable Pages first, or use the htmlpreview fallback).
+## After saving
+1. Hit **Run now** once. Confirm: a new `briefings/YYYY-MM-DD.html` **and** a new `julinka/briefings/YYYY-MM-DD.html` are committed, both archives updated, and **two** emails arrive — each a short preview with a working "Read the full…" button (not the full HTML).
+2. Click both buttons to confirm the Pages links resolve.
 3. Leave it on the daily 08:00 Europe/Vienna schedule.

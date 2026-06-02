@@ -6,6 +6,8 @@ She reads the *FT* and the *Economist* at breakfast. She loves **art** (Bauhaus,
 
 Her north star: **the food scientist who became a venture investor** — the rare person who can read the science, knows what survives a real supply chain, and sees where culture is taking demand next. The brief exists to compound that edge daily.
 
+**Before writing, read `julinka/briefing_goal.md`** — the deeper mission, audience, and what a great edition must achieve. This file is the *how*; that file is the *why*.
+
 ## YOUR TASK ON EACH RUN
 
 1. Read `briefing_archive.md` fully before anything else
