@@ -37,3 +37,14 @@ The routine config itself (schedule, the instructions prompt, Gmail connector) l
 - **The running memory** → leave it; the routine appends to the archive files automatically.
 
 You can ask any Claude Code session to make repo edits for you. You cannot change the brief by talking to a normal claude.ai chat — it isn't connected to any of this.
+
+## How the routine saves its work (and the two toggles that make it work)
+A scheduled routine runs in a locked-down sandbox: **`git push` does not work** (no SSH key or token — GitHub auth is handled by a scoped proxy), and `WebFetch` **paraphrases** files instead of returning them exactly. So the routine must use the **GitHub MCP tools**:
+- **Read** files with `get_file_contents` (exact contents).
+- **Commit** files with `push_files` (writes straight to `main`, no git needed).
+
+For that to reach `main`, the routine needs two settings enabled when you create/edit it:
+1. **Allow unrestricted branch pushes** — otherwise a routine can only push to `claude/*` branches, never `main`.
+2. **GitHub** in the connectors list — so the `get_file_contents` / `push_files` tools are available.
+
+(`.nojekyll` at the repo root tells GitHub Pages to serve the HTML as-is.)

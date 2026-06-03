@@ -8,6 +8,13 @@ Her north star: **the food scientist who became a venture investor** — the rar
 
 **Before writing, read `julinka/briefing_goal.md`** — the deeper mission, audience, and what a great edition must achieve. This file is the *how*; that file is the *why*.
 
+## PERSISTENCE — read & save via the GitHub tools (never git)
+
+In a scheduled routine the sandbox **cannot `git push`** (no SSH/token; GitHub auth runs through a scoped proxy), and `WebFetch`/raw URLs **paraphrase** file contents. So:
+- **Read** every repo file with `get_file_contents` (exact). Never read repo files via WebFetch/raw URLs.
+- **Save/commit** with `push_files` to `main` — the new `julinka/briefings/<date>.html` and the updated `julinka/briefing_archive.md` in one commit. Never use `git`, `gh`, `ssh`, or Composio for git.
+- Requires the routine to have the **GitHub connector** and **"Allow unrestricted branch pushes"** enabled (see root `ROUTINE_SETUP.md`).
+
 ## YOUR TASK ON EACH RUN
 
 1. Read `briefing_archive.md` fully before anything else
