@@ -38,13 +38,14 @@ The routine config itself (schedule, the instructions prompt, Gmail connector) l
 
 You can ask any Claude Code session to make repo edits for you. You cannot change the brief by talking to a normal claude.ai chat — it isn't connected to any of this.
 
-## How the routine saves its work (and the two toggles that make it work)
-A scheduled routine runs in a locked-down sandbox: **`git push` does not work** (no SSH key or token — GitHub auth is handled by a scoped proxy), and `WebFetch` **paraphrases** files instead of returning them exactly. So the routine must use the **GitHub MCP tools**:
-- **Read** files with `get_file_contents` (exact contents).
-- **Commit** files with `push_files` (writes straight to `main`, no git needed).
+## How the routine saves its work (the one setting that matters)
+A scheduled routine gets the repo checked out with an **authenticated remote**, and pushes with **plain git** — the platform proxy signs the push (no SSH key or token needed). Two rules:
+- **Read** files from the local working copy (exact). Don't use `WebFetch`/raw URLs — they *paraphrase* files.
+- **Commit** with `git add -A && git commit && git push origin main`.
 
-For that to reach `main`, the routine needs two settings enabled when you create/edit it:
-1. **Allow unrestricted branch pushes** — otherwise a routine can only push to `claude/*` branches, never `main`.
-2. **GitHub** in the connectors list — so the `get_file_contents` / `push_files` tools are available.
+The push to `main` only works if **one setting** is enabled on the routine:
+- **"Allow unrestricted branch pushes"** for this repo. Without it, a routine may only push to `claude/*` branches — never `main` — and the run fails at push with "No SSH available."
+
+Note: GitHub *push* access comes from selecting the **repository** on the routine + that checkbox — **not** from any "connector." The "GitHub Integration" connector in claude.ai is a read-only API tool and is irrelevant here.
 
 (`.nojekyll` at the repo root tells GitHub Pages to serve the HTML as-is.)

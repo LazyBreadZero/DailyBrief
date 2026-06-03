@@ -1,57 +1,63 @@
-# Routine Setup — ONE routine, BOTH briefings (bulletproof persistence)
+# Routine Setup — ONE routine, BOTH briefings
 
-A single **Claude Code Routine** produces *both* daily briefings each morning and sends *two* emails:
+A single **Claude Code Routine** produces *both* briefings each morning and sends *two* emails:
 - **Frontier Intelligence** (Angelo) — files at repo root → `angelo.gunther@gmail.com`
 - **Appetite** (Julinka) — files in `julinka/` → `julinkacannes@gmail.com`
 
-> **Why the old run failed (and this fixes it):** in a scheduled routine, `git push` does **not** work (the sandbox has no SSH/token; GitHub auth goes through a scoped proxy), and `WebFetch`/raw URLs **paraphrase** file contents instead of returning them exactly. The reliable path is the **GitHub MCP tools** — `get_file_contents` to read, `push_files` to commit — and the routine must be **allowed to push to `main`**.
-
 ---
 
-## ⚠️ Prerequisites — set these on the routine (most are one-time)
-1. **Allow unrestricted branch pushes → ON.** By default a routine may only push to `claude/*` branches; this brief writes to `main`, so this toggle is **required** (Routine settings, when creating/editing).
-2. **Connectors:** **GitHub** (so the `mcp__github__*` tools are available) **and Gmail (send)**. You can remove Calendar/Drive/Canva/Notion — they're unused.
-3. **GitHub Pages:** ✅ already enabled (Source `main` / root). Links are `https://lazybreadzero.github.io/DailyBrief/...`.
-4. **Repository:** `LazyBreadZero/DailyBrief`, branch `main`.
-5. **Schedule:** Daily 08:00, Europe/Vienna. **Network:** Full.
+## ⚠️ Read this first: how a routine writes to GitHub (the thing that was broken)
+
+A routine does **not** push via SSH, via an MCP "GitHub connector", or via Composio. It pushes with **plain `git`**, and the platform's **auth proxy** signs the push for you. There is exactly **one gate**:
+
+> **"Allow unrestricted branch pushes"** must be enabled for this repo on the routine. By default a routine may only push to `claude/*` branches — never `main`. With this off, the daily push to `main` fails (the run reports "No SSH available" and gives up).
+
+**The "GitHub Integration" connector at claude.ai/customize/connectors is unrelated** — it's a read-only GitHub *API* tool for chats. It does not grant push access and you do **not** need it here (which is why it doesn't appear in the routine's connector list).
+
+So the routine needs, in its settings:
+1. The repo **`LazyBreadZero/DailyBrief`** selected as a **Repository** (this is what provides authenticated clone + push — separate from "Connectors").
+2. **"Allow unrestricted branch pushes" = ON** for it.
+3. **Gmail** connector with **send** scope (for the emails).
+4. Pages: ✅ already enabled.
 
 ---
 
 ## Instructions (paste verbatim into the routine's Instructions box)
 ```
-You produce TWO separate daily briefings in ONE run, each with its own data and its own email. Keep them fully separate. Use today's real date everywhere. Repo: LazyBreadZero/DailyBrief, branch main.
+You produce TWO separate daily briefings in ONE run, each with its own data and its own email. Keep them fully separate. Use today's real date everywhere. Repo: LazyBreadZero/DailyBrief.
 
-PERSISTENCE RULES (critical — the sandbox cannot git push):
-- READ every repo file with the GitHub tool get_file_contents (owner LazyBreadZero, repo DailyBrief, ref main). NEVER read repo files via WebFetch or raw URLs — they paraphrase and corrupt the content.
-- WRITE/commit every repo file with the GitHub tool push_files (branch main, multiple files in one commit). NEVER use git, gh, ssh, or Composio for git — they have no push credential here and will fail.
-- If get_file_contents / push_files aren't loaded, find them first via ToolSearch ("github get_file_contents", "github push_files").
+PERSISTENCE — read from the clone, commit with plain git (NOT WebFetch, NOT SSH, NOT MCP/Composio):
+- The repo is checked out for you with an authenticated remote. Read every file from that local working copy — it is exact. NEVER read repo files via WebFetch or raw URLs; they paraphrase and corrupt the content.
+- After writing/editing files, persist with plain git on the main branch:
+    git add -A && git commit -m "<message>" && git push origin main
+- The platform proxy signs the push automatically. (Requires "Allow unrestricted branch pushes" enabled for this repo in the routine settings — otherwise the push to main is rejected.)
+- Do NOT clone a fresh copy from a public URL, and do NOT try SSH, gh, or Composio for the push.
 
 ═══ BRIEF 1 — FRONTIER INTELLIGENCE (Angelo) · files at repo ROOT ═══
-1. get_file_contents for: briefing_goal.md, briefing_system_prompt.md, briefing_archive.md, email_template.html.
-2. Use briefing_archive.md as memory — build continuity, never repeat a covered story.
-3. Run 5–8 web searches ONLY on the beats in briefing_system_prompt.md (NeuroTech, XR, AR/VR, BCI, spatial computing). Do NOT drift into general AI-industry news.
-4. Compose the full self-contained HTML briefing per briefing_system_prompt.md.
-5. Compose the updated briefing_archive.md (append today's edition block before the summary table; update the table).
-6. COMMIT with ONE push_files call to branch main, message "Frontier Intelligence — <DATE_LONG>", files:
-     [ {path:"briefings/<DATE_ISO>.html", content: <the full HTML>},
-       {path:"briefing_archive.md", content: <the full updated archive>} ]
+1. Read (from the working copy): briefing_goal.md, briefing_system_prompt.md, briefing_archive.md, email_template.html.
+2. Use briefing_archive.md as memory — continuity, never repeat a covered story.
+3. 5–8 web searches ONLY on the beats in briefing_system_prompt.md (NeuroTech, XR, AR/VR, BCI, spatial computing). No general AI-industry drift.
+4. Write the full self-contained HTML briefing to briefings/<DATE_ISO>.html.
+5. Append today's edition block to briefing_archive.md before the summary table; update the table.
+6. Commit + push both files to main (one commit), message "Frontier Intelligence — <DATE_LONG>".
 7. EMAIL: take email_template.html, replace ONLY the {{TOKENS}} ({{DATE_ISO}},{{DATE_LONG}},{{EDITION}},{{CATEGORIES}},{{LEAD_KICKER}},{{HEADLINE}},{{DECK}},{{BULLET_1..4}} as "<b>Topic</b> — one line",{{DEEP_READ}} or delete that <tr>). Button link MUST be https://lazybreadzero.github.io/DailyBrief/briefings/<DATE_ISO>.html . Send the filled template as the Gmail HTML body to angelo.gunther@gmail.com, subject "Frontier Intelligence — <DATE_LONG>". NEVER paste the full briefing or attach it — preview + button only.
 
 ═══ BRIEF 2 — APPETITE (Julinka) · files in julinka/ ═══
-8. get_file_contents for: julinka/briefing_goal.md, julinka/briefing_system_prompt.md, julinka/briefing_archive.md, julinka/email_template.html.
+8. Read (from the working copy): julinka/briefing_goal.md, julinka/briefing_system_prompt.md, julinka/briefing_archive.md, julinka/email_template.html.
 9. Memory + continuity as above.
-10. Run 5–8 web searches across the four pillars (Venture Capital, Food, Art, Nature).
-11. Compose the full HTML briefing per julinka/briefing_system_prompt.md.
-12. Compose the updated julinka/briefing_archive.md.
-13. COMMIT with ONE push_files call to branch main, message "Appetite — <DATE_LONG>", files:
-     [ {path:"julinka/briefings/<DATE_ISO>.html", content: <the full HTML>},
-       {path:"julinka/briefing_archive.md", content: <the full updated archive>} ]
+10. 5–8 web searches across the four pillars (Venture Capital, Food, Art, Nature).
+11. Write the full HTML briefing to julinka/briefings/<DATE_ISO>.html.
+12. Append today's edition block to julinka/briefing_archive.md; update the table.
+13. Commit + push both files to main (one commit), message "Appetite — <DATE_LONG>".
 14. EMAIL: fill julinka/email_template.html (tokens {{DATE_ISO}},{{DATE_LONG}},{{EDITION}},{{LEAD_KICKER}},{{HEADLINE}},{{DECK}},{{BULLET_1..4}} as "<b>Pillar</b> — one line",{{DEEP_READ}}). Button link MUST be https://lazybreadzero.github.io/DailyBrief/julinka/briefings/<DATE_ISO>.html . Send to julinkacannes@gmail.com, subject "Appetite — <DATE_LONG>". Preview + button only.
 
-Do BRIEF 1 completely, then BRIEF 2. End state: two push_files commits on main (a new HTML + updated archive each) and two preview emails sent.
+Do BRIEF 1 completely, then BRIEF 2. End state: both new HTML files + both updated archives pushed to main, and two preview emails sent.
 ```
 
 ---
 
-## After saving — verify once with **Run now**
-You should see, on `main`: a new `briefings/YYYY-MM-DD.html` **and** `julinka/briefings/YYYY-MM-DD.html`, both archives updated (via `push_files` commits, **not** git), and **two** preview emails with working buttons. If a commit step is skipped, re-check **"Allow unrestricted branch pushes"** and that **GitHub** is in the connectors list.
+## Verify with **Run now**
+On `main` you should see new `briefings/<date>.html` + `julinka/briefings/<date>.html` and both updated archives, plus two preview emails with working buttons. If the push step is skipped or errors, the cause is almost always **"Allow unrestricted branch pushes"** still being off, or the repo not selected as a **Repository** on the routine.
+
+### If native `git push` still fails (fallback)
+Authorise **Composio → GitHub** once (the routine offers a "Connect GitHub to Composio" link), then the commit step can use Composio's *create-or-update-file* tool instead of `git push`. Slower and adds a dependency, but works without the proxy. Ask and I'll swap the persistence block to the Composio version.

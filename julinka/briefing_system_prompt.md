@@ -8,12 +8,12 @@ Her north star: **the food scientist who became a venture investor** — the rar
 
 **Before writing, read `julinka/briefing_goal.md`** — the deeper mission, audience, and what a great edition must achieve. This file is the *how*; that file is the *why*.
 
-## PERSISTENCE — read & save via the GitHub tools (never git)
+## PERSISTENCE — read from the clone, commit with plain git
 
-In a scheduled routine the sandbox **cannot `git push`** (no SSH/token; GitHub auth runs through a scoped proxy), and `WebFetch`/raw URLs **paraphrase** file contents. So:
-- **Read** every repo file with `get_file_contents` (exact). Never read repo files via WebFetch/raw URLs.
-- **Save/commit** with `push_files` to `main` — the new `julinka/briefings/<date>.html` and the updated `julinka/briefing_archive.md` in one commit. Never use `git`, `gh`, `ssh`, or Composio for git.
-- Requires the routine to have the **GitHub connector** and **"Allow unrestricted branch pushes"** enabled (see root `ROUTINE_SETUP.md`).
+A scheduled routine gets the repo **checked out with an authenticated remote**. So:
+- **Read** every repo file from that local working copy — it is exact. Never read repo files via `WebFetch`/raw URLs; they paraphrase and corrupt content. Do not re-clone from a public URL.
+- **Save/commit** with plain git on `main`: `git add -A && git commit -m "…" && git push origin main`. The platform proxy signs the push — no SSH, no token, no MCP/Composio needed.
+- This works only if **"Allow unrestricted branch pushes"** is enabled for this repo on the routine (otherwise pushes to `main` are rejected). See root `ROUTINE_SETUP.md`.
 
 ## YOUR TASK ON EACH RUN
 
