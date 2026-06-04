@@ -177,6 +177,64 @@ NMPA commercial approval vs CE mark/FDA regulatory race, NeuroXess Mandarin deco
 
 ---
 
+## EDITION 4 — Thursday, 4 June 2026
+
+### Lead Story
+**Title:** Merge Labs Breaks Cover: Molecular Neurons, Ultrasound Bandwidth, No Implants
+**Category:** Brain-Computer Interfaces
+**Core argument:** Merge Labs has disclosed its architecture — molecular coupling to neurons, ultrasound signal transmission, zero brain penetration — the first BCI design built from first principles for consumer scale. OpenAI is building custom foundation models to interpret noisy brain signals, making this the first hardware/AI-coupled BCI play. Architecture is still in early research phase with no human trial data.
+**Key companies introduced:** None new (Merge Labs introduced Edition 2; architecture now disclosed)
+**Key people introduced:** Tyson Aflalo and Sumner Norman (Forest Neurotech co-founders now at Merge Labs); Mikhail Shapiro (Caltech, acoustic biomolecule targeting)
+**Key concepts introduced:** Tier 4 BCI architecture (molecular + ultrasound, non-implanted); four-tier BCI architecture spectrum (penetrating → stent → tFUS → molecular/ultrasound); thought-level AI interaction; acoustic biomolecule targeting (Shapiro, Caltech)
+**Sources used:** Core Memory (9/10): https://www.corememory.com/p/exclusive-openai-and-sam-altman-back-merge-labs-bci ; TechCrunch (9/10): https://techcrunch.com/2026/01/15/openai-invests-in-sam-altmans-brain-computer-interface-startup-merge-labs/ ; OpenAI primary (10/10): https://openai.com/index/investing-in-merge-labs/ ; R&D World Online (8/10): https://www.rdworldonline.com/altmans-rumored-brain-interface-startup-chases-thought-to-chatgpt-dreams/
+**Angelo's Angle delivered:** Write four-tier BCI architecture map before AWE June 15; Science Corp outreach now time-critical (CE mark imminent); Android XR EU market strategy brief for Rotterdam
+**Follow-up threads to watch:** Merge Labs first in-vivo publication (Shapiro Caltech lab); first human trial protocol announcement; any regulatory filing; Science Corp CE mark decision (still mid-2026); WWDC June 8 visionOS 3 developer signals; Android XR glasses pricing announcement; Prophetic Donders Institute efficacy publication
+
+### Story 2
+**Title:** WWDC June 8 — Four Days to Learn Whether Apple Can Hold Its Developer Ecosystem
+**Category:** Extended Reality · Apple
+**Core argument:** visionOS 3 keynote (June 8) must deliver on four developer criteria — hand tracking precision, shared immersive spaces, Apple Intelligence in spatial contexts, developer retention tools — or confirm that Apple is drifting out of XR's critical formation period while Android XR holds the 2026–2027 hardware window uncontested.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** visionOS 3 developer retention test; Apple's 2028 hardware successor timeline (reinforced from Edition 3)
+**Sources used:** Macworld (8/10): https://www.macworld.com/article/3148783/apple-jam-packed-june-heres-whats-coming-at-wwdc-and-more.html ; Apple Developer primary (10/10): https://developer.apple.com/wwdc26/
+**Follow-up threads to watch:** WWDC June 8 full keynote; visionOS 3 developer API announcements; any Apple smart glasses rumours; Enterprise XR adoption signals
+
+### Story 3
+**Title:** Warby Parker and Gentle Monster Android XR Glasses Confirmed — Fall 2026 Launch
+**Category:** Extended Reality · Smart Glasses
+**Core argument:** First look at Android XR smart glasses confirmed at Google I/O 2026. Two design families (Warby Parker, Gentle Monster), two hardware tiers (audio-only, display). Gemini integration: live translation, navigation, notification summaries. Fall 2026 launch in select markets, pricing undisclosed. EU market strategy for both brands entirely absent — live commercial opportunity.
+**Key companies introduced:** None new (Warby Parker, Gentle Monster introduced Edition 2)
+**Key concepts introduced:** Two-tier Android XR glasses hardware (audio vs. display); EU distribution gap for Android XR eyewear
+**Sources used:** Google Blog primary (10/10): https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/ ; Android Authority (9/10): https://www.androidauthority.com/samsung-google-android-xr-glasses-warby-parker-gentle-monster-google-io-2026-3668380/
+**Follow-up threads to watch:** Android XR glasses pricing announcement; EU distribution strategy; fall 2026 launch markets
+
+### Intelligence Briefs
+**Brief 1 — AWE 2026:** June 15–18, Long Beach. Evan Spiegel keynote June 16. Research Poster Track debuts (37.5% acceptance). Auggie Awards June 17. Angelo's consent essay deadline = June 15. Sources: AWE Official (10/10): https://www.awexr.com/usa-2026 ; PR Newswire (9/10) https://www.prnewswire.com/news-releases/augmented-world-expo-2026-reveals-auggie-award-finalists-rising-xr-builders-startup-to-watch-nominees-and-enterprise-xr-leaders-302778845.html. Follow-up: Auggie Award winner list; enterprise XR announcements; Research Poster Track submission window.
+**Brief 2 — Prophetic Halo Beta:** Q1 2026 beta testing of Halo Dual ($449) complete. Still tracking end-2026 shipping. Phase ($1,299) slipped to mid-late 2027. Donders Institute publication still pending. Source: Prophetic Official (10/10): https://www.prophetic.com/halo. Follow-up: Donders Institute efficacy paper; Phase timeline update.
+**Brief 3 — Synchron 2-year stability data:** Zero signal degradation, zero device migration across patients over 2+ years. Strongest long-term BCI safety dataset published. $270m+ raised, pivotal trials ongoing. Sources: 3Zebras (7/10); Tech for Impact Summit (7/10). Follow-up: FDA pivotal trial submission; Synchron commercial timeline.
+**Brief 4 — Science Corp CE Mark:** Still mid-2026 target, no decision yet. Germany §14 pathway intact. 47 patients, 80% improvement. Outreach from Angelo still not made — now time-critical. Sources: Science Corp Official (10/10): https://science.xyz/news/prima-ce-mark-application-submitted/ ; TechCrunch (9/10). Follow-up: CE mark decision; Germany first prescriber network.
+
+### Deep Read
+**Title:** The Consumer BCI Inversion — Why Merge Labs Is the First Architecture That Could Reach Scale
+**Core argument:** Full four-tier BCI architecture map with commercial/regulatory implications. Only Tier 4 (molecular + ultrasound) is designed for consumer scale. Tiers 1–2 are structurally limited to clinical markets by cost and surgical access. Tier 3 (tFUS) is non-invasive but limited to broad modulation. OpenAI's foundation model integration is the decisive differentiator — building the interpretation layer alongside the collection layer from day one.
+
+### New concepts in Angelo's working vocabulary (do not re-explain)
+Four-tier BCI architecture spectrum (complete: penetrating → stent → tFUS → molecular/ultrasound); acoustic biomolecule targeting; Tier 4 BCI (molecular + ultrasound, non-implanted); thought-level AI interaction; two-tier Android XR glasses hardware; visionOS 3 developer retention test framework
+
+### Angelo's Angles Issued — Track Completion
+- [ ] Write "Four Architectures of BCI" map — submit to AWE Research Poster Track or publish before June 15 *(new)*
+- [ ] Draft consent layer essay (300 words) — publish before AWE June 15 2026 *(carried from Editions 1–3)*
+- [ ] Reach out to Science Corp — Max Hodak direct outreach, 3-sentence commercial translation *(carried, now URGENT — CE mark imminent)*
+- [ ] Android XR EU market strategy brief for Rotterdam June 23–25 *(new)*
+- [ ] Attend Rotterdam Immersive Tech Week June 23–25 *(carried from Editions 1–3)*
+- [ ] Map German neurologist/ophthalmologist network (first PRIMA prescribers) *(carried from Edition 2)*
+- [ ] Write Q3 2026 essay: post-screen experience when AI and BCI both mature *(carried from Edition 2)*
+- [ ] Write regulatory race essay: China's 2026 = US/EU's ~2029 *(carried from Edition 3)*
+- [ ] Review AWE Auggie finalists for US enterprise XR / no EU footprint BD targets *(carried from Edition 3)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Companies | Actions Issued |
@@ -184,6 +242,7 @@ NMPA commercial approval vs CE mark/FDA regulatory race, NeuroXess Mandarin deco
 | 1 | 2 Jun 2026 | Science Corp $230m BCI | BCI landscape, Android XR, Meta privacy, 8th Wall, Oura, China BCI | Science Corp, Synchron, Paradromics, XREAL, Samsung XR, Oura | Consent thesis; Science Corp outreach; Rotterdam |
 | 2 | 1 Jun 2026 | Samsung Galaxy XR ships ($1,800); Android XR commercially real | Android XR platform, BCI $1.1bn funding surge, Science Corp CE mark submitted, Meta lawsuit CMC, AWE 2026, Prophetic Halo, Merge Labs | Warby Parker (XR), Gentle Monster (XR), Merge Labs | German neurologist network; Q3 post-screen essay |
 | 3 | 2 Jun 2026 | China approves NeuroXess as world's first commercial brain implant | China BCI commercial approval, Apple Vision Pro retreat/2028, Oura Ring 5 + Doublepoint (corrects Ed.1), Varjo defence XR, NAOX LINK EEG, WWDC preview, AWE Auggie Awards | NeuroXess (commercial), Doublepoint Technologies, NAOX | Regulatory race essay before AWE; Auggie finalist BD targeting |
+| 4 | 4 Jun 2026 | Merge Labs architecture disclosed: molecular + ultrasound, no implants, OpenAI AI layer | Merge Labs Tier 4 BCI architecture, WWDC June 8 visionOS 3 stakes, Android XR glasses (Warby/Gentle Monster) fall launch, AWE 11 days, Prophetic beta, Synchron 2yr data, Science Corp CE mark | None new (Aflalo, Norman, Shapiro as key people) | BCI architecture map essay; Science Corp outreach URGENT; Android XR EU brief for Rotterdam |
 
 ---
 *Last updated: Edition 3 — 2 June 2026*
