@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Thursday, 4 June 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400;1,9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet" />
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#EFE9DC;font-family:'Source Serif 4',Georgia,serif;color:#1F1B16;}
+.wrapper{max-width:800px;margin:0 auto;padding:32px 14px;}
+.briefing{background:#FBF9F3;border-radius:6px;overflow:hidden;box-shadow:0 2px 18px rgba(31,27,22,0.09);}
+.top-bar{height:10px;background:#E7B43A;}
+.content{padding:0 52px;}
+/* SUN MOTIF */
+.sun-motif{text-align:center;font-size:22px;color:#A8761A;margin:6px 0 0;letter-spacing:4px;}
+/* NAMEPLATE */
+.nameplate{text-align:center;padding:34px 0 16px;}
+.nameplate .eyebrow{font-family:'DM Sans',Arial,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#A8761A;}
+.nameplate h1{font-family:'Fraunces',Georgia,serif;font-size:66px;font-weight:900;color:#1F1B16;letter-spacing:-2px;line-height:1;margin:8px 0 6px;}
+.nameplate .tagline{font-family:'Source Serif 4',Georgia,serif;font-style:italic;font-size:14px;color:#4A4036;}
+/* GINGHAM RULE */
+.gingham{height:8px;background:repeating-linear-gradient(90deg,#E7B43A 0px,#E7B43A 8px,#FBF9F3 8px,#FBF9F3 16px);margin:14px 0 0;opacity:0.5;}
+/* DATELINE */
+.dateline{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-top:2px solid #1F1B16;border-bottom:2px solid #1F1B16;margin-top:6px;}
+.dateline .ed{font-family:'DM Sans',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#A8761A;}
+.dateline .pillars{font-family:'DM Sans',Arial,sans-serif;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#4A4036;}
+/* CONTINUITY NOTE */
+.cont-note{background:#F4E8C9;border-radius:5px;padding:14px 18px;margin:28px 0 0;font-family:'Source Serif 4',Georgia,serif;font-size:14px;color:#4A4036;line-height:1.55;}
+.cont-note em{color:#A8761A;}
+/* SECTIONS */
+.kicker{font-family:'DM Sans',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:#A8761A;margin:36px 0 12px;}
+h2.lead{font-family:'Fraunces',Georgia,serif;font-size:38px;font-weight:900;line-height:1.1;color:#1F1B16;margin-bottom:14px;}
+.deck{font-family:'Source Serif 4',Georgia,serif;font-size:17px;font-style:italic;color:#4A4036;line-height:1.55;margin-bottom:22px;border-left:3px solid #E7B43A;padding-left:16px;}
+p{font-family:'Source Serif 4',Georgia,serif;font-size:15.5px;line-height:1.73;color:#2C2720;margin-bottom:16px;}
+.badge{display:inline-block;font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;padding:2px 7px;border-radius:3px;vertical-align:middle;margin-left:3px;}
+.bg{background:#E8F1E4;color:#3A6B2A;}
+.ba{background:#F4E8C9;color:#7A5A12;}
+a{color:#A8761A;text-decoration:none;}
+a:hover{text-decoration:underline;}
+.src{font-size:13px;color:#928775;margin-bottom:28px;}
+/* PULLQUOTE */
+.pullquote{margin:30px 0;padding:26px 34px;background:#211C16;border-radius:6px;text-align:center;}
+.pullquote blockquote{font-family:'Fraunces',Georgia,serif;font-size:22px;font-weight:700;font-style:italic;color:#FBF9F3;line-height:1.4;margin-bottom:10px;}
+.pullquote cite{font-family:'DM Sans',Arial,sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#E7B43A;}
+/* RULES */
+hr.d1{border:none;border-top:1px solid #1F1B16;margin:6px 0 3px;}
+hr.d2{border:none;border-top:3px solid #1F1B16;margin:0 0 32px;}
+/* TWO-COL */
+.two-col{display:flex;gap:32px;margin:8px 0 32px;}
+.two-col .col{flex:1;}
+h3.sh{font-family:'Fraunces',Georgia,serif;font-size:20px;font-weight:700;line-height:1.2;color:#1F1B16;margin:10px 0;padding-bottom:10px;border-bottom:1px solid #DDD5C0;}
+/* INTEL BRIEFS */
+.intel-briefs{margin:8px 0 24px;}
+.ib{padding:18px 0;border-bottom:1px solid #E8E0CC;}
+.ib:last-child{border-bottom:none;}
+.ib h4{font-family:'Fraunces',Georgia,serif;font-size:17px;font-weight:700;color:#1F1B16;margin-bottom:8px;}
+/* JULINKA'S ANGLE */
+.angle-box{background:#211C16;border-radius:6px;padding:32px 36px;margin:28px 0;}
+.angle-box .a-title{font-family:'DM Sans',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#E7B43A;margin-bottom:22px;}
+.a-item{display:flex;gap:18px;margin-bottom:24px;}
+.a-item:last-child{margin-bottom:0;}
+.a-num{font-family:'Fraunces',Georgia,serif;font-size:30px;font-weight:900;color:#E7B43A;line-height:1;flex-shrink:0;width:28px;}
+.a-body{font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.65;color:#C4BBA8;}
+.a-body strong{color:#FBF9F3;}
+/* TWO SIDEBAR */
+.two-sidebar{display:flex;gap:28px;margin:10px 0 28px;}
+.sb-col{flex:1;}
+.sb-hdr{font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#A8761A;padding-bottom:8px;border-bottom:2px solid #A8761A;margin-bottom:14px;}
+.ev{padding:10px 0;border-bottom:1px solid #EAE2CC;}
+.ev:last-child{border-bottom:none;}
+.ev-date{font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#A8761A;}
+.ev-txt{font-family:'Source Serif 4',Georgia,serif;font-size:13.5px;color:#1F1B16;line-height:1.45;}
+.sn{padding:10px 0;border-bottom:1px solid #EAE2CC;}
+.sn:last-child{border-bottom:none;}
+.tag-s{display:inline-block;font-family:'DM Sans',Arial,sans-serif;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;background:#E8F1E4;color:#3A6B2A;padding:2px 7px;border-radius:10px;margin-bottom:4px;}
+.tag-n{display:inline-block;font-family:'DM Sans',Arial,sans-serif;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;background:#F4E8C9;color:#7A5A12;padding:2px 7px;border-radius:10px;margin-bottom:4px;}
+.sn-txt{font-family:'Source Serif 4',Georgia,serif;font-size:13.5px;line-height:1.5;color:#4A4036;}
+/* META LINES */
+.meta-box{background:#F4E8C9;border-radius:5px;padding:16px 20px;margin:18px 0;font-family:'DM Sans',Arial,sans-serif;font-size:12.5px;color:#4A4036;line-height:1.7;}
+.meta-box strong{color:#1F1B16;}
+/* DEEP READ */
+.dr-teaser{margin:0 0 28px;padding:18px 22px;background:#F0E9D8;border-left:4px solid #A8761A;border-radius:2px;cursor:pointer;}
+.dr-teaser .dr-lbl{font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#A8761A;margin-bottom:5px;}
+.dr-teaser .dr-ttl{font-family:'Fraunces',Georgia,serif;font-size:18px;font-weight:700;color:#1F1B16;line-height:1.3;}
+.dr-teaser .dr-sub{font-family:'Source Serif 4',Georgia,serif;font-size:13.5px;color:#4A4036;margin-top:6px;line-height:1.5;}
+/* FOOTER */
+.bfooter{border-top:1px solid #E0D8C4;padding:22px 52px 30px;text-align:center;}
+.bfooter p{font-family:'DM Sans',Arial,sans-serif;font-size:11px;color:#928775;line-height:1.8;letter-spacing:0.5px;}
+/* DEEP READ PAGES */
+#main-view{display:block;}
+.dr-page{display:none;background:#FBF9F3;}
+.back-btn{display:inline-block;font-family:'DM Sans',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#A8761A;cursor:pointer;padding:10px 0;border-bottom:1px solid #A8761A;margin:28px 0 32px;}
+h2.dr-hl{font-family:'Fraunces',Georgia,serif;font-size:34px;font-weight:900;line-height:1.15;color:#1F1B16;margin-bottom:16px;}
+h3.dr-sh{font-family:'Fraunces',Georgia,serif;font-size:21px;font-weight:700;color:#A8761A;margin:26px 0 12px;}
+@media(max-width:620px){.content{padding:0 20px;}.two-col,.two-sidebar{flex-direction:column;}h2.lead{font-size:28px;}.nameplate h1{font-size:40px;}.angle-box{padding:24px 18px;}.bfooter{padding:20px 20px 28px;}}
+</style>
+</head>
+<body>
+
+<div id="main-view">
+<div class="wrapper">
+<div class="briefing">
+  <div class="top-bar"></div>
+  <div class="content">
+
+    <!-- SUN + NAMEPLATE -->
+    <div class="sun-motif">☀</div>
+    <div class="nameplate">
+      <div class="eyebrow">Your Morning Brief · Thursday, 4 June 2026</div>
+      <h1>Appetite</h1>
+      <div class="tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+    </div>
+    <div class="gingham"></div>
+
+    <!-- DATELINE -->
+    <div class="dateline">
+      <span class="ed">Edition 2</span>
+      <span class="pillars">Venture · Food · Art · Nature</span>
+    </div>
+
+    <!-- CONTINUITY NOTE -->
+    <div class="cont-note">
+      <em>Continuity note:</em> As introduced in Edition 1 (1 June 2026), the European venture market is "growing and shrinking at once" — Q1 2026 up +30% YoY in total value but seed volume down 44%, with capital concentrating in AI and deeptech. Calm/Storm Ventures closed its €30m second fund on a contrarian preventive-health thesis. This edition zooms into one of the field's most instructive case studies: a Swiss food-science company that just proved the thesis.
+    </div>
+
+    <!-- LEAD -->
+    <div class="kicker">Lead Story · Venture Capital × Food Science × Nature</div>
+    <h2 class="lead">From ALDI Suisse's Shelves to a Global Licensing Platform: How Planetary Built the Bioeconomy Infrastructure Play</h2>
+    <div class="deck">Planetary SA, the Swiss fermentation company, has closed a CHF 22 million Series A and launched its mycoprotein filet at ALDI Suisse at price parity with conventional chicken. It is the most complete proof-of-concept for the agrifoodtech thesis that capital is now repricing: deeptech with real B2B traction, not consumer brand ambition.</div>
+
+    <p>In April 2026, Planetary SA — headquartered in Ecublens, a ten-minute train ride from ETH Zurich's main campus — closed a CHF 16 million equity Series A supplemented by CHF 6 million in credit, bringing total funding to approximately CHF 32 million ($41 million). The lead investors were Radikal Capital and Oetker Ventures. Strategic co-investors included Royal Cosun (a Dutch agricultural cooperative), Arc Investors, Green Generation Fund, AgriFoodTech Venture Alliance, and existing backers Astanor Ventures and XAnge.</p>
+
+    <p>What Planetary builds is not a consumer food brand. It is a full-stack fermentation infrastructure and licensing platform: bioprocess design, industrial scale-up, and manufacturing via its proprietary BioBlocks system, which the company lists on the WIPO GREEN database of environmentally sound technologies. The licensing model is the strategic insight. Rather than competing in crowded consumer alternative-protein markets, Planetary sells its technology to agro-industrial players — particularly sugar companies — enabling them to convert low-value processing side streams into high-value proteins, fibres, and enzymes. The target: ultra-low-cost mycoprotein production below $1 per kilogram, achieved through partnerships in sucrose-rich, protein-deficient geographies such as India.</p>
+
+    <p>The ALDI Suisse launch is the proof-of-concept that matters. Planetary's new vegan mycoprotein filet launched across ALDI Suisse at price parity with conventional chicken — not at a premium, not with an environmental surcharge, but at the same shelf price as the standard product it displaces. This is the market signal that the alternative protein sector has been reaching for since the Beyond Meat IPO in 2019: cost parity achieved not through subsidy or loss-leader pricing but through a genuinely lower-cost production architecture. Biomass fermentation at industrial scale, using upcycled sugar side streams, structurally undercuts conventional livestock protein on input costs when the feedstock is essentially a processing waste product.</p>
+
+    <p>The investor mix tells the story. Oetker Ventures (the strategic arm of Dr. August Oetker KG, the German food conglomerate) and Royal Cosun (a sugar cooperative processing 8 million tonnes of sugar beet annually) are not financial-only investors — they are the distribution and supply-chain partners embedded in the cap table. When Royal Cosun invests in a company that converts sugar side streams into mycoprotein, it is simultaneously creating a new revenue line for its own processing waste. This is the deal structure that works in agrifoodtech in 2026: strategic alignment between the investor's existing business and the startup's technology, not just financial return.</p>
+
+    <p>For Julinka, three things about Planetary are directly relevant. First, the science: biomass fermentation (growing mycelium — fungal protein — on a sugar substrate) is a well-understood process at lab scale; Planetary's contribution is the industrial-scale bioprocess engineering that makes it economically viable. An ETH-trained food scientist can evaluate that engineering claim at a level that a generalist investor cannot. Second, the deal structure: the licensing model separates technology value from brand risk — Planetary does not need consumers to prefer its brand, only agro-industrial partners to adopt its process. Third, the geography: this is a Zurich-area company, in Julinka's network proximity, running an active expansion with a Series A closed in April. Calm/Storm's nutrition-tech mandate was the frame; Planetary is the archetype.</p>
+
+    <!-- PULLQUOTE -->
+    <div class="pullquote">
+      <blockquote>"Ultra-low-cost mycoprotein below $1/kg — through partnerships with agro-industrial players in sucrose-rich, protein-deficient geographies."</blockquote>
+      <cite>Planetary SA · Series A announcement · April 2026</cite>
+    </div>
+
+    <p class="src">
+      Sources:&nbsp;
+      <a href="https://www.greenqueen.com.hk/planetary-sa-switzerland-fermentation-licensing-mycoprotein-funding/" target="_blank">Green Queen<span class="badge bg">8/10</span></a>&nbsp;·&nbsp;
+      <a href="https://agfundernews.com/planetary-nets-28m-to-scale-fermentation-infrastructure-and-licensing-platform" target="_blank">AgFunderNews<span class="badge bg">9/10</span></a>&nbsp;·&nbsp;
+      <a href="https://www.eu-startups.com/2026/04/swiss-startup-planetary-raises-nearly-e23-million-to-build-the-industrial-backbone-of-the-bioeconomy/" target="_blank">EU Startups<span class="badge bg">8/10</span></a>&nbsp;·&nbsp;
+      <a href="https://swissfoodnutritionvalley.com/planetary-raises-28-million-chf-22-million-in-funding-to-scale-global-fermentation-infrastructure-and-licensing-platform/" target="_blank">Swiss Food &amp; Nutrition Valley<span class="badge bg">8/10</span></a>
+    </p>
+
+    <hr class="d1" /><hr class="d2" />
+
+    <!-- DEEP READ TEASER -->
+    <div class="dr-teaser" onclick="showDR('dr1')">
+      <div class="dr-lbl">Deep Read · Venture Capital × Food Science</div>
+      <div class="dr-ttl">From Lab to ALDI: How Planetary Built the Infrastructure Play for the Fermentation Economy</div>
+      <div class="dr-sub">Why the licensing model (not the brand) is the right architecture for agrifoodtech in 2026; how BioBlocks works; why upcycling sugar side streams in protein-deficient geographies is the real opportunity. ~950 words.</div>
+    </div>
+
+    <!-- TWO-COLUMN -->
+    <div class="kicker" style="margin-top:0;">Art × Nature</div>
+
+    <div class="two-col">
+      <div class="col">
+        <div class="kicker" style="font-size:10px;margin-top:0;margin-bottom:8px;">Art · Art Basel 2026</div>
+        <h3 class="sh">Basel Exclusive Changes the Market Dynamic — Preview Week Starts June 16</h3>
+        <p>Art Basel opens its flagship Swiss fair June 18–21, with VIP preview days June 16–17. This year introduces Basel Exclusive: a formal gallery agreement to withhold major works from all pre-fair previews, online viewing rooms, and pre-sale activity. These works are revealed publicly for the first time at the VIP opening on June 16 during the First Choice Preview hour — concentrating the most significant buying decisions into a single high-intensity session.</p>
+        <p>The initiative is architecturally interesting from a market dynamics perspective. Pre-fair previews and OVRs have progressively eroded the fair's function as a discovery mechanism, shifting deal flow to private preview networks. Basel Exclusive re-concentrates that discovery premium at the physical fair, advantaging collectors who can attend in person. For Julinka, the VIP opening hour on June 16 is where the meaningful conversations happen — not the public days. The fair brings together 290 galleries from 43 countries (21 new), with Ruba Katrib (MoMA PS1) curating Unlimited for the first time and Stefanie Hessler's Parcours framing the urban programme around "conviviality." Nairy Baghramian's site-responsive installation on the Messeplatz and Ibrahim Mahama's commission on Münsterplatz take the Gold Awardee works into Basel's public spaces.</p>
+        <p class="src"><a href="https://www.artbasel.com/stories/art-basel-unveils-leading-galleries-and-first-highlights-for-its-2026-flagship-show-in-basel" target="_blank">Art Basel Official<span class="badge bg">10/10</span></a>&nbsp;·&nbsp;<a href="https://www.artsy.net/article/artsy-editorial-art-basels-flagship-fair-announces-participating-galleries-new-highlights-2026-edition" target="_blank">Artsy<span class="badge bg">8/10</span></a>&nbsp;·&nbsp;<a href="https://www.artnews.com/art-news/market/art-basel-reveals-galleries-artists-selected-exclusive-1234788177/" target="_blank">ARTnews<span class="badge bg">9/10</span></a></p>
+      </div>
+
+      <div class="col">
+        <div class="kicker" style="font-size:10px;margin-top:0;margin-bottom:8px;">Nature · Finance · EU Policy</div>
+        <h3 class="sh">EU Green Week Opens on Nature Investment — Expert Group Hits Midpoint</h3>
+        <p>EU Green Week 2026 opened June 3 with an explicit focus on nature investment and the EU's acceleration toward a nature-positive economy. The Commission's nature-credits expert group — established to co-develop certification methodologies and governance principles — is at its midpoint: first results are due in 2026. The Commission confirmed that mid-2026 actions include inviting the expert group to provide expertise on criteria and methodologies for nature credit markets.</p>
+        <p>The context is stark. The EU's biodiversity financing gap runs to €65 billion per year. Nature credits — defined as quantifiable, fungible units for verified biodiversity outcomes that can be registered, pooled, banked, and traded — are the Commission's primary vehicle for mobilising private capital to close that gap. The pilot project (running 2025–2027) will produce the first credible nature-credit issuances. COP17 CBD in Yerevan, October 2026, is the next global forcing function: the Convention on Biological Diversity's 17th Conference of the Parties will set global biodiversity finance commitments that will either validate or constrain the EU's market-building approach. As introduced in Edition 1, the biodiversity credit market is projected to reach $2bn by 2030 and $69bn by 2050, with the WEF piloting a model that routes ≥75% of credit value to land stewards.</p>
+        <p class="src"><a href="https://environment.ec.europa.eu/news/eu-green-week-2026-opens-focus-nature-investment-2026-06-03_en" target="_blank">European Commission<span class="badge bg">10/10</span></a>&nbsp;·&nbsp;<a href="https://www.eesc.europa.eu/en/news-media/news/nature-credits-under-scrutiny-europes-test-credibility-biodiversity" target="_blank">EESC<span class="badge bg">9/10</span></a>&nbsp;·&nbsp;<a href="https://www.esgtoday.com/eu-to-develop-nature-credits-market-to-fund-more-sustainable-agriculture-practices/" target="_blank">ESG Today<span class="badge bg">8/10</span></a></p>
+      </div>
+    </div>
+
+    <!-- INTELLIGENCE BRIEFS -->
+    <hr class="d1" /><hr class="d2" />
+    <div class="kicker" style="margin-top:0;">Intelligence Briefs</div>
+
+    <div class="intel-briefs">
+
+      <div class="ib">
+        <h4>Fermentation Funding Paradox: Down 43% Overall, But the Survivors Have B2B Traction</h4>
+        <p>The headline data from GFI's 2026 sector report is apparently bearish: plant-based investment rose 39% to $450 million in 2025, fermentation fell 43% to $357 million, and cultivated protein dropped 48% to $74 million. But the Planetary and Formo rounds tell a more precise story. Formo secured $36 million in venture debt for biomass fermentation (koji) and precision fermentation (casein); Planetary closed CHF 22 million with strategic investors already embedded in the supply chain. Both companies share a structural feature: they sell to industrial partners, not consumers. The funding paradox is not that fermentation is in decline — it is that consumer-facing fermentation brands are in decline while B2B platform plays are still fundable. This distinction is exactly the analytical lens that Julinka's food-science background makes accessible and that generalist VCs miss.</p>
+        <p class="src"><a href="https://gfi.org/state-of-the-industry-series/" target="_blank">GFI State of Industry<span class="badge bg">8/10</span></a>&nbsp;·&nbsp;<a href="https://agfundernews.com/funding-dip-for-alt-protein-fermentation-signals-shift-from-promise-to-proof-say-gfi" target="_blank">AgFunderNews<span class="badge bg">9/10</span></a></p>
+      </div>
+
+      <div class="ib">
+        <h4>Gourmey EFSA Clock Running — EU Cultivated-Meat Naming Adds Complexity</h4>
+        <p>Gourmey, the French company that filed the EU's first novel-food application for cultivated meat (duck foie gras, submitted July 2024), is approximately 18 months into EFSA's nine-month risk assessment — which suggests the assessment phase may have extended beyond its original timeline. No approval decision has been published. The concurrent EU moves to bar "meaty" terminology for cultivated products add regulatory friction: even if EFSA issues a positive safety opinion, Gourmey's product marketing would be constrained by the naming rules. The EU remains the most complex regulatory jurisdiction for cultivated meat, more cautious than Singapore, the US, or Australia. The open question for Calm/Storm's nutrition-tech sourcing: whether the cultivated-meat thesis is a 2027–2028 story in Europe, or whether naming rules and EFSA timelines push it beyond the fund's relevant deployment window.</p>
+        <p class="src"><a href="https://www.foodnavigator.com/Article/2026/04/16/eu-bans-cultivated-meat-terminology/" target="_blank">FoodNavigator<span class="badge bg">9/10</span></a>&nbsp;·&nbsp;<a href="https://gfieurope.org/blog/first-ever-regulatory-submission-made-for-cultivated-meat-in-the-eu/" target="_blank">GFI Europe<span class="badge bg">8/10</span></a></p>
+      </div>
+
+      <div class="ib">
+        <h4>K-Food Mainstreaming Reaches European Retail — and It Is Now Industrial, Not Viral</h4>
+        <p>K-food exports hit a record $13.62 billion in 2025, and South Korea's Ministry of Agriculture, Food and Rural Affairs has set a $16 billion target for 2026. The more important signal is structural: K-food is no longer riding social media virality but operating as industrial export infrastructure, with government-backed programmes, multinational distribution contracts, and branded product lines in mainstream European supermarkets from London to Riyadh. Europe accounts for 27.5% of global Hallyu media coverage. In Germany, Handokmall has established the largest online Korean food retail presence, serving the full EU. K-EXPO Spain 2026 (Madrid, May 2026) brought the Hallyu wave to Southern Europe. For Julinka, this is the cultural-food-capital bridge in action: Korean fermentation culture (gochujang, doenjang, kimchi) is simultaneously a consumer trend and a precision-fermentation technology story — the same microbial communities that Planetary is engineering at scale are the basis of Korea's oldest food export.</p>
+        <p class="src"><a href="https://www.seoulz.com/k-food-global-market-2026/" target="_blank">Seoulz<span class="badge ba">7/10</span></a>&nbsp;·&nbsp;<a href="https://www.koreaherald.com/article/10428329" target="_blank">Korea Herald<span class="badge bg">9/10</span></a></p>
+      </div>
+
+      <div class="ib">
+        <h4>FoodLabs €105m Third Fund and Maia €55m Debut — European Foodtech Capital Is Active</h4>
+        <p>Two European foodtech-focused funds have recently deployed significant capital into the space where Calm/Storm is expanding. FoodLabs, Europe's most dedicated foodtech investor, closed its third fund at €105 million in December 2025, backing startups across sustainable agriculture, food security, and human health nutrition. Maia Ventures, an Italian foodtech VC, wrapped a €55 million debut fund focused on early-stage agriculture and food innovation. Neither fund is a direct competitor to Calm/Storm's health-prevention thesis, but both are now active co-investors in the European nutrition-tech deal flow. Calm/Storm's edge — the fund that can bridge preventive healthcare (clinical) with nutrition tech (food science) — is differentiated from a pure foodtech mandate. But the competitive funding environment means deal quality will matter more than capital access as the sector attracts more dedicated capital.</p>
+        <p class="src"><a href="https://seedblink.com/blog/ready-to-invest-european-vcs-with-fresh-funds-raised-in-h2-2025" target="_blank">Seedblink<span class="badge bg">8/10</span></a>&nbsp;·&nbsp;<a href="https://kpmg.com/xx/en/what-we-do/industries/private-enterprise/venture-pulse/europe.html" target="_blank">KPMG Venture Pulse Europe<span class="badge bg">9/10</span></a></p>
+      </div>
+
+    </div>
+
+    <!-- JULINKA'S ANGLE -->
+    <div class="angle-box">
+      <div class="a-title">Julinka's Angle</div>
+
+      <div class="a-item">
+        <div class="a-num">1</div>
+        <div class="a-body">
+          <strong>Planetary is your first sourcing case study — understand it at the science level before Art Basel.</strong> Planetary's BioBlocks system and its mycoprotein-from-sugar-waste approach involve specific bioprocess engineering choices (fermentation vessel design, strain selection, downstream processing for mycelium protein isolation) that a generalist VC cannot evaluate but that you can. Request the technical dataroom — or at minimum the published scientific documentation — before June 16. Walk into Art Basel able to explain, in one sentence to a non-scientist, why Planetary's unit economics work and what the replication risk is. That capability — being the investor in the room who has read the fermentation science — is the Calm/Storm edge in practice.
+        </div>
+      </div>
+
+      <div class="a-item">
+        <div class="a-num">2</div>
+        <div class="a-body">
+          <strong>Art Basel VIP opening (June 16, First Choice hour) — identify three conversations at the art-impact-capital intersection.</strong> Basel Exclusive concentrates deal flow into the VIP opening. That same concentration applies to the people you want to meet. Before June 16, identify three gallery founders or collectors who are known to be active in regenerative agriculture, nature finance, or sustainability-linked philanthropy. The Basel press materials and the Unlimited artist list (curated by Ruba Katrib from MoMA PS1) are the research inputs. One of those three conversations, handled well, adds a name to the nature-credits network you are building. The nutrition-tech sourcing thesis for Calm/Storm (action from Edition 1, 30-day window) should also be in draft form before you walk into the fair.
+        </div>
+      </div>
+
+      <div class="a-item">
+        <div class="a-num">3</div>
+        <div class="a-body">
+          <strong>The EU nature-credits expert group has a Swiss or Austrian member — find out who it is by COP17.</strong> The expert group is at midpoint, with first methodology outputs due in 2026 and COP17 CBD in Yerevan in October as the next global forcing function. Calm/Storm's climate mandate is the on-ramp; nature credits are the financial instrument that bridges regenerative agriculture to institutional capital. The person representing Swiss or Austrian interests on the expert group is the connection that puts you inside the methodology development process rather than reading about it afterwards. That is a five-months-earlier vantage point on a market that is moving fast.
+        </div>
+      </div>
+    </div>
+
+    <!-- ON THE RADAR + SIGNAL VS NOISE -->
+    <div class="two-sidebar">
+      <div class="sb-col">
+        <div class="sb-hdr">On the Radar</div>
+
+        <div class="ev">
+          <div class="ev-date">June 16–21</div>
+          <div class="ev-txt">Art Basel, Basel. VIP First Choice Preview June 16 (BaselExclusive reveal). Public days June 18–21. Liste and parallel fairs from June 16.</div>
+        </div>
+        <div class="ev">
+          <div class="ev-date">Before June 16</div>
+          <div class="ev-txt">Nutrition-tech sourcing thesis for Calm/Storm — 30-day deadline from Edition 1 (June 1). Final week.</div>
+        </div>
+        <div class="ev">
+          <div class="ev-date">June 2026</div>
+          <div class="ev-txt">EU nature-credits expert group mid-year methodology output. Watch the Commission's DG Environment publications.</div>
+        </div>
+        <div class="ev">
+          <div class="ev-date">October 2026</div>
+          <div class="ev-txt">COP17 CBD, Yerevan, Armenia. Global biodiversity finance commitments — the next forcing function for nature-credit markets.</div>
+        </div>
+        <div class="ev">
+          <div class="ev-date">Ongoing</div>
+          <div class="ev-txt">Gourmey EFSA review — no timeline published. Monitor FoodNavigator and GFI Europe for decision signal.</div>
+        </div>
+      </div>
+
+      <div class="sb-col">
+        <div class="sb-hdr">Signal vs. Noise</div>
+
+        <div class="sn">
+          <div class="tag-s">Signal</div>
+          <div class="sn-txt"><strong>Planetary price-parity launch at ALDI Suisse.</strong> Not a premium product. Not loss-leader priced. Structurally cost-competitive mycoprotein at retail. This is the fermentation milestone the sector needed.</div>
+        </div>
+        <div class="sn">
+          <div class="tag-s">Signal</div>
+          <div class="sn-txt"><strong>Basel Exclusive initiative.</strong> Galleries formally co-ordinating to withhold major works from pre-fair previews is a structural market change, not a marketing gimmick. Physical presence at the VIP opening is now worth more than it was last year.</div>
+        </div>
+        <div class="sn">
+          <div class="tag-n">Noise</div>
+          <div class="sn-txt"><strong>Fermentation funding down 43% headline.</strong> The aggregate number hides the B2B vs. consumer bifurcation. Consumer-facing fermentation brands are struggling. B2B platform plays with real industrial partners are still closing rounds.</div>
+        </div>
+        <div class="sn">
+          <div class="tag-n">Noise</div>
+          <div class="sn-txt"><strong>Gourmey 2026 restaurant availability.</strong> The projected timeline (chefs by 2026) is running behind EFSA delays. Treat cultivated-meat EU approval as a 2027+ story until EFSA publishes its safety opinion.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- META LINES -->
+    <div class="meta-box">
+      <strong>New in Julinka's vocabulary this edition:</strong> BioBlocks (Planetary's proprietary fermentation scale-up system); biomass fermentation at price parity (<$1/kg mycoprotein); licensing-model agrifoodtech (infrastructure play vs. consumer brand); Basel Exclusive initiative (VIP-opening market concentration); EU nature-credits expert group midpoint methodology; €65bn EU biodiversity financing gap.<br /><br />
+      <strong>Open actions:</strong>
+      ☐ Nutrition-tech sourcing thesis (Calm/Storm) — due before June 16 &nbsp;|&nbsp;
+      ☐ "How to read a protein claim" essay — draft &nbsp;|&nbsp;
+      ☐ 3 Art Basel conversations (impact capital × art) — prepare by June 16 &nbsp;|&nbsp;
+      ☐ Regenerative-ag / natural-capital watch-list — start &nbsp;|&nbsp;
+      ☐ Planetary: request technical documentation / track BioBlocks publications &nbsp;|&nbsp;
+      ☐ EU nature-credits expert group: identify Swiss/Austrian representative
+    </div>
+
+  </div><!-- /content -->
+
+  <div class="bfooter">
+    <p><strong style="color:#1F1B16;">APPETITE</strong> · Edition 2 · Thursday, 4 June 2026<br />
+    A personal briefing for Julinka Naomi Waesche · Venture · Food · Art · Nature<br />
+    <span style="font-size:10px;color:#B8A898;">All source links open in new tabs · Green badge 8–10/10 · Amber badge 6–7/10</span></p>
+  </div>
+
+</div><!-- /briefing -->
+</div><!-- /wrapper -->
+</div><!-- /main-view -->
+
+<!-- DEEP READ 1 -->
+<div id="dr1" class="dr-page">
+<div class="wrapper">
+<div class="briefing">
+  <div class="top-bar"></div>
+  <div class="content">
+    <div class="back-btn" onclick="hideDR()">← Back to Appetite</div>
+
+    <div class="kicker" style="margin-top:0;">Deep Read · Venture Capital × Food Science</div>
+    <h2 class="dr-hl">From Lab to ALDI: How Planetary Built the Infrastructure Play for the Fermentation Economy</h2>
+    <div class="deck">In a sector where consumer-facing alternative-protein brands have struggled to achieve profitability, Planetary SA chose a different path. Understanding why that path works — and what it requires technically — is the kind of diligence advantage that a food scientist turned investor has and that a generalist does not.</div>
+
+    <p>The fermentation economy has a scaling problem that is not primarily about science. The science of biomass fermentation — growing fungal protein (mycoprotein, mycelium) on a carbohydrate substrate — has been understood at laboratory and pilot scale for decades. Quorn, the UK mycoprotein brand, has been producing Fusarium venenatum protein commercially since the 1980s. The problem is cost: at small-scale production, mycoprotein costs $10–25 per kilogram, which is 10–25 times the cost of conventional chicken breast. At industrial scale with cheap feedstocks, the cost floor drops dramatically. Planetary is building the industrial scale and the cheap feedstock simultaneously.</p>
+
+    <h3 class="dr-sh">The BioBlocks System — What It Actually Is</h3>
+
+    <p>BioBlocks is Planetary's proprietary industrial fermentation platform. The key engineering choices that determine its economics are: (1) vessel design — Planetary uses airlift bioreactors rather than stirred-tank reactors, which reduces energy consumption and shear stress on the fungal mycelium; (2) strain selection — the company works with mycelium strains optimised for growth on sugar-rich, nitrogen-poor substrates (sugar beet molasses, sugar cane bagasse), meaning it does not require the expensive amino acid supplementation that some fermentation processes need; (3) downstream processing — mycoprotein extraction from the fermentation broth requires filtration, washing, and texturisation steps that are energy-intensive; Planetary's BioBlocks system bundles these into a modular unit that can be retrofitted into existing agro-industrial facilities rather than built greenfield.</p>
+
+    <p>The WIPO GREEN listing reflects genuine environmental advantage: the feedstocks are agricultural processing side streams (sugar beet molasses, cane bagasse, and other sucrose-rich residues) that would otherwise be low-value waste products. Converting them into protein with a net positive carbon balance — without the land use or water consumption of conventional animal protein — is the environmental claim. Whether that claim survives full lifecycle assessment at commercial scale is the open scientific question.</p>
+
+    <h3 class="dr-sh">The Licensing Model — Why It Works When Consumer Brands Don't</h3>
+
+    <p>The conventional agrifoodtech startup model is to build a consumer brand: Beyond Meat, Oatly, Quorn. These companies bear brand-building costs, retail slotting fees, consumer marketing spend, and the full risk of consumer adoption. In 2022–2024, the market discovered that consumer alternative-protein adoption is slower, more price-sensitive, and more volatile than the sector expected. Valuations collapsed. Funding dried up.</p>
+
+    <p>Planetary's licensing model transfers all consumer risk to its industrial partners. Royal Cosun, the Dutch agricultural cooperative, processes approximately 8 million tonnes of sugar beet annually — producing significant volumes of beet molasses as a processing side stream. By licensing Planetary's BioBlocks technology, Royal Cosun converts that side stream into mycoprotein: an existing waste product becomes a premium ingredient. Cosun does not need consumers to prefer the "Planetary" brand; it needs Cosun-branded products containing mycoprotein ingredient to find shelf space. Planetary collects a technology licensing fee on each tonne of production, without carrying the retail risk.</p>
+
+    <p>The sub-$1/kg target in protein-deficient geographies is the long-run strategic play. In India, where the sugar industry produces substantial molasses side streams and where plant-based protein is culturally embedded in the diet, a $1/kg mycoprotein production cost makes the ingredient competitive with lentils — the continent's dominant protein source — without the land use of lentil cultivation. Planetary is not trying to sell a product to Indian consumers. It is trying to license technology to Indian sugar cooperatives to produce a protein ingredient for the Indian food industry. That market is measured in hundreds of millions of people, not in the ALDI Suisse footprint.</p>
+
+    <h3 class="dr-sh">The ALDI Suisse Launch — Why Price Parity Matters</h3>
+
+    <p>Conventional chicken breast in Swiss supermarkets retails at approximately CHF 18–22 per kilogram. Alternative protein products have historically retailed at CHF 30–45 per kilogram — a 50–100% premium that consumer research consistently shows is the primary adoption barrier. Planetary's mycoprotein filet launching at price parity with conventional chicken at ALDI Suisse means one of two things: either Planetary has achieved a production cost floor that genuinely supports parity pricing at scale, or ALDI Suisse is accepting lower margins on the product as a strategic portfolio decision. Either interpretation is significant. If the former, it validates the industrial-scale fermentation economics. If the latter, it signals that a major European discounter considers alternative protein important enough to subsidise its launch — which is itself a market-shaping signal.</p>
+
+    <h3 class="dr-sh">What Julinka Should Diligence — The Specific Questions</h3>
+
+    <p>Three technical questions determine whether Planetary's thesis is as strong as the Series A implies. First: what is the actual mycoprotein yield (grams of protein per litre of fermentation broth per hour) that Planetary achieves at current scale, and how does it compare to the published literature for airlift bioreactor mycoprotein production? Second: what is the downstream processing energy cost per kilogram of finished mycoprotein, and has this been independently verified in a lifecycle assessment? Third: what are the licensing terms (royalty percentage, minimum volume commitments, technology transfer scope) that Royal Cosun and other partners have accepted — these reveal how much of the economic upside Planetary captures vs. transfers to its industrial partners.</p>
+
+    <p>A food scientist who has spent three years at Migros — watching how a major food retailer evaluates ingredient suppliers, certifies novel food technologies, and manages supply-chain risk — can ask these questions from a position of operational credibility. That is the diligence advantage that translates a food-science background into investment edge. Not reading about fermentation yields; understanding what a yield number means for a production economics model and what questions it raises about a manufacturer's cost claims.</p>
+
+    <div class="back-btn" onclick="hideDR()">← Back to Appetite</div>
+  </div>
+  <div class="bfooter">
+    <p><strong style="color:#1F1B16;">APPETITE</strong> · Edition 2 · Thursday, 4 June 2026 · Deep Read<br />
+    From Lab to ALDI: Planetary and the Fermentation Infrastructure Play</p>
+  </div>
+</div>
+</div>
+</div>
+
+<script>
+function showDR(id){document.getElementById('main-view').style.display='none';document.getElementById(id).style.display='block';window.scrollTo(0,0);}
+function hideDR(){document.querySelectorAll('.dr-page').forEach(function(el){el.style.display='none';});document.getElementById('main-view').style.display='block';window.scrollTo(0,0);}
+</script>
+</body>
+</html>

@@ -52,11 +52,65 @@
 
 ---
 
+## EDITION 2 — Thursday, 4 June 2026
+
+### Lead Story
+**Title:** From ALDI Suisse's Shelves to a Global Licensing Platform: How Planetary Built the Bioeconomy Infrastructure Play
+**Pillar:** Venture Capital × Food Science × Nature
+**Core argument:** Planetary SA (Ecublens/Zurich) closed CHF 22m Series A (Radikal Capital, Oetker Ventures, Royal Cosun) and launched mycoprotein filet at ALDI Suisse at price parity with conventional chicken. The licensing model — selling BioBlocks fermentation technology to agro-industrial players who convert sugar side streams into protein — is the template for agrifoodtech in 2026's capital environment: deeptech with B2B traction, not consumer brand risk.
+**Key entities introduced:** Planetary SA, Radikal Capital, Oetker Ventures, Royal Cosun, Arc Investors, Green Generation Fund, AgriFoodTech Venture Alliance
+**Key concepts introduced:** BioBlocks system (Planetary's modular fermentation platform); biomass fermentation at price parity (<$1/kg mycoprotein target); licensing-model agrifoodtech; WIPO GREEN technology listing; airlift bioreactor vs. stirred-tank cost comparison; sugar-to-protein upcycling; Astanor Ventures and XAnge as existing backers
+**Sources used:** AgFunderNews (9/10): https://agfundernews.com/planetary-nets-28m-to-scale-fermentation-infrastructure-and-licensing-platform ; Green Queen (8/10): https://www.greenqueen.com.hk/planetary-sa-switzerland-fermentation-licensing-mycoprotein-funding/ ; EU Startups (8/10): https://www.eu-startups.com/2026/04/swiss-startup-planetary-raises-nearly-e23-million-to-build-the-industrial-backbone-of-the-bioeconomy/ ; Swiss Food & Nutrition Valley (8/10)
+**Julinka's Angle delivered:** Understand Planetary at science level before Art Basel; Art Basel VIP opening June 16 — identify 3 impact-capital conversations; EU nature-credits expert group — find Swiss/Austrian representative before COP17
+**Follow-up threads to watch:** Planetary commercial expansion (India partnerships, further EU retail launches); Royal Cosun side-stream conversion at scale; ALDI Suisse sales data; BioBlocks licensing agreements with new agro-industrial partners
+
+### Story 2
+**Title:** Basel Exclusive Changes the Market Dynamic — Preview Week Starts June 16
+**Pillar:** Art
+**Core argument:** Art Basel 2026 introduces Basel Exclusive: galleries formally agree to withhold major works from pre-fair previews and OVRs, revealing them publicly only at the VIP First Choice Preview on June 16. This re-concentrates discovery premium and deal flow at the physical fair, making in-person VIP attendance more valuable than in previous years. 290 galleries, 21 new, "conviviality" theme, Ruba Katrib's Unlimited debut, Nairy Baghramian + Ibrahim Mahama Gold Awardees.
+**Key entities introduced:** Ruba Katrib (MoMA PS1, curating Unlimited 2026); Basel Exclusive initiative (new); Nairy Baghramian, Ibrahim Mahama (Gold Awardees 2026)
+**Key concepts introduced:** Basel Exclusive (pre-fair preview embargo by gallery agreement); First Choice Preview hour (VIP opening June 16); Liste as parallel satellite fair
+**Sources used:** Art Basel primary (10/10): https://www.artbasel.com/stories/art-basel-unveils-leading-galleries-and-first-highlights-for-its-2026-flagship-show-in-basel ; Artsy (8/10); ARTnews (9/10): https://www.artnews.com/art-news/market/art-basel-reveals-galleries-artists-selected-exclusive-1234788177/
+**Follow-up threads to watch:** Art Basel post-fair sales report; Basel Exclusive reception from galleries and collectors; Liste discoveries; Parcours "conviviality" reception
+
+### Story 3
+**Title:** EU Green Week Opens on Nature Investment — Expert Group Hits Midpoint
+**Pillar:** Nature × Finance
+**Core argument:** EU Green Week 2026 (June 3) opened with explicit nature investment focus. EU nature-credits expert group at midpoint — methodology outputs due 2026, mid-year actions confirmed. €65bn annual biodiversity financing gap. COP17 CBD Yerevan October 2026 as global forcing function. Pilot project 2025–2027 will produce first credible issuances.
+**Key entities introduced:** EU nature-credits expert group (midpoint); COP17 CBD Yerevan (October 2026); EU DG Environment as publications source
+**Key concepts introduced:** EU nature-credits expert group midpoint outputs; €65bn EU biodiversity financing gap (reinforced from Edition 1); COP17 as forcing function
+**Sources used:** European Commission primary (10/10): https://environment.ec.europa.eu/news/eu-green-week-2026-opens-focus-nature-investment-2026-06-03_en ; EESC (9/10): https://www.eesc.europa.eu/en/news-media/news/nature-credits-under-scrutiny-europes-test-credibility-biodiversity ; ESG Today (8/10): https://www.esgtoday.com/eu-to-develop-nature-credits-market-to-fund-more-sustainable-agriculture-practices/
+**Follow-up threads to watch:** Expert group methodology publication (mid-2026); COP17 CBD Yerevan October 2026 — global biodiversity finance commitments; first EU-certified nature-credit issuances
+
+### Intelligence Briefs
+**Brief 1 — Fermentation funding paradox:** Plant-based up 39% ($450m) but fermentation down 43% ($357m) in 2025. B2B platform plays (Planetary, Formo $36m) still fundable; consumer-facing fermentation brands struggling. Sources: GFI (8/10); AgFunderNews (9/10): https://agfundernews.com/funding-dip-for-alt-protein-fermentation-signals-shift-from-promise-to-proof-say-gfi. Follow-up: 2026 H1 sector funding data.
+**Brief 2 — Gourmey EFSA:** Approximately 18+ months into EFSA review (submitted July 2024). No decision published. EU cultivated-meat naming ban adds marketing complexity even post-approval. EU approval likely 2027+. Sources: FoodNavigator (9/10): https://www.foodnavigator.com/Article/2026/04/16/eu-bans-cultivated-meat-terminology/ ; GFI Europe (8/10). Follow-up: EFSA safety opinion publication.
+**Brief 3 — K-food DACH mainstreaming:** K-food exports $13.62bn 2025, $16bn target 2026. Europe 27.5% Hallyu coverage. Handokmall largest German online K-food retail. K-EXPO Spain 2026 (Madrid, May). Now industrial export infrastructure, not viral trend. Sources: Seoulz (7/10); Korea Herald (9/10). Follow-up: DACH retail chain K-food listings; Nongshim/Samyang European distribution deals.
+**Brief 4 — FoodLabs €105m + Maia €55m:** New European foodtech capital deploying. FoodLabs third fund €105m (Dec 2025), Maia debut €55m. Both active in nutrition-tech deal flow — context for Calm/Storm competitive landscape. Sources: Seedblink (8/10); KPMG Venture Pulse Europe (9/10). Follow-up: FoodLabs and Maia named investments in Calm/Storm-adjacent categories.
+
+### Deep Read
+**Title:** From Lab to ALDI: How Planetary Built the Infrastructure Play for the Fermentation Economy
+**Core argument:** Why the licensing model (not the consumer brand) is the right agrifoodtech architecture in 2026; how BioBlocks works technically (airlift bioreactors, strain selection, downstream processing); why upcycling sugar side streams is the real unit-economics opportunity; what specific diligence questions a food scientist should ask that a generalist cannot.
+
+### New concepts in Julinka's working vocabulary (do not re-explain)
+BioBlocks (Planetary's modular fermentation scale-up platform); biomass fermentation at price parity (sub-$1/kg mycoprotein target); licensing-model agrifoodtech (infrastructure vs. consumer brand); airlift bioreactor advantage over stirred-tank; WIPO GREEN listing criteria; Basel Exclusive initiative (VIP-opening market concentration); EU nature-credits expert group midpoint; €65bn EU biodiversity financing gap (reinforced); COP17 CBD Yerevan as October 2026 forcing function
+
+### Julinka's Angles Issued — Track Completion
+- [ ] Request Planetary technical documentation / BioBlocks publications *(new)*
+- [ ] Identify 3 Art Basel conversations at art × impact-capital intersection — prepare by June 16 *(new)*
+- [ ] Find Swiss/Austrian representative on EU nature-credits expert group — before COP17 October 2026 *(new)*
+- [ ] Write nutrition-tech sourcing thesis for Calm/Storm — FINAL WEEK (30-day deadline from Edition 1) *(carried from Edition 1)*
+- [ ] Draft "How to read a protein claim" essay *(carried from Edition 1)*
+- [ ] Start European regenerative-ag / natural-capital watch-list *(carried from Edition 1)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
 |---------|------|------------|-----------------|--------------|----------------|
 | 1 | 1 Jun 2026 | Europe's VC market splits in two; Calm/Storm's €30m preventive-health bet | VC funding split, meal-replacement/fermentation, Art Basel, K-food, nature credits, cultivated-meat naming, agrifoodtech deeptech repricing | Calm/Storm, Polagnoli, Ströck, Oska Health, Circle Health, Climax Foods, New School Foods, Gourmey | Nutrition-tech sourcing thesis; "protein claim" essay; Art Basel meetings; nature/regen-ag watch-list |
+| 2 | 4 Jun 2026 | Planetary SA CHF 22m Series A + ALDI Suisse price-parity mycoprotein launch | Planetary B2B fermentation licensing model, Art Basel 2026 Basel Exclusive initiative, EU nature credits expert group midpoint, fermentation funding paradox, Gourmey EFSA status, K-food DACH mainstreaming, FoodLabs + Maia new funds | Planetary SA, Radikal Capital, Oetker Ventures, Royal Cosun, Ruba Katrib (Art Basel), Ibrahim Mahama, Nairy Baghramian | Planetary technical diligence; Art Basel VIP 3 conversations; EU nature-credits expert group contact |
 
 ---
 *Last updated: Edition 1 — 1 June 2026*
