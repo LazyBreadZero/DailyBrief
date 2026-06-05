@@ -235,6 +235,66 @@ Four-tier BCI architecture spectrum (complete: penetrating → stent → tFUS �
 
 ---
 
+## EDITION 5 — Friday, 5 June 2026
+
+### Lead Story
+**Title:** Motif Neurotech's FDA Win Opens BCI's Psychiatric Frontier — and Exposes the Sector's Blind Spot
+**Category:** Brain-Computer Interfaces · Therapeutic · Mental Health
+**Core argument:** FDA IDE approval for Motif Neurotech's RESONATE Early Feasibility Study (April 27, 2026) is the first therapeutic BCI trial for treatment-resistant depression. DOT implant (~blueberry-sized, 20-minute outpatient procedure). TRD affects ~30% of 280m global depression patients (~84m people) — an addressable population 100× larger than motor BCI's target. Fastest founding-to-IDE trajectory for any implantable BCI company (4 years). BCI modality expanding from motor/sensory restoration to psychiatric regulation — fundamentally different regulatory and commercial architecture. Outpatient procedural profile enables prescriber access outside neurosurgery centres.
+**Key companies introduced:** Motif Neurotech (XCS System / DOT implant, RESONATE study, FDA IDE approval April 2026)
+**Key people introduced:** None new
+**Key concepts introduced:** Therapeutic/psychiatric BCI (distinct from motor/sensory restoration BCI); DOT implant wireless power design; IDE pathway for psychiatric stimulation devices; TRD (treatment-resistant depression) as BCI target; subgenual cingulate cortex (Brodmann area 25) stimulation precedent; psychiatric BCI vs. motor BCI commercial/procedural architecture; consumer EEG → closed-loop wearable → implantable therapeutic stack
+**Sources used:** BusinessWire / Motif Neurotech primary (10/10); BioSpace (9/10); Rice University News (10/10): https://news.rice.edu/news/2026/brain-computer-interface-based-rice-research-wins-fda-approval-first-clinical-trial
+**Angelo's Angle delivered:** Psychiatric BCI as white space — "write 400 words before AWE on the psychiatric BCI nobody is covering"; visionOS 27 developer API analysis note (300 words, publish within 24h of June 8 keynote); consent essay 150-word seed post today
+**Follow-up threads to watch:** Motif RESONATE trial patient enrolment; Motif pivotal trial roadmap; XCS System reimbursement conversations with payers; future Motif pipeline (OCD, bipolar, Alzheimer's); Rice University BCI trial progress; any DBS-for-depression competitor trials
+
+### Story 2
+**Title:** Three Days to WWDC — What visionOS 27 Must Deliver on Monday
+**Category:** Extended Reality · Apple
+**Core argument:** WWDC June 8 keynote will announce visionOS 27 (Apple adopted iOS calendar versioning at WWDC 2025 — "visionOS 3" naming in prior editions corrected here). Key watch: developer API surface depth, not keynote marketing. No new hardware (2028 gap reinforced). Android XR holds hardware window through 2027. AWE begins June 15 — 7 days post-WWDC; weak API release drives developers toward Android XR in the exact pre-AWE window.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** visionOS 27 (corrects prior "visionOS 3" — Apple uses iOS-aligned calendar year numbering from WWDC 2025 onwards); developer API surface as the real WWDC signal metric; post-WWDC/pre-AWE developer retention dynamic
+**Sources used:** Apple Developer primary (10/10): https://developer.apple.com/wwdc26/ ; MacRumors (8/10): https://www.macrumors.com/roundup/wwdc/
+**Follow-up threads to watch:** WWDC June 8 full developer session API announcements; visionOS 27 spatial computing API breadth; developer sentiment post-keynote; any Apple smart glasses signal
+
+### Story 3
+**Title:** AWE 2026 — Ten Days Out, Three Things That Have Changed This Year
+**Category:** XR · Events · Cultural Positioning
+**Core argument:** AWE 2026 (June 15–18 Long Beach): Evan Spiegel keynote "Making Computing More Human" repositions XR as cultural infrastructure. Inaugural Art Festival (9 projects, 4 world premieres) on expo floor. Research Poster Track debuts with neurofeedback gaming, mixed reality, immersive healthcare. Angelo's consent essay deadline = June 15 (day 1 of AWE). Five consecutive editions with that task on the list; 10 days remain.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** AWE Art Festival as XR cultural infrastructure signal; Research Poster Track categories (neurofeedback gaming, immersive healthcare); visionOS 27 developer API depth as AWE pre-signal
+**Sources used:** AWE Official (10/10): https://www.awexr.com/usa-2026 ; PR Newswire (9/10): https://www.prnewswire.com/news-releases/augmented-world-expo-2026-reveals-auggie-award-finalists-rising-xr-builders-startup-to-watch-nominees-and-enterprise-xr-leaders-302778845.html
+
+### Intelligence Briefs
+**Brief 1 — Science Corp trial expansion (BCI / Regulatory):** PRIMA trials expanding beyond AMD to Stargardt disease and retinitis pigmentosa (leading causes of vision loss in young adults). Doubles addressable patient population before CE mark. CE mark still pending mid-2026, Germany §14 intact. Sources: Science Corp primary (10/10); TechCrunch (9/10). Follow-up: CE mark decision; Stargardt/RP trial first results.
+**Brief 2 — Ability Neurotech Netherlands NedMec approval (BCI / EU Regulatory):** First Dutch national BCI chronic implantation study approval (May 2026). Wireless optical-link design for ALS patients. First EU country-level BCI therapeutic trial milestone of 2026. Sources: Mass Device (9/10). Follow-up: patient enrolment; CE mark pathway.
+**Brief 3 — Android XR glasses no pricing yet (XR / Platform):** Fall 2026 US launch confirmed, two tiers (audio, display), pricing withheld, EU distribution absent. Sources: Google Blog primary (10/10); TechRadar (9/10); Droid-Life (8/10). Follow-up: first pricing disclosure; EU distribution announcement.
+
+### Deep Read
+**Title:** Therapeutic BCI — The Psychiatric Market Nobody Is Pricing In
+**Core argument:** TRD market (~84m patients globally) vs. motor BCI (hundreds of thousands). Motif DOT: 20-min outpatient, wireless power, subgenual cingulate cortex stimulation. Existing TRD alternatives (TMS, ketamine, ECT) have documented limitations and established reimbursement precedent. Psychiatric BCI pipeline (OCD, bipolar, Alzheimer's). NAOX LINK in-ear EEG as wearable EEG → closed-loop therapeutic stack bridge. Commentary ecosystem blind spot: 90% motor/sensory focus. Angelo's white space.
+
+### New concepts in Angelo's working vocabulary (do not re-explain)
+visionOS 27 (Apple calendar-year versioning correction; previous editions' "visionOS 3" retired); therapeutic/psychiatric BCI as distinct modality from motor/sensory BCI; DOT implant / XCS System; RESONATE Early Feasibility Study; treatment-resistant depression (TRD) as BCI target; Motif Neurotech; subgenual cingulate cortex stimulation; Ability Neurotech / NedMec approval / optical-link BCI design; consumer EEG → closed-loop wearable → implantable therapeutic BCI stack
+
+### Angelo's Angles Issued — Track Completion
+- [ ] Publish 300-word visionOS 27 developer API analysis note within 24h of WWDC June 8 keynote *(new, URGENT — 3 days)*
+- [ ] Write and post 150-word consent layer seed note on LinkedIn today *(new — consent essay carried since Ed. 1, now broken into immediate action)*
+- [ ] Write "The Psychiatric BCI Nobody Is Covering" (400 words) — publish before AWE June 15 *(new)*
+- [ ] Draft consent layer essay (300 words full) — publish before AWE June 15 *(carried from Editions 1–4; 10 days remain)*
+- [ ] Reach out to Science Corp — Max Hodak direct outreach *(carried, URGENT — CE mark imminent; 4 editions outstanding)*
+- [ ] Write "Four Architectures of BCI" map *(carried from Edition 4)*
+- [ ] Android XR EU market strategy brief for Rotterdam June 23–25 *(carried from Edition 4)*
+- [ ] Attend Rotterdam Immersive Tech Week June 23–25 *(carried from Editions 1–4)*
+- [ ] Map German neurologist/ophthalmologist network (first PRIMA prescribers) *(carried from Edition 2)*
+- [ ] Write Q3 2026 essay: post-screen experience when AI and BCI both mature *(carried from Edition 2)*
+- [ ] Write regulatory race essay: China's 2026 = US/EU's ~2029 *(carried from Edition 3)*
+- [ ] Review AWE Auggie finalists for US enterprise XR / no EU footprint BD targets *(carried from Edition 3)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Companies | Actions Issued |
@@ -243,6 +303,7 @@ Four-tier BCI architecture spectrum (complete: penetrating → stent → tFUS �
 | 2 | 1 Jun 2026 | Samsung Galaxy XR ships ($1,800); Android XR commercially real | Android XR platform, BCI $1.1bn funding surge, Science Corp CE mark submitted, Meta lawsuit CMC, AWE 2026, Prophetic Halo, Merge Labs | Warby Parker (XR), Gentle Monster (XR), Merge Labs | German neurologist network; Q3 post-screen essay |
 | 3 | 2 Jun 2026 | China approves NeuroXess as world's first commercial brain implant | China BCI commercial approval, Apple Vision Pro retreat/2028, Oura Ring 5 + Doublepoint (corrects Ed.1), Varjo defence XR, NAOX LINK EEG, WWDC preview, AWE Auggie Awards | NeuroXess (commercial), Doublepoint Technologies, NAOX | Regulatory race essay before AWE; Auggie finalist BD targeting |
 | 4 | 4 Jun 2026 | Merge Labs architecture disclosed: molecular + ultrasound, no implants, OpenAI AI layer | Merge Labs Tier 4 BCI architecture, WWDC June 8 visionOS 3 stakes, Android XR glasses (Warby/Gentle Monster) fall launch, AWE 11 days, Prophetic beta, Synchron 2yr data, Science Corp CE mark | None new (Aflalo, Norman, Shapiro as key people) | BCI architecture map essay; Science Corp outreach URGENT; Android XR EU brief for Rotterdam |
+| 5 | 5 Jun 2026 | Motif Neurotech FDA IDE approval — BCI's psychiatric frontier opens | Therapeutic BCI / TRD (Motif XCS/DOT, 84m patient market), visionOS 27 WWDC pre-brief (API depth as key metric), AWE 10-day countdown (Spiegel keynote / Art Festival / Research Poster Track), Science Corp Stargardt/RP trial expansion, Ability Neurotech Netherlands ALS approval, Android XR glasses no pricing still | Motif Neurotech; Ability Neurotech | 300-word visionOS 27 note (24h post-WWDC); 150-word consent seed note today; psychiatric BCI essay before AWE |
 
 ---
-*Last updated: Edition 3 — 2 June 2026*
+*Last updated: Edition 5 — 5 June 2026*
