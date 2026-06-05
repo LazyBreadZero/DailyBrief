@@ -105,12 +105,68 @@ BioBlocks (Planetary's modular fermentation scale-up platform); biomass fermenta
 
 ---
 
+## EDITION 3 — Friday, 5 June 2026
+
+### Lead Story
+**Title:** Fermentation Takes 74% of Q1 2026 Alt-Protein Capital — and Europe Owns the Category
+**Pillar:** Food Science × Venture Capital
+**Core argument:** Q1 2026 alt-protein: $162m total; fermentation $121m (74.7%), plant-based $25m, cultivated $17m. Netherlands = global hub ($125m+, 6 companies, Invest-NL catalyst). Believer Meats ($363m raised) and Meatable ($95m raised) both shut down late 2025 — unit economics failure not technology failure. B2B fermentation infrastructure (Planetary model) is the surviving and fundable architecture. Confirms the Edition 2 Planetary thesis. Calm/Storm's nutrition-tech mandate maps directly onto the Dutch fermentation infrastructure opportunity.
+**Key entities introduced:** Believer Meats (shut down, $363m raised); Meatable (shut down, $95m raised); Invest-NL (Dutch government-backed alt-protein catalyst); The Better Meat Co.; The Protein Brewery
+**Key concepts introduced:** Fermentation's 74.7% Q1 2026 alt-protein capital share; Netherlands as global alt-protein hub; Invest-NL as government-backed catalytic investor; cell culture media cost as cultivated meat's structural failure point; bioreactor scaling constraints (non-linear vs. linear fermentation economics); B2B licensing model confirmed by market data
+**Sources used:** AgFunderNews (9/10): https://agfundernews.com/funding-dip-for-alt-protein-fermentation-signals-shift-from-promise-to-proof-say-gfi ; GFI (8/10): https://gfi.org/investment/ ; FoodNavigator-USA (9/10): https://www.foodnavigator-usa.com/Article/2026/02/18/alternative-protein-funding-shifts-in-2026/
+**Julinka's Angle delivered:** Map 5 Dutch B2B fermentation seed companies before thesis deadline (this week); Art Basel VIP preparation; Paris nature-positive finance workshop June 10 contact
+**Follow-up threads to watch:** 2026 H1 fermentation alt-protein capital data; Invest-NL named investments H1 2026; Planetary India partnerships and further EU retail; The Better Meat Co. / Protein Brewery funding rounds; Dutch government alt-protein strategy update
+
+### Story 2
+**Title:** Basel Exclusive Concentrates the Discovery Premium — and Makes Your Presence Non-Optional
+**Pillar:** Art
+**Core argument:** 83% of main-sector galleries (193 of 232) participating in Basel Exclusive — works withheld from all pre-fair previews and OVRs until VIP First Choice Preview June 16. Re-concentrates discovery premium at in-person physical fair. Blue-chip artists (Basquiat, Riley, Fontana, Mitchell) reserved. Art Basel Hong Kong 2026 concluded with "strong sales." Artnet: initiative designed to draw back American collectors who have reduced in-person attendance.
+**Key entities introduced:** None new (Art Basel, Ruba Katrib, Gold Awardees previously introduced)
+**Key concepts introduced:** First Choice Preview Hour (VIP opening June 16 specific window); temporal scarcity as fair market mechanism; American collector attendance as Basel structural challenge
+**Sources used:** Art Basel primary (10/10): https://www.artbasel.com/stories/art-basel-unveils-basel-exclusive-and-highlights-for-its-flagship-show ; Artnet (9/10): https://news.artnet.com/market/no-preview-allowed-art-basel-2777803 ; ARTnews (9/10): https://www.artnews.com/art-news/market/art-basel-reveals-galleries-artists-selected-exclusive-1234788177/
+**Follow-up threads to watch:** Art Basel 2026 post-fair sales report; Basel Exclusive reception from galleries and collectors; which reserved works sold and at what prices
+
+### Story 3
+**Title:** EU Nature Credits Get a Legal Foundation — and COP17 Gives Them a Forcing Function
+**Pillar:** Nature × Finance
+**Core argument:** EU Commission "Roadmap towards Nature Credits" COM(2025)374 published — legal foundation for EU nature-credit market. COP17 CBD Yerevan October 19-30 as global forcing function. $700bn global biodiversity financing gap; €65bn EU annual gap. EU committed 10% budget to biodiversity 2026-2027. Nature-positive finance workshop Paris June 10 (5 days away). Expert group methodology outputs due mid-2026.
+**Key entities introduced:** Biodiversa+ + Banque de France (June 10 workshop organisers); COM(2025)374 as legal foundation document
+**Key concepts introduced:** COM(2025)374 roadmap legal architecture; COP17 Yerevan dates (October 19-30); $700bn global biodiversity financing gap (vs €65bn EU gap previously cited); nature-positive finance workshop Paris June 10; EU 10% budget biodiversity commitment 2026-2027
+**Sources used:** European Commission primary (10/10): https://environment.ec.europa.eu/news/eu-delivering-biodiversity-ahead-cbd-cop17-2026-05-22_en ; EUR-Lex COM(2025)374 (10/10): https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=COM:2025:374:FIN ; UNEP FI (9/10): https://www.unepfi.org/themes/ecosystems/action-on-nature-what-can-financial-institutions-expect-in-2026/
+**Follow-up threads to watch:** Expert group methodology publication (mid-2026); Paris workshop synthesis documents; COP17 CBD Yerevan October 19-30 commitments; first EU-certified nature-credit issuances
+
+### Intelligence Briefs
+**Brief 1 — Cultivated meat winter deepens (Food / Capital):** Believer Meats + Meatable both shut down H2 2025 ($458m combined capital loss). $17m raised in cultivated meat Q1 2026 (lowest since 2018). EU naming ban + Gourmey EFSA 2027+ further depress commercial prospects. Sources: AgFunderNews (9/10); FoodNavigator (9/10). Follow-up: Gourmey EFSA safety opinion; cultivated meat commercial scale data from Singapore/US.
+**Brief 2 — K-food DACH (Food / Culture):** Exports on track for $16bn 2026 target. Handokmall largest German online K-food retailer. K-EXPO Spain May 2026. Ramyeon premiumisation next segment. Sources: Korea Herald (9/10). Follow-up: Nongshim/Samyang DACH distribution deals.
+**Brief 3 — Nature-positive finance workshop Paris June 10 (Nature / Finance):** Biodiversa+ + Banque de France. Pre-COP17 institutional positioning. EU nature-credits methodology actionable intelligence 5 days away. Sources: Biodiversa+ (9/10). Follow-up: workshop synthesis; Calm/Storm delegate/debrief.
+**Brief 4 — FoodLabs €105m + Maia €55m deploying (Venture):** Both funds active in Calm/Storm-adjacent nutrition-tech deal flow. Competitive intelligence: understand their pass criteria and portfolio logic. Sources: AgFunderNews (9/10). Follow-up: named H1 2026 investments.
+
+### Deep Read
+**Title:** Why Cultivated Meat's Capital Winter Is a Feature, Not a Bug — and What the Fermentation Turn Means for Early-Stage Investment
+**Core argument:** Cultivated meat failed on unit economics not technology (cell culture media 60-90% of cost; bioreactor scaling non-linear). Believer Meats/Meatable case studies. Fermentation operates on solved industrial engineering. Planetary model: B2B licensing, no bioreactor ownership. Netherlands structural advantage (Wageningen, Invest-NL, agro-industrial partners). Diligence questions only a food scientist can ask (organism, carbon/nitrogen source, downstream processing, novel-food regulatory pathway). Julinka's edge is analytical verification, not just sourcing.
+
+### New concepts in Julinka's working vocabulary (do not re-explain)
+Fermentation's 74.7% Q1 2026 alt-protein capital share; Netherlands as global alt-protein hub (Invest-NL + Wageningen anchor); Invest-NL as government-backed catalytic investor; cell culture media cost structure (60-90% of cultivated meat production cost) as structural failure point; bioreactor scaling constraints; Believer Meats + Meatable as cultivated meat cold-winter case studies; COM(2025)374 as EU nature-credits legal foundation; $700bn global biodiversity financing gap; COP17 Yerevan October 19-30 dates; nature-positive finance workshop Paris June 10; Basel Exclusive First Choice Preview Hour (VIP June 16); temporal scarcity as art fair market mechanism
+
+### Julinka's Angles Issued — Track Completion
+- [ ] Map 5 Dutch B2B fermentation seed/pre-seed companies — before nutrition-tech thesis submission *(new, Edition 3 — URGENT: 30-day deadline approximately this week)*
+- [ ] Prepare 3 Art Basel VIP June 16 conversations at food × art × impact-capital intersection *(new, Edition 3 — 11 days)*
+- [ ] Identify Calm/Storm delegate or post-workshop debrief contact for Paris June 10 nature-positive finance workshop *(new, Edition 3 — 5 days)*
+- [ ] Submit nutrition-tech sourcing thesis for Calm/Storm *(carried from Edition 1 — DEADLINE THIS WEEK)*
+- [ ] Request Planetary technical documentation / BioBlocks publications *(carried from Edition 2)*
+- [ ] Find Swiss/Austrian representative on EU nature-credits expert group — before COP17 October 2026 *(carried from Edition 2)*
+- [ ] Draft "How to read a protein claim" essay *(carried from Edition 1)*
+- [ ] Start European regen-ag / natural-capital watch-list *(carried from Edition 1)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
 |---------|------|------------|-----------------|--------------|----------------|
 | 1 | 1 Jun 2026 | Europe's VC market splits in two; Calm/Storm's €30m preventive-health bet | VC funding split, meal-replacement/fermentation, Art Basel, K-food, nature credits, cultivated-meat naming, agrifoodtech deeptech repricing | Calm/Storm, Polagnoli, Ströck, Oska Health, Circle Health, Climax Foods, New School Foods, Gourmey | Nutrition-tech sourcing thesis; "protein claim" essay; Art Basel meetings; nature/regen-ag watch-list |
 | 2 | 4 Jun 2026 | Planetary SA CHF 22m Series A + ALDI Suisse price-parity mycoprotein launch | Planetary B2B fermentation licensing model, Art Basel 2026 Basel Exclusive initiative, EU nature credits expert group midpoint, fermentation funding paradox, Gourmey EFSA status, K-food DACH mainstreaming, FoodLabs + Maia new funds | Planetary SA, Radikal Capital, Oetker Ventures, Royal Cosun, Ruba Katrib (Art Basel), Ibrahim Mahama, Nairy Baghramian | Planetary technical diligence; Art Basel VIP 3 conversations; EU nature-credits expert group contact |
+| 3 | 5 Jun 2026 | Fermentation takes 74% of Q1 2026 alt-protein capital; Europe + Netherlands dominate | Q1 2026 alt-protein capital data, cultivated meat winter (Believer/Meatable shutdowns), Basel Exclusive in-person scarcity mechanics, EU Nature Credits COM(2025)374 + COP17 Yerevan, K-food $16bn target, Paris nature-positive finance workshop June 10, FoodLabs/Maia deploying | Believer Meats (shut down), Meatable (shut down), Invest-NL, The Better Meat Co., Protein Brewery | Map 5 Dutch fermentation companies; Art Basel VIP 3 conversations; Paris workshop June 10 debrief |
 
 ---
-*Last updated: Edition 1 — 1 June 2026*
+*Last updated: Edition 3 — 5 June 2026*
