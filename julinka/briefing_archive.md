@@ -160,6 +160,63 @@ Fermentation's 74.7% Q1 2026 alt-protein capital share; Netherlands as global al
 
 ---
 
+## EDITION 4 — Saturday, 6 June 2026
+
+### Lead Story
+**Title:** The Protein Brewery's €30M Series B — Novo Holdings Bets the Ozempic Economy Needs Better Protein
+**Pillar:** Venture Capital × Food Science
+**Core argument:** The Protein Brewery (Breda, NL) closed €30M Series B led by Novo Holdings (Novo Nordisk Foundation's investment arm) and Invest-NL. Fermotein (Rhizomucor pusillus, non-sterile conditions, 50% protein, 35% fibers) at 600 MT/yr demo plant, expandable to 2,500 MT. Third data point confirming B2B Netherlands fermentation thesis (Editions 2–3). Novo Holdings' entry signals GLP-1 → protein demand as pharma-adjacent capital thesis.
+**Key entities introduced:** The Protein Brewery; Fermotein (product); Novo Holdings; Brabant Development Agency
+**Key concepts introduced:** Rhizomucor pusillus (non-sterile fermentation advantage); GLP-1 → protein demand signal; Novo Holdings as pharma-adjacent fermentation capital; demo-plant-to-commercial-scale pathway (600 → 2,500 MT)
+**Sources used:** AgFunderNews (9/10): https://agfundernews.com/the-protein-brewery-raises-35-6m-series-b-to-scale-mycoprotein-our-process-is-less-capital-intensive ; Silicon Canals (8/10): https://siliconcanals.com/the-protein-brewery-secures-30m/ ; Green Queen (8/10): https://www.greenqueen.com.hk/the-protein-brewery-fermotein-funding-glp-1-ozempic-protein/
+**Julinka's Angle delivered:** "Ozempic Diet Needs Better Protein" investment note 300 words before Art Basel; Seoul Food & Hotel exhibitor list for Korean functional food pipeline; Art Basel VIP June 16 food × art intersection conversations
+**Follow-up threads to watch:** Protein Brewery US commercial launch; Singapore distribution partner; Invest-NL H1 2026 other alt-protein investments; Fermotein uptake in functional food brands; Novo Holdings next food capital deployment
+
+### Story 2
+**Title:** Seoul Food & Hotel Opens June 9 — Korea's Export Machine Comes to Market
+**Pillar:** Food Science × Venture
+**Core argument:** Seoul Food & Hotel 2026 (June 9–12, KINTEX, Goyang) — 44th edition, 1,650 companies, 45 countries. K-Food Plus exports $13.62bn 2025 → $16bn target 2026. Europe instant noodle exports >$100m H1 (all-time high, +65.3% YoY). Nongshim Europe (Amsterdam 2025) targeting €1.8bn European market. Theme: "AI & Robotics: The Era of Food Tech Convergence." USA guest of honor.
+**Key entities introduced:** Seoul Food & Hotel 2026 (KINTEX); Nongshim Europe (Amsterdam)
+**Key concepts introduced:** Global Next K-Food Project; K-Food Fair Frankfurt DACH expansion; Nongshim Europe market entry; "AI & Robotics" food tech convergence framing at Korean government level
+**Sources used:** Korea Times (9/10): https://www.koreatimes.co.kr/amp/business/companies/20260520/seoul-food-2026-to-open-in-june-to-expand-k-food-export-opportunities ; AP Food Online (9/10): https://www.apfoodonline.com/industry/south-korea-launches-global-next-k-food-project-to-accelerate-food-exports/ ; Seoulz (7/10): https://www.seoulz.com/k-food-exports-2026-2/
+**Follow-up threads to watch:** Seoul Food 2026 exhibitor list; Nongshim Europe first DACH retail listings; 2026 H1 K-food Europe export data; K-Food Fair Frankfurt participants
+
+### Story 3
+**Title:** Art Basel — 10 Days to the Discovery Premium
+**Pillar:** Art
+**Core argument:** Art Basel Preview June 16–17, Fair June 18–21. Basel Exclusive: 193/232 galleries withholding works until First Choice Preview June 16. Six 2026 art market trends: experience economy, digital art, Middle East collectors, private sales. Unlimited: 59 major projects (Ruba Katrib's debut curation). Preparation window closing.
+**Key entities introduced:** None new
+**Key concepts introduced:** Six 2026 Art Basel market trends (experience economy, digital, Middle East, private sales); reinforced Basel Exclusive logistics
+**Sources used:** Art Basel (10/10): https://www.artbasel.com/stories/art-market-trends-watch-2026-experience-digital-middle-east-private-sales ; Artsy (8/10)
+**Follow-up threads to watch:** Art Basel 2026 post-fair sales report; highest-value Basel Exclusive transactions; Unlimited critical reception
+
+### Intelligence Briefs
+**Brief 1 — AuX Labs $4M precision fermentation cheese (Food/Venture):** San Francisco. Precision fermentation cheddar. Small round — track not act. EU novel-food path unclear; commercial window 2028+. Sources: GlobeNewswire (8/10). Follow-up: EU regulatory status; food industry partners.
+**Brief 2 — Paris Nature-Positive Finance Workshop June 10 (Nature/Finance):** Biodiversa+ + Banque de France. 4 days away. EU nature-credits methodology update expected. Sources: Biodiversa+ (10/10): https://www.biodiversa.eu/2026/03/17/workshop-toward-nature-positive-finance-scientific-foundations-for-action/. Follow-up: workshop synthesis; expert group outputs.
+**Brief 3 — EU Agri Food Biotech Scaling Up 2026 (Venture/Food):** EU Single Market Programme grant for advanced fermentation food/feed applications. Non-dilutive funding for Calm/Storm pipeline. Sources: EU Commission (10/10). Follow-up: application deadline; award.
+**Brief 4 — K-Food Fair Frankfurt 2026 (Food/Culture):** aT Center Frankfurt, 40 Korean exporters meeting DACH buyers. Fermented functional foods expanding. Sources: ESM Magazine (9/10): https://www.esmmagazine.com/retail/k-food-fair-frankfurt-2026-connecting-korean-food-exporters-and-european-buyers-312714. Follow-up: DACH retail listings.
+
+### Deep Read
+**Title:** Fermotein vs. BioBlocks — The Two Fermentation Architectures That Will Own the Protein Transition
+**Core argument:** Planetary SA (BioBlocks: licensing model, agro-industrial side-streams, no reactor ownership) vs. The Protein Brewery (Fermotein: own facility, Rhizomucor pusillus, non-sterile, branded ingredient supply). Both B2B, both Netherlands, both Invest-NL. But Fermotein's clinical consistency advantage is why Novo Holdings chose it over the licensing model. Diligence framework only a food scientist can apply.
+
+### New concepts in Julinka's working vocabulary (do not re-explain)
+The Protein Brewery; Fermotein (Rhizomucor pusillus, non-sterile fermentation); Novo Holdings as pharma-adjacent food capital; GLP-1 → protein demand signal (clinical nutrition complement to Ozempic); demo-to-commercial scale pathway (600 → 2,500 MT); Seoul Food & Hotel 2026 (KINTEX); Global Next K-Food Project; Nongshim Europe (Amsterdam); AuX Labs (precision fermentation cheese); EU Agri Food Biotech Scaling Up 2026 grant; K-Food Fair Frankfurt DACH expansion; six Art Basel 2026 market trends
+
+### Julinka's Angles Issued — Track Completion
+- [ ] Write "The Ozempic Diet Needs Better Protein" (300 words) — publish before Art Basel June 16 *(new)*
+- [ ] Request Seoul Food & Hotel exhibitor list (KINTEX/KOTRA) — filter for functional food, precision fermentation, nutraceuticals *(new — event opens June 9)*
+- [ ] Identify 3 Art Basel VIP conversations at food × art × impact-capital intersection — June 16 *(carried, 10 days)*
+- [ ] Identify Calm/Storm delegate or debrief contact for Paris June 10 workshop *(carried — 4 days)*
+- [ ] Submit nutrition-tech sourcing thesis for Calm/Storm *(carried — DEADLINE THIS WEEK)*
+- [ ] Request Planetary technical documentation / BioBlocks publications *(carried from Edition 2)*
+- [ ] Find Swiss/Austrian representative on EU nature-credits expert group *(carried from Edition 2)*
+- [ ] Draft "How to read a protein claim" essay *(carried from Edition 1)*
+- [ ] Map 5 Dutch B2B fermentation seed companies *(carried from Edition 3)*
+- [ ] Start European regen-ag / natural-capital watch-list *(carried from Edition 1)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -167,6 +224,7 @@ Fermentation's 74.7% Q1 2026 alt-protein capital share; Netherlands as global al
 | 1 | 1 Jun 2026 | Europe's VC market splits in two; Calm/Storm's €30m preventive-health bet | VC funding split, meal-replacement/fermentation, Art Basel, K-food, nature credits, cultivated-meat naming, agrifoodtech deeptech repricing | Calm/Storm, Polagnoli, Ströck, Oska Health, Circle Health, Climax Foods, New School Foods, Gourmey | Nutrition-tech sourcing thesis; "protein claim" essay; Art Basel meetings; nature/regen-ag watch-list |
 | 2 | 4 Jun 2026 | Planetary SA CHF 22m Series A + ALDI Suisse price-parity mycoprotein launch | Planetary B2B fermentation licensing model, Art Basel 2026 Basel Exclusive initiative, EU nature credits expert group midpoint, fermentation funding paradox, Gourmey EFSA status, K-food DACH mainstreaming, FoodLabs + Maia new funds | Planetary SA, Radikal Capital, Oetker Ventures, Royal Cosun, Ruba Katrib (Art Basel), Ibrahim Mahama, Nairy Baghramian | Planetary technical diligence; Art Basel VIP 3 conversations; EU nature-credits expert group contact |
 | 3 | 5 Jun 2026 | Fermentation takes 74% of Q1 2026 alt-protein capital; Europe + Netherlands dominate | Q1 2026 alt-protein capital data, cultivated meat winter (Believer/Meatable shutdowns), Basel Exclusive in-person scarcity mechanics, EU Nature Credits COM(2025)374 + COP17 Yerevan, K-food $16bn target, Paris nature-positive finance workshop June 10, FoodLabs/Maia deploying | Believer Meats (shut down), Meatable (shut down), Invest-NL, The Better Meat Co., Protein Brewery | Map 5 Dutch fermentation companies; Art Basel VIP 3 conversations; Paris workshop June 10 debrief |
+| 4 | 6 Jun 2026 | The Protein Brewery €30M Series B — Novo Holdings / GLP-1 protein demand signal | Protein Brewery B2B ingredient model vs. Planetary BioBlocks licensing (deep read), Seoul Food & Hotel June 9–12 (K-food export machine), Art Basel 10-day countdown (Basel Exclusive, six market trends), AuX Labs precision fermentation cheese, Paris nature-positive finance workshop June 10, EU Agri Food Biotech Scaling Up 2026 grant, K-Food Fair Frankfurt | The Protein Brewery, Fermotein, Novo Holdings (food), AuX Labs, Seoul Food & Hotel 2026, Nongshim Europe | "Ozempic protein" investment note before Art Basel; Seoul Food exhibitor list; Art Basel VIP 3 conversations |
 
 ---
-*Last updated: Edition 3 — 5 June 2026*
+*Last updated: Edition 4 — 6 June 2026*

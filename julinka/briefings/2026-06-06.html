@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appetite — Saturday, 6 June 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:#FBF9F3;color:#1F1B16;font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.68;}
+.container{max-width:760px;margin:0 auto;padding:0 24px 60px;}
+a{color:#A8761A;text-decoration:none;}
+a:hover{text-decoration:underline;}
+.kicker{font-family:'DM Sans',Arial,sans-serif;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:#A8761A;font-weight:700;}
+.label{font-family:'DM Sans',Arial,sans-serif;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#928775;font-weight:600;}
+.badge-green{display:inline-block;background:#E8F1E4;color:#3A6B2A;font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;padding:2px 7px;border-radius:3px;letter-spacing:0.3px;vertical-align:middle;white-space:nowrap;}
+.badge-amber{display:inline-block;background:#F4E8C9;color:#7A5A12;font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;padding:2px 7px;border-radius:3px;letter-spacing:0.3px;vertical-align:middle;white-space:nowrap;}
+.rule-single{border:none;border-top:1px solid #D5C9A8;margin:32px 0;}
+.rule-double{border:none;border-top:3px double #1F1B16;margin:40px 0;}
+.gingham-rule{height:8px;background-image:repeating-linear-gradient(90deg,#E7B43A 0px,#E7B43A 8px,#FBF9F3 8px,#FBF9F3 16px);margin:10px 0 0;}
+.pullquote{border-left:4px solid #E7B43A;padding:18px 24px;margin:36px 0;background:#F4E8C9;}
+.pullquote p{font-family:'Fraunces',Georgia,serif;font-size:21px;font-style:italic;line-height:1.45;color:#2A200A;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin:0 0 36px;}
+@media(max-width:620px){.two-col{grid-template-columns:1fr;}}
+.col-story h3{font-family:'Fraunces',Georgia,serif;font-size:19px;line-height:1.28;margin-bottom:10px;color:#1F1B16;}
+.col-story p{font-size:15.5px;color:#4A4036;line-height:1.65;}
+.col-story .kicker{margin-bottom:6px;}
+.intel-item{border-top:1px solid #D5C9A8;padding:18px 0;font-size:15.5px;color:#2A2218;}
+.intel-item strong{font-family:'Fraunces',Georgia,serif;font-size:16.5px;display:block;margin-bottom:5px;color:#1F1B16;}
+.angle-block{background:#211C16;color:#FBF9F3;padding:36px 40px;margin:36px 0;border-radius:4px;}
+.angle-block h2{font-family:'Fraunces',Georgia,serif;color:#FBF9F3;font-size:24px;margin-bottom:4px;}
+.angle-block .angle-sub{font-family:'DM Sans',Arial,sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#A8761A;margin-bottom:24px;}
+.angle-item{display:flex;gap:18px;margin-bottom:22px;}
+.angle-item:last-child{margin-bottom:0;}
+.angle-num{font-family:'Fraunces',Georgia,serif;font-size:34px;font-weight:900;color:#E7B43A;line-height:1;min-width:38px;}
+.angle-text{font-size:15px;line-height:1.62;color:#D4CDB8;}
+.angle-text strong{color:#FBF9F3;}
+.two-col-bottom{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:8px;}
+@media(max-width:620px){.two-col-bottom{grid-template-columns:1fr;}}
+.radar-item{font-size:14.5px;color:#2A2218;padding:7px 0;border-bottom:1px solid #DDD2BA;line-height:1.5;}
+.radar-item:last-child{border-bottom:none;}
+.radar-date{font-family:'DM Sans',Arial,sans-serif;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#A8761A;font-weight:700;margin-right:8px;}
+.sn-signal{color:#3A6B2A;font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:2px 7px;background:#E8F1E4;border-radius:3px;margin-right:6px;vertical-align:middle;}
+.sn-noise{color:#7A5A12;font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:2px 7px;background:#F4E8C9;border-radius:3px;margin-right:6px;vertical-align:middle;}
+.sn-item{font-size:14.5px;color:#2A2218;padding:7px 0;border-bottom:1px solid #DDD2BA;line-height:1.5;}
+.sn-item:last-child{border-bottom:none;}
+.footer{border-top:2px solid #1F1B16;padding-top:24px;margin-top:48px;font-family:'DM Sans',Arial,sans-serif;font-size:11px;color:#928775;letter-spacing:0.5px;line-height:2;}
+.gold-top{height:8px;background:#E7B43A;}
+.masthead-label{font-family:'DM Sans',Arial,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#A8761A;text-align:center;padding-top:32px;}
+.masthead-title{font-family:'Fraunces',Georgia,serif;font-size:60px;font-weight:900;text-align:center;letter-spacing:-2px;line-height:1;color:#1F1B16;padding:8px 0 4px;}
+.masthead-sub{font-family:'Source Serif 4',Georgia,serif;font-style:italic;font-size:14px;color:#4A4036;text-align:center;padding-bottom:12px;}
+.dateline-bar{display:flex;justify-content:space-between;align-items:center;border-top:2px solid #1F1B16;border-bottom:2px solid #1F1B16;padding:8px 0;margin:10px 0 36px;}
+.deep-read-link{display:inline-block;background:#A8761A;color:#FBF9F3;font-family:'DM Sans',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:10px 22px;border-radius:100px;cursor:pointer;border:none;margin-top:12px;}
+.deep-read-link:hover{background:#8a5e12;color:#FBF9F3;}
+.continuity{background:#F4E8C9;border-left:3px solid #A8761A;padding:10px 16px;font-size:14.5px;font-style:italic;color:#4A3010;margin:20px 0;}
+.sun-motif{text-align:center;font-size:20px;color:#E7B43A;padding:4px 0;letter-spacing:6px;}
+.pill-tag{display:inline-block;background:#F4E8C9;color:#7A5A12;font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;padding:3px 10px;border-radius:100px;letter-spacing:0.5px;margin-right:4px;}
+.meta-block{background:#F4E8C9;border-radius:6px;padding:18px 22px;margin:32px 0;font-size:14px;color:#4A4036;line-height:1.7;}
+.meta-block strong{color:#1F1B16;font-family:'DM Sans',Arial,sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;}
+.action-item{padding:3px 0;color:#2A2218;}
+.action-item::before{content:"□ ";color:#A8761A;font-size:12px;}
+.action-urgent{color:#B23A3A;font-weight:600;}
+</style>
+</head>
+<body>
+
+<!-- ═══ MAIN VIEW ═══ -->
+<div id="main">
+
+<div class="gold-top"></div>
+<div class="container">
+
+  <!-- Masthead -->
+  <div class="masthead-label">Your Morning Brief · Saturday, 6 June 2026</div>
+  <div class="sun-motif">✦ ☀ ✦</div>
+  <div class="masthead-title">Appetite</div>
+  <div class="masthead-sub">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  <div class="gingham-rule"></div>
+  <div class="dateline-bar">
+    <span class="kicker" style="font-size:12px;">Edition 4</span>
+    <span class="label">Venture &nbsp;·&nbsp; Food &nbsp;·&nbsp; Art &nbsp;·&nbsp; Nature</span>
+  </div>
+
+  <!-- LEAD STORY -->
+  <div class="kicker" style="margin-bottom:8px;">Today's Lead &nbsp;·&nbsp; Venture Capital × Food Science</div>
+  <h1 style="font-family:'Fraunces',Georgia,serif;font-size:38px;line-height:1.15;letter-spacing:-0.8px;margin-bottom:14px;">The Protein Brewery's €30M Series B — Novo Holdings Bets the Ozempic Economy Needs Better Protein</h1>
+  <div class="label" style="margin-bottom:22px;">Sources: <a href="https://agfundernews.com/the-protein-brewery-raises-35-6m-series-b-to-scale-mycoprotein-our-process-is-less-capital-intensive" target="_blank">AgFunderNews</a> <span class="badge-green">9/10</span> &nbsp;·&nbsp; <a href="https://siliconcanals.com/the-protein-brewery-secures-30m/" target="_blank">Silicon Canals</a> <span class="badge-green">8/10</span> &nbsp;·&nbsp; <a href="https://www.greenqueen.com.hk/the-protein-brewery-fermotein-funding-glp-1-ozempic-protein/" target="_blank">Green Queen</a> <span class="badge-green">8/10</span></div>
+
+  <p>The Protein Brewery, based in Breda in the southern Netherlands, has closed a €30 million Series B led by Novo Holdings — the investment arm of the Novo Nordisk Foundation, which funds the company that makes Ozempic. The round also includes Unovis Asset Management, and crucially, Invest-NL and the Brabant Development Agency: the same Dutch government-backed catalytic investor that anchors the Netherlands' position as the global centre of gravity for B2B fermentation infrastructure. This is not a coincidence. It is a thesis about what the GLP-1 economy requires next.</p>
+
+  <div class="continuity">As established in Editions 2 and 3, the B2B Netherlands fermentation model — licensing infrastructure rather than building consumer brands — is the fundable architecture in the current alt-protein capital environment. Planetary SA (CHF 22m Series A, Invest-NL) and The Protein Brewery (€30m Series B, Invest-NL) now represent two consecutive, distinct data points confirming that thesis. The Netherlands cluster is no longer a hypothesis.</div>
+
+  <p>The Protein Brewery's product is Fermotein: a fungi-based protein powder produced from Rhizomucor pusillus under non-sterile fermentation conditions. The non-sterile process is the key differentiator. Most biomass fermentation competitors require sterile environments — capital-intensive reactors with rigorous contamination control. Rhizomucor pusillus tolerates open conditions, reducing both the capital cost per kilogram and the complexity of scale-up. The result is approximately 50% complete protein and 35% dietary fibre per weight, produced in a demo plant in Mijkenbroek at 600 metric tons per year — expandable to 2,500 MT at the same site. The Series B funds US and Singapore market entry.</p>
+
+  <p>But the most significant signal in this round is the lead investor. Novo Holdings manages the endowment of the Novo Nordisk Foundation. Novo Nordisk — the pharma giant behind Ozempic and Wegovy — has approximately 40 million people globally on GLP-1 agonists for weight management. The clinical picture on GLP-1 therapy is well-established: patients lose weight effectively but lose disproportionate lean muscle mass alongside fat, particularly without adequate dietary protein. High-quality, accessible protein supplementation is not a nice-to-have for GLP-1 users. It is a clinical requirement. Novo Holdings is not making a food trend bet. It is backing the nutritional complement to its foundation's anchor pharmaceutical asset.</p>
+
+  <p>For investors following the preventive health nutrition mandate — which is Calm/Storm's expanding thesis — this is the structural signal to anchor. The GLP-1 wave is not a competitor to food science investment. It is the demand driver that brings pharmaceutical-grade rigour to the nutrition market, and capital with it. Fermotein, priced at institutional ingredient scale, sits at the intersection of sports nutrition, clinical nutrition, and functional food — categories that Calm/Storm's mandate now explicitly includes.</p>
+
+  <!-- Editor note / continuity -->
+  <div style="background:#F4E8C9;border-radius:4px;padding:14px 18px;margin:24px 0;font-size:14.5px;font-style:italic;color:#4A3010;">
+    <strong style="font-style:normal;font-family:'DM Sans',Arial,sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#A8761A;">Edition continuity note</strong><br>
+    The cultivated meat winter (Believer Meats, Meatable — $458m combined capital lost, covered Edition 3) deepens as capital flows to what survives: B2B fermentation infrastructure with industrial-grade demand. Three consecutive editions have now confirmed the same structural argument. The argument is now settled. Future coverage will track named commercial milestones — not re-establish the thesis.
+  </div>
+
+  <!-- Pullquote -->
+  <div class="pullquote">
+    <p>"When the foundation funding the world's leading weight-loss drug backs your protein powder, it is not a food story. It is a metabolic health infrastructure story."</p>
+  </div>
+
+  <div class="rule-double"></div>
+
+  <!-- TWO-COLUMN SECTION -->
+  <div class="two-col">
+
+    <!-- Story 2 -->
+    <div class="col-story">
+      <div class="kicker">Food Science × Venture · K-Food</div>
+      <h3>Seoul Food &amp; Hotel Opens June 9 — Korea's Export Machine Comes to Market</h3>
+      <p>Seoul Food &amp; Hotel 2026 opens in three days, June 9–12 at KINTEX in Goyang, Gyeonggi Province. Now in its 44th edition, the exhibition will host 1,650 companies from 45 countries, and has adopted the theme "AI &amp; Robotics: The Era of Food Tech Convergence" — a deliberate signal that South Korea is not merely exporting food culture. It is exporting food science methodology. The United States is this year's guest country of honour, a geopolitical positioning statement in the context of trade and food standard negotiations.</p>
+      <p style="margin-top:12px;">K-Food Plus exports reached $13.62 billion in 2025, with a $16 billion target for 2026. Europe is growing fastest: instant noodle exports to Europe exceeded $100 million for the first half of 2025, an all-time high, up 65.3% year-on-year. Nongshim Europe, established in Amsterdam in early 2025, is targeting the €1.8 billion European instant noodle market directly. The K-Food Fair Frankfurt — a parallel aT Center event connecting Korean exporters to DACH buyers — continues to expand. Korea's food export strategy has moved from cultural wave to industrial infrastructure, and its European distribution is now institutional, not viral.</p>
+      <div class="label" style="margin-top:14px;">Sources: <a href="https://www.koreatimes.co.kr/amp/business/companies/20260520/seoul-food-2026-to-open-in-june-to-expand-k-food-export-opportunities" target="_blank">Korea Times</a> <span class="badge-green">9/10</span> &nbsp;·&nbsp; <a href="https://www.apfoodonline.com/industry/south-korea-launches-global-next-k-food-project-to-accelerate-food-exports/" target="_blank">AP Food Online</a> <span class="badge-green">9/10</span> &nbsp;·&nbsp; <a href="https://www.seoulz.com/k-food-exports-2026-2/" target="_blank">Seoulz</a> <span class="badge-amber">7/10</span></div>
+    </div>
+
+    <!-- Story 3 -->
+    <div class="col-story">
+      <div class="kicker">Art · Market Mechanics</div>
+      <h3>Art Basel — 10 Days to the Discovery Premium</h3>
+      <p>Art Basel's VIP First Choice Preview opens in ten days, on June 16, with the main fair running June 18–21 at Messe Basel. The countdown matters structurally. This year's Basel Exclusive initiative means 193 of 232 main-sector galleries have formally committed to withholding major works from all pre-fair previews, online viewing rooms, and email communications until that Tuesday morning opening. The discovery premium — the social and commercial advantage of being first to see and secure — has been deliberately concentrated into a single physical moment. In-person VIP attendance is more commercially meaningful in 2026 than in any prior edition.</p>
+      <p style="margin-top:12px;">Art Basel's own analysis of six 2026 art market trends to watch names the experience economy as the dominant shift — a move from object transaction to cultural event. Ruba Katrib's Unlimited debut (59 major projects, 66 galleries, curated by the MoMA PS1 chief curator for the first time) reinforces that framing: Unlimited is now the fair's cultural statement, not just its large-scale sales floor. The Gold Awardees — Nairy Baghramian on Messeplatz, Ibrahim Mahama on Münsterplatz — take the work outside the hall and into Basel's civic space. Julinka's window for preparation is now ten days.</p>
+      <div class="label" style="margin-top:14px;">Sources: <a href="https://www.artbasel.com/stories/art-market-trends-watch-2026-experience-digital-middle-east-private-sales" target="_blank">Art Basel Official</a> <span class="badge-green">10/10</span> &nbsp;·&nbsp; <a href="https://www.artsy.net/article/artsy-editorial-art-basels-flagship-fair-announces-participating-galleries-new-highlights-2026-edition" target="_blank">Artsy</a> <span class="badge-green">8/10</span></div>
+    </div>
+
+  </div>
+
+  <!-- INTELLIGENCE BRIEFS -->
+  <div style="margin:8px 0 0;">
+    <div class="kicker" style="margin-bottom:16px;">Intelligence Briefs</div>
+
+    <div class="intel-item">
+      <strong>AuX Labs $4M — Precision Fermentation Cheese Enters Commercial Pipeline &nbsp;<span class="label">Food / Venture</span></strong>
+      San Francisco-based AuX Labs has secured $4 million to commercialise its precision fermentation cheddar platform. The round is small — sub-Series A — but the category is structurally significant. Precision fermentation dairy proteins (casein, whey produced by microorganisms rather than cows) have been in the commercial pipeline since Perfect Day's 2018 ingredient launch; AuX is the latest entrant focused on cheddar's complex flavour chemistry. EU regulatory status for AuX's product is not confirmed — the EU novel food pathway remains a minimum 18-month process from application. The commercial window in Europe is 2028 at earliest. The signal here is that animal-free dairy proteins are moving from science demonstration to commercial-scale ingredient supply, which is where Calm/Storm's diligence will eventually need to go. &nbsp;<a href="https://www.globenewswire.com/news-release/2026/04/27/3281817/0/en/Precision-Fermentation-Market-Size-Worth-USD-75-76-Billion-by-2035" target="_blank">GlobeNewswire</a> <span class="badge-green">8/10</span>
+    </div>
+
+    <div class="intel-item">
+      <strong>Paris Nature-Positive Finance Workshop — June 10 (4 Days) &nbsp;<span class="label">Nature / Finance</span></strong>
+      Biodiversa+ and the Banque de France are co-hosting a high-level workshop in Paris on June 10, four days from now, titled "Toward Nature-Positive Finance: Scientific Foundations for Action." This is a pre-COP17 positioning event. The EU nature-credits expert group — operating under COM(2025)374, the legal roadmap established in Edition 3 — is expected to present its mid-year methodology outputs here before Yerevan in October. For a fund with a climate mandate like Calm/Storm, the actionable intelligence from this workshop will be the state of the methodology for actually certifying nature credits in Swiss and Austrian agricultural contexts. The workshop synthesis document will be public within weeks. The task from Edition 3 — identify a Calm/Storm delegate or a debrief contact — is now four days from expiry. &nbsp;<a href="https://www.biodiversa.eu/2026/03/17/workshop-toward-nature-positive-finance-scientific-foundations-for-action/" target="_blank">Biodiversa+ Official</a> <span class="badge-green">10/10</span>
+    </div>
+
+    <div class="intel-item">
+      <strong>EU Agri Food Biotech Scaling Up 2026 — Grant Opportunity for Advanced Fermentation &nbsp;<span class="label">Venture / Food</span></strong>
+      The European Commission's Single Market Programme has opened the "Agri Food Biotech Scaling Up 2026" funding call, specifically targeting advanced fermentation technologies for food and feed applications. This is a direct grant route — non-dilutive — for companies at the scale-up stage. For Calm/Storm's portfolio pipeline, the relevance is twofold: (1) EU grant funding is a de-risking instrument for food science deep tech that reduces the equity check required at Series A; (2) companies that have already secured this grant are self-selecting as science-credible and EU-regulatory-ready. Calm/Storm should be tracking the applicant list as a sourcing signal. &nbsp;<a href="https://environment.ec.europa.eu/news/eu-delivering-biodiversity-ahead-cbd-cop17-2026-05-22_en" target="_blank">EU Commission</a> <span class="badge-green">10/10</span>
+    </div>
+
+    <div class="intel-item">
+      <strong>K-Food Fair Frankfurt 2026 — DACH Distribution Expanding &nbsp;<span class="label">Food / Culture</span></strong>
+      The aT Center Frankfurt is running the K-Food Fair as an active DACH market entry programme, connecting 40 Korean food exporters with German, Austrian, and Swiss buyers including grocery chains, online retailers, and food service operators. The categories expanding fastest: fermented foods (beyond kimchi — doenjang, gochujang as culinary bases), functional snacks, premium instant noodles (ramyeon premiumisation). For Calm/Storm's nutrition mandate, the intersection here is Korean functional food science — fermented ingredients with documented gut-health effects that are entering European retail without the regulatory burden of novel food designation, because traditional foods are classified differently. &nbsp;<a href="https://www.esmmagazine.com/retail/k-food-fair-frankfurt-2026-connecting-korean-food-exporters-and-european-buyers-312714" target="_blank">ESM Magazine</a> <span class="badge-green">9/10</span>
+    </div>
+
+  </div>
+
+  <!-- JULINKA'S ANGLE -->
+  <div class="angle-block">
+    <h2>Julinka's Angle</h2>
+    <div class="angle-sub">Strategic observations for Julinka Naomi Waesche · Food scientist turned venture investor at Calm/Storm</div>
+
+    <div class="angle-item">
+      <div class="angle-num">1</div>
+      <div class="angle-text"><strong>Write "The Ozempic Diet Needs Better Protein" — 300 words, published before Art Basel June 16.</strong> The Novo Holdings / Protein Brewery investment is the clearest possible signal that pharma capital has accepted fermentation protein as the clinical nutritional complement to GLP-1 therapy. You are the only food scientist in the European VC ecosystem who can write this note with scientific credibility — who knows what a GLP-1 user's protein requirements actually look like, and why Rhizomucor pusillus's amino acid profile matters. This is not a market commentary piece. It is a claim: "GLP-1 is creating a new clinical nutrition demand category, and B2B fermentation infrastructure is the supply side." Publish on LinkedIn before the Basel week, where the people who fund preventive health will be in the same building as the people who fund art. That intersection is yours.</div>
+    </div>
+
+    <div class="angle-item">
+      <div class="angle-num">2</div>
+      <div class="angle-text"><strong>Seoul Food &amp; Hotel opens in 3 days. Request the exhibitor directory from KINTEX or KOTRA Frankfurt today.</strong> The directory is public — or obtainable via the Korea Trade-Investment Promotion Agency's German office. Filter for: (1) functional food companies with documented clinical claims (gut health, metabolic, cognitive); (2) precision fermentation or industrial biotech exhibitors; (3) nutraceutical ingredient suppliers. Cross-reference with EU novel food status. The output is a Korean pipeline list for Calm/Storm's nutrition mandate. Korean food science — particularly fermented functional ingredients — has ETH-level rigour with commercial scaling already proven in the DACH market via Nongshim, Samyang, and the K-food retail expansion. This is sourcing intelligence that no generalist investor will have built from a trade show catalogue before a fund's first check.</div>
+    </div>
+
+    <div class="angle-item">
+      <div class="angle-num">3</div>
+      <div class="angle-text"><strong>Art Basel VIP June 16: identify 3 conversations now, before the room fills.</strong> You have ten days. The specific intersection Calm/Storm inhabits — preventive health capital meeting food culture meeting natural environment — is present at Art Basel in a form that has no better European analogue. Concrete targets: (1) any gallery showing botanical or nature art with an impact-aligned collector base (the nature credit market's early adopters are often collectors of nature-focused work); (2) the Parcours outdoor programme, where Hessler's "conviviality" framing intersects with community nutrition and food systems; (3) impact capital investors attending Unlimited who are publicly associated with food or health mandates. The conversations you have at Basel during VIP week are the highest-context, lowest-agenda introductions available in European capital. Use them for sourcing, not socialising.</div>
+    </div>
+
+  </div>
+
+  <!-- ON THE RADAR + SIGNAL VS NOISE -->
+  <div class="two-col-bottom">
+
+    <div>
+      <div class="kicker" style="margin-bottom:12px;">On the Radar</div>
+      <div class="radar-item"><span class="radar-date">Jun 9–12</span>Seoul Food &amp; Hotel 2026 — KINTEX, Goyang &nbsp;<span style="color:#A8761A;font-weight:700;">⚑ 3 days</span></div>
+      <div class="radar-item"><span class="radar-date">Jun 10</span>Nature-Positive Finance Workshop — Paris &nbsp;<span style="color:#A8761A;font-weight:700;">⚑ 4 days</span></div>
+      <div class="radar-item"><span class="radar-date">This week</span>Calm/Storm nutrition-tech sourcing thesis — <span style="color:#B23A3A;font-weight:700;">DEADLINE</span></div>
+      <div class="radar-item"><span class="radar-date">Jun 16</span>Art Basel VIP First Choice Preview — Basel</div>
+      <div class="radar-item"><span class="radar-date">Jun 18–21</span>Art Basel main fair — Messe Basel</div>
+      <div class="radar-item"><span class="radar-date">Oct 19–30</span>COP17 CBD Yerevan — nature-credits forcing function</div>
+    </div>
+
+    <div>
+      <div class="kicker" style="margin-bottom:12px;">Signal vs. Noise</div>
+      <div class="sn-item"><span class="sn-signal">Signal</span>Novo Holdings backing Fermotein — this is pharma capital accepting fermentation protein as clinical nutrition infrastructure, not food trend investment.</div>
+      <div class="sn-item"><span class="sn-noise">Noise</span>AuX Labs $4M precision fermentation cheese — too small, too early for EU commercial relevance. Track, do not act on.</div>
+      <div class="sn-item"><span class="sn-signal">Signal</span>Seoul Food's "AI &amp; Robotics" theme — Korea is positioning its food science exports as deep tech, not culinary culture. That is an investor frame, not a consumer frame.</div>
+      <div class="sn-item"><span class="sn-noise">Noise</span>Global agrifoodtech total funding numbers — the interesting data is always inside the category breakdown. Fermentation vs. cultivated vs. plant-based splits tell the real story.</div>
+      <div class="sn-item"><span class="sn-signal">Signal</span>Basel Exclusive 193/232 galleries participating — the discovery premium at in-person VIP is structurally higher than any prior edition. Physical attendance is not optional this year.</div>
+    </div>
+
+  </div>
+
+  <!-- DEEP READ CTA -->
+  <div style="background:#F4E8C9;border:1px solid #D5C9A8;border-radius:8px;padding:20px 24px;margin:40px 0 8px;">
+    <div class="kicker" style="margin-bottom:6px;">Deep Read &nbsp;·&nbsp; Food Science × Venture Capital</div>
+    <div style="font-family:'Fraunces',Georgia,serif;font-size:21px;font-weight:700;margin-bottom:8px;line-height:1.3;color:#1F1B16;">Fermotein vs. BioBlocks — The Two Fermentation Architectures That Will Own the Protein Transition</div>
+    <div style="font-size:14.5px;color:#4A3010;line-height:1.6;">Planetary SA and The Protein Brewery both have Invest-NL funding, Netherlands anchors, and B2B mandates. But their architectures are completely different — and only one of them scales in a way that Novo Holdings' capital logic can follow. This deep read gives you the diligence framework a generalist cannot replicate.</div>
+    <button class="deep-read-link" onclick="showDeepRead(1)">Read in-page →</button>
+  </div>
+
+  <!-- META BLOCK -->
+  <div class="meta-block">
+    <strong>New this edition</strong>
+    <span class="pill-tag">The Protein Brewery</span>
+    <span class="pill-tag">Fermotein</span>
+    <span class="pill-tag">Novo Holdings (food)</span>
+    <span class="pill-tag">GLP-1 → protein demand signal</span>
+    <span class="pill-tag">AuX Labs</span>
+    <span class="pill-tag">Seoul Food &amp; Hotel 2026</span>
+    <span class="pill-tag">Nongshim Europe</span>
+    <span class="pill-tag">EU Agri Food Biotech Scaling Up 2026</span>
+    <span class="pill-tag">Art Basel 2026 six market trends</span>
+  </div>
+
+  <div class="meta-block" style="margin-top:16px;">
+    <strong>Open Actions — Track Completion</strong>
+    <div class="action-item action-urgent">Write "The Ozempic Diet Needs Better Protein" (300 words) — before Art Basel June 16 <em>(new)</em></div>
+    <div class="action-item action-urgent">Request Seoul Food &amp; Hotel exhibitor list (KINTEX/KOTRA) — event opens June 9 <em>(new)</em></div>
+    <div class="action-item action-urgent">Identify Paris workshop June 10 delegate/debrief — 4 days <em>(carried Edition 3)</em></div>
+    <div class="action-item action-urgent">Submit nutrition-tech sourcing thesis for Calm/Storm — <strong>DEADLINE THIS WEEK</strong> <em>(carried Edition 1)</em></div>
+    <div class="action-item">Prepare 3 Art Basel VIP conversations — June 16 (10 days) <em>(carried Edition 3)</em></div>
+    <div class="action-item">Map 5 Dutch B2B fermentation seed companies <em>(carried Edition 3)</em></div>
+    <div class="action-item">Request Planetary technical documentation / BioBlocks publications <em>(carried Edition 2)</em></div>
+    <div class="action-item">Find Swiss/Austrian representative on EU nature-credits expert group <em>(carried Edition 2)</em></div>
+    <div class="action-item">Draft "How to read a protein claim" essay <em>(carried Edition 1)</em></div>
+    <div class="action-item">Start European regen-ag / natural-capital watch-list <em>(carried Edition 1)</em></div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+      <span><strong style="color:#1F1B16;letter-spacing:1px;">APPETITE</strong> &nbsp;·&nbsp; Edition 4 &nbsp;·&nbsp; Saturday, 6 June 2026</span>
+      <span>A personal briefing for Julinka Naomi Waesche &nbsp;·&nbsp; Venture · Food · Art · Nature</span>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+<!-- ═══ DEEP READ 1 ═══ -->
+<div id="deep-read-1" style="display:none;">
+<div class="gold-top"></div>
+<div class="container">
+
+  <div style="padding-top:28px;margin-bottom:8px;">
+    <button onclick="showMain()" style="background:none;border:none;cursor:pointer;font-family:'DM Sans',Arial,sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#A8761A;font-weight:700;padding:0;">← Back to briefing</button>
+  </div>
+
+  <div class="kicker" style="margin:18px 0 8px;">Deep Read &nbsp;·&nbsp; Food Science × Venture Capital</div>
+  <h1 style="font-family:'Fraunces',Georgia,serif;font-size:34px;line-height:1.2;letter-spacing:-0.5px;margin-bottom:14px;">Fermotein vs. BioBlocks — The Two Fermentation Architectures That Will Own the Protein Transition</h1>
+  <div class="label" style="margin-bottom:28px;">Edition 4 &nbsp;·&nbsp; 6 June 2026 &nbsp;·&nbsp; Approx. 1,000 words</div>
+  <div class="rule-single"></div>
+
+  <h2 style="font-family:'Fraunces',Georgia,serif;font-size:22px;margin:28px 0 12px;">Two Bets on the Same Market</h2>
+  <p>Planetary SA and The Protein Brewery are frequently described as comparable companies. Both are Netherlands-anchored. Both received Invest-NL funding. Both are B2B. Both are working in biomass fermentation. Both rejected the cultivated meat path and the consumer brand path. The surface-level analysis — "two similar companies doing adjacent things" — is wrong in a way that matters for investment decisions. The architectures are fundamentally different, and the difference determines who is positioned to follow Novo Holdings' capital logic into scale.</p>
+
+  <h2 style="font-family:'Fraunces',Georgia,serif;font-size:22px;margin:28px 0 12px;">BioBlocks: The Infrastructure Licensing Model</h2>
+  <p>Planetary SA's BioBlocks system is a modular fermentation platform designed to convert agricultural side streams — specifically sugar industry residues — into mycoprotein. Planetary does not sell the protein. It licenses the fermentation technology to agro-industrial companies that already own the side streams. A sugar refinery, a starch manufacturer, a potato processor: these companies generate carbohydrate-rich waste streams with established logistics infrastructure. BioBlocks enables them to convert that waste into protein ingredients without building fermentation capability from scratch.</p>
+  <p style="margin-top:14px;">The business model is the distinguishing feature. Planetary takes a licensing fee and a royalty on production volume. It does not own bioreactors. It does not manage supply chain. It does not build brand. The capital requirement is concentrated in technology development and in enabling the first industrial partnerships — but the scale-up is funded by the licensee's balance sheet, not Planetary's. At ALDI Suisse price parity with conventional chicken, the BioBlocks model has demonstrated one non-trivial proof point: that mycoprotein produced via licensing can compete at retail on economics, not just nutrition.</p>
+  <p style="margin-top:14px;">The diligence questions for BioBlocks that a generalist cannot answer: What is the organism? (Trichoderma reesei, a workhorse industrial cellulase producer — not novel, not novel-food-pathway-constrained in most markets.) What are the downstream processing steps, and who owns the equipment? (Planetary licences the process; the licensee provides the downstream infrastructure.) How does the royalty stack compare to internal fermentation investment at scale? (This is the make-vs.-buy analysis that agro-industrial CFOs will run — and Planetary's answer needs to be more capital-efficient than building in-house.)</p>
+
+  <h2 style="font-family:'Fraunces',Georgia,serif;font-size:22px;margin:28px 0 12px;">Fermotein: The Ingredient Brand Model</h2>
+  <p>The Protein Brewery's model is different. It produces Fermotein — the branded ingredient — from its own facility. Rhizomucor pusillus is its organism of choice, and the non-sterile fermentation conditions it tolerates are the core IP. Where most biomass fermentation requires a sterile environment (contamination risk requires expensive clean-room reactors with rigorous monitoring), Rhizomucor pusillus thrives under conditions that other organisms would find hostile. This dramatically reduces capital expenditure per kilogram and simplifies scale-up: you are adding fermentation capacity, not rebuilding clean-room infrastructure.</p>
+  <p style="margin-top:14px;">The business model is ingredient supply. The Protein Brewery sells Fermotein to food manufacturers who use it in formulation — better-for-you bakery, snacking, clinical nutrition products. It owns its production facility in Mijkenbroek. It controls quality. It builds brand equity with ingredient buyers. The path to scale is conventional food ingredient supply chain development: qualify with tier-one food companies, establish specification sheets, build inventory depth, win long-term supply agreements.</p>
+  <p style="margin-top:14px;">The diligence questions: What is Rhizomucor pusillus's novel food status in target markets? (In the EU, this matters — though Rhizomucor is present in traditional European foods, including certain aged cheeses, which may simplify the regulatory argument.) What is the amino acid completeness of Fermotein at the 50% protein claim? (The 35% fibre co-production is an asset for certain applications but a formulation challenge in others.) How does the non-sterile process manage consistency? (Batch-to-batch amino acid and fibre profiles in non-sterile conditions require careful quality monitoring — this is where a food scientist's diligence goes.)</p>
+
+  <h2 style="font-family:'Fraunces',Georgia,serif;font-size:22px;margin:28px 0 12px;">Why Novo Holdings Chose Fermotein</h2>
+  <p>The Protein Brewery's model — ingredient producer with a branded product — is better suited to the clinical nutrition demand signal that Novo Holdings is capitalising on. GLP-1 users need standardised, high-quality protein at consistent specification. A licensing model (BioBlocks) creates specification variation across licensees. A controlled production facility (Fermotein) enables the pharmaceutical-grade consistency that clinical nutrition applications require. Novo Holdings is not just making a food bet. It is positioning Fermotein as a clinical ingredient that can be co-prescribed or co-recommended alongside GLP-1 therapy — a market that does not yet have a dominant player.</p>
+  <p style="margin-top:14px;">This does not make BioBlocks inferior. The two models serve different markets: BioBlocks scales by changing the economics of agro-industrial protein production globally; Fermotein scales by building specification trust in premium applications. In 2026's capital environment — where B2B traction and credible demand are the qualifying criteria — both have passed the test. But for Calm/Storm's nutrition-plus-health mandate, Fermotein's clinical nutrition pathway is the closer fit.</p>
+
+  <div class="pullquote" style="margin:36px 0 28px;">
+    <p>"The question for a food scientist doing diligence is not 'which organism?' but 'which regulatory pathway, at what capital intensity, for which buyer's specification sheet?' BioBlocks and Fermotein give completely different answers to each."</p>
+  </div>
+
+  <div class="label" style="margin-bottom:8px;">Sources for this Deep Read</div>
+  <p style="font-size:14px;color:#555;line-height:1.7;">
+    <a href="https://agfundernews.com/the-protein-brewery-raises-35-6m-series-b-to-scale-mycoprotein-our-process-is-less-capital-intensive" target="_blank">AgFunderNews — Protein Brewery Series B</a> <span class="badge-green">9/10</span><br>
+    <a href="https://agfundernews.com/planetary-nets-28m-to-scale-fermentation-infrastructure-and-licensing-platform" target="_blank">AgFunderNews — Planetary SA Series A</a> <span class="badge-green">9/10</span><br>
+    <a href="https://www.greenqueen.com.hk/the-protein-brewery-fermotein-funding-glp-1-ozempic-protein/" target="_blank">Green Queen — Novo Holdings / GLP-1 signal</a> <span class="badge-green">8/10</span><br>
+    <a href="https://siliconcanals.com/the-protein-brewery-secures-30m/" target="_blank">Silicon Canals — Protein Brewery Netherlands context</a> <span class="badge-green">8/10</span><br>
+    <a href="https://gfi.org/investment/" target="_blank">GFI — alternative protein investment data 2026</a> <span class="badge-green">8/10</span>
+  </p>
+
+  <div style="margin-top:40px;">
+    <button onclick="showMain()" style="background:none;border:1px solid #A8761A;cursor:pointer;font-family:'DM Sans',Arial,sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#A8761A;font-weight:700;padding:10px 22px;border-radius:100px;">← Return to briefing</button>
+  </div>
+
+  <div class="footer">
+    <span><strong style="color:#1F1B16;">APPETITE</strong> &nbsp;·&nbsp; Edition 4 &nbsp;·&nbsp; Saturday, 6 June 2026 &nbsp;·&nbsp; Deep Read</span>
+  </div>
+
+</div>
+</div>
+
+
+<script>
+function showDeepRead(n){
+  document.getElementById('main').style.display='none';
+  document.getElementById('deep-read-'+n).style.display='block';
+  window.scrollTo(0,0);
+}
+function showMain(){
+  var els=document.querySelectorAll('[id^="deep-read-"]');
+  els.forEach(function(el){el.style.display='none';});
+  document.getElementById('main').style.display='block';
+  window.scrollTo(0,0);
+}
+</script>
+
+</body>
+</html>
