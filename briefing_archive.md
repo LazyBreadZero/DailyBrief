@@ -295,6 +295,69 @@ visionOS 27 (Apple calendar-year versioning correction; previous editions' "visi
 
 ---
 
+## EDITION 6 — Saturday, 6 June 2026
+
+### Lead Story
+**Title:** Apple's New CEO John Ternus Narrows the Vision Roadmap — AI Glasses 2027, Display AR 2029
+**Category:** Extended Reality · Apple · Strategic
+**Core argument:** Incoming Apple CEO John Ternus has scaled back the Apple Vision product roadmap to two explicit paths: display-less AI glasses (2027, Ray-Ban Meta competitor) and display waveguide AR glasses (2029). This is the first reliable timeline for Apple's smart glasses entry. The strategy is explicitly Apple-Watch-style mass-market disruption. Android XR has a 12-month exclusivity window before Apple enters with hardware; WWDC June 8 (in 2 days) sets the developer ecosystem context.
+**Key companies introduced:** None new
+**Key people introduced:** John Ternus (incoming Apple CEO)
+**Key concepts introduced:** Display-less AI glasses 2027 (Apple roadmap); visionOS SDK 2.0; Apple Watch mass-market playbook applied to glasses; 12-month Android XR hardware exclusivity window (2026–2027)
+**Sources used:** 9to5Mac (9/10): https://9to5mac.com/2026/06/03/john-ternus-scaled-back-apples-vision-products-roadmap-report/ ; AppleInsider (8/10): https://appleinsider.com/articles/26/05/31/like-apple-watch-at-start-apples-smart-glasses-plan-will-challenge-the-entire-industry ; MacRumors (8/10): https://www.macrumors.com/roundup/wwdc/
+**Angelo's Angle delivered:** WWDC visionOS 27 API analysis 24h post-June 8; EU optical chain BD brief for Rotterdam; "Apple Watch or Zune?" smart glasses platform essay before AWE
+**Follow-up threads to watch:** WWDC June 8 visionOS 27 SDK 2.0 depth; Apple AI glasses 2027 design partners; Apple smart glasses EU distribution; John Ternus first public Vision strategy statement
+
+### Story 2
+**Title:** Neuralink Crosses into Manufacturing — Automated Surgery and High-Volume Production in 2026
+**Category:** Brain-Computer Interfaces · Manufacturing
+**Core argument:** Neuralink confirmed transition from research to manufacturing phase: high-volume production and almost entirely automated surgical procedure in 2026. Key technical advance: threads through dura without dura removal. Scale, not science, is now the bottleneck.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** Automated BCI surgical procedure; dura-penetration without dural removal; manufacturing scale as BCI bottleneck
+**Sources used:** FierceBiotech (9/10): https://www.fiercebiotech.com/medtech/elon-musks-neuralink-kickstart-high-volume-production-brain-computer-interface-devices ; Interesting Engineering (8/10): https://interestingengineering.com/culture/elon-musk-neuralink-tesla-2026-plans
+**Follow-up threads to watch:** Neuralink production volume targets; automated surgery first case; US commercial approval timeline; Synchron pivotal trial competitive dynamic
+
+### Story 3
+**Title:** Android XR Audio Glasses Priced at $379–$499 — the Category Enters Consumer Range
+**Category:** Extended Reality · Smart Glasses · Consumer
+**Core argument:** Supply chain reporting places Warby Parker/Gentle Monster Android XR audio-only frames at $379–$499. At this band, the category enters consumer impulse range (vs Ray-Ban Meta at $329–$429). Samsung Unpacked July will confirm specs. EU distribution still absent.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** $379–$499 Android XR audio frame price band; Samsung Unpacked July as Android XR spec event; EU optical distribution gap; European optical chain BD map (Fielmann, Grand Optical, Pearle Optics, Afflelou, Specsavers)
+**Sources used:** TechRadar (9/10): https://www.techradar.com/tech/warby-parker-and-gentle-monster-finally-showed-us-their-samsung-xr-glasses-but-forgot-to-tell-us-when-theyll-release-or-how-much-theyll-cost ; Droid-Life (8/10): https://www.droid-life.com/2026/05/19/android-xr-launch-fall-2026/ ; PhoneArena (7/10)
+**Follow-up threads to watch:** Samsung Unpacked July full specs; EU distribution partner announcement; Apple AI glasses 2027 competitive price
+
+### Intelligence Briefs
+**Brief 1 — AWE 2026 (9 days):** June 15–18 Long Beach. 300 enterprises scaling XR. XR Hall of Fame inducts 8 (Al Rodgers, Rebecca Allen, Karl Guttag, Brett Leonard). Angelo's consent essay deadline = June 15. Sources: AWE Official (10/10). Follow-up: Auggie Award winners.
+**Brief 2 — Android XR Developer Catalyst Programme:** Deadline June 30. Dev kits shipping summer. EU developers underrepresented. Sources: Google Blog (10/10). Follow-up: EU developer cohort.
+**Brief 3 — Prophetic Halo:** Dual ($449) end-2026; Phase ($1,299) slipped to mid-late 2027. Donders publication pending. Sources: Prophetic Official (10/10). Follow-up: Donders paper.
+**Brief 4 — Science Corp CE Mark:** Mid-2026 pending, no decision June 6. Angelo outreach outstanding — 5 editions. Sources: Science Corp (10/10). Follow-up: CE mark decision.
+
+### Deep Read
+**Title:** The Apple Watch Playbook for Glasses — What Ternus's Pivot Means for the Post-Screen Stack
+**Core argument:** Apple applies its mass-market flanking strategy to eyewear. Display-less AI glasses 2027 give Android XR one year of hardware exclusivity. Decisive competitive question: which platform establishes enterprise deployment lock-in before Apple hardware arrives in 2027?
+
+### New concepts in Angelo's working vocabulary (do not re-explain)
+John Ternus (incoming Apple CEO); display-less AI glasses 2027 (Apple roadmap confirmed); visionOS SDK 2.0; Apple Watch mass-market playbook in glasses; automated BCI surgery (dura-penetrating without dural removal); Neuralink manufacturing phase; $379–$499 Android XR audio glasses price band; Samsung Unpacked July as XR spec event; European optical chain BD map (Fielmann, Grand Optical, Pearle Optics, Afflelou, Specsavers)
+
+### Angelo's Angles Issued — Track Completion
+- [ ] Publish visionOS 27 developer API analysis (300 words) within 24h of WWDC June 8 keynote *(carried, NOW CRITICAL — 48 hours)*
+- [ ] Write "Apple Watch or Zune? The Smart Glasses Platform Bet" — publish before AWE June 15 *(new)*
+- [ ] Build EU optical chain BD brief (5 European chains with no Android XR partnership) — for Rotterdam June 23–25 *(new)*
+- [ ] Write 150-word consent layer seed note on LinkedIn *(carried from Ed. 5)*
+- [ ] Write "The Psychiatric BCI Nobody Is Covering" (400 words) — before AWE June 15 *(carried from Ed. 5)*
+- [ ] Draft consent layer essay full (300 words) — before AWE June 15 *(carried from Editions 1–5)*
+- [ ] Reach out to Science Corp — Max Hodak direct outreach *(carried, URGENT — 5 editions outstanding)*
+- [ ] Write Four Architectures of BCI map *(carried from Ed. 4)*
+- [ ] Attend Rotterdam Immersive Tech Week June 23–25 *(carried)*
+- [ ] Map German neurologist/ophthalmologist network (first PRIMA prescribers) *(carried)*
+- [ ] Write Q3 2026 essay: post-screen experience when AI and BCI mature *(carried)*
+- [ ] Write regulatory race essay: China's 2026 = US/EU's ~2029 *(carried)*
+- [ ] Review AWE Auggie finalists for US enterprise XR / no EU footprint BD targets *(carried)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Companies | Actions Issued |
@@ -304,6 +367,7 @@ visionOS 27 (Apple calendar-year versioning correction; previous editions' "visi
 | 3 | 2 Jun 2026 | China approves NeuroXess as world's first commercial brain implant | China BCI commercial approval, Apple Vision Pro retreat/2028, Oura Ring 5 + Doublepoint (corrects Ed.1), Varjo defence XR, NAOX LINK EEG, WWDC preview, AWE Auggie Awards | NeuroXess (commercial), Doublepoint Technologies, NAOX | Regulatory race essay before AWE; Auggie finalist BD targeting |
 | 4 | 4 Jun 2026 | Merge Labs architecture disclosed: molecular + ultrasound, no implants, OpenAI AI layer | Merge Labs Tier 4 BCI architecture, WWDC June 8 visionOS 3 stakes, Android XR glasses (Warby/Gentle Monster) fall launch, AWE 11 days, Prophetic beta, Synchron 2yr data, Science Corp CE mark | None new (Aflalo, Norman, Shapiro as key people) | BCI architecture map essay; Science Corp outreach URGENT; Android XR EU brief for Rotterdam |
 | 5 | 5 Jun 2026 | Motif Neurotech FDA IDE approval — BCI's psychiatric frontier opens | Therapeutic BCI / TRD (Motif XCS/DOT, 84m patient market), visionOS 27 WWDC pre-brief (API depth as key metric), AWE 10-day countdown (Spiegel keynote / Art Festival / Research Poster Track), Science Corp Stargardt/RP trial expansion, Ability Neurotech Netherlands ALS approval, Android XR glasses no pricing still | Motif Neurotech; Ability Neurotech | 300-word visionOS 27 note (24h post-WWDC); 150-word consent seed note today; psychiatric BCI essay before AWE |
+| 6 | 6 Jun 2026 | Apple CEO Ternus narrows Vision roadmap — AI glasses 2027, waveguide AR 2029 | Apple smart glasses timeline confirmed (Ternus), Neuralink manufacturing phase (automated surgery + high-volume production), Android XR audio glasses $379–$499 pricing, AWE 9-day countdown, Android XR Catalyst Programme deadline June 30, Prophetic Halo Phase slip, Science Corp CE mark still pending | None new (Ternus as key person) | WWDC visionOS 27 API analysis 24h post-June 8; "Apple Watch or Zune?" essay before AWE; EU optical chain BD brief for Rotterdam |
 
 ---
-*Last updated: Edition 5 — 5 June 2026*
+*Last updated: Edition 6 — 6 June 2026*
