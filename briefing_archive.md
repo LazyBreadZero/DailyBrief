@@ -358,6 +358,67 @@ John Ternus (incoming Apple CEO); display-less AI glasses 2027 (Apple roadmap co
 
 ---
 
+## EDITION 7 — Sunday, 7 June 2026
+
+### Lead Story
+**Title:** XREAL Raises $100m and Reveals Project Aura — Android XR Gets Its First Real Hardware Bet
+**Category:** Extended Reality · Platform Strategy
+**Core argument:** XREAL (Beijing, founder Chi Xu) raised $100m and unveiled Project Aura — wired, optical-see-through, 70-degree-FOV Android XR display glasses built with Google and Qualcomm, shipping globally before end-2026 with developer kits this summer. First confirmed third-party (non-Samsung, non-audio-only) Android XR hardware with a public spec sheet — the platform now has three parallel hardware bets (Samsung headset, Warby Parker/Gentle Monster audio frames, XREAL display glasses), an Android-style multi-OEM ecosystem strategy versus Apple's single-device strategy. Critically, XREAL is the third consecutive Android XR hardware partner with no announced European distribution path — a structural feature of the platform's launch sequencing, not an isolated gap.
+**Key companies introduced:** XREAL (Project Aura, $100m raise)
+**Key people introduced:** Chi Xu (XREAL founder/CEO)
+**Key concepts introduced:** Project Aura (display-forward Android XR glasses, 70° FOV, Snapdragon + Gemini); multi-OEM ecosystem strategy vs. single-device strategy; "three Android XR hardware bets in parallel" framing; structural EU distribution gap across all three Android XR device families
+**Sources used:** Road to VR (8/10): https://roadtovr.com/google-android-xr-xreal-raises-100m-2026/ ; 9to5Google (9/10): https://9to5google.com/2026/05/19/xreal-project-aura-android-xr-developers-2026-launch/ ; XREAL Official (10/10): https://www.xreal.com/blog/project-aura-google-io-2026
+**Angelo's Angle delivered:** Cold outreach brief to XREAL's EU BD team before Rotterdam — concrete sequencing-gap pitch
+**Follow-up threads to watch:** Project Aura developer kit reception; XREAL EU distribution announcement; Android XR display-glasses category definition; XREAL vs. Samsung vs. Warby Parker hardware performance comparison
+
+### Story 2
+**Title:** T-Minus One Day: Tim Cook's Final Keynote Carries the visionOS 27 Test — and a Surprise Gemini Deal Behind Siri
+**Category:** Extended Reality · Apple · Leadership Transition
+**Core argument:** WWDC June 8 (tomorrow, 10am PT) is Tim Cook's last keynote as CEO before Ternus's succession becomes official. Headline announcement: Apple has licensed a custom 1.2-trillion-parameter Gemini model from Google to power a rebuilt Siri with a standalone chatbot interface — ending three years of Apple Intelligence underperformance. Six OS betas ship same-day including visionOS 27. A Gemini-powered, screen-aware Siri is a direct prerequisite for a usable spatial assistant; if visionOS 27's APIs expose that capability, Apple answers — a year ahead of 2027 hardware — the question every Android XR developer is asking about AI-layer usability in headsets.
+**Key companies introduced:** None new (Google/Gemini licensing relationship newly significant)
+**Key people introduced:** None new
+**Key concepts introduced:** Gemini-powered Siri (1.2-trillion-parameter custom model licensed from Google); "AI-native spatial OS" framing; screen-aware assistant as spatial-interface prerequisite
+**Sources used:** CNBC (9/10): https://www.cnbc.com/amp/2026/06/05/apple-wwdc-tim-cook-ai-siri-ternus.html ; TechRadar (8/10): https://www.techradar.com/tech/5-things-to-expect-at-wwdc-2026-from-siri-2-0-to-tim-cooks-apple-farewell ; MacRumors (8/10): https://www.macrumors.com/roundup/wwdc/
+**Follow-up threads to watch:** WWDC June 8 keynote outcome; visionOS 27 SDK 2.0 API depth; Gemini-Siri reception; John Ternus's first public statement as incoming CEO
+
+### Story 3
+**Title:** AWE 2026 — Eight Days Out, Evan Spiegel to Open with "Making Computing More Human"
+**Category:** XR · Events · Cultural Positioning
+**Core argument:** AWE confirmed Evan Spiegel's June 16 keynote ("Making Computing More Human," 9:30am PT, Main Stage) following Ori Inbar's opening remarks; Auggie Awards ceremony (18 categories) follows June 17. AWE USA 2026 (June 15–18, Long Beach): 250+ exhibitors, 5,000 attendees, 400 speakers — largest edition in event history. June 15 (opening day) remains Angelo's consent-essay deadline, eight days out, sixth consecutive edition carrying the task — and Spiegel's "human-centric" framing mirrors Angelo's own positioning language almost verbatim.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** "Making Computing More Human" (Spiegel AWE 2026 keynote framing — explicit echo of Angelo's positioning language)
+**Sources used:** PR Newswire (9/10): https://www.prnewswire.com/news-releases/save-the-date-evan-spiegel-to-headline-augmented-world-expo-on-june-16-2026-302757214.html ; AWE Official (10/10): https://www.awexr.com/usa-2026/auggie
+**Follow-up threads to watch:** Spiegel keynote content; Auggie Award winners; Angelo's consent essay publication (or lack thereof) on June 15
+
+### Intelligence Briefs
+**Brief 1 — Gucci x Google luxury Android XR glasses (XR / Fashion / Platform):** Kering CEO Luca de Meo confirmed April 16 a 2027 Gucci-branded Android XR device (Gemini translation/navigation); Gucci becomes first major luxury house in AI eyewear. Sources: Road to VR (8/10), Tech Times (7/10). Follow-up: design reveal, pricing, launch market sequencing.
+**Brief 2 — LetinAR raises $18.5m (XR / Supply Chain / Optics):** South Korean optics maker (LG/KDB/Lotte-backed, 2027 IPO planned) scaling PinTILT waveguide modules; named OEM customers NTT QONOQ, Dynabook; Omdia: 8.7m AI-glasses units shipped 2025 (+300%), 15m+ projected 2026. Sources: TechCrunch (9/10), Auganix (8/10). Follow-up: which flagship device ships with PinTILT first.
+**Brief 3 — Science Corp CE Mark, seven editions outstanding (BCI / Regulatory):** No CE mark decision as of June 7; trial base unchanged at 47 patients/80% improvement. Hodak outreach now carried 7 consecutive editions with no recorded action. Sources: Science Corp Official (10/10). Follow-up: CE mark decision; outreach completion.
+**Brief 4 — China BCI "what's next" analysis (BCI / Regulatory / China):** MIT Technology Review's June 1 retrospective on China's invasive BCI approval (covered Edition 3) reframes 2026 as the year China moves from fast-follower to comparison case for Western regulators on deployment speed and reimbursement design — directly feeds Angelo's regulatory-race essay (carried since Edition 3). Sources: MIT Technology Review (8/10). Follow-up: hospital deployment scale; reimbursement design; Western regulatory response.
+
+### New concepts in Angelo's working vocabulary (do not re-explain)
+Project Aura / XREAL display-forward Android XR glasses; multi-OEM ecosystem strategy vs. single-device strategy; Gemini-powered Siri / "AI-native spatial OS"; "Making Computing More Human" (Spiegel AWE framing); PinTILT waveguide optics / optical-stack supply chain layer; Gucci x Google luxury AI eyewear (2027)
+
+### Angelo's Angles Issued — Track Completion
+- [ ] Cold outreach note to XREAL's EU business development team — sequencing-gap pitch before Rotterdam June 23–25 *(new — high-priority, founder-speed target)*
+- [ ] Write "When Fashion Houses Bet on Platforms, Not Products" (500 words on Gucci x Google) — publish before AWE June 15 *(new)*
+- [ ] Publish visionOS 27 / Gemini-Siri analysis note within 24h of WWDC June 8 — sharper frame: "AI-native spatial OS" *(carried, NOW MOST URGENT — keynote is tomorrow)*
+- [ ] Write 150-word consent layer seed note on LinkedIn *(carried from Ed. 5–6)*
+- [ ] Draft consent layer essay full (300 words) — before AWE June 15 *(carried from Editions 1–6; 8 days remain)*
+- [ ] Write "The Psychiatric BCI Nobody Is Covering" (400 words) — before AWE June 15 *(carried from Ed. 5–6)*
+- [ ] Reach out to Science Corp — Max Hodak direct outreach *(carried, URGENT — 7 editions outstanding)*
+- [ ] Write "Apple Watch or Zune? The Smart Glasses Platform Bet" essay *(carried from Ed. 6)*
+- [ ] Build EU optical chain BD brief (5 European chains with no Android XR partnership) — for Rotterdam *(carried from Ed. 6)*
+- [ ] Write Four Architectures of BCI map *(carried from Ed. 4)*
+- [ ] Attend Rotterdam Immersive Tech Week June 23–25 *(carried)*
+- [ ] Map German neurologist/ophthalmologist network (first PRIMA prescribers) *(carried)*
+- [ ] Write Q3 2026 essay: post-screen experience when AI and BCI mature *(carried)*
+- [ ] Write regulatory race essay: China's 2026 = US/EU's ~2029 *(carried, now has Brief 4's MIT Tech Review frame to build on)*
+- [ ] Review AWE Auggie finalists for US enterprise XR / no EU footprint BD targets *(carried)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Companies | Actions Issued |
@@ -368,6 +429,7 @@ John Ternus (incoming Apple CEO); display-less AI glasses 2027 (Apple roadmap co
 | 4 | 4 Jun 2026 | Merge Labs architecture disclosed: molecular + ultrasound, no implants, OpenAI AI layer | Merge Labs Tier 4 BCI architecture, WWDC June 8 visionOS 3 stakes, Android XR glasses (Warby/Gentle Monster) fall launch, AWE 11 days, Prophetic beta, Synchron 2yr data, Science Corp CE mark | None new (Aflalo, Norman, Shapiro as key people) | BCI architecture map essay; Science Corp outreach URGENT; Android XR EU brief for Rotterdam |
 | 5 | 5 Jun 2026 | Motif Neurotech FDA IDE approval — BCI's psychiatric frontier opens | Therapeutic BCI / TRD (Motif XCS/DOT, 84m patient market), visionOS 27 WWDC pre-brief (API depth as key metric), AWE 10-day countdown (Spiegel keynote / Art Festival / Research Poster Track), Science Corp Stargardt/RP trial expansion, Ability Neurotech Netherlands ALS approval, Android XR glasses no pricing still | Motif Neurotech; Ability Neurotech | 300-word visionOS 27 note (24h post-WWDC); 150-word consent seed note today; psychiatric BCI essay before AWE |
 | 6 | 6 Jun 2026 | Apple CEO Ternus narrows Vision roadmap — AI glasses 2027, waveguide AR 2029 | Apple smart glasses timeline confirmed (Ternus), Neuralink manufacturing phase (automated surgery + high-volume production), Android XR audio glasses $379–$499 pricing, AWE 9-day countdown, Android XR Catalyst Programme deadline June 30, Prophetic Halo Phase slip, Science Corp CE mark still pending | None new (Ternus as key person) | WWDC visionOS 27 API analysis 24h post-June 8; "Apple Watch or Zune?" essay before AWE; EU optical chain BD brief for Rotterdam |
+| 7 | 7 Jun 2026 | XREAL raises $100m, reveals Project Aura — Android XR's first real third-party hardware bet | XREAL Project Aura / multi-OEM ecosystem strategy, WWDC eve (Tim Cook's last keynote, Gemini-powered Siri, visionOS 27 stakes), AWE 8-day countdown (Spiegel "Making Computing More Human"), Gucci x Google luxury Android XR 2027, LetinAR optics funding, Science Corp CE mark (7 editions outstanding), China BCI "what's next" analysis | XREAL (Chi Xu) | XREAL EU BD outreach before Rotterdam; "Fashion Houses Bet on Platforms" essay; visionOS 27/Gemini-Siri analysis note (most urgent — keynote tomorrow) |
 
 ---
-*Last updated: Edition 6 — 6 June 2026*
+*Last updated: Edition 7 — 7 June 2026*
