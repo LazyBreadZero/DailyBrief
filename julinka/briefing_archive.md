@@ -217,6 +217,65 @@ The Protein Brewery; Fermotein (Rhizomucor pusillus, non-sterile fermentation); 
 
 ---
 
+## EDITION 5 — Sunday, 7 June 2026
+
+### Lead Story
+**Title:** Pacifico Biolabs Raises €7M to Brew Protein in Germany's Idle Beer Tanks — A Third Fermentation Architecture Enters the Field
+**Pillar:** Venture Capital × Food Science
+**Core argument:** Pacifico Biolabs (Berlin, founded 2022 by Zac Austin & Washington Logroño) closed €7M Series A (Stray Dog Capital, TGFS, Sprout & About Ventures, Simon Capital, FoodLabs, a regional brewery partner) to grow mycelium protein directly in idle German brewery fermentation tanks — targeting 200 MT/month from a Saxony-anchored facility, DACH + Nordic launch, cost parity from day one. This is a third, structurally distinct fermentation architecture beyond the two established in Editions 2–4 (Planetary's BioBlocks licensing model; The Protein Brewery's Fermotein ingredient-brand model): infrastructure arbitrage — repurposing a declining industry's (brewing) idle capacity rather than building or licensing new capacity. Generalises the Netherlands-anchored thesis into a category, not a regional bet.
+**Key entities introduced:** Pacifico Biolabs; Zac Austin; Washington Logroño; Stray Dog Capital; FoodLabs (as Pacifico investor)
+**Key concepts introduced:** Infrastructure arbitrage / repurposed-brewery-tank fermentation; "third architecture" framing (vs. licensing and ingredient-brand models); industrial overcapacity as investable raw material
+**Sources used:** EU-Startups (9/10): https://www.eu-startups.com/2026/05/pacifico-biolabs-raises-e7-million-series-a-to-turn-idle-german-breweries-into-alternative-protein-factories/ ; Tech Funding News (8/10): https://techfundingnews.com/quorn-pacifico-raises-7m-series-a/ ; Green Queen (8/10): https://www.greenqueen.com.hk/pacifico-biolabs-funding-mycelium-meat-fermentation-protein-beer-tanks/ ; Tech.eu (8/10)
+**Julinka's Angle delivered:** Submit overdue nutrition-tech sourcing thesis today (with Pacifico + Fermotein regulatory clock as fresh evidence); message Pacifico Biolabs directly while early-stage; send KOTRA Frankfurt request for Seoul Food exhibitor directory before the ~24–48hr window closes
+**Follow-up threads to watch:** Pacifico Biolabs commercial launch (DACH/Nordic); brewery-partner contract structure and batch-consistency data; whether the "repurposed infrastructure" arbitrage generalises to dairies/distilleries/bakeries; Series A deployment milestones
+
+### Story 2
+**Title:** Seoul Food & Hotel Opens in 48 Hours — Korea's Export Machine Goes Live
+**Pillar:** Food Science × Culture
+**Core argument:** Seoul Food & Hotel 2026 opens June 9 (2 days out) at KINTEX — 1,650 exhibitors, 45 countries, "AI & Robotics" theme, USA guest of honour. Reinforces Edition 4 framing (Korea exporting food-science methodology, not culture). New: KOTRA Frankfurt's exhibitor/buyer-matching directory request window is now genuinely closing — due today/tomorrow or lost until next year's edition.
+**Key entities introduced:** None new
+**Key concepts introduced:** Exhibitor-directory request window (hard expiry, ~24–48 hrs)
+**Sources used:** Korea Times (9/10); Seoul Food & Hotel Official (9/10): https://www.seoulfoodnhotel.com/ ; USDA FAS (9/10): https://www.fas.usda.gov/topics/trade-shows/seoul-food-and-hotel-4
+**Follow-up threads to watch:** Whether the KOTRA directory request was sent in time; exhibitor list contents; Korean functional-food pipeline shortlist
+
+### Story 3
+**Title:** Art Basel — Nine Days to "Basel Exclusive" and the Discovery Premium
+**Pillar:** Art
+**Core argument:** VIP First Choice Preview June 16 (9 days out), main fair June 18–21. Basel Exclusive confirmed at scale: 193/232 main-sector galleries (Gagosian, Hauser & Wirth, Zwirner, Pace, Perrotin, Ropac) withholding flagship works from all pre-fair channels until the Tuesday opening hour — engineered scarcity reasserting the physical-attendance premium. New thread opened: Parcours 2026, curated by Stefanie Hessler under the theme "Conviviality," intersects unusually closely with Calm/Storm's nutrition/nature/human-flourishing mandate (see Intelligence Brief 4).
+**Key entities introduced:** Stefanie Hessler (Parcours curator, Director of the Swiss Institute NY)
+**Key concepts introduced:** "Conviviality" as Parcours 2026 theme; curatorial/impact-investing vocabulary convergence
+**Sources used:** Artnet News (8/10): https://news.artnet.com/market/no-preview-allowed-art-basel-2777803 ; Art Basel Official (10/10)
+**Follow-up threads to watch:** Confirmed Basel Exclusive participating-gallery list with nature/ecological-themed works; Parcours full artist roster; post-fair sales reporting
+
+### Intelligence Briefs
+**Brief 1 — Fermotein Clears Its First Regulatory Gate (Food/Venture):** EFSA published a favourable scientific opinion on Fermotein in Dec 2025 — first fungal-biomass novel food ever to clear EU safety review. Full EU Commission/member-state authorisation expected Q2–Q3 2026 (Novel Food Union List); FDA "no-further-questions" GRAS letter expected Q2 2026; Singapore-approved customers already shipping. Three regulatory dominoes now falling on a visible clock — converts the Edition 4 "Novo Holdings clinical-nutrition thesis" from aspiration into datable fact. Sources: FoodIngredientsFirst (9/10); Green Queen (8/10). Follow-up: EU Commission vote outcome; FDA letter; first EU retail listings.
+**Brief 2 — Paris Nature-Positive Finance Workshop, Now Confirmed (Nature/Finance):** Biodiversa+ / Banque de France workshop locked for June 10 (3 days out), Paris — central banks, EU Commission, institutional investors, IPBES authors. Clearest pre-COP17 signal of which methodologies the EU nature-credits expert group (COM(2025)374, mid-2026 technical-criteria deliverable imminent) will likely formalise. Edition 3 task (delegate/debrief contact) expires in 72 hours. Sources: Biodiversa+ (10/10): https://www.biodiversa.eu/2026/05/05/workshop-toward-nature-positive-finance-scientific-foundations-for-action/ ; Banque de France (9/10). Follow-up: workshop outcomes; expert-group mid-2026 methodology publication.
+**Brief 3 — Five Dutch Fermentation Companies, Mapped — Action Closed (Venture/Food):** Completed Edition 3 task. Cluster mapped: The Protein Brewery (ingredient-brand, Mijkenbroek), Planetary (licensing/BioBlocks), Vivici (precision-fermentation dairy proteins; manufacturing partnership with US-based Liberation Labs for Vivitein™, commercial-scale from 2026), NIZO (Ede — converting site into food-innovation park with pilot plant + new Biotechnology Fermentation Factory), Royal Cosun (Dutch agribusiness cooperative, strategic investor across rounds incl. Planetary). Pattern: shared infrastructure, public catalytic capital (Invest-NL, EU grants), no consumer-brand competition. Sources: EU-Startups (9/10); Cultivated X — Netherlands (7/10).
+**Brief 4 — Parcours 2026: "Conviviality" (Art/Nature):** Stefanie Hessler's third consecutive year curating Art Basel's public-art sector — 20+ new site-responsive works along Clarastrasse/the Rhine, explicitly themed around "interspecies dependencies," "ecological awareness," and "rituals, myths and beliefs." Near-identical vocabulary to nature-finance discourse, in the same week, in the same city — a rare direct overlap between Julinka's art and nature pillars. Sources: Art Basel — Parcours (10/10): https://www.artbasel.com/basel/basel/parcours-overview ; Switzerland Tourism (7/10).
+
+### Deep Read
+**Title:** The Third Architecture — What Pacifico Biolabs Reveals About the Real Constraint on Fermentation Capital
+**Core argument:** Extends the Edition 4 BioBlocks-vs-Fermotein framework with a third model: Pacifico Biolabs' infrastructure arbitrage (repurposed brewery tanks, no new capex). Reframes the category's central constraint from "which organism / which buyer" to "who pays to build the tanks" — and Pacifico's answer is "no one, because the tanks already exist." Raises three diligence questions unique to this architecture (retrofit consistency, supply-security against reclaimed brewery capacity, batch-to-batch standardisation across a heterogeneous, distributed production base) and argues the arbitrage likely generalises beyond brewing — to dairies, distilleries, bakeries — reframing where Calm/Storm's sourcing thesis should look next.
+**Was this Deep Read topic covered in the last 3 editions?** No — extends but does not repeat Edition 4's Deep Read (different architecture, different company, different diligence frame).
+
+### New concepts in Julinka's working vocabulary (do not re-explain)
+Pacifico Biolabs (Zac Austin, Washington Logroño); brewery-tank / infrastructure-arbitrage fermentation model; "third architecture" framing; Fermotein EFSA favourable opinion + EU/FDA regulatory clock; NIZO Ede food innovation park; Vivici × Liberation Labs (Vivitein™); Royal Cosun as fermentation-cluster strategic investor; Stefanie Hessler; Parcours 2026 "Conviviality" theme; Basel Exclusive confirmed gallery list (193/232)
+
+### Julinka's Angles Issued — Track Completion
+- [ ] Submit nutrition-tech sourcing thesis for Calm/Storm — **OVERDUE, submit today** *(carried from Edition 1, now critical)*
+- [ ] Request Seoul Food & Hotel exhibitor list (KOTRA Frankfurt) — window closes ~24–48 hrs *(carried from Edition 4, now urgent)*
+- [ ] Identify Calm/Storm delegate or debrief contact for Paris June 10 workshop — 3 days *(carried from Edition 3, now urgent)*
+- [ ] Message Pacifico Biolabs directly — sourcing outreach while early-stage *(new)*
+- [ ] Write "The Ozempic Diet Needs Better Protein" (300 words) — before Art Basel June 16 *(carried from Edition 4)*
+- [ ] Identify 3 Art Basel VIP conversations, incl. Parcours/Hessler angle — June 16 (9 days) *(carried from Edition 3)*
+- [x] Map 5 Dutch B2B fermentation seed companies — **COMPLETE** (Protein Brewery, Planetary, Vivici, NIZO, Royal Cosun) *(closed — issued Edition 3)*
+- [ ] Request Planetary technical documentation / BioBlocks publications *(carried from Edition 2)*
+- [ ] Find Swiss/Austrian representative on EU nature-credits expert group *(carried from Edition 2)*
+- [ ] Draft "How to read a protein claim" essay *(carried from Edition 1)*
+- [ ] Start European regen-ag / natural-capital watch-list *(carried from Edition 1)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -225,6 +284,7 @@ The Protein Brewery; Fermotein (Rhizomucor pusillus, non-sterile fermentation); 
 | 2 | 4 Jun 2026 | Planetary SA CHF 22m Series A + ALDI Suisse price-parity mycoprotein launch | Planetary B2B fermentation licensing model, Art Basel 2026 Basel Exclusive initiative, EU nature credits expert group midpoint, fermentation funding paradox, Gourmey EFSA status, K-food DACH mainstreaming, FoodLabs + Maia new funds | Planetary SA, Radikal Capital, Oetker Ventures, Royal Cosun, Ruba Katrib (Art Basel), Ibrahim Mahama, Nairy Baghramian | Planetary technical diligence; Art Basel VIP 3 conversations; EU nature-credits expert group contact |
 | 3 | 5 Jun 2026 | Fermentation takes 74% of Q1 2026 alt-protein capital; Europe + Netherlands dominate | Q1 2026 alt-protein capital data, cultivated meat winter (Believer/Meatable shutdowns), Basel Exclusive in-person scarcity mechanics, EU Nature Credits COM(2025)374 + COP17 Yerevan, K-food $16bn target, Paris nature-positive finance workshop June 10, FoodLabs/Maia deploying | Believer Meats (shut down), Meatable (shut down), Invest-NL, The Better Meat Co., Protein Brewery | Map 5 Dutch fermentation companies; Art Basel VIP 3 conversations; Paris workshop June 10 debrief |
 | 4 | 6 Jun 2026 | The Protein Brewery €30M Series B — Novo Holdings / GLP-1 protein demand signal | Protein Brewery B2B ingredient model vs. Planetary BioBlocks licensing (deep read), Seoul Food & Hotel June 9–12 (K-food export machine), Art Basel 10-day countdown (Basel Exclusive, six market trends), AuX Labs precision fermentation cheese, Paris nature-positive finance workshop June 10, EU Agri Food Biotech Scaling Up 2026 grant, K-Food Fair Frankfurt | The Protein Brewery, Fermotein, Novo Holdings (food), AuX Labs, Seoul Food & Hotel 2026, Nongshim Europe | "Ozempic protein" investment note before Art Basel; Seoul Food exhibitor list; Art Basel VIP 3 conversations |
+| 5 | 7 Jun 2026 | Pacifico Biolabs €7M Series A — a third fermentation architecture (repurposed brewery-tank infrastructure arbitrage) | Pacifico Biolabs lead + "third architecture" deep read, Seoul Food & Hotel 48-hr countdown, Art Basel 9-day countdown + Parcours "Conviviality" (Hessler), Fermotein EFSA milestone + EU/FDA regulatory clock, 5 Dutch fermentation companies mapped (action closed), Paris nature-positive finance workshop confirmed | Pacifico Biolabs, Zac Austin, Washington Logroño, Stefanie Hessler, NIZO, Vivici, Royal Cosun (food) | Submit overdue sourcing thesis; message Pacifico Biolabs directly; Seoul Food exhibitor list (urgent); Art Basel VIP 3 conversations incl. Parcours |
 
 ---
-*Last updated: Edition 4 — 6 June 2026*
+*Last updated: Edition 5 — 7 June 2026*
