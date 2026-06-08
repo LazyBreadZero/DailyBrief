@@ -483,6 +483,31 @@ Project Aura / XREAL display-forward Android XR glasses; multi-OEM ecosystem str
 
 ---
 
+> **Note (transition — applies from Edition 9 onward):** The task-completion checklist above is the historical record of Edition 8 and is **retired**. From here on, Angelo's Angle is a *mentor's provocation*, and continuity is tracked as the **Thinking Ledger** below — open *questions* and how his *view* should move, not chores to tick off. Do not carry the old action items forward.
+
+---
+
+## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
+
+*Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
+
+### Open questions in play
+- **Did Vision Pro fail, or finish?** Gurman's "on ice" report (Ed 8) supports the contrarian read that a $3,499 device was a market-research instrument that returned a verdict. Can Angelo state the strongest case for the *opposite* — a plain, expensive failure — and does he actually believe the contrarian line, or does it just sound clever?
+- **Consent or governance?** He has framed the platform-rights argument as "consent" for eight editions. The three social-XR deaths (Ed 8) suggest the real failure was *governance* (presence with no business model, no rules), not consent. Which primitive is he actually arguing for — and what does choosing the harder one cost him?
+- **Is "post-screen interface" still a view, or now just consensus?** Glasses-as-accessory beating the headset is now the market's settled position (Apple, Android XR, Meta converged, Ed 8). What does Angelo believe that his own feed does *not* yet say?
+- **Has the regulatory-race evidence changed his read?** NMPA (China), Synchron's 2026 FDA run, and Science Corp's CE mark have been accumulating toward "jurisdiction is the variable." Has his stated view moved to match, or is he still narrating BCI as a single-company story?
+- **The Science Corp thread, reframed:** the question is not "did you email Max Hodak." It is whether Angelo holds an actual *thesis* on retinal BCI's commercial path — because an unused contact is just a name, and a contact approached without a view is a wasted introduction.
+
+### Positions the evidence now implies (and whether his view has moved)
+- Spatial computing's near future is **glasses-as-accessory, not immersive headset** — settled by Ed 8. The live question is no longer *which form factor* but *whose software layer makes it indispensable*.
+- BCI has crossed from research story to **commercial / regulatory race** — "jurisdiction is the variable" should now be a *held* position, not a fresh observation each edition.
+
+### Blind spots he keeps circling
+- Reaching for the **softer word** (consent vs governance; "it matters" vs a falsifiable claim) when the harder framing is where the original argument lives.
+- Treating **contacts and essays as deliverables to accumulate** rather than as instruments for forming and testing a view.
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Companies | Actions Issued |
