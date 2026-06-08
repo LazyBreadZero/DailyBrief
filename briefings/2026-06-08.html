@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frontier Intelligence — Monday, 8 June 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:#FAF8F2;color:#1a1a1a;font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.65;}
+.container{max-width:760px;margin:0 auto;padding:0 24px 60px;}
+a{color:#8B1A1A;text-decoration:none;}
+a:hover{text-decoration:underline;}
+h1{font-family:'Playfair Display',Georgia,serif;}
+h2{font-family:'Playfair Display',Georgia,serif;}
+h3{font-family:'Playfair Display',Georgia,serif;}
+.kicker{font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:#8B1A1A;font-weight:700;}
+.label{font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#666;font-weight:600;}
+.badge-green{display:inline-block;background:#E8F5EC;color:#1A5C2A;font-family:Arial,sans-serif;font-size:10px;font-weight:700;padding:2px 7px;border-radius:3px;letter-spacing:0.3px;vertical-align:middle;white-space:nowrap;}
+.badge-amber{display:inline-block;background:#FFF3D6;color:#7A4A00;font-family:Arial,sans-serif;font-size:10px;font-weight:700;padding:2px 7px;border-radius:3px;letter-spacing:0.3px;vertical-align:middle;white-space:nowrap;}
+.rule-single{border:none;border-top:1px solid #c8bfaa;margin:32px 0;}
+.rule-double{border:none;border-top:3px double #1a1a1a;margin:40px 0;}
+.pullquote{border-left:4px solid #8B1A1A;padding:18px 24px;margin:36px 0;background:#F3EDE0;}
+.pullquote p{font-family:'Playfair Display',Georgia,serif;font-size:21px;font-style:italic;line-height:1.45;color:#2a1a0a;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin:0 0 36px;}
+@media(max-width:620px){.two-col{grid-template-columns:1fr;}}
+.col-story h3{font-size:18px;line-height:1.3;margin-bottom:10px;}
+.col-story p{font-size:15.5px;color:#333;line-height:1.62;}
+.col-story .kicker{margin-bottom:6px;}
+.intel-item{border-top:1px solid #d8d0be;padding:18px 0;font-size:15.5px;color:#2a2a2a;}
+.intel-item strong{font-family:'Playfair Display',Georgia,serif;font-size:16px;display:block;margin-bottom:5px;}
+.angle-block{background:#1a1a1a;color:#FAF8F2;padding:36px 40px;margin:36px 0;border-radius:2px;}
+.angle-block h2{color:#FAF8F2;font-size:22px;margin-bottom:6px;letter-spacing:-0.2px;}
+.angle-block .angle-sub{font-family:Arial,sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#8B1A1A;margin-bottom:24px;}
+.angle-item{display:flex;gap:18px;margin-bottom:22px;}
+.angle-item:last-child{margin-bottom:0;}
+.angle-num{font-family:'Playfair Display',Georgia,serif;font-size:32px;font-weight:900;color:#8B1A1A;line-height:1;min-width:36px;}
+.angle-text{font-size:15px;line-height:1.6;color:#d8d4cc;}
+.angle-text strong{color:#FAF8F2;}
+.two-col-bottom{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:8px;}
+@media(max-width:620px){.two-col-bottom{grid-template-columns:1fr;}}
+.radar-item{font-size:14.5px;color:#2a2a2a;padding:7px 0;border-bottom:1px solid #e5ddd0;line-height:1.5;}
+.radar-item:last-child{border-bottom:none;}
+.radar-date{font-family:Arial,sans-serif;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#8B1A1A;font-weight:700;margin-right:8px;}
+.sn-signal{color:#1A5C2A;font-family:Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:2px 7px;background:#E8F5EC;border-radius:3px;margin-right:6px;vertical-align:middle;}
+.sn-noise{color:#7A4A00;font-family:Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:2px 7px;background:#FFF3D6;border-radius:3px;margin-right:6px;vertical-align:middle;}
+.sn-item{font-size:14.5px;color:#2a2a2a;padding:7px 0;border-bottom:1px solid #e5ddd0;line-height:1.5;}
+.sn-item:last-child{border-bottom:none;}
+.footer{border-top:3px solid #1a1a1a;padding-top:24px;margin-top:48px;font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#888;letter-spacing:0.5px;line-height:2;}
+.masthead-label{font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;color:#888;text-align:center;padding-top:36px;}
+.masthead-title{font-family:'Playfair Display',Georgia,serif;font-size:52px;font-weight:900;text-align:center;letter-spacing:-1.5px;line-height:1;color:#1a1a1a;padding:8px 0 4px;}
+.dateline-bar{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #1a1a1a;border-bottom:3px solid #1a1a1a;padding:8px 0;margin:14px 0 36px;}
+.red-top{height:6px;background:#8B1A1A;margin-bottom:0;}
+.deep-read-link{display:inline-block;background:#8B1A1A;color:#FAF8F2;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:9px 20px;border-radius:2px;cursor:pointer;border:none;margin-top:12px;}
+.deep-read-link:hover{background:#6b1414;color:#FAF8F2;}
+.continuity{background:#F3EDE0;border-left:3px solid #8B1A1A;padding:10px 16px;font-size:14.5px;font-style:italic;color:#4a3a2a;margin:20px 0;}
+</style>
+</head>
+<body>
+
+<!-- ═══ MAIN VIEW ═══ -->
+<div id="main">
+
+<div class="red-top"></div>
+<div class="container">
+
+  <!-- Masthead -->
+  <div class="masthead-label">Personal Intelligence Briefing</div>
+  <div class="masthead-title">Frontier Intelligence</div>
+  <div class="dateline-bar">
+    <span class="kicker" style="font-size:12px;">Edition 8 &nbsp;·&nbsp; Monday, 8 June 2026</span>
+    <span class="label">NeuroTech &nbsp;·&nbsp; XR &nbsp;·&nbsp; BCI &nbsp;·&nbsp; Spatial Computing</span>
+  </div>
+
+  <!-- LEAD STORY -->
+  <div class="kicker" style="margin-bottom:8px;">Today's Lead &nbsp;·&nbsp; Extended Reality · Apple · Strategic Retreat</div>
+  <h1 style="font-size:38px;line-height:1.15;letter-spacing:-0.8px;margin-bottom:14px;">Vision Pro Goes on Ice — Gurman Confirms Apple Has Abandoned the Headset Bet, Hours Before Tim Cook's Last Keynote</h1>
+  <div class="label" style="margin-bottom:22px;">Sources: <a href="https://appleinsider.com/articles/26/06/03/short-sighted-john-ternus-behind-apple-vision-project-refocuses" target="_blank">AppleInsider</a> <span class="badge-green">8/10</span> &nbsp;·&nbsp; <a href="https://www.uploadvr.com/apple-vision-air-2027-kuo-supply-chain-report/" target="_blank">UploadVR</a> <span class="badge-green">8/10</span> &nbsp;·&nbsp; <a href="https://www.macrumors.com/2026/05/31/apple-glasses-late-2027-report/" target="_blank">MacRumors</a> <span class="badge-green">8/10</span></div>
+
+  <p>Hours before Tim Cook walks onstage for the last time as Apple's CEO, the clearest signal yet about what comes after him has already leaked — and it is not about glasses. It is about the headset Apple spent a decade building and two years selling. According to Bloomberg's Mark Gurman, a Vision Pro successor is "in testing, but the category is on ice." Apple staked $3,499 and its industrial-design reputation on launching the spatial-computing headset category in 2024. Eighteen months later, the company has functionally shelved it — not with a press release, but with the quiet, deliberate vagueness Apple reserves for projects it wants to keep alive on paper without committing another cent to ship them.</p>
+
+  <div class="continuity">As tracked in Edition 6 (6 June), incoming CEO John Ternus had already narrowed Apple's roadmap to two smart-glasses paths — display-less AI glasses for 2027, waveguide AR glasses for 2029. Gurman's reporting now fills in the casualties behind that narrowing: Vision Air, the cheaper, lighter Vision Pro alternative, was killed in October 2025; "display glasses" were cut from the roadmap as far back as January 2025; and the Vision Pro line itself — while a successor remains "in testing" — has been frozen rather than formally cancelled.</p>
+
+  <p><strong>Step back:</strong> this is the second time in three years Apple has retreated from a category it announced with maximal public confidence — the first was the car. A pattern is now visible in daylight: Apple commits to a frontier hardware bet at extraordinary cost, ships a five-figure proof-of-concept to a tiny audience, lets analysts do the work of walking the story back over eighteen months of leaks, and then quietly narrows to the version of the product that fits its actual playbook — a mass-market accessory, priced to attach to an iPhone someone already owns. Vision Pro was never meant to be the destination. It was the most expensive market-research instrument in consumer-electronics history, and the data came back negative on standalone headsets and positive on glasses-as-accessory.</p>
+
+  <p>The numbers on what survives that research now have real edges. Gurman places the first AI glasses (codename N50) at "late 2027" — slipped from the late-2026/early-2027 window reported as recently as Edition 6 — with Ming-Chi Kuo projecting mass production from Q2 2027 and 3–5 million units shipped in year one. Price: $299–499, aimed squarely at Meta's Ray-Ban range ($299–379) and just below where Android XR's Warby Parker/Gentle Monster frames are expected to land ($379–499, Edition 6). No display in the first generation — the device works as an iPhone satellite, an AirPods-and-Watch-style accessory, not a standalone computer. The full-AR "Apple Glass," with a waveguide display, is now pushed toward "the decade's end" — effectively 2029–2030.</p>
+
+  <p>For anyone building a career on the thesis that the post-screen interface is coming, this is not bad news — it is clarifying news. It tells the market, conclusively, which of two competing visions of spatial computing's near future just won: not "everyone wears an immersive headset," but "everyone wears glasses that quietly extend the phone." That is the same bet Android XR is making with three hardware partners (Edition 7), the bet Meta made with Ray-Ban, and now — after retreating from the opposite bet at a cost running into the billions — the bet Apple is making too. The argument over form factor is no longer contested. The only question left worth writing about is which company's software layer makes glasses-as-accessory indispensable rather than gimmicky — and that is precisely the question Tim Cook starts answering, for the first time in public, in roughly nine hours.</p>
+
+  <!-- Pullquote -->
+  <div class="pullquote">
+    <p>"Vision Pro was never the destination. It was the most expensive market-research exercise in consumer-electronics history — and the data came back against headsets, and for glasses."</p>
+  </div>
+
+  <div class="rule-double"></div>
+
+  <!-- TWO-COLUMN SECTION -->
+  <div class="two-col">
+
+    <!-- Story 2 -->
+    <div class="col-story">
+      <div class="kicker">Extended Reality · Apple · Leadership Transition</div>
+      <h3>Today: Tim Cook's Final Keynote Brings Gemini-Powered Siri — and a visionOS 27 Accessibility Feature Almost No One Is Covering</h3>
+      <p>At 10:00am Pacific today (7:00pm in Vienna), Tim Cook delivers his last keynote as Apple CEO. The marquee announcement, flagged across this brief since Edition 7, is now confirmed in detail: Apple has licensed a custom 1.2-trillion-parameter Gemini model from Google — at roughly $1bn a year — to rebuild Siri around a standalone, chat-style interface with on-screen awareness and cross-app actions. Six operating-system betas ship within hours, including visionOS 27, which pre-briefing coverage describes uniformly as "light on new features."</p>
+      <p style="margin-top:12px;">Buried inside that "light" release is the one visionOS 27 feature that should matter most to Angelo: Wheelchair Control, which repurposes Vision Pro's existing eye-tracking hardware to drive a powered wheelchair. It is a small line in a pre-briefing list — and a striking one. The same eye-tracking stack Apple built to help people navigate a $3,499 spatial-computing toy has just become assistive medical infrastructure, shipped for free, as a software update. That is the BCI-adjacent story hiding inside today's keynote, and almost no outlet previewing it has named it as one.</p>
+      <div class="label" style="margin-top:14px;">Sources: <a href="https://www.techtimes.com/articles/317902/20260606/wwdc-2026-opens-monday-gemini-powers-rebuilt-siri-iphone-11-faces-ios-27-cut.htm" target="_blank">Tech Times</a> <span class="badge-green">8/10</span> &nbsp;·&nbsp; <a href="https://www.macrumors.com/guide/wwdc-2026-what-to-expect/" target="_blank">MacRumors</a> <span class="badge-green">8/10</span> &nbsp;·&nbsp; <a href="https://www.techradar.com/tech/5-things-to-expect-at-wwdc-2026-from-siri-2-0-to-tim-cooks-apple-farewell" target="_blank">TechRadar</a> <span class="badge-green">8/10</span></div>
+    </div>
+
+    <!-- Story 3 -->
+    <div class="col-story">
+      <div class="kicker">XR · Events · Academic Convergence</div>
+      <h3>AWE 2026 — Seven Days Out: Auggie Finalists Named, and a New Research Poster Track Puts Neuroscience on the Show Floor</h3>
+      <p>Augmented World Expo confirmed its 2026 Auggie Award finalists, 20 "Rising XR Builders," and 10 "Startup to Watch" nominees this week — alongside something genuinely new for the seventeen-year-old trade show: a Research Poster Track. Forty submissions were received spanning healthcare, interaction design, neuroscience, AI-enabled spatial computing, education, and digital twins; fifteen were selected for presentation on the Long Beach show floor, June 15–18.</p>
+      <p style="margin-top:12px;">For the first time, AWE — historically a sales-and-demo floor — is building a formal on-ramp for academic work at exactly the neuroscience/XR seam that defines Angelo's own training. June 15, opening day, also remains the deadline this brief has carried since Edition 1 for Angelo's consent-layer essay — eight consecutive editions, seven days left.</p>
+      <div class="label" style="margin-top:14px;">Sources: <a href="https://www.prnewswire.com/news-releases/augmented-world-expo-2026-reveals-auggie-award-finalists-rising-xr-builders-startup-to-watch-nominees-and-enterprise-xr-leaders-302778845.html" target="_blank">PR Newswire</a> <span class="badge-green">9/10</span> &nbsp;·&nbsp; <a href="https://www.awexr.com/usa-2026" target="_blank">AWE Official</a> <span class="badge-green">10/10</span></div>
+    </div>
+
+  </div>
+
+  <!-- INTELLIGENCE BRIEFS -->
+  <div style="margin:8px 0 0;">
+    <div class="kicker" style="margin-bottom:16px;">Intelligence Briefs</div>
+
+    <div class="intel-item">
+      <strong>Three Funerals in Thirty Days Mark the End of Consumer Social XR &nbsp;<span class="label">XR / Platform Strategy</span></strong>
+      Spatial — the platform behind Animal Company's Wooster Games — confirmed it is closing its Spatial Creator tool next month, ending free and paid tiers and shutting down 3D world hosting. It follows Rec Room, which closed June 1, and trails Meta's own Horizon Worlds, which has quietly repositioned itself as "mostly for mobile users." Three companies, three funding histories, the same conclusion inside thirty days: nobody is building a persistent social life inside a headset, and continuing to try is now expensive enough to stop. &nbsp;<a href="https://roadtovr.com/spatial-social-xr-enterprise-pivot/" target="_blank">Road to VR</a> <span class="badge-green">8/10</span>
+    </div>
+
+    <div class="intel-item">
+      <strong>XREAL's Project Aura Gets Its First Hands-On Verdict: "Best Android XR Form Factor Yet" &nbsp;<span class="label">XR / Android XR / Hardware</span></strong>
+      Following the $100m raise and reveal tracked in Edition 7, reviewers have now spent time with Project Aura ahead of its developer rollout. Engadget calls it "a maximalist take on Android XR"; Android Central frames it as "a whole VR headset crammed into a pair of glasses"; Android Headlines goes further, calling it the best Android XR form factor built so far. Early hands-on consensus is now doing what specs alone could not — validating XREAL's $100m bet that the 70-degree-FOV "display glasses" category is real, not a slide. &nbsp;<a href="https://www.engadget.com/2177998/android-xr-xreal-project-aura-hands-on/" target="_blank">Engadget</a> <span class="badge-green">8/10</span> &nbsp;·&nbsp; <a href="https://www.androidheadlines.com/2026/05/i-tried-xreal-project-aura-and-this-is-the-best-android-xr-form-factor-so-far.html" target="_blank">Android Headlines</a> <span class="badge-amber">7/10</span>
+    </div>
+
+    <div class="intel-item">
+      <strong>Synchron Puts a Date on "First FDA-Approved BCI": 2026 &nbsp;<span class="label">BCI / Regulatory</span></strong>
+      Fresh reporting (June 6) frames Synchron's Stentrode pivotal trial as a direct run at being the first BCI to win full FDA approval — a race that now has an explicit finish line and an explicit rival. Neuralink, in Edition 6, confirmed its own move into "high-volume production" and an almost entirely automated implant procedure for 2026. Two well-funded companies are now both publicly racing toward the same regulatory milestone in the same twelve months — the clearest sign yet that BCI has stopped being a research story and become a commercial one. &nbsp;<a href="https://www.techtimes.com/articles/317929/20260606/synchron-brain-implant-targets-2026-pivotal-trial-first-fda-approved-bci.htm" target="_blank">Tech Times</a> <span class="badge-green">8/10</span>
+    </div>
+
+    <div class="intel-item">
+      <strong>Science Corp CE Mark — Eight Editions, Still No Decision &nbsp;<span class="label">BCI / Regulatory</span></strong>
+      No CE mark announcement has landed for Science Corp's PRIMA retinal implant as of June 8; the company still holds at "mid-2026 target," with the 47-patient, 80%-improvement trial base unchanged since Edition 1. Angelo's planned direct outreach to Max Hodak — first flagged in Edition 4, "URGENT" by Edition 5, "seven editions outstanding" in Edition 7 — now enters its eighth consecutive appearance on this list with no recorded action. The pattern is no longer a delay in the news. It is a delay in Angelo. &nbsp;<a href="https://science.xyz/news/prima-ce-mark-application-submitted/" target="_blank">Science Corp Official</a> <span class="badge-green">10/10</span>
+    </div>
+
+  </div>
+
+  <!-- ANGELO'S ANGLE -->
+  <div class="angle-block">
+    <h2>Angelo's Angle</h2>
+    <div class="angle-sub">Strategic observations for Angelo Gunther · Commercial operator + public intellectual in frontier human-experience tech</div>
+
+    <div class="angle-item">
+      <div class="angle-num">1</div>
+      <div class="angle-text"><strong>Mark Gurman just handed you the cleanest contrarian frame of the year — take it before tomorrow's consensus eats it.</strong> By Wednesday, every outlet covering this story will be running some version of "Apple's AR headset failed." That framing is lazy and, on the evidence, wrong: Vision Pro did exactly the job a $3,499 proof-of-concept is supposed to do — it proved, at Apple's expense, which version of spatial computing the market would actually buy. Write "Vision Pro Didn't Fail — It Finished" this week, before the lazier frame locks in, and you will be the only voice in Angelo's network saying what Gurman's own reporting plainly shows.</div>
+    </div>
+
+    <div class="angle-item">
+      <div class="angle-num">2</div>
+      <div class="angle-text"><strong>AWE just built a door into the room you actually want to be in — walk through it before the floor opens.</strong> The new Research Poster Track (40 submissions, 15 selected, spanning neuroscience and AI-enabled spatial computing) is the first formal academic on-ramp a major XR trade show has ever built. Pull the list of 15 presenters this week, identify the two or three whose work sits at the exact neuroscience/XR seam Angelo's degree occupies, and email them before June 15 — not after. Arriving at AWE as someone who has already read your poster is worth more than any badge-scan introduction made on the floor.</div>
+    </div>
+
+    <div class="angle-item">
+      <div class="angle-num">3</div>
+      <div class="angle-text"><strong>Three platform deaths in thirty days just wrote the opening line of your consent essay for you.</strong> Spatial, Rec Room, and Horizon Worlds did not die because immersive technology failed — they died because a decade of "presence" never answered the one question that actually mattered: what a platform owes the people whose attention, data, and embodied behaviour it captures. Name all three in the essay's first paragraph. Nobody covering this week's shutdown news will make that connection to governance — which is exactly why making it first, eight editions after this brief first flagged the essay, is what turns a deadline into a scoop.</div>
+    </div>
+
+  </div>
+
+  <!-- EVENTS RADAR + SIGNAL VS NOISE -->
+  <div class="two-col-bottom">
+
+    <div>
+      <div class="kicker" style="margin-bottom:12px;">Events Radar</div>
+      <div class="radar-item"><span class="radar-date">Jun 8</span>WWDC 2026 Keynote — Tim Cook's last as CEO; Gemini-Siri + visionOS 27 reveal &nbsp;<span style="color:#8B1A1A;font-weight:700;">⚑ Today, 10am PT</span></div>
+      <div class="radar-item"><span class="radar-date">Jun 15</span>AWE USA 2026 opens, Long Beach &nbsp;<span style="color:#8B1A1A;font-weight:700;">⚑ Essay due — 7 days</span></div>
+      <div class="radar-item"><span class="radar-date">Jun 16</span>Evan Spiegel keynote, "Making Computing More Human"</div>
+      <div class="radar-item"><span class="radar-date">Jun 17</span>Auggie Awards ceremony, 18 categories</div>
+      <div class="radar-item"><span class="radar-date">Jun 23–25</span>Rotterdam Immersive Tech Week &nbsp;<span style="color:#8B1A1A;">XREAL outreach + Android XR EU brief</span></div>
+      <div class="radar-item"><span class="radar-date">Jun 30</span>Android XR Catalyst Programme — application deadline</div>
+      <div class="radar-item"><span class="radar-date">Jul TBC</span>Samsung Unpacked — Android XR glasses full specs + pricing</div>
+      <div class="radar-item"><span class="radar-date">Late 2027</span>Apple AI glasses (N50) ship — slipped from early-2027 target</div>
+    </div>
+
+    <div>
+      <div class="kicker" style="margin-bottom:12px;">Signal vs. Noise</div>
+      <div class="sn-item"><span class="sn-signal">Signal</span>Gurman's "Vision Pro is on ice" reporting — the first reliable confirmation that Apple has abandoned the standalone-headset bet entirely, not merely narrowed it.</div>
+      <div class="sn-item"><span class="sn-noise">Noise</span>"Apple just killed Vision Pro" headlines treating this as sudden. Gurman's own timeline shows the retreat has run since January 2025 (display glasses cut) and October 2025 (Vision Air cut) — an eighteen-month story breaking today, not breaking news.</div>
+      <div class="sn-item"><span class="sn-signal">Signal</span>AWE's Research Poster Track — the first formal academic on-ramp at a major XR trade show, with neuroscience named explicitly among its 40 submissions.</div>
+      <div class="sn-item"><span class="sn-noise">Noise</span>Pre-keynote Siri leaks and spec lists. Wait for tonight's actual developer documentation — that is where the real signal sits, not in anonymously sourced previews.</div>
+      <div class="sn-item"><span class="sn-signal">Signal</span>Synchron's pivotal-trial reporting putting an explicit 2026 date on "first FDA-approved BCI" — a race with Neuralink that now has a finish line, not just a narrative.</div>
+      <div class="sn-item"><span class="sn-noise">Noise</span>Framing this week's social-XR shutdowns as "the metaverse is dead." The sharper, more useful read: consumer social XR is dead; enterprise and utility XR is alive and growing — a distinction worth more to an operator than a eulogy.</div>
+    </div>
+
+  </div>
+
+  <!-- DEEP READ CTA -->
+  <div style="background:#F3EDE0;border:1px solid #d4c8ae;border-radius:3px;padding:20px 24px;margin:40px 0 8px;">
+    <div class="kicker" style="margin-bottom:6px;">Deep Read · Extended Reality · Platform Governance</div>
+    <div style="font-family:'Playfair Display',Georgia,serif;font-size:20px;font-weight:700;margin-bottom:8px;line-height:1.3;">Three Funerals in Thirty Days: What Spatial, Rec Room, and Horizon Worlds Tell Us About the Category After the Metaverse</div>
+    <div style="font-size:14.5px;color:#4a3a2a;line-height:1.6;">Three different companies just confirmed the end of three different attempts to build the same thing: a persistent social life inside a headset. What they actually proved — and why the device-first generation that follows them cannot afford to repeat their mistake.</div>
+    <button class="deep-read-link" onclick="showDeepRead(1)">Read in-page →</button>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+      <span><strong style="color:#1a1a1a;letter-spacing:1px;">FRONTIER INTELLIGENCE</strong> &nbsp;·&nbsp; Edition 8 &nbsp;·&nbsp; Monday, 8 June 2026</span>
+      <span>Personal briefing for Angelo Gunther &nbsp;·&nbsp; BCI · XR · Spatial Computing</span>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+<!-- ═══ DEEP READ 1 ═══ -->
+<div id="deep-read-1" style="display:none;">
+<div class="red-top"></div>
+<div class="container">
+
+  <div style="padding-top:28px;margin-bottom:8px;">
+    <button onclick="showMain()" style="background:none;border:none;cursor:pointer;font-family:Arial,sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#8B1A1A;font-weight:700;padding:0;">← Back to briefing</button>
+  </div>
+
+  <div class="kicker" style="margin:18px 0 8px;">Deep Read &nbsp;·&nbsp; Extended Reality · Platform Governance</div>
+  <h1 style="font-size:34px;line-height:1.2;letter-spacing:-0.5px;margin-bottom:14px;">Three Funerals in Thirty Days: What Spatial, Rec Room, and Horizon Worlds Tell Us About the Category After the Metaverse</h1>
+  <div class="label" style="margin-bottom:28px;">Edition 8 &nbsp;·&nbsp; 8 June 2026 &nbsp;·&nbsp; Approx. 1,050 words</div>
+  <div class="rule-single"></div>
+
+  <h2 style="font-size:22px;margin:28px 0 12px;">A Decade, Three Funerals</h2>
+  <p>This week, three different companies confirmed the end of three different attempts to build the same thing. Spatial — the creator-economy platform behind Animal Company's Wooster Games — announced it is closing Spatial Creator, ending free and paid subscriptions and shutting down 3D world hosting next month. It follows Rec Room, which closed its doors on June 1, and trails not far behind Meta's own Horizon Worlds, which has quietly stopped pretending to be a destination and repositioned itself as something "mostly for mobile users." Three platforms. Three different parent companies, funding histories, and design philosophies. The same conclusion, reached within thirty days of each other: nobody is building a persistent social life inside a headset, and continuing to try has become expensive enough to stop.</p>
+
+  <h2 style="font-size:22px;margin:28px 0 12px;">A Pattern Older Than Any of Them</h2>
+  <p>Step back, and this pattern long predates Spatial, Rec Room, or Horizon Worlds. Second Life launched in 2003 promising a parallel social internet; it found a few hundred thousand devoted residents and never broke out of that ceiling. Meta — by its own disclosures — spent in excess of $50 billion building Horizon Worlds and the Reality Labs apparatus around it, renamed the entire company in the process, and produced a platform that, by its own 2026 repositioning, works best as something to glance at from a phone. High Fidelity, AltspaceVR, and VRChat's own commercial ambitions each restated the same premise in their turn: that <em>presence</em> — the felt sense of being somewhere, with someone — is the product. Each discovered, at a different scale and a different cost, that presence alone does not generate a business. People do not pay subscriptions for a feeling, advertisers do not buy placements inside one, and creators do not build careers around it. They build around problems solved.</p>
+
+  <h2 style="font-size:22px;margin:28px 0 12px;">The Question None of Them Answered</h2>
+  <p>What none of these platforms solved — and what almost none of this week's coverage of their closures will name — is governance: the question of what a platform owes the people whose time, attention, behavioural data, and embodied presence it captures. Presence is not a neutral good. A platform that can observe where your eyes go, how your body moves, and who you choose to stand close to has captured something categorically different from one that has merely captured your scroll history. Yet none of Spatial, Rec Room, or Horizon Worlds ever built, marketed, or monetised an answer to what that captured intimacy is worth, who owns it, or what its limits should be. They built worlds. They never wrote a constitution for the worlds they built. Users sensed the absence even when they could not name it — and drifted back to platforms that, whatever their other faults, do not ask them to inhabit a body inside a space someone else owns.</p>
+
+  <h2 style="font-size:22px;margin:28px 0 12px;">The Migration Nobody Announced</h2>
+  <p>The capital and attention that left consumer social XR did not vanish. It moved, visibly, to exactly the place this brief has tracked all year: enterprise and utility XR. Spatial-computing vendors now sell into manufacturing, logistics, training, and CAD-heavy workflows where the pitch is not "come live here" but "this tool cuts your error rate by a measurable percentage and plugs into the systems you already run." Samsung, XREAL, and — as of this morning — Apple are not building social worlds; they are building glasses that quietly extend a phone. Android XR's entire pitch (Edition 7) is ecosystem distribution into categories that already exist — eyewear, productivity, navigation — not the construction of new social terrain. The industry has, in effect, quietly agreed that "the metaverse" was the wrong noun all along. The right one was always "interface."</p>
+
+  <h2 style="font-size:22px;margin:28px 0 12px;">Why This Should Worry — and Motivate — Angelo More Than Most</h2>
+  <p>This is where the story stops being a eulogy and starts being a warning. Every company now chasing the interface bet — Apple with its delayed glasses, Android XR with its three hardware partners, Meta with Ray-Ban — is repeating, at smaller individual scale but vastly higher aggregate stakes, exactly the mistake that just killed three social-XR platforms: building the device first and discovering the governance question only after millions of people are already wearing it. A pair of glasses with always-on cameras and microphones, AI-mediated attention, and — eventually — physiological sensing is a more intimate data-capture surface than any headset Spatial or Horizon Worlds ever shipped, and it will reach two orders of magnitude more people, faster, precisely because it looks like a normal accessory rather than a declaration of intent. The platforms that died this month had the luxury of failing in private, at small scale, before their governance question became unavoidable. The glasses generation will not have that luxury. It will hit consumer scale and the governance question at the same moment — and whoever has already written the framework for answering it will not be improvising when the first scandal breaks.</p>
+  <p style="margin-top:14px;">That is the argument for writing the consent-layer essay now — not after AWE, when the framing will already belong to someone else — and for opening it with these three names. Spatial, Rec Room, and Horizon Worlds are not historical curiosities. They are the closing chapter of the device-first era, and the opening exhibit in the case for building governance into the next one before it ships, not after it apologises. Nobody covering this week's shutdown news is making that connection. The person who makes it first, in public, with named companies and a structural argument rather than a eulogy, becomes the person the next wave of device-makers calls before they ship — not the one they call afterward, to explain themselves.</p>
+
+  <div class="pullquote" style="margin:36px 0 28px;">
+    <p>"They built worlds. They never wrote a constitution for the worlds they built — and the next generation of device-makers is about to make the same omission, at a hundred times the scale."</p>
+  </div>
+
+  <div class="label" style="margin-bottom:8px;">Sources for this Deep Read</div>
+  <p style="font-size:14px;color:#555;line-height:1.7;">
+    <a href="https://roadtovr.com/spatial-social-xr-enterprise-pivot/" target="_blank">Road to VR — 'Spatial' Social XR Platform Ends Metaverse Ambitions with Enterprise Pivot</a> <span class="badge-green">8/10</span><br>
+    <a href="https://www.engadget.com/2177998/android-xr-xreal-project-aura-hands-on/" target="_blank">Engadget — Project Aura hands-on, Android XR ecosystem context</a> <span class="badge-green">8/10</span><br>
+    <a href="https://roadtovr.com/google-android-xr-xreal-raises-100m-2026/" target="_blank">Road to VR — XREAL raises $100m, Android XR multi-OEM strategy (Edition 7)</a> <span class="badge-green">8/10</span>
+  </p>
+
+  <div style="margin-top:40px;">
+    <button onclick="showMain()" style="background:none;border:1px solid #8B1A1A;cursor:pointer;font-family:Arial,sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#8B1A1A;font-weight:700;padding:10px 22px;border-radius:2px;">← Return to briefing</button>
+  </div>
+
+  <div class="footer">
+    <span><strong style="color:#1a1a1a;">FRONTIER INTELLIGENCE</strong> &nbsp;·&nbsp; Edition 8 &nbsp;·&nbsp; Monday, 8 June 2026 &nbsp;·&nbsp; Deep Read</span>
+  </div>
+
+</div>
+</div>
+
+
+<script>
+function showDeepRead(n){
+  document.getElementById('main').style.display='none';
+  document.getElementById('deep-read-'+n).style.display='block';
+  window.scrollTo(0,0);
+}
+function showMain(){
+  var els=document.querySelectorAll('[id^="deep-read-"]');
+  els.forEach(function(el){el.style.display='none';});
+  document.getElementById('main').style.display='block';
+  window.scrollTo(0,0);
+}
+</script>
+
+</body>
+</html>

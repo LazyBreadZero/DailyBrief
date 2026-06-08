@@ -419,6 +419,70 @@ Project Aura / XREAL display-forward Android XR glasses; multi-OEM ecosystem str
 
 ---
 
+## EDITION 8 — Monday, 8 June 2026
+
+### Lead Story
+**Title:** Vision Pro Goes on Ice — Gurman Confirms Apple Has Abandoned the Headset Bet, Hours Before Tim Cook's Last Keynote
+**Category:** Extended Reality · Apple · Strategic Retreat
+**Core argument:** Bloomberg's Mark Gurman reports a Vision Pro successor is "in testing, but the category is on ice" — confirming that Apple's narrowing of its Vision roadmap (Edition 6) has escalated into a full retreat from the standalone-headset bet. Vision Air was killed October 2025; "display glasses" were cut January 2025. The two smart-glasses products that remain have also slipped: AI glasses (N50) now "late 2027" (was early-2027), $299–499, no display, iPhone-accessory model; full-AR "Apple Glass" pushed to ~2029–2030. The frame: Apple has run the same playbook as the car project — announce big, ship a costly proof-of-concept, retreat quietly via analyst leaks to the version that fits its actual mass-market accessory model.
+**Key companies introduced:** None new (Gurman, Kuo reporting frame)
+**Key people introduced:** None new (Mark Gurman, Ming-Chi Kuo as recurring analyst sources)
+**Key concepts introduced:** "Vision Pro on ice" (Gurman); Vision Air cancellation (Oct 2025) and display-glasses cut (Jan 2025) as the casualties behind Edition 6's narrowing; N50 codename for first AI glasses; Apple's "announce big, retreat via leaks" pattern (car project precedent)
+**Sources used:** AppleInsider (8/10): https://appleinsider.com/articles/26/06/03/short-sighted-john-ternus-behind-apple-vision-project-refocuses ; UploadVR (8/10): https://www.uploadvr.com/apple-vision-air-2027-kuo-supply-chain-report/ ; MacRumors (8/10): https://www.macrumors.com/2026/05/31/apple-glasses-late-2027-report/
+**Angelo's Angle delivered:** "Vision Pro Didn't Fail — It Finished" contrarian essay before Wednesday's consensus framing locks in
+**Follow-up threads to watch:** WWDC June 8 keynote outcome and visionOS 27 actual API depth; N50 design-partner disclosures; Vision Pro successor "in testing" status — cancelled or revived; Apple Glass 2029–2030 timeline firming up
+
+### Story 2
+**Title:** Today: Tim Cook's Final Keynote Brings Gemini-Powered Siri — and a visionOS 27 Accessibility Feature Almost No One Is Covering
+**Category:** Extended Reality · Apple · Leadership Transition
+**Core argument:** WWDC keynote today (10am PT / 7pm Vienna) — Tim Cook's last as CEO. Gemini-Siri deal confirmed in detail ($1bn/yr, 1.2T-parameter custom model, standalone chat interface). visionOS 27 described as feature-light except for one notable addition: Wheelchair Control, which repurposes Vision Pro's eye-tracking hardware to drive powered wheelchairs — eye-tracking moving from spatial-computing input gimmick to assistive medical infrastructure via a free software update.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** Wheelchair Control (visionOS 27 eye-tracking-to-mobility assistive feature); Gemini-Siri technical specifics ($1bn/yr licensing, standalone chat app, on-screen awareness)
+**Sources used:** Tech Times (8/10): https://www.techtimes.com/articles/317902/20260606/wwdc-2026-opens-monday-gemini-powers-rebuilt-siri-iphone-11-faces-ios-27-cut.htm ; MacRumors (8/10): https://www.macrumors.com/guide/wwdc-2026-what-to-expect/ ; TechRadar (8/10): https://www.techradar.com/tech/5-things-to-expect-at-wwdc-2026-from-siri-2-0-to-tim-cooks-apple-farewell
+**Follow-up threads to watch:** Actual keynote outcome and visionOS 27 SDK depth; Wheelchair Control reception in assistive-tech press; Gemini-Siri developer documentation
+
+### Story 3
+**Title:** AWE 2026 — Seven Days Out: Auggie Finalists Named, and a New Research Poster Track Puts Neuroscience on the Show Floor
+**Category:** XR · Events · Academic Convergence
+**Core argument:** AWE confirmed Auggie finalists, 20 Rising XR Builders, 10 Startup to Watch nominees, and — new this year — a Research Poster Track: 40 submissions, 15 selected, spanning neuroscience, healthcare, and AI-enabled spatial computing. First formal academic on-ramp at a major XR trade show. June 15 (opening day) remains Angelo's consent-essay deadline — eighth consecutive edition carrying it, seven days out.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** AWE Research Poster Track (academic/neuroscience on-ramp at a trade show)
+**Sources used:** PR Newswire (9/10): https://www.prnewswire.com/news-releases/augmented-world-expo-2026-reveals-auggie-award-finalists-rising-xr-builders-startup-to-watch-nominees-and-enterprise-xr-leaders-302778845.html ; AWE Official (10/10): https://www.awexr.com/usa-2026
+**Follow-up threads to watch:** Research Poster Track presenter list and topics; Auggie Award winners June 17; Angelo's consent essay publication (or non-publication) on June 15
+
+### Intelligence Briefs
+**Brief 1 — Three Funerals in Thirty Days (XR / Platform Strategy):** Spatial closing Spatial Creator; Rec Room closed June 1; Horizon Worlds repositioned to mobile. Consumer social XR's collapse, enterprise/utility XR's rise. Sources: Road to VR (8/10). Follow-up: where displaced creators and capital migrate next.
+**Brief 2 — XREAL Project Aura's First Hands-On Verdict (XR / Android XR):** "Best Android XR form factor yet" per early reviewers — validates the $100m bet (Edition 7) with real hands-on consensus, not specs. Sources: Engadget (8/10), Android Headlines (7/10). Follow-up: developer kit reception this summer.
+**Brief 3 — Synchron Puts a Date on "First FDA-Approved BCI": 2026 (BCI / Regulatory):** Pivotal trial reporting frames Synchron as racing Neuralink's manufacturing-phase push (Edition 6) toward the same 2026 regulatory milestone — BCI's commercial era now has an explicit finish line. Sources: Tech Times (8/10). Follow-up: trial enrollment progress; Neuralink vs. Synchron approval sequencing.
+**Brief 4 — Science Corp CE Mark, eight editions outstanding (BCI / Regulatory):** No decision as of June 8; trial base unchanged. Hodak outreach now eight consecutive editions with no recorded action. Sources: Science Corp Official (10/10). Follow-up: CE mark decision; outreach completion.
+
+### New concepts in Angelo's working vocabulary
+"Vision Pro on ice" (Gurman); Apple's announce-big-retreat-via-leaks pattern (car project precedent); N50 (Apple AI glasses codename); Wheelchair Control (visionOS 27 eye-tracking-to-mobility); AWE Research Poster Track; "consumer social XR is dead, enterprise/utility XR is alive" framing (vs. blanket "metaverse is dead")
+
+### Angelo's Angles Issued — Track Completion
+- [ ] Write "Vision Pro Didn't Fail — It Finished" contrarian essay — publish before Wednesday's consensus framing locks in *(new — time-sensitive, 48 hours)*
+- [ ] Review AWE Research Poster Track's 15 selected presenters; email 2–3 working at the neuroscience/XR seam before June 15 *(new)*
+- [ ] Open consent-layer essay by naming Spatial, Rec Room, and Horizon Worlds as the device-first generation's governance failure *(new framing — sharpens carried essay)*
+- [ ] Cold outreach note to XREAL's EU business development team — sequencing-gap pitch before Rotterdam June 23–25 *(carried from Ed. 7 — high-priority, founder-speed target)*
+- [ ] Write "When Fashion Houses Bet on Platforms, Not Products" (500 words on Gucci x Google) — publish before AWE June 15 *(carried from Ed. 7)*
+- [ ] Publish visionOS 27 / Gemini-Siri analysis note within hours of today's WWDC keynote — frame: "AI-native spatial OS" *(carried, NOW DUE TODAY)*
+- [ ] Write 150-word consent layer seed note on LinkedIn *(carried from Ed. 5–7)*
+- [ ] Draft consent layer essay full (300 words) — before AWE June 15; 7 days remain *(carried from Editions 1–7)*
+- [ ] Write "The Psychiatric BCI Nobody Is Covering" (400 words) — before AWE June 15 *(carried from Ed. 5–7)*
+- [ ] Reach out to Science Corp — Max Hodak direct outreach *(carried, URGENT — 8 editions outstanding)*
+- [ ] Write "Apple Watch or Zune? The Smart Glasses Platform Bet" essay *(carried from Ed. 6–7)*
+- [ ] Build EU optical chain BD brief (5 European chains with no Android XR partnership) — for Rotterdam *(carried from Ed. 6–7)*
+- [ ] Write Four Architectures of BCI map *(carried from Ed. 4)*
+- [ ] Attend Rotterdam Immersive Tech Week June 23–25 *(carried)*
+- [ ] Map German neurologist/ophthalmologist network (first PRIMA prescribers) *(carried)*
+- [ ] Write Q3 2026 essay: post-screen experience when AI and BCI mature *(carried)*
+- [ ] Write regulatory race essay: China's 2026 = US/EU's ~2029 *(carried, now has Synchron's 2026-deadline framing to sharpen it)*
+- [ ] Review AWE Auggie finalists for US enterprise XR / no EU footprint BD targets *(carried)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Companies | Actions Issued |
@@ -430,6 +494,7 @@ Project Aura / XREAL display-forward Android XR glasses; multi-OEM ecosystem str
 | 5 | 5 Jun 2026 | Motif Neurotech FDA IDE approval — BCI's psychiatric frontier opens | Therapeutic BCI / TRD (Motif XCS/DOT, 84m patient market), visionOS 27 WWDC pre-brief (API depth as key metric), AWE 10-day countdown (Spiegel keynote / Art Festival / Research Poster Track), Science Corp Stargardt/RP trial expansion, Ability Neurotech Netherlands ALS approval, Android XR glasses no pricing still | Motif Neurotech; Ability Neurotech | 300-word visionOS 27 note (24h post-WWDC); 150-word consent seed note today; psychiatric BCI essay before AWE |
 | 6 | 6 Jun 2026 | Apple CEO Ternus narrows Vision roadmap — AI glasses 2027, waveguide AR 2029 | Apple smart glasses timeline confirmed (Ternus), Neuralink manufacturing phase (automated surgery + high-volume production), Android XR audio glasses $379–$499 pricing, AWE 9-day countdown, Android XR Catalyst Programme deadline June 30, Prophetic Halo Phase slip, Science Corp CE mark still pending | None new (Ternus as key person) | WWDC visionOS 27 API analysis 24h post-June 8; "Apple Watch or Zune?" essay before AWE; EU optical chain BD brief for Rotterdam |
 | 7 | 7 Jun 2026 | XREAL raises $100m, reveals Project Aura — Android XR's first real third-party hardware bet | XREAL Project Aura / multi-OEM ecosystem strategy, WWDC eve (Tim Cook's last keynote, Gemini-powered Siri, visionOS 27 stakes), AWE 8-day countdown (Spiegel "Making Computing More Human"), Gucci x Google luxury Android XR 2027, LetinAR optics funding, Science Corp CE mark (7 editions outstanding), China BCI "what's next" analysis | XREAL (Chi Xu) | XREAL EU BD outreach before Rotterdam; "Fashion Houses Bet on Platforms" essay; visionOS 27/Gemini-Siri analysis note (most urgent — keynote tomorrow) |
+| 8 | 8 Jun 2026 | Vision Pro goes "on ice" — Gurman confirms Apple's full retreat from the headset bet, hours before Tim Cook's last keynote | Apple Vision Pro retreat (Gurman "on ice" report, N50 glasses slip to late 2027), WWDC keynote day (Gemini-Siri details, visionOS 27 Wheelchair Control), AWE 7-day countdown (Auggie finalists, new Research Poster Track), three social-XR platform shutdowns (Spatial, Rec Room, Horizon Worlds), XREAL Project Aura first hands-on reviews, Synchron 2026 pivotal-trial framing, Science Corp CE mark (8 editions outstanding) | None new (Gurman, Kuo as recurring analyst sources) | "Vision Pro Didn't Fail — It Finished" essay (48h); AWE Research Poster Track presenter outreach; consent essay opened with three social-XR shutdown names; visionOS 27/Gemini-Siri note due today |
 
 ---
-*Last updated: Edition 7 — 7 June 2026*
+*Last updated: Edition 8 — 8 June 2026*
