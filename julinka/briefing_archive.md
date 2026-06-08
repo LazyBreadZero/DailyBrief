@@ -276,6 +276,65 @@ Pacifico Biolabs (Zac Austin, Washington Logroño); brewery-tank / infrastructur
 
 ---
 
+## EDITION 6 — Monday, 8 June 2026
+
+### Lead Story
+**Title:** Standing Ovation Raises $34M to Brew Casein from the Cheese Industry's Own Waste — and France Enters the Fermentation Map
+**Pillar:** Venture Capital × Food Science
+**Core argument:** Standing Ovation (Paris, founded 2020 by Romain Chayot & Frédéric Paques) closed a €25M Series B + €5M non-dilutive ($34M total; co-led by Bpifrance Ecotechnologies 2 and Crédit Mutuel Innovation, with Astanor, Bel Group, Seventure, Danone Ventures, Big Idea Ventures) to scale precision-fermented casein — differentiated by feeding its microbes acid whey (a costly dairy-industry disposal byproduct) instead of bought dextrose. Adds France as a third country to the Editions 4–5 fermentation-capital map, and reframes the emerging thesis from "infrastructure arbitrage" (Pacifico) to the broader "waste-stream arbitrage": don't build a new input, consume what an adjacent industry already pays to discard. No owned factories (Ajinomoto + Tetra Pak partnerships, mirroring the Dutch "rent the balance sheet" pattern); targets FDA GRAS by end-2026 and EU approval via EFSA by late 2027 — the same "US-first, EU-slower" choreography Edition 5 flagged in Fermotein.
+**Key entities introduced:** Standing Ovation; Romain Chayot; Frédéric Paques; Yvan Chardonnens (CEO); Ajinomoto (Standing Ovation manufacturing partner); acid whey as fermentation feedstock
+**Key concepts introduced:** "Waste-stream arbitrage" (broader reframe of Edition 5's "infrastructure arbitrage"); acid-whey-fed precision fermentation; casein vs. beta-lactoglobulin difficulty/patent framing
+**Sources used:** AgFunderNews (9/10): https://agfundernews.com/standing-ovation-nets-34m-gears-up-for-us-launch-of-casein-via-precision-fermentation ; Pulse2 (7/10); DairyReporter (7/10)
+**Julinka's Angle delivered:** Submit overdue sourcing thesis today reframed around "Europe's industrial byproduct economy" (now backed by 3-country evidence); spend 20 minutes finding any Paris-workshop contact (48 hrs left); write a one-page "waste-stream thesis" memo before Art Basel as a portable talking point
+**Follow-up threads to watch:** Standing Ovation feedstock-cost economics vs. dextrose-fed competitors; FDA GRAS letter timing; whether a fourth "waste-stream" company emerges from a fourth country/industry; Ajinomoto production scale-up milestones
+
+### Story 2
+**Title:** Seoul Food & Hotel Opens Tomorrow — and the Exhibitor Window Closes Tonight
+**Pillar:** Food Science × Culture
+**Core argument:** Show opens June 9 (tomorrow) at KINTEX — 1,650 exhibitors, 45 countries, USA guest of honour, "AI & Robotics" theme. The KOTRA Frankfurt exhibitor/buyer-matching directory window flagged in Edition 5 as closing "today/tomorrow" now closes tonight — the last actionable moment before the show floor opens and the directory locks for a year.
+**Key entities introduced:** None new
+**Key concepts introduced:** Hard expiry of the exhibitor-directory window (closes tonight)
+**Sources used:** Korea Times (9/10); Seoul Food & Hotel Official (9/10); 10Times (7/10)
+**Follow-up threads to watch:** Whether the KOTRA request was sent before tonight's deadline; show outcomes June 9–12; functional-food exhibitor shortlist if obtained
+
+### Story 3
+**Title:** Art Basel Locks 290 Galleries, an Outside Curator for Unlimited, and a 22-Work "Conviviality" — Eight Days Out
+**Pillar:** Art
+**Core argument:** 2026 lineup finalised: 290 galleries / 43 countries (21 first-timers incl. Côte d'Ivoire, Lebanon, Saudi Arabia, Turkey); Unlimited curated for the first time by an outsider, Ruba Katrib (MoMA PS1), expanding to 59 projects/66 galleries; Parcours confirmed under Stefanie Hessler — 22 site-specific projects, 31 galleries, "Conviviality" theme. VIP First Choice Preview June 16 (8 days out); Basel Exclusive embargo holds at 193/232 galleries.
+**Key entities introduced:** Ruba Katrib (Unlimited curator, MoMA PS1)
+**Key concepts introduced:** Unlimited's first outside curator; Parcours confirmed scale (22 projects/31 galleries)
+**Sources used:** Art Basel Official (10/10); ARTnews (8/10)
+**Follow-up threads to watch:** Unlimited's Katrib-curated project list; Parcours full artist roster; first-timer-gallery profiles from underrepresented regions
+
+### Intelligence Briefs
+**Brief 1 — The Bland Company: A Third Country Answers the Same Question (Venture/Food):** UK-based The Bland Company (founded 2024, Yash Khandelwal & Micol Hafez) closed a £2M/$2.67M pre-seed (Initialized Capital lead, with Entrepreneur First, Transpose, Behind Genius Ventures, Alumni Ventures, Vento) to convert rice- and pasta-production agricultural side-streams into soluble, egg-replacing plant proteins via enzymatic processing — no novel equipment required. Third independent confirmation (after Pacifico, Standing Ovation) of the same "consume an adjacent industry's waste" instinct, across three countries and three biologies inside eleven days. Sources: AgFunderNews (9/10); Green Queen (8/10). Follow-up: commercial trial results with rice/pasta producers; whether a fourth confirmation appears from a fourth geography.
+**Brief 2 — The Casein Race: Formo vs. Standing Ovation (Food/Venture):** Formo (Berlin) launched US subsidiary Formo Foods Inc., debuting commercially at IFT FIRST Chicago July 13–16, already sampling US customers; Standing Ovation targets FDA GRAS by end-2026 and a same-window US launch. Two well-funded European precision-fermentation casein companies racing to the same finish line on the same continent in the same year — whoever lands first sets the commercial/regulatory template for the category. Sources: Protein Production Technology (7/10); AgFunderNews (9/10). Follow-up: which company secures GRAS/FDA clearance first; initial US retail/foodservice listings.
+**Brief 3 — Paris Nature-Positive Finance Workshop, 48 Hours Out (Nature/Finance — Action Critical):** Biodiversa+/Banque de France workshop confirmed for June 10, an official EU Green Week 2026 partner event; central banks, EU Commission, IPBES authors, institutional investors convening to align nature-related-risk methodologies. Edition 5's 72-hour expiry on the delegate/debrief-contact task is now under 48 hours and still open — flagged as the last edition "carried" remains an honest description. Sources: Biodiversa+ (10/10); Banque de France (9/10). Follow-up: whether a contact was found in time; workshop outcomes and methodology signals for the EU nature-credits expert group.
+**Brief 4 — The EU's Nature-Credit Architects Have Their Mandate (Nature/Policy):** European Commission has formally tasked its COM(2025)374 nature-credits expert group with delivering technical criteria/methodological framework by mid-2026, building on existing carbon-farming/MRV standards; Commission separately moving to adopt first carbon-farming methodologies under the Carbon Removals and Carbon Farming Regulation this year (mandatory biodiversity co-benefits). Converts the long-standing Edition 2 "find a Swiss/Austrian rep" task from open-ended to dated. Sources: EUR-Lex COM(2025)374 (9/10); Linklaters Sustainable Futures (7/10). Follow-up: expert-group membership list; methodology publication timing relative to COP17.
+
+### Deep Read
+**Title:** The Waste-Stream Thesis — What Three Companies in Three Countries Reveal About Where Fermentation Capital Actually Wants to Go
+**Core argument:** Directly answers the question Edition 5's deep read posed rhetorically (which industries have repurposable byproducts a biology company could consume) by showing it was answered twice, independently, within eleven days — Standing Ovation (acid whey) and The Bland Company (rice/pasta residues). Reframes Edition 5's "infrastructure arbitrage" as the broader, more expansive "waste-stream arbitrage" — covering liquids, agricultural residues, surplus capacity, anything an adjacent industry books as a disposal cost. Raises the shared diligence concern across all three companies (each depends on the continued existence of someone else's industrial decline — a moat that is also a structural risk with two failure endpoints: feedstock-industry recovery or feedstock-industry collapse). Closes by converting the sourcing question from "which fermentation company has the best biology" to "which declining/seasonal European industries generate costly byproducts, and has anyone built a company to sit at the end of that drain pipe" — naming wineries (pomace), sugar-beet processors (pulp), tanneries/paper mills, and bakeries as next candidates.
+**Was this Deep Read topic covered in the last 3 editions?** No — directly extends (does not repeat) Edition 5's deep read, which posed the exact question this one answers.
+
+### New concepts in Julinka's working vocabulary (do not re-explain)
+Standing Ovation (Romain Chayot, Frédéric Paques, Yvan Chardonnens); acid-whey-fed precision fermentation; "waste-stream arbitrage" (supersedes/broadens "infrastructure arbitrage"); The Bland Company (Yash Khandelwal, Micol Hafez); ag-side-stream enzymatic protein platform; the "casein race" (Formo vs. Standing Ovation, US 2026); Ruba Katrib (Art Basel Unlimited curator); EU nature-credits expert group mid-2026 mandate
+
+### Julinka's Angles Issued — Track Completion
+- [ ] Submit nutrition-tech sourcing thesis for Calm/Storm — **OVERDUE, 2nd edition — submit today**, reframed around "Europe's industrial byproduct economy" *(carried from Edition 1, now critical)*
+- [ ] Find any contact for Wednesday's Paris workshop — 48 hrs, even a debrief-only contact *(carried from Edition 3, now critical)*
+- [ ] Request Seoul Food & Hotel exhibitor list (KOTRA Frankfurt) — window closes **tonight** *(carried from Edition 4, final chance)*
+- [ ] Write a one-page "waste-stream thesis" memo before Art Basel — June 16 *(new)*
+- [ ] Message Pacifico Biolabs, Standing Ovation and The Bland Company — sourcing outreach while all early-stage *(carried/expanded from Edition 5)*
+- [ ] Write "The Ozempic Diet Needs Better Protein" (300 words) — before Art Basel June 16 *(carried from Edition 4)*
+- [ ] Prepare 3 Art Basel VIP conversations, incl. Parcours/Hessler angle — June 16 (8 days) *(carried from Edition 3)*
+- [ ] Request Planetary technical documentation / BioBlocks publications *(carried from Edition 2)*
+- [ ] Find Swiss/Austrian representative on EU nature-credits expert group — now on a mid-2026 deadline *(carried from Edition 2)*
+- [ ] Draft "How to read a protein claim" essay *(carried from Edition 1)*
+- [ ] Start European regen-ag / natural-capital watch-list *(carried from Edition 1)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -285,6 +344,7 @@ Pacifico Biolabs (Zac Austin, Washington Logroño); brewery-tank / infrastructur
 | 3 | 5 Jun 2026 | Fermentation takes 74% of Q1 2026 alt-protein capital; Europe + Netherlands dominate | Q1 2026 alt-protein capital data, cultivated meat winter (Believer/Meatable shutdowns), Basel Exclusive in-person scarcity mechanics, EU Nature Credits COM(2025)374 + COP17 Yerevan, K-food $16bn target, Paris nature-positive finance workshop June 10, FoodLabs/Maia deploying | Believer Meats (shut down), Meatable (shut down), Invest-NL, The Better Meat Co., Protein Brewery | Map 5 Dutch fermentation companies; Art Basel VIP 3 conversations; Paris workshop June 10 debrief |
 | 4 | 6 Jun 2026 | The Protein Brewery €30M Series B — Novo Holdings / GLP-1 protein demand signal | Protein Brewery B2B ingredient model vs. Planetary BioBlocks licensing (deep read), Seoul Food & Hotel June 9–12 (K-food export machine), Art Basel 10-day countdown (Basel Exclusive, six market trends), AuX Labs precision fermentation cheese, Paris nature-positive finance workshop June 10, EU Agri Food Biotech Scaling Up 2026 grant, K-Food Fair Frankfurt | The Protein Brewery, Fermotein, Novo Holdings (food), AuX Labs, Seoul Food & Hotel 2026, Nongshim Europe | "Ozempic protein" investment note before Art Basel; Seoul Food exhibitor list; Art Basel VIP 3 conversations |
 | 5 | 7 Jun 2026 | Pacifico Biolabs €7M Series A — a third fermentation architecture (repurposed brewery-tank infrastructure arbitrage) | Pacifico Biolabs lead + "third architecture" deep read, Seoul Food & Hotel 48-hr countdown, Art Basel 9-day countdown + Parcours "Conviviality" (Hessler), Fermotein EFSA milestone + EU/FDA regulatory clock, 5 Dutch fermentation companies mapped (action closed), Paris nature-positive finance workshop confirmed | Pacifico Biolabs, Zac Austin, Washington Logroño, Stefanie Hessler, NIZO, Vivici, Royal Cosun (food) | Submit overdue sourcing thesis; message Pacifico Biolabs directly; Seoul Food exhibitor list (urgent); Art Basel VIP 3 conversations incl. Parcours |
+| 6 | 8 Jun 2026 | Standing Ovation $34M raise — acid-whey-fed casein fermentation; "waste-stream arbitrage" reframes the thesis (France enters the map) | Standing Ovation lead + "waste-stream thesis" deep read, The Bland Company (UK ag-side-stream proteins — 2nd confirmation), the Formo-vs-Standing Ovation US casein race, Seoul Food & Hotel opens tomorrow (exhibitor window closes tonight), Art Basel 8-day countdown (290 galleries, Katrib-curated Unlimited, Parcours scale confirmed), Paris workshop 48-hr critical, EU nature-credits expert group mid-2026 mandate | Standing Ovation, Romain Chayot, Frédéric Paques, Yvan Chardonnens, The Bland Company, Yash Khandelwal, Micol Hafez, Ruba Katrib | Submit overdue sourcing thesis (2nd edition, reframed); find Paris workshop contact (48 hrs, critical); Seoul Food exhibitor list (closes tonight); write waste-stream thesis memo; expanded outreach to 3 companies |
 
 ---
-*Last updated: Edition 5 — 7 June 2026*
+*Last updated: Edition 6 — 8 June 2026*

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appetite — Monday, 8 June 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:#FBF9F3;color:#1F1B16;font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.68;}
+.container{max-width:760px;margin:0 auto;padding:0 24px 60px;}
+a{color:#A8761A;text-decoration:none;}
+a:hover{text-decoration:underline;}
+.kicker{font-family:'DM Sans',Arial,sans-serif;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:#A8761A;font-weight:700;}
+.label{font-family:'DM Sans',Arial,sans-serif;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#928775;font-weight:600;}
+.badge-green{display:inline-block;background:#E8F1E4;color:#3A6B2A;font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;padding:2px 7px;border-radius:3px;letter-spacing:0.3px;vertical-align:middle;white-space:nowrap;}
+.badge-amber{display:inline-block;background:#F4E8C9;color:#7A5A12;font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;padding:2px 7px;border-radius:3px;letter-spacing:0.3px;vertical-align:middle;white-space:nowrap;}
+.rule-single{border:none;border-top:1px solid #D5C9A8;margin:32px 0;}
+.rule-double{border:none;border-top:3px double #1F1B16;margin:40px 0;}
+.gingham-rule{height:8px;background-image:repeating-linear-gradient(90deg,#E7B43A 0px,#E7B43A 8px,#FBF9F3 8px,#FBF9F3 16px);margin:10px 0 0;}
+.pullquote{border-left:4px solid #E7B43A;padding:18px 24px;margin:36px 0;background:#F4E8C9;}
+.pullquote p{font-family:'Fraunces',Georgia,serif;font-size:21px;font-style:italic;line-height:1.45;color:#2A200A;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin:0 0 36px;}
+@media(max-width:620px){.two-col{grid-template-columns:1fr;}}
+.col-story h3{font-family:'Fraunces',Georgia,serif;font-size:19px;line-height:1.28;margin-bottom:10px;color:#1F1B16;}
+.col-story p{font-size:15.5px;color:#4A4036;line-height:1.65;}
+.col-story .kicker{margin-bottom:6px;}
+.intel-item{border-top:1px solid #D5C9A8;padding:18px 0;font-size:15.5px;color:#2A2218;}
+.intel-item strong{font-family:'Fraunces',Georgia,serif;font-size:16.5px;display:block;margin-bottom:5px;color:#1F1B16;}
+.angle-block{background:#211C16;color:#FBF9F3;padding:36px 40px;margin:36px 0;border-radius:4px;}
+.angle-block h2{font-family:'Fraunces',Georgia,serif;color:#FBF9F3;font-size:24px;margin-bottom:4px;}
+.angle-block .angle-sub{font-family:'DM Sans',Arial,sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#A8761A;margin-bottom:24px;}
+.angle-item{display:flex;gap:18px;margin-bottom:22px;}
+.angle-item:last-child{margin-bottom:0;}
+.angle-num{font-family:'Fraunces',Georgia,serif;font-size:34px;font-weight:900;color:#E7B43A;line-height:1;min-width:38px;}
+.angle-text{font-size:15px;line-height:1.62;color:#D4CDB8;}
+.angle-text strong{color:#FBF9F3;}
+.two-col-bottom{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:8px;}
+@media(max-width:620px){.two-col-bottom{grid-template-columns:1fr;}}
+.radar-item{font-size:14.5px;color:#2A2218;padding:7px 0;border-bottom:1px solid #DDD2BA;line-height:1.5;}
+.radar-item:last-child{border-bottom:none;}
+.radar-date{font-family:'DM Sans',Arial,sans-serif;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#A8761A;font-weight:700;margin-right:8px;}
+.sn-signal{color:#3A6B2A;font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:2px 7px;background:#E8F1E4;border-radius:3px;margin-right:6px;vertical-align:middle;}
+.sn-noise{color:#7A5A12;font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:2px 7px;background:#F4E8C9;border-radius:3px;margin-right:6px;vertical-align:middle;}
+.sn-item{font-size:14.5px;color:#2A2218;padding:7px 0;border-bottom:1px solid #DDD2BA;line-height:1.5;}
+.sn-item:last-child{border-bottom:none;}
+.footer{border-top:2px solid #1F1B16;padding-top:24px;margin-top:48px;font-family:'DM Sans',Arial,sans-serif;font-size:11px;color:#928775;letter-spacing:0.5px;line-height:2;}
+.gold-top{height:8px;background:#E7B43A;}
+.masthead-label{font-family:'DM Sans',Arial,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#A8761A;text-align:center;padding-top:32px;}
+.masthead-title{font-family:'Fraunces',Georgia,serif;font-size:60px;font-weight:900;text-align:center;letter-spacing:-2px;line-height:1;color:#1F1B16;padding:8px 0 4px;}
+.masthead-sub{font-family:'Source Serif 4',Georgia,serif;font-style:italic;font-size:14px;color:#4A4036;text-align:center;padding-bottom:12px;}
+.dateline-bar{display:flex;justify-content:space-between;align-items:center;border-top:2px solid #1F1B16;border-bottom:2px solid #1F1B16;padding:8px 0;margin:10px 0 36px;}
+.deep-read-link{display:inline-block;background:#A8761A;color:#FBF9F3;font-family:'DM Sans',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:10px 22px;border-radius:100px;cursor:pointer;border:none;margin-top:12px;}
+.deep-read-link:hover{background:#8a5e12;color:#FBF9F3;}
+.continuity{background:#F4E8C9;border-left:3px solid #A8761A;padding:10px 16px;font-size:14.5px;font-style:italic;color:#4A3010;margin:20px 0;}
+.sun-motif{text-align:center;font-size:20px;color:#E7B43A;padding:4px 0;letter-spacing:6px;}
+.pill-tag{display:inline-block;background:#F4E8C9;color:#7A5A12;font-family:'DM Sans',Arial,sans-serif;font-size:10px;font-weight:700;padding:3px 10px;border-radius:100px;letter-spacing:0.5px;margin-right:4px;}
+.meta-block{background:#F4E8C9;border-radius:6px;padding:18px 22px;margin:32px 0;font-size:14px;color:#4A4036;line-height:1.7;}
+.meta-block strong{color:#1F1B16;font-family:'DM Sans',Arial,sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;display:block;margin-bottom:8px;}
+.action-item{padding:3px 0;color:#2A2218;}
+.action-item::before{content:"□ ";color:#A8761A;font-size:12px;}
+.action-urgent{color:#B23A3A;font-weight:600;}
+.action-done{color:#3A6B2A;}
+.action-done::before{content:"☑ ";color:#3A6B2A;font-size:12px;}
+</style>
+</head>
+<body>
+
+<!-- ═══ MAIN VIEW ═══ -->
+<div id="main">
+
+<div class="gold-top"></div>
+<div class="container">
+
+  <!-- Masthead -->
+  <div class="masthead-label">Your Morning Brief · Monday, 8 June 2026</div>
+  <div class="sun-motif">✦ ☀ ✦</div>
+  <div class="masthead-title">Appetite</div>
+  <div class="masthead-sub">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  <div class="gingham-rule"></div>
+  <div class="dateline-bar">
+    <span class="kicker" style="font-size:12px;">Edition 6</span>
+    <span class="label">Venture &nbsp;·&nbsp; Food &nbsp;·&nbsp; Art &nbsp;·&nbsp; Nature</span>
+  </div>
+
+  <!-- LEAD STORY -->
+  <div class="kicker" style="margin-bottom:8px;">Today's Lead &nbsp;·&nbsp; Venture Capital × Food Science</div>
+  <h1 style="font-family:'Fraunces',Georgia,serif;font-size:38px;line-height:1.15;letter-spacing:-0.8px;margin-bottom:14px;">Standing Ovation Raises $34M to Brew Casein from the Cheese Industry's Own Waste — and France Enters the Fermentation Map</h1>
+  <div class="label" style="margin-bottom:22px;">Sources: <a href="https://agfundernews.com/standing-ovation-nets-34m-gears-up-for-us-launch-of-casein-via-precision-fermentation" target="_blank">AgFunderNews</a> <span class="badge-green">9/10</span> &nbsp;·&nbsp; <a href="https://pulse2.com/standing-ovation-34-2-million-raised-for-precision-fermentation-dairy-protein-scale-up/" target="_blank">Pulse2</a> <span class="badge-amber">7/10</span> &nbsp;·&nbsp; <a href="https://www.dairyreporter.com/Article/2026/02/27/investment-surges-back-into-precisionfermented-dairy/" target="_blank">DairyReporter</a> <span class="badge-amber">7/10</span></div>
+
+  <p>Standing Ovation, founded in Paris in 2020 by Romain Chayot and Frédéric Paques, has closed a €25 million ($28.5M) Series B — plus a further €5 million ($5.7M) in non-dilutive support — to scale production of dairy proteins made not by cows but by microbes engineered to secrete casein, the protein that gives cheese its stretch and milk its body. The round was co-led by Bpifrance's Ecotechnologies 2 fund and Crédit Mutuel Innovation, with Astanor Ventures, Bel Group, Seventure Partners, Danone Ventures and Big Idea Ventures all returning from earlier rounds.</p>
+
+  <p>The detail that matters is not the casein. It is what Standing Ovation feeds its microbes. Almost every precision-fermentation competitor runs its organisms on dextrose — a clean, purpose-bought sugar feedstock that is also one of the category's largest recurring costs. Standing Ovation instead uses acid whey: the sour, environmentally troublesome liquid byproduct that every tonne of cottage cheese and Greek yogurt produced in Europe leaves behind, and that the dairy industry has spent decades paying specialist contractors to dispose of safely. Standing Ovation has turned a cost line on someone else's balance sheet into the cheapest possible input on its own.</p>
+
+  <div class="continuity">Editions 4 and 5 built a single thesis in two steps — Europe's fermentation capital cycle funds infrastructure, not consumer brands, and its geographic anchor is the Netherlands, joined three days ago by Germany's Pacifico Biolabs and its repurposed brewery tanks. Standing Ovation does two things to that thesis at once. It adds a third country, France. And it proves the thesis was never really about "infrastructure" — it was about arbitrage on whatever an adjacent industry is already trying to get rid of. Pacifico rents idle tanks. Standing Ovation drinks the runoff. Different asset, same instinct: stop building, start scavenging.</div>
+
+  <p>Standing Ovation will not own factories either — it holds exclusive partnerships with Ajinomoto for large-scale production in France and with Tetra Pak for downstream processing, the same "rent the balance sheet" logic that defined the Dutch cluster Edition 5 mapped. CEO Yvan Chardonnens is candid that casein is the harder molecule: most competitors chased beta-lactoglobulin, the whey protein widely seen as the "easier" win, leaving casein's tougher structural-engineering problem — and the patent protection that comes with solving it — comparatively open. The company is targeting an FDA "no-questions" GRAS letter by the end of 2026 and a North American launch in the same window, with an EFSA novel-food submission aimed at EU approval by late 2027 — the identical "America first, Europe on a slower clock" choreography Edition 5 flagged in Fermotein's regulatory path, now confirmed as a pattern rather than a single company's strategy.</p>
+
+  <p>For Calm/Storm, the product list is the tell: protein bars, coffee foam, nutraceuticals, ice cream — the exact "clinical nutrition ingredient" wedge Edition 4 identified as the category's real commercial opening, as distinct from the consumer-brand ambitions that burned the first wave of alt-protein capital. Standing Ovation is not trying to convince anyone to love a new kind of milk. It is trying to get its protein into formulations that food manufacturers already buy, at a cost basis no dextrose-fed competitor can match.</p>
+
+  <!-- Editor note / continuity -->
+  <div style="background:#F4E8C9;border-radius:4px;padding:14px 18px;margin:24px 0;font-size:14.5px;font-style:italic;color:#4A3010;">
+    <strong style="font-style:normal;font-family:'DM Sans',Arial,sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#A8761A;">Edition continuity note</strong><br>
+    Edition 5's deep read closed by asking which other European industries are sitting on idle, food-grade, underutilised assets that a sufficiently clever biology company could rent rather than replace. It took eleven days for two separate companies, in two separate countries, to hand back two separate answers — both below, in Intelligence Briefs.
+  </div>
+
+  <!-- Pullquote -->
+  <div class="pullquote">
+    <p>"Standing Ovation did not set out to answer 'how do we make milk without cows.' It asked what a cheese factory pours down the drain every single morning — and built a company around the answer."</p>
+  </div>
+
+  <div class="rule-double"></div>
+
+  <!-- TWO-COLUMN SECTION -->
+  <div class="two-col">
+
+    <!-- Story 2 -->
+    <div class="col-story">
+      <div class="kicker">Food Science × Culture · K-Food</div>
+      <h3>Seoul Food &amp; Hotel Opens Tomorrow — and the Exhibitor Window Closes Tonight</h3>
+      <p>Seoul Food &amp; Hotel 2026 opens its doors at KINTEX in Goyang tomorrow, June 9, running through June 12. Roughly 1,650 exhibitors from 45 countries will fill the floor under the theme "AI &amp; Robotics: The Era of Food Tech Convergence," with the United States as guest country of honour and the 10th Global Food Trend &amp; Tech Conference running in parallel. The positioning Edition 4 first read — Korea exporting food-science methodology through an exhibition built for industrial buyers, not tourists — is now live.</p>
+      <p style="margin-top:12px;">Edition 5 placed the KOTRA Frankfurt exhibitor and buyer-matching directory request inside a 24-to-48-hour window. That window closes tonight, the last moment before the show floor opens and the directory locks until next June. After today, this is no longer an open action. It is a missed one.</p>
+      <div class="label" style="margin-top:14px;">Sources: <a href="https://www.koreatimes.co.kr/amp/business/companies/20260520/seoul-food-2026-to-open-in-june-to-expand-k-food-export-opportunities" target="_blank">Korea Times</a> <span class="badge-green">9/10</span> &nbsp;·&nbsp; <a href="https://www.seoulfoodnhotel.com/introduce/01.php" target="_blank">Seoul Food &amp; Hotel Official</a> <span class="badge-green">9/10</span> &nbsp;·&nbsp; <a href="https://10times.com/seoul-food-hotel" target="_blank">10Times</a> <span class="badge-amber">7/10</span></div>
+    </div>
+
+    <!-- Story 3 -->
+    <div class="col-story">
+      <div class="kicker">Art · Market Mechanics</div>
+      <h3>Art Basel Locks 290 Galleries, an Outside Curator for Unlimited, and a 22-Work "Conviviality" — Eight Days Out</h3>
+      <p>Art Basel has finalised its 2026 flagship lineup: 290 galleries from 43 countries, 21 of them first-timers — including from Côte d'Ivoire, Lebanon, Saudi Arabia and Turkey. Unlimited, the fair's platform for large-scale work, is curated for the first time by an outsider to the institution, Ruba Katrib of MoMA PS1, and expands to 59 projects across 66 galleries. Parcours, confirmed under Stefanie Hessler for a third consecutive year, will stage 22 site-specific projects from 31 galleries along Clarastrasse and the Rhine under "Conviviality" — the theme Edition 5 flagged as speaking the language of an impact-investing prospectus while wearing a curatorial coat.</p>
+      <p style="margin-top:12px;">The VIP First Choice Preview opens Tuesday, June 16 — eight days from this morning — followed by the main fair June 18–21. "Basel Exclusive," the gallery-side embargo on pre-fair viewing reported in Editions 4 and 5, stands at 193 of 232 main-sector participants.</p>
+      <div class="label" style="margin-top:14px;">Sources: <a href="https://www.artbasel.com/stories/art-basel-unveils-leading-galleries-and-first-highlights-for-its-2026-flagship-show-in-basel" target="_blank">Art Basel Official</a> <span class="badge-green">10/10</span> &nbsp;·&nbsp; <a href="https://www.artnews.com/art-news/news/art-basel-flagship-swiss-fair-exhibitor-list-2026-1234773916/" target="_blank">ARTnews</a> <span class="badge-green">8/10</span></div>
+    </div>
+
+  </div>
+
+  <!-- INTELLIGENCE BRIEFS -->
+  <div style="margin:8px 0 0;">
+    <div class="kicker" style="margin-bottom:16px;">Intelligence Briefs</div>
+
+    <div class="intel-item">
+      <strong>The Bland Company: A Third Country Answers the Same Question — From Rice Husks and Pasta Water to Egg-Replacing Protein &nbsp;<span class="label">Venture / Food</span></strong>
+      UK-based The Bland Company — founded in 2024 by biochemists Yash Khandelwal and Micol Hafez — has closed a £2 million ($2.67M) pre-seed led by Initialized Capital, with Entrepreneur First, Transpose Platform, Behind Genius Ventures, Alumni Ventures and Vento participating. Its biochemical platform converts agricultural side-streams — specifically the byproducts of rice and pasta production — into highly soluble, multi-functional plant proteins that foam, bind and emulsify well enough to replace eggs in food manufacturing, using existing processing infrastructure rather than novel equipment. Set this beside today's lead and beside Pacifico Biolabs: three companies, three countries, three different biologies (mycelium, microbial fermentation, enzymatic processing) — and one converging instinct. Don't build a new input. Find an industry that is already paying to throw one away. That convergence, appearing within an eleven-day window across Germany, France and the United Kingdom, is now the most investable pattern on this brief's radar — more below, in this morning's Deep Read. &nbsp;<a href="https://agfundernews.com/the-bland-company-raises-2-7m-to-functionalize-plant-proteins-from-ag-side-streams" target="_blank">AgFunderNews</a> <span class="badge-green">9/10</span> &nbsp;·&nbsp; <a href="https://www.greenqueen.com.hk/the-bland-company-functional-plant-proteins-egg-replacer-funding/" target="_blank">Green Queen</a> <span class="badge-green">8/10</span>
+    </div>
+
+    <div class="intel-item">
+      <strong>The Casein Race: Formo and Standing Ovation Both Aim for American Shelves Before Year's End &nbsp;<span class="label">Food / Venture</span></strong>
+      Within days of each other, two well-funded European precision-fermentation companies have put concrete 2026 dates on the same finish line: selling lab-brewed casein in the United States first. Berlin's Formo has launched a US subsidiary, Formo Foods Inc., and will stage its commercial debut at IFT FIRST in Chicago on July 13–16, already sampling with American food and nutrition customers. Standing Ovation — fresh off today's $34M raise — is targeting an FDA "no-questions" GRAS letter by year's end and a North American launch in the same window. Casein is the harder, more patent-rich cousin of the whey proteins most of the category chased first; whoever lands in US formulations earliest sets the commercial and regulatory template that the other, and everyone behind them, will be measured against. &nbsp;<a href="https://www.proteinproductiontechnology.com/post/precision-fermentation-grows-up-six-predictions-shaping-food-tech-in-2026" target="_blank">Protein Production Technology</a> <span class="badge-amber">7/10</span> &nbsp;·&nbsp; <a href="https://agfundernews.com/standing-ovation-nets-34m-gears-up-for-us-launch-of-casein-via-precision-fermentation" target="_blank">AgFunderNews</a> <span class="badge-green">9/10</span>
+    </div>
+
+    <div class="intel-item">
+      <strong>Paris Nature-Positive Finance Workshop — 48 Hours Out, and Calm/Storm Still Has No Seat in the Room &nbsp;<span class="label">Nature / Finance — Action Critical</span></strong>
+      The Biodiversa+ / Banque de France workshop convenes Wednesday, June 10, in Paris, recognised as an official EU Green Week 2026 partner event and bringing together central bankers, the European Commission, IPBES assessment authors, financial institutions and researchers to align the scientific methodologies likely to underpin the EU's prospective nature-credit market. Edition 4 surfaced this gathering; Edition 5 gave the task — identify a delegate or secure a same-day debrief — a 72-hour expiry. That clock now reads under 48 hours, and the seat is still empty. This is the last edition in which "carried" will be an honest word for it. &nbsp;<a href="https://www.biodiversa.eu/2026/05/05/workshop-toward-nature-positive-finance-scientific-foundations-for-action/" target="_blank">Biodiversa+ Official</a> <span class="badge-green">10/10</span> &nbsp;·&nbsp; <a href="https://www.banque-france.fr/en/events/1st-dual-venue-transatlantic-workshop-energy-and-nature-finance" target="_blank">Banque de France</a> <span class="badge-green">9/10</span>
+    </div>
+
+    <div class="intel-item">
+      <strong>The EU's Nature-Credit Architects Have Their Mandate — "Mid-2026" Just Became a Hard Date &nbsp;<span class="label">Nature / Policy</span></strong>
+      The European Commission has formally instructed its nature-credits expert group — convened under COM(2025)374's Roadmap towards Nature Credits — to deliver, by mid-2026, technical criteria and a methodological framework for the bloc's prospective biodiversity-credit market, explicitly building on existing carbon-farming and MRV standards rather than inventing new ones from scratch. The group brings together governments, scientists, Indigenous communities, farmers, businesses and financial institutions, and the Commission is separately moving to adopt the first carbon-farming methodologies under the Carbon Removals and Carbon Farming Regulation this year, each carrying mandatory biodiversity co-benefits. The Edition 2 task — find the Swiss or Austrian voice inside that expert group — now has a real deadline behind it: whoever is in that room over the coming weeks is writing the rules Calm/Storm's nature-positive thesis will eventually be measured against. &nbsp;<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=COM:2025:374:FIN" target="_blank">EUR-Lex — COM(2025)374</a> <span class="badge-green">9/10</span> &nbsp;·&nbsp; <a href="https://sustainablefutures.linklaters.com/post/102kry8/european-commission-launches-roadmap-towards-nature-credits" target="_blank">Linklaters — Sustainable Futures</a> <span class="badge-amber">7/10</span>
+    </div>
+
+  </div>
+
+  <!-- JULINKA'S ANGLE -->
+  <div class="angle-block">
+    <h2>Julinka's Angle</h2>
+    <div class="angle-sub">Strategic observations for Julinka Naomi Waesche · Food scientist turned venture investor at Calm/Storm</div>
+
+    <div class="angle-item">
+      <div class="angle-num">1</div>
+      <div class="angle-text"><strong>The sourcing thesis is now overdue across two editions — stop waiting to write the clean version and submit the evidence-rich one today.</strong> When Edition 5 marked this "overdue," the map underneath it was Netherlands-plus-one-German-outlier. It is no longer that small. In eleven days, France (Standing Ovation) and the United Kingdom (The Bland Company) have both produced funded companies running the identical "arbitrage on someone else's waste stream" playbook. Reframe the thesis's geography from "Dutch fermentation cluster" to "Europe's industrial byproduct economy" — a structurally larger, more defensible, and frankly more interesting claim — and submit it before the day ends. The lateness has, again, produced better evidence than punctuality would have.</div>
+    </div>
+
+    <div class="angle-item">
+      <div class="angle-num">2</div>
+      <div class="angle-text"><strong>Spend twenty minutes today finding any name for Wednesday's Paris workshop — a junior contact who can send a same-day debrief counts.</strong> This task has now appeared in three editions and the event is 48 hours away. The ask does not have to be grand: a researcher, a Biodiversa+ contact, even someone willing to forward the published session summaries the morning after. The goal is not a seat in the room. It is not arriving at the next nature-credits conversation having to say "I read about it."</div>
+    </div>
+
+    <div class="angle-item">
+      <div class="angle-num">3</div>
+      <div class="angle-text"><strong>Write the "waste-stream thesis" down as a single page before Art Basel — it is the most portable idea this brief has produced in six editions.</strong> Pacifico, Standing Ovation and The Bland Company are not three isolated raises; they are three independent confirmations of the same structural insight, arriving in the same fortnight. That is rare, citable, and — not coincidentally — adjacent to exactly the "interspecies dependencies" language Stefanie Hessler has built Parcours around. A one-page version of this thesis is the single best conversation-opener available for June 16, whether the room is a gallery's VIP preview or a fund's diligence call.</div>
+    </div>
+
+  </div>
+
+  <!-- ON THE RADAR + SIGNAL VS NOISE -->
+  <div class="two-col-bottom">
+
+    <div>
+      <div class="kicker" style="margin-bottom:12px;">On the Radar</div>
+      <div class="radar-item"><span class="radar-date">Jun 9–12</span>Seoul Food &amp; Hotel 2026 — KINTEX, Goyang &nbsp;<span style="color:#B23A3A;font-weight:700;">⚑ opens tomorrow</span></div>
+      <div class="radar-item"><span class="radar-date">Jun 10</span>Nature-Positive Finance Workshop — Paris &nbsp;<span style="color:#B23A3A;font-weight:700;">⚑ 2 days</span></div>
+      <div class="radar-item"><span class="radar-date">Now</span>Calm/Storm nutrition-tech sourcing thesis — <span style="color:#B23A3A;font-weight:700;">OVERDUE — 2nd edition</span></div>
+      <div class="radar-item"><span class="radar-date">Jun 16</span>Art Basel VIP First Choice Preview — Basel &nbsp;<span style="color:#A8761A;font-weight:700;">⚑ 8 days</span></div>
+      <div class="radar-item"><span class="radar-date">Jun 18–21</span>Art Basel main fair + Parcours — Messe Basel / Clarastrasse</div>
+      <div class="radar-item"><span class="radar-date">Jul 13–16</span>IFT FIRST, Chicago — Formo's US casein commercial debut</div>
+      <div class="radar-item"><span class="radar-date">Q2–Q3</span>Fermotein EU Commission authorisation + FDA GRAS letter — both due</div>
+      <div class="radar-item"><span class="radar-date">Oct 19–30</span>COP17 CBD Yerevan — nature-credits forcing function</div>
+    </div>
+
+    <div>
+      <div class="kicker" style="margin-bottom:12px;">Signal vs. Noise</div>
+      <div class="sn-item"><span class="sn-signal">Signal</span>Three "waste-stream arbitrage" raises in eleven days, across three countries and three biologies — a pattern this concentrated is the data point, not any single company.</div>
+      <div class="sn-item"><span class="sn-signal">Signal</span>Standing Ovation and Formo both targeting US casein launches inside the same 2026 window — a category race with a visible finish line is rarer, and more tradeable, than a category trend.</div>
+      <div class="sn-item"><span class="sn-noise">Noise</span>Standing Ovation's $34M headline figure — the structurally interesting number is the feedstock cost delta versus dextrose-fed competitors, which the company has not yet disclosed.</div>
+      <div class="sn-item"><span class="sn-signal">Signal</span>The EU formally mandating its nature-credits expert group on a mid-2026 deadline — this converts a standing open action into a dated, trackable one.</div>
+      <div class="sn-item"><span class="sn-noise">Noise</span>Art Basel's 290-galleries-from-43-countries headline — useful for positioning conversation, but the actionable list is the 21 first-time exhibitors, several from regions Calm/Storm has no existing relationships in.</div>
+    </div>
+
+  </div>
+
+  <!-- DEEP READ CTA -->
+  <div style="background:#F4E8C9;border:1px solid #D5C9A8;border-radius:8px;padding:20px 24px;margin:40px 0 8px;">
+    <div class="kicker" style="margin-bottom:6px;">Deep Read &nbsp;·&nbsp; Food Science × Venture Capital</div>
+    <div style="font-family:'Fraunces',Georgia,serif;font-size:21px;font-weight:700;margin-bottom:8px;line-height:1.3;color:#1F1B16;">The Waste-Stream Thesis — What Three Companies in Three Countries Reveal About Where Fermentation Capital Actually Wants to Go</div>
+    <div style="font-size:14.5px;color:#4A3010;line-height:1.6;">Edition 5's deep read closed by asking which European industries are sitting on byproducts a clever biology company could repurpose. Eleven days later, two separate companies in two separate countries answered — independently, and almost identically. This deep read maps all three onto one framework, and asks what kind of company Calm/Storm should now be hunting for.</div>
+    <button class="deep-read-link" onclick="showDeepRead(1)">Read in-page →</button>
+  </div>
+
+  <!-- META BLOCK -->
+  <div class="meta-block">
+    <strong>New this edition</strong>
+    <span class="pill-tag">Standing Ovation</span>
+    <span class="pill-tag">Acid-whey feedstock</span>
+    <span class="pill-tag">The Bland Company</span>
+    <span class="pill-tag">Ag side-stream proteins</span>
+    <span class="pill-tag">The casein race — Formo vs. Standing Ovation</span>
+    <span class="pill-tag">Waste-stream thesis</span>
+    <span class="pill-tag">EU nature-credits mandate (mid-2026)</span>
+    <span class="pill-tag">Art Basel — 290 galleries / Ruba Katrib</span>
+    <span class="pill-tag">Parcours — 22 projects, 31 galleries</span>
+    <span class="pill-tag">Seoul Food &amp; Hotel opens</span>
+  </div>
+
+  <div class="meta-block" style="margin-top:16px;">
+    <strong>Open Actions — Track Completion</strong>
+    <div class="action-item action-urgent">Submit nutrition-tech sourcing thesis for Calm/Storm — <strong>OVERDUE, 2nd edition</strong> — submit today with broadened "byproduct economy" framing <em>(carried Edition 1)</em></div>
+    <div class="action-item action-urgent">Find any contact for Wednesday's Paris workshop — 48 hrs, even a debrief-only contact counts <em>(carried Edition 3)</em></div>
+    <div class="action-item action-urgent">Request Seoul Food &amp; Hotel exhibitor list (KOTRA Frankfurt) — window closes <strong>tonight</strong> <em>(carried Edition 4)</em></div>
+    <div class="action-item">Write the one-page "waste-stream thesis" memo before Art Basel — June 16 <em>(new)</em></div>
+    <div class="action-item">Message Pacifico Biolabs, Standing Ovation and The Bland Company — sourcing outreach while all three are still early-stage <em>(carried/expanded Edition 5)</em></div>
+    <div class="action-item">Write "The Ozempic Diet Needs Better Protein" (300 words) — before Art Basel June 16 <em>(carried Edition 4)</em></div>
+    <div class="action-item">Prepare 3 Art Basel VIP conversations, incl. Parcours/Hessler angle — June 16 (8 days) <em>(carried Edition 3)</em></div>
+    <div class="action-item">Request Planetary technical documentation / BioBlocks publications <em>(carried Edition 2)</em></div>
+    <div class="action-item">Find Swiss/Austrian representative on EU nature-credits expert group — now on a mid-2026 deadline <em>(carried Edition 2)</em></div>
+    <div class="action-item">Draft "How to read a protein claim" essay <em>(carried Edition 1)</em></div>
+    <div class="action-item">Start European regen-ag / natural-capital watch-list <em>(carried Edition 1)</em></div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+      <span><strong style="color:#1F1B16;letter-spacing:1px;">APPETITE</strong> &nbsp;·&nbsp; Edition 6 &nbsp;·&nbsp; Monday, 8 June 2026</span>
+      <span>A personal briefing for Julinka Naomi Waesche &nbsp;·&nbsp; Venture · Food · Art · Nature</span>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+<!-- ═══ DEEP READ 1 ═══ -->
+<div id="deep-read-1" style="display:none;">
+<div class="gold-top"></div>
+<div class="container">
+
+  <div style="padding-top:28px;margin-bottom:8px;">
+    <button onclick="showMain()" style="background:none;border:none;cursor:pointer;font-family:'DM Sans',Arial,sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#A8761A;font-weight:700;padding:0;">← Back to briefing</button>
+  </div>
+
+  <div class="kicker" style="margin:18px 0 8px;">Deep Read &nbsp;·&nbsp; Food Science × Venture Capital</div>
+  <h1 style="font-family:'Fraunces',Georgia,serif;font-size:34px;line-height:1.2;letter-spacing:-0.5px;margin-bottom:14px;">The Waste-Stream Thesis — What Three Companies in Three Countries Reveal About Where Fermentation Capital Actually Wants to Go</h1>
+  <div class="label" style="margin-bottom:28px;">Edition 6 &nbsp;·&nbsp; 8 June 2026 &nbsp;·&nbsp; Approx. 1,050 words</div>
+  <div class="rule-single"></div>
+
+  <h2 style="font-family:'Fraunces',Georgia,serif;font-size:22px;margin:28px 0 12px;">Three Raises, Read Side by Side</h2>
+  <p>Lay the last eleven days' fermentation-and-protein news end to end and a pattern appears that no single press release could have shown on its own. On May 27, Berlin's Pacifico Biolabs raised €7 million to grow mycelium protein inside the idle fermentation tanks of German breweries that no longer run them at capacity. In February, UK-based The Bland Company quietly closed a £2 million pre-seed to convert the byproducts of rice and pasta production — streams that agricultural processors currently pay to dispose of — into soluble, egg-replacing plant proteins. And this morning, Paris's Standing Ovation announced a $34 million raise built on a single, almost provocative design choice: feed its casein-producing microbes not on bought sugar, but on the acid whey that Europe's cottage-cheese and yogurt makers treat as an expensive disposal problem.</p>
+  <p style="margin-top:14px;">Three companies. Three countries — Germany, the United Kingdom, France. Three entirely different biological mechanisms — biomass fermentation, enzymatic processing, precision (microbial) fermentation. And one identical structural insight, arrived at independently: the cheapest, most defensible input available to a food-biology company is not a novel ingredient bought on the open market. It is whatever an adjacent, often-declining industry is already trying to get rid of.</p>
+
+  <h2 style="font-family:'Fraunces',Georgia,serif;font-size:22px;margin:28px 0 12px;">Edition 5 Asked the Question; June Has Already Started Answering It</h2>
+  <p>This is not a retrospective pattern stitched together for convenience. Edition 5's deep read on Pacifico Biolabs ended by posing a direct, forward-looking question: which other European industries are sitting on idle, food-grade, underutilised assets that a sufficiently clever biology company could rent rather than replace? It named dairies with falling raw-milk intake and distilleries with seasonal-only production cycles as plausible candidates — educated guesses about where the next data point might come from.</p>
+  <p style="margin-top:14px;">The guess about dairies was, it turns out, not speculative enough. Standing Ovation is not merely targeting a dairy's spare capacity — it is consuming a dairy's literal waste output, at the molecular level, as its primary growth medium. And The Bland Company supplies a second confirmation from a completely different direction: agricultural processing, not industrial fermentation infrastructure at all. The question Edition 5 asked rhetorically has been answered, twice, independently, inside a fortnight — which means it was never a rhetorical question. It was a prediction. And it came true faster than the prediction's author expected.</p>
+
+  <h2 style="font-family:'Fraunces',Georgia,serif;font-size:22px;margin:28px 0 12px;">Why "Waste Stream" Is a Better Frame Than "Infrastructure"</h2>
+  <p>Edition 5 organised its thesis around the word "infrastructure" — fixed industrial assets, like fermentation tanks, that a company could rent instead of building. That word was correct for Pacifico, but it is already too narrow for what June has revealed. Acid whey is not infrastructure; it is a liquid byproduct with a negative cost basis. Rice-husk and pasta-water residues are not infrastructure either; they are agricultural waste streams with their own logistics, seasonality and contamination profiles. What unites all three companies is not that they rent physical assets. It is that they have each identified a flow — of tank-time, of liquid byproduct, of agricultural residue — that an adjacent industry currently treats as a cost to be minimised, and have built a business model around treating that same flow as a feedstock to be maximised.</p>
+  <p style="margin-top:14px;">This reframing matters because it is dramatically more expansive. "Idle infrastructure" describes a narrow, identifiable set of physical assets — tanks, factories, pipelines — that a sourcing team could plausibly enumerate. "Waste stream" describes almost anything: liquids, solids, gases, surplus capacity, seasonal gluts, byproducts, off-spec batches, anything that shows up on an income statement as a disposal cost rather than a revenue line. The addressable universe of "companies that could plausibly run this playbook" did not grow by a few names this week. It grew by an order of magnitude — and became, for the first time, genuinely mappable as a category rather than describable only by example.</p>
+
+  <h2 style="font-family:'Fraunces',Georgia,serif;font-size:22px;margin:28px 0 12px;">The Diligence Question That Connects All Three</h2>
+  <p>A pattern this clean should also raise a single, shared concern, because each of these three companies has built its cost advantage on a foundation it does not control: the continued existence, at scale, of someone else's industrial decline. Pacifico's tank-time depends on European breweries continuing to run under capacity — a trend that is currently true, but is also, by definition, a trend that describes an industry contracting toward some eventual floor. Standing Ovation's acid whey depends on Europe continuing to produce cottage cheese and Greek yogurt at volumes that generate disposal-grade surplus; a structural shift in dairy consumption, in either direction, changes the input math. The Bland Company's rice and pasta residues depend on the continuity, geography and processing methods of two specific agricultural supply chains an ocean away from its own operations.</p>
+  <p style="margin-top:14px;">In each case, the moat and the risk are the same fact, viewed from two angles. Building a company on an adjacent industry's waste is brilliant precisely because that waste is, for now, abundant and nearly free. But "for now" is doing real work in that sentence. The diligence question every one of these companies should be asked — and that a generalist investor is unlikely to think to ask — is not "how good is your biology," but "what happens to your unit economics in the scenario where your feedstock industry either recovers, or finishes declining"? Both endpoints remove the arbitrage. Only the company that has planned for both deserves to be called structurally, rather than opportunistically, advantaged.</p>
+
+  <h2 style="font-family:'Fraunces',Georgia,serif;font-size:22px;margin:28px 0 12px;">What This Means for Where Calm/Storm Should Look Next</h2>
+  <p>If the pattern is real — and three independent confirmations inside a fortnight is about as real as patterns get this early — then the operative sourcing question is no longer "which fermentation company has the best organism." It is: which European industries are visibly shrinking, seasonal, or generating costly byproducts at scale, and has anyone yet built a biology company to sit at the end of that industry's drain pipe? Wineries discarding pomace by the tonne each autumn. Sugar-beet processors with seasonal pulp surpluses. Leather tanneries and paper mills with chemically complex waste streams that are expensive, not impossible, to valorise. Bakeries with overnight-idle thermal capacity and stale-product write-offs. Each is a candidate "drain pipe" — and each is now, for the first time, a search heuristic rather than a guess.</p>
+  <p style="margin-top:14px;">That is the shift this edition represents: from "track named milestones in a known cluster," which Edition 4 declared the right discipline three editions ago, to "use the cluster's emerging logic to predict where the next cluster will form." A food scientist who can read an industrial decline curve and ask "what does this industry throw away, and could a microbe eat it" is not doing the same job as a generalist scanning funding databases for the word "fermentation." It is a narrower question, asked of a much larger universe — and that combination, more than any single company on this page, is the actual edge.</p>
+
+  <div class="pullquote" style="margin:36px 0 28px;">
+    <p>"Pacifico asked what a brewery no longer needed. Standing Ovation asked what a dairy pours away each morning. The Bland Company asked what a rice mill leaves on the floor. None of them asked the question a generalist would ask first — 'what is the best biology?' They all asked a better one: 'whose decline can I turn into my supply chain?'"</p>
+  </div>
+
+  <div class="label" style="margin-bottom:8px;">Sources for this Deep Read</div>
+  <p style="font-size:14px;color:#555;line-height:1.7;">
+    <a href="https://agfundernews.com/standing-ovation-nets-34m-gears-up-for-us-launch-of-casein-via-precision-fermentation" target="_blank">AgFunderNews — Standing Ovation Series B and feedstock model</a> <span class="badge-green">9/10</span><br>
+    <a href="https://www.dairyreporter.com/Article/2026/02/27/investment-surges-back-into-precisionfermented-dairy/" target="_blank">DairyReporter — precision-fermented dairy investment context</a> <span class="badge-amber">7/10</span><br>
+    <a href="https://agfundernews.com/the-bland-company-raises-2-7m-to-functionalize-plant-proteins-from-ag-side-streams" target="_blank">AgFunderNews — The Bland Company pre-seed and platform</a> <span class="badge-green">9/10</span><br>
+    <a href="https://www.greenqueen.com.hk/the-bland-company-functional-plant-proteins-egg-replacer-funding/" target="_blank">Green Queen — The Bland Company mechanism detail</a> <span class="badge-green">8/10</span><br>
+    <a href="https://www.eu-startups.com/2026/05/pacifico-biolabs-raises-e7-million-series-a-to-turn-idle-german-breweries-into-alternative-protein-factories/" target="_blank">EU-Startups — Pacifico Biolabs Series A (Edition 5 baseline)</a> <span class="badge-green">9/10</span>
+  </p>
+
+  <div style="margin-top:40px;">
+    <button onclick="showMain()" style="background:none;border:1px solid #A8761A;cursor:pointer;font-family:'DM Sans',Arial,sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#A8761A;font-weight:700;padding:10px 22px;border-radius:100px;">← Return to briefing</button>
+  </div>
+
+  <div class="footer">
+    <span><strong style="color:#1F1B16;">APPETITE</strong> &nbsp;·&nbsp; Edition 6 &nbsp;·&nbsp; Monday, 8 June 2026 &nbsp;·&nbsp; Deep Read</span>
+  </div>
+
+</div>
+</div>
+
+
+<script>
+function showDeepRead(n){
+  document.getElementById('main').style.display='none';
+  document.getElementById('deep-read-'+n).style.display='block';
+  window.scrollTo(0,0);
+}
+function showMain(){
+  var els=document.querySelectorAll('[id^="deep-read-"]');
+  els.forEach(function(el){el.style.display='none';});
+  document.getElementById('main').style.display='block';
+  window.scrollTo(0,0);
+}
+</script>
+
+</body>
+</html>
