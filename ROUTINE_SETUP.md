@@ -38,7 +38,7 @@ PERSISTENCE — read from the clone, commit with plain git (NOT WebFetch, NOT SS
 2. Use briefing_archive.md as memory — continuity, never repeat a covered story.
 3. 5–8 web searches ONLY on the beats in briefing_system_prompt.md (NeuroTech, XR, AR/VR, BCI, spatial computing). No general AI-industry drift.
 4. Write the full self-contained HTML briefing to briefings/<DATE_ISO>.html.
-5. Append today's edition block to briefing_archive.md before the summary table; update the table.
+5. Append today's edition block to briefing_archive.md (immediately after the previous edition block, BEFORE the Thinking Ledger); then UPDATE the living Thinking Ledger (open questions, positions-the-evidence-implies, blind spots) and the summary table, following the ARCHIVE UPDATE FORMAT in briefing_system_prompt.md exactly.
 6. Commit + push both files to main (one commit), message "Frontier Intelligence — <DATE_LONG>".
 7. EMAIL: take email_template.html, replace ONLY the {{TOKENS}} ({{DATE_ISO}},{{DATE_LONG}},{{EDITION}},{{CATEGORIES}},{{LEAD_KICKER}},{{HEADLINE}},{{DECK}},{{BULLET_1..4}} as "<b>Topic</b> — one line",{{DEEP_READ}} or delete that <tr>). Button link MUST be https://lazybreadzero.github.io/DailyBrief/briefings/<DATE_ISO>.html . Send the filled template as the Gmail HTML body to angelo.gunther@gmail.com, subject "Frontier Intelligence — <DATE_LONG>". NEVER paste the full briefing or attach it — preview + button only.
 
