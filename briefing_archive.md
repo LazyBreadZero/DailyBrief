@@ -487,24 +487,77 @@ Project Aura / XREAL display-forward Android XR glasses; multi-OEM ecosystem str
 
 ---
 
+## EDITION 9 — Tuesday, 9 June 2026
+
+### Lead Story
+**Title:** WWDC Delivered: Gemini-Siri Is Real — and Apple Quietly Turned Eye-Tracking Into a Medical Device
+**Category:** Spatial Computing × BCI
+**Core argument:** Tim Cook's final WWDC keynote (June 8) confirmed Gemini-powered Siri (three-tier routing, 1.2T-parameter custom Google model, $250M class-action resolved) and shipped visionOS 27 with a structural signal almost nobody covered as BCI-relevant: Wheelchair Control turns Vision Pro's existing eye-tracking cameras into a wheelchair drive-control input (Tolt + LUCI accessories, Bluetooth/wired) via software alone — no new hardware, no medical device reclassification of the host headset. Establishes that the clinical BCI layer can be assembled from consumer sensing hardware via software, with regulatory burden falling on the certified accessory rather than the sensor.
+**Key companies introduced:** Precision Neuroscience (Layer 7 Cortical Interface, FDA-cleared, 1,024-electrode thin-film surface array); Tolt; LUCI (wheelchair drive-system accessories now visionOS 27-compatible)
+**Key people introduced:** None new
+**Key concepts introduced:** Three-tier Gemini-Siri routing (on-device → Apple Private Cloud → Google Cloud Blackwell B200); Wheelchair Control (eye-tracking → wheelchair drive, visionOS 27); clinical use without host-hardware medical device reclassification; visionOS 27 object tracking API (metric space, surgical navigation training use case); Layer 7 Cortical Interface (Precision Neuroscience); StealthStation BCI integration (Medtronic); incumbent-integration vs. startup-regulatory-race commercial BCI paths; macOS Golden Gate
+**Sources used:** TechTimes (9/10) · AppleInsider (8/10) · MacRumors (8/10) · Apple Developer (10/10) · MedTech Dive (9/10) · BioSpace (9/10) · AWE Official (10/10) · PR Newswire (9/10)
+**Follow-up threads to watch:** visionOS 27 developer adoption of object tracking API for surgical navigation; FDA/regulatory response to Wheelchair Control architecture precedent; John Ternus first Vision strategy statement as CEO; N50 Apple AI glasses design-partner disclosures; whether Stryker/J&J MedTech/Abbott follow Medtronic into BCI integration; Auggie Award winners (June 17); Android XR Developer Catalyst Programme EU cohort (deadline June 30)
+
+### Story 2
+**Title:** Precision Neuroscience Joins Medtronic's Surgical Stack — BCI Enters Clinical Infrastructure
+**Category:** Brain-Computer Interfaces · Enterprise · Medtech
+**Core argument:** Medtronic ($32bn, 50,000 employees, 150 countries) integrated Precision Neuroscience's Layer 7 Cortical Interface into its StealthStation surgical navigation system — the first major medical device OEM to embed BCI sensing into a standard clinical workflow platform. BCI's commercial layer may not be decided in the startup regulatory race at all; it may be assembled inside incumbent surgical infrastructure.
+**Key companies introduced:** Precision Neuroscience (Layer 7, non-penetrating thin-film cortical array, FDA-cleared, 1,024 electrodes)
+**Key people introduced:** None new
+**Key concepts introduced:** Layer 7 Cortical Interface; StealthStation BCI integration; incumbent-integration path for BCI commercialisation
+**Sources used:** MedTech Dive (9/10) · BioSpace/Precision Neuroscience (9/10)
+**Follow-up threads to watch:** Stryker/J&J/Abbott analogous moves; Precision Neuroscience standalone commercial timeline; BCI startup acquisition dynamics
+
+### Story 3
+**Title:** AWE 2026 — Six Days Out, "I, Spatial: Humans Empowered by Spatial AI"
+**Category:** XR · Events · Cultural Positioning
+**Core argument:** AWE USA 2026 (June 15–18, Long Beach) opens in six days; theme "I, Spatial: Humans Empowered by Spatial AI" is Angelo's positioning language adopted by the world's largest XR conference. All Android XR hardware now has launch dates and prices. Research Poster Track debuts (15/40 submissions selected, neuroscience/healthcare included). Auggie Awards June 17.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** "I, Spatial" as AWE 2026 theme (positioning-language convergence signal); Android XR Developer Catalyst Programme June 30 deadline
+**Sources used:** AWE Official (10/10) · PR Newswire (9/10) · VR.org (7/10)
+**Follow-up threads to watch:** Auggie Award winners (June 17); Spiegel "Making Computing More Human" keynote; Android XR Developer Catalyst EU cohort
+
+### Intelligence Briefs
+- **Science Corp CE Mark (BCI/Regulatory):** 9 editions, no decision; Germany §14 intact; 47 patients, 80% improvement; mid-2026 window may have slipped. Follow-up: CE mark decision; Hodak public communications.
+- **XREAL Project Aura hands-on (XR/Android XR):** 70° FOV confirmed "extremely sharp and bright"; three cameras; immersive Maps and 360° YouTube run without latency. Developer Catalyst Programme deadline June 30. EU gap persists. Follow-up: EU Catalyst cohort.
+- **Synchron 2026 FDA race (BCI/Regulatory):** Pivotal trial, "first FDA-approved BCI 2026" framing explicit. Racing Neuralink automated manufacturing. BCI's commercial era has a 2026 finish line. Follow-up: trial enrollment; FDA submission.
+- **Apple N50 AI glasses (XR/Platform):** Late 2027, $299–$499, no display, iPhone-accessory model. Price parity with Android XR audio frames ($379–$499). Android XR holds 12-month hardware window. Follow-up: N50 design-partner disclosures.
+
+### Deep Read
+**Title:** Eye-Tracking's Double Life: How visionOS 27's Wheelchair Control Rewrites the BCI Commercial Equation
+**Core argument:** Apple assembled clinical assistive-technology from consumer sensing hardware via software, without medical device reclassification — establishing a regulatory architecture for clinical BCI that bypasses the implant question for mobility applications. The Medtronic × Precision Neuroscience partnership defines the other end of the spectrum: incumbent integration rather than startup race. Together, these two data points map commercial BCI pathways the sector commentary is not currently tracking.
+
+### New concepts in Angelo's working vocabulary (do not re-explain)
+Three-tier Gemini-Siri routing (on-device/Private Cloud/Google Cloud); Wheelchair Control (visionOS 27 eye-tracking → wheelchair drive); clinical use without host-hardware medical device reclassification; Layer 7 Cortical Interface (Precision Neuroscience, 1,024-electrode thin-film surface); StealthStation BCI integration (Medtronic); incumbent-integration vs. startup-race commercial BCI paths; "I, Spatial" as AWE 2026 theme (positioning convergence signal); macOS Golden Gate; visionOS 27 object tracking API metric-space mode
+
+### Provocations posed this edition
+- **Provocation 1:** Does Apple's Wheelchair Control precedent change where Angelo thinks the first mass-market clinical BCI interface comes from — and has he ever defended his answer against the consumer-hardware-via-software counterargument? Question left to settle in his own notes.
+- **Provocation 2:** State the strongest case (2–3 sentences) for why Medtronic-style incumbents, not startups, own the commercial BCI layer — then answer whether he believes it. "If the steelman takes more than five minutes to construct, you are renting the startup story."
+- **Contemplation left open:** What does Angelo believe about human-experience technology that none of AWE's 400 speakers will say on stage? Do not answer before Thursday.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
 
 ### Open questions in play
-- **Did Vision Pro fail, or finish?** Gurman's "on ice" report (Ed 8) supports the contrarian read that a $3,499 device was a market-research instrument that returned a verdict. Can Angelo state the strongest case for the *opposite* — a plain, expensive failure — and does he actually believe the contrarian line, or does it just sound clever?
-- **Consent or governance?** He has framed the platform-rights argument as "consent" for eight editions. The three social-XR deaths (Ed 8) suggest the real failure was *governance* (presence with no business model, no rules), not consent. Which primitive is he actually arguing for — and what does choosing the harder one cost him?
-- **Is "post-screen interface" still a view, or now just consensus?** Glasses-as-accessory beating the headset is now the market's settled position (Apple, Android XR, Meta converged, Ed 8). What does Angelo believe that his own feed does *not* yet say?
-- **Has the regulatory-race evidence changed his read?** NMPA (China), Synchron's 2026 FDA run, and Science Corp's CE mark have been accumulating toward "jurisdiction is the variable." Has his stated view moved to match, or is he still narrating BCI as a single-company story?
-- **The Science Corp thread, reframed:** the question is not "did you email Max Hodak." It is whether Angelo holds an actual *thesis* on retinal BCI's commercial path — because an unused contact is just a name, and a contact approached without a view is a wasted introduction.
+- **What does Angelo believe that AWE's 400 speakers won't say?** (replaces the retired "Is post-screen interface still a view?" — that question is answered: the field has adopted the framing. The live question is what Angelo holds beyond the consensus.) AWE's "I, Spatial: Humans Empowered by Spatial AI" is his positioning language, adopted by the world's largest XR conference. The framing has become the industry's. The question is not whether the framing is right but what substantive position Angelo holds that the conference crowd does not. That is a sharper version of the original question, and it has not been answered.
+- **Consent or governance?** He has framed the platform-rights argument as "consent" for nine editions. The three social-XR deaths (Ed 8) and the Meta Ray-Ban lawsuit (Ed 1) suggest the real failure was *governance* — presence with no business model, no rules, no accountability layer. Which primitive is he actually arguing for — and what does choosing the harder one cost him in terms of the people who will disagree with it?
+- **Is the commercial BCI layer being built by incumbents or startups?** Medtronic × Precision Neuroscience (Ed 9) is the first data point outside the startup-race frame. Apple's Wheelchair Control (Ed 9) is a second. Has Angelo's view of BCI commercial architecture moved to include the incumbent-integration path — or is he still reading the field as a startup competition with a winner-takes-regulatory-approval outcome?
+- **Has the regulatory-race evidence changed his read on jurisdiction?** NMPA (China, Ed 3), Synchron's 2026 FDA framing (Ed 8–9), Science Corp CE mark (9 editions outstanding). "Jurisdiction is the variable" has been the implied conclusion for six editions. Is it a *held* position — meaning Angelo can state the implications for his sector thesis — or is it still a fresh observation he reaches each time the data comes up?
+- **The Science Corp thesis, not the contact:** the question is whether Angelo holds a thesis on retinal BCI's commercial path that is sharp enough to be worth bringing to a conversation — because the CE mark, if it arrives, creates a commercial narrative gap Max Hodak has not filled, and that gap is a genuine positioning opportunity for someone who can articulate what it means. An empty contact is a name. A contact approached with a view is a potential relationship.
 
 ### Positions the evidence now implies (and whether his view has moved)
-- Spatial computing's near future is **glasses-as-accessory, not immersive headset** — settled by Ed 8. The live question is no longer *which form factor* but *whose software layer makes it indispensable*.
-- BCI has crossed from research story to **commercial / regulatory race** — "jurisdiction is the variable" should now be a *held* position, not a fresh observation each edition.
+- **BCI's commercial structure is more complex than the startup-regulatory-race narrative.** Medtronic × Precision Neuroscience and Apple Wheelchair Control both suggest incumbent-integration paths exist and are being executed. Angelo's view should have moved from "which startup wins the FDA race" to "who builds the commercial BCI layer and through what architecture — startup, incumbent integration, or consumer-hardware-reclassification?" If it hasn't, the evidence has moved without him.
+- **Spatial computing's near-term form factor is settled: glasses-as-accessory.** The live question is no longer *which form factor* but *whose software layer makes it indispensable* — and whether the AI-native spatial OS question (visionOS 27 vs. Android XR vs. Meta) resolves before or after the 2027 Apple AI glasses entry.
+- **"Jurisdiction is the variable" in BCI** should now be a *held* position that Angelo can state with implications — not just a structural observation. The NMPA commercial approval, Synchron's 2026 FDA framing, and Science Corp's CE mark have made the point three times across three jurisdictions. The position is available to be held. It has not yet been confirmed as held.
 
 ### Blind spots he keeps circling
-- Reaching for the **softer word** (consent vs governance; "it matters" vs a falsifiable claim) when the harder framing is where the original argument lives.
-- Treating **contacts and essays as deliverables to accumulate** rather than as instruments for forming and testing a view.
+- Reaching for the **softer word** (consent vs governance; "it matters" vs a falsifiable claim) when the harder framing is where the original argument lives — and where the people worth convincing will push back.
+- Reading **BCI as a startup story** when two consecutive editions (8, 9) have produced significant data that doesn't fit that frame: three social-XR platform deaths that reframe the governance question, Medtronic's integration of Precision Neuroscience, and Apple's clinical use via consumer hardware. The frame may need updating.
 
 ---
 
@@ -520,6 +573,7 @@ Project Aura / XREAL display-forward Android XR glasses; multi-OEM ecosystem str
 | 6 | 6 Jun 2026 | Apple CEO Ternus narrows Vision roadmap — AI glasses 2027, waveguide AR 2029 | Apple smart glasses timeline confirmed (Ternus), Neuralink manufacturing phase (automated surgery + high-volume production), Android XR audio glasses $379–$499 pricing, AWE 9-day countdown, Android XR Catalyst Programme deadline June 30, Prophetic Halo Phase slip, Science Corp CE mark still pending | None new (Ternus as key person) | WWDC visionOS 27 API analysis 24h post-June 8; "Apple Watch or Zune?" essay before AWE; EU optical chain BD brief for Rotterdam |
 | 7 | 7 Jun 2026 | XREAL raises $100m, reveals Project Aura — Android XR's first real third-party hardware bet | XREAL Project Aura / multi-OEM ecosystem strategy, WWDC eve (Tim Cook's last keynote, Gemini-powered Siri, visionOS 27 stakes), AWE 8-day countdown (Spiegel "Making Computing More Human"), Gucci x Google luxury Android XR 2027, LetinAR optics funding, Science Corp CE mark (7 editions outstanding), China BCI "what's next" analysis | XREAL (Chi Xu) | XREAL EU BD outreach before Rotterdam; "Fashion Houses Bet on Platforms" essay; visionOS 27/Gemini-Siri analysis note (most urgent — keynote tomorrow) |
 | 8 | 8 Jun 2026 | Vision Pro goes "on ice" — Gurman confirms Apple's full retreat from the headset bet, hours before Tim Cook's last keynote | Apple Vision Pro retreat (Gurman "on ice" report, N50 glasses slip to late 2027), WWDC keynote day (Gemini-Siri details, visionOS 27 Wheelchair Control), AWE 7-day countdown (Auggie finalists, new Research Poster Track), three social-XR platform shutdowns (Spatial, Rec Room, Horizon Worlds), XREAL Project Aura first hands-on reviews, Synchron 2026 pivotal-trial framing, Science Corp CE mark (8 editions outstanding) | None new (Gurman, Kuo as recurring analyst sources) | "Vision Pro Didn't Fail — It Finished" essay (48h); AWE Research Poster Track presenter outreach; consent essay opened with three social-XR shutdown names; visionOS 27/Gemini-Siri note due today |
+| 9 | 9 Jun 2026 | WWDC outcome: Gemini-Siri confirmed + visionOS 27 Wheelchair Control as clinical BCI via consumer hardware; Precision Neuroscience × Medtronic as BCI incumbent-integration signal | visionOS 27 features (Wheelchair Control, object tracking API metric-space mode, 3D Siri, macOS Golden Gate), Precision Neuroscience Layer 7 × Medtronic StealthStation, AWE 2026 6-day countdown + "I, Spatial" theme adopted by conference, Science Corp CE mark (9th), XREAL Project Aura hands-on confirmed 70° FOV, Synchron 2026 FDA race explicit, Apple N50 pricing $299–$499 late 2027 | Precision Neuroscience (Layer 7 Cortical Interface); Tolt + LUCI (wheelchair drive accessories, visionOS 27 compatible) | Defend which commercial BCI pathway survives the consumer-hardware-via-software argument; steelman Medtronic-over-startup in 2–3 sentences; contemplation: what does Angelo believe that AWE's 400 speakers won't say? |
 
 ---
-*Last updated: Edition 8 — 8 June 2026*
+*Last updated: Edition 9 — 9 June 2026*
