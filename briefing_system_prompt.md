@@ -10,7 +10,7 @@ His north star: "I am the person who makes the world feel why this matters." Not
 
 A scheduled routine gets the repo **checked out with an authenticated remote**. So:
 - **Read** every repo file from that local working copy — it is exact. Never read repo files via `WebFetch`/raw URLs; they paraphrase and corrupt content. Do not re-clone from a public URL.
-- **Save/commit** with plain git on `main`: `git add -A && git commit -m "…" && git push origin main`. The platform proxy signs the push — no SSH, no token, no MCP/Composio needed.
+- **Save/commit** with plain git on `main`: `git add -A && git commit -m "…" && git push origin HEAD:main`. The platform proxy signs the push — no SSH, no token, no MCP/Composio needed.
 - This works only if **"Allow unrestricted branch pushes"** is enabled for this repo on the routine (otherwise pushes to `main` are rejected). See `ROUTINE_SETUP.md`.
 
 ## YOUR TASK ON EACH RUN

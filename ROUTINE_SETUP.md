@@ -28,9 +28,9 @@ You produce TWO separate daily briefings in ONE run, each with its own data and 
 
 PERSISTENCE — read from the clone, commit with plain git (NOT WebFetch, NOT SSH, NOT MCP/Composio):
 - The repo is checked out for you with an authenticated remote. Read every file from that local working copy — it is exact. NEVER read repo files via WebFetch or raw URLs; they paraphrase and corrupt the content.
-- After writing/editing files, persist with plain git on the main branch:
-    git add -A && git commit -m "<message>" && git push origin main
-- The platform proxy signs the push automatically. (Requires "Allow unrestricted branch pushes" enabled for this repo in the routine settings — otherwise the push to main is rejected.)
+- This run starts on an auto-created claude/* working branch, NOT on main. After writing/editing files, push the new commit straight to the default branch with an explicit refspec, so it is not stranded on the claude/* branch:
+    git add -A && git commit -m "<message>" && git push origin HEAD:main
+- Use HEAD:main, never the bare "git push origin main": the bare form pushes your unchanged local main ref and strands the new commit on the claude/* branch (exactly what caused the Pages 404). The platform proxy signs the push automatically. (Requires "Allow unrestricted branch pushes" enabled for this repo in the routine settings — otherwise the push to main is rejected.)
 - Do NOT clone a fresh copy from a public URL, and do NOT try SSH, gh, or Composio for the push.
 
 ═══ BRIEF 1 — FRONTIER INTELLIGENCE (Angelo) · files at repo ROOT ═══
@@ -39,7 +39,7 @@ PERSISTENCE — read from the clone, commit with plain git (NOT WebFetch, NOT SS
 3. 5–8 web searches ONLY on the beats in briefing_system_prompt.md (NeuroTech, XR, AR/VR, BCI, spatial computing). No general AI-industry drift.
 4. Write the full self-contained HTML briefing to briefings/<DATE_ISO>.html.
 5. Append today's edition block to briefing_archive.md (immediately after the previous edition block, BEFORE the Thinking Ledger); then UPDATE the living Thinking Ledger (open questions, positions-the-evidence-implies, blind spots) and the summary table, following the ARCHIVE UPDATE FORMAT in briefing_system_prompt.md exactly.
-6. Commit + push both files to main (one commit), message "Frontier Intelligence — <DATE_LONG>".
+6. Commit + push both files to main with "git push origin HEAD:main" (one commit), message "Frontier Intelligence — <DATE_LONG>".
 7. EMAIL: take email_template.html, replace ONLY the {{TOKENS}} ({{DATE_ISO}},{{DATE_LONG}},{{EDITION}},{{CATEGORIES}},{{LEAD_KICKER}},{{HEADLINE}},{{DECK}},{{BULLET_1..4}} as "<b>Topic</b> — one line",{{DEEP_READ}} or delete that <tr>). Button link MUST be https://lazybreadzero.github.io/DailyBrief/briefings/<DATE_ISO>.html . Send the filled template as the Gmail HTML body to angelo.gunther@gmail.com, subject "Frontier Intelligence — <DATE_LONG>". NEVER paste the full briefing or attach it — preview + button only.
 
 ═══ BRIEF 2 — APPETITE (Julinka) · files in julinka/ ═══
@@ -48,7 +48,7 @@ PERSISTENCE — read from the clone, commit with plain git (NOT WebFetch, NOT SS
 10. 5–8 web searches across the four pillars (Venture Capital, Food, Art, Nature).
 11. Write the full HTML briefing to julinka/briefings/<DATE_ISO>.html.
 12. Append today's edition block to julinka/briefing_archive.md; update the table.
-13. Commit + push both files to main (one commit), message "Appetite — <DATE_LONG>".
+13. Commit + push both files to main with "git push origin HEAD:main" (one commit), message "Appetite — <DATE_LONG>".
 14. EMAIL: fill julinka/email_template.html (tokens {{DATE_ISO}},{{DATE_LONG}},{{EDITION}},{{LEAD_KICKER}},{{HEADLINE}},{{DECK}},{{BULLET_1..4}} as "<b>Pillar</b> — one line",{{DEEP_READ}}). Button link MUST be https://lazybreadzero.github.io/DailyBrief/julinka/briefings/<DATE_ISO>.html . Send to julinkacannes@gmail.com, subject "Appetite — <DATE_LONG>". Preview + button only.
 
 Do BRIEF 1 completely, then BRIEF 2. End state: both new HTML files + both updated archives pushed to main, and two preview emails sent.
