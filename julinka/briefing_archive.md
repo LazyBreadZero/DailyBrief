@@ -335,6 +335,61 @@ Standing Ovation (Romain Chayot, Frédéric Paques, Yvan Chardonnens); acid-whey
 
 ---
 
+## EDITION 7 — Tuesday, 9 June 2026
+
+### Lead Story
+**Title:** Seoul Food & Hotel Opens Today — Korea's AI-Robotics Food Pivot Is the Export Story Nobody Is Calling By Its Right Name
+**Pillar:** Food Science × Venture Capital × Culture
+**Core argument:** Seoul Food & Hotel 2026 (KINTEX, June 9–12, 1,650+ exhibitors, 45 countries) opened today with theme "AI & Robotics: The Era of Food Tech Convergence" — Korea's deliberate second-phase pivot from cultural food export (hallyu) to food-production technology superiority, via the same state-industrial coordination that built Korean semiconductors. The intelligence value for a food-scientist-turned-investor is in the AI-robotics exhibitor track, not the consumer brand pipeline. The KOTRA buyer-matching exhibitor directory (seoulfood.kotra.or.kr) is live today and filterable by product category.
+**Key entities introduced:** MOA Foodtech (Madrid; Susana Sánchez, José María Elorza, Bosco Emparanza; EIC €14.8M) · Vivitein LF (Vivici animal-free lactoferrin, self-affirmed GRAS) · Formo Foods Inc. (US subsidiary, IFT FIRST Chicago July 13)
+**Key concepts introduced:** Seoul Food & Hotel AI-Robotics pivot as state-industrial strategy; KOTRA buyer-matching exhibitor directory (seoulfood.kotra.or.kr, live today); five-country waste-stream fermentation map confirmed (Switzerland, Netherlands, France, UK, Spain via MOA Foodtech); self-affirmed GRAS vs. FDA GRAS notification distinction; Art Basel Premiere sector (works ≤5 years, 17 presentations 2026); Paris nature-credits workshop as pre-expert-group methodology signal; agricultural monitoring layer as food-scientist contribution to nature-finance methodology
+**Sources used:** Seoul Food & Hotel Official (10/10) · Korea Times (9/10) · AP Food Online (9/10) · AgFunderNews (9/10) · EIC Official (10/10) · Green Queen (8/10) · Art Basel Official (10/10) · Artnet (9/10) · Biodiversa+ (10/10) · EU Commission (10/10) · EUR-Lex COM(2025)374 (10/10)
+**Julinka's Angle delivered:** KOTRA exhibitor directory filter (functional food/fermentation/AI food-tech, today); Paris workshop debrief contact (tomorrow evening after June 10 event); one Parcours artist statement before Art Basel VIP June 16
+**Follow-up threads to watch:** Seoul Food 2026 exhibitor shortlist from KOTRA directory; Paris nature-credits workshop synthesis documents (June 10); EU nature-credits expert group technical-criteria publication (mid-2026); Formo vs. Standing Ovation US casein race (IFT FIRST July 13); Art Basel 2026 post-fair sales report (mid-late June); Vivici Vivitein BLG EU novel-food decision
+
+### Story 2
+**Title:** Art Basel — Seven Days to the Discovery Premium, and the Preparation Window Is Closing
+**Pillar:** Art
+**Core argument:** VIP First Choice Preview June 16 (seven days); 193/232 galleries holding under Basel Exclusive; Unlimited expanded to 59 projects curated by Ruba Katrib (MoMA PS1); Parcours 22 works "Conviviality" by Stefanie Hessler — ecological/interspecies vocabulary near-identical to nature-finance discourse. Premiere expands 10 → 17 presentations (works ≤5 years).
+**Key entities introduced:** None new (Ruba Katrib, Stefanie Hessler introduced in earlier editions)
+**Key concepts introduced:** Art Basel Premiere sector (17 presentations, works ≤5 years, fastest-growing sector 2026); Parcours "Conviviality" as nature-finance vocabulary bridge
+**Sources used:** Art Basel Official (10/10) · Artnet (9/10) · ARTnews (9/10)
+**Follow-up threads to watch:** Art Basel post-fair sales report; Basel Exclusive VIP opening transactions; Parcours ecological works reception
+
+### Story 3
+**Title:** Tomorrow's Paris Workshop Will Set the EU Nature-Credits Methodology Frame
+**Pillar:** Nature × Finance
+**Core argument:** Biodiversa+/Banque de France workshop June 10 (tomorrow) — EU Green Week partner event; central banks, EU Commission, IPBES authors converging on nature-credit methodologies before mid-2026 COM(2025)374 expert group technical-criteria deliverable. Food scientist's contribution: what field-level verification does a credible nature credit require at the farm level — a question nobody in the room is positioned to answer as precisely.
+**Key entities introduced:** None new
+**Key concepts introduced:** Paris workshop as pre-expert-group methodology signal; agricultural monitoring as food-scientist contribution to nature-finance methodology
+**Sources used:** Biodiversa+ (10/10) · EU Commission (10/10) · EUR-Lex COM(2025)374 (10/10)
+**Follow-up threads to watch:** Workshop synthesis documents; expert group technical-criteria publication mid-2026; COP17 CBD Yerevan October 19–30
+
+### Intelligence Briefs
+- **MOA Foodtech EIC €14.8M (Venture/Food/Spain):** Fifth-country confirmation of waste-stream fermentation thesis (Spain). AI tool Albatross reduces fermentation development 6mo → 2wks. Susana Sánchez, José María Elorza, Bosco Emparanza. Sources: AgFunderNews (9/10), EIC (10/10). Follow-up: commercial launch; which European industry byproducts targeted.
+- **Formo vs. Standing Ovation US casein race (Food/Venture):** Formo Foods Inc. (US sub) debuts IFT FIRST Chicago July 13. Standing Ovation targets FDA GRAS end-2026 via Ajinomoto. First to commercial listing sets the regulatory template. Sources: AgFunderNews (9/10). Follow-up: IFT FIRST debut; GRAS letter.
+- **Vivici Vivitein LF self-affirmed GRAS (Food/Regulatory/Netherlands):** Animal-free lactoferrin (>$250/kg market price), self-affirmed GRAS. Vivitein BLG EU novel-food in progress. Dutch cluster now has multiple ingredients in simultaneous EU/US regulatory pathways. Sources: Green Queen (8/10). Follow-up: FDA GRAS notification; EU novel-food decision.
+- **Art Basel Premiere expansion 10 → 17 (Art/Market):** Works ≤5 years, fastest-growing sector. Signals 2026 collector appetite for emerging artists with narrative/ecological potential. Sources: Art Basel Official (10/10). Follow-up: post-fair sales.
+
+### New concepts in Julinka's working vocabulary (do not re-explain)
+MOA Foodtech (Susana Sánchez, José María Elorza, Bosco Emparanza); Albatross AI fermentation optimisation tool; EIC accelerator equity commitment structure; five-country waste-stream fermentation map (Switzerland, Netherlands, France, UK, Spain); self-affirmed GRAS vs. FDA GRAS notification distinction; Art Basel Premiere sector (17 presentations, ≤5 years); Parcours "Conviviality" as nature-finance vocabulary overlap; KOTRA seoulfood.kotra.or.kr exhibitor directory; Vivitein LF (Vivici, animal-free lactoferrin); Seoul Food & Hotel AI-Robotics pivot as state-industrial strategy; Formo Foods Inc. (US sub); IFT FIRST Chicago (July 13–16) as casein-race signal event
+
+### Julinka's Angles Issued — Track Completion
+- [ ] Use KOTRA exhibitor directory (seoulfood.kotra.or.kr) today — filter for functional food, fermented ingredients, AI food-tech; produce Korean competitive-screen shortlist for Calm/Storm sourcing note *(new — window open today through June 12)*
+- [ ] Find Paris workshop debrief contact; reach out tomorrow evening for synthesis notes *(new — workshop June 10)*
+- [ ] Read one Parcours 2026 artist statement before Art Basel VIP June 16 — prepare one conversation at food-nature-capital intersection *(new — 7 days)*
+- [ ] Submit nutrition-tech sourcing thesis for Calm/Storm *(carried from Edition 1 — overdue multiple editions)*
+- [ ] Write a one-page "waste-stream thesis" memo before Art Basel June 16 *(carried from Edition 6)*
+- [ ] Write "The Ozempic Diet Needs Better Protein" (300 words) — before Art Basel June 16 *(carried from Edition 4)*
+- [ ] Prepare 3 Art Basel VIP conversations, incl. Parcours/Hessler angle *(carried from Edition 3)*
+- [ ] Message Pacifico Biolabs, Standing Ovation, The Bland Company — sourcing outreach *(carried from Editions 5–6)*
+- [ ] Request Planetary technical documentation / BioBlocks publications *(carried from Edition 2)*
+- [ ] Find Swiss/Austrian representative on EU nature-credits expert group — mid-2026 deadline *(carried from Edition 2)*
+- [ ] Draft "How to read a protein claim" essay *(carried from Edition 1)*
+- [ ] Start European regen-ag / natural-capital watch-list *(carried from Edition 1)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -345,6 +400,7 @@ Standing Ovation (Romain Chayot, Frédéric Paques, Yvan Chardonnens); acid-whey
 | 4 | 6 Jun 2026 | The Protein Brewery €30M Series B — Novo Holdings / GLP-1 protein demand signal | Protein Brewery B2B ingredient model vs. Planetary BioBlocks licensing (deep read), Seoul Food & Hotel June 9–12 (K-food export machine), Art Basel 10-day countdown (Basel Exclusive, six market trends), AuX Labs precision fermentation cheese, Paris nature-positive finance workshop June 10, EU Agri Food Biotech Scaling Up 2026 grant, K-Food Fair Frankfurt | The Protein Brewery, Fermotein, Novo Holdings (food), AuX Labs, Seoul Food & Hotel 2026, Nongshim Europe | "Ozempic protein" investment note before Art Basel; Seoul Food exhibitor list; Art Basel VIP 3 conversations |
 | 5 | 7 Jun 2026 | Pacifico Biolabs €7M Series A — a third fermentation architecture (repurposed brewery-tank infrastructure arbitrage) | Pacifico Biolabs lead + "third architecture" deep read, Seoul Food & Hotel 48-hr countdown, Art Basel 9-day countdown + Parcours "Conviviality" (Hessler), Fermotein EFSA milestone + EU/FDA regulatory clock, 5 Dutch fermentation companies mapped (action closed), Paris nature-positive finance workshop confirmed | Pacifico Biolabs, Zac Austin, Washington Logroño, Stefanie Hessler, NIZO, Vivici, Royal Cosun (food) | Submit overdue sourcing thesis; message Pacifico Biolabs directly; Seoul Food exhibitor list (urgent); Art Basel VIP 3 conversations incl. Parcours |
 | 6 | 8 Jun 2026 | Standing Ovation $34M raise — acid-whey-fed casein fermentation; "waste-stream arbitrage" reframes the thesis (France enters the map) | Standing Ovation lead + "waste-stream thesis" deep read, The Bland Company (UK ag-side-stream proteins — 2nd confirmation), the Formo-vs-Standing Ovation US casein race, Seoul Food & Hotel opens tomorrow (exhibitor window closes tonight), Art Basel 8-day countdown (290 galleries, Katrib-curated Unlimited, Parcours scale confirmed), Paris workshop 48-hr critical, EU nature-credits expert group mid-2026 mandate | Standing Ovation, Romain Chayot, Frédéric Paques, Yvan Chardonnens, The Bland Company, Yash Khandelwal, Micol Hafez, Ruba Katrib | Submit overdue sourcing thesis (2nd edition, reframed); find Paris workshop contact (48 hrs, critical); Seoul Food exhibitor list (closes tonight); write waste-stream thesis memo; expanded outreach to 3 companies |
+| 7 | 9 Jun 2026 | Seoul Food & Hotel opens today — Korea's AI-Robotics food pivot as state-industrial strategy (second-phase beyond hallyu) | Seoul Food & Hotel 2026 lead (AI-Robotics theme, KOTRA directory live, 1,650+ exhibitors), Art Basel 7-day countdown (Parcours "Conviviality"/Hessler, Unlimited/Katrib, Premiere 10→17), Paris nature-credits workshop June 10 (Biodiversa+/Banque de France, EU Green Week partner), MOA Foodtech EIC €14.8M (Spain — 5th country waste-stream confirmation), Formo vs. Standing Ovation US casein race (IFT FIRST July 13), Vivici Vivitein LF self-affirmed GRAS, Art Basel Premiere expansion | MOA Foodtech (Sánchez, Elorza, Emparanza); Formo Foods Inc. (US sub); Vivitein LF (Vivici, lactoferrin, self-affirmed GRAS) | KOTRA exhibitor directory today (functional food/fermentation/AI food-tech screen); Paris workshop debrief contact tomorrow evening; one Parcours artist statement before Art Basel VIP June 16 |
 
 ---
-*Last updated: Edition 6 — 8 June 2026*
+*Last updated: Edition 7 — 9 June 2026*
