@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Frontier Intelligence — Wednesday, 10 June 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; padding:0; background:#E6E2D6; font-family:'Source Serif 4',Georgia,serif; }
+  #deep-read-1 { display:none; }
+  body.dr-mode-1 #main-brief { display:none; }
+  body.dr-mode-1 #deep-read-1 { display:block; }
+  @media (max-width:640px) {
+    .two-col { display:block !important; }
+    .two-col > div { width:100% !important; padding-right:0 !important; border-right:none !important; border-bottom:1px solid #ddd6c6; padding-bottom:20px; margin-bottom:20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════ DEEP READ 1 ═══════════════════════════════════ -->
+<div id="deep-read-1">
+<div style="max-width:740px;margin:0 auto;padding:0 16px 60px;background:#FAF8F2;">
+  <div style="background:#FAF8F2;padding:24px 0 16px;position:sticky;top:0;z-index:10;border-bottom:1px solid #e8e4dc;">
+    <button onclick="document.body.classList.remove('dr-mode-1');window.scrollTo(0,0);" style="background:none;border:1px solid #8B1A1A;color:#8B1A1A;font-family:Arial,sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:7px 16px;cursor:pointer;">← Back to Briefing</button>
+  </div>
+  <div style="padding-top:32px;">
+    <div style="font-family:Arial,sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;margin-bottom:8px;">DEEP READ · EDITION 10 · BRAIN-COMPUTER INTERFACES</div>
+    <h1 style="font-family:'Playfair Display',Georgia,serif;font-size:38px;font-weight:900;color:#1a1a1a;line-height:1.12;margin:0 0 16px;">The Neural Manifold Problem: Why BCI's Real Bottleneck Was Never the Electrode</h1>
+    <div style="font-family:Arial,sans-serif;font-size:11px;color:#999;letter-spacing:0.5px;border-bottom:1px solid #ddd6c6;padding-bottom:14px;margin-bottom:28px;">Wednesday, 10 June 2026 · ~1,100 words · Sources graded below</div>
+
+    <div style="font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.8;color:#1a1a1a;">
+
+    <p>For ten editions, the BCI story has been told as a hardware story. Neuralink's automated dura-penetrating threads versus Synchron's blood-vessel-delivered Stentrode versus Precision Neuroscience's non-penetrating Layer 7 surface array versus Merge Labs' ultrasound-and-molecular approach with no implant at all. The axis of debate has always been invasiveness: how close can you get the sensor to the neuron, and at what surgical cost? On June 9, a Yale team publishing in <em>Nature Neuroscience</em> quietly reframed the entire question. Their finding had nothing to do with electrodes, dura, or ultrasound. It was about the algorithm that translates brain activity into action — and it suggests that algorithm, not the sensor, has been the rate-limiting step all along.</p>
+
+    <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:26px;font-weight:700;color:#1a1a1a;margin:36px 0 16px;">The Problem Nobody Was Pricing In</h2>
+
+    <p>Non-invasive fMRI-based brain-computer interfaces have existed for years, used in neurofeedback research and early consumer-adjacent applications. They have a notorious failure rate: prior approaches required up to ten training sessions per person, and even after all ten, roughly a third of users never achieved meaningful control — a phenomenon researchers call "BCI illiteracy." This is not a minor footnote. It is a third of the addressable population, on the most accessible (non-surgical) hardware modality, simply unable to use the interface no matter how much they practice. Every commercial roadmap in this sector — Neuralink's manufacturing ramp, Synchron's pivotal trial, Science Corp's CE mark filing — has implicitly assumed this problem belongs to a different, less invasive category of device, and that better electrodes solve it. The Yale finding says otherwise.</p>
+
+    <p>The team's innovation was to stop forcing users to learn a decoder built around a generic, population-averaged mapping of brain signals to actions, and instead build the BCI's mapping around the geometry of each individual's own neural activity patterns — what they call the brain's "neural manifold." When the BCI's control scheme was aligned with a person's natural neural geometry, participants learned to operate a video-game avatar with dramatically less training, and the brain itself reorganised to support the new control scheme rapidly rather than over weeks. The headline result: the BCI worked <em>with</em> the brain's existing structure rather than demanding the brain rewire itself to match an arbitrary decoder.</p>
+
+    <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:26px;font-weight:700;color:#1a1a1a;margin:36px 0 16px;">Step Back: Two Axes, Not One</h2>
+
+    <p>The BCI sector has organised itself along a single axis — invasiveness — because invasiveness is what regulators, surgeons, and headline writers can grasp. CE marks and FDA pathways are built around device classification, which is fundamentally a hardware question: what goes in or on the body, and how. But the Yale result implies a second, orthogonal axis: how well the decoding algorithm matches the structure of an individual brain's activity. This axis cuts across hardware modality entirely. A penetrating Neuralink thread, a surface-sitting Precision Neuroscience array, an ultrasound-based Merge Labs system, and a scalp-based EEG headset all face the same algorithmic question — does the software model the geometry of this person's brain, or does it ask this person's brain to conform to the software's assumptions?</p>
+
+    <p>This is precisely the territory Merge Labs staked out when it emerged from stealth in January 2026 (Edition 4): Sam Altman and OpenAI's $252m bet was explicitly that the AI layer interpreting neural signals — not the implant — is where BCI's commercial value concentrates. At the time, that was a commercial thesis from an interested party, easy to read as positioning. The Yale paper is the first major <em>independent, peer-reviewed, non-commercial</em> validation of the same structural claim, arriving from a university lab with no hardware product and no funding round to justify. When a $252m startup and a Yale neuroscience lab converge on the same structural insight from completely different incentive structures, the insight gets harder to dismiss as marketing.</p>
+
+    <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:26px;font-weight:700;color:#1a1a1a;margin:36px 0 16px;">What This Does to the Regulatory-Race Frame</h2>
+
+    <p>Editions 3, 8, and 9 have built toward "jurisdiction is the variable" — the idea that China's NMPA approval, Synchron's 2026 FDA framing, and Science Corp's CE mark application are racing toward the same finish line in different jurisdictions, and that whichever jurisdiction moves first defines the commercial template. That frame assumes the thing being raced is a hardware approval. If the algorithmic layer is a separable, hardware-agnostic component — something that can be developed, validated, and potentially even regulated independently of any specific implant or sensor — then the regulatory race may only ever resolve half the question. A jurisdiction could approve Neuralink's hardware in 2026 while the decoding software that actually determines whether a third of patients can use the device remains an open, unresolved, non-jurisdictional problem running on a completely different timeline — academic publication and replication, not regulatory approval.</p>
+
+    <p>There is a useful analogy to smartphone history here, though it should be used carefully. Early smartphone hardware (cameras, processors, screens) improved on a predictable annual cycle, but the software layer — iOS, then Android, then the app ecosystems built on top — is what actually determined which devices people could use well and which companies captured the value. The hardware race and the software race were related but not the same race, ran on different timelines, and were won by different kinds of companies. BCI may be entering an equivalent bifurcation: a hardware/regulatory race (Neuralink, Synchron, Science Corp, Precision Neuroscience, jurisdiction-by-jurisdiction) and a software/algorithmic race (Merge Labs, academic labs like Yale's, and — per Edition 9 — potentially Apple, if visionOS's eye-tracking-to-mobility pipeline is read as evidence that consumer software companies can build adequate decoding pipelines around existing sensors).</p>
+
+    <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:26px;font-weight:700;color:#1a1a1a;margin:36px 0 16px;">What Remains Unresolved</h2>
+
+    <p>The Yale result is a single study, in a controlled lab setting, using fMRI — a technology that is accurate but requires a room-sized magnet and is nowhere near portable or consumer-deployable. It does not, by itself, prove that neural-manifold alignment transfers to portable EEG headsets, to implanted electrode arrays, or to ultrasound-based sensing. The hardware-versus-software bifurcation this piece describes is a structural possibility raised by convergent signals (Merge Labs' thesis, Yale's finding, Apple's Wheelchair Control precedent from Edition 9) — not yet a settled fact about how the BCI sector will be organised. Whether it becomes settled is itself one of the more consequential open questions in the sector, and one the regulatory-race commentary has not yet asked.</p>
+
+    </div>
+
+    <div style="margin-top:40px;border-top:1px solid #ddd6c6;padding-top:18px;font-family:Arial,sans-serif;font-size:11px;color:#999;line-height:1.7;">
+      Sources: <a href="https://news.yale.edu/2026/06/09/brain-computer-interface-works-not-against-brain" target="_blank" style="color:#8B1A1A;">Yale News (9/10)</a> · <a href="https://medicalxpress.com/news/2026-06-brain-interface.html" target="_blank" style="color:#8B1A1A;">Medical Xpress (8/10)</a> · <em>Nature Neuroscience</em> (10/10, peer-reviewed, June 2026)
+    </div>
+    <div style="margin-top:24px;text-align:center;">
+      <button onclick="document.body.classList.remove('dr-mode-1');window.scrollTo(0,0);" style="background:#8B1A1A;border:none;color:#FAF8F2;font-family:Arial,sans-serif;font-size:13px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;padding:12px 28px;cursor:pointer;">← Return to Briefing</button>
+    </div>
+  </div>
+</div>
+</div><!-- /deep-read-1 -->
+
+<!-- ═══════════════════════════════════ MAIN BRIEF ═══════════════════════════════════ -->
+<div id="main-brief">
+<div style="max-width:800px;margin:0 auto;padding:36px 16px 60px;background:#FAF8F2;">
+
+  <!-- NAMEPLATE -->
+  <div style="text-align:center;padding-bottom:12px;">
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;color:#8B1A1A;margin-bottom:6px;">PERSONAL INTELLIGENCE BRIEFING</div>
+    <h1 style="font-family:'Playfair Display',Georgia,serif;font-size:60px;font-weight:900;color:#1a1a1a;margin:0;letter-spacing:-1.5px;line-height:1;">Frontier Intelligence</h1>
+    <div style="font-family:'Source Serif 4',Georgia,serif;font-style:italic;font-size:14px;color:#888;margin-top:7px;">The frontier of human-experience technology — translated for Angelo Gunther</div>
+  </div>
+
+  <!-- DATELINE BAR -->
+  <div style="background:#1a1a1a;padding:9px 20px;margin:12px 0 28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;">
+    <span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#c8a882;font-weight:bold;">Edition 10 · Wednesday, 10 June 2026</span>
+    <span style="font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#888;">NeuroTech · XR · BCI · Spatial Computing</span>
+  </div>
+
+  <!-- LEAD STORY -->
+  <div style="margin-bottom:36px;">
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;font-weight:bold;margin-bottom:8px;">TODAY'S LEAD · BRAIN-COMPUTER INTERFACES</div>
+    <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:38px;font-weight:900;color:#1a1a1a;line-height:1.1;margin:0 0 10px;">Yale Cracks "BCI Illiteracy" — and Quietly Hands Merge Labs Its First Independent Validation</h2>
+    <div style="font-family:Arial,sans-serif;font-size:11px;color:#999;margin-bottom:18px;">
+      <a href="https://news.yale.edu/2026/06/09/brain-computer-interface-works-not-against-brain" target="_blank" style="color:#8B1A1A;text-decoration:none;">Yale News <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:bold;letter-spacing:0.5px;">9/10</span></a> &nbsp;
+      <a href="https://medicalxpress.com/news/2026-06-brain-interface.html" target="_blank" style="color:#8B1A1A;text-decoration:none;">Medical Xpress <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:bold;letter-spacing:0.5px;">8/10</span></a> &nbsp;
+      <span style="color:#999;">Nature Neuroscience <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:bold;letter-spacing:0.5px;">10/10</span></span>
+    </div>
+
+    <p style="font-family:'Source Serif 4',Georgia,serif;font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;"><strong>A Yale team publishing in Nature Neuroscience yesterday solved a problem that has quietly undermined every non-invasive brain-computer interface built to date: roughly a third of users could never learn to control one, no matter how much they practised, and the two-thirds who could needed up to ten training sessions to get there.</strong> The fix did not involve new sensors. It involved building each BCI's control scheme around the individual geometry of a person's own neural activity — their "neural manifold" — instead of forcing their brain to learn a generic, population-averaged decoder. Aligned this way, participants learned to control a video-game avatar with minimal training, and their brains reorganised to support the new control scheme almost immediately rather than over weeks.</p>
+
+    <p style="font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.75;color:#333;margin:0 0 18px;">The result is a real-time fMRI study — accurate, but tethered to a room-sized magnet, nowhere near a deployable consumer or clinical product. Its significance is not the device. It is the structural claim: the bottleneck in whether a BCI works for a given person was never primarily about the sensor. It was about whether the decoding algorithm matches that person's brain. That claim is hardware-agnostic. It applies as much to Neuralink's penetrating threads and Synchron's Stentrode as it does to a scalp EEG headset or an ultrasound array.</p>
+
+    <p style="font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.75;color:#333;margin:0 0 18px;"><strong>Step back:</strong> The entire BCI commentary — including ten editions of this briefing — has organised itself around a single axis: invasiveness. Penetrating versus surface versus non-invasive; CE marks and FDA pathways built around device classification, which is a hardware question. The Yale result implies a second axis, orthogonal to the first: does the decoding software model the structure of an individual brain, or does it demand the brain conform to the software? Every hardware modality in the sector faces this question identically. A jurisdiction can approve a BCI implant without resolving whether the people who receive it can actually use it.</p>
+
+    <p style="font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.75;color:#333;margin:0 0 18px;">As introduced in Edition 4 (4 June 2026), Merge Labs — Sam Altman and OpenAI's $252m bet, structured around the claim that the AI interpretation layer, not the implant, is where BCI's commercial value concentrates — was at the time a commercial thesis from an interested party. The Yale paper is the first major independent, peer-reviewed, non-commercial result pointing at the same structural claim from a university lab with no product to sell and no funding round to justify. A startup and a neuroscience department converging on the same structural insight from opposite incentive structures is a stronger signal than either alone.</p>
+
+    <p style="font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.75;color:#333;margin:0;">For the regulatory-race frame this briefing has built since Edition 3 — China's NMPA, Synchron's 2026 FDA push, Science Corp's CE mark — the implication is uncomfortable: a jurisdiction can clear a hardware approval in 2026 while the decoding-algorithm question, which determines whether a third of patients can actually use the device, runs on an entirely separate, non-jurisdictional, academic-publication timeline. The race that gets covered may not be the race that determines who benefits.</p>
+  </div>
+
+  <!-- PULLQUOTE -->
+  <div style="border-left:5px solid #8B1A1A;padding:18px 28px;margin:0 0 28px;background:#f5f0e8;">
+    <p style="font-family:'Playfair Display',Georgia,serif;font-size:23px;font-style:italic;color:#1a1a1a;line-height:1.4;margin:0 0 10px;">"A third of users, on the most accessible BCI hardware that exists, simply could not use it — not because the sensor was wrong, but because the software asked their brain to be someone else's brain. Yale just showed the fix has nothing to do with the implant. Merge Labs said this in January with $252 million behind it. A university lab just said it with a Nature Neuroscience paper and no product to sell."</p>
+    <div style="font-family:Arial,sans-serif;font-size:10px;color:#8B1A1A;letter-spacing:1.5px;text-transform:uppercase;">Frontier Intelligence · Edition 10 · 10 June 2026</div>
+  </div>
+
+  <!-- DOUBLE RULE -->
+  <div style="height:1px;background:#1a1a1a;margin:0 0 4px;"></div>
+  <div style="height:3px;background:#1a1a1a;margin:0 0 28px;"></div>
+
+  <!-- TWO-COLUMN SECTION -->
+  <div class="two-col" style="display:grid;grid-template-columns:1fr 1fr;gap:0;margin-bottom:36px;">
+
+    <!-- Story 2 -->
+    <div style="padding-right:24px;border-right:1px solid #ddd6c6;">
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;font-weight:bold;margin-bottom:8px;">XR · PRIVACY · GOVERNANCE</div>
+      <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:24px;font-weight:700;color:#1a1a1a;line-height:1.2;margin:0 0 14px;">Meta's Smart-Glasses App Has Shipped Dormant Facial Recognition to 50 Million Phones Since January</h3>
+
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.7;color:#333;margin:0 0 14px;">A security researcher publishing as Buchodi found, in the Android build of Stella — the companion app required to use Meta's Ray-Ban and Oakley smart glasses — a complete but dormant facial recognition pipeline: three on-device AI models that detect a face, generate a biometric "faceprint," and check it against a stored database; a write path that saves unrecognised faces to a folder named NameTagsPending; and a notification channel, "nametags_recognition," that fires "Person recognized: [name]." None of this is exposed to users. Wired confirmed the components have been distributed since roughly January 2026, embedded in an app downloaded more than 50 million times. Researchers describe the system as "one switch away" from going live.</p>
+
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.7;color:#333;margin:0 0 14px;">As introduced in Edition 1 (2 June 2026), the Bartone v. Meta class action alleges Meta misled users about how Ray-Ban glasses footage is processed and reviewed, with an initial case management conference set for this month. That lawsuit is about what Meta told users versus what it did with their data — a consent and disclosure question. The Stella finding is different in kind: it is not about footage being mishandled after capture. It is about a facial-recognition capability already built, already shipped, and already running on tens of millions of devices, with the only thing standing between "dormant" and "live" being a remote configuration flag that Meta — not any user, regulator, or court — controls unilaterally.</p>
+
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.7;color:#333;margin:0;">Watch: whether any regulator treats "dormant capability already on-device" as a triggering event in itself, independent of whether the feature is ever activated — and whether Meta's response frames this as a disclosure failure (consent) or declines to address the deeper question of who gets to decide when a pre-built biometric system switches on (governance).</p>
+
+      <div style="margin-top:14px;font-family:Arial,sans-serif;font-size:10px;color:#999;">
+        <a href="https://www.techtimes.com/articles/317870/20260605/meta-smart-glasses-facial-recognition-code-already-millions-phones-wired-finds.htm" target="_blank" style="color:#8B1A1A;text-decoration:none;">Tech Times / Wired <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">9/10</span></a> &nbsp;
+        <a href="https://cybernews.com/tech/meta-smart-glasses-facial-recognition-buchodi/" target="_blank" style="color:#8B1A1A;text-decoration:none;">Cybernews <span style="background:#FFF3D6;color:#7A4A00;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">7/10</span></a>
+      </div>
+    </div>
+
+    <!-- Story 3 -->
+    <div style="padding-left:24px;">
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;font-weight:bold;margin-bottom:8px;">XR · EVENTS · SPATIAL AI</div>
+      <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:24px;font-weight:700;color:#1a1a1a;line-height:1.2;margin:0 0 14px;">AWE 2026 — Five Days Out: Auggie Judging Closes Today, Winners Announced June 17</h3>
+
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.7;color:#333;margin:0 0 14px;">Augmented World Expo USA 2026 (June 15–18, Long Beach) is five days away. The Auggie Awards — 18 categories, finalists announced May 21 — close their judging window today, June 10, with winners revealed on stage June 17 during the 17th annual ceremony. AWE's 17th edition is being billed by organisers as its largest: 250+ exhibitors, 5,000 attendees, 400 speakers, and more than 300 enterprises and government bodies presenting live XR deployments. Evan Spiegel's "Making Computing More Human" keynote (June 16) and the new Research Poster Track (15 of 40 submissions selected, spanning neuroscience and healthcare) round out the programme.</p>
+
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.7;color:#333;margin:0 0 14px;">As introduced in Edition 9 (9 June 2026), AWE's official 2026 theme — "I, Spatial: Humans Empowered by Spatial AI" — already echoes Angelo's own positioning language. The Auggie finalist list, now closed for judging, is itself a signal: GameSpace's coverage frames the 2026 finalists as evidence that "XR's identity crisis is officially over," with a marked shift toward enterprise deployment and AI-assisted workflows over consumer novelty — consistent with the "demo culture to workflow culture" framing surfacing elsewhere this week (see Brief 4).</p>
+
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.7;color:#333;margin:0;">Five days remain before the conference opens. The judging window closing today is the last point at which this week's news (the Yale BCI result, the Stella finding) could plausibly surface in an Auggie-adjacent panel discussion — after today, AWE's content is effectively locked.</p>
+
+      <div style="margin-top:14px;font-family:Arial,sans-serif;font-size:10px;color:#999;">
+        <a href="https://www.awexr.com/usa-2026/auggie" target="_blank" style="color:#8B1A1A;text-decoration:none;">AWE Official <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">10/10</span></a> &nbsp;
+        <a href="https://gamespace.com/all-articles/news/awe-2026s-auggie-awards-finalists-show-xrs-identity-crisis-is-officially-over/" target="_blank" style="color:#8B1A1A;text-decoration:none;">GameSpace <span style="background:#FFF3D6;color:#7A4A00;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">7/10</span></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- INTELLIGENCE BRIEFS -->
+  <div style="margin-bottom:36px;">
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;font-weight:bold;margin-bottom:22px;">INTELLIGENCE BRIEFS</div>
+
+    <div style="margin-bottom:22px;padding-bottom:22px;border-bottom:1px solid #e8e4dc;">
+      <div style="font-family:Arial,sans-serif;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#8B1A1A;margin-bottom:4px;">BCI · REGULATORY · EUROPE</div>
+      <h4 style="font-family:'Playfair Display',Georgia,serif;font-size:19px;font-weight:700;color:#1a1a1a;margin:0 0 8px;">Science Corp CE Mark — Ten Editions, Still No Decision</h4>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.65;color:#333;margin:0;">As introduced in Edition 1 (2 June 2026), Science Corp filed for a mid-2026 CE mark decision on PRIMA, its retinal implant that has restored "form vision" — reading, face recognition — in 38 patients. Ten editions in, no decision. Germany's §14 early-access pathway remains the fallback first market. Today's lead complicates the "first commercially approved BCI" framing this thread has carried since Edition 1: PRIMA's approval, if and when it arrives, would be a hardware/regulatory milestone — but per today's Yale result, hardware approval and "the device works for most of the people who get it" are no longer guaranteed to be the same milestone. <a href="https://science.xyz/news/prima-ce-mark-application-submitted/" target="_blank" style="color:#8B1A1A;text-decoration:none;">Science Corp <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">10/10</span></a></p>
+    </div>
+
+    <div style="margin-bottom:22px;padding-bottom:22px;border-bottom:1px solid #e8e4dc;">
+      <div style="font-family:Arial,sans-serif;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#8B1A1A;margin-bottom:4px;">XR · APPLE · PLATFORM STRATEGY</div>
+      <h4 style="font-family:'Playfair Display',Georgia,serif;font-size:19px;font-weight:700;color:#1a1a1a;margin:0 0 8px;">Ternus's Vision Cuts, Quantified: Seven Products Down to Two</h4>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.65;color:#333;margin:0;">Ming-Chi Kuo's June 3 supply-chain report, sharpening Edition 8's "Vision Pro on ice" story, puts a number on the retreat: Apple's internal Vision roadmap has been cut from seven planned products to two — display-free AI glasses (2027) and waveguide AR glasses, now pushed to roughly 2029. The cuts were signed off by John Ternus, who becomes CEO September 1. Five products did not survive contact with Ternus's review. The roadmap Apple shared as recently as June 2025 is, per Kuo, "no longer a useful reference." <a href="https://www.macrumors.com/2026/06/03/kuo-vision-pro-successors-nixed/" target="_blank" style="color:#8B1A1A;text-decoration:none;">MacRumors <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">8/10</span></a> &nbsp; <a href="https://macdailynews.com/2026/06/03/incoming-apple-ceo-john-ternus-has-focused-apples-vision-products-roadmap-ming-chi-kuo/" target="_blank" style="color:#8B1A1A;text-decoration:none;">MacDailyNews <span style="background:#FFF3D6;color:#7A4A00;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">7/10</span></a></p>
+    </div>
+
+    <div style="margin-bottom:22px;padding-bottom:22px;border-bottom:1px solid #e8e4dc;">
+      <div style="font-family:Arial,sans-serif;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#8B1A1A;margin-bottom:4px;">XR · ANDROID XR · HARDWARE</div>
+      <h4 style="font-family:'Playfair Display',Georgia,serif;font-size:19px;font-weight:700;color:#1a1a1a;margin:0 0 8px;">Four OEMs, Five Devices, One Fall: Android XR's Launch Window Confirmed</h4>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.65;color:#333;margin:0;">Google's May 19 "Android Show" confirmed, in one event, the simultaneous fall 2026 launch sequencing across Android XR's entire hardware slate: Samsung and XREAL shipping flat-AR display glasses (XREAL's Project Aura, Edition 7), Warby Parker and Gentle Monster shipping non-display AI audio glasses ($379–$499, Edition 6). This is the multi-OEM strategy (Edition 7) made concrete and dated — four consumer brands, one platform, one season. The EU distribution gap (Editions 6–7) persists across all of them. Android XR's 12-month hardware-exclusivity window against Apple's 2027 N50 (Brief 2, Edition 9) starts running this autumn, not in some unspecified future. <a href="https://www.uploadvr.com/google-android-xr-2026-update-samsung-galaxy-xr/" target="_blank" style="color:#8B1A1A;text-decoration:none;">UploadVR <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">8/10</span></a> &nbsp; <a href="https://blog.google/products-and-platforms/platforms/android/android-show-xr-edition-updates/" target="_blank" style="color:#8B1A1A;text-decoration:none;">Google Blog <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">10/10</span></a></p>
+    </div>
+
+    <div>
+      <div style="font-family:Arial,sans-serif;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#8B1A1A;margin-bottom:4px;">XR · ENTERPRISE · MARKET STRUCTURE</div>
+      <h4 style="font-family:'Playfair Display',Georgia,serif;font-size:19px;font-weight:700;color:#1a1a1a;margin:0 0 8px;">"Demo Culture to Workflow Culture": Spatial Computing's Enterprise Pivot Gets a Name</h4>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.65;color:#333;margin:0;">Industry coverage this week is converging on a framing for what Edition 8 described after three consecutive social-XR platform shutdowns: spatial computing has moved "from demo culture to workflow culture," with manufacturing, logistics, urban planning, training, and CAD-heavy teams now the real market — not headset hype. AWE's 300+ enterprise deployments (Story 3) and the Auggie finalists' tilt toward enterprise/AI-assisted tools (also Story 3) are the same shift, converging from two independent directions in the same week. The framing Edition 8 introduced as a contrast to "metaverse is dead" now has industry-wide vocabulary attached to it.</p>
+    </div>
+  </div>
+
+  <!-- ANGELO'S ANGLE -->
+  <div style="background:#1a1a1a;color:#FAF8F2;padding:36px;margin-bottom:36px;">
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#c8a882;margin-bottom:4px;">ANGELO'S ANGLE</div>
+    <div style="font-family:'Playfair Display',Georgia,serif;font-size:13px;font-style:italic;color:#666;margin-bottom:24px;">Mentor's Provocation — two challenges, one contemplation. No task list.</div>
+
+    <!-- Provocation I -->
+    <div style="margin-bottom:30px;">
+      <div style="font-family:Arial,sans-serif;font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:#c8a882;margin-bottom:10px;">PROVOCATION I · ANCHORED TO: YALE'S NEURAL MANIFOLD RESULT</div>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;line-height:1.75;color:#d8d4cc;margin:0 0 14px;">For ten editions, this briefing — and Angelo's reading of the sector — has organised BCI along one axis: invasiveness. Penetrating versus surface versus non-invasive. Regulatory pathways are built around that axis, and so, largely, has Angelo's "jurisdiction is the variable" framing (Editions 3, 8, 9). Yale's result, converging with Merge Labs' thesis from Edition 4, says there is a second axis — the decoding algorithm's fit to an individual brain — that runs orthogonal to invasiveness and isn't regulated by any CE mark or FDA pathway at all.</p>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;line-height:1.75;color:#d8d4cc;margin:0 0 14px;">If that second axis is real, "jurisdiction is the variable" may be true and incomplete — true for whether a device reaches the market, incomplete for whether it works for the people who receive it. Angelo has held "jurisdiction is the variable" as a structural conclusion for three editions running. Has he ever stated, even to himself, what the *second* variable would be if there is one — or has the single-axis frame simply never been questioned because it's the frame the regulatory news naturally produces?</p>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;line-height:1.75;color:#FAF8F2;font-weight:600;margin:0;"><em>The question to settle in your own notes, not here:</em> Is "jurisdiction is the variable" a complete thesis about BCI's commercial future, or a thesis about its regulatory future that you have been treating as the whole picture because it is the part that makes the news?</p>
+    </div>
+
+    <!-- Provocation II -->
+    <div style="margin-bottom:30px;padding-top:24px;border-top:1px solid #2e2e2e;">
+      <div style="font-family:Arial,sans-serif;font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:#c8a882;margin-bottom:10px;">PROVOCATION II · ANCHORED TO: META'S DORMANT FACIAL RECOGNITION (STELLA)</div>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;line-height:1.75;color:#d8d4cc;margin:0 0 14px;">The Thinking Ledger has carried "consent or governance?" as an open question since Edition 9, anchored to the three social-XR shutdowns and the Bartone v. Meta lawsuit. Today's Stella finding is a cleaner test case than either: a complete facial-recognition pipeline — three models, a biometric database, a notification system — already sitting on 50 million phones, never disclosed, never activated, switchable by Meta alone. No footage was mishandled. No user was lied to about a specific event. The system simply <em>exists</em>, fully built, awaiting a remote flag.</p>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;line-height:1.75;color:#d8d4cc;margin:0 0 14px;">State, in 2–3 sentences, the strongest case that this is a <em>consent</em> problem — that the issue is fundamentally about disclosure, terms-of-service, and what users were told they were downloading. Then state, in 2–3 sentences, the strongest case that "consent" cannot even describe this situation — that there was nothing to consent <em>to</em> yet, and the real absence is a governance body with the standing to ask "should this exist on 50 million phones before anyone outside Meta can review it," independent of whether it is ever switched on.</p>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;line-height:1.75;color:#FAF8F2;font-weight:600;margin:0;font-style:italic;">If the second steelman was harder to write than the first, that is the tell. Notice which one you reached for first — and ask why.</p>
+    </div>
+
+    <!-- Sit With This -->
+    <div style="padding-top:24px;border-top:1px solid #2e2e2e;">
+      <div style="font-family:Arial,sans-serif;font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:#c8a882;margin-bottom:10px;">SIT WITH THIS · DO NOT RESOLVE BEFORE FRIDAY</div>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;font-style:italic;line-height:1.75;color:#d8d4cc;margin:0 0 14px;">A university neuroscience lab, with a room-sized fMRI magnet and no neurotech product to sell, may have just produced a more consequential BCI result this month than any of the implant companies Angelo has spent ten editions tracking. Not because the result is more invasive, more funded, or closer to market — it is none of those things — but because it touches the variable (does the device work for the person who has it) that every implant company has been quietly assuming someone else would solve. AWE opens in five days, with 400 speakers, almost none of them from a university neuroscience department.</p>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;font-style:italic;line-height:1.7;color:#666;margin:0;">Don't resolve this now. Let it sit until Friday: if the most important BCI insight of the month came from a place with no commercial stake in BCI at all, what does that say about which rooms the conversations that matter are actually happening in — and whether "the BCI sector," as a category Angelo follows, is drawing its boundary in the right place?</p>
+    </div>
+  </div>
+
+  <!-- EVENTS RADAR + SIGNAL/NOISE -->
+  <div class="two-col" style="display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-bottom:36px;">
+
+    <div>
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;font-weight:bold;border-bottom:2px solid #1a1a1a;padding-bottom:7px;margin-bottom:18px;">EVENTS RADAR</div>
+      <div style="font-family:'Source Serif 4',Georgia,serif;font-size:14px;line-height:1.65;color:#333;">
+        <div style="margin-bottom:14px;">
+          <strong style="color:#1a1a1a;">AWE USA 2026</strong><br/>
+          June 15–18 · Long Beach, CA · <span style="color:#8B1A1A;font-weight:bold;">5 days</span><br/>
+          Auggie judging closes today · Spiegel keynote June 16 · Auggie Awards June 17
+        </div>
+        <div style="margin-bottom:14px;">
+          <strong style="color:#1a1a1a;">Android XR Fall 2026 Launch Window</strong><br/>
+          Samsung + XREAL (display) · Warby Parker + Gentle Monster (audio) · <span style="color:#8B1A1A;font-weight:bold;">~3 months</span><br/>
+          Five devices, four OEMs, one platform — confirmed simultaneous
+        </div>
+        <div style="margin-bottom:14px;">
+          <strong style="color:#1a1a1a;">Android XR Developer Catalyst Programme</strong><br/>
+          Deadline June 30 · <span style="color:#8B1A1A;font-weight:bold;">20 days</span><br/>
+          EU developer participation gap = structural opportunity
+        </div>
+        <div>
+          <strong style="color:#1a1a1a;">Immersive Tech Week Rotterdam</strong><br/>
+          June 23–25 · Rotterdam · <span style="color:#8B1A1A;font-weight:bold;">13 days</span><br/>
+          Android XR EU market thesis venue
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;font-weight:bold;border-bottom:2px solid #1a1a1a;padding-bottom:7px;margin-bottom:18px;">SIGNAL VS. NOISE</div>
+      <div style="font-family:'Source Serif 4',Georgia,serif;font-size:14px;line-height:1.65;color:#333;">
+        <div style="margin-bottom:14px;">
+          <span style="background:#E8F5EC;color:#1A5C2A;font-family:Arial,sans-serif;font-size:9px;font-weight:bold;letter-spacing:1px;padding:2px 7px;border-radius:3px;">SIGNAL</span>
+          <p style="margin:6px 0 0;"><strong>Yale's neural-manifold result</strong> — a hardware-agnostic algorithmic finding, independently validating Merge Labs' AI-layer thesis from a non-commercial source. Watch for replication outside fMRI (EEG, implanted arrays).</p>
+        </div>
+        <div style="margin-bottom:14px;">
+          <span style="background:#E8F5EC;color:#1A5C2A;font-family:Arial,sans-serif;font-size:9px;font-weight:bold;letter-spacing:1px;padding:2px 7px;border-radius:3px;">SIGNAL</span>
+          <p style="margin:6px 0 0;"><strong>Stella's dormant facial-recognition pipeline</strong> — a fully built, undisclosed biometric system on 50M phones is a different category of problem than a lawsuit about footage handling. Watch regulatory response to "dormant capability" as a category.</p>
+        </div>
+        <div style="margin-bottom:14px;">
+          <span style="background:#FFF3D6;color:#7A4A00;font-family:Arial,sans-serif;font-size:9px;font-weight:bold;letter-spacing:1px;padding:2px 7px;border-radius:3px;">NOISE</span>
+          <p style="margin:6px 0 0;"><strong>"Apple's Vision strategy is collapsing"</strong> — the Kuo "seven to two" number is a sharper data point on a story Edition 8 already covered, not a new development. Useful for precision, not for a new thesis.</p>
+        </div>
+        <div>
+          <span style="background:#FFF3D6;color:#7A4A00;font-family:Arial,sans-serif;font-size:9px;font-weight:bold;letter-spacing:1px;padding:2px 7px;border-radius:3px;">NOISE</span>
+          <p style="margin:6px 0 0;"><strong>"AWE 2026 will be the most consequential XR event in history"</strong> — AWE's own promotional framing (PR Newswire, repeated across syndication). True or not is unknowable in advance; treat as marketing until the Auggie winners and Spiegel keynote provide actual content.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DEEP READ ENTRY -->
+  <div style="background:#f5f0e8;border:1px solid #ddd6c6;padding:24px;margin-bottom:36px;text-align:center;">
+    <div style="font-family:Arial,sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;margin-bottom:8px;">DEEP READ · EDITION 10</div>
+    <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:22px;font-weight:700;color:#1a1a1a;margin:0 0 12px;line-height:1.25;">The Neural Manifold Problem: Why BCI's Real Bottleneck Was Never the Electrode</h3>
+    <p style="font-family:'Source Serif 4',Georgia,serif;font-size:14px;color:#555;line-height:1.6;margin:0 0 18px;">A hardware-agnostic algorithmic finding from Yale, an independent validation of Merge Labs' AI-layer thesis, and what it does to the regulatory-race frame. ~1,100 words.</p>
+    <button onclick="document.body.classList.add('dr-mode-1');window.scrollTo(0,0);" style="background:#8B1A1A;border:none;color:#FAF8F2;font-family:Arial,sans-serif;font-size:13px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;padding:13px 30px;cursor:pointer;border-radius:2px;">Read Deep Analysis →</button>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="border-top:1px solid #1a1a1a;border-bottom:3px solid #1a1a1a;padding:10px 0;margin-bottom:20px;"></div>
+  <div style="text-align:center;font-family:Arial,sans-serif;font-size:10px;color:#888;letter-spacing:1px;line-height:1.9;">
+    <strong style="color:#1a1a1a;letter-spacing:2px;">FRONTIER INTELLIGENCE</strong> · Edition 10 · Wednesday, 10 June 2026<br/>
+    Personal intelligence briefing for Angelo Gunther · BCI · XR · Spatial Computing · Immersive Technology<br/>
+    <span style="color:#ddd6c6;">────────────────────────────────</span><br/>
+    <a href="https://lazybreadzero.github.io/DailyBrief/briefings/2026-06-10.html" target="_blank" style="color:#8B1A1A;text-decoration:none;">lazybreadzero.github.io/DailyBrief</a>
+  </div>
+
+</div>
+</div><!-- /main-brief -->
+
+</body>
+</html>
