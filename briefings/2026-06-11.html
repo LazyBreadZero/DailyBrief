@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Frontier Intelligence — Thursday, 11 June 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; padding:0; background:#E6E2D6; font-family:'Source Serif 4',Georgia,serif; }
+  #deep-read-1 { display:none; }
+  body.dr-mode-1 #main-brief { display:none; }
+  body.dr-mode-1 #deep-read-1 { display:block; }
+  @media (max-width:640px) {
+    .two-col { display:block !important; }
+    .two-col > div { width:100% !important; padding-right:0 !important; border-right:none !important; border-bottom:1px solid #ddd6c6; padding-bottom:20px; margin-bottom:20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════ DEEP READ 1 ═══════════════════════════════════ -->
+<div id="deep-read-1">
+<div style="max-width:740px;margin:0 auto;padding:0 16px 60px;background:#FAF8F2;">
+  <div style="background:#FAF8F2;padding:24px 0 16px;position:sticky;top:0;z-index:10;border-bottom:1px solid #e8e4dc;">
+    <button onclick="document.body.classList.remove('dr-mode-1');window.scrollTo(0,0);" style="background:none;border:1px solid #8B1A1A;color:#8B1A1A;font-family:Arial,sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:7px 16px;cursor:pointer;">← Back to Briefing</button>
+  </div>
+  <div style="padding-top:32px;">
+    <div style="font-family:Arial,sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;margin-bottom:8px;">DEEP READ · EDITION 11 · GOVERNANCE / NEUROTECH</div>
+    <h1 style="font-family:'Playfair Display',Georgia,serif;font-size:38px;font-weight:900;color:#1a1a1a;line-height:1.12;margin:0 0 16px;">Ship Dormant, Delete on Exposure: The Playbook Meta Just Wrote for Neurotech</h1>
+    <div style="font-family:Arial,sans-serif;font-size:11px;color:#999;letter-spacing:0.5px;border-bottom:1px solid #ddd6c6;padding-bottom:14px;margin-bottom:28px;">Thursday, 11 June 2026 · ~1,150 words · Sources graded below</div>
+
+    <div style="font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.8;color:#1a1a1a;">
+
+    <p>Strip away the specifics — smart glasses, faces, a notification that says "Person recognized" — and the Stella episode (today's lead) is a sequence with three steps. A company builds a capability beyond what it has disclosed to regulators or users. It ships that capability to tens of millions of devices in a dormant state, switchable later by the company alone, via a remote configuration flag. When an outside researcher finds it and the press reports it, the company deletes the code within days, declines to explain why it was there, declines to say whether it returns, and the matter is treated — by at least one major civil-liberties organisation — as resolved. This sequence is now documented, dated, and public. It is reasonable to ask where else this sequence is already running, quietly, without a Buchodi to find it.</p>
+
+    <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:26px;font-weight:700;color:#1a1a1a;margin:36px 0 16px;">The Architecture, Not the Application</h2>
+
+    <p>What made Stella possible was not a decision about facial recognition specifically. It was an architectural choice made earlier and for unrelated reasons: Meta's smart glasses ecosystem is built so that capability lives primarily in software, pushed over the air to a companion app, decoupled from the hardware approval or disclosure that accompanied the glasses themselves at launch. That architecture is efficient, flexible, and — as of January 2026 — already capable of carrying a complete biometric identification system to 50 million phones without triggering any of the review processes that would apply if the same capability had to be built into the glasses' hardware at the factory.</p>
+
+    <p>This briefing has spent eleven editions describing an almost identical architectural pattern in neurotech, for entirely different reasons and with entirely different intentions. Apple's Wheelchair Control (Edition 9) repurposes Vision Pro's existing eye-tracking cameras for a clinical, assistive-technology function — via a software update, with the regulatory burden falling on the certified wheelchair accessory rather than the headset. Precision Neuroscience's Layer 7 array, now integrated into Medtronic's StealthStation (Edition 9), is a hardware sensor whose function in the surgical workflow is substantially defined by software running on Medtronic's platform. Neuralink's roadmap (Edition 6, and today's Story 3) explicitly anticipates a single implanted device whose surgical and functional scope — which brain regions it can reach, what conditions it can be used to treat — expands through software and robotic capability updates after implantation, not through new hardware.</p>
+
+    <p>None of these companies has done anything resembling Stella. The point is not that they have. The point is that the architecture — capability defined in software, updatable after deployment, disclosure scoped to the capability disclosed at launch rather than the capability the hardware is physically able to support — is the same architecture, applied to organs that read and, increasingly, write neural signals rather than to a camera that reads faces.</p>
+
+    <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:26px;font-weight:700;color:#1a1a1a;margin:36px 0 16px;">What "Delete on Exposure" Actually Resolves</h2>
+
+    <p>Look closely at what Meta's June response did and did not do. It deleted three on-device AI models, a biometric database schema, and a notification channel. It did not say whether the underlying capability — NameTag-style facial identification — is permanently retired from the roadmap or merely paused pending a quieter rollout. It did not disclose what became of any data collected from the system during the months it sat live but unactivated on real devices, including, by the pipeline's own design, a folder of cropped face images and biometric embeddings ("NameTagsPending") for unrecognised faces. EFF asked both questions directly and reported that Meta declined to answer either.</p>
+
+    <p>This is the empirical answer to the question this briefing's Thinking Ledger has carried since Edition 9: when a company is caught running an undisclosed capability, what gets fixed is the part that creates legal exposure — the gap between what users were told and what the app actually contained, which is the substance of a disclosure or consent claim — and not the part that has no obvious claimant: whether a remote-flag-activatable capability of this kind should have existed on 50 million devices in the first place, what happens to data already gathered, and who, besides the company itself, gets to decide if and when it returns. "Consent" won this round not because it is the more complete frame, but because it is the only one with an enforcement mechanism — a lawsuit, a regulator, a class. "Governance" lost not on the merits but because nobody holding the governance question has standing to bring it anywhere.</p>
+
+    <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:26px;font-weight:700;color:#1a1a1a;margin:36px 0 16px;">Why This Should Worry a Neurotech Optimist More Than a Privacy Advocate</h2>
+
+    <p>A facial-recognition flag that gets switched on retroactively is a serious privacy harm — but the data involved (a face, a name) already exists in many other systems, and the harm, while real, is bounded and somewhat familiar to regulators. Now substitute neural data for facial data, and a software-updatable decoding or stimulation parameter for a notification channel. Neuralink's stated 2026 ambition is to expand a single implanted device's surgical and functional reach — Parkinson's, epilepsy, treatment-resistant depression — through updates to a robot and to software, on hardware already inside a patient's skull, approved for a narrower indication. If the Stella playbook is the established template — build broad capability, disclose narrow capability, ship the difference dormant, delete-and-decline if caught — the question for an implanted neural device is not hypothetical. It is: what is the disclosed indication actually bounding, if the hardware's true capability and the software's eventual capability were never the same thing to begin with, and the company controls the gap unilaterally?</p>
+
+    <p>This is not a prediction that any named company in this sector will do what Meta did. It is an observation that the corporate playbook for what happens <em>if</em> they did — or if regulators ever discover that a deployed neural device's true capability exceeds its disclosed one — has just been written, tested, and validated as sufficient by at least one organisation whose job is to object. The precedent did not require anyone in neurotech to do anything. It only required Meta to demonstrate that "delete the code, decline to elaborate" works.</p>
+
+    </div>
+
+    <div style="margin-top:40px;border-top:1px solid #ddd6c6;padding-top:18px;font-family:Arial,sans-serif;font-size:11px;color:#999;line-height:1.7;">
+      Sources: <a href="https://www.eff.org/deeplinks/2026/06/victory-meta-strips-facial-recognition-code-smart-glasses-app-after-public-outcry" target="_blank" style="color:#8B1A1A;">EFF (9/10)</a> · <a href="https://www.engadget.com/2187824/wired-found-code-for-an-unreleased-facial-recognition-feature-in-meta-s-ai-app/" target="_blank" style="color:#8B1A1A;">Engadget / Wired (8/10)</a> · <a href="https://www.techtimes.com/articles/316912/20260520/neuralink-robot-reaches-any-brain-region-parkinsons-epilepsy-depression-now-within-surgical.htm" target="_blank" style="color:#8B1A1A;">Tech Times (8/10)</a>
+    </div>
+    <div style="margin-top:24px;text-align:center;">
+      <button onclick="document.body.classList.remove('dr-mode-1');window.scrollTo(0,0);" style="background:#8B1A1A;border:none;color:#FAF8F2;font-family:Arial,sans-serif;font-size:13px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;padding:12px 28px;cursor:pointer;">← Return to Briefing</button>
+    </div>
+  </div>
+</div>
+</div><!-- /deep-read-1 -->
+
+<!-- ═══════════════════════════════════ MAIN BRIEF ═══════════════════════════════════ -->
+<div id="main-brief">
+<div style="max-width:800px;margin:0 auto;padding:36px 16px 60px;background:#FAF8F2;">
+
+  <!-- NAMEPLATE -->
+  <div style="text-align:center;padding-bottom:12px;">
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;color:#8B1A1A;margin-bottom:6px;">PERSONAL INTELLIGENCE BRIEFING</div>
+    <h1 style="font-family:'Playfair Display',Georgia,serif;font-size:60px;font-weight:900;color:#1a1a1a;margin:0;letter-spacing:-1.5px;line-height:1;">Frontier Intelligence</h1>
+    <div style="font-family:'Source Serif 4',Georgia,serif;font-style:italic;font-size:14px;color:#888;margin-top:7px;">The frontier of human-experience technology — translated for Angelo Gunther</div>
+  </div>
+
+  <!-- DATELINE BAR -->
+  <div style="background:#1a1a1a;padding:9px 20px;margin:12px 0 28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;">
+    <span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#c8a882;font-weight:bold;">Edition 11 · Thursday, 11 June 2026</span>
+    <span style="font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#888;">NeuroTech · XR · BCI · Spatial Computing</span>
+  </div>
+
+  <!-- LEAD STORY -->
+  <div style="margin-bottom:36px;">
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;font-weight:bold;margin-bottom:8px;">TODAY'S LEAD · XR · PRIVACY · GOVERNANCE</div>
+    <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:38px;font-weight:900;color:#1a1a1a;line-height:1.1;margin:0 0 10px;">Meta Deleted the Code in 72 Hours — and Answered the Wrong Question</h2>
+    <div style="font-family:Arial,sans-serif;font-size:11px;color:#999;margin-bottom:18px;">
+      <a href="https://www.eff.org/deeplinks/2026/06/victory-meta-strips-facial-recognition-code-smart-glasses-app-after-public-outcry" target="_blank" style="color:#8B1A1A;text-decoration:none;">EFF <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:bold;letter-spacing:0.5px;">9/10</span></a> &nbsp;
+      <a href="https://www.engadget.com/2187824/wired-found-code-for-an-unreleased-facial-recognition-feature-in-meta-s-ai-app/" target="_blank" style="color:#8B1A1A;text-decoration:none;">Engadget / Wired <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:bold;letter-spacing:0.5px;">8/10</span></a> &nbsp;
+      <a href="https://cybernews.com/tech/meta-smart-glasses-facial-recognition-buchodi/" target="_blank" style="color:#8B1A1A;text-decoration:none;">Cybernews <span style="background:#FFF3D6;color:#7A4A00;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:bold;letter-spacing:0.5px;">7/10</span></a>
+    </div>
+
+    <p style="font-family:'Source Serif 4',Georgia,serif;font-size:18px;line-height:1.75;color:#1a1a1a;margin:0 0 18px;"><strong>By June 8 — within roughly three days of Wired's report and Buchodi's technical analysis (Edition 10) — Meta pushed an update to its Meta AI companion app that quietly removed the entire dormant facial-recognition pipeline from Stella: the three on-device AI models, the biometric database schema, the "NameTagsPending" write path for unrecognised faces, and the "nametags_recognition" notification channel.</strong> The Electronic Frontier Foundation called the removal a "victory." It is worth being precise about what, exactly, was won — because the answer is the cleanest test yet of a question this briefing has carried for ten editions.</p>
+
+    <p style="font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.75;color:#333;margin:0 0 18px;">EFF's own account of the episode is more guarded than "victory" suggests. The organisation reported that Meta's executives, when Wired's story broke, "immediately went on the defensive" on social media rather than offering a substantive account of why the system existed. More importantly, EFF says Meta has "refused to answer Wired's inquiries on whether it plans to bring the NameTag system back in the future," and has not clarified what happened to any face images or biometric embeddings collected by the pipeline during the months it sat live — gathering data, by its own design — but unactivated on tens of millions of real devices. EFF's verdict: "this quiet deletion of code does not equal a permanent change of heart."</p>
+
+    <p style="font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.75;color:#333;margin:0 0 18px;"><strong>Step back:</strong> as introduced in Edition 1 (2 June 2026), the Bartone v. Meta class action concerns what Meta told users about how Ray-Ban footage is processed — a claim about disclosure, about consent. Edition 10's Stella finding was framed as a different category entirely: not a disclosure failure about a specific event, but a fully-built biometric capability sitting on 50 million phones, switchable by Meta alone via a remote flag, with nothing for "consent" to attach to because nothing had happened yet. The Thinking Ledger has carried "consent or governance?" as the open question since Edition 9. This week supplied the answer — not a synthesis of the two, but a demonstration of which one a company moves on when caught.</p>
+
+    <p style="font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.75;color:#333;margin:0 0 18px;">Meta's fix is, precisely, a consent-and-disclosure fix: the undisclosed thing has been removed, so the gap between what users were told and what the app contained has been closed. It is not a governance fix. Nothing was disclosed about the data already gathered. Nothing was committed about whether the capability returns, in what form, with what disclosure, reviewed by whom. No external body — not a regulator, not an auditor, not EFF itself — was given any role beyond reporting on a change Meta made unilaterally and can unmake unilaterally. The disclosure violation had a claimant: a class action, a journalist, a researcher whose finding generated coverage. The governance question — should a remote-flag-activatable biometric system exist on this scale before anyone outside the company can review it — has no claimant, and so it received no answer, only a code deletion that happens to make the question moot for now.</p>
+
+    <p style="font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.75;color:#333;margin:0;">For a sector Angelo is positioning himself inside — where the equivalent of "NameTagsPending" is not a folder of face crops but a stream of neural data, and the equivalent of a notification channel is a stimulation parameter inside someone's skull — this week did not resolve a privacy story about smart glasses. It established, with a real company and a real timeline, what the path of least resistance looks like when an undisclosed capability is found: delete, decline to elaborate, let "victory" be declared by people who do not control the next version.</p>
+  </div>
+
+  <!-- PULLQUOTE -->
+  <div style="border-left:5px solid #8B1A1A;padding:18px 28px;margin:0 0 28px;background:#f5f0e8;">
+    <p style="font-family:'Playfair Display',Georgia,serif;font-size:23px;font-style:italic;color:#1a1a1a;line-height:1.4;margin:0 0 10px;">"Consent won this round not because it is the more complete frame, but because it is the only one with an enforcement mechanism. Governance lost not on the merits, but because nobody holding the question has standing to bring it anywhere. Meta didn't resolve that asymmetry — it just demonstrated it, in public, with a timestamp."</p>
+    <div style="font-family:Arial,sans-serif;font-size:10px;color:#8B1A1A;letter-spacing:1.5px;text-transform:uppercase;">Frontier Intelligence · Edition 11 · 11 June 2026</div>
+  </div>
+
+  <!-- DOUBLE RULE -->
+  <div style="height:1px;background:#1a1a1a;margin:0 0 4px;"></div>
+  <div style="height:3px;background:#1a1a1a;margin:0 0 28px;"></div>
+
+  <!-- TWO-COLUMN SECTION -->
+  <div class="two-col" style="display:grid;grid-template-columns:1fr 1fr;gap:0;margin-bottom:36px;">
+
+    <!-- Story 2 -->
+    <div style="padding-right:24px;border-right:1px solid #ddd6c6;">
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;font-weight:bold;margin-bottom:8px;">XR · PLATFORM STRATEGY · AWE PREVIEW</div>
+      <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:24px;font-weight:700;color:#1a1a1a;line-height:1.2;margin:0 0 14px;">Snap Prices Its AR Glasses at $2,500 — and Concedes the Mass Market to Everyone Else</h3>
+
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.7;color:#333;margin:0 0 14px;">Ahead of Evan Spiegel's June 16 keynote at AWE — "Making Computing More Human," the second consecutive year Snap has opened the conference — reporting from UploadVR and 9to5Google converges on a fall 2026 launch for Snap's consumer AR glasses, "Specs," at roughly $2,500, with an initial production run of around 100,000 units. Spiegel has previously disclosed that Snap has spent $3 billion developing the device. Specs run Snap OS and project digital content binocularly into the user's environment using head tracking, hand tracking, and real-time environment meshing — full waveguide AR with a display, not the audio-only "AI glasses" category.</p>
+
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.7;color:#333;margin:0 0 14px;">As introduced in Edition 6 (6 June 2026), Android XR's audio glasses from Warby Parker and Gentle Monster will ship this autumn at $379–$499 — the price band Apple's display-free N50 (2027) is reportedly targeting too. Snap's $2,500, by contrast, sits closer to early enterprise headsets (HoloLens 2, Magic Leap) than to any consumer wearable. At a 100,000-unit run, Specs is not attempting to out-price Android XR's mass-market push; it is attempting to be the only company shipping a true binocular AR display to consumers — defined loosely — in 2026 at all, while everyone else ships either audio-only glasses or waits for 2029 (Apple's waveguide AR, per Edition 10's "seven to two" roadmap).</p>
+
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.7;color:#333;margin:0;">Watch: whether Spiegel's June 16 keynote frames $2,500 as a deliberate prosumer/developer-ecosystem price (a HoloLens-style seeding strategy) or as a starting price Snap expects to fall — the framing will signal whether Snap sees itself competing in the same market as Android XR's audio glasses on a multi-year glide path, or running a structurally separate category.</p>
+
+      <div style="margin-top:14px;font-family:Arial,sans-serif;font-size:10px;color:#999;">
+        <a href="https://www.uploadvr.com/snap-specs-ar-glasses-reportedly-launch-this-fall-for-2500/" target="_blank" style="color:#8B1A1A;text-decoration:none;">UploadVR <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">8/10</span></a> &nbsp;
+        <a href="https://9to5google.com/2026/05/22/snap-ar-glasses-spectacles-price-release-date-report/" target="_blank" style="color:#8B1A1A;text-decoration:none;">9to5Google <span style="background:#FFF3D6;color:#7A4A00;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">7/10</span></a> &nbsp;
+        <a href="https://newsroom.snap.com/awe-2026-save-the-date" target="_blank" style="color:#8B1A1A;text-decoration:none;">Snap Newsroom <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">10/10</span></a>
+      </div>
+    </div>
+
+    <!-- Story 3 -->
+    <div style="padding-left:24px;">
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;font-weight:bold;margin-bottom:8px;">BRAIN-COMPUTER INTERFACES</div>
+      <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:24px;font-weight:700;color:#1a1a1a;line-height:1.2;margin:0 0 14px;">Neuralink's Robot Can Now Reach "Any Brain Region" — Quietly Redefining What a BCI Is For</h3>
+
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.7;color:#333;margin:0 0 14px;">A May 7 disclosure, only now circulating widely, states that Neuralink's next-generation surgical robot can place electrode threads into virtually any region of the human brain — not only the motor cortex regions targeted by its first 21 implants. Elon Musk has framed this as moving Neuralink's ambitions past motor-function restoration (the Noland, Alex, Brad, RJ, and Mike cases on Neuralink's own site, all spinal cord injury or ALS) and into Parkinson's disease, refractory epilepsy, and treatment-resistant depression — three conditions with combined patient populations an order of magnitude larger than the paralysis cohort this briefing has tracked since Edition 1.</p>
+
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.7;color:#333;margin:0 0 14px;">As introduced in Edition 6 (6 June 2026), Neuralink's "manufacturing phase" combined automated, dura-penetrating surgery with high-volume production — framed at the time as a scaling story: more of the same device, in more patients, faster. The "any brain region" capability changes the shape of that story. It is not more of the same device — it is the same implanted hardware platform becoming, through robotic and software capability rather than new hardware, applicable to an open-ended set of neurological and psychiatric indications that were never part of its original FDA-cleared scope.</p>
+
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.7;color:#333;margin:0;">This is the same architectural shape as today's lead, applied to the sector Angelo actually operates in: a device's true capability (any brain region, multiple indications) and its disclosed/approved capability (motor restoration in a specific patient population) were never identical, and the gap between them is closed by software and surgical-robot updates that Neuralink controls. Watch: which indication Neuralink pursues an FDA pathway for first, and whether "BCI" as a regulatory category can keep pace with a platform whose addressable use cases are now defined by software roadmap rather than implant design.</p>
+
+      <div style="margin-top:14px;font-family:Arial,sans-serif;font-size:10px;color:#999;">
+        <a href="https://www.techtimes.com/articles/316912/20260520/neuralink-robot-reaches-any-brain-region-parkinsons-epilepsy-depression-now-within-surgical.htm" target="_blank" style="color:#8B1A1A;text-decoration:none;">Tech Times <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">8/10</span></a> &nbsp;
+        <a href="https://www.fiercebiotech.com/medtech/elon-musks-neuralink-kickstart-high-volume-production-brain-computer-interface-devices" target="_blank" style="color:#8B1A1A;text-decoration:none;">Fierce Biotech <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">8/10</span></a> &nbsp;
+        <a href="https://neuralink.com/updates/" target="_blank" style="color:#8B1A1A;text-decoration:none;">Neuralink <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">10/10</span></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- INTELLIGENCE BRIEFS -->
+  <div style="margin-bottom:36px;">
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;font-weight:bold;margin-bottom:22px;">INTELLIGENCE BRIEFS</div>
+
+    <div style="margin-bottom:22px;padding-bottom:22px;border-bottom:1px solid #e8e4dc;">
+      <div style="font-family:Arial,sans-serif;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#8B1A1A;margin-bottom:4px;">XR · EVENTS · SPATIAL AI</div>
+      <h4 style="font-family:'Playfair Display',Georgia,serif;font-size:19px;font-weight:700;color:#1a1a1a;margin:0 0 8px;">AWE 2026 — Three Days Out, Auggie Winners Held for the Stage</h4>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.65;color:#333;margin:0;">As introduced in Edition 10 (10 June 2026), Auggie Award judging closed June 10 across 18 categories; winners are announced live during the ceremony on June 17, the third day of AWE USA 2026 (June 15–18, Long Beach). With Auggie content now locked and Snap's keynote (Story 2) confirmed for June 16, the conference's two biggest reveals — award winners and Specs pricing detail — both land mid-conference rather than as pre-show news, meaning Friday's edition will be the first to report from inside the event itself rather than previewing it. <a href="https://www.awexr.com/usa-2026/auggie" target="_blank" style="color:#8B1A1A;text-decoration:none;">AWE Official <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">10/10</span></a></p>
+    </div>
+
+    <div style="margin-bottom:22px;padding-bottom:22px;border-bottom:1px solid #e8e4dc;">
+      <div style="font-family:Arial,sans-serif;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#8B1A1A;margin-bottom:4px;">BCI · REGULATORY · EUROPE</div>
+      <h4 style="font-family:'Playfair Display',Georgia,serif;font-size:19px;font-weight:700;color:#1a1a1a;margin:0 0 8px;">Science Corp CE Mark — Eleven Editions, Still Pending</h4>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.65;color:#333;margin:0;">As introduced in Edition 1 (2 June 2026), Science Corp's PRIMA retinal implant — "form vision" restored in 38 patients, Germany's §14 pathway as fallback — remains without a CE mark decision eleven editions on, against an original "mid-2026" expectation. If AWE (Story 1, this brief) opens and closes without a decision, Europe's most-watched BCI regulatory story will have run its entire course parallel to, and unconnected from, the conference that claims to represent the field's direction — itself a small data point on how separate "the BCI sector" and "the XR sector" still are, even as this briefing increasingly treats them as one convergence story. <a href="https://science.xyz/news/prima-ce-mark-application-submitted/" target="_blank" style="color:#8B1A1A;text-decoration:none;">Science Corp <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">10/10</span></a></p>
+    </div>
+
+    <div>
+      <div style="font-family:Arial,sans-serif;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#8B1A1A;margin-bottom:4px;">XR · ANDROID XR · DEVELOPER ECOSYSTEM</div>
+      <h4 style="font-family:'Playfair Display',Georgia,serif;font-size:19px;font-weight:700;color:#1a1a1a;margin:0 0 8px;">Android XR Developer Catalyst Programme — 19 Days to Deadline, EU Gap Unchanged</h4>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;line-height:1.65;color:#333;margin:0;">As introduced in Edition 6 (6 June 2026), Google's Android XR Developer Catalyst Programme — covering XREAL's hardware and the broader fall 2026 launch slate (Edition 10) — closes its application window June 30, 19 days from today. No EU developer cohort has been announced. With AWE (three days out) and Immersive Tech Week Rotterdam (June 23–25) both falling inside this window, the next two weeks are the last realistic point for European developers or BD contacts to act on this deadline before it passes by default rather than by decision. <a href="https://roadtovr.com/google-android-xr-xreal-raises-100m-2026/" target="_blank" style="color:#8B1A1A;text-decoration:none;">Road to VR <span style="background:#E8F5EC;color:#1A5C2A;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:bold;">8/10</span></a></p>
+    </div>
+  </div>
+
+  <!-- ANGELO'S ANGLE -->
+  <div style="background:#1a1a1a;color:#FAF8F2;padding:36px;margin-bottom:36px;">
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#c8a882;margin-bottom:4px;">ANGELO'S ANGLE</div>
+    <div style="font-family:'Playfair Display',Georgia,serif;font-size:13px;font-style:italic;color:#666;margin-bottom:24px;">Mentor's Provocation — two challenges, one contemplation. No task list.</div>
+
+    <!-- Provocation I -->
+    <div style="margin-bottom:30px;">
+      <div style="font-family:Arial,sans-serif;font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:#c8a882;margin-bottom:10px;">PROVOCATION I · ANCHORED TO: META'S CODE DELETION (TODAY'S LEAD)</div>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;line-height:1.75;color:#d8d4cc;margin:0 0 14px;">Ten editions of "consent or governance?" just got an empirical answer, and it wasn't a synthesis: consent won, because it had a claimant — a lawsuit, a journalist, a researcher whose finding made news. Governance lost, because nobody holding that question has standing to bring it anywhere. Meta didn't choose consent over governance as a philosophical matter. It responded to the only pressure that existed.</p>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;line-height:1.75;color:#d8d4cc;margin:0 0 14px;">Angelo's positioning is as a translator to people who write laws, allocate capital, and set policy for human-experience technology — people who, in principle, could be the "standing" governance currently lacks. If "governance" as a frame only matters when someone with enforcement power adopts it, then the useful question for Angelo is not "consent or governance" in the abstract. It is: when he is in a room with someone who could create that enforcement mechanism, does he name the specific gap — pre-built, remote-flag-activatable capability, with no review before activation — or does he reach for "governance" as a word that sounds substantive but, on this week's evidence, currently commits no one to anything?</p>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;line-height:1.75;color:#FAF8F2;font-weight:600;margin:0;"><em>The question to settle in your own notes, not here:</em> Is "governance" still your word for this, now that you've watched it lose to "consent" in real time — or is the sharper move to retire "governance" and name the actual missing thing: a body with standing to review dormant capability before it ships?</p>
+    </div>
+
+    <!-- Provocation II -->
+    <div style="margin-bottom:30px;padding-top:24px;border-top:1px solid #2e2e2e;">
+      <div style="font-family:Arial,sans-serif;font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:#c8a882;margin-bottom:10px;">PROVOCATION II · ANCHORED TO: SNAP SPECS AT $2,500 (STORY 2)</div>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;line-height:1.75;color:#d8d4cc;margin:0 0 14px;">Snap is pricing its AR glasses at roughly five times the entire Android XR audio-glasses category, on a 100,000-unit run, while Apple's 2027 device targets the same sub-$500 band as Android XR. Read uncharitably, "spatial computing" has just split into two markets that may not converge for years: a sub-$500 mass-market AI-audio-glasses category (Android XR, Apple N50) and a $2,000+ prosumer/enterprise AR-display category (Snap, and whatever Apple ships circa 2029).</p>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;line-height:1.75;color:#d8d4cc;margin:0 0 14px;">State, in 2-3 sentences, the strongest case that this is one market on a single price-decline curve — that Snap's $2,500 today is simply where Android XR's $379-499 will be in three years, the same product at different points on the same S-curve. Then state, in 2-3 sentences, the strongest case that these are two structurally different markets — different buyers, different use cases, different software ecosystems — that will coexist indefinitely, the way smartphones and smart watches both exist without one becoming the other.</p>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;line-height:1.75;color:#FAF8F2;font-weight:600;margin:0;font-style:italic;">If "spatial computing" is doing the work of making these sound like one story to the people Angelo talks to, and they're actually two — which one is he actually translating, and has he ever said so out loud?</p>
+    </div>
+
+    <!-- Sit With This -->
+    <div style="padding-top:24px;border-top:1px solid #2e2e2e;">
+      <div style="font-family:Arial,sans-serif;font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:#c8a882;margin-bottom:10px;">SIT WITH THIS · DO NOT RESOLVE BEFORE MONDAY</div>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:16px;font-style:italic;line-height:1.75;color:#d8d4cc;margin:0 0 14px;">Edition 10's blind spot was treating "the BCI sector" as a fixed cast — Neuralink, Synchron, Science Corp, Precision Neuroscience, Merge Labs — when Apple, Medtronic, and a Yale neuroscience department had all just produced consequential results from outside that cast. Today's Story 3 adds a different kind of pressure on the same boundary: if Neuralink's robot can reach "any brain region," and the indication it's used for becomes a function of software roadmap rather than implant design, then "BCI" stops describing a category of device and starts describing whatever a single, general-purpose brain-access platform is configured to do this quarter.</p>
+      <p style="font-family:'Source Serif 4',Georgia,serif;font-size:15px;font-style:italic;line-height:1.7;color:#666;margin:0;">Don't resolve this now. Let it sit through the weekend, into AWE: if brain access becomes general-purpose — one robot, any region, any indication via software — is "BCI" still a useful word, or has it quietly become a word for the delivery mechanism, while the actual category that matters (what is this configured to read or write, for whom, under whose control) doesn't have a name yet at all?</p>
+    </div>
+  </div>
+
+  <!-- EVENTS RADAR + SIGNAL/NOISE -->
+  <div class="two-col" style="display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-bottom:36px;">
+
+    <div>
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;font-weight:bold;border-bottom:2px solid #1a1a1a;padding-bottom:7px;margin-bottom:18px;">EVENTS RADAR</div>
+      <div style="font-family:'Source Serif 4',Georgia,serif;font-size:14px;line-height:1.65;color:#333;">
+        <div style="margin-bottom:14px;">
+          <strong style="color:#1a1a1a;">AWE USA 2026</strong><br/>
+          June 15–18 · Long Beach, CA · <span style="color:#8B1A1A;font-weight:bold;">3 days</span><br/>
+          Spiegel keynote June 16 · Auggie Awards June 17 · Research Poster Track
+        </div>
+        <div style="margin-bottom:14px;">
+          <strong style="color:#1a1a1a;">Android XR Developer Catalyst Programme</strong><br/>
+          Deadline June 30 · <span style="color:#8B1A1A;font-weight:bold;">19 days</span><br/>
+          XREAL hardware cohort; no EU developer cohort announced
+        </div>
+        <div style="margin-bottom:14px;">
+          <strong style="color:#1a1a1a;">Immersive Tech Week Rotterdam</strong><br/>
+          June 23–25 · Rotterdam · <span style="color:#8B1A1A;font-weight:bold;">12 days</span><br/>
+          Falls inside the Catalyst Programme window
+        </div>
+        <div>
+          <strong style="color:#1a1a1a;">Android XR Fall 2026 Launch Window</strong><br/>
+          Samsung + XREAL (display) · Warby Parker + Gentle Monster (audio)<br/>
+          Now the comparison set against which Snap's $2,500 reads
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;font-weight:bold;border-bottom:2px solid #1a1a1a;padding-bottom:7px;margin-bottom:18px;">SIGNAL VS. NOISE</div>
+      <div style="font-family:'Source Serif 4',Georgia,serif;font-size:14px;line-height:1.65;color:#333;">
+        <div style="margin-bottom:14px;">
+          <span style="background:#E8F5EC;color:#1A5C2A;font-family:Arial,sans-serif;font-size:9px;font-weight:bold;letter-spacing:1px;padding:2px 7px;border-radius:3px;">SIGNAL</span>
+          <p style="margin:6px 0 0;"><strong>Meta declined to answer EFF's two questions</strong> (will NameTag return; what happened to data already collected). The deletion is news; the silence on these two points is the more durable fact. Watch for any regulator treating the silence itself as the live issue.</p>
+        </div>
+        <div style="margin-bottom:14px;">
+          <span style="background:#E8F5EC;color:#1A5C2A;font-family:Arial,sans-serif;font-size:9px;font-weight:bold;letter-spacing:1px;padding:2px 7px;border-radius:3px;">SIGNAL</span>
+          <p style="margin:6px 0 0;"><strong>Snap's $2,500 / 100,000-unit figures</strong> are the first hard numbers establishing AR-glasses price segmentation as real rather than rumoured. Worth holding against whatever Spiegel says June 16 about where the price goes next.</p>
+        </div>
+        <div style="margin-bottom:14px;">
+          <span style="background:#FFF3D6;color:#7A4A00;font-family:Arial,sans-serif;font-size:9px;font-weight:bold;letter-spacing:1px;padding:2px 7px;border-radius:3px;">NOISE</span>
+          <p style="margin:6px 0 0;"><strong>"Meta strips facial recognition — victory for privacy"</strong> — accurate as a headline, incomplete as an analysis. The two unanswered EFF questions are the actual story; the deletion alone is the easy part of the story to report.</p>
+        </div>
+        <div>
+          <span style="background:#FFF3D6;color:#7A4A00;font-family:Arial,sans-serif;font-size:9px;font-weight:bold;letter-spacing:1px;padding:2px 7px;border-radius:3px;">NOISE</span>
+          <p style="margin:6px 0 0;"><strong>Neuralink "any brain region" framed as pure scaling news</strong> — most coverage treats this as Neuralink getting bigger/faster at the same thing. The category-redefinition angle (Story 3) is not yet how this is being covered elsewhere.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DEEP READ ENTRY -->
+  <div style="background:#f5f0e8;border:1px solid #ddd6c6;padding:24px;margin-bottom:36px;text-align:center;">
+    <div style="font-family:Arial,sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#8B1A1A;margin-bottom:8px;">DEEP READ · EDITION 11</div>
+    <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:22px;font-weight:700;color:#1a1a1a;margin:0 0 12px;line-height:1.25;">Ship Dormant, Delete on Exposure: The Playbook Meta Just Wrote for Neurotech</h3>
+    <p style="font-family:'Source Serif 4',Georgia,serif;font-size:14px;color:#555;line-height:1.6;margin:0 0 18px;">The Stella episode as architecture, not application — and what it implies for a sector where the dormant capability is neural data, not a face. ~1,150 words.</p>
+    <button onclick="document.body.classList.add('dr-mode-1');window.scrollTo(0,0);" style="background:#8B1A1A;border:none;color:#FAF8F2;font-family:Arial,sans-serif;font-size:13px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;padding:13px 30px;cursor:pointer;border-radius:2px;">Read Deep Analysis →</button>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="border-top:1px solid #1a1a1a;border-bottom:3px solid #1a1a1a;padding:10px 0;margin-bottom:20px;"></div>
+  <div style="text-align:center;font-family:Arial,sans-serif;font-size:10px;color:#888;letter-spacing:1px;line-height:1.9;">
+    <strong style="color:#1a1a1a;letter-spacing:2px;">FRONTIER INTELLIGENCE</strong> · Edition 11 · Thursday, 11 June 2026<br/>
+    Personal intelligence briefing for Angelo Gunther · BCI · XR · Spatial Computing · Immersive Technology<br/>
+    <span style="color:#ddd6c6;">────────────────────────────────</span><br/>
+    <a href="https://lazybreadzero.github.io/DailyBrief/briefings/2026-06-11.html" target="_blank" style="color:#8B1A1A;text-decoration:none;">lazybreadzero.github.io/DailyBrief</a>
+  </div>
+
+</div>
+</div><!-- /main-brief -->
+
+</body>
+</html>
