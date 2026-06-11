@@ -443,6 +443,58 @@ MATR Foods (Denmark, solid-state fermentation, Ansager plant); EIFO (Export and 
 
 ---
 
+## EDITION 9 — Thursday, 11 June 2026
+
+### Lead Story
+**Title:** Formo's Casein Enters Active FDA Review — and the Casein Race Just Got a Second Regulatory Clock
+**Pillar:** Venture Capital × Food Science × Regulation
+**Core argument:** On 2 June, Formo notified the FDA that its recombinant casein — co-developed with Those Vegan Cowboys via a pooled 60-scientist team — entered active GRAS review, the only precision-fermented casein currently under live US review; Formo expects a "no questions" letter this year. Standing Ovation (Edition 6) is still targeting end-2026 GRAS via Ajinomoto but has not filed for active review — the first material gap in the race since Edition 6. Separately, the EU's Biotech Act II call for evidence (covering fermentation/biomanufacturing, Q4 2026 proposal) closed 10 June, with WePlanet and others lobbying to explicitly name precision-fermentation ingredients in scope. The Edition 8 architecture × geography matrix needs a third axis: regulatory-pathway stage (US GRAS stage; EU Biotech Act II exposure) — the axis that currently differentiates Formo from Standing Ovation.
+**Key entities introduced:** Those Vegan Cowboys (as Formo's GRAS co-development partner); WePlanet; EU Biotech Act II
+**Key concepts introduced:** Regulatory-pathway stage as a third matrix axis; "merge R&D, compete on product" pre-competitive structure; Biotech Act II as a parallel regulatory clock to FDA GRAS
+**Sources used:** FoodNavigator-USA (9/10): https://www.foodnavigator-usa.com/Article/2026/06/02/precision-fermented-casein-from-formo-advances-toward-us-market-after-fda-gras/ ; Green Queen (8/10): https://www.greenqueen.com.hk/formo-foods-precision-fermentation-casein-dairy-protein-self-gras-cheese/ ; AgFunderNews (9/10): https://agfundernews.com/standing-ovation-nets-34m-gears-up-for-us-launch-of-casein-via-precision-fermentation ; Green Queen — Formo/TVC (8/10): https://www.greenqueen.com.hk/formo-those-vegan-cowboys-precision-fermentation-casein-cheese/ ; Green Queen — Biotech Act II (8/10): https://www.greenqueen.com.hk/eu-biotech-act-ii-fermentation-microbial-single-cell-proteins-weplanet/ ; Inside EU Life Sciences (7/10): https://www.insideeulifesciences.com/2026/06/03/eu-biotech-act-ii-less-than-10-days-to-shape-the-commissions-approach/
+**Julinka's Angle delivered:** Ask two pipeline companies whether a "merge R&D, compete on product" structure (Formo/TVC's GRAS pooling) could apply to their own gating regulatory step, before IFT FIRST Chicago (13 July)
+**Follow-up threads to watch:** Formo's FDA "no questions" letter timing; Standing Ovation's GRAS submission status; whether other casein/dairy-protein companies adopt pre-competitive R&D pooling; Biotech Act II Q4 2026 proposal scope and whether precision fermentation is named explicitly
+
+### Story 2
+**Title:** Planetary Raises Again — $28M More Brings Total Funding to $40M, in a Structure That Looks Like MATR's
+**Pillar:** Venture Capital × Food Science
+**Core argument:** Planetary (Edition 2, CHF 22M Series A, BioBlocks licensing) raised CHF 16M equity (~$20M) plus CHF 6M credit (~$7.5M), total funding ~$40M; led by returning investors Radikal Capital and Oetker Ventures plus arc investors, Green Generation Fund, AgriFoodTech Venture Alliance, Astanor Ventures, XAnge. Second company (after MATR, Edition 8) to blend debt and equity — one data point becomes a pattern: lenders entering fermentation cap tables as companies scale past their first plant. Suggests the architecture axis of Edition 8's matrix may have a maturity dimension.
+**Key entities introduced:** arc investors, Green Generation Fund, AgriFoodTech Venture Alliance, Astanor Ventures, XAnge (Planetary's new-round investors)
+**Key concepts introduced:** Blended debt+equity as an emerging fermentation financing pattern (not a one-off); architecture axis maturity dimension
+**Sources used:** AgFunderNews (9/10): https://agfundernews.com/planetary-nets-28m-to-scale-fermentation-infrastructure-and-licensing-platform ; Green Queen (8/10): https://www.greenqueen.com.hk/planetary-sa-switzerland-fermentation-licensing-mycoprotein-funding/
+**Follow-up threads to watch:** Planetary's $40M deployment plan; whether a third fermentation company adopts blended debt+equity, confirming the pattern
+
+### Story 3
+**Title:** Art Basel's First Choice Window Now Has a Time on the Clock — Tuesday, 11am–4pm, Five Days Out
+**Pillar:** Art
+**Core argument:** Art Basel confirmed VIP schedule: First Choice Tuesday 16 June 11am–4pm, Preview 4–8pm, fair 18–21 June. Edition 8's "discovery premium" (193/232 galleries holding works under Basel Exclusive) now has an exact five-hour window. Contrast sharpened with Baghramian's/Mahama's Gold Awards commissions — public, free, viewable for days already vs. First Choice's gated five-hour invitation window.
+**Key entities introduced:** None new
+**Key concepts introduced:** First Choice window as a concrete five-hour access point, contrasted with public Gold Awards commissions
+**Sources used:** Art Basel/MCH Group Official (10/10): https://www.mch-group.com/en/media/news/2026/art-basel-unveils-basel-exclusive-and-highlights-for-its-2026-flagship-show ; Artsy (8/10): https://www.artsy.net/article/artsy-editorial-art-basels-flagship-fair-announces-participating-galleries-new-highlights-2026-edition
+**Follow-up threads to watch:** Art Basel First Choice (16 June) outcomes; Gold Awards reception; Mahama's agricultural-trade angle as a VIP-week conversation hook (carried from Edition 8)
+
+### Intelligence Briefs
+- **Brussels' Biotech Act II Comment Period Closes (Nature/Policy/Regulation):** EU call for evidence on Biotech Act II (fermentation/biomanufacturing scope, Q4 2026 proposal) closed 10 June; WePlanet et al. asked for explicit naming of precision-fermentation ingredients. Second EU regulatory process (alongside nature-credits roadmap) moving through comment phase this fortnight, touching the same fermentation companies. Sources: Green Queen (8/10). Follow-up: whether Q4 2026 proposal names the category explicitly.
+- **Maia Ventures €55M agrifoodtech fund (Venture):** Closing final tranches, EIF and CDP Venture Capital backers, targeting 20–25 portfolio companies at €0.5–1.5M tickets. Confirms Edition 1's "long tail of specialist micro-funds" framing. Sources: Tech Funding News (8/10). Follow-up: portfolio company announcements.
+- **Re:Invest in Nature — EU Green Week (Nature/Finance/Venture):** ~70 nature-tech startups convened with JPMorgan, Rabobank, alongside Edition 8's Paris workshop and Committee of the Regions statement. A more direct route to the carried "Paris workshop debrief contact" (Editions 3, 8) than the policy track. Sources: EU Commission/Green Week (10/10). Follow-up: whether outreach via Re:Invest in Nature yields a contact.
+- **Seoul Food & Hotel — Day 3 of 4 (Food/Culture):** KOTRA exhibitor directory window closes after tomorrow (last full day). Sources: Korea Times (9/10). Follow-up: whether the directory screen was run before close.
+
+### New concepts in Julinka's working vocabulary
+Those Vegan Cowboys (Formo's GRAS co-development partner, pre-competitive R&D pooling); regulatory-pathway stage as a third matrix axis (US GRAS stage / EU Biotech Act II exposure); "merge R&D, compete on product" structure; EU Biotech Act II as parallel regulatory clock to FDA GRAS; blended debt+equity as an emerging fermentation financing pattern (MATR + Planetary); Re:Invest in Nature (EU Green Week); Maia Ventures (€55M, EIF/CDP-backed)
+
+### Julinka's Angles Issued — Track Completion
+- [ ] Ask two pipeline companies whether a "merge R&D, compete on product" structure applies to their own gating regulatory step — before IFT FIRST Chicago (13 July) *(new)*
+- [ ] Send one outreach message via Re:Invest in Nature this week, framed as an investor-to-investor question on nature-credit scope *(reframes the carried Paris-workshop-contact ask, Editions 3, 8)*
+- [ ] Decide now: First Choice (16 June, gated) or Gold Awards commissions (open now) — write down the choice *(new)*
+- [ ] Use Seoul Food & Hotel KOTRA exhibitor directory — closes after tomorrow *(carried from Editions 7–8, window closing)*
+- [ ] Message Pacifico Biolabs, Standing Ovation, The Bland Company — sourcing outreach *(carried from Editions 5–6)*
+- [ ] Write "The Ozempic Diet Needs Better Protein" (300 words) *(carried from Edition 4)*
+- [ ] Request Planetary technical documentation / BioBlocks publications *(carried from Edition 2)*
+- [ ] Draft "How to read a protein claim" essay *(carried from Edition 1)*
+- [ ] Start European regen-ag / natural-capital watch-list *(carried from Edition 1)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -455,6 +507,7 @@ MATR Foods (Denmark, solid-state fermentation, Ansager plant); EIFO (Export and 
 | 6 | 8 Jun 2026 | Standing Ovation $34M raise — acid-whey-fed casein fermentation; "waste-stream arbitrage" reframes the thesis (France enters the map) | Standing Ovation lead + "waste-stream thesis" deep read, The Bland Company (UK ag-side-stream proteins — 2nd confirmation), the Formo-vs-Standing Ovation US casein race, Seoul Food & Hotel opens tomorrow (exhibitor window closes tonight), Art Basel 8-day countdown (290 galleries, Katrib-curated Unlimited, Parcours scale confirmed), Paris workshop 48-hr critical, EU nature-credits expert group mid-2026 mandate | Standing Ovation, Romain Chayot, Frédéric Paques, Yvan Chardonnens, The Bland Company, Yash Khandelwal, Micol Hafez, Ruba Katrib | Submit overdue sourcing thesis (2nd edition, reframed); find Paris workshop contact (48 hrs, critical); Seoul Food exhibitor list (closes tonight); write waste-stream thesis memo; expanded outreach to 3 companies |
 | 7 | 9 Jun 2026 | Seoul Food & Hotel opens today — Korea's AI-Robotics food pivot as state-industrial strategy (second-phase beyond hallyu) | Seoul Food & Hotel 2026 lead (AI-Robotics theme, KOTRA directory live, 1,650+ exhibitors), Art Basel 7-day countdown (Parcours "Conviviality"/Hessler, Unlimited/Katrib, Premiere 10→17), Paris nature-credits workshop June 10 (Biodiversa+/Banque de France, EU Green Week partner), MOA Foodtech EIC €14.8M (Spain — 5th country waste-stream confirmation), Formo vs. Standing Ovation US casein race (IFT FIRST July 13), Vivici Vivitein LF self-affirmed GRAS, Art Basel Premiere expansion | MOA Foodtech (Sánchez, Elorza, Emparanza); Formo Foods Inc. (US sub); Vivitein LF (Vivici, lactoferrin, self-affirmed GRAS) | KOTRA exhibitor directory today (functional food/fermentation/AI food-tech screen); Paris workshop debrief contact tomorrow evening; one Parcours artist statement before Art Basel VIP June 16 |
 | 8 | 10 Jun 2026 | MATR Foods €40M raise — Novo Holdings + EIB add a fourth (process) architecture and a second axis to the fermentation map (Denmark, 6th country) | MATR Foods lead + "architecture × geography matrix" deep read, Art Basel Gold Awards (Baghramian/Mahama public commissions, 8-day countdown), European Committee of the Regions "supplement not substitute" nature-credits statement on Paris workshop day, EVERY Company eggs reach Walmart, precision-fermented dairy funding rebound (Vivici + 3 others), Seoul Food & Hotel day 2/4 (KOTRA directory still live), Paris Biodiversa+/Banque de France workshop convenes today | MATR Foods, EIFO, Novo Holdings (production-side), Art Basel Gold Awards, European Committee of the Regions, EVERY Company (Walmart) | Write architecture × geography matrix as sourcing thesis; find Paris-workshop contact with sharper "scope" question; see Mahama's Münsterplatz commission this week |
+| 9 | 11 Jun 2026 | Formo's casein enters active FDA GRAS review — the casein race gets its first regulatory gap, and a second clock starts in Brussels (Biotech Act II) | Formo/Those Vegan Cowboys lead + "two regulatory clocks" deep read, Planetary's $28M follow-on raise ($40M total, blended debt+equity echoing MATR), Art Basel First Choice window confirmed (5-day countdown), Brussels Biotech Act II call for evidence closes, Maia Ventures €55M agrifoodtech fund, Re:Invest in Nature at EU Green Week, Seoul Food & Hotel day 3/4 (KOTRA window closing) | Those Vegan Cowboys, WePlanet, EU Biotech Act II, Maia Ventures, Re:Invest in Nature, Planetary's new-round investors | Ask 2 pipeline companies about "merge R&D, compete on product"; Re:Invest in Nature outreach; choose Art Basel access point; KOTRA directory before close |
 
 ---
-*Last updated: Edition 8 — 10 June 2026*
+*Last updated: Edition 9 — 11 June 2026*
