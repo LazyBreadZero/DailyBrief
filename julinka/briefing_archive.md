@@ -495,6 +495,60 @@ Those Vegan Cowboys (Formo's GRAS co-development partner, pre-competitive R&D po
 
 ---
 
+## EDITION 10 — Friday, 12 June 2026
+
+### Lead Story
+**Title:** The Nature Credits Roadmap Stops Being a Document — IUCN Launches Live Pilots in Croatia, the Netherlands and Poland
+**Pillar:** Nature × Finance × Policy
+**Core argument:** On 2 June, IUCN convened the European Commission's SG REFORM and DG Environment, plus national authorities from Croatia, the Netherlands and Poland, to launch an EU-funded project exploring nature-credit feasibility, design and governance in those three countries. This is the point at which the Nature Credits Roadmap (COM(2025)374, Edition 2) — tracked through Editions 2, 3, 7, 8 and 9 (expert group, Paris workshop, Committee of the Regions statement, Re:Invest in Nature) — converts from policy framework to named pilots with a convening date. The three countries span dense private-nature-finance infrastructure (Netherlands), large-scale agriculture under CAP (Poland), and coastal/tourism natural capital (Croatia) — a combination closer to a 27-state template than a one-off. For Calm/Storm, the design window for nature-credit eligibility criteria (e.g. regenerative-ag verification, feedstock-sourcing biodiversity outcomes) is open now, not at the Q4 2026 Biotech Act II proposal.
+**Key entities introduced:** IUCN NL; European Commission SG REFORM / DG ENV; Astrid Schomaker (CBD)
+**Key concepts introduced:** Nature-credit pilots as the design window between roadmap and legislation; three-country template logic (dense-finance / large-agriculture / coastal-biodiversity)
+**Sources used:** IUCN Official (10/10): https://iucn.org/news/202606/iucn-launches-eu-funded-project-explore-potential-nature-credits-three-eu-member-states ; EU Commission Green Forum (10/10): https://green-forum.ec.europa.eu/green-business/nature-credits_en ; IUCN nature credits brief (10/10): https://iucn.org/resources/other-brief/nature-credits
+**Julinka's Angle delivered:** Send one outreach message to IUCN NL this week, framed around the Netherlands pilot, asking what private-finance design questions remain open — retires the Edition 3 "Paris workshop contact" action
+**Follow-up threads to watch:** Outcome of IUCN NL outreach; which eligibility criteria the three pilots converge on; whether other member states join the template; Q4 2026 Biotech Act II proposal vs. nature-credit pilot timing
+
+### Story 2
+**Title:** Art Basel's Digital Art Sector Gets Its Theme — "The Condition," Curated by Trevor Paglen, Four Days Before First Choice
+**Pillar:** Art
+**Core argument:** Art Basel confirmed Zero 10 — its digital-art initiative, 20 exhibitors, co-curated by Trevor Paglen (2026 LG Guggenheim Award, MacArthur Fellow) and Eli Scheinman — under the theme "The Condition" (life amid digital imagery, computation, AI). Line-up includes Hito Steyerl, Avery Singer, Andreas Gursky, Vera Molnár, Ryoji Ikeda, Agnieszka Kurant, John Gerrard, Rafael Lozano-Hemmer. Zero 10 Preview Day is 16 June (same day as First Choice's gated window), then free to the public 17–19 June, ticketed 20–21 June — the lower-friction half of the day Edition 9 flagged as gated. First Art Basel programming this brief has covered with AI/computation as subject, not method — direct overlap with the "computational systems shaping the natural world" territory in today's Nature lead.
+**Key entities introduced:** Trevor Paglen; Eli Scheinman; Zero 10 (Art Basel digital-art sector)
+**Key concepts introduced:** Two-tier preview/public access as a fair-navigation pattern; AI/computation as artistic subject vs. method
+**Sources used:** Art Basel Official (10/10): https://www.artbasel.com/stories/art-basel-announces-artist-trevor-paglen-as-curator-of-zero-10-at-art-basel-s-inaugural-edition-in-switzerland-alongside-eli-scheinman ; Art Basel / Zero 10 (10/10): https://www.artbasel.com/basel/zero-10 ; Art Basel — Paglen interview (10/10): https://www.artbasel.com/stories/digital-art-artists-trevor-paglen-art-basel-zero-10
+**Julinka's Angle delivered:** Attend Zero 10's free Preview Day (16 June) and record one observation on how digital/AI art treats biotech/agritech/environmental-monitoring imagery, as raw material for a cross-disciplinary essay
+**Follow-up threads to watch:** Zero 10 preview reception; whether First Choice access materialises; Unlimited's 59 projects (MoMA PS1 threads) at the fair
+
+### Story 3
+**Title:** Debut and Oterra Pair Up to Take Precision-Fermented Color at Red 40 — a Three-Year Regulatory Clock, Filed Before It Started Ticking
+**Pillar:** Food Science × Regulation
+**Core argument:** Debut (precision-fermentation ingredients) and Oterra (world's largest natural-colour producer) announced a multi-million-dollar partnership to develop a fermentation-derived Red 40 alternative covering orange-red-violet shades, with an FDA filing as the near-term goal and ~3-year commercial runway. Read against Edition 9's "regulatory-pathway stage" axis, this is the inverse posture to Formo's casein: filing the dossier before the product exists, rather than after — Oterra (an incumbent with a large Red-40-dependent customer base) hedging against a US synthetic-dye policy direction it treats as close to settled.
+**Key entities introduced:** Debut; Oterra
+**Key concepts introduced:** "File before product exists" as a regulatory-pathway posture, contrasted with Formo's "product first, then active review" (Edition 9)
+**Sources used:** Food Dive (9/10): https://www.fooddive.com/news/oterra-natural-color-red-food-dye-debut-partnership/819459/ ; Green Queen (8/10): https://www.greenqueen.com.hk/oterra-debut-biotech-precision-fermentation-red-40-alternative-natural-food-dye/
+**Follow-up threads to watch:** Debut/Oterra FDA filing timeline; whether other natural-colour incumbents follow Oterra's hedge; US state-level synthetic-dye ban progress
+
+### Intelligence Briefs
+- **Standing Ovation's funding breakdown + Astanor overlap (Venture/Food):** The $34.2M (Edition 6) resolves into €25M Series B (Bpifrance Ecotechnologies 2 + Crédit Mutuel Innovation co-leads; Astanor, Bel, Seventure, Danone Ventures, Big Idea Ventures, GoodStartUp, Angelor, Newtree, Noshaq) plus €5M non-dilutive (Bpifrance + banking syndicate). Astanor — introduced in Edition 9 as a new Planetary investor — is now confirmed in both Standing Ovation and Planetary, the first shared-investor overlap in the fermentation map. Source: AgFunderNews (9/10). Follow-up: use Astanor relationship for cross-portfolio diligence.
+- **Rem3dy Health €16M raise (Venture/Preventive Health):** Personalised-nutrition company raised €16M from strategics Suntory, Estrella Galicia, Apollo Hospitals, UPSA — expansion into US/MENA/India plus a pivot into personalised pet-health products. Preventive health is 2026's fastest-growing European healthtech category (+88% YoY to $869M, Galen Growth). Notable for strategic-investor (not pure-VC) cap-table pattern. Source: EU-Startups (8/10). Follow-up: whether similar strategic-investor structures appear in Calm/Storm's own pipeline.
+- **Biodiversity loss and sovereign borrowing costs (Nature/Finance):** Unchecked biodiversity loss could cost the global economy $2tn/year and add $162bn/year to sovereign borrowing costs, concentrated in India, China, Indonesia, Bangladesh, Malaysia (CBD's Astrid Schomaker). Macro case for why governments — not just funds — are the audience for today's lead. Source: IUCN (10/10). Follow-up: how this framing surfaces in the three-country pilot's feasibility studies.
+- **Unlimited confirmed at 59 projects (Art):** Ruba Katrib's Unlimited sector (introduced Edition 2) confirmed at 59 projects, several developed with MoMA PS1. Combined with Zero 10 and the Gold Awards (Edition 8), Art Basel 2026 now has three parallel large-format tracks — scale, digital/AI, public/civic — each tracked individually across four editions. Source: Art Basel Official (10/10). Follow-up: Unlimited reception at the fair.
+
+### New concepts in Julinka's working vocabulary
+IUCN NL; SG REFORM/DG ENV; nature-credit pilots as the roadmap-to-legislation design window; three-country template logic (dense-finance/large-agriculture/coastal-biodiversity); Zero 10 (Trevor Paglen/Eli Scheinman, "The Condition"); two-tier preview/public access; "file before product exists" regulatory posture (Debut/Oterra vs. Formo); Astanor cross-portfolio overlap (Standing Ovation + Planetary); Rem3dy Health; Debut; Oterra
+
+### Julinka's Angles Issued — Track Completion
+- [ ] Send outreach to IUCN NL this week re: Netherlands nature-credit pilot design questions *(retires the Edition 3 "Paris workshop contact" ask, carried through Editions 3, 8, 9)*
+- [ ] Request Astanor cross-portfolio comparison (Standing Ovation vs. Planetary) on regulatory-pathway stage and financing structure *(new)*
+- [ ] Attend Zero 10 Preview Day (16 June) and record one observation on AI/digital art treating biotech/agritech imagery *(new)*
+- [ ] Ask two pipeline companies whether a "merge R&D, compete on product" structure applies to their own gating regulatory step — before IFT FIRST Chicago (13 July) *(carried from Edition 9)*
+- [ ] Decide now: First Choice (16 June, gated) or Gold Awards commissions (open now) — write down the choice *(carried from Edition 9)*
+- [ ] Message Pacifico Biolabs, Standing Ovation, The Bland Company — sourcing outreach *(carried from Editions 5–6)*
+- [ ] Write "The Ozempic Diet Needs Better Protein" (300 words) *(carried from Edition 4)*
+- [ ] Request Planetary technical documentation / BioBlocks publications *(carried from Edition 2)*
+- [ ] Draft "How to read a protein claim" essay *(carried from Edition 1)*
+- [ ] Start European regen-ag / natural-capital watch-list *(carried from Edition 1)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -508,6 +562,7 @@ Those Vegan Cowboys (Formo's GRAS co-development partner, pre-competitive R&D po
 | 7 | 9 Jun 2026 | Seoul Food & Hotel opens today — Korea's AI-Robotics food pivot as state-industrial strategy (second-phase beyond hallyu) | Seoul Food & Hotel 2026 lead (AI-Robotics theme, KOTRA directory live, 1,650+ exhibitors), Art Basel 7-day countdown (Parcours "Conviviality"/Hessler, Unlimited/Katrib, Premiere 10→17), Paris nature-credits workshop June 10 (Biodiversa+/Banque de France, EU Green Week partner), MOA Foodtech EIC €14.8M (Spain — 5th country waste-stream confirmation), Formo vs. Standing Ovation US casein race (IFT FIRST July 13), Vivici Vivitein LF self-affirmed GRAS, Art Basel Premiere expansion | MOA Foodtech (Sánchez, Elorza, Emparanza); Formo Foods Inc. (US sub); Vivitein LF (Vivici, lactoferrin, self-affirmed GRAS) | KOTRA exhibitor directory today (functional food/fermentation/AI food-tech screen); Paris workshop debrief contact tomorrow evening; one Parcours artist statement before Art Basel VIP June 16 |
 | 8 | 10 Jun 2026 | MATR Foods €40M raise — Novo Holdings + EIB add a fourth (process) architecture and a second axis to the fermentation map (Denmark, 6th country) | MATR Foods lead + "architecture × geography matrix" deep read, Art Basel Gold Awards (Baghramian/Mahama public commissions, 8-day countdown), European Committee of the Regions "supplement not substitute" nature-credits statement on Paris workshop day, EVERY Company eggs reach Walmart, precision-fermented dairy funding rebound (Vivici + 3 others), Seoul Food & Hotel day 2/4 (KOTRA directory still live), Paris Biodiversa+/Banque de France workshop convenes today | MATR Foods, EIFO, Novo Holdings (production-side), Art Basel Gold Awards, European Committee of the Regions, EVERY Company (Walmart) | Write architecture × geography matrix as sourcing thesis; find Paris-workshop contact with sharper "scope" question; see Mahama's Münsterplatz commission this week |
 | 9 | 11 Jun 2026 | Formo's casein enters active FDA GRAS review — the casein race gets its first regulatory gap, and a second clock starts in Brussels (Biotech Act II) | Formo/Those Vegan Cowboys lead + "two regulatory clocks" deep read, Planetary's $28M follow-on raise ($40M total, blended debt+equity echoing MATR), Art Basel First Choice window confirmed (5-day countdown), Brussels Biotech Act II call for evidence closes, Maia Ventures €55M agrifoodtech fund, Re:Invest in Nature at EU Green Week, Seoul Food & Hotel day 3/4 (KOTRA window closing) | Those Vegan Cowboys, WePlanet, EU Biotech Act II, Maia Ventures, Re:Invest in Nature, Planetary's new-round investors | Ask 2 pipeline companies about "merge R&D, compete on product"; Re:Invest in Nature outreach; choose Art Basel access point; KOTRA directory before close |
+| 10 | 12 Jun 2026 | IUCN launches live nature-credit pilots in Croatia, Netherlands, Poland — the roadmap (Ed. 2) becomes named instruments | IUCN nature-credits pilot lead, Art Basel Zero 10 digital-art sector ("The Condition," Trevor Paglen/Eli Scheinman, 4-day countdown), Debut/Oterra precision-fermented Red 40 alternative ("file before product" posture), Standing Ovation funding breakdown + Astanor cross-portfolio overlap with Planetary, Rem3dy Health €16M preventive-health raise, biodiversity sovereign-credit-risk figures, Unlimited confirmed at 59 projects | IUCN NL, SG REFORM/DG ENV, Trevor Paglen, Eli Scheinman, Zero 10, Debut, Oterra, Rem3dy Health | IUCN NL outreach (retires Ed. 3 Paris-contact action); Astanor cross-portfolio diligence request; attend Zero 10 Preview Day and record observation |
 
 ---
-*Last updated: Edition 9 — 11 June 2026*
+*Last updated: Edition 10 — 12 June 2026*
