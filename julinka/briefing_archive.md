@@ -549,6 +549,60 @@ IUCN NL; SG REFORM/DG ENV; nature-credit pilots as the roadmap-to-legislation de
 
 ---
 
+## EDITION 11 — Saturday, 13 June 2026
+
+### Lead Story
+**Title:** Formo Can Sell Its Casein in America Before It Can Sell It at Home — and Brussels' New Biotech Act Just Made That Gap Official
+**Pillar:** Food Science × Regulation × Venture Capital
+**Core argument:** Formo self-determined GRAS status for its recombinant αS1-casein in December 2025 and notified the FDA; a "no questions" letter is expected this year, ahead of a commercial debut at IFT FIRST Chicago (13–16 July, ~30 days out). As of mid-2026, EFSA has issued zero safety opinions for precision-fermented proteins — none are approved for sale in the EU, where the Novel Food process runs 2.5–4 years versus the US GRAS route's ~1 year. The EU's new Biotech Act eases approval pathways for precision fermentation generally but explicitly excludes novel foods from its new regulatory-sandbox scheme — the exact category this brief's fermentation map sells. Edition 9's "two regulatory clocks" framing deepens: the EU clock for this category barely exists yet.
+**Key entities introduced:** None new (Formo, FDA, EFSA, EU Biotech Act all previously introduced)
+**Key concepts introduced:** EU novel-food vs. US GRAS timeline asymmetry ("the EU clock barely exists yet"); EU Biotech Act sandbox excluding novel foods; US-before-home-market sequencing as the category default
+**Sources used:** Green Queen (8/10): https://www.greenqueen.com.hk/formo-foods-precision-fermentation-casein-dairy-protein-self-gras-cheese/ ; DairyReporter (9/10): https://www.dairyreporter.com/Article/2026/06/02/precision-fermented-casein-from-formo-advances-toward-us-market-after-fda-gras/ ; FoodIngredientsFirst (9/10): https://www.foodingredientsfirst.com/news/eu-biotech-act-novel-foods-sandboxes.html ; BioSafe Finland (7/10): https://www.biosafe.fi/insight/precision-fermentation-is-ready-eu-novel-food-approval-isnt
+**Julinka's Angle delivered:** Ask two pipeline companies this week (before Art Basel) whether their go-to-market sequencing assumes EU-first, and whether that survives the EFSA-vs-GRAS gap — sharpens the carried Edition 9 "merge R&D" question with a hard 30-day IFT FIRST deadline
+**Follow-up threads to watch:** Formo's FDA "no questions" letter and IFT FIRST debut (13–16 July); EU Biotech Act final text and scope of the novel-food carve-out; whether Standing Ovation's sequencing differs from Formo's given France/EU base
+
+### Story 2
+**Title:** UPSIDE Foods Bids $50M for Believer Meats' Carcass — Cultivated Meat's "Second Phase" Gets a Price
+**Pillar:** Venture Capital (distressed assets)
+**Core argument:** UPSIDE Foods — one of two US companies cleared to sell cultivated chicken — filed a $50M stalking-horse bid for Believer Meats' North Carolina facility (Believer raised ~$400M before its December shutdown, Edition 3). Competing bids due 20 July (must exceed $52.25M), auction 28 July, sale hearing 30 July. The $50M bid is an 87.5% discount to construction cost — the fermentation-capital map's first entry recording capital flowing toward an asset someone else built and lost, rather than toward new construction (cf. Editions 8–9's infrastructure-stage financing).
+**Key entities introduced:** UPSIDE Foods (as acquirer); Believer Meats facility (Wilson County, NC, in receivership)
+**Key concepts introduced:** Distressed deep-tech infrastructure recycling; "build vs. buy" as a live diligence question; regulatory-standing-as-moat (short list of legally-cleared buyers for failed cultivated-meat plants)
+**Sources used:** AgFunderNews (9/10): https://agfundernews.com/exclusive-upside-foods-submits-50m-stalking-horse-bid-for-believer-meats-us-cultivated-meat-facility ; Just Food (9/10): https://www.just-food.com/news/upside-foods-eyes-factory-of-defunct-cultivated-protein-peer-believer-meats/ ; AgFunderNews — UPSIDE plant pause (9/10): https://agfundernews.com/upside-foods-large-scale-cultivated-meat-plant-on-hold-until-it-delivers-key-proof-points-at-smaller-site
+**Julinka's Angle delivered:** Add "have you checked what's in receivership first" to the standard diligence checklist for any portfolio company proposing large capex — UPSIDE's bid gives the question a real precedent
+**Follow-up threads to watch:** Whether a second qualifying bidder emerges by 20 July and who; auction outcome (28 July); whether other distressed cultivated-protein assets surface
+
+### Story 3
+**Title:** First Choice Now Has a Clock — Tuesday, 11am, Three Days Out — and Katrib Frames Unlimited Around "Ecological Conditions of the Present"
+**Pillar:** Art
+**Core argument:** Art Basel confirmed First Choice for Tuesday 16 June (11am–4pm), Preview 4–8pm, fair 18–21 June (290 galleries, 43 countries) — Edition 9's "discovery premium" now has an exact window, three days away. Ruba Katrib's Unlimited (59 of 100+ proposals) is framed explicitly around works engaging "the political, social, ecological, and spatial conditions of the present" — the first time Art Basel's own curatorial language has used "ecological" as an organising term, directly overlapping the nature-credits/biodiversity-finance thread tracked since Edition 2.
+**Key entities introduced:** None new (Katrib, Unlimited previously introduced)
+**Key concepts introduced:** Unlimited's "ecological conditions of the present" framing as an explicit art × nature bridge
+**Sources used:** Art Basel Official (10/10): https://www.artbasel.com/stories/inside-art-basel-in-basel-2026-guide-events-artworks-experiences ; Art Basel — Katrib/Unlimited (10/10): https://www.artbasel.com/stories/art-basel-2026-unlimited-ruba-katrib-moma-ps1-curator
+**Julinka's Angle delivered:** With three days left, prioritise Unlimited (over First Choice) and identify one work that speaks to the nature-credits/biodiversity-finance thread — pairs with the Astanor relationship for a cross-pillar essay
+**Follow-up threads to watch:** First Choice/Unlimited reception (16 June); whether Unlimited's ecological framing surfaces in any nature-finance commentary
+
+### Intelligence Briefs
+- **Seoul Food & Hotel closes — $650M export consultations, +160% YoY (Food/Culture):** Show ran 9–12 June, 1,650+ exhibitors/45 countries; $650M in export consultations vs. 2025's $13.6bn full-year K-food export total. Closes the Editions 7–9 thread. Source: Korea Herald (9/10): https://www.koreaherald.com/article/10767083. Follow-up: contract conversion data.
+- **Astanor confirms $325M fund — Europe's largest agri-food-ocean fund (Venture):** Astanor (linking Standing Ovation + Planetary since Edition 9) confirmed a $325M fund, dwarfing Maia Ventures' €55M (Edition 9) and sharpening the "long tail + one giant" picture of European agrifoodtech VC. Source: Sifted (9/10): https://sifted.eu/articles/europe-largest-agriculture-fund. Follow-up: Astanor's positioning moves and cross-portfolio diligence (carried, Edition 10).
+- **Calm/Storm's Berlin/Copenhagen expansion lands inside this brief's own map (Venture):** Calm/Storm's €30M fund is expanding into Berlin (Formo's home base) and Copenhagen (15 minutes from MATR Foods' Ansager plant, Edition 8). Source: Sifted (9/10): https://sifted.eu/articles/calm-storm-closes-30m-fund. Follow-up: whether this expansion translates into direct sourcing access to either company.
+
+### New concepts in Julinka's working vocabulary
+EU novel-food vs. US GRAS timeline asymmetry ("the EU clock barely exists yet"); EU Biotech Act sandbox excluding novel foods; US-before-home-market sequencing as category default; distressed deep-tech infrastructure recycling / "build vs. buy"; regulatory-standing-as-moat; Unlimited's "ecological conditions of the present"; UPSIDE Foods (as acquirer); Believer Meats facility (in receivership); Astanor's $325M fund; Calm/Storm Berlin/Copenhagen expansion
+
+### Julinka's Angles Issued — Track Completion
+- [ ] Ask two pipeline companies whether go-to-market sequencing assumes EU-first, and whether it survives the EFSA-vs-GRAS gap — before 16 June *(sharpens carried Edition 9 "merge R&D" question with hard IFT FIRST deadline)*
+- [ ] Add "checked what's in receivership first" to standard capex diligence checklist *(new)*
+- [ ] With 3 days left, prioritise Unlimited over First Choice and identify one work speaking to the nature-credits thread *(resolves carried Editions 9–10 access-point decision)*
+- [ ] Request Astanor cross-portfolio comparison (Standing Ovation vs. Planetary) on regulatory-pathway stage and financing structure *(carried from Edition 10)*
+- [ ] Send outreach to IUCN NL re: Netherlands nature-credit pilot design questions *(carried from Edition 10)*
+- [ ] Message Pacifico Biolabs, Standing Ovation, The Bland Company — sourcing outreach *(carried from Editions 5–6)*
+- [ ] Write "The Ozempic Diet Needs Better Protein" (300 words) *(carried from Edition 4)*
+- [ ] Request Planetary technical documentation / BioBlocks publications *(carried from Edition 2)*
+- [ ] Draft "How to read a protein claim" essay *(carried from Edition 1)*
+- [ ] Start European regen-ag / natural-capital watch-list *(carried from Edition 1)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -563,6 +617,7 @@ IUCN NL; SG REFORM/DG ENV; nature-credit pilots as the roadmap-to-legislation de
 | 8 | 10 Jun 2026 | MATR Foods €40M raise — Novo Holdings + EIB add a fourth (process) architecture and a second axis to the fermentation map (Denmark, 6th country) | MATR Foods lead + "architecture × geography matrix" deep read, Art Basel Gold Awards (Baghramian/Mahama public commissions, 8-day countdown), European Committee of the Regions "supplement not substitute" nature-credits statement on Paris workshop day, EVERY Company eggs reach Walmart, precision-fermented dairy funding rebound (Vivici + 3 others), Seoul Food & Hotel day 2/4 (KOTRA directory still live), Paris Biodiversa+/Banque de France workshop convenes today | MATR Foods, EIFO, Novo Holdings (production-side), Art Basel Gold Awards, European Committee of the Regions, EVERY Company (Walmart) | Write architecture × geography matrix as sourcing thesis; find Paris-workshop contact with sharper "scope" question; see Mahama's Münsterplatz commission this week |
 | 9 | 11 Jun 2026 | Formo's casein enters active FDA GRAS review — the casein race gets its first regulatory gap, and a second clock starts in Brussels (Biotech Act II) | Formo/Those Vegan Cowboys lead + "two regulatory clocks" deep read, Planetary's $28M follow-on raise ($40M total, blended debt+equity echoing MATR), Art Basel First Choice window confirmed (5-day countdown), Brussels Biotech Act II call for evidence closes, Maia Ventures €55M agrifoodtech fund, Re:Invest in Nature at EU Green Week, Seoul Food & Hotel day 3/4 (KOTRA window closing) | Those Vegan Cowboys, WePlanet, EU Biotech Act II, Maia Ventures, Re:Invest in Nature, Planetary's new-round investors | Ask 2 pipeline companies about "merge R&D, compete on product"; Re:Invest in Nature outreach; choose Art Basel access point; KOTRA directory before close |
 | 10 | 12 Jun 2026 | IUCN launches live nature-credit pilots in Croatia, Netherlands, Poland — the roadmap (Ed. 2) becomes named instruments | IUCN nature-credits pilot lead, Art Basel Zero 10 digital-art sector ("The Condition," Trevor Paglen/Eli Scheinman, 4-day countdown), Debut/Oterra precision-fermented Red 40 alternative ("file before product" posture), Standing Ovation funding breakdown + Astanor cross-portfolio overlap with Planetary, Rem3dy Health €16M preventive-health raise, biodiversity sovereign-credit-risk figures, Unlimited confirmed at 59 projects | IUCN NL, SG REFORM/DG ENV, Trevor Paglen, Eli Scheinman, Zero 10, Debut, Oterra, Rem3dy Health | IUCN NL outreach (retires Ed. 3 Paris-contact action); Astanor cross-portfolio diligence request; attend Zero 10 Preview Day and record observation |
+| 11 | 13 Jun 2026 | Formo's US-before-EU casein sequencing exposes the EU's "novel food" regulatory gap, sharpened by the Biotech Act's sandbox exclusion | Formo/EU Biotech Act lead + "recycled infrastructure" deep read, UPSIDE Foods $50M bid for Believer Meats' NC plant (87.5% discount, cultivated meat's "second phase" priced), Art Basel First Choice confirmed (3-day countdown) + Unlimited's "ecological conditions of the present" framing, Seoul Food & Hotel closes ($650M consultations, +160%), Astanor's $325M fund confirmed, Calm/Storm's Berlin/Copenhagen expansion | UPSIDE Foods (acquirer), Believer Meats facility, Astanor $325M fund, Calm/Storm Berlin/Copenhagen | Ask 2 pipeline companies re: EU-first sequencing assumption (before 16 June); add receivership check to capex diligence; prioritise Unlimited over First Choice with 3 days left |
 
 ---
-*Last updated: Edition 10 — 12 June 2026*
+*Last updated: Edition 11 — 13 June 2026*
