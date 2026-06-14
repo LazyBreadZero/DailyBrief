@@ -603,6 +603,58 @@ EU novel-food vs. US GRAS timeline asymmetry ("the EU clock barely exists yet");
 
 ---
 
+## EDITION 12 — Sunday, 14 June 2026
+
+### Lead Story
+**Title:** Formo's FDA "No Questions" Letter Lands — the US Clock From Edition 9 Just Stopped. Brussels' Hasn't Started.
+**Pillar:** Food Science × Regulation × Venture Capital
+**Core argument:** Formo's recombinant αS1-casein (GRN 1312) has received its FDA "no questions" letter, the terminal stage of the GRAS notification sequence Editions 6, 9 and 11 tracked — completed roughly four weeks before Formo's IFT FIRST Chicago commercial debut (13–16 July). The four-stage GRAS sequence (self-determination / notification / active review / no-questions letter) becomes a dated benchmarking template; meanwhile the EU side of Edition 11's "two regulatory clocks" remains at zero EFSA Novel Food opinions and a Biotech Act sandbox that excludes novel foods — the asymmetry is now a completed comparison, not a forecast.
+**Key entities introduced:** None new (Formo, FDA, EFSA, EU Biotech Act previously introduced)
+**Key concepts introduced:** The four-stage GRAS sequence as a benchmarking tool; "one side of the ledger has a date stamped on it, the other does not yet have a process that produces dates"
+**Sources used:** FoodNavigator-USA (9/10): https://www.foodnavigator-usa.com/Article/2026/06/02/precision-fermented-casein-from-formo-advances-toward-us-market-after-fda-gras/ ; Flavorist (7/10): https://www.flavorist.com/animal-free-dairy-gets-a-boost-precision-fermentation-casein-clears-major-fda-hurdle/ ; FDA GRAS Notice Inventory GRN 1312 (10/10): https://www.fda.gov/grasnoticeinventory ; Green Queen (8/10): https://www.greenqueen.com.hk/formo-foods-precision-fermentation-casein-dairy-protein-self-gras-cheese/
+**Julinka's Angle delivered:** Benchmark every pipeline fermentation company against Formo's ~6-month notification-to-letter sequence; ask precisely which of the four GRAS stages each occupies with a dated estimate for the next stage
+**Follow-up threads to watch:** Formo's IFT FIRST Chicago debut (13–16 July); first sign the EU regulatory clock has actually started moving
+
+### Story 2
+**Title:** Two Days to Basel: First Choice and Zero 10's Preview Land in the Same Tuesday Hour
+**Pillar:** Art
+**Core argument:** First Choice (Tue 16 June, 11am–4pm) and Zero 10's Preview Day fall on the same day, two days from today — Edition 11's "three days out" countdown advances. Unlimited (Katrib, "ecological conditions of the present," Edition 11) is accessible across the fair's full run and doesn't require the Tuesday slot, turning the carried access decision into a three-way allocation (First Choice / Zero 10 / Unlimited) rather than a binary one.
+**Key entities introduced:** None new (Art Basel, Zero 10, Unlimited, Katrib, Paglen, Scheinman previously introduced)
+**Key concepts introduced:** Three-way Tuesday allocation (First Choice / Zero 10 preview / Unlimited's open run)
+**Sources used:** Art Basel Official (10/10): https://www.artbasel.com/stories/inside-art-basel-in-basel-2026-guide-events-artworks-experiences ; MCH Group — Zero 10 (9/10): https://www.mch-group.com/en/media/news/2026/zero-10-makes-its-swiss-premiere-at-art-basel-2026
+**Julinka's Angle delivered:** Decide today which of First Choice or Zero 10's preview is worth the gated Tuesday slot, since Unlimited can be visited on any other day — resolving three access-point questions with one decision
+**Follow-up threads to watch:** Tuesday allocation outcome and reception; whether Zero 10's "AI/computational systems" framing produces any cross-pillar observation relevant to the Deep Read's biomanufacturing thread
+
+### Story 3
+**Title:** The Pentagon Wants Microbes to Feed Troops — and a $9M Army Contract Just Made It a Buyer, Not Just a Funder
+**Pillar:** Venture Capital × Food Science × Defense
+**Core argument:** DARPA and the US Army are funding gas fermentation (microbes grown on hydrogen/CO2 rather than agricultural feedstocks) for field rations; the Army has a confirmed $9M contract with Biosphere (new entity) for gas-fermented protein, and DARPA's long-term goal is field-deployable bioreactor equipment. This adds a third "first customer" branch — defense procurement — to the consumer-retail and B2B-ingredient branches this brief has tracked, running on its own qualification clock entirely separate from FDA/EFSA.
+**Key entities introduced:** Biosphere (gas fermentation, US Army contract); DARPA biomanufacturing programme
+**Key concepts introduced:** Defense procurement as a third "first customer" branch, on its own regulatory clock; gas fermentation as feedstock-independence arbitrage (sibling to Pacifico Biolabs' "third architecture," Edition 5)
+**Sources used:** Green Queen (8/10): https://www.greenqueen.com.hk/biosphere-us-army-department-of-defense-war-gas-fermentation-protein-funding/ ; WUNC/American Homefront Project (8/10): https://www.wunc.org/military/2026-06-09/microbes-meals-pentagon-alternative-proteins-feed-troops ; Just The News (7/10): https://justthenews.com/government/federal-agencies/pentagon-funding-alternative-meat-protein-fungus-military-food-wh
+**Julinka's Angle delivered:** (covered in Deep Read) — watch for a second defense-fermentation contract as the signal this becomes a real third branch rather than a curiosity
+**Follow-up threads to watch:** Whether a second defense-adjacent fermentation contract appears; whether Pacifico Biolabs or another mapped company turns up as a counterparty
+
+### Intelligence Briefs
+- **Green Assist nature-credit pilots — France, Estonia, Peru (Nature/Finance):** A second, separate EU pilot track (distinct from IUCN's Croatia/NL/Poland, Edition 10) is already running wetland-restoration, forestry and exploratory pilots; expert-group certification methodology due "mid-2026" (now). Source: EU Commission Green Forum (10/10): https://green-forum.ec.europa.eu/green-business/nature-credits_en. Follow-up: whether IUCN and Green Assist tracks converge on shared methodology.
+- **SquareMind — Calm/Storm's first devices investment (Venture):** Disclosed 27 April 2026, in the devices-and-supplies category — Calm/Storm's first portfolio addition since closing its ~€50M AUM second fund in February. Source: EU-Startups (8/10): https://www.eu-startups.com/directory/calm-storm-ventures/. Follow-up: what SquareMind does, and whether this is a deliberate category expansion.
+- **AgZen — Astanor's first non-fermentation cross-portfolio company (Venture/AgTech):** Astanor backed AgZen's $10M Series B (led by DCVC Bio) for AI-driven precision-spraying hardware — extending the Astanor cross-portfolio map (Standing Ovation, Planetary, Edition 9–11) into agri-input hardware for the first time. Source: AgFunderNews (9/10): https://agfundernews.com/precision-spraying-startup-agzen-nets-10m-series-b-quantifiable-roi-drove-our-investment-says-dcvc-bio. Follow-up: whether Astanor's hardware and fermentation bets share a thesis.
+
+### New concepts in Julinka's working vocabulary
+The four-stage GRAS sequence (self-determination / notification / active review / no-questions letter); defense procurement as a third "first customer" branch; gas fermentation as feedstock-independence arbitrage; "adjacent-category drift" (specialist funds' first investments outside core thesis); Green Assist (EU nature-credit pilots, distinct from IUCN); Biosphere; SquareMind; AgZen
+
+### Julinka's Angles Issued — Track Completion
+- [ ] Benchmark pipeline fermentation companies against Formo's 6-month GRAS notification-to-letter sequence; get dated estimates for next stage *(new, sharpens carried Edition 9/11 regulatory-sequencing questions)*
+- [ ] Decide today: First Choice or Zero 10's preview for Tuesday's gated slot; visit Unlimited on a different day *(resolves carried Editions 9–11 access-point decision)*
+- [ ] Write half-page memo comparing SquareMind (Calm/Storm) and AgZen (Astanor) as twin instances of "adjacent-category drift" — ready before first week *(new)*
+- [ ] Message Pacifico Biolabs, Standing Ovation, The Bland Company — sourcing outreach *(carried from Editions 5–6)*
+- [ ] Write "The Ozempic Diet Needs Better Protein" (300 words) *(carried from Edition 4)*
+- [ ] Request Planetary technical documentation / BioBlocks publications *(carried from Edition 2)*
+- [ ] Draft "How to read a protein claim" essay *(carried from Edition 1)*
+- [ ] Start European regen-ag / natural-capital watch-list *(carried from Edition 1)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -618,6 +670,7 @@ EU novel-food vs. US GRAS timeline asymmetry ("the EU clock barely exists yet");
 | 9 | 11 Jun 2026 | Formo's casein enters active FDA GRAS review — the casein race gets its first regulatory gap, and a second clock starts in Brussels (Biotech Act II) | Formo/Those Vegan Cowboys lead + "two regulatory clocks" deep read, Planetary's $28M follow-on raise ($40M total, blended debt+equity echoing MATR), Art Basel First Choice window confirmed (5-day countdown), Brussels Biotech Act II call for evidence closes, Maia Ventures €55M agrifoodtech fund, Re:Invest in Nature at EU Green Week, Seoul Food & Hotel day 3/4 (KOTRA window closing) | Those Vegan Cowboys, WePlanet, EU Biotech Act II, Maia Ventures, Re:Invest in Nature, Planetary's new-round investors | Ask 2 pipeline companies about "merge R&D, compete on product"; Re:Invest in Nature outreach; choose Art Basel access point; KOTRA directory before close |
 | 10 | 12 Jun 2026 | IUCN launches live nature-credit pilots in Croatia, Netherlands, Poland — the roadmap (Ed. 2) becomes named instruments | IUCN nature-credits pilot lead, Art Basel Zero 10 digital-art sector ("The Condition," Trevor Paglen/Eli Scheinman, 4-day countdown), Debut/Oterra precision-fermented Red 40 alternative ("file before product" posture), Standing Ovation funding breakdown + Astanor cross-portfolio overlap with Planetary, Rem3dy Health €16M preventive-health raise, biodiversity sovereign-credit-risk figures, Unlimited confirmed at 59 projects | IUCN NL, SG REFORM/DG ENV, Trevor Paglen, Eli Scheinman, Zero 10, Debut, Oterra, Rem3dy Health | IUCN NL outreach (retires Ed. 3 Paris-contact action); Astanor cross-portfolio diligence request; attend Zero 10 Preview Day and record observation |
 | 11 | 13 Jun 2026 | Formo's US-before-EU casein sequencing exposes the EU's "novel food" regulatory gap, sharpened by the Biotech Act's sandbox exclusion | Formo/EU Biotech Act lead + "recycled infrastructure" deep read, UPSIDE Foods $50M bid for Believer Meats' NC plant (87.5% discount, cultivated meat's "second phase" priced), Art Basel First Choice confirmed (3-day countdown) + Unlimited's "ecological conditions of the present" framing, Seoul Food & Hotel closes ($650M consultations, +160%), Astanor's $325M fund confirmed, Calm/Storm's Berlin/Copenhagen expansion | UPSIDE Foods (acquirer), Believer Meats facility, Astanor $325M fund, Calm/Storm Berlin/Copenhagen | Ask 2 pipeline companies re: EU-first sequencing assumption (before 16 June); add receivership check to capex diligence; prioritise Unlimited over First Choice with 3 days left |
+| 12 | 14 Jun 2026 | Formo's FDA "no questions" letter lands — the US regulatory clock from Edition 9 reaches its terminal stage while the EU clock still hasn't started | Formo FDA milestone lead + "new buyer" deep read (Pentagon/DARPA gas-fermentation, Biosphere $9M Army contract), Art Basel First Choice + Zero 10 preview both land Tuesday (2-day countdown), Green Assist nature-credit pilots (France/Estonia/Peru) alongside IUCN's, Calm/Storm's SquareMind (first devices investment), Astanor's AgZen (first non-fermentation cross-portfolio company) | Biosphere, DARPA biomanufacturing programme, SquareMind, AgZen, Green Assist | Benchmark pipeline companies against Formo's GRAS sequence; decide Tuesday's First Choice/Zero 10/Unlimited allocation; write SquareMind/AgZen "adjacent-category drift" memo |
 
 ---
-*Last updated: Edition 11 — 13 June 2026*
+*Last updated: Edition 12 — 14 June 2026*
