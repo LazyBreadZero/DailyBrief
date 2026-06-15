@@ -655,6 +655,57 @@ The four-stage GRAS sequence (self-determination / notification / active review 
 
 ---
 
+## EDITION 13 — Monday, 15 June 2026
+
+### Lead Story
+**Title:** Calm/Storm's First "Devices" Bet Has a Name and a Face: SquareMind Is a Skin-Cancer Robot, and Intuitive Surgical's Founder Just Backed It Too
+**Pillar:** Venture Capital
+**Core argument:** Edition 12 flagged SquareMind as Calm/Storm's first "devices" investment without detail. It is a Paris-based AI-assisted full-body skin-scanning robot for early melanoma detection; its $18M round was led by Sonder Capital with Fred Moll (Intuitive Surgical founder) co-investing. Read past the database category, this is not a drift from "reactive to preventive" (Edition 11) — it is that mandate's first hardware instantiation. Paired with AgZen (Astanor's precision-spraying bet, also flagged Ed 12), the pattern is "AI-sensing convergence," not category drift: two funds finding the hardware expression of theses they already held.
+**Key entities introduced:** SquareMind (full detail), Sonder Capital, Fred Moll / Intuitive Surgical
+**Key concepts introduced:** "AI-sensing convergence" (refines/replaces Edition 12's "adjacent-category drift"); reading portfolio companies past their database category
+**Sources used:** Calm/Storm Ventures portfolio page (10/10): https://www.calmstorm.vc/portfolio/squaremind ; FinSMEs (7/10): https://www.finsmes.com/2026/04/squaremind-raises-18m-in-funding.html ; AgFunderNews (9/10, AgZen reference): https://agfundernews.com/precision-spraying-startup-agzen-nets-10m-series-b-quantifiable-roi-drove-our-investment-says-dcvc-bio
+**Julinka's Angle delivered:** Write the SquareMind/AgZen memo this week, retitled "AI-Sensing Convergence," ending with the metabolic-health sourcing question for Calm/Storm's nutrition-tech mandate
+**Follow-up threads to watch:** Whether a third AI-sensing-plus-actuation device appears at either fund (especially metabolic health at Calm/Storm) — the test for "convergence" graduating from hypothesis to pattern
+
+### Story 2 (Two-column · Art)
+**Title:** Tomorrow Is the Day: First Choice and Zero 10's Preview Both Land Tuesday — the Carried Decision Is Now a Same-Day One
+**Pillar:** Art
+**Core argument:** Edition 12's "two-day countdown" reaches zero — tomorrow (Tue 16 June) First Choice (11am-4pm + Preview 4-8pm) and Zero 10's Preview Day (now confirmed at its largest-ever scale, 20 exhibitors, Paglen/Scheinman-curated) both land. Unlimited (Katrib, 59 projects) is accessible all week and doesn't need tomorrow's slot, leaving a binary First Choice vs. Zero 10 choice for tomorrow morning.
+**Key entities introduced:** None new (Art Basel, Zero 10, Paglen, Scheinman, Katrib previously introduced)
+**Key concepts introduced:** None new
+**Sources used:** Art Basel Official (10/10): https://www.artbasel.com/stories/inside-art-basel-in-basel-2026-guide-events-artworks-experiences ; Art Basel — Zero 10 (10/10): https://www.artbasel.com/stories/art-basel-announces-artist-trevor-paglen-as-curator-of-zero-10-at-art-basel-s-inaugural-edition-in-switzerland-alongside-eli-scheinman
+**Julinka's Angle delivered:** Decide tonight (not tomorrow morning) between First Choice and Zero 10's Preview Day for tomorrow's gated slot, with Unlimited reserved for another day — Zero 10 is the tie-breaker if no other factor decides
+**Follow-up threads to watch:** Tuesday allocation outcome and reception
+
+### Story 3 (Two-column · Nature)
+**Title:** UNEP Puts a Number on the Imbalance: $30 Flows to Destroying Nature for Every $1 That Protects It
+**Pillar:** Nature / Finance
+**Core argument:** UNEP's State of Finance for Nature 2026 quantifies the gap behind Edition 1's biodiversity-credit figures: nature-based solutions finance needs to roughly 2.5x to $571bn/year by 2030 (0.5% of global GDP); nature-harmful finance reached $7.3tn in 2023 — a 30:1 degradation-to-protection ratio. Restoration finance needs to roughly quadruple ($64bn 2022 → $296bn 2030). The "Nature Transition X-Curve" framework proposes redirecting existing harmful flows rather than only raising new capital — a usable lens for evaluating nature-finance pitches.
+**Key entities introduced:** UNEP State of Finance for Nature 2026 report; Nature Transition X-Curve framework
+**Key concepts introduced:** The 30:1 nature degradation-to-protection finance ratio; X-Curve as a pitch-evaluation lens (redirect existing harmful flow vs. compete for scarce protection-side capital)
+**Sources used:** UNEP (10/10): https://www.unep.org/resources/state-finance-nature-2026 ; Nature4Climate (8/10): https://nature4climate.org/unep-state-of-finance-for-nature-2026/
+**Julinka's Angle delivered:** (contextual — informs Calm/Storm climate-mandate evaluation lens, not a standalone numbered angle this edition)
+**Follow-up threads to watch:** Whether IUCN and Green Assist nature-credit pilots (Editions 10, 12) get evaluated against the X-Curve framework as certification methodology lands mid-2026
+
+### Intelligence Briefs
+- **Gourmey's EFSA clock, two years in (Food/Regulation):** Filed July 2024 (~18-month estimate), still no EFSA opinion — now ~2x overshot, with no published timeline. Reinforces Editions 11-12's "two regulatory clocks" (US dated sequence vs. EU clock with no process producing dates). Source: Green Queen (8/10) https://www.greenqueen.com.hk/gourmey-lab-grown-meat-cultivated-foie-gras-eu-regulatory-approval/ ; EIT Food (8/10). Follow-up: any EFSA scheduling signal for Gourmey's dossier.
+- **K-food's $16bn 2026 target complicated by Middle East cooling (Food/Culture):** Middle East demand (a 2025 growth market) is softening even as Europe/Latin America/Oceania grow ~10% YoY — a composition shift within the export strategy Edition 1 logged, not a collapse. Source: FoodNavigator-Asia (9/10) https://www.foodnavigator-asia.com/Article/2026/04/21/k-food-exports-set-to-take-major-hit-after-losing-middle-east-growth/. Follow-up: Europe growth acceleration as substitution effect; named K-food brand DACH entries.
+- **"Powerhouse Protein" — Innova's #1 2026 trend gives the carried "Ozempic protein" thesis industry consensus (Food/Nutrition):** GLP-1-driven protein demand named Innova's top global trend for 2026 — the speculative framing behind Edition 4's unwritten "Ozempic Diet Needs Better Protein" essay is now mainstream. Source: WholeFoods Magazine (7/10) https://www.wholefoodsmagazine.com/articles/17986-whats-driving-functional-foods-and-beverages-in-2026-protein-glp-1-gut-health-and-personalization. Follow-up: which fermentation-derived proteins on this brief's map are positioning for GLP-1-adjacent formulation.
+
+### New concepts in Julinka's working vocabulary
+"AI-sensing convergence" (replaces "adjacent-category drift," Edition 12); reading portfolio companies past their database category; the 30:1 nature degradation-to-protection finance ratio; Nature Transition X-Curve as a pitch-evaluation lens; Gourmey's EFSA overshoot as live evidence for "two regulatory clocks"; "Powerhouse Protein" (Innova's 2026 trend name)
+
+### Julinka's Angles Issued — Track Completion
+- [ ] Write the SquareMind/AgZen "AI-Sensing Convergence" memo this week, ending with the Calm/Storm metabolic-health sourcing question *(reframes carried Edition 12 action)*
+- [ ] Decide tonight: First Choice vs. Zero 10's Preview Day for tomorrow's gated Tuesday slot; Unlimited on another day; Zero 10 is the tie-breaker *(resolves carried Editions 9-12 access-point decision)*
+- [ ] Write "The Ozempic Diet Needs Better Protein" (300 words) this week, with the fermentation-supply angle, before the trend becomes generic *(carried from Edition 4, now urgent)*
+- [ ] Message Pacifico Biolabs, Standing Ovation, The Bland Company — sourcing outreach *(carried from Editions 5-6)*
+- [ ] Request Planetary technical documentation / BioBlocks publications *(carried from Edition 2)*
+- [ ] Draft "How to read a protein claim" essay *(carried from Edition 1)*
+- [ ] Start European regen-ag / natural-capital watch-list *(carried from Edition 1)*
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -671,6 +722,7 @@ The four-stage GRAS sequence (self-determination / notification / active review 
 | 10 | 12 Jun 2026 | IUCN launches live nature-credit pilots in Croatia, Netherlands, Poland — the roadmap (Ed. 2) becomes named instruments | IUCN nature-credits pilot lead, Art Basel Zero 10 digital-art sector ("The Condition," Trevor Paglen/Eli Scheinman, 4-day countdown), Debut/Oterra precision-fermented Red 40 alternative ("file before product" posture), Standing Ovation funding breakdown + Astanor cross-portfolio overlap with Planetary, Rem3dy Health €16M preventive-health raise, biodiversity sovereign-credit-risk figures, Unlimited confirmed at 59 projects | IUCN NL, SG REFORM/DG ENV, Trevor Paglen, Eli Scheinman, Zero 10, Debut, Oterra, Rem3dy Health | IUCN NL outreach (retires Ed. 3 Paris-contact action); Astanor cross-portfolio diligence request; attend Zero 10 Preview Day and record observation |
 | 11 | 13 Jun 2026 | Formo's US-before-EU casein sequencing exposes the EU's "novel food" regulatory gap, sharpened by the Biotech Act's sandbox exclusion | Formo/EU Biotech Act lead + "recycled infrastructure" deep read, UPSIDE Foods $50M bid for Believer Meats' NC plant (87.5% discount, cultivated meat's "second phase" priced), Art Basel First Choice confirmed (3-day countdown) + Unlimited's "ecological conditions of the present" framing, Seoul Food & Hotel closes ($650M consultations, +160%), Astanor's $325M fund confirmed, Calm/Storm's Berlin/Copenhagen expansion | UPSIDE Foods (acquirer), Believer Meats facility, Astanor $325M fund, Calm/Storm Berlin/Copenhagen | Ask 2 pipeline companies re: EU-first sequencing assumption (before 16 June); add receivership check to capex diligence; prioritise Unlimited over First Choice with 3 days left |
 | 12 | 14 Jun 2026 | Formo's FDA "no questions" letter lands — the US regulatory clock from Edition 9 reaches its terminal stage while the EU clock still hasn't started | Formo FDA milestone lead + "new buyer" deep read (Pentagon/DARPA gas-fermentation, Biosphere $9M Army contract), Art Basel First Choice + Zero 10 preview both land Tuesday (2-day countdown), Green Assist nature-credit pilots (France/Estonia/Peru) alongside IUCN's, Calm/Storm's SquareMind (first devices investment), Astanor's AgZen (first non-fermentation cross-portfolio company) | Biosphere, DARPA biomanufacturing programme, SquareMind, AgZen, Green Assist | Benchmark pipeline companies against Formo's GRAS sequence; decide Tuesday's First Choice/Zero 10/Unlimited allocation; write SquareMind/AgZen "adjacent-category drift" memo |
+| 13 | 15 Jun 2026 | SquareMind revealed as an AI dermatology-robotics bet (Fred Moll co-investing) — "adjacent-category drift" reframed as "AI-sensing convergence" with AgZen | SquareMind/AgZen "AI-sensing convergence" lead + deep read, Art Basel First Choice/Zero 10 Preview Day both land tomorrow (0-day countdown), UNEP State of Finance for Nature 2026 (30:1 degradation-to-protection ratio), Gourmey's EFSA clock 2x overshot, K-food Middle East cooling, Innova "Powerhouse Protein" 2026 trend | SquareMind (full detail), Sonder Capital, Fred Moll/Intuitive Surgical, UNEP State of Finance for Nature 2026, Nature Transition X-Curve | Write "AI-Sensing Convergence" memo; decide tonight First Choice vs. Zero 10 for tomorrow; write "Ozempic Diet" essay this week |
 
 ---
-*Last updated: Edition 12 — 14 June 2026*
+*Last updated: Edition 13 — 15 June 2026*
