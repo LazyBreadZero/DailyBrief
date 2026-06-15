@@ -45,8 +45,8 @@ PERSISTENCE — read from the clone, commit with plain git (NOT WebFetch, NOT SS
 ═══ BRIEF 2 — APPETITE (Julinka) · files in julinka/ ═══
 8. Read (from the working copy): julinka/briefing_goal.md, julinka/briefing_system_prompt.md, julinka/briefing_archive.md, julinka/email_template.html.
 9. Memory + continuity as above.
-10. 5–8 web searches across the four pillars (Venture Capital, Food, Art, Nature).
-11. Write the full HTML briefing to julinka/briefings/<DATE_ISO>.html.
+10. Gather widely, then cut hard (see SOURCING + SELECTION in julinka/briefing_system_prompt.md): lead from primary/tier-one sources (fund + company disclosures, Crunchbase/Sifted/AgFunderNews, FoodNavigator, EFSA/EU novel-food register, The Art Newspaper, UNEP/IUCN, journals; FT/Economist/Bloomberg where reachable), use sector blogs only to discover a story then verify/cite the primary one. Run the open "what matters most today across her four worlds" query plus a rotating lens (capital / food-science-regulation / art-market / nature-finance). The four pillars are a map, not a quota.
+11. Rank candidates by significance and apply the 80/20 bar: print ONLY what clears it. No pillar quota; a running thread is a story only if it MOVED (never print countdowns or "still no decision"). The Angle is 1–3 moves anchored to TODAY's news — no carried/accumulating to-do list. Length tracks the signal — a one-story edition on a quiet day is correct, not thin. Write the self-contained HTML briefing (sized to the news, short days allowed) to julinka/briefings/<DATE_ISO>.html.
 12. Append today's edition block to julinka/briefing_archive.md; update the table.
 13. Commit + push both files to main with "git push origin HEAD:main" (one commit), message "Appetite — <DATE_LONG>".
 14. EMAIL: fill julinka/email_template.html (tokens {{DATE_ISO}},{{DATE_LONG}},{{EDITION}},{{LEAD_KICKER}},{{HEADLINE}},{{DECK}},{{BULLET_1..4}} as "<b>Pillar</b> — one line",{{DEEP_READ}}). Button link MUST be https://lazybreadzero.github.io/DailyBrief/julinka/briefings/<DATE_ISO>.html . Send to julinkacannes@gmail.com, subject "Appetite — <DATE_LONG>". Preview + button only.

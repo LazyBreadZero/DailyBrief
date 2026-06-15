@@ -52,3 +52,7 @@ What FT/The Economist actually do that the brief stopped doing: **lead with the 
 - **A leaner Angle.** One provocation most days, tied to a real development, in plain language.
 
 The machinery (HTML design, email teaser, git persistence, archive format) is unchanged — it works.
+
+## Appetite (Julinka) got the same treatment
+
+The sister brief in `julinka/` had the identical disease — measurably so: "Edition N" self-references ran 8 → 28 → **41** across Editions 9, 14, 15, and "carried / countdown / still no decision" guilt language ran 0 → 15 → 11. The same fixes were applied to `julinka/briefing_system_prompt.md` and `julinka/briefing_goal.md`: tiered sourcing, rotating sweep, the 80/20 bar, flexible length, rare Deep Reads, the named-AI-tells ban, and inverted continuity. One deliberate difference: *Appetite*'s stated job is to **mobilise** (Julinka wants a usable move for her week), so its Angle stays action-oriented — but the **accumulating, guilt-laden to-do list** ("carried since Edition 4," "decide tonight") is abolished; moves are now anchored to each day's news only, with no carried items and no completion-checkbox tracker.
