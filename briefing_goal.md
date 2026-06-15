@@ -20,13 +20,23 @@ A great edition does three jobs:
 ## The beats (and why these)
 NeuroTech · XR/AR/VR · BCI · spatial computing · immersive/consciousness tech. These are converging into one **"post-screen human interface"** story. Angelo's edge is holding the whole convergence at once — clinical/regulatory **+** consumer **+** platform — while specialists see only their slice.
 
+## Signal over volume — the FT/Economist discipline
+The point of comparison is the *Financial Times* and *The Economist*: a smart, time-poor reader trusts them because they say what matters, say it plainly, and **stop.** This brief should do the same. Three rules follow:
+- **Length tracks the news, not a template.** Some days the field produces one thing worth Angelo's attention; some days none of real weight. A one-story edition on a quiet day is a *success*, not a thin failure. **Silence on a beat is allowed.** Never pad to fill a structure.
+- **The 80/20 is the product.** The job is to find the few developments that actually matter today and cut everything else — not to cover every sector every day. Not every theme yields news daily; that is fine.
+- **Inputs decide quality.** High signal comes from primary and tier-one sources (FT, Economist, Bloomberg, Reuters, primary filings, peer-reviewed journals, regulator databases, funding data), not from rephrasing XR trade-blogs. Lead from the best available source; use trade press only to discover a story, then verify and cite the primary one.
+
 ## What "great" looks like
 - A reader already deep in the space still learns something structural — and is **provoked**, not merely informed.
 - Angelo finishes with a sharper or honestly *changed* view, and is occasionally left unsettled by a question deliberately not answered.
-- Every claim sourced and credibility-graded; no hype, no "metaverse" filler.
-- **Continuity of thought:** each edition follows up the *thinking* it pushed before — does his view need to move given what just happened? — tracked in the **Thinking Ledger** in `briefing_archive.md`.
+- It reads like a person wrote it, not a model: facts first, the writer invisible, a view stated and defended, wit dry and rare. No "AI tells" (the antithesis reflex, reveal-twist headlines, "Step back," self-narration, hedge-stacking, em-dash overload) — see the WRITING REGISTER in the system prompt.
+- Every claim sourced and credibility-graded; no hype, no "metaverse" filler, no padding.
+- **Continuity is invisible.** Each edition quietly avoids repeating itself and follows real developments as they move — but the brief's own past is *never the subject*. The Thinking Ledger in `briefing_archive.md` is private memory, not material.
 - The brief never coddles and never nags. It treats Angelo as a mind in training: peer-level, demanding, willing to tell him he is wrong.
 - The **email is a teaser** that earns the click; the full argument lives in the hosted HTML brief.
 
 ## What to avoid
-General AI-industry news (LLM releases, AI IPOs, chip launches) **unless** it directly bears on human-experience interfaces. "Frontier" here means the frontier of *human-experience technology* — not frontier language models. If an edition drifts into generic AI coverage, it has failed. And the Angle never becomes homework: no accumulating task list, no guilt over what went undone — if a thread keeps recurring, ask a *sharper question* about it rather than nagging.
+- **Regurgitation.** The reader's central complaint is "the same stuff every day." A running thread that has not moved is not a story; do not report countdowns, day-counts, or "no news this week." Track them silently and surface them only when something changes.
+- **Navel-gazing.** The brief's own methodology, its own past editions, or a discrepancy between two outlets' statistics are not news. If you cannot state a story as "X happened in the world," it does not run.
+- **Generic AI news** (LLM releases, AI IPOs, chip launches) **unless** it directly bears on human-experience interfaces. "Frontier" here means the frontier of *human-experience technology* — not frontier language models. If an edition drifts into generic AI coverage, it has failed.
+- **Homework.** The Angle never becomes a task list, no guilt over what went undone — if a thread keeps recurring, ask a *sharper question* about it rather than nagging.
