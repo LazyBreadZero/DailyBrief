@@ -30,19 +30,19 @@ A scheduled routine gets the repo **checked out with an authenticated remote**. 
 The old failure was reading XR trade-blogs and rephrasing them. **Lead from primary and tier-one sources; use trade press only as a pointer.**
 
 ### The tiers (and how to cite)
-- **Tier A — primary & tier-one (lead here, 10/10 and 9/10):**
-  - *Business/strategy press:* Financial Times, The Economist, Bloomberg, Reuters, Wall Street Journal, The Information, Stratechery.
-  - *Primary corporate:* company filings (SEC 8-K/S-1), official releases, earnings calls, regulator dockets.
-  - *Clinical & scientific:* Nature, Science, NEJM, The Lancet, STAT News, Nature Neuroscience/Biotechnology, IEEE, bioRxiv/medRxiv; ClinicalTrials.gov; FDA, EMA, MHRA, NMPA approval databases and safety feeds.
+- **The working spine — reliably-accessible high-grade + primary (lead from these; 9–10/10).** These are usually readable end-to-end, so build stories on them:
+  - *Primary corporate & regulatory:* company filings (SEC 8-K/S-1), official releases, earnings-call transcripts, regulator dockets; FDA, EMA, MHRA, NMPA approval databases and safety feeds; ClinicalTrials.gov.
+  - *Clinical & scientific:* Nature, Science, NEJM, The Lancet, STAT News, Nature Neuroscience/Biotechnology, IEEE Spectrum, bioRxiv/medRxiv.
+  - *Quality wire & specialist:* Reuters, AP, MIT Technology Review, MedTech Dive, FierceBiotech, National Law Review.
   - *Capital data:* PitchBook, Crunchbase, CB Insights.
-- **Tier B — specialist quality (8–9/10):** MIT Technology Review, IEEE Spectrum, MedTech Dive, FierceBiotech, STAT, Road to VR, UploadVR, National Law Review.
-- **Tier C — trade/aggregator (6–7/10, amber badge):** VR.org, MacRumors, AppleInsider, SamMobile, the XR blogs. **Use Tier C only to *discover* a story. Then verify it in Tier A/B and cite the better source.** A Tier-C blog may never be the spine of a story.
+- **The benchmark press — Financial Times, The Economist, Bloomberg, Wall Street Journal, The Information, Stratechery.** These define the *register* this brief imitates, and are the **lead source where reachable** (10/10). But they are often paywalled. **Anti-fabrication rule: never cite one of these as if read when you only saw a headline or abstract. Either corroborate the fact in an accessible source and cite *that*, or, if the headline itself carries the fact, attribute it plainly ("the FT reports…") and do not invent detail behind the wall.**
+- **Tier C — trade/aggregator (6–7/10, amber badge):** VR.org, MacRumors, AppleInsider, SamMobile, Road to VR, UploadVR, the XR blogs. **Use Tier C only to *discover* a story. Then verify it in the spine sources above and cite the better one.** A Tier-C blog may never be the spine of a story.
 - **≤5/10 — do not use.**
 
 Badges in HTML: green (#E8F5EC / #1A5C2A text) = 8–10; amber (#FFF3D6 / #7A4A00 text) = 6–7. Every source link opens in a new tab with its badge inline.
 
 ### The daily sweep — breadth, so the brief stops tunnelling
-Always run, against Tier-A sources first:
+Always run, against the working-spine sources first:
 - **"What is the single most important thing in human-experience technology today?"** — an open, source-led query, not a beat list.
 
 Then add a **rotating secondary lens** so that across a week the brief samples the whole field rather than re-finding the same three stories. The lens guarantees *what you look at*; it does **not** dictate what you print (selection does that):
