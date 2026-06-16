@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Tuesday, 16 June 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  /* gingham rule: SVG via background */
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+    margin: 0 0 0 0;
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; }
+  h2.section-headline { font-family: 'Fraunces', Georgia, serif; font-size: 24px; font-weight: 700; color: #1F1B16; line-height: 1.25; margin-bottom: 12px; margin-top: 36px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .highlight-block { background: #F4E8C9; border-radius: 6px; padding: 18px 22px; margin: 24px 0; }
+  .highlight-block p { font-size: 16px; margin-bottom: 0; color: #4A4036; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-box .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .intel-grid { display: grid; grid-template-columns: 1fr; gap: 0; }
+  .intel-item { border-top: 1px solid #E5DAC4; padding: 18px 0; }
+  .intel-item:last-child { border-bottom: 1px solid #E5DAC4; }
+  .intel-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 5px; }
+  .intel-item p { font-size: 15.5px; line-height: 1.65; margin-bottom: 0; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Tuesday, 16 June 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 14</span>
+    <span class="dateline-right">Venture &middot; Food &middot; Art &middot; Nature</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Art</div>
+    <h1 class="lead-headline">Art Basel Opens Today — Zero 10 and First Choice Land in the Same Hour</h1>
+
+    <p>By 11am this morning, two events were running simultaneously at Messe Basel. The First Choice Preview window opened — 193 galleries unveiling Basel Exclusive-reserved works for the first time, the engineered-scarcity mechanism that has brought the discovery premium back to the physical fair after years of drift toward online viewing rooms. At the same time, Trevor Paglen and Eli Scheinman&rsquo;s Zero 10 digital art sector opened its preview day in the Event Hall across from Unlimited, under the theme &ldquo;The Condition.&rdquo;
+    <a href="https://www.artbasel.com/stories/inside-art-basel-in-basel-2026-guide-events-artworks-experiences" target="_blank" class="source-badge badge-green">Art Basel (10/10)</a>
+    <a href="https://www.artbasel.com/basel/zero-10" target="_blank" class="source-badge badge-green">Zero 10 (10/10)</a></p>
+
+    <p>Zero 10 is the more interesting allocation for today. Paglen describes the programme as examining &ldquo;life in a world saturated by digital imagery, computational systems and artificial intelligence&rdquo; — AI as a subject of artistic inquiry, not a production tool. The 20 exhibitors include Hito Steyerl, Andreas Gursky, Vera Moln&aacute;r, Ryoji Ikeda, and Agnieszka Kurant; Paglen himself works with surveillance imagery and the physical geography of global data infrastructure. Zero 10&rsquo;s preview today is the one first-access window for this sector; it is then open to the public June 17&ndash;19 and ticketed June 20&ndash;21. First Choice and Unlimited run through the fair&rsquo;s full duration, which removes the urgency from both.</p>
+
+    <p>The intellectual overlap with the rest of this brief&rsquo;s territory is not decorative. The EU nature-credits pilot design currently underway in Croatia, the Netherlands and Poland (a process tracked across several editions) is essentially a methodology question: what does computational verification of a natural process actually measure, and what does it miss? Paglen&rsquo;s curation poses the same question aesthetically &mdash; what do computational systems do to our understanding of the natural world when they become the lens through which we observe it? The art and the policy analysis share an epistemological preoccupation. Being in the room when both are live is an unusual cross-pillar moment.</p>
+
+    <p>Ibrahim Mahama&rsquo;s Gold Award commission (M&uuml;nsterplatz, jute sacks from West African agricultural trade routes) and Ruba Katrib&rsquo;s Unlimited (59 projects framed around &ldquo;the political, social, ecological, and spatial conditions of the present&rdquo;) are both accessible across the week. They can wait. Zero 10&rsquo;s preview window is today.</p>
+
+    <hr class="divider" />
+
+    <div class="kicker">Intelligence Briefs</div>
+
+    <div class="intel-grid">
+      <div class="intel-item">
+        <div class="intel-label">Venture &middot; Food &middot; Market Structure</div>
+        <p><strong>DigitalFoodLab Q1 2026: corporates are back at the foodtech table.</strong> The Q1 2026 report shows corporate strategics reclaiming deal flow through partnerships and acquisitions rather than pure-VC early-stage rounds. Rem3dy Health&rsquo;s &euro;16M from Suntory, Estrella Galicia, and Apollo Hospitals is the pattern: brand-adjacent corporations arriving at proof-of-concept stage rather than founding stage. For Calm/Storm, this is a co-investor landscape shift: strategic money now moves at Series A-equivalent speed when the science is clear. Formo&rsquo;s GRAS letter and Fermotein&rsquo;s EU regulatory clock are the proof points that may draw the next wave of corporate money into the fermentation protein category before year-end.
+        <a href="https://digitalfoodlab.com/q1-2026-funding-corporates-take-back-control/" target="_blank" class="source-badge badge-green">DigitalFoodLab (9/10)</a></p>
+      </div>
+      <div class="intel-item">
+        <div class="intel-label">Food &middot; Regulation &middot; Dates</div>
+        <p><strong>Formo IFT FIRST Chicago: 27 days.</strong> Commercial debut of GRAS-cleared recombinant casein (GRN 1312), July 13&ndash;16. This is the first public commercial showing of a precision-fermented protein that has cleared the full US GRAS sequence. Standing Ovation&rsquo;s GRAS application is still pending. The gap between one clock stopped and one clock not yet started remains the sharpest data point in the category&rsquo;s regulatory landscape.
+        <a href="https://www.foodnavigator-usa.com/Article/2026/06/02/precision-fermented-casein-from-formo-advances-toward-us-market-after-fda-gras/" target="_blank" class="source-badge badge-green">FoodNavigator-USA (9/10)</a></p>
+      </div>
+      <div class="intel-item">
+        <div class="intel-label">Nature &middot; Finance &middot; Policy</div>
+        <p><strong>EU nature-credits expert group: technical criteria now overdue.</strong> The expert group mandate specified &ldquo;mid-2026&rdquo; for its technical criteria and methodological framework. Today falls inside that window with no publication announced. The IUCN pilots in Croatia, the Netherlands and Poland continue; the Green Assist pilots in France, Estonia and Peru continue. The observation that matters is that the design window is open precisely while the specification is delayed &mdash; which is when the early-mover input has the most leverage.
+        <a href="https://iucn.org/news/202606/iucn-launches-eu-funded-project-explore-potential-nature-credits-three-eu-member-states" target="_blank" class="source-badge badge-green">IUCN (10/10)</a></p>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <span class="angle-num">1</span>
+        <span class="angle-move-text">Go to Zero 10 today &mdash; not First Choice, not Unlimited, not the Mahama commission. Find one work that shows a computational system making a decision about a natural or biological system (landscape, organism, field data). Write one paragraph describing what the work does and what it gets wrong or right about verification. This paragraph is the raw material for the IUCN NL outreach: what does field-level nature verification actually look like when digitally mediated, from someone who has seen both a real fermentation plant and a Paglen photograph.</span>
+      </div>
+      <div class="angle-move">
+        <span class="angle-num">2</span>
+        <span class="angle-move-text">Ask one Calm/Storm-adjacent company this week whether their next financing round is expecting a corporate strategic or a pure-VC lead &mdash; the DigitalFoodLab Q1 data suggests the answer is shifting. This is a sourcing question, not a pitch. The answer tells you something about where the valuation conversation currently sits.</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
