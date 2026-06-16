@@ -706,6 +706,39 @@ The four-stage GRAS sequence (self-determination / notification / active review 
 
 ---
 
+## EDITION 14 — Tuesday, 16 June 2026
+
+### Lead Story
+**Title:** Art Basel Opens Today — Zero 10 and First Choice Land in the Same Hour
+**Pillar:** Art
+**Core argument:** Art Basel VIP First Choice Preview (11am–4pm) and Zero 10's Preview Day both opened today simultaneously at Messe Basel — the culmination of 13 editions of Art Basel preparation. Zero 10 (Trevor Paglen + Eli Scheinman, "The Condition") opens as the most timely allocation: 20 exhibitors examining AI/computation as an artistic *subject* (not a tool), including Hito Steyerl, Andreas Gursky, Vera Molnár, Ryoji Ikeda, Agnieszka Kurant. Zero 10 preview is today only; First Choice and Unlimited run through the fair's full duration. Paglen's framing — what computational systems do to our understanding of the natural world when they become the lens through which we observe it — directly overlaps the epistemological question at the centre of the IUCN nature-credits pilot design.
+**Key entities introduced:** None new (Paglen, Scheinman, Zero 10, Katrib, Unlimited, Art Basel all previously introduced)
+**Key concepts introduced:** Zero 10 as AI/computation-as-subject (not method); Paglen's curation as epistemological bridge between digital-art and nature-credit-verification debates
+**Sources used:** Art Basel Official (10/10): https://www.artbasel.com/stories/inside-art-basel-in-basel-2026-guide-events-artworks-experiences; Zero 10 (10/10): https://www.artbasel.com/basel/zero-10; Art Basel — Paglen (10/10): https://www.artbasel.com/stories/digital-art-artists-trevor-paglen-art-basel-zero-10
+**Angle delivered:** Attend Zero 10 preview today (not First Choice); find one work visualising computation making decisions about a natural system; write one paragraph on it before Thursday — this is the IUCN NL outreach raw material
+**Follow-up threads to watch:** Art Basel sales report post-fair (mid-late June); whether Zero 10's "computation as subject" framing produces any crossover commentary with nature-finance; Unlimited's "ecological conditions of the present" reception
+
+### Intelligence Briefs
+**Brief 1 — DigitalFoodLab Q1 2026 (Venture/Food):** Corporate strategics reclaiming foodtech deal flow — more partnerships and acquisitions, less pure-VC early-stage. Rem3dy Health (€16M, Suntory/Estrella Galicia/Apollo) was the signal; macro data confirms it. For Calm/Storm, co-investor landscape shifting: strategic money now moves at Series A speed when science is clear. Sources: DigitalFoodLab (9/10): https://digitalfoodlab.com/q1-2026-funding-corporates-take-back-control/. Follow-up: which fermentation-protein company draws first corporate strategic at scale.
+**Brief 2 — Formo IFT FIRST Chicago countdown (Food/Regulation):** 27 days to July 13–16 Formo commercial debut. First public showing of GRAS-cleared (GRN 1312) recombinant casein. Standing Ovation GRAS application still pending. The one-sided regulatory clock from Edition 11 is now a countdown. Sources: FoodNavigator-USA (9/10). Follow-up: Formo debut; whether Standing Ovation files before Formo's show.
+**Brief 3 — EU nature-credits technical criteria (Nature/Policy):** Expert group mid-2026 deadline now passed with no publication announced. IUCN pilots (Croatia/NL/Poland) and Green Assist pilots (France/Estonia/Peru) continue. The design window is open precisely while the specification is delayed — maximum early-mover input leverage. Sources: IUCN (10/10). Follow-up: expert group publication date.
+
+### New concepts in Julinka's working vocabulary
+None new this edition — Zero 10 and DigitalFoodLab structural shift previously noted; the "corporates taking back control" finding is the first macro confirmation of the Rem3dy pattern
+
+### Running-thread tracker
+- Art Basel 2026 (sales report) — VIP preview open today and tomorrow; public June 18–21; post-fair sales report due mid-late June
+- Zero 10 / Paglen "The Condition" — preview today; public June 17–19; ticketed June 20–21
+- Unlimited (Katrib, 59 projects, "ecological conditions of the present") — accessible all week
+- Formo IFT FIRST Chicago — July 13–16 (27 days); first commercial showing of GRAS-cleared casein
+- UPSIDE Foods / Believer Meats auction — competing bids due July 20, auction July 28
+- EU nature-credits technical criteria — expert group deliverable overdue; IUCN + Green Assist pilots ongoing
+- Astanor cross-portfolio diligence (Standing Ovation + Planetary + AgZen) — ongoing
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing; Formo (Berlin) and MATR (near Copenhagen) within sourcing range
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -723,6 +756,7 @@ The four-stage GRAS sequence (self-determination / notification / active review 
 | 11 | 13 Jun 2026 | Formo's US-before-EU casein sequencing exposes the EU's "novel food" regulatory gap, sharpened by the Biotech Act's sandbox exclusion | Formo/EU Biotech Act lead + "recycled infrastructure" deep read, UPSIDE Foods $50M bid for Believer Meats' NC plant (87.5% discount, cultivated meat's "second phase" priced), Art Basel First Choice confirmed (3-day countdown) + Unlimited's "ecological conditions of the present" framing, Seoul Food & Hotel closes ($650M consultations, +160%), Astanor's $325M fund confirmed, Calm/Storm's Berlin/Copenhagen expansion | UPSIDE Foods (acquirer), Believer Meats facility, Astanor $325M fund, Calm/Storm Berlin/Copenhagen | Ask 2 pipeline companies re: EU-first sequencing assumption (before 16 June); add receivership check to capex diligence; prioritise Unlimited over First Choice with 3 days left |
 | 12 | 14 Jun 2026 | Formo's FDA "no questions" letter lands — the US regulatory clock from Edition 9 reaches its terminal stage while the EU clock still hasn't started | Formo FDA milestone lead + "new buyer" deep read (Pentagon/DARPA gas-fermentation, Biosphere $9M Army contract), Art Basel First Choice + Zero 10 preview both land Tuesday (2-day countdown), Green Assist nature-credit pilots (France/Estonia/Peru) alongside IUCN's, Calm/Storm's SquareMind (first devices investment), Astanor's AgZen (first non-fermentation cross-portfolio company) | Biosphere, DARPA biomanufacturing programme, SquareMind, AgZen, Green Assist | Benchmark pipeline companies against Formo's GRAS sequence; decide Tuesday's First Choice/Zero 10/Unlimited allocation; write SquareMind/AgZen "adjacent-category drift" memo |
 | 13 | 15 Jun 2026 | SquareMind revealed as an AI dermatology-robotics bet (Fred Moll co-investing) — "adjacent-category drift" reframed as "AI-sensing convergence" with AgZen | SquareMind/AgZen "AI-sensing convergence" lead + deep read, Art Basel First Choice/Zero 10 Preview Day both land tomorrow (0-day countdown), UNEP State of Finance for Nature 2026 (30:1 degradation-to-protection ratio), Gourmey's EFSA clock 2x overshot, K-food Middle East cooling, Innova "Powerhouse Protein" 2026 trend | SquareMind (full detail), Sonder Capital, Fred Moll/Intuitive Surgical, UNEP State of Finance for Nature 2026, Nature Transition X-Curve | Write "AI-Sensing Convergence" memo; decide tonight First Choice vs. Zero 10 for tomorrow; write "Ozempic Diet" essay this week |
+| 14 | 16 Jun 2026 | Art Basel opens — Zero 10 Preview Day (Paglen "The Condition") and First Choice both land today simultaneously; Zero 10 is the priority access point | Zero 10/Paglen "The Condition" lead (20 exhibitors, AI as subject not tool), First Choice (193 galleries Basel Exclusive), DigitalFoodLab Q1 2026 (corporates taking back foodtech deal flow), Formo IFT FIRST countdown (27 days, first commercial GRAS-cleared casein showing), EU nature-credits technical criteria overdue (expert group mid-2026 deadline passed) | None new | Attend Zero 10 today, find one work visualising computation making decisions about a natural system, write one paragraph before Thursday (IUCN NL outreach raw material); ask one Calm/Storm-adjacent company whether next round expects corporate strategic or pure-VC lead |
 
 ---
-*Last updated: Edition 13 — 15 June 2026*
+*Last updated: Edition 14 — 16 June 2026*
