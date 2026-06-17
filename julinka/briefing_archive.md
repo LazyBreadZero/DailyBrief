@@ -739,6 +739,35 @@ None new this edition — Zero 10 and DigitalFoodLab structural shift previously
 
 ---
 
+## EDITION 15 — Wednesday, 17 June 2026
+
+### Lead Story
+**Title:** Art Basel's VIP Day Sold Through the Caution
+**Pillar:** Art
+**Core argument:** Tuesday's VIP day produced real, dated sales — Hauser & Wirth's $35M Picasso plus 35 further works, Zwirner's $10M+ in primary sales (Genzken €1.2M to a European museum, Albers $2.3M), Gagosian's high-seven-figure de Kooning — but dealers independently described the buying as measured rather than speculative. Basel Exclusive (nearly 200 of 232 main-section galleries withholding works from pre-fair PDFs until opening day) is an engineered response to exactly that buyer: discovery-driven, not pre-selected. The same discipline-over-narrative signal appeared two days earlier in the EIF's €25M commitment to Yield Lab Europe's €100M agrifoodtech Fund 2 (follow-on-heavy structure, methodical cheque sizing) — a cross-pillar bridge between art-market psychology and 2026's VC funding climate.
+**Key entities introduced:** Basel Exclusive (withheld-PDF mechanism), Maike Cruse, Emily Tsingou, Iwan Wirth's VIP-day quote, Yield Lab Europe Fund 2, EIF's €25M commitment
+**Key concepts introduced:** "Discipline over narrative" as the shared 2026 signal across art-market buying and agrifoodtech VC structuring; Basel Exclusive as deliberate information-asymmetry restoration
+**Sources used:** ARTnews (8/10): https://www.artnews.com/art-news/market/art-basel-2026-sales-report-1234789475/ ; The Art Newspaper (10/10): https://www.theartnewspaper.com/2026/06/16/surprise-basel-exclusive-brings-back-the-art-of-anticipation-to-art-basel ; Impact Investor (8/10): https://impact-investor.com/eif-backs-e100m-agritech-fund-targeting-europes-farm-sustainability-gap/
+**Angle delivered:** Ask one Basel Exclusive gallerist whether withholding the PDF changed who showed up to buy — a usable data point for how Calm/Storm structures its own confidential pre-round materials; call Yield Lab Europe before its remaining ~€75M closes, to map co-investment or competitive overlap in alt-protein/animal-health sourcing
+**Follow-up threads to watch:** Whether Basel Exclusive's withheld-PDF model produces a measurable difference in clearing prices versus prior years; Yield Lab Europe Fund 2's progress toward its €100M target and any named portfolio companies
+
+### New concepts in Julinka's working vocabulary
+"Discipline over narrative" (art-market and VC funding climate convergence, Edition 15)
+
+### Running-thread tracker
+- Art Basel 2026 (sales report) — VIP day sales now reported (Hauser & Wirth $35M Picasso, Zwirner $10M+, Gagosian de Kooning); public June 18–21; full post-fair sales report still due mid-late June
+- Zero 10 / Paglen "The Condition" — public June 17–19; ticketed June 20–21
+- Unlimited (Katrib, 59 projects) — accessible all week
+- Formo IFT FIRST Chicago — July 13–16; no movement this edition
+- UPSIDE Foods / Believer Meats auction — competing bids due July 20, auction July 28; no movement this edition
+- EU nature-credits technical criteria — still overdue; no publication this edition
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target (new, Ed 15); ~€75M still to raise
+- Astanor cross-portfolio diligence (Standing Ovation + Planetary + AgZen) — ongoing
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -757,6 +786,7 @@ None new this edition — Zero 10 and DigitalFoodLab structural shift previously
 | 12 | 14 Jun 2026 | Formo's FDA "no questions" letter lands — the US regulatory clock from Edition 9 reaches its terminal stage while the EU clock still hasn't started | Formo FDA milestone lead + "new buyer" deep read (Pentagon/DARPA gas-fermentation, Biosphere $9M Army contract), Art Basel First Choice + Zero 10 preview both land Tuesday (2-day countdown), Green Assist nature-credit pilots (France/Estonia/Peru) alongside IUCN's, Calm/Storm's SquareMind (first devices investment), Astanor's AgZen (first non-fermentation cross-portfolio company) | Biosphere, DARPA biomanufacturing programme, SquareMind, AgZen, Green Assist | Benchmark pipeline companies against Formo's GRAS sequence; decide Tuesday's First Choice/Zero 10/Unlimited allocation; write SquareMind/AgZen "adjacent-category drift" memo |
 | 13 | 15 Jun 2026 | SquareMind revealed as an AI dermatology-robotics bet (Fred Moll co-investing) — "adjacent-category drift" reframed as "AI-sensing convergence" with AgZen | SquareMind/AgZen "AI-sensing convergence" lead + deep read, Art Basel First Choice/Zero 10 Preview Day both land tomorrow (0-day countdown), UNEP State of Finance for Nature 2026 (30:1 degradation-to-protection ratio), Gourmey's EFSA clock 2x overshot, K-food Middle East cooling, Innova "Powerhouse Protein" 2026 trend | SquareMind (full detail), Sonder Capital, Fred Moll/Intuitive Surgical, UNEP State of Finance for Nature 2026, Nature Transition X-Curve | Write "AI-Sensing Convergence" memo; decide tonight First Choice vs. Zero 10 for tomorrow; write "Ozempic Diet" essay this week |
 | 14 | 16 Jun 2026 | Art Basel opens — Zero 10 Preview Day (Paglen "The Condition") and First Choice both land today simultaneously; Zero 10 is the priority access point | Zero 10/Paglen "The Condition" lead (20 exhibitors, AI as subject not tool), First Choice (193 galleries Basel Exclusive), DigitalFoodLab Q1 2026 (corporates taking back foodtech deal flow), Formo IFT FIRST countdown (27 days, first commercial GRAS-cleared casein showing), EU nature-credits technical criteria overdue (expert group mid-2026 deadline passed) | None new | Attend Zero 10 today, find one work visualising computation making decisions about a natural system, write one paragraph before Thursday (IUCN NL outreach raw material); ask one Calm/Storm-adjacent company whether next round expects corporate strategic or pure-VC lead |
+| 15 | 17 Jun 2026 | Art Basel's VIP day sells through the caution — record gallery sales paired with deliberately measured buying, mirrored by EIF's disciplined €25M Yield Lab Europe Fund 2 commitment | VIP-day sales (Hauser & Wirth $35M Picasso, Zwirner $10M+, Gagosian de Kooning), Basel Exclusive withheld-PDF mechanism, EIF/Yield Lab Europe Fund 2 €25M-into-€100M commitment | Basel Exclusive, Yield Lab Europe Fund 2 | Ask a Basel Exclusive gallerist how withholding the PDF changed who buys; call Yield Lab Europe before its remaining ~€75M closes |
 
 ---
-*Last updated: Edition 14 — 16 June 2026*
+*Last updated: Edition 15 — 17 June 2026*

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Wednesday, 17 June 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+    margin: 0 0 0 0;
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; }
+  h2.section-headline { font-family: 'Fraunces', Georgia, serif; font-size: 24px; font-weight: 700; color: #1F1B16; line-height: 1.25; margin-bottom: 12px; margin-top: 36px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .highlight-block { background: #F4E8C9; border-radius: 6px; padding: 18px 22px; margin: 24px 0; }
+  .highlight-block p { font-size: 16px; margin-bottom: 0; color: #4A4036; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-box .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .intel-grid { display: grid; grid-template-columns: 1fr; gap: 0; }
+  .intel-item { border-top: 1px solid #E5DAC4; padding: 18px 0; }
+  .intel-item:last-child { border-bottom: 1px solid #E5DAC4; }
+  .intel-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 5px; }
+  .intel-item p { font-size: 15.5px; line-height: 1.65; margin-bottom: 0; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Wednesday, 17 June 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 15</span>
+    <span class="dateline-right">Venture &middot; Food &middot; Art &middot; Nature</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Art</div>
+    <h1 class="lead-headline">Art Basel&rsquo;s VIP Day Sold Through the Caution</h1>
+
+    <p>By 4pm on Tuesday, Hauser &amp; Wirth had sold a 1963 Picasso for $35 million and moved 35 further works, including two Cy Twomblys and a Louise Bourgeois. David Zwirner placed Isa Genzken&rsquo;s Unlimited installation with a European museum for &euro;1.2 million, sold a Victor Man painting for &euro;1 million, and three Josef Albers works for $2.3 million combined &mdash; more than $10 million in primary-market sales by the gallery alone. Gagosian moved a 1984 Willem de Kooning for a high seven-figure sum to a private collector in Asia. Cofounder Iwan Wirth called it &ldquo;as strong a first day as we&rsquo;ve ever had.&rdquo;
+    <a href="https://www.artnews.com/art-news/market/art-basel-2026-sales-report-1234789475/" target="_blank" class="source-badge badge-green">ARTnews (8/10)</a></p>
+
+    <p>The numbers describe strength; the dealers describe something more careful. Several repeated, independently, that this was not a return to post-pandemic speculative buying but a steadier market wanting proof before conviction. Basel Exclusive, the fair&rsquo;s new mechanism withholding nearly 200 of 232 main-section galleries&rsquo; pre-fair PDFs until the doors opened &mdash; Modigliani&rsquo;s <i>La Bouqueti&egrave;re</i>, an early Philip Guston, a three-metre Albert Oehlen self-portrait among the works unveiled cold &mdash; is built for exactly that buyer: one who, in adviser Emily Tsingou&rsquo;s phrase, wants discovery rather than a digital pre-select. Director Maike Cruse frames the goal as restoring &ldquo;the value of being physically present.&rdquo; It is a deliberate rebuilding of information asymmetry in a market that spent the online-viewing-room years dismantling it.
+    <a href="https://www.theartnewspaper.com/2026/06/16/surprise-basel-exclusive-brings-back-the-art-of-anticipation-to-art-basel" target="_blank" class="source-badge badge-green">The Art Newspaper (10/10)</a></p>
+
+    <p>The same discipline showed up two days earlier in a different market she watches. The European Investment Fund committed &euro;25 million toward Yield Lab Europe&rsquo;s second agrifoodtech fund, targeting &euro;100 million for seed- and Series A-stage companies in alternative proteins, precision agriculture, animal health and aquaculture &mdash; with roughly 30% earmarked for Ireland and average initial cheques near &euro;750,000, two-thirds of capital held back for follow-ons rather than spread thin across more first checks. It is the same instinct on display at Messe Basel: capital that wants to see the asset clearly before it commits, not capital chasing a narrative.
+    <a href="https://impact-investor.com/eif-backs-e100m-agritech-fund-targeting-europes-farm-sustainability-gap/" target="_blank" class="source-badge badge-green">Impact Investor (8/10)</a></p>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <span class="angle-num">1</span>
+        <span class="angle-move-text">Ask one Basel Exclusive gallerist this week how withholding the PDF changed who showed up to buy &mdash; collectors who pre-select online, or ones who only commit in the room. The answer is a usable data point for how Calm/Storm structures its own confidential pre-round materials: does blind information actually produce better-committed capital, or just slower capital?</span>
+      </div>
+      <div class="angle-move">
+        <span class="angle-num">2</span>
+        <span class="angle-move-text">Yield Lab Europe still has roughly &euro;75 million left to raise toward its &euro;100 million target, with a follow-on-heavy structure that overlaps Calm/Storm&rsquo;s own alt-protein and animal-health sourcing. Worth a short call before the fund closes &mdash; either to map co-investment opportunities or to understand who else is underwriting the same deal flow.</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
