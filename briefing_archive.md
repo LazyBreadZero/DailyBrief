@@ -942,6 +942,38 @@ Three-tier smart-glasses taxonomy (Tier 1 AI camera eyewear / Tier 2 tethered AR
 
 ---
 
+## EDITION 18 — Thursday, 18 June 2026
+
+### Lead Story
+**Title:** Snap's $2,195 Bet Sends Its Stock to a 12-Month Low
+**Category:** Platforms & Product · Capital Markets
+**Core argument:** Snap's Specs unveiling at AWE (16 June, $2,195) was followed same-day by an 8% stock drop to a 12-month low ($4.74), holding near that level into Wednesday, down roughly 30% over the trailing year. Spiegel defended the price as comparable to "high-end computers or laptops"; an IDC analyst called the timing "the worst time for any company to be launching any kind of premium product." XREAL, by contrast, opened AURA reservations a day earlier while declining to name a price at all beyond a $1,500 ceiling — the first real public-markets price-discovery event for AR hardware landed on the costlier of the two products, not the cheaper one.
+**Key companies introduced:** None new (Snap, XREAL, Meta, Apple previously introduced)
+**Key people introduced:** None new (Spiegel previously introduced)
+**Key concepts introduced:** Public-markets price discovery as a distinct test from trade-press or consumer-adoption verdicts for AR hardware
+**Sources used:** The Motley Fool (8/10): https://www.fool.com/coverage/stock-market-today/2026/06/16/stock-market-today-june-16-snap-falls-after-launch-of-2195-ar-glasses/ ; TechCrunch (9/10): https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/ ; PR Newswire/XREAL (9/10): https://www.prnewswire.com/news-releases/a-new-era-of-xr-begins-xreal-launches-xreal-aura-powered-by-android-xr-this-fall-302802018.html
+**Follow-up threads to watch:** Whether Snap's stock stabilizes or keeps sliding into preorder/ship season; whether XREAL ultimately prices AURA closer to its $1,500 ceiling or well under it, and how the market reacts when it does
+
+### New concepts in Angelo's working vocabulary
+None new — today sharpens an existing axis (price reality) rather than introducing a new term
+
+### Provocation(s) posed this edition
+- **Provocation:** Steelman, in three sentences, the investor who sold Snap stock on the Specs launch — not "they don't get it yet," but the strongest case that $2,195 is simply the wrong product at the wrong price. Question left to settle in his own notes.
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, 18 editions; no update
+- Android XR Catalyst Programme — deadline June 30 (12 days), selection notification July 15; correction to prior tracking: the programme's official eligibility page lists no separate "EU cohort" structure at all — development kits ship to the US, Japan, UK and EU alike under one global selection process. Retire the "no EU cohort" framing; it was based on a misreading, not a real exclusion.
+- Auggie Awards — ceremony held 17 June, 6pm PT; no winners list found in any indexed source as of this writing (MetaNeural/CognifiSense status unknown); check again next edition before reporting
+- Snap Specs — stock down 8% day-of, ~30% trailing 12 months; preorders open US/UK/France
+- XREAL AURA — reservations open; price ceiling $1,500 disclosed, no final figure yet; Wave 1 ships fall to US/UK/Japan/Canada/South Korea, Europe Wave 2 undated
+
+### Thinking Ledger update
+- **New:** Is "the market doesn't get it yet" a defensible position for Angelo to hold, or does intellectual honesty require him to steelman the sceptical investor first? Snap's stock priced in real-time scepticism about premium AR hardware that no amount of trade-press momentum had previously registered. (Provocation, Ed 18)
+- **Retired:** The Android XR Catalyst Programme "no EU cohort" thread (carried Ed 13-17) — the programme has no regional cohort structure; EU developers are eligible alongside the US, Japan and UK. This was a tracking error, not a resolved news event; no provocation attached.
+- No change to the other live questions (checked-vs-repeated; who-can-audit; human-centric-computing specificity; BCI five-axis structure; first-to-approval-vs-biggest-platform; AWE institutional layers; translator-vs-narrator) — no new evidence surfaced today.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -951,11 +983,12 @@ Three-tier smart-glasses taxonomy (Tier 1 AI camera eyewear / Tier 2 tethered AR
 - **"Who can audit?" — is this the axis "consent" has been standing in for?** (Ed 14, enriched Ed 16) The three-tier smart-glasses taxonomy maps directly onto the audit-capacity question: Tier 1 (AI camera eyewear, most inconspicuous, highest bystander consent-risk) versus Tier 3 (Specs, most visible, audience self-selects). The UC Davis ALS study adds a BCI-specific dimension: the user cannot audit the accuracy of the neural decoder the way a sighted user can audit a camera's output. "Who can audit" holds as the underlying axis across smart-glasses consent risk and BCI reliability.
 - **Can Angelo state a more specific claim than "Making Computing More Human"?** (new, Ed 16) Spiegel's AWE keynote has deployed this as a commercial product pitch. If Angelo cannot state, in one sentence, what he means by human-centric computing that Spiegel could not print on a Specs page, he is holding the category consensus, not a differentiating view.
 - **Is BCI's commercial structure resolved into one axis, or does it run on several?** (Ed 10-14, updated Ed 16) UC Davis ALS adds "independent daily use" as an empirical benchmark for the reimbursement threshold. Hardware/regulatory (jurisdiction-driven), algorithmic (academic-timeline), software-defined scope, signal resolution, and architecture-spectrum/regulatory-race interaction: five axes still in play. The UC Davis finding establishes a reimbursement-relevant target but doesn't collapse the structural picture.
-- **"First to approval" vs. "biggest platform" — does Angelo conflate two different races?** (Ed 13-15; no new evidence Ed 16)
-- **Are AWE's institutional layers one verdict or several disagreeing ones?** (Ed 12-16; no new evidence Ed 17) Auggie Awards held tonight; results not yet known. The LBE hall (Ed 15) resource commitment still points at neither AI-XR nor BCI.
-- **Is "translator" still the right word once the hardware itself routes around his market?** (new, Ed 17) XREAL AURA and Snap Specs both ship fall 2026 with continental Europe sequenced behind other regions ("Wave 2" in XREAL's own language). Angelo narrates this field from a city that cannot yet buy the product. Whether this changes what "commercial accelerator" can mean in practice, or is simply a timing fact with no bearing on his positioning, is unresolved.
+- **Are AWE's institutional layers one verdict or several disagreeing ones?** (Ed 12-16; no new evidence Ed 17-18) Auggie Awards were held 17 June; winners still not found in any indexed source as of Ed 18. The LBE hall (Ed 15) resource commitment still points at neither AI-XR nor BCI.
+- **Is "translator" still the right word once the hardware itself routes around his market?** (Ed 17; no new evidence Ed 18) XREAL AURA and Snap Specs both ship fall 2026 with continental Europe sequenced behind other regions ("Wave 2" in XREAL's own language). Angelo narrates this field from a city that cannot yet buy the product.
+- **Is "the market doesn't get it yet" a defensible position, or does intellectual honesty require Angelo to steelman the sceptic first?** (new, Ed 18) Snap's stock fell 8% the day Specs launched and stayed down, pricing in real-time scepticism about premium AR hardware that trade-press momentum had never registered. Public capital markets are a sharper, faster judge than the conference circuit Angelo mostly reads.
 
 **Retired Ed 16:** "Is spatial computing one market or several?" — AWE's three-tier taxonomy (Tier 1 AI camera eyewear / Tier 2 tethered AR / Tier 3 standalone AR computer) settles the structural question. Three products with different price points, capability ceilings, and consent-risk profiles. Residual questions about tier convergence or platform dominance are valid but more specific.
+**Retired Ed 18:** "'First to approval' vs. 'biggest platform'" — no new evidence across four editions (Ed 13-17); folded into the BCI five-axis question below, where the same distinction already lives as one of the five axes. Also retired: the Android XR Catalyst Programme "no EU cohort" thread — the programme's official eligibility page shows no regional cohort structure at all; this was a tracking error, not a resolved news story.
 
 ### Positions the evidence now implies (and whether his view has moved)
 - **The "consent vs. governance" question (Ed 11) was likely under-specified from the start.** "Who can audit" is the sharper axis. The three-tier smart-glasses taxonomy (Ed 16) maps consent-risk to Tier 1 (most inconspicuous, most risk) independently of any governance framework. The UC Davis ALS study adds: even the BCI user cannot audit the decoder's accuracy in the way that "consent" traditionally assumes the consenting party can.
@@ -970,6 +1003,7 @@ Three-tier smart-glasses taxonomy (Tier 1 AI camera eyewear / Tier 2 tethered AR
 - Treating **single-axis, single-market, or single-verdict framings as complete.** Spatial computing's three-market question is now structurally resolved, but BCI's commercial structure still runs on five interacting axes with no single answer in view.
 - **Carried (Ed 12):** Citing widely-repeated numbers — "world's first" claims, exhibitor counts — without flagging that the claim may not have been independently checked. AWE's exhibitor count discrepancy (13x, Ed 15) remains uncorrected in the public record into Ed 16.
 - **New (Ed 17):** Treating global narration as equivalent to market access. Two real product launches this week sequenced Europe behind the US, UK, and a handful of other markets — a concrete, named gap between the field Angelo describes and the field he can physically touch.
+- **New (Ed 18):** Trusting conference-circuit and trade-press momentum as the default signal of whether a product matters, without weighting the faster, harder-to-spin verdict that public capital markets supply the moment a real price tag exists.
 
 ---
 
@@ -995,6 +1029,7 @@ Three-tier smart-glasses taxonomy (Tier 1 AI camera eyewear / Tier 2 tethered AR
 | 15 | 15 Jun 2026 | AWE USA 2026 opens — its own coverage disagrees by 13x on exhibitor count, the resource-convergence test's first data point is an unchecked discrepancy, and AWE's clearest new resource commitment (an LBE/arcade hall) converges on neither AI-XR nor BCI; Apple's glasses slip to late 2027 again as Samsung targets July 2026 for the same hardware category | AWE day-1 exhibitor-count discrepancy (Deep Read), new LBE/gaming hall, Apple N50 vs. Samsung Galaxy Glasses calendar gap, Spiegel keynote tomorrow, Science Corp CE mark (15th), Android XR Catalyst Programme (15 days) | None new | "Checked vs. repeated" as the variable underlying "who can audit" and "resource vs. rhetoric"; steelman one market/different entry-timing vs. two markets for Apple/Samsung glasses; contemplation: was "the floor will tell us" itself the hope already examined twice before? |
 | 16 | 16 Jun 2026 | Spiegel keynotes "Making Computing More Human" at AWE — Snap Specs ($2,500, binocular AR, OpenAI+Gemini, fall 2026) launches commercially; AWE crystallises smart glasses into three tiers by capability and consent-risk; UC Davis ALS BCI achieves independent home use for 2 years (Nature Medicine) | AWE Day 2 + Spiegel keynote (Snap Specs full detail, three-tier taxonomy), UC Davis ALS BCI (Nature Medicine), Science Corp CE mark (16th), Auggie Awards June 17, Android XR Catalyst 14 days | Specs Inc. (full) | State a more specific claim than "Making Computing More Human" — one Spiegel could not put on a product page; contemplation: which of the three smart-glasses markets is Angelo actually translating for? |
 | 17 | 17 Jun 2026 | XREAL opens AURA reservations, Android XR's first hardware, shipping fall 2026 to five markets with Europe held for "Wave 2"; Snap Specs price corrected to $2,195, preorders open for US/UK/France only | XREAL AURA launch + Wave 1/Wave 2 framing, Snap Specs preorder detail/price correction, Android XR Catalyst Programme (13 days, no EU cohort) | None new | Name one upcoming European decision-maker conversation where he can put a device in their hands rather than describe one secondhand |
+| 18 | 18 Jun 2026 | Snap's Specs launch ($2,195) is met same-day by an 8% stock drop to a 12-month low, down ~30% on the year, while XREAL's costlier rival AURA still won't name a price beyond a $1,500 ceiling | Snap stock reaction to Specs launch, XREAL AURA price-ceiling contrast | None new | Steelman the investor who sold Snap stock on the Specs launch, in three sentences |
 
 ---
 *Last updated: Edition 17 — 17 June 2026*
