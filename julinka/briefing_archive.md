@@ -768,6 +768,39 @@ None new this edition — Zero 10 and DigitalFoodLab structural shift previously
 
 ---
 
+## EDITION 16 — Thursday, 18 June 2026
+
+### Lead Story
+**Title:** Ingredion Bought a Carrot Extract Before Brussels Finished Approving It
+**Pillar:** Food science & Venture
+**Core argument:** On 16 June the European Commission authorised NutriLeads' Benicaros (carrot-pomace-derived RG-I prebiotic fibre) as a novel food under Regulation (EU) 2026/1306, granting five years of exclusive EU commercial rights to July 2031. Ingredion had acquired Benicaros from NutriLeads in an asset deal on 2 June — fourteen days before the Commission's sign-off — on the strength of EFSA's earlier positive safety opinion alone, before the legal authorisation existed. The deal is a literal instance of "rigour is the moat": the value Ingredion bought was the gap between a completed scientific opinion and a still-pending legal authorisation, and that gap closed in its favour two weeks later.
+**Key entities introduced:** NutriLeads, Benicaros, Ingredion, Regulation (EU) 2026/1306
+**Key concepts introduced:** Acquiring a regulatory dossier in the window between EFSA positive opinion and Commission authorisation as a distinct, repeatable corporate-strategic playbook
+**Sources used:** NutraIngredients (8/10): https://www.nutraingredients.com/Article/2026/06/16/benicaros-gains-efsa-novel-food-approval/ ; GlobeNewswire/Ingredion (10/10): https://www.globenewswire.com/news-release/2026/06/02/3304942/0/en/ingredion-acquires-benicaros-a-prebiotic-fiber-that-supports-immune-health-at-extremely-low-daily-dosage-intake.html
+**Angle delivered:** Pull the EU novel-food register for dossiers currently sitting with a positive EFSA opinion but no Commission decision yet — that window is where the Benicaros deal was priced, and where the next one is sitting now
+**Follow-up threads to watch:** Whether other ingredient/IP deals show the same EFSA-opinion-to-Commission-authorisation timing pattern; any disclosed financial terms for the Ingredion/NutriLeads deal
+
+### Further items
+**The Louvre Says It Is Running Out of Steam (Art):** Two days after Hauser & Wirth's $35M Picasso on Art Basel's VIP day, Louvre director Christophe Leribault told a French Senate committee the museum is "running out of steam" — ageing infrastructure, a ~€10M ticket-fraud scheme, and lingering fallout from October's $100M jewellery heist. Framed against the private art market's nine-figure VIP-day cheques the same week. Source: France 24 (9/10): https://www.france24.com/en/france/20260617-france-s-louvre-museum-running-out-of-steam-new-director-says
+
+### New concepts in Julinka's working vocabulary
+"Buying the regulatory gap" — acquiring an ingredient/IP asset in the window between a completed scientific opinion (EFSA) and a still-pending legal authorisation (Commission), priced on the probability of conversion rather than on the science itself (Edition 16)
+
+### Running-thread tracker
+- Art Basel 2026 (sales report) — public days now open (18–21 June); full post-fair sales report still due mid-late June; no new sales data surfaced today beyond Tuesday's VIP-day figures
+- Zero 10 / Paglen "The Condition" — public viewing through 19 June; ticketed 20–21 June
+- Unlimited (Katrib, 59 projects) — accessible all week
+- Formo IFT FIRST Chicago — July 13–16; no movement this edition
+- UPSIDE Foods / Believer Meats auction — competing bids due July 20, auction July 28; no movement this edition
+- EU nature-credits technical criteria — still overdue; no publication this edition
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence (Standing Ovation + Planetary + AgZen) — ongoing, no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis (new, Ed 16) — Senate testimony 17 June; no funding resolution announced; watch for any government or philanthropic response
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -787,6 +820,7 @@ None new this edition — Zero 10 and DigitalFoodLab structural shift previously
 | 13 | 15 Jun 2026 | SquareMind revealed as an AI dermatology-robotics bet (Fred Moll co-investing) — "adjacent-category drift" reframed as "AI-sensing convergence" with AgZen | SquareMind/AgZen "AI-sensing convergence" lead + deep read, Art Basel First Choice/Zero 10 Preview Day both land tomorrow (0-day countdown), UNEP State of Finance for Nature 2026 (30:1 degradation-to-protection ratio), Gourmey's EFSA clock 2x overshot, K-food Middle East cooling, Innova "Powerhouse Protein" 2026 trend | SquareMind (full detail), Sonder Capital, Fred Moll/Intuitive Surgical, UNEP State of Finance for Nature 2026, Nature Transition X-Curve | Write "AI-Sensing Convergence" memo; decide tonight First Choice vs. Zero 10 for tomorrow; write "Ozempic Diet" essay this week |
 | 14 | 16 Jun 2026 | Art Basel opens — Zero 10 Preview Day (Paglen "The Condition") and First Choice both land today simultaneously; Zero 10 is the priority access point | Zero 10/Paglen "The Condition" lead (20 exhibitors, AI as subject not tool), First Choice (193 galleries Basel Exclusive), DigitalFoodLab Q1 2026 (corporates taking back foodtech deal flow), Formo IFT FIRST countdown (27 days, first commercial GRAS-cleared casein showing), EU nature-credits technical criteria overdue (expert group mid-2026 deadline passed) | None new | Attend Zero 10 today, find one work visualising computation making decisions about a natural system, write one paragraph before Thursday (IUCN NL outreach raw material); ask one Calm/Storm-adjacent company whether next round expects corporate strategic or pure-VC lead |
 | 15 | 17 Jun 2026 | Art Basel's VIP day sells through the caution — record gallery sales paired with deliberately measured buying, mirrored by EIF's disciplined €25M Yield Lab Europe Fund 2 commitment | VIP-day sales (Hauser & Wirth $35M Picasso, Zwirner $10M+, Gagosian de Kooning), Basel Exclusive withheld-PDF mechanism, EIF/Yield Lab Europe Fund 2 €25M-into-€100M commitment | Basel Exclusive, Yield Lab Europe Fund 2 | Ask a Basel Exclusive gallerist how withholding the PDF changed who buys; call Yield Lab Europe before its remaining ~€75M closes |
+| 16 | 18 Jun 2026 | Ingredion acquired Benicaros' novel-food dossier from NutriLeads two weeks before Brussels' Commission authorisation landed, pricing the regulatory gap itself; the Louvre's director tells the Senate the museum is "running out of steam" days after Art Basel's VIP nine-figure sales | Benicaros/Ingredion novel-food acquisition timing, Louvre infrastructure-funding crisis | NutriLeads, Benicaros, Ingredion, Louvre director Christophe Leribault | Pull the EU novel-food register for dossiers with a positive EFSA opinion but no Commission decision yet |
 
 ---
-*Last updated: Edition 15 — 17 June 2026*
+*Last updated: Edition 16 — 18 June 2026*
