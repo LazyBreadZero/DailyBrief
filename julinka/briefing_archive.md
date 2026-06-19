@@ -801,6 +801,40 @@ None new this edition — Zero 10 and DigitalFoodLab structural shift previously
 
 ---
 
+## EDITION 17 — Friday, 19 June 2026
+
+### Lead Story
+**Title:** Ingredion Agrees £2.7bn Takeover of Tate & Lyle, Ending a Listing That Outlasted Two World Wars
+**Pillar:** Food science & Venture
+**Core argument:** Tate & Lyle's board recommended Ingredion's all-cash offer (595p/share + up to 20p in dividends, ~59% premium to 13 May close; equity ~£2.7bn/$3.6bn, enterprise value ~£3.7bn/$5bn), creating a combined ~$10.4bn specialty-ingredients group and ending Tate & Lyle's near-150-year London listing. Completion expected H2 2027, subject to shareholder vote, UK High Court sanction and antitrust clearance (Barclays flagged modified-starch overlap; CEO James Zallie disputes it). The deal is the same acquisitive instinct as Ingredion's Benicaros purchase three weeks earlier, at a different scale: paying ahead of certainty — on a regulatory dossier there, on antitrust clearance here — because the alternative is a competitor reaching scale first.
+**Key entities introduced:** Tate & Lyle (David Hearn, chair), James Zallie (Ingredion CEO), Alex Sloane (Barclays analyst), Huber Equity Corporation, CP Kelco (2024 Tate & Lyle acquisition, context)
+**Key concepts introduced:** "Paying ahead of certainty" as Ingredion's repeatable acquisitive pattern, observed now at two scales (a single ingredient dossier; a $5bn listed-company takeover)
+**Sources used:** FoodNavigator-USA (9/10): https://www.foodnavigator-usa.com/Article/2026/05/15/ingredions-37-billion-tate-lyle-takeover-bid-explained/ ; Personal Care Insights (8/10): https://www.personalcareinsights.com/news/ingredion-tate-lyle-takeover.html ; Yahoo Finance/Bloomberg (8/10): https://finance.yahoo.com/markets/stocks/articles/tate-lyle-accepts-bid-ingredion-084343560.html
+**Angle delivered:** Screen Calm/Storm's nutrition-adjacent pipeline for companies holding a dossier or ingredient a strategic would pay to lock down early, asking founders who their realistic acquirer is rather than who leads the next round; read Barclays' complementary-vs-competing argument as the template a future portfolio-company acquirer will have to make to regulators
+**Follow-up threads to watch:** Antitrust review outcome (US/EU) on the modified-starch overlap; shareholder vote and general-meeting date; any rival bid before the scheme completes
+
+### Further items
+None — no second development cleared the bar today.
+
+### New concepts in Julinka's working vocabulary
+"Paying ahead of certainty" (Ingredion's acquisitive pattern across regulatory dossiers and full company takeovers, Edition 17)
+
+### Running-thread tracker
+- Art Basel 2026 (sales report) — public days continue (18–21 June); Zero 10 free viewing ends today; full post-fair sales report still due
+- Unlimited (Katrib, 59 projects) — accessible through the fair's close
+- Formo IFT FIRST Chicago — July 13–16; no movement this edition
+- UPSIDE Foods / Believer Meats auction — competing bids due July 20, auction July 28; no movement this edition
+- EU nature-credits technical criteria — still overdue; no publication this edition
+- EU Biotech Act novel-food sandbox exclusion — industry pressure (FoodDrinkEurope et al.) ongoing; no legislative change this edition
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence (Standing Ovation + Planetary + AgZen) — ongoing, no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis — no movement this edition
+- Ingredion/Tate & Lyle takeover (new, Ed 17) — board-recommended, awaiting shareholder vote and antitrust clearance; completion expected H2 2027
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -821,6 +855,7 @@ None new this edition — Zero 10 and DigitalFoodLab structural shift previously
 | 14 | 16 Jun 2026 | Art Basel opens — Zero 10 Preview Day (Paglen "The Condition") and First Choice both land today simultaneously; Zero 10 is the priority access point | Zero 10/Paglen "The Condition" lead (20 exhibitors, AI as subject not tool), First Choice (193 galleries Basel Exclusive), DigitalFoodLab Q1 2026 (corporates taking back foodtech deal flow), Formo IFT FIRST countdown (27 days, first commercial GRAS-cleared casein showing), EU nature-credits technical criteria overdue (expert group mid-2026 deadline passed) | None new | Attend Zero 10 today, find one work visualising computation making decisions about a natural system, write one paragraph before Thursday (IUCN NL outreach raw material); ask one Calm/Storm-adjacent company whether next round expects corporate strategic or pure-VC lead |
 | 15 | 17 Jun 2026 | Art Basel's VIP day sells through the caution — record gallery sales paired with deliberately measured buying, mirrored by EIF's disciplined €25M Yield Lab Europe Fund 2 commitment | VIP-day sales (Hauser & Wirth $35M Picasso, Zwirner $10M+, Gagosian de Kooning), Basel Exclusive withheld-PDF mechanism, EIF/Yield Lab Europe Fund 2 €25M-into-€100M commitment | Basel Exclusive, Yield Lab Europe Fund 2 | Ask a Basel Exclusive gallerist how withholding the PDF changed who buys; call Yield Lab Europe before its remaining ~€75M closes |
 | 16 | 18 Jun 2026 | Ingredion acquired Benicaros' novel-food dossier from NutriLeads two weeks before Brussels' Commission authorisation landed, pricing the regulatory gap itself; the Louvre's director tells the Senate the museum is "running out of steam" days after Art Basel's VIP nine-figure sales | Benicaros/Ingredion novel-food acquisition timing, Louvre infrastructure-funding crisis | NutriLeads, Benicaros, Ingredion, Louvre director Christophe Leribault | Pull the EU novel-food register for dossiers with a positive EFSA opinion but no Commission decision yet |
+| 17 | 19 Jun 2026 | Ingredion agrees £2.7bn takeover of Tate & Lyle, ending a London listing that outlasted two world wars — the same "pay ahead of certainty" instinct as the Benicaros deal, at company scale | Ingredion/Tate & Lyle takeover terms, financing and antitrust risk | Tate & Lyle, David Hearn, James Zallie, Alex Sloane, Huber Equity Corporation, CP Kelco | Screen Calm/Storm's pipeline for a dossier/ingredient a strategic would pay to lock down early; treat Barclays' complementary-vs-competing argument as a template for a future portfolio-company acquirer |
 
 ---
-*Last updated: Edition 16 — 18 June 2026*
+*Last updated: Edition 17 — 19 June 2026*
