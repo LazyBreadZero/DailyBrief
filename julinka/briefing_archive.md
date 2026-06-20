@@ -835,6 +835,41 @@ None — no second development cleared the bar today.
 
 ---
 
+## EDITION 18 — Saturday, 20 June 2026
+
+### Lead Story
+**Title:** Brussels Pays for Vivici's Paperwork, Not Its Science
+**Pillar:** Food science & Venture
+**Core argument:** On 18 June the European Innovation Council's Accelerator Programme awarded Vivici €12.5m ($14.4m) in blended grant and equity, one of 38 awards in its latest selection round, earmarked for scaling Vivitein™ manufacturing and market access rather than research. The sequencing is the story: Vivici's €32.5m Series A (APG/ABP, Invest-NL, February 2026) already funded the platform, and its lactoferrin ingredient already carries self-affirmed US GRAS status — this grant arrives after both, rewarding a company that had already retired its regulatory and capital risk rather than seeding the bet before either existed. That inverts the usual public-grant-first, private-capital-follows phasing of deep-tech funding.
+**Key entities introduced:** European Innovation Council (EIC) Accelerator Programme
+**Key concepts introduced:** Public innovation capital sequenced after private capital and regulatory clearance, not before it — the EIC's grant as a reward for de-risking already done, not a de-risking mechanism itself
+**Sources used:** EU-Startups (8/10): https://www.eu-startups.com/2026/06/dutch-ingredients-startup-vivici-secures-e12-5-million-eic-backing-to-scale-animal-free-dairy-proteins ; AgFunderNews (8/10): https://agfundernews.com/vivici-bags-e12-5m-eic-funding-to-scale-precision-fermented-dairy-proteins
+**Angle delivered:** Pull the EIC Accelerator's published list of the other 37 awardees in this cohort and check how many already had a completed institutional round or a cleared safety/regulatory finding before the grant landed — establishing whether this sequencing is the EIC's current general posture or specific to Vivici
+**Follow-up threads to watch:** EU novel-food decision on Vivitein BLG; whether the EIC's published cohort list shows the same after-the-fact sequencing pattern; any further Vivici manufacturing-partner announcements as the EIC funds scale-up
+
+### Further items
+None — no second development cleared the bar today.
+
+### New concepts in Julinka's working vocabulary
+"Funding the de-risked, not the unproven" — public innovation capital arriving after a company's private round and regulatory clearance, rather than seeding the bet before either exists (Edition 18)
+
+### Running-thread tracker
+- Art Basel 2026 (sales report) — public days continue (18–21 June); fair closes tomorrow; full post-fair sales report still due
+- Unlimited (Katrib, 59 projects) — accessible through the fair's close
+- Formo IFT FIRST Chicago — July 13–16; no movement this edition
+- UPSIDE Foods / Believer Meats auction — competing bids due July 20, auction July 28; no movement this edition
+- EU nature-credits technical criteria — still overdue; no publication this edition
+- EU Biotech Act novel-food sandbox exclusion — industry pressure ongoing; no legislative change this edition
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence (Standing Ovation + Planetary + AgZen) — ongoing, no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis — no movement this edition
+- Ingredion/Tate & Lyle takeover — board-recommended, awaiting shareholder vote and antitrust clearance; completion expected H2 2027
+- Vivici EIC Accelerator grant (new, Ed 18) — €12.5m blended grant+equity announced 18 June for Vivitein™ scale-up; watch for the EU novel-food decision on Vivitein BLG
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -856,6 +891,7 @@ None — no second development cleared the bar today.
 | 15 | 17 Jun 2026 | Art Basel's VIP day sells through the caution — record gallery sales paired with deliberately measured buying, mirrored by EIF's disciplined €25M Yield Lab Europe Fund 2 commitment | VIP-day sales (Hauser & Wirth $35M Picasso, Zwirner $10M+, Gagosian de Kooning), Basel Exclusive withheld-PDF mechanism, EIF/Yield Lab Europe Fund 2 €25M-into-€100M commitment | Basel Exclusive, Yield Lab Europe Fund 2 | Ask a Basel Exclusive gallerist how withholding the PDF changed who buys; call Yield Lab Europe before its remaining ~€75M closes |
 | 16 | 18 Jun 2026 | Ingredion acquired Benicaros' novel-food dossier from NutriLeads two weeks before Brussels' Commission authorisation landed, pricing the regulatory gap itself; the Louvre's director tells the Senate the museum is "running out of steam" days after Art Basel's VIP nine-figure sales | Benicaros/Ingredion novel-food acquisition timing, Louvre infrastructure-funding crisis | NutriLeads, Benicaros, Ingredion, Louvre director Christophe Leribault | Pull the EU novel-food register for dossiers with a positive EFSA opinion but no Commission decision yet |
 | 17 | 19 Jun 2026 | Ingredion agrees £2.7bn takeover of Tate & Lyle, ending a London listing that outlasted two world wars — the same "pay ahead of certainty" instinct as the Benicaros deal, at company scale | Ingredion/Tate & Lyle takeover terms, financing and antitrust risk | Tate & Lyle, David Hearn, James Zallie, Alex Sloane, Huber Equity Corporation, CP Kelco | Screen Calm/Storm's pipeline for a dossier/ingredient a strategic would pay to lock down early; treat Barclays' complementary-vs-competing argument as a template for a future portfolio-company acquirer |
+| 18 | 20 Jun 2026 | Vivici's €12.5m EIC Accelerator grant funds Vivitein™ scale-up after, not before, its Series A and US GRAS clearance — public capital sequenced behind private capital and regulatory proof, not ahead of it | Vivici EIC Accelerator grant, funding-sequencing reversal | European Innovation Council (EIC) Accelerator Programme | Pull the EIC's 38-company cohort list and check how many already had a completed round or regulatory clearance before their grant landed |
 
 ---
-*Last updated: Edition 17 — 19 June 2026*
+*Last updated: Edition 18 — 20 June 2026*

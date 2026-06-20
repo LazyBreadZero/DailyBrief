@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Saturday, 20 June 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+    margin: 0 0 0 0;
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; }
+  h2.section-headline { font-family: 'Fraunces', Georgia, serif; font-size: 24px; font-weight: 700; color: #1F1B16; line-height: 1.25; margin-bottom: 12px; margin-top: 36px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .highlight-block { background: #F4E8C9; border-radius: 6px; padding: 18px 22px; margin: 24px 0; }
+  .highlight-block p { font-size: 16px; margin-bottom: 0; color: #4A4036; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-box .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .intel-grid { display: grid; grid-template-columns: 1fr; gap: 0; }
+  .intel-item { border-top: 1px solid #E5DAC4; padding: 18px 0; }
+  .intel-item:last-child { border-bottom: 1px solid #E5DAC4; }
+  .intel-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 5px; }
+  .intel-item p { font-size: 15.5px; line-height: 1.65; margin-bottom: 0; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Saturday, 20 June 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 18</span>
+    <span class="dateline-right">Venture &middot; Food &middot; Art &middot; Nature</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Food Science &amp; Venture</div>
+    <h1 class="lead-headline">Brussels Pays for Vivici&rsquo;s Paperwork, Not Its Science</h1>
+
+    <p>The European Innovation Council&rsquo;s Accelerator Programme awarded Vivici &euro;12.5m ($14.4m) on 18 June, blended grant and equity, one of 38 awards in the EIC&rsquo;s latest selection round. The money is earmarked for scaling manufacturing and market access for the Dutch company&rsquo;s Vivitein&trade; protein portfolio &mdash; not for research.
+    <a href="https://www.eu-startups.com/2026/06/dutch-ingredients-startup-vivici-secures-e12-5-million-eic-backing-to-scale-animal-free-dairy-proteins" target="_blank" class="source-badge badge-green">EU-Startups (8/10)</a>
+    <a href="https://agfundernews.com/vivici-bags-e12-5m-eic-funding-to-scale-precision-fermented-dairy-proteins" target="_blank" class="source-badge badge-green">AgFunderNews (8/10)</a></p>
+
+    <p>That sequencing is the point. Vivici&rsquo;s precision-fermented whey protein already cleared its hardest tests before this cheque arrived: a &euro;32.5m Series A in February, led by APG on behalf of pension fund ABP and Invest-NL, funded the platform itself, and its animal-free lactoferrin ingredient carries self-affirmed GRAS status in the US. The EIC grant lands after both of those, conditioned on a company that has already converted regulatory and commercial risk into a track record &mdash; public capital following private capital and a safety finding, rather than seeding the bet before either exists.</p>
+
+    <p>That is the reverse of how deep-tech funding is usually described: public grants taking the first, highest-risk position so private investors can follow once the science is proven. Here, APG and Invest-NL took that position in February; the EIC&rsquo;s &euro;12.5m shows up four months later, once the regulatory and capital risk Vivici carried into this year had already been retired. The grant is not de-risking Vivici. It is rewarding a company that had already de-risked itself.</p>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <span class="angle-num">1</span>
+        <span class="angle-move-text">Pull the EIC Accelerator&rsquo;s published list of the other 37 awardees in this cohort and check how many already had a completed institutional round or a cleared safety/regulatory finding before the grant landed. If most did, this is the EIC&rsquo;s actual current posture, not a one-off about Vivici &mdash; worth knowing before pitching any portfolio company on EIC money as early, de-risking capital.</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
