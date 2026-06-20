@@ -1011,12 +1011,48 @@ Shared-investigator validation — the same named researcher serving as both an 
 
 ---
 
+## EDITION 20 — Saturday, 20 June 2026
+
+### Lead Story
+**Title:** Neuracle Files for a $345m Shanghai IPO on an Implant That Has Earned It Nothing Yet
+**Category:** BCI · Capital Markets
+**Core argument:** Neuracle Technology (the company behind NEO, covered since Ed 13 as Neuracle Medical Technology) filed 11 June for a Shanghai STAR Market IPO seeking RMB2.5bn ($345m) — the first capital-markets test of China's BCI lead. But the prospectus covers FY2025, the year before NMPA approval, so its RMB108m revenue (+64% YoY) comes entirely from EEG equipment; NEO itself has not yet recorded a yuan of commercial revenue. China is now the only place an investor can buy public equity in an implanted-BCI maker, while Synchron, Paradromics and Neuralink remain pre-IPO — but what is being priced is a regulatory first and an EEG business, not a commercial track record for the implant.
+**Key companies introduced:** Neuracle Technology (full financial/IPO detail; previously covered since Ed 13)
+**Key people introduced:** None new
+**Key concepts introduced:** Narrative significance vs. commercial substance — a regulatory "first" and a capital-markets "first" can both be true while the underlying product has zero recorded revenue
+**Sources used:** South China Morning Post (9/10): https://www.scmp.com/business/banking-finance/article/3346495/first-china-neuracles-implantable-brain-computer-interface-wins-approval ; Hello China Tech (7/10): https://hellochinatech.com/p/neuracle-brain-implant-ipo
+**Follow-up threads to watch:** Neuracle's 2026 filing, once it has to report actual NEO commercial revenue (units implanted and paid for); whether Synchron, Paradromics or Neuralink follow with a public listing of their own
+
+### Further items (if any)
+None — no other development cleared the bar today.
+
+### New concepts in Angelo's working vocabulary
+Narrative significance vs. commercial substance — the gap between what a regulatory or capital-markets "first" proves and what a revenue line actually shows.
+
+### Provocation(s) posed this edition
+- **Provocation:** If Angelo cites NEO's IPO as proof China leads the BCI race, name the actual commercial number — units implanted and paid for, not units approved — that would have to appear in Neuracle's 2026 filing for that claim to survive contact with revenue. Write the number down now, before the filing exists, so there's something to check it against.
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, 20 editions; no update
+- Android XR Catalyst Programme — deadline June 30 (10 days), selection notification July 15; no update
+- Snap Specs stock — no further move reported since Ed 18
+- XREAL AURA — reservations open; price ceiling still $1,500; no update
+- Synchron pivotal trial — still no public start date for the 2026 pivotal study; no update
+- Samsung Galaxy Glasses / Unpacked — still uncorroborated by a primary or spine source; no update
+- Paradromics Connect-One — no second or third implant reported yet since Ed 19
+
+### Thinking Ledger update
+- **New:** Is a regulatory or capital-markets "first" being treated as evidence of commercial substance it hasn't yet earned? Neuracle's IPO prospectus reports zero BCI revenue — the entire RMB108m FY2025 top line is EEG equipment — while the company is cited globally as proof China leads the BCI race. This sharpens "checked vs. repeated" (Ed 15, 19) into a specific test: when Angelo cites a "first," can he separately confirm the same milestone shows up in a revenue line, not just an approval or filing date?
+- No change to the other live questions (who-can-audit; human-centric-computing specificity; BCI five-axis structure; translator-vs-narrator; market-doesn't-get-it-yet) — no new evidence surfaced today.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
 
 ### Open questions in play
-- **"Checked vs. repeated" — is this the variable underlying both "who can audit" and "resource vs. rhetoric"?** (new, Ed 15; sharpened Ed 19) AWE's own exhibitor count disagreed with itself by 13x and remains uncorrected in the public record. Ed 19 adds a named instance: David Brandman is lead investigator on both the academic BrainGate2 ALS result and Paradromics' commercial Connect-One trial. "Independent validation" between the two may mean less than the word implies when one person sits on both sides of it.
+- **"Checked vs. repeated" — is this the variable underlying both "who can audit" and "resource vs. rhetoric"?** (new, Ed 15; sharpened Ed 19, Ed 20) AWE's own exhibitor count disagreed with itself by 13x and remains uncorrected in the public record. Ed 19 adds a named instance: David Brandman is lead investigator on both the academic BrainGate2 ALS result and Paradromics' commercial Connect-One trial. Ed 20 adds a financial instance: Neuracle's IPO prospectus shows zero BCI revenue behind a company already cited as proof China leads the race — a "first" repeated without checking whether it shows up in a revenue line.
 - **"Who can audit?" — is this the axis "consent" has been standing in for?** (Ed 14, enriched Ed 16) The three-tier smart-glasses taxonomy maps directly onto the audit-capacity question: Tier 1 (AI camera eyewear, most inconspicuous, highest bystander consent-risk) versus Tier 3 (Specs, most visible, audience self-selects). The UC Davis ALS study adds a BCI-specific dimension: the user cannot audit the accuracy of the neural decoder the way a sighted user can audit a camera's output. "Who can audit" holds as the underlying axis across smart-glasses consent risk and BCI reliability.
 - **Can Angelo state a more specific claim than "Making Computing More Human"?** (new, Ed 16) Spiegel's AWE keynote has deployed this as a commercial product pitch. If Angelo cannot state, in one sentence, what he means by human-centric computing that Spiegel could not print on a Specs page, he is holding the category consensus, not a differentiating view.
 - **Is BCI's commercial structure resolved into one axis, or does it run on several?** (Ed 10-14, updated Ed 16, Ed 19) UC Davis ALS adds "independent daily use" as an empirical benchmark for the reimbursement threshold; Paradromics' Connexus (Ed 19) adds channel count (1,684 max) and full wireless implantation as a fourth distinct architecture now in a human. Hardware/regulatory, algorithmic, software-defined scope, signal resolution, and architecture-spectrum/regulatory-race interaction: five axes still in play, now with a fourth live data point.
@@ -1070,6 +1106,7 @@ Shared-investigator validation — the same named researcher serving as both an 
 | 17 | 17 Jun 2026 | XREAL opens AURA reservations, Android XR's first hardware, shipping fall 2026 to five markets with Europe held for "Wave 2"; Snap Specs price corrected to $2,195, preorders open for US/UK/France only | XREAL AURA launch + Wave 1/Wave 2 framing, Snap Specs preorder detail/price correction, Android XR Catalyst Programme (13 days, no EU cohort) | None new | Name one upcoming European decision-maker conversation where he can put a device in their hands rather than describe one secondhand |
 | 18 | 18 Jun 2026 | Snap's Specs launch ($2,195) is met same-day by an 8% stock drop to a 12-month low, down ~30% on the year, while XREAL's costlier rival AURA still won't name a price beyond a $1,500 ceiling | Snap stock reaction to Specs launch, XREAL AURA price-ceiling contrast | None new | Steelman the investor who sold Snap stock on the Specs launch, in three sentences |
 | 19 | 19 Jun 2026 | Paradromics implants its first human Connexus BCI at University of Michigan, seven months after FDA IDE clearance, with UC Davis's David Brandman as lead investigator on both this commercial trial and last week's academic BrainGate2 ALS result | Paradromics/Connect-One first implant, Brandman's dual academic/commercial role | Paradromics | Name the actual test Angelo applies for "independently validated" BCI claims, not the one he assumes he applies |
+| 20 | 20 Jun 2026 | Neuracle files for a $345m Shanghai STAR Market IPO on NEO — the prospectus's FY2025 revenue (RMB108m, all EEG equipment) predates NMPA approval, so the implant has recorded zero commercial revenue | Neuracle/NEO IPO, narrative-vs-revenue gap | None new | Name the commercial number (units implanted and paid for) that would have to appear in the 2026 filing for "China leads the BCI race" to hold |
 
 ---
-*Last updated: Edition 19 — 19 June 2026*
+*Last updated: Edition 20 — 20 June 2026*
