@@ -835,6 +835,39 @@ None — no second development cleared the bar today.
 
 ---
 
+## EDITION 18 — Sunday, 21 June 2026
+
+### Lead Story
+**Title:** Korea's Ice Cream Makers Are Exporting Their Way Out of a Shrinking Home Market
+**Pillar:** Food science & trends
+**Core argument:** Korean frozen-dessert exports rose 14.1% YoY to $49.8m in the first four months of 2026, building on a year that crossed $100m in annual exports for the first time; Binggrae's Melona now holds ~70% of the Korean ice-cream segment in the US, with overseas sales climbing from 9.3% of its ice-cream division (2020) to 21.9% (Q1 2026). Binggrae's April acquisition of Haitai Icecream and Lotte Wellfood's earlier (2017) acquisition of India's Havmor are the same play at two companies: using a bolt-on acquisition to extend the same export network, against a domestic Korean ice-cream market that has contracted more than 30% over the past decade. The export push is not growth layered on a healthy home base — it is the replacement for one.
+**Key entities introduced:** Binggrae, Haitai Icecream, Lotte Wellfood, Havmor
+**Key concepts introduced:** Export-plus-acquisition as a replacement strategy for a structurally shrinking domestic category, rather than incremental international growth
+**Sources used:** The Korea Herald (9/10): https://www.koreaherald.com/article/10775874
+**Angle delivered:** Run the same lens over Calm/Storm's nutrition pipeline — for any portfolio company whose domestic category is flat or shrinking, ask whether its growth plan depends on an export market it has actually tested, or one it's assuming
+**Follow-up threads to watch:** Whether Binggrae's Haitai integration shows up in next quarter's overseas-revenue share; any further Korean F&B bolt-on acquisitions following the same export-extension logic
+
+### Further items
+**Ingredion locks in 16.8% of the Tate & Lyle vote ahead of the shareholder meeting (Venture):** Huber Equity Corporation has given an irrevocable undertaking to vote 75,000,000 shares — about 16.8% of Tate & Lyle's issued share capital as of 5 June — in favour of the Ingredion scheme, ahead of the shareholder vote, High Court sanction and antitrust clearance still required. Source: GlobeNewswire/Ingredion (9/10): https://www.globenewswire.com/news-release/2026/06/08/3307802/0/en/Ingredion-Announces-Recommended-All-Cash-Acquisition-of-Tate-Lyle.html
+
+### New concepts in Julinka's working vocabulary
+"Export-as-replacement" — using export expansion plus targeted bolt-on acquisition to offset a structurally shrinking domestic category, rather than to supplement a healthy one (Edition 18)
+
+### Running-thread tracker
+- Art Basel 2026 (sales report) — fair closed 21 June; full post-fair sales report still due
+- Formo IFT FIRST Chicago — July 13–16; no movement this edition
+- UPSIDE Foods / Believer Meats auction — competing bids due July 20, auction July 28; no movement this edition
+- EU nature-credits technical criteria — still overdue; no publication this edition
+- EU Biotech Act novel-food sandbox exclusion — ongoing; no legislative change this edition
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence (Standing Ovation + Planetary + AgZen) — ongoing, no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis — no movement this edition
+- Ingredion/Tate & Lyle takeover — Huber Equity Corporation's 16.8% irrevocable voting undertaking secured (new, Ed 18); shareholder vote, Court sanction and antitrust clearance still pending; completion expected H2 2027
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -856,6 +889,7 @@ None — no second development cleared the bar today.
 | 15 | 17 Jun 2026 | Art Basel's VIP day sells through the caution — record gallery sales paired with deliberately measured buying, mirrored by EIF's disciplined €25M Yield Lab Europe Fund 2 commitment | VIP-day sales (Hauser & Wirth $35M Picasso, Zwirner $10M+, Gagosian de Kooning), Basel Exclusive withheld-PDF mechanism, EIF/Yield Lab Europe Fund 2 €25M-into-€100M commitment | Basel Exclusive, Yield Lab Europe Fund 2 | Ask a Basel Exclusive gallerist how withholding the PDF changed who buys; call Yield Lab Europe before its remaining ~€75M closes |
 | 16 | 18 Jun 2026 | Ingredion acquired Benicaros' novel-food dossier from NutriLeads two weeks before Brussels' Commission authorisation landed, pricing the regulatory gap itself; the Louvre's director tells the Senate the museum is "running out of steam" days after Art Basel's VIP nine-figure sales | Benicaros/Ingredion novel-food acquisition timing, Louvre infrastructure-funding crisis | NutriLeads, Benicaros, Ingredion, Louvre director Christophe Leribault | Pull the EU novel-food register for dossiers with a positive EFSA opinion but no Commission decision yet |
 | 17 | 19 Jun 2026 | Ingredion agrees £2.7bn takeover of Tate & Lyle, ending a London listing that outlasted two world wars — the same "pay ahead of certainty" instinct as the Benicaros deal, at company scale | Ingredion/Tate & Lyle takeover terms, financing and antitrust risk | Tate & Lyle, David Hearn, James Zallie, Alex Sloane, Huber Equity Corporation, CP Kelco | Screen Calm/Storm's pipeline for a dossier/ingredient a strategic would pay to lock down early; treat Barclays' complementary-vs-competing argument as a template for a future portfolio-company acquirer |
+| 18 | 21 Jun 2026 | Korean ice-cream makers (Binggrae, Lotte Wellfood) use export growth plus bolt-on acquisitions to offset a domestic market down 30%+ in a decade; Ingredion secures a 16.8% irrevocable voting commitment ahead of the Tate & Lyle shareholder vote | K-food ice-cream export/M&A pattern, Ingredion/Tate & Lyle voting commitment | Binggrae, Haitai Icecream, Lotte Wellfood, Havmor | Test whether any Calm/Storm pipeline company's growth plan depends on a proven export market or an assumed one |
 
 ---
-*Last updated: Edition 17 — 19 June 2026*
+*Last updated: Edition 18 — 21 June 2026*
