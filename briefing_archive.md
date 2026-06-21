@@ -1011,11 +1011,48 @@ Shared-investigator validation — the same named researcher serving as both an 
 
 ---
 
+## EDITION 20 — Sunday, 21 June 2026
+
+### Lead Story
+**Title:** Nvidia Opens XR AI to Developers, Betting the Smart-Glasses War Gets Decided One Layer Up From the Headset
+**Category:** Spatial Computing · Platforms
+**Core argument:** Nvidia's June 16th public beta of XR AI is a developer framework for agentic, multimodal AI assistants running on AR/XR glasses regardless of OS or hardware maker — deliberately OS-agnostic middleware, with launch partners spanning consumer (VITURE), industrial (Siemens via DGX Spark), clinical (UPMC), research (Stanford/Princeton's Rana Lab LabOS), automotive design (Innoactive) and immersive media (Atlantic Studios). This reframes five editions of "Android XR vs. Apple vs. Snap" hardware-tier tracking as a fight at the wrong layer if Nvidia is right that the agent running inside the glass, not the logo on the frame, decides the contest.
+**Key companies introduced:** Nvidia (full introduction to this beat); Siemens, UPMC, Rana Lab (Stanford/Princeton), VITURE, Innoactive, Atlantic Studios (XR AI launch partners)
+**Key people introduced:** None named in primary sourcing
+**Key concepts introduced:** Platform layer separation — OS/hardware contest vs. AI-agent middleware contest as two distinct fights for control of smart glasses
+**Sources used:** Nvidia corporate blog (9/10): https://blogs.nvidia.com/ ; Nvidia Developer blog (8/10): https://developer.nvidia.com/blog/
+**Follow-up threads to watch:** Whether any of the named XR AI partners (especially VITURE, a consumer glasses maker) ship a public product on the framework; whether Android XR, Apple or Snap respond by building or blocking a competing middleware layer
+
+### Further items (if any)
+**BCI implant census.** Roughly 150 people worldwide have now received a brain-computer interface, more than double the 67 counted through 2023, per Utrecht researcher Mariska Vansteensel — the first rough cross-company tally folding together Neuralink, Synchron, Science Corp, Paradromics, Precision Neuroscience and China's NEO recipients. Source: MIT Technology Review (8/10), June 19 2026. Printed as a short item, not a lead — it synthesises existing named threads rather than introducing a new development.
+
+### New concepts in Angelo's working vocabulary
+Platform layer separation — distinguishing the OS/hardware contest among device makers from a separate, possibly decisive, AI-agent middleware contest that runs above and across all of them.
+
+### Provocation(s) posed this edition
+- **Provocation:** Five editions of tracking the smart-glasses fight at the OS/hardware/price layer (Ed 16-19) — Nvidia just bet that layer is a side-show. Name which layer the real contest is actually fought at, and what evidence would have to appear for that answer to be wrong.
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, 20 editions; no update
+- Android XR Catalyst Programme — selection notification due mid-July; no update since Ed 19
+- Snap Specs stock — no further move reported since Ed 18 (~$4.74, 12-month low)
+- XREAL AURA — still no final price beyond $1,500 ceiling, no firmer EU date; no update
+- Synchron pivotal trial — still no public start date; no update
+- Samsung Galaxy Glasses / Unpacked — still uncorroborated 22 July London date; not run
+- BCI implant census (~150 people, Vansteensel) — new synthesis thread; watch for company-level disclosures that update this figure
+
+### Thinking Ledger update
+- **New:** Is the smart-glasses platform war actually two separate contests — one for the OS/hardware layer (Android XR/Apple/Snap, tracked Ed 16-19) and one for an AI-agent middleware layer that sits above all of them and doesn't care which device wins? Nvidia's XR AI beta is the first concrete bet that the second layer is the one that matters. (Provocation, Ed 20)
+- No change to the other live questions (checked-vs-repeated; who-can-audit; human-centric-computing specificity; BCI five-axis structure; translator-vs-narrator; market-doesn't-get-it-yet) — today's findings open a new structural question about platform layers rather than resolving an existing one.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
 
 ### Open questions in play
+- **Is the smart-glasses platform war actually two separate contests — OS/hardware vs. AI-agent middleware?** (new, Ed 20) Five editions tracked Android XR, Apple and Snap purely on hardware tiers, prices and launch windows. Nvidia's XR AI public beta (June 16) is explicitly OS-agnostic middleware, with partners spanning consumer, industrial, clinical and research use — the first concrete bet that the layer above the device, not the device itself, decides who controls smart glasses.
 - **"Checked vs. repeated" — is this the variable underlying both "who can audit" and "resource vs. rhetoric"?** (new, Ed 15; sharpened Ed 19) AWE's own exhibitor count disagreed with itself by 13x and remains uncorrected in the public record. Ed 19 adds a named instance: David Brandman is lead investigator on both the academic BrainGate2 ALS result and Paradromics' commercial Connect-One trial. "Independent validation" between the two may mean less than the word implies when one person sits on both sides of it.
 - **"Who can audit?" — is this the axis "consent" has been standing in for?** (Ed 14, enriched Ed 16) The three-tier smart-glasses taxonomy maps directly onto the audit-capacity question: Tier 1 (AI camera eyewear, most inconspicuous, highest bystander consent-risk) versus Tier 3 (Specs, most visible, audience self-selects). The UC Davis ALS study adds a BCI-specific dimension: the user cannot audit the accuracy of the neural decoder the way a sighted user can audit a camera's output. "Who can audit" holds as the underlying axis across smart-glasses consent risk and BCI reliability.
 - **Can Angelo state a more specific claim than "Making Computing More Human"?** (new, Ed 16) Spiegel's AWE keynote has deployed this as a commercial product pitch. If Angelo cannot state, in one sentence, what he means by human-centric computing that Spiegel could not print on a Specs page, he is holding the category consensus, not a differentiating view.
@@ -1035,6 +1072,7 @@ Shared-investigator validation — the same named researcher serving as both an 
 - **Smart glasses are three markets, not one.** (Resolved Ed 16.) The taxonomy is explicit and structural. Rhetorical convergence (everyone says "human-centric computing") coexists with product divergence (three different price points, three different capability ceilings, three different consent-risk profiles).
 - **Independent institutional convergence on language is not, by itself, evidence the underlying claim is true.** (Carried Ed 14-15.) AWE's exhibitor count went unchecked for two weeks alongside contradictory data. "Resource data" requires the same checking as rhetoric.
 - **A second BCI company has now placed a human implant within days of an academic result from the same lead investigator.** (New, Ed 19.) Brandman's dual role doesn't make either result false, but it means Angelo cannot treat the academic and commercial tracks as two separate checks on the same underlying claim — they share a rater.
+- **The OS/hardware layer may not be where smart glasses get decided.** (New, Ed 20.) Five editions of tracking Android XR/Apple/Snap on price and launch timing assumed the device layer was the contest. Nvidia's XR AI bet is that an AI-agent layer above all three devices is the real prize — untested, but the first named actor to act on it.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1043,6 +1081,7 @@ Shared-investigator validation — the same named researcher serving as both an 
 - **New (Ed 17):** Treating global narration as equivalent to market access. Two real product launches this week sequenced Europe behind the US, UK, and a handful of other markets — a concrete, named gap between the field Angelo describes and the field he can physically touch.
 - **New (Ed 18):** Trusting conference-circuit and trade-press momentum as the default signal of whether a product matters, without weighting the faster, harder-to-spin verdict that public capital markets supply the moment a real price tag exists.
 - **New (Ed 19):** Treating "academic" and "commercial" as two independent sources of corroboration for a BCI claim, without checking whether the same named investigator sits on both.
+- **New (Ed 20):** Tracking platform competition exclusively at the layer that is visible and easy to price (devices, launch dates), without checking whether the decisive layer sits somewhere less visible (middleware, agent software) above it.
 
 ---
 
@@ -1070,6 +1109,7 @@ Shared-investigator validation — the same named researcher serving as both an 
 | 17 | 17 Jun 2026 | XREAL opens AURA reservations, Android XR's first hardware, shipping fall 2026 to five markets with Europe held for "Wave 2"; Snap Specs price corrected to $2,195, preorders open for US/UK/France only | XREAL AURA launch + Wave 1/Wave 2 framing, Snap Specs preorder detail/price correction, Android XR Catalyst Programme (13 days, no EU cohort) | None new | Name one upcoming European decision-maker conversation where he can put a device in their hands rather than describe one secondhand |
 | 18 | 18 Jun 2026 | Snap's Specs launch ($2,195) is met same-day by an 8% stock drop to a 12-month low, down ~30% on the year, while XREAL's costlier rival AURA still won't name a price beyond a $1,500 ceiling | Snap stock reaction to Specs launch, XREAL AURA price-ceiling contrast | None new | Steelman the investor who sold Snap stock on the Specs launch, in three sentences |
 | 19 | 19 Jun 2026 | Paradromics implants its first human Connexus BCI at University of Michigan, seven months after FDA IDE clearance, with UC Davis's David Brandman as lead investigator on both this commercial trial and last week's academic BrainGate2 ALS result | Paradromics/Connect-One first implant, Brandman's dual academic/commercial role | Paradromics | Name the actual test Angelo applies for "independently validated" BCI claims, not the one he assumes he applies |
+| 20 | 21 Jun 2026 | Nvidia opens XR AI public beta — OS-agnostic AI-agent middleware for AR/XR glasses, betting the platform war is decided above the device layer | Nvidia XR AI beta, BCI implant census (~150 people, Vansteensel) | Nvidia (to this beat), Siemens, UPMC, Rana Lab, VITURE, Innoactive, Atlantic Studios | Name which layer — OS/hardware or AI-agent middleware — the real smart-glasses contest is fought at, and what would prove him wrong |
 
 ---
 *Last updated: Edition 19 — 19 June 2026*
