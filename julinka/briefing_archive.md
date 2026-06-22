@@ -868,6 +868,41 @@ None — no second development cleared the bar today.
 
 ---
 
+## EDITION 19 — Monday, 22 June 2026
+
+### Lead Story
+**Title:** New Forests Launches Its First Global Natural-Capital Fund, Targeting $707m
+**Pillar:** Nature
+**Core argument:** New Forests opened its first global strategy on June 15th, the Global Landscape Opportunities fund (Luxembourg-domiciled, A$1bn/$707m target, institutional LPs only), spanning forestry, farmland, carbon and biodiversity credits in one vehicle rather than the single-region, single-asset funds it has run for two decades. The launch is a bet that institutional capital will now pay for diversified exposure across nature markets rather than picking the best regional specialist.
+**Key entities introduced:** New Forests, Mark Rogers (CEO), David Shelton (Global Head of Investments)
+**Key concepts introduced:** Diversified global natural-capital vehicle vs. regional/single-asset nature fund as competing LP propositions
+**Sources used:** New Forests (9/10): https://newforests.com/insight/new-forests-launches-first-global-natural-capital-strategy/
+**Angle delivered:** Write the comp Calm/Storm doesn't have yet — price any nature-credit or regenerative-ag deal under diligence against a $707m diversified fund spanning the same asset classes, and treat a target's inability to justify specialism over diversification as a live diligence question.
+**Follow-up threads to watch:** Whether GLO names any limited partners or reaches a first close; whether other natural-capital managers follow with their own global (rather than regional) vehicles
+
+### Further items
+**Art Basel closes with a $59.6bn global art market report showing an uneven recovery (Art):** Art Basel's closing report (90,000 visitors, 103 countries, 290 galleries) landed alongside the Art Basel/UBS Global Art Market Report 2026, which puts 2025 global art sales at $59.6bn, up 4% after two years of decline but still below the 2022 peak — driven by a 9% rise in public auction sales to $20.7bn against only 2% dealer-sales growth to $34.8bn and a 5% fall in private sales. Named fair sales: Hauser & Wirth's $35m Picasso and $20m Richter, an $8.5m Hockney at Gray. Source: Art Basel (9/10): https://www.artbasel.com/stories/art-basel-2026-closes-with-strong-sales-and-global-engagement ; Art Basel/UBS (9/10): https://www.artbasel.com/stories/the-art-basel-and-ubs-global-art-market-report-2026
+
+### New concepts in Julinka's working vocabulary
+"Diversified global natural-capital vehicle" — a single fund spanning forestry, farmland, carbon and biodiversity markets across regions, competing for the same institutional LP dollar as regional or single-asset nature-capital specialists (Edition 19)
+
+### Running-thread tracker
+- Art Basel 2026 sales report — published 21-22 June (this edition); thread closed
+- Formo IFT FIRST Chicago — July 13–16; no movement this edition
+- UPSIDE Foods / Believer Meats auction — competing bids due July 20, auction July 28; no movement this edition
+- EU nature-credits technical criteria — still overdue; no publication this edition
+- EU Biotech Act II — call for evidence closed June 10; outcome/next steps not yet published
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence (Standing Ovation + Planetary + AgZen) — ongoing, no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis — no movement this edition
+- Ingredion/Tate & Lyle takeover — shareholder vote, Court sanction and antitrust clearance still pending; completion expected H2 2027
+- New Forests GLO fund — launched June 15 targeting $707m; watch for named LPs or first close (new, Ed 19)
+- EFSA register — possible novel-food opinion dated 17 June surfaced in search but unverified against the primary register; check directly next run before citing
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -890,6 +925,7 @@ None — no second development cleared the bar today.
 | 16 | 18 Jun 2026 | Ingredion acquired Benicaros' novel-food dossier from NutriLeads two weeks before Brussels' Commission authorisation landed, pricing the regulatory gap itself; the Louvre's director tells the Senate the museum is "running out of steam" days after Art Basel's VIP nine-figure sales | Benicaros/Ingredion novel-food acquisition timing, Louvre infrastructure-funding crisis | NutriLeads, Benicaros, Ingredion, Louvre director Christophe Leribault | Pull the EU novel-food register for dossiers with a positive EFSA opinion but no Commission decision yet |
 | 17 | 19 Jun 2026 | Ingredion agrees £2.7bn takeover of Tate & Lyle, ending a London listing that outlasted two world wars — the same "pay ahead of certainty" instinct as the Benicaros deal, at company scale | Ingredion/Tate & Lyle takeover terms, financing and antitrust risk | Tate & Lyle, David Hearn, James Zallie, Alex Sloane, Huber Equity Corporation, CP Kelco | Screen Calm/Storm's pipeline for a dossier/ingredient a strategic would pay to lock down early; treat Barclays' complementary-vs-competing argument as a template for a future portfolio-company acquirer |
 | 18 | 21 Jun 2026 | Korean ice-cream makers (Binggrae, Lotte Wellfood) use export growth plus bolt-on acquisitions to offset a domestic market down 30%+ in a decade; Ingredion secures a 16.8% irrevocable voting commitment ahead of the Tate & Lyle shareholder vote | K-food ice-cream export/M&A pattern, Ingredion/Tate & Lyle voting commitment | Binggrae, Haitai Icecream, Lotte Wellfood, Havmor | Test whether any Calm/Storm pipeline company's growth plan depends on a proven export market or an assumed one |
+| 19 | 22 Jun 2026 | New Forests launches its first global natural-capital fund (Global Landscape Opportunities), targeting $707m across forestry, farmland, carbon and biodiversity in one vehicle; Art Basel closes with a $59.6bn global art market report showing auction sales outpacing dealer sales | New Forests GLO fund launch, Art Basel 2026 close + UBS Global Art Market Report | New Forests, Mark Rogers, David Shelton | Price any nature-credit/regenerative-ag deal under diligence against New Forests' $707m diversified comp; write a note testing whether the 9%-vs-2% auction/dealer growth gap reflects ahead-of-market pricing or a narrowing list of blue-chip names |
 
 ---
-*Last updated: Edition 18 — 21 June 2026*
+*Last updated: Edition 19 — 22 June 2026*
