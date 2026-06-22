@@ -1047,11 +1047,49 @@ Platform layer separation — distinguishing the OS/hardware contest among devic
 
 ---
 
+## EDITION 21 — Monday, 22 June 2026
+
+### Lead Story
+**Title:** Valve's Steam Frame Reaches US Warehouses as a Global Memory Shortage Holds Up Its Price
+**Category:** Spatial Computing · Hardware Economics
+**Core argument:** Valve's standalone Steam Frame VR headset is sitting in US warehouses (FCC filing June 18; ~35 tons of cargo tracked into Shanghai-to-US import around June 10) with no price set, while Valve has confirmed only that it intends to undercut the $1,000 Index — guidance set last November, before DRAM contract prices rose more than 170% year on year. The same memory shortage already shaped Snap's $2,195 Specs price and XREAL AURA's unresolved $1,500 ceiling: in 2026, a spatial-computing price tag increasingly reflects an upstream memory invoice as much as a demand signal.
+**Key companies introduced:** Valve Corporation (Steam Frame, Steam Machine)
+**Key people introduced:** Pierre-Loup Griffais (Valve designer); Lip-Bu Tan (Intel CEO, on DRAM relief timeline)
+**Key concepts introduced:** Supply-set vs. demand-set hardware pricing — distinguishing a price tag that reflects genuine confidence/positioning from one effectively set by an upstream component shortage
+**Sources used:** Engadget (9/10): https://www.engadget.com/2187938/steam-machine-and-steam-frame-are-coming-this-summer/ and https://www.engadget.com/gaming/valve-says-that-the-steam-machines-price-will-be-more-in-line-with-current-pc-market-182213173.html ; IEEE Spectrum (9/10): https://spectrum.ieee.org/dram-shortage ; VR.org (7/10, amber — FCC filing/import detail only): https://vr.org/articles/steam-frame-fcc-filing-warehouse-imports-june-2026-launch-imminent
+**Follow-up threads to watch:** Whether Valve names a Steam Frame/Steam Machine price this summer as planned, and whether it still undercuts the Index's old $1,000 mark once DRAM costs are absorbed
+
+### Further items (if any)
+None cleared the bar today.
+
+### New concepts in Angelo's working vocabulary
+Supply-set vs. demand-set pricing — whether a 2026 spatial-computing hardware price reflects a maker's confidence in the product or an upstream component shortage (DRAM) it has no control over.
+
+### Provocation(s) posed this edition
+- **Provocation:** Snap's $2,195 Specs and XREAL's $1,500 AURA ceiling have been read as confidence signals. Valve's stalled Steam Frame suggests part of every 2026 price is being set upstream by a memory shortage. Which price points can Angelo still defend as demand-set, and what evidence would tell him the difference?
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, 21 editions; no update
+- Android XR Catalyst Programme — selection notification due mid-July; no update
+- Snap Specs stock — no further move reported since Ed 18; no update
+- XREAL AURA — still no final price beyond $1,500 ceiling; no update
+- Synchron pivotal trial — still no public start date; no update
+- Samsung Galaxy Glasses / Unpacked — still uncorroborated 22 July date; not run
+- BCI implant census (~150 people, Vansteensel) — no update
+- **New:** Valve Steam Frame/Steam Machine pricing — FCC filings and import signals point to an imminent reveal; watch for an official number this summer
+
+### Thinking Ledger update
+- **New:** Is 2026 spatial-computing hardware pricing becoming primarily supply-constrained (DRAM/memory costs) rather than demand-signaling? Valve's Steam Frame is held up by the same memory shortage that shaped Snap's and XREAL's pricing — a third data point suggesting the constraint is industry-wide, not company-specific. (Provocation, Ed 21)
+- No change to the other live questions — today's finding extends the pricing thread first raised informally in Ed 17-18 into a sharper, named structural question rather than resolving any of the six standing items.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
 
 ### Open questions in play
+- **Is 2026 spatial-computing hardware pricing becoming primarily supply-constrained rather than demand-signaling?** (new, Ed 21) Valve's Steam Frame sits in US warehouses with no price attached, held back by a DRAM shortage that has already shaped Snap's $2,195 Specs price and XREAL AURA's unresolved $1,500 ceiling. Three companies, one upstream constraint — Angelo has been reading these prices as confidence signals when they may be invoices for a memory shortage Intel's CEO says won't ease before 2028.
 - **Is the smart-glasses platform war actually two separate contests — OS/hardware vs. AI-agent middleware?** (new, Ed 20) Five editions tracked Android XR, Apple and Snap purely on hardware tiers, prices and launch windows. Nvidia's XR AI public beta (June 16) is explicitly OS-agnostic middleware, with partners spanning consumer, industrial, clinical and research use — the first concrete bet that the layer above the device, not the device itself, decides who controls smart glasses.
 - **"Checked vs. repeated" — is this the variable underlying both "who can audit" and "resource vs. rhetoric"?** (new, Ed 15; sharpened Ed 19) AWE's own exhibitor count disagreed with itself by 13x and remains uncorrected in the public record. Ed 19 adds a named instance: David Brandman is lead investigator on both the academic BrainGate2 ALS result and Paradromics' commercial Connect-One trial. "Independent validation" between the two may mean less than the word implies when one person sits on both sides of it.
 - **"Who can audit?" — is this the axis "consent" has been standing in for?** (Ed 14, enriched Ed 16) The three-tier smart-glasses taxonomy maps directly onto the audit-capacity question: Tier 1 (AI camera eyewear, most inconspicuous, highest bystander consent-risk) versus Tier 3 (Specs, most visible, audience self-selects). The UC Davis ALS study adds a BCI-specific dimension: the user cannot audit the accuracy of the neural decoder the way a sighted user can audit a camera's output. "Who can audit" holds as the underlying axis across smart-glasses consent risk and BCI reliability.
@@ -1073,6 +1111,7 @@ Platform layer separation — distinguishing the OS/hardware contest among devic
 - **Independent institutional convergence on language is not, by itself, evidence the underlying claim is true.** (Carried Ed 14-15.) AWE's exhibitor count went unchecked for two weeks alongside contradictory data. "Resource data" requires the same checking as rhetoric.
 - **A second BCI company has now placed a human implant within days of an academic result from the same lead investigator.** (New, Ed 19.) Brandman's dual role doesn't make either result false, but it means Angelo cannot treat the academic and commercial tracks as two separate checks on the same underlying claim — they share a rater.
 - **The OS/hardware layer may not be where smart glasses get decided.** (New, Ed 20.) Five editions of tracking Android XR/Apple/Snap on price and launch timing assumed the device layer was the contest. Nvidia's XR AI bet is that an AI-agent layer above all three devices is the real prize — untested, but the first named actor to act on it.
+- **Hardware price tags Angelo has read as confidence signals may be supply-chain artefacts.** (New, Ed 21.) Snap's Specs price, XREAL's AURA ceiling, and now Valve's stalled, unpriced Steam Frame all sit downstream of the same DRAM shortage. A price set by a component market, not a product team, is not evidence of how a company sees its own product.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1082,6 +1121,7 @@ Platform layer separation — distinguishing the OS/hardware contest among devic
 - **New (Ed 18):** Trusting conference-circuit and trade-press momentum as the default signal of whether a product matters, without weighting the faster, harder-to-spin verdict that public capital markets supply the moment a real price tag exists.
 - **New (Ed 19):** Treating "academic" and "commercial" as two independent sources of corroboration for a BCI claim, without checking whether the same named investigator sits on both.
 - **New (Ed 20):** Tracking platform competition exclusively at the layer that is visible and easy to price (devices, launch dates), without checking whether the decisive layer sits somewhere less visible (middleware, agent software) above it.
+- **New (Ed 21):** Reading a published price as a statement about a product, without checking what the price is made of — components, supply constraints, currency of guidance given months earlier.
 
 ---
 
@@ -1110,6 +1150,7 @@ Platform layer separation — distinguishing the OS/hardware contest among devic
 | 18 | 18 Jun 2026 | Snap's Specs launch ($2,195) is met same-day by an 8% stock drop to a 12-month low, down ~30% on the year, while XREAL's costlier rival AURA still won't name a price beyond a $1,500 ceiling | Snap stock reaction to Specs launch, XREAL AURA price-ceiling contrast | None new | Steelman the investor who sold Snap stock on the Specs launch, in three sentences |
 | 19 | 19 Jun 2026 | Paradromics implants its first human Connexus BCI at University of Michigan, seven months after FDA IDE clearance, with UC Davis's David Brandman as lead investigator on both this commercial trial and last week's academic BrainGate2 ALS result | Paradromics/Connect-One first implant, Brandman's dual academic/commercial role | Paradromics | Name the actual test Angelo applies for "independently validated" BCI claims, not the one he assumes he applies |
 | 20 | 21 Jun 2026 | Nvidia opens XR AI public beta — OS-agnostic AI-agent middleware for AR/XR glasses, betting the platform war is decided above the device layer | Nvidia XR AI beta, BCI implant census (~150 people, Vansteensel) | Nvidia (to this beat), Siemens, UPMC, Rana Lab, VITURE, Innoactive, Atlantic Studios | Name which layer — OS/hardware or AI-agent middleware — the real smart-glasses contest is fought at, and what would prove him wrong |
+| 21 | 22 Jun 2026 | Valve's Steam Frame sits unpriced in US warehouses, held up by a global DRAM shortage already reflected in Snap's and XREAL's pricing | Valve Steam Frame/Steam Machine, DRAM shortage | Valve Corporation | Name which of this year's hardware prices are demand-set vs. supply-set, and what evidence would tell him the difference |
 
 ---
-*Last updated: Edition 19 — 19 June 2026*
+*Last updated: Edition 21 — 22 June 2026*
