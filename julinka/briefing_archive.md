@@ -899,7 +899,41 @@ None — no second development cleared the bar today.
 - Louvre infrastructure/funding crisis — no movement this edition
 - Ingredion/Tate & Lyle takeover — shareholder vote, Court sanction and antitrust clearance still pending; completion expected H2 2027
 - New Forests GLO fund — launched June 15 targeting $707m; watch for named LPs or first close (new, Ed 19)
-- EFSA register — possible novel-food opinion dated 17 June surfaced in search but unverified against the primary register; check directly next run before citing
+- EFSA register — the 17 June opinion checked directly against the EFSA Journal: it is a routine bioavailability assessment of zinc l-carnosine as a novel food, no applicant disclosed, no commercial signal; not a story, thread closed
+
+---
+
+## EDITION 20 — Tuesday, 23 June 2026
+
+### Lead Story
+**Title:** Brussels Ties Protein Diversification to a 5% Cut in Farm Emissions
+**Pillar:** Food & Nature
+**Core argument:** The European Environment Agency said diversifying Europe's protein supply beyond livestock could cut EU agricultural greenhouse-gas emissions by around 5% by 2035 and ease the bloc's two-thirds reliance on imported high-protein feed, per JRC modelling cited in a new EEA report. The agency ranks five protein routes by current environmental readiness — plant proteins ahead on mature production and markets, fermentation and cultivated meat as longer-horizon bets — recommending diversification rather than wholesale livestock replacement.
+**Key entities introduced:** European Environment Agency, European Commission Joint Research Centre
+**Key concepts introduced:** Protein-route readiness ranking (plant/fermentation/cultivated meat tiered by environmental and market maturity, not treated as one undifferentiated "alternative protein" category)
+**Sources used:** NutritionInsight (7/10): https://www.nutritioninsight.com/news/europe-protein-diversification-sustainability-plant-based-eea.html
+**Angle delivered:** Tier Calm/Storm's protein-diversification bets by where they sit on the EEA's readiness curve, and publish the food-security (import-dependency) case for the fund's nutrition/climate mandate as a separate argument from the emissions case.
+**Follow-up threads to watch:** Whether the European Commission's JRC publishes the underlying modelling paper; whether the EEA report shifts EU novel-food or Biotech Act II priorities
+
+### Further items
+**UPSIDE Foods becomes the sole bidder for Believer Meats' collapsed US plant, at a third of its build cost (Food):** A North Carolina court approved UPSIDE Foods' $50m stalking-horse bid for Believer Meats' Wilson, NC facility (which cost over $150m to build); competing bids must top $52.25m by July 20th, with an auction July 28th and sale hearing July 30th if one emerges. Excludes IP held by former parent Future Meat Technologies. Resolves the prior "no movement" state on this thread with a concrete bid and timeline. Source: AgFunderNews (8/10): https://agfundernews.com/exclusive-upside-foods-submits-50m-stalking-horse-bid-for-believer-meats-us-cultivated-meat-facility
+
+### New concepts in Julinka's working vocabulary
+"Protein-route readiness curve" — ranking plant-based, fermentation and cultivated-meat protein bets by current environmental and commercial maturity rather than treating "alternative protein" as one category (Edition 20)
+
+### Running-thread tracker
+- UPSIDE Foods/Believer Meats auction — stalking-horse bid filed at $50m (this edition); competing bids due July 20, auction July 28, sale hearing July 30
+- Formo IFT FIRST Chicago — July 13–16; no movement this edition
+- EU nature-credits technical criteria — still overdue; no publication this edition
+- EU Biotech Act II — call for evidence closed June 10; outcome/next steps not yet published
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence (Standing Ovation + Planetary + AgZen) — ongoing, no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis — no movement this edition
+- Ingredion/Tate & Lyle takeover — shareholder vote, Court sanction and antitrust clearance still pending; completion expected H2 2027
+- New Forests GLO fund — launched June 15 targeting $707m; watch for named LPs or first close
+- EEA protein-diversification report (new, Ed 20) — watch for JRC's underlying paper and any EU policy follow-through
 
 ---
 
@@ -926,6 +960,7 @@ None — no second development cleared the bar today.
 | 17 | 19 Jun 2026 | Ingredion agrees £2.7bn takeover of Tate & Lyle, ending a London listing that outlasted two world wars — the same "pay ahead of certainty" instinct as the Benicaros deal, at company scale | Ingredion/Tate & Lyle takeover terms, financing and antitrust risk | Tate & Lyle, David Hearn, James Zallie, Alex Sloane, Huber Equity Corporation, CP Kelco | Screen Calm/Storm's pipeline for a dossier/ingredient a strategic would pay to lock down early; treat Barclays' complementary-vs-competing argument as a template for a future portfolio-company acquirer |
 | 18 | 21 Jun 2026 | Korean ice-cream makers (Binggrae, Lotte Wellfood) use export growth plus bolt-on acquisitions to offset a domestic market down 30%+ in a decade; Ingredion secures a 16.8% irrevocable voting commitment ahead of the Tate & Lyle shareholder vote | K-food ice-cream export/M&A pattern, Ingredion/Tate & Lyle voting commitment | Binggrae, Haitai Icecream, Lotte Wellfood, Havmor | Test whether any Calm/Storm pipeline company's growth plan depends on a proven export market or an assumed one |
 | 19 | 22 Jun 2026 | New Forests launches its first global natural-capital fund (Global Landscape Opportunities), targeting $707m across forestry, farmland, carbon and biodiversity in one vehicle; Art Basel closes with a $59.6bn global art market report showing auction sales outpacing dealer sales | New Forests GLO fund launch, Art Basel 2026 close + UBS Global Art Market Report | New Forests, Mark Rogers, David Shelton | Price any nature-credit/regenerative-ag deal under diligence against New Forests' $707m diversified comp; write a note testing whether the 9%-vs-2% auction/dealer growth gap reflects ahead-of-market pricing or a narrowing list of blue-chip names |
+| 20 | 23 Jun 2026 | EEA ties EU protein diversification to a 5% cut in farm emissions by 2035 and ranks plant/fermentation/cultivated-meat routes by current readiness; UPSIDE Foods' $50m bid for Believer Meats' plant prices that ranking in the market | EEA protein-diversification report, UPSIDE Foods/Believer Meats stalking-horse bid | European Environment Agency, EU Joint Research Centre | Tier protein-diversification bets by the EEA's readiness curve; publish the food-security case for nutrition/climate investing separately from the emissions case |
 
 ---
-*Last updated: Edition 19 — 22 June 2026*
+*Last updated: Edition 20 — 23 June 2026*
