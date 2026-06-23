@@ -1084,12 +1084,52 @@ Supply-set vs. demand-set pricing — whether a 2026 spatial-computing hardware 
 
 ---
 
+## EDITION 22 — Tuesday, 23 June 2026
+
+### Lead Story
+**Title:** Neuracle Files for a $370 Million Shanghai Listing, Three Months After Its Brain Implant Became the First Approved for Commercial Sale
+**Category:** BCI · Capital Markets
+**Core argument:** Neuracle Technology filed June 11th to list on Shanghai's STAR Market, seeking 2.5bn yuan (~$370m) via CITIC Securities, three months after its NEO implant became the first invasive BCI approved anywhere for commercial sale. The prospectus shows zero implant revenue: all 108m yuan of 2025 revenue came from older non-invasive EEG hardware, against cumulative three-year losses of ~328m yuan and a 467m yuan accumulated deficit. Neuracle won the regulatory race outright; the IPO is a bid to fund the harder, unproven leg — converting that approval into an actual business — before Neuralink and others close the gap.
+**Key companies introduced:** Neuracle Technology (full introduction to this beat); CITIC Securities
+**Key people introduced:** Xu Honglai, Huang Xiaoshan (Neuracle co-founders, Tsinghua PhDs)
+**Key concepts introduced:** None new — sharpens the existing "first-to-approval vs. biggest-platform" / architecture-spectrum-predicts-regulatory-speed thread with a financial data point
+**Sources used:** South China Morning Post (9/10): https://www.scmp.com/business/banking-finance/article/3346495/first-china-neuracles-implantable-brain-computer-interface-wins-approval ; BigGo Finance (6/10, amber — prospectus financial detail): https://finance.biggo.com/news/Jr930J4BKpxr8PktXicD ; HelloChinaTech (6/10, amber — prospectus financial detail): https://hellochinatech.com/p/neuracle-brain-implant-ipo
+**Follow-up threads to watch:** Whether the STAR Market listing completes and at what valuation; whether Neuracle reports any NEO implant revenue once commercial sales begin; whether a competing Chinese BCI maker (BrainCo, NeuCyber) files a rival IPO
+
+### Further items (if any)
+**Valve confirms Steam Machine pricing.** Pre-orders opened June 22nd at $1,050 (512GB) rising to $1,430 (2TB + controller), above Valve's November guidance to undercut the $1,000 Index; Valve cited "significant" RAM and storage cost swings, the same DRAM shortage already in Snap's and XREAL's pricing. Steam Machine shares components with the still-unpriced Steam Frame VR headset, making this the closest preview yet of where the Frame lands. Source: Road to VR (7/10), June 22 2026: https://roadtovr.com/steam-machine-launches-next-week-starting-at-1050-hints-at-what-to-expect-from-steam-frames-launch/ — continues the Ed 21 supply-set-vs-demand-set pricing thread; not a new lead.
+
+### New concepts in Angelo's working vocabulary
+None new this edition.
+
+### Provocation(s) posed this edition
+- **Provocation:** Neuracle won the "first to approval" race outright, then booked zero implant revenue in three years and now needs $370m from retail investors to find out if the win means anything commercially. Does speed-to-approval actually predict speed-to-revenue in BCI, or is it a different, easier race that says nothing about the harder one — getting hospitals, insurers, and patients to pay?
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, 22 editions; no update
+- Android XR Catalyst Programme — selection notification due mid-July; no update
+- Snap Specs stock — no further move reported since Ed 18; no update
+- XREAL AURA — still no final price beyond $1,500 ceiling; no update
+- Synchron pivotal trial — still no public start date; no update
+- Samsung Galaxy Glasses / Unpacked — still uncorroborated 22 July date; not run
+- BCI implant census (~150 people, Vansteensel) — no update
+- Valve Steam Frame pricing — Steam Machine officially priced June 22 ($1,050–$1,430), above November's sub-$1,000 guidance, attributed to DRAM costs; Frame itself still unpriced — watch for an official Frame number, expected to track the Machine's increase
+- **New:** Neuracle STAR Market IPO — application accepted June 11; watch for SSE review/inquiry letters and a listing date
+
+### Thinking Ledger update
+- **New:** Does speed-to-regulatory-approval actually predict speed-to-commercial-revenue in BCI, or are they decoupled enough that "first to approval" tells Angelo nothing about who wins commercially? Neuracle's zero-revenue, $370m-IPO position three months after its world-first approval is the first concrete test case. (Provocation, Ed 22)
+- The Steam Frame/Steam Machine pricing thread (Ed 21) gets its first hard number: Steam Machine priced above its own prior guidance, for the cited reason (DRAM costs) — supports rather than revises the supply-set-pricing position.
+- No change to the other live questions (smart-glasses platform layers; checked-vs-repeated; who-can-audit; human-centric-computing specificity; BCI five-axis structure; translator-vs-narrator) — today's lead sharpens the architecture-spectrum-predicts-regulatory-speed position rather than replacing it.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
 
 ### Open questions in play
-- **Is 2026 spatial-computing hardware pricing becoming primarily supply-constrained rather than demand-signaling?** (new, Ed 21) Valve's Steam Frame sits in US warehouses with no price attached, held back by a DRAM shortage that has already shaped Snap's $2,195 Specs price and XREAL AURA's unresolved $1,500 ceiling. Three companies, one upstream constraint — Angelo has been reading these prices as confidence signals when they may be invoices for a memory shortage Intel's CEO says won't ease before 2028.
+- **Does speed-to-regulatory-approval predict speed-to-commercial-revenue, or are the two decoupled?** (new, Ed 22) Neuracle won the global "first invasive BCI approved for commercial sale" race outright in March, then booked zero implant revenue in three years and is now seeking $370m from public markets. "First to approval" has been one of the five BCI architecture axes Angelo tracks; this is the first case testing whether winning it predicts anything about winning commercially.
+- **Is 2026 spatial-computing hardware pricing becoming primarily supply-constrained rather than demand-signaling?** (Ed 21; confirmed Ed 22) Valve has now officially priced the Steam Machine above its own November guidance and named DRAM/storage costs as the reason — a fourth data point, after Snap's Specs and XREAL's AURA ceiling, for the same upstream constraint. The still-unpriced Steam Frame is expected to track the same curve.
 - **Is the smart-glasses platform war actually two separate contests — OS/hardware vs. AI-agent middleware?** (new, Ed 20) Five editions tracked Android XR, Apple and Snap purely on hardware tiers, prices and launch windows. Nvidia's XR AI public beta (June 16) is explicitly OS-agnostic middleware, with partners spanning consumer, industrial, clinical and research use — the first concrete bet that the layer above the device, not the device itself, decides who controls smart glasses.
 - **"Checked vs. repeated" — is this the variable underlying both "who can audit" and "resource vs. rhetoric"?** (new, Ed 15; sharpened Ed 19) AWE's own exhibitor count disagreed with itself by 13x and remains uncorrected in the public record. Ed 19 adds a named instance: David Brandman is lead investigator on both the academic BrainGate2 ALS result and Paradromics' commercial Connect-One trial. "Independent validation" between the two may mean less than the word implies when one person sits on both sides of it.
 - **"Who can audit?" — is this the axis "consent" has been standing in for?** (Ed 14, enriched Ed 16) The three-tier smart-glasses taxonomy maps directly onto the audit-capacity question: Tier 1 (AI camera eyewear, most inconspicuous, highest bystander consent-risk) versus Tier 3 (Specs, most visible, audience self-selects). The UC Davis ALS study adds a BCI-specific dimension: the user cannot audit the accuracy of the neural decoder the way a sighted user can audit a camera's output. "Who can audit" holds as the underlying axis across smart-glasses consent risk and BCI reliability.
@@ -1111,7 +1151,8 @@ Supply-set vs. demand-set pricing — whether a 2026 spatial-computing hardware 
 - **Independent institutional convergence on language is not, by itself, evidence the underlying claim is true.** (Carried Ed 14-15.) AWE's exhibitor count went unchecked for two weeks alongside contradictory data. "Resource data" requires the same checking as rhetoric.
 - **A second BCI company has now placed a human implant within days of an academic result from the same lead investigator.** (New, Ed 19.) Brandman's dual role doesn't make either result false, but it means Angelo cannot treat the academic and commercial tracks as two separate checks on the same underlying claim — they share a rater.
 - **The OS/hardware layer may not be where smart glasses get decided.** (New, Ed 20.) Five editions of tracking Android XR/Apple/Snap on price and launch timing assumed the device layer was the contest. Nvidia's XR AI bet is that an AI-agent layer above all three devices is the real prize — untested, but the first named actor to act on it.
-- **Hardware price tags Angelo has read as confidence signals may be supply-chain artefacts.** (New, Ed 21.) Snap's Specs price, XREAL's AURA ceiling, and now Valve's stalled, unpriced Steam Frame all sit downstream of the same DRAM shortage. A price set by a component market, not a product team, is not evidence of how a company sees its own product.
+- **Hardware price tags Angelo has read as confidence signals may be supply-chain artefacts.** (New, Ed 21; confirmed Ed 22.) Snap's Specs price, XREAL's AURA ceiling, and now Valve's officially-priced Steam Machine ($1,050–$1,430, above its own guidance, DRAM cited by name) all sit downstream of the same shortage. A price set by a component market, not a product team, is not evidence of how a company sees its own product.
+- **Winning the regulatory race is not the same evidence as winning the commercial one.** (New, Ed 22.) Neuracle's NEO became the first invasive BCI approved for commercial sale anywhere, and the company has booked zero revenue from it three years running, now seeking $370m from retail investors to bridge the gap. The architecture-spectrum-predicts-regulatory-speed position (Ed 13) holds; it should not be read as also predicting commercial success.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1122,6 +1163,7 @@ Supply-set vs. demand-set pricing — whether a 2026 spatial-computing hardware 
 - **New (Ed 19):** Treating "academic" and "commercial" as two independent sources of corroboration for a BCI claim, without checking whether the same named investigator sits on both.
 - **New (Ed 20):** Tracking platform competition exclusively at the layer that is visible and easy to price (devices, launch dates), without checking whether the decisive layer sits somewhere less visible (middleware, agent software) above it.
 - **New (Ed 21):** Reading a published price as a statement about a product, without checking what the price is made of — components, supply constraints, currency of guidance given months earlier.
+- **New (Ed 22):** Treating a regulatory or "first" milestone as if it already implies commercial traction, without checking the revenue line sitting right behind the headline.
 
 ---
 
@@ -1151,6 +1193,7 @@ Supply-set vs. demand-set pricing — whether a 2026 spatial-computing hardware 
 | 19 | 19 Jun 2026 | Paradromics implants its first human Connexus BCI at University of Michigan, seven months after FDA IDE clearance, with UC Davis's David Brandman as lead investigator on both this commercial trial and last week's academic BrainGate2 ALS result | Paradromics/Connect-One first implant, Brandman's dual academic/commercial role | Paradromics | Name the actual test Angelo applies for "independently validated" BCI claims, not the one he assumes he applies |
 | 20 | 21 Jun 2026 | Nvidia opens XR AI public beta — OS-agnostic AI-agent middleware for AR/XR glasses, betting the platform war is decided above the device layer | Nvidia XR AI beta, BCI implant census (~150 people, Vansteensel) | Nvidia (to this beat), Siemens, UPMC, Rana Lab, VITURE, Innoactive, Atlantic Studios | Name which layer — OS/hardware or AI-agent middleware — the real smart-glasses contest is fought at, and what would prove him wrong |
 | 21 | 22 Jun 2026 | Valve's Steam Frame sits unpriced in US warehouses, held up by a global DRAM shortage already reflected in Snap's and XREAL's pricing | Valve Steam Frame/Steam Machine, DRAM shortage | Valve Corporation | Name which of this year's hardware prices are demand-set vs. supply-set, and what evidence would tell him the difference |
+| 22 | 23 Jun 2026 | Neuracle files for a $370m Shanghai IPO three months after its NEO implant became the first commercially approved invasive BCI, having booked zero implant revenue | Neuracle STAR Market IPO, Valve Steam Machine official pricing | Neuracle Technology, CITIC Securities | Does speed-to-approval predict speed-to-revenue in BCI, or is it a different, easier race that says nothing about the one that matters |
 
 ---
-*Last updated: Edition 21 — 22 June 2026*
+*Last updated: Edition 22 — 23 June 2026*
