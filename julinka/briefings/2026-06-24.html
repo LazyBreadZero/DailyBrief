@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Wednesday, 24 June 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+    margin: 0 0 0 0;
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; }
+  h2.section-headline { font-family: 'Fraunces', Georgia, serif; font-size: 24px; font-weight: 700; color: #1F1B16; line-height: 1.25; margin-bottom: 12px; margin-top: 36px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .highlight-block { background: #F4E8C9; border-radius: 6px; padding: 18px 22px; margin: 24px 0; }
+  .highlight-block p { font-size: 16px; margin-bottom: 0; color: #4A4036; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-box .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .intel-grid { display: grid; grid-template-columns: 1fr; gap: 0; }
+  .intel-item { border-top: 1px solid #E5DAC4; padding: 18px 0; }
+  .intel-item:last-child { border-bottom: 1px solid #E5DAC4; }
+  .intel-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 5px; }
+  .intel-item p { font-size: 15.5px; line-height: 1.65; margin-bottom: 0; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Wednesday, 24 June 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 21</span>
+    <span class="dateline-right">Venture &middot; Food &middot; Art &middot; Nature</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Food Science &amp; Venture</div>
+    <h1 class="lead-headline">Huvepharma to Quadruple Capacity for Every&rsquo;s Egg Protein After Orders Rose 550% in Four Months</h1>
+
+    <p>Huvepharma agreed this month to quadruple manufacturing capacity for The Every Company&rsquo;s animal-free egg protein, after orders for the ingredient grew more than 550% in the first four months of 2026 against the whole of 2025. The expansion runs through Huvepharma&rsquo;s Bulgarian fermentation subsidiary, Biovet AD, which already supplies clients in more than 100 countries. Every&rsquo;s chief executive, Arturo Elizondo, called the deal &ldquo;a direct response to the market&rsquo;s clear signal,&rdquo; after national listings at Target, Walmart and Amazon pulled OvoPro &mdash; a shelf-stable ovalbumin protein made by precision fermentation &mdash; into mainstream retail for the first time this year.
+    <a href="https://www.foodnavigator-usa.com/Article/2026/06/23/every-company-scales-animal-free-egg-protein-as-ovopro-demand-surges-550/" target="_blank" class="source-badge badge-green">FoodNavigator-USA (8/10)</a></p>
+
+    <p>The growth happened after Every&rsquo;s last funding round closed, not because of a new one: a $55m Series D led by McWin Capital Partners, in November, before any of this year&rsquo;s retail listings existed. What is funding the company through this growth phase is not equity. It is Huvepharma&rsquo;s fermentation capacity.</p>
+
+    <p>It is the same pattern playing out twice more this month. On 2 June, Nestl&eacute; entered a multi-year partnership with Helaina, the New York biotech behind effera, a human-identical lactoferrin made by precision fermentation, to build infant formula around the ingredient &mdash; the kind of validation a fermentation startup has typically needed several funding rounds, not one corporate partner, to reach. Helaina&rsquo;s chief executive, Laura Katz, and Nestl&eacute;&rsquo;s product-technology head, Isabelle Bureau-Franz, framed it as a science collaboration; the practical effect is that one of the world&rsquo;s largest infant-formula makers has now committed multi-year resources to a bioactive protein that did not exist commercially two years ago.
+    <a href="https://www.nestle.com/about/research-development/news/helaina-infant-nutrition-science-partnership" target="_blank" class="source-badge badge-green">Nestl&eacute; Newsroom (9/10)</a></p>
+
+    <p>And on 9 June, Solar Foods&rsquo; gas-fermented Solein reached US consumers for the first time, in a ready-to-mix protein powder from the Utah brand Ambrosia Collective &mdash; a market the Finnish company had previously reached only through Singapore.
+    <a href="https://www.globenewswire.com/news-release/2026/06/09/3309024/0/en/Ambrosia-Collective-Launches-Planta-Powered-by-Solein-Bringing-Solar-Foods-Air-Based-Protein-to-U-S-Consumers.html" target="_blank" class="source-badge badge-green">GlobeNewswire (9/10)</a></p>
+
+    <p>A trade-press roundup published the same week reads the pattern as evidence that capital for fermentation-based ingredients is &ldquo;finding its footing&rdquo; even as venture funding for food-tech more broadly keeps cooling, citing climate-driven supply shocks in cocoa and coffee and the US synthetic-dye phase-out as added tailwinds. What the three deals actually share is narrower than a funding story: each company was already selling a product worth scaling, and what arrived this month was capacity, not capital.
+    <a href="https://www.foodnavigator-usa.com/Article/2026/06/23/fermentation-ingredients-attract-investors-cpgs/" target="_blank" class="source-badge badge-green">FoodNavigator-USA (8/10)</a></p>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <span class="angle-num">1</span>
+        <span class="angle-move-text">Screen Calm/Storm&rsquo;s fermentation pipeline for the same dependency: which companies already have a manufacturing partner with spare fermentation capacity lined up, and which are still writing growth plans that assume the next funding round will buy that capacity instead. This month says the partner matters more than the round.</span>
+      </div>
+      <div class="angle-move">
+        <span class="angle-num">2</span>
+        <span class="angle-move-text">Write the one-pager that puts a number on the gap Nestl&eacute; just priced: early-life nutrition is the most prevention-aligned use of precision fermentation on the market today, and Calm/Storm has no European-funded company positioned to be the next effera. Find one before another multinational does.</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
