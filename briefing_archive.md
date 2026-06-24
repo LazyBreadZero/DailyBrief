@@ -1123,24 +1123,63 @@ None new this edition.
 
 ---
 
+## EDITION 23 — Wednesday, 24 June 2026
+
+### Lead Story
+**Title:** Meta Launches $299 Smart Glasses, Undercutting Its Own Ray-Ban Meta Line by $80
+**Category:** Smart Glasses / Platform Strategy
+**Core argument:** Meta launched Adventurer, Fury ($299) and Starfire ($399, with Kylie Jenner) on June 23rd, its first smart glasses sold without Ray-Ban or Oakley branding, priced $80 below its own Ray-Ban Meta Wayfarer ($379). Wearables head Alex Himel called Apple "formidable" while describing Apple's 2027 glasses as camera-and-Siri-only with no display — a public concession of which tier of the field Apple's product actually contests, and which it doesn't. The launch also breaks the year's pricing pattern: Snap, XREAL and Valve have all priced up against a DRAM shortage, while Meta's display-free glasses, with a far lighter bill of materials, priced down — the first evidence the shortage is hitting compute/display-heavy hardware specifically, not eyewear electronics broadly.
+**Key companies introduced:** None new (Meta, Apple, Snap, XREAL, Valve previously introduced)
+**Key people introduced:** Alex Himel (Meta head of wearables)
+**Key concepts introduced:** Pricing divergence by bill-of-materials complexity as a sharper test of the supply-set-pricing thesis than uniform "everything is up" framing
+**Sources used:** TechCrunch (9/10): https://techcrunch.com/2026/06/23/meta-debuts-new-cheaper-smart-glasses-under-its-own-brand/ ; MacRumors (8/10): https://www.macrumors.com/2026/06/23/meta-launches-its-own-299-smart-glasses/ ; Meta Newsroom (9/10): https://about.fb.com/news/2026/06/meta-essilorluxottica-partner-launch-meta-glasses/ ; Road to VR (7/10): https://roadtovr.com/steam-machine-launches-next-week-starting-at-1050-hints-at-what-to-expect-from-steam-frames-launch/
+**Follow-up threads to watch:** Whether Apple's actual 2027 product confirms Himel's camera-only description or adds a display; whether other display-free camera glasses (Samsung's rumoured entry, any Snap budget tier) also price down against the DRAM trend
+
+### Further items (if any)
+None — single-story edition; nothing else cleared the bar today (Science Corp CE mark, Samsung Unpacked date, Steam Frame pricing all checked, no movement).
+
+### New concepts in Angelo's working vocabulary
+Bill-of-materials complexity as the variable that determines whether a device is exposed to the DRAM shortage, rather than hardware category alone.
+
+### Provocation(s) posed this edition
+- Where does Angelo's own read of Meta's roadmap put it relative to the display tier Himel just publicly ceded to Apple — and what would it actually cost Meta to close that gap?
+- Contemplation left open: none this edition.
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, 23 editions; no update (checked directly, still "expects approval mid-2026," no decision)
+- Android XR Catalyst Programme — selection notification due mid-July; no update
+- Snap Specs stock — no further move reported since Ed 18; no update
+- XREAL AURA — still no final price beyond $1,500 ceiling; no update
+- Synchron pivotal trial — still no public start date; no update
+- Samsung Galaxy Glasses / Unpacked — still uncorroborated rumoured 22 July London date (Seoul Economic Daily); not run
+- BCI implant census (~150 people, Vansteensel) — no update
+- Valve Steam Frame pricing — still unpriced as of today; multiple trade outlets expect a reveal within days, following the Steam Machine playbook; not run, watch for an official number
+- Neuracle STAR Market IPO — no update since filing; still no tier-one (Reuters/Bloomberg/FT) pickup of the filing itself, only trade/vertical press
+- **New:** Meta's display-free pricing now sits as a named counter-example inside the supply-set-pricing thread; watch whether the next display-bearing device (Steam Frame, Samsung Galaxy Glasses) also prices up, which would confirm the bill-of-materials distinction
+
+### Thinking Ledger update
+- **New:** Is the DRAM-shortage pricing story actually about hardware category (XR/AR glasses generally) or about bill-of-materials complexity specifically (display, waveguide, console-grade memory)? Meta's display-free glasses priced down the same week three display/compute-bearing devices priced up — the first data point that separates the two explanations.
+- Himel's quote sharpens, rather than replaces, the three-tier smart-glasses taxonomy (Ed 16): a named Meta executive has now used the taxonomy himself, in public, to concede which tier Apple's 2027 product will actually contest.
+- No change to the other live questions (speed-to-approval vs. speed-to-revenue in BCI; checked-vs-repeated; who-can-audit; human-centric-computing specificity; BCI five-axis structure; translator-vs-narrator) — none of today's evidence bears on them directly.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
 
 ### Open questions in play
 - **Does speed-to-regulatory-approval predict speed-to-commercial-revenue, or are the two decoupled?** (new, Ed 22) Neuracle won the global "first invasive BCI approved for commercial sale" race outright in March, then booked zero implant revenue in three years and is now seeking $370m from public markets. "First to approval" has been one of the five BCI architecture axes Angelo tracks; this is the first case testing whether winning it predicts anything about winning commercially.
-- **Is 2026 spatial-computing hardware pricing becoming primarily supply-constrained rather than demand-signaling?** (Ed 21; confirmed Ed 22) Valve has now officially priced the Steam Machine above its own November guidance and named DRAM/storage costs as the reason — a fourth data point, after Snap's Specs and XREAL's AURA ceiling, for the same upstream constraint. The still-unpriced Steam Frame is expected to track the same curve.
+- **Is 2026 spatial-computing hardware pricing supply-constrained by category, or by bill-of-materials complexity specifically?** (Ed 21-22; sharpened Ed 23) Snap's Specs, XREAL's AURA and Valve's Steam Machine all priced up citing the DRAM shortage; Meta's display-free Adventurer/Fury glasses priced down the same week. The shortage may be hitting compute- and display-heavy hardware specifically rather than XR/smart-glasses as a category — testable against the next display-bearing device to price (Steam Frame, Samsung's rumoured glasses).
 - **Is the smart-glasses platform war actually two separate contests — OS/hardware vs. AI-agent middleware?** (new, Ed 20) Five editions tracked Android XR, Apple and Snap purely on hardware tiers, prices and launch windows. Nvidia's XR AI public beta (June 16) is explicitly OS-agnostic middleware, with partners spanning consumer, industrial, clinical and research use — the first concrete bet that the layer above the device, not the device itself, decides who controls smart glasses.
 - **"Checked vs. repeated" — is this the variable underlying both "who can audit" and "resource vs. rhetoric"?** (new, Ed 15; sharpened Ed 19) AWE's own exhibitor count disagreed with itself by 13x and remains uncorrected in the public record. Ed 19 adds a named instance: David Brandman is lead investigator on both the academic BrainGate2 ALS result and Paradromics' commercial Connect-One trial. "Independent validation" between the two may mean less than the word implies when one person sits on both sides of it.
-- **"Who can audit?" — is this the axis "consent" has been standing in for?** (Ed 14, enriched Ed 16) The three-tier smart-glasses taxonomy maps directly onto the audit-capacity question: Tier 1 (AI camera eyewear, most inconspicuous, highest bystander consent-risk) versus Tier 3 (Specs, most visible, audience self-selects). The UC Davis ALS study adds a BCI-specific dimension: the user cannot audit the accuracy of the neural decoder the way a sighted user can audit a camera's output. "Who can audit" holds as the underlying axis across smart-glasses consent risk and BCI reliability.
-- **Can Angelo state a more specific claim than "Making Computing More Human"?** (new, Ed 16) Spiegel's AWE keynote has deployed this as a commercial product pitch. If Angelo cannot state, in one sentence, what he means by human-centric computing that Spiegel could not print on a Specs page, he is holding the category consensus, not a differentiating view.
+- **"Who can audit?" — is this the axis "consent" has been standing in for?** (Ed 14, enriched Ed 16) The three-tier smart-glasses taxonomy maps directly onto the audit-capacity question: Tier 1 (AI camera eyewear, most inconspicuous, highest bystander consent-risk) versus Tier 3 (Specs, most visible, audience self-selects). The UC Davis ALS study adds a BCI-specific dimension: the user cannot audit the accuracy of the neural decoder the way a sighted user can audit a camera's output. Himel's tier-conceding quote (Ed 23) is the first instance of an industry actor using the same taxonomy publicly, against himself.
 - **Is BCI's commercial structure resolved into one axis, or does it run on several?** (Ed 10-14, updated Ed 16, Ed 19) UC Davis ALS adds "independent daily use" as an empirical benchmark for the reimbursement threshold; Paradromics' Connexus (Ed 19) adds channel count (1,684 max) and full wireless implantation as a fourth distinct architecture now in a human. Hardware/regulatory, algorithmic, software-defined scope, signal resolution, and architecture-spectrum/regulatory-race interaction: five axes still in play, now with a fourth live data point.
-- **Is "translator" still the right word once the hardware itself routes around his market?** (Ed 17; no new evidence Ed 18-19) XREAL AURA and Snap Specs both ship fall 2026 with continental Europe sequenced behind other regions ("Wave 2" in XREAL's own language). Angelo narrates this field from a city that cannot yet buy the product.
-- **Is "the market doesn't get it yet" a defensible position, or does intellectual honesty require Angelo to steelman the sceptic first?** (Ed 18; no new evidence Ed 19) Snap's stock fell 8% the day Specs launched and stayed down, pricing in real-time scepticism about premium AR hardware that trade-press momentum had never registered. Public capital markets are a sharper, faster judge than the conference circuit Angelo mostly reads.
 
 **Retired Ed 16:** "Is spatial computing one market or several?" — AWE's three-tier taxonomy (Tier 1 AI camera eyewear / Tier 2 tethered AR / Tier 3 standalone AR computer) settles the structural question. Three products with different price points, capability ceilings, and consent-risk profiles. Residual questions about tier convergence or platform dominance are valid but more specific.
 **Retired Ed 18:** "'First to approval' vs. 'biggest platform'" — no new evidence across four editions (Ed 13-17); folded into the BCI five-axis question below, where the same distinction already lives as one of the five axes. Also retired: the Android XR Catalyst Programme "no EU cohort" thread — the programme's official eligibility page shows no regional cohort structure at all; this was a tracking error, not a resolved news story.
 **Retired Ed 19:** "Are AWE's institutional layers one verdict or several disagreeing ones?" — the Auggie Awards' full winner list (published 18 June) closed the question without surfacing further disagreement: a routine 20-category list, no neurotech category, MetaNeural's win is for a content tool rather than its neuro branding. The layers didn't conflict; they just didn't intersect.
+**Retired Ed 23:** "Can Angelo state a more specific claim than 'Making Computing More Human'?" (Ed 16) and "Is 'the market doesn't get it yet' defensible?" (Ed 18) — seven and five editions respectively without new evidence; both fold into the standing blind-spot entries below rather than persisting as separate open questions. "Is 'translator' still the right word once the hardware routes around his market?" (Ed 17) also retires on the same no-new-evidence basis; the underlying observation (Europe sequenced behind other launch markets) stands as a blind spot, not a live question requiring fresh tracking.
 
 ### Positions the evidence now implies (and whether his view has moved)
 - **The "consent vs. governance" question (Ed 11) was likely under-specified from the start.** "Who can audit" is the sharper axis. The three-tier smart-glasses taxonomy (Ed 16) maps consent-risk to Tier 1 (most inconspicuous, most risk) independently of any governance framework. The UC Davis ALS study adds: even the BCI user cannot audit the decoder's accuracy in the way that "consent" traditionally assumes the consenting party can.
@@ -1153,6 +1192,7 @@ None new this edition.
 - **The OS/hardware layer may not be where smart glasses get decided.** (New, Ed 20.) Five editions of tracking Android XR/Apple/Snap on price and launch timing assumed the device layer was the contest. Nvidia's XR AI bet is that an AI-agent layer above all three devices is the real prize — untested, but the first named actor to act on it.
 - **Hardware price tags Angelo has read as confidence signals may be supply-chain artefacts.** (New, Ed 21; confirmed Ed 22.) Snap's Specs price, XREAL's AURA ceiling, and now Valve's officially-priced Steam Machine ($1,050–$1,430, above its own guidance, DRAM cited by name) all sit downstream of the same shortage. A price set by a component market, not a product team, is not evidence of how a company sees its own product.
 - **Winning the regulatory race is not the same evidence as winning the commercial one.** (New, Ed 22.) Neuracle's NEO became the first invasive BCI approved for commercial sale anywhere, and the company has booked zero revenue from it three years running, now seeking $370m from retail investors to bridge the gap. The architecture-spectrum-predicts-regulatory-speed position (Ed 13) holds; it should not be read as also predicting commercial success.
+- **A hardware price moving against the dominant trend is more informative than one moving with it.** (New, Ed 23.) Three devices priced up citing the DRAM shortage; Meta's display-free glasses priced down the same week. The exception, not the pattern, is what isolates the actual mechanism — bill-of-materials complexity, not category membership.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1164,6 +1204,7 @@ None new this edition.
 - **New (Ed 20):** Tracking platform competition exclusively at the layer that is visible and easy to price (devices, launch dates), without checking whether the decisive layer sits somewhere less visible (middleware, agent software) above it.
 - **New (Ed 21):** Reading a published price as a statement about a product, without checking what the price is made of — components, supply constraints, currency of guidance given months earlier.
 - **New (Ed 22):** Treating a regulatory or "first" milestone as if it already implies commercial traction, without checking the revenue line sitting right behind the headline.
+- **New (Ed 23):** Reading hardware prices as a single uniform trend (all up, all down) without checking whether the cases moving against the trend are the ones that actually isolate the mechanism.
 
 ---
 
@@ -1194,6 +1235,7 @@ None new this edition.
 | 20 | 21 Jun 2026 | Nvidia opens XR AI public beta — OS-agnostic AI-agent middleware for AR/XR glasses, betting the platform war is decided above the device layer | Nvidia XR AI beta, BCI implant census (~150 people, Vansteensel) | Nvidia (to this beat), Siemens, UPMC, Rana Lab, VITURE, Innoactive, Atlantic Studios | Name which layer — OS/hardware or AI-agent middleware — the real smart-glasses contest is fought at, and what would prove him wrong |
 | 21 | 22 Jun 2026 | Valve's Steam Frame sits unpriced in US warehouses, held up by a global DRAM shortage already reflected in Snap's and XREAL's pricing | Valve Steam Frame/Steam Machine, DRAM shortage | Valve Corporation | Name which of this year's hardware prices are demand-set vs. supply-set, and what evidence would tell him the difference |
 | 22 | 23 Jun 2026 | Neuracle files for a $370m Shanghai IPO three months after its NEO implant became the first commercially approved invasive BCI, having booked zero implant revenue | Neuracle STAR Market IPO, Valve Steam Machine official pricing | Neuracle Technology, CITIC Securities | Does speed-to-approval predict speed-to-revenue in BCI, or is it a different, easier race that says nothing about the one that matters |
+| 23 | 24 Jun 2026 | Meta launches $299 house-brand smart glasses, undercutting its own Ray-Ban Meta line by $80, as wearables head Alex Himel concedes which tier of Apple's 2027 glasses actually competes with Meta today | Meta Adventurer/Fury/Starfire launch, Himel/Apple tier concession, DRAM-pricing counter-example | None new (Alex Himel as key person) | Where does your own read of Meta's roadmap put it relative to the display tier Himel just publicly ceded to Apple, and what would closing that gap cost Meta |
 
 ---
-*Last updated: Edition 22 — 23 June 2026*
+*Last updated: Edition 23 — 24 June 2026*
