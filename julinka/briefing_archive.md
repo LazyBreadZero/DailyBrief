@@ -970,6 +970,45 @@ None — VC and Art pillars were checked and came up genuinely quiet this editio
 - EEA protein-diversification report — watch for JRC's underlying paper and any EU policy follow-through
 - Every/Huvepharma capacity expansion (new, Ed 21) — agreed mid-June; watch for completion date or further retail expansion
 - Nestlé/Helaina infant-nutrition partnership (new, Ed 21) — multi-year, no product timeline yet; watch for named product or market launch
+- Astral Systems (new, Ed 22) — £23m first close, total raise past £28m; watch for round close, named further investors, or first isotope production (targeted early 2027)
+
+---
+
+## EDITION 22 — Thursday, 25 June 2026
+
+### Lead Story
+**Title:** The Lewis Collection Sells for $392.6 Million, the Biggest Single-Owner Auction Ever Held in Europe
+**Pillar:** Art
+**Core argument:** Sotheby's sold the 50-work collection of British billionaire Joe Lewis in London on 24 June for £296.3m ($392.6m), against a pre-sale estimate of £150m–£200m — the highest total any single-owner sale has achieved in Europe. The top lot, Amedeo Modigliani's *Nu assis au collier* (1917–18, bought by Lewis at Christie's in 1995 for $12.4m), sold for $63.9m, a new European auction record for the artist. René Magritte's *La Belle Promenade*, a gouache unseen in public for nearly 60 years, made £16m ($21.2m) — four times its high estimate and a record for a work on paper by the artist. The result landed in the middle of London's quieter, dealer-led June fair week (Treasure House Fair, Classic Art London, the new one-evening Studiolo fair at Westminster Abbey), underlining that scarcity and provenance, not breadth, are commanding the premium at the top of the market right now.
+**Key entities introduced:** Joe Lewis, Sotheby's, *Nu assis au collier* (Modigliani), *La Belle Promenade* (Magritte), Treasure House Fair, Classic Art London, Studiolo
+**Key concepts introduced:** None new
+**Sources used:** Artnet News (9/10): https://news.artnet.com/market/392-6-m-lewis-collection-sale-smashes-records-led-by-63-9-m-modigliani-2783495 ; France 24 (9/10): https://www.france24.com/en/culture/20260624-modigliani-nude-european-auction-record-london ; ARTnews (9/10): https://www.artnews.com/art-news/market/rene-magritte-auction-record-sothebys-lempire-des-lumieres-1234620706/ ; The Art Newspaper (9/10): https://www.theartnewspaper.com/2026/06/24/scorchio-treasure-house-fair-classic-art-london-and-studiolo-come-to-sweltering-london
+**Angle delivered:** Pressure-test Calm/Storm's own pipeline against the "unambiguous, already-proven story" bar the market is rewarding at both ends (blue-chip art, proven-revenue fusion); open a direct conversation with Speedinvest's healthtech team about what else in their book has reached the same stage as Astral Systems
+**Follow-up threads to watch:** None — the Lewis sale is a closed, one-off auction event, not an ongoing thread
+
+### Further items
+**Astral Systems' £23m fusion-isotope raise.** Bristol-based Astral Systems closed a £23m first close (total funding past £28m), led by Mercia Ventures with Tees River, Daphni and Blast Club joining existing backers Speedinvest and Playfair. The company runs three commercial multi-state fusion facilities, has booked over £3m in research revenue, and is using the round to begin manufacturing medical radioisotopes — addressing a chronically fragile global supply chain — with first production targeted for early 2027.
+Source: Tech.eu (9/10): https://tech.eu/2026/06/23/astral-systems-raises-23m-to-tackle-the-global-shortages-of-medical-radioisotopes/
+
+Food and Nature were both checked and came up genuinely quiet this edition — nothing surfaced inside the 23–25 June window that was both new and not already covered.
+
+### New concepts in Julinka's working vocabulary
+None new this edition
+
+### Running-thread tracker
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28, sale hearing July 30; no movement this edition
+- Formo IFT FIRST Chicago — July 13–16; no movement this edition
+- EU nature-credits technical criteria — still overdue; no publication this edition
+- EU Biotech Act II — call for evidence closed June 10; outcome/next steps not yet published
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence (Standing Ovation + Planetary + AgZen) — ongoing, no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Ingredion/Tate & Lyle takeover — shareholder vote, Court sanction and antitrust clearance still pending; completion expected H2 2027
+- New Forests GLO fund — launched June 15 targeting $707m; watch for named LPs or first close
+- Every/Huvepharma capacity expansion — agreed mid-June; watch for completion date or further retail expansion
+- Nestlé/Helaina infant-nutrition partnership — multi-year, no product timeline yet; watch for named product or market launch
+- Astral Systems first close (new, Ed 22) — watch for round close, named further investors, or first isotope production (targeted early 2027)
 
 ---
 
@@ -998,6 +1037,7 @@ None — VC and Art pillars were checked and came up genuinely quiet this editio
 | 19 | 22 Jun 2026 | New Forests launches its first global natural-capital fund (Global Landscape Opportunities), targeting $707m across forestry, farmland, carbon and biodiversity in one vehicle; Art Basel closes with a $59.6bn global art market report showing auction sales outpacing dealer sales | New Forests GLO fund launch, Art Basel 2026 close + UBS Global Art Market Report | New Forests, Mark Rogers, David Shelton | Price any nature-credit/regenerative-ag deal under diligence against New Forests' $707m diversified comp; write a note testing whether the 9%-vs-2% auction/dealer growth gap reflects ahead-of-market pricing or a narrowing list of blue-chip names |
 | 20 | 23 Jun 2026 | EEA ties EU protein diversification to a 5% cut in farm emissions by 2035 and ranks plant/fermentation/cultivated-meat routes by current readiness; UPSIDE Foods' $50m bid for Believer Meats' plant prices that ranking in the market | EEA protein-diversification report, UPSIDE Foods/Believer Meats stalking-horse bid | European Environment Agency, EU Joint Research Centre | Tier protein-diversification bets by the EEA's readiness curve; publish the food-security case for nutrition/climate investing separately from the emissions case |
 | 21 | 24 Jun 2026 | Huvepharma quadruples capacity for Every's egg protein after 550% order growth; Nestlé/Helaina and Solar Foods/Ambrosia struck similar manufacturing and retail deals this month — precision fermentation financed by commercial partnerships, not new funding rounds | Every/Huvepharma capacity deal, Nestlé/Helaina infant-nutrition partnership, Solar Foods/Ambrosia US launch | The Every Company, Arturo Elizondo, Huvepharma/Biovet AD, Helaina, Laura Katz, Nestlé, Isabelle Bureau-Franz, Solar Foods, Ambrosia Collective | Screen the fermentation pipeline for manufacturing-partner dependency vs. funding-round assumption; write the early-life-nutrition prevention sub-thesis anchored to Nestlé/Helaina |
+| 22 | 25 Jun 2026 | Sotheby's sells the Lewis Collection for $392.6m, Europe's biggest single-owner auction, led by a record Modigliani and Magritte; Bristol's Astral Systems raises £23m for fusion-derived medical isotopes | Lewis Collection sale, Astral Systems fusion-isotope raise | Joe Lewis, Astral Systems, Mercia Ventures | Pressure-test the pipeline against the "unambiguous, proven story" bar both markets are rewarding; open a conversation with Speedinvest's healthtech team |
 
 ---
-*Last updated: Edition 21 — 24 June 2026*
+*Last updated: Edition 22 — 25 June 2026*

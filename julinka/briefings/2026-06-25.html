@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Thursday, 25 June 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+    margin: 0 0 0 0;
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; }
+  h2.section-headline { font-family: 'Fraunces', Georgia, serif; font-size: 24px; font-weight: 700; color: #1F1B16; line-height: 1.25; margin-bottom: 12px; margin-top: 36px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .highlight-block { background: #F4E8C9; border-radius: 6px; padding: 18px 22px; margin: 24px 0; }
+  .highlight-block p { font-size: 16px; margin-bottom: 0; color: #4A4036; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-box .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .intel-grid { display: grid; grid-template-columns: 1fr; gap: 0; }
+  .intel-item { border-top: 1px solid #E5DAC4; padding: 18px 0; }
+  .intel-item:last-child { border-bottom: 1px solid #E5DAC4; }
+  .intel-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 5px; }
+  .intel-item p { font-size: 15.5px; line-height: 1.65; margin-bottom: 0; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Thursday, 25 June 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 22</span>
+    <span class="dateline-right">Venture &middot; Food &middot; Art &middot; Nature</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Art Market</div>
+    <h1 class="lead-headline">The Lewis Collection Sells for $392.6 Million, the Biggest Single-Owner Auction Ever Held in Europe</h1>
+
+    <p>Sotheby&rsquo;s sold the 50-work art collection of the British billionaire Joe Lewis in London on 24 June for &pound;296.3m ($392.6m), the highest total any single-owner sale has ever achieved in Europe. The house had estimated the collection at &pound;150m&ndash;&pound;200m going in.
+    <a href="https://news.artnet.com/market/392-6-m-lewis-collection-sale-smashes-records-led-by-63-9-m-modigliani-2783495" target="_blank" class="source-badge badge-green">Artnet News (9/10)</a></p>
+
+    <p>The top lot was Amedeo Modigliani&rsquo;s <i>Nu assis au collier</i> (1917&ndash;18), which sold for $63.9m, a new European auction record for the artist. Lewis had bought the painting at Christie&rsquo;s in 1995 for $12.4m &mdash; better than a fivefold gain held privately for three decades before reaching the market again this week.
+    <a href="https://www.france24.com/en/culture/20260624-modigliani-nude-european-auction-record-london" target="_blank" class="source-badge badge-green">France 24 (9/10)</a></p>
+
+    <p>Ren&eacute; Magritte&rsquo;s <i>La Belle Promenade</i>, a gouache unseen in public for nearly 60 years, sold for &pound;16m ($21.2m) &mdash; four times its high estimate and a new record for a work on paper by the artist.
+    <a href="https://www.artnews.com/art-news/market/rene-magritte-auction-record-sothebys-lempire-des-lumieres-1234620706/" target="_blank" class="source-badge badge-green">ARTnews (9/10)</a></p>
+
+    <p>The sale lands in the middle of London&rsquo;s June fair week &mdash; Treasure House Fair at the Royal Hospital Chelsea, Classic Art London across Mayfair, and Studiolo, a one-evening new fair staged in Westminster Abbey&rsquo;s College Garden around a newly rediscovered Valentin van Orley panel estimated at &pound;1.5m. Against that backdrop of modest, dealer-led trade, the Lewis result reads as confirmation that the very top of the market is pricing scarcity and provenance, not breadth.
+    <a href="https://www.theartnewspaper.com/2026/06/24/scorchio-treasure-house-fair-classic-art-london-and-studiolo-come-to-sweltering-london" target="_blank" class="source-badge badge-green">The Art Newspaper (9/10)</a></p>
+
+    <h2 class="section-headline">A Bristol Fusion Startup Raises &pound;23m to Manufacture Medical Isotopes</h2>
+
+    <p>Astral Systems, a Bristol company running multi-state fusion reactors out of the former Berkeley Power Station, closed a &pound;23m first close this week, taking its total funding past &pound;28m. Mercia Ventures led, joined by Tees River, Daphni and Blast Club alongside existing backers Speedinvest and Playfair. The company already operates three commercial fusion facilities and has booked more than &pound;3m in research revenue; it is using the round to begin producing medical radioisotopes &mdash; used in cancer diagnosis and treatment, and currently in chronically fragile global supply &mdash; with first production targeted for early 2027.
+    <a href="https://tech.eu/2026/06/23/astral-systems-raises-23m-to-tackle-the-global-shortages-of-medical-radioisotopes/" target="_blank" class="source-badge badge-green">Tech.eu (9/10)</a></p>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <span class="angle-num">1</span>
+        <span class="angle-move-text">A Modigliani last sold in 1995 and a Magritte unseen for 60 years cleared their estimates the same week a fusion startup with three working facilities and real revenue raised at speed. Different markets, same signal: capital is paying a premium for an unambiguous, already-proven story over speculative breadth. Worth pressure-testing Calm/Storm&rsquo;s own pipeline against that same bar before the next memo.</span>
+      </div>
+      <div class="angle-move">
+        <span class="angle-num">2</span>
+        <span class="angle-move-text">Speedinvest backing Astral Systems is also a same-city data point. A direct conversation with Speedinvest&rsquo;s healthtech team about what else in their book has reached the &ldquo;operational facility, paying customers&rdquo; stage is exactly the kind of co-investment opening worth making in the first months in a new seat.</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
