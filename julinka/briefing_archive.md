@@ -1012,6 +1012,43 @@ None new this edition
 
 ---
 
+## EDITION 23 — Friday, 26 June 2026
+
+### Lead Story
+**Title:** Livelihoods Closes Its Fourth Nature Fund at €124m, Anchored by Danone, Mars and Hermès
+**Pillar:** Nature
+**Core argument:** Livelihoods Funds, the Danone-founded nature-based-solutions platform, closed a first tranche of its fourth carbon fund (LCF4) at €124m against a €150m target, with returning anchors Danone, Hermès and Mars joined by four new corporate backers (Mauritius Commercial Bank, McCain, SAP, Schneider Electric) and Voyageurs du Monde. The fund finances agroforestry, mangrove restoration and smallholder-farming projects, targeting 7m–10m tonnes of CO2 sequestered/avoided and 500,000 people reached over 25 years. The raise lands two weeks after New Forests' $707m diversified natural-capital vehicle, giving a clean structural comparison: anchor-led project fund vs. pooled diversified vehicle.
+**Key entities introduced:** Livelihoods Funds, Eric Soubeiran, Mauritius Commercial Bank, McCain, SAP, Schneider Electric, Voyageurs du Monde
+**Key concepts introduced:** None new (extends the anchor-led-vs-diversified nature-fund comparison opened by the New Forests GLO fund thread)
+**Sources used:** ESG Today (8/10): https://www.esgtoday.com/danone-mars-back-new-e150-million-nature-based-solutions-fund/ ; ImpactAlpha (8/10): https://impactalpha.com/danone-backed-livelihoods-lands-e124-million-for-its-fourth-nature-based-fund/ ; Agri Investor (8/10): https://www.agriinvestor.com/livelihoods-carbon-fund-4-launches-with-e124m-banked/
+**Editor's note:** Reported consistently by four independent specialist outlets (ESG Today, Agri Investor, ImpactAlpha, AltAssets) quoting CEO Eric Soubeiran, but not yet listed on livelihoods.eu or distributed via wire service as of this edition — treated as reliable but worth re-checking for a primary confirmation in a future edition.
+**Angle delivered:** Write the diversified-vehicle-vs-anchor-led-fund comparison as a one-pager benchmarking New Forests against Livelihoods; call Schneider Electric or SAP's sustainability-investment team on what underwriting bar got them to yes, ahead of approaching a similar corporate for Calm/Storm's own nature mandate.
+**Follow-up threads to watch:** Whether livelihoods.eu or a wire service publishes a primary LCF4 announcement; whether the fund names further LPs toward its €150m target.
+
+### Further items
+None — Venture Capital, Food Science and Art were all checked and came up genuinely quiet for the 24–26 June window (no fresh in-thesis VC round, no new fermentation/protein/regulatory news beyond a recap of already-known raises, and no art story separable from the already-covered Lewis Collection sale and Art Basel close).
+
+### New concepts in Julinka's working vocabulary
+None new this edition
+
+### Running-thread tracker
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28, sale hearing July 30; no movement this edition
+- Formo IFT FIRST Chicago — July 13–16; no movement this edition
+- EU nature-credits technical criteria — still overdue; no publication this edition
+- EU Biotech Act II — call for evidence closed June 10; outcome/next steps not yet published
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence (Standing Ovation + Planetary + AgZen) — ongoing, no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Ingredion/Tate & Lyle takeover — shareholder vote, Court sanction and antitrust clearance still pending; completion expected H2 2027
+- New Forests GLO fund — launched June 15 targeting $707m; watch for named LPs or first close
+- Every/Huvepharma capacity expansion — agreed mid-June; watch for completion date or further retail expansion
+- Nestlé/Helaina infant-nutrition partnership — multi-year, no product timeline yet; watch for named product or market launch
+- Astral Systems first close — watch for round close, named further investors, or first isotope production (targeted early 2027)
+- Livelihoods Carbon Fund 4 (new, Ed 23) — €124m first close toward €150m target; watch for a primary-source confirmation or further LPs
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1038,6 +1075,7 @@ None new this edition
 | 20 | 23 Jun 2026 | EEA ties EU protein diversification to a 5% cut in farm emissions by 2035 and ranks plant/fermentation/cultivated-meat routes by current readiness; UPSIDE Foods' $50m bid for Believer Meats' plant prices that ranking in the market | EEA protein-diversification report, UPSIDE Foods/Believer Meats stalking-horse bid | European Environment Agency, EU Joint Research Centre | Tier protein-diversification bets by the EEA's readiness curve; publish the food-security case for nutrition/climate investing separately from the emissions case |
 | 21 | 24 Jun 2026 | Huvepharma quadruples capacity for Every's egg protein after 550% order growth; Nestlé/Helaina and Solar Foods/Ambrosia struck similar manufacturing and retail deals this month — precision fermentation financed by commercial partnerships, not new funding rounds | Every/Huvepharma capacity deal, Nestlé/Helaina infant-nutrition partnership, Solar Foods/Ambrosia US launch | The Every Company, Arturo Elizondo, Huvepharma/Biovet AD, Helaina, Laura Katz, Nestlé, Isabelle Bureau-Franz, Solar Foods, Ambrosia Collective | Screen the fermentation pipeline for manufacturing-partner dependency vs. funding-round assumption; write the early-life-nutrition prevention sub-thesis anchored to Nestlé/Helaina |
 | 22 | 25 Jun 2026 | Sotheby's sells the Lewis Collection for $392.6m, Europe's biggest single-owner auction, led by a record Modigliani and Magritte; Bristol's Astral Systems raises £23m for fusion-derived medical isotopes | Lewis Collection sale, Astral Systems fusion-isotope raise | Joe Lewis, Astral Systems, Mercia Ventures | Pressure-test the pipeline against the "unambiguous, proven story" bar both markets are rewarding; open a conversation with Speedinvest's healthtech team |
+| 23 | 26 Jun 2026 | Livelihoods Funds closes its fourth nature-based carbon fund at €124m, anchored by Danone, Mars and Hermès with four new corporate backers, two weeks after New Forests' $707m diversified comp | Livelihoods Carbon Fund 4 first close | Livelihoods Funds, Eric Soubeiran, Mauritius Commercial Bank, McCain, SAP, Schneider Electric, Voyageurs du Monde | Write the diversified-vehicle-vs-anchor-led-fund comparison one-pager; call Schneider Electric or SAP's sustainability-investment team on their underwriting bar |
 
 ---
 *Last updated: Edition 22 — 25 June 2026*
