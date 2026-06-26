@@ -1205,6 +1205,48 @@ Annex III deadline timing as separable from Annex III scope — a system can be 
 
 ---
 
+## EDITION 25 — Friday, 26 June 2026
+
+### Lead Story
+**Title:** Brussels Gives Itself Another Month to Decide What Counts as "High-Risk" AI
+**Category:** AI Regulation
+**Core argument:** The European Commission extended the comment period on its 19 May draft guidelines for classifying high-risk AI systems under Article 6 of the AI Act by four weeks, from 23 June to 23 July, citing requests from "several associations and other stakeholders"; final guidelines are due by year end. This is a different lever from the one Parliament pulled last week (Edition 24): that vote moved the compliance deadline; these guidelines decide what counts as high-risk in the first place, through worked examples the Commission is still drafting — the document that will actually determine whether a neural wearable or BCI software product lands inside Annex III at all.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** Classification guidance (what counts as high-risk) as a separate regulatory lever from deadline timing (when compliance bites) — the AI Act now has two independent clocks, not one
+**Sources used:** European Commission, Digital Strategy (9/10): https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-classification-high-risk-artificial-intelligence-systems ; European Commission, Digital Strategy (9/10): https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems
+**Follow-up threads to watch:** Who files technical submissions into the reopened comment window before 23 July; whether the Commission's worked examples name neural wearables or BCI software explicitly when the guidelines are finalised; the Council's still-pending formal adoption of the Digital Omnibus text (Ed 24)
+
+### Further items (if any)
+None — single-story edition. A wide sweep across capital, clinical/regulatory, platforms, science and policy (Synchron, Precision Neuroscience, Neuracle, Science Corp, Neuralink, XREAL, Snap, Samsung, Apple Vision, Valve Steam Frame, Meta's Ray-Ban litigation, AWE's Auggie Awards) turned up nothing not already covered in Editions 17-24 or still genuinely unmoved (Steam Frame remains unpriced; Synchron's pivotal trial still has no public start date; Samsung's 22 July Unpacked date remains uncorroborated by Samsung itself).
+
+### New concepts in Angelo's working vocabulary
+Classification guidance vs. deadline timing as the AI Act's two separable regulatory levers.
+
+### Provocation(s) posed this edition
+- Which European BCI or wearable companies, or their trade bodies, are filing technical submissions into the Commission's reopened comment window before 23 July — and is any of them someone Angelo should be talking to before the guidance is fixed, rather than after?
+- Contemplation left open: none this edition.
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, 25 editions; no update
+- Android XR Catalyst Programme — selection notification due mid-July; no update
+- Snap Specs stock — no further move reported since Ed 18; no update
+- XREAL AURA — still no final price beyond $1,500 ceiling; no update
+- Synchron pivotal trial — still no public start date; no update
+- Samsung Galaxy Glasses / Unpacked — still uncorroborated rumoured 22 July London date; not run
+- BCI implant census (~150 people, Vansteensel) — no update
+- Valve Steam Frame pricing — still unpriced; no update
+- Neuracle STAR Market IPO — no update since filing
+- Meta display-free pricing counter-example — no further display-bearing device has priced yet; no update
+- EU AI Act Annex III high-risk deadline — no update since Ed 24 (Council adoption still pending)
+- **New:** EU AI Act high-risk classification guidance — comment window reopened to 23 July (was due to close 23 June); final guidelines expected by year end; watch for who submits and what the worked examples say about neural wearables/BCI.
+
+### Thinking Ledger update
+- **New (sharpens Ed 24's position):** The AI Act now visibly runs on two separable clocks — when compliance is required (Parliament's deadline vote) and what counts as in scope at all (the Commission's classification guidance, now under a reopened comment window). Ed 24 named the first clock; today is the first evidence of the second one moving independently. Worth tracking whether the two clocks converge on the same answer for neural wearables or diverge.
+- No change to the other live questions (speed-to-approval vs. speed-to-revenue in BCI; DRAM-pricing mechanism; OS-vs-middleware platform contest; checked-vs-repeated; who-can-audit; BCI five-axis structure) — today's evidence does not bear on them directly.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1234,7 +1276,7 @@ Annex III deadline timing as separable from Annex III scope — a system can be 
 - **Hardware price tags Angelo has read as confidence signals may be supply-chain artefacts.** (New, Ed 21; confirmed Ed 22.) Snap's Specs price, XREAL's AURA ceiling, and now Valve's officially-priced Steam Machine ($1,050–$1,430, above its own guidance, DRAM cited by name) all sit downstream of the same shortage. A price set by a component market, not a product team, is not evidence of how a company sees its own product.
 - **Winning the regulatory race is not the same evidence as winning the commercial one.** (New, Ed 22.) Neuracle's NEO became the first invasive BCI approved for commercial sale anywhere, and the company has booked zero revenue from it three years running, now seeking $370m from retail investors to bridge the gap. The architecture-spectrum-predicts-regulatory-speed position (Ed 13) holds; it should not be read as also predicting commercial success.
 - **A hardware price moving against the dominant trend is more informative than one moving with it.** (New, Ed 23.) Three devices priced up citing the DRAM shortage; Meta's display-free glasses priced down the same week. The exception, not the pattern, is what isolates the actual mechanism — bill-of-materials complexity, not category membership.
-- **Regulatory deadlines and regulatory scope move on separate clocks.** (New, Ed 24.) The EU delayed Annex III enforcement by sixteen months without narrowing what Annex III covers — a system can be classified high-risk years before it is actually required to comply with that classification. Worth weighing against the BCI five-axis structure the next time a European neurotech company's "regulatory readiness" claim is checked: readiness for what date, against what scope.
+- **Regulatory deadlines and regulatory scope move on separate clocks.** (New, Ed 24; confirmed Ed 25.) The EU delayed Annex III enforcement by sixteen months without narrowing what Annex III covers — a system can be classified high-risk years before it is actually required to comply with that classification. Ed 25 shows the second clock moving on its own schedule: the Commission reopened comment on the classification guidance itself, independent of Parliament's deadline vote. Worth weighing against the BCI five-axis structure the next time a European neurotech company's "regulatory readiness" claim is checked: readiness for what date, against what scope.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1279,6 +1321,7 @@ Annex III deadline timing as separable from Annex III scope — a system can be 
 | 22 | 23 Jun 2026 | Neuracle files for a $370m Shanghai IPO three months after its NEO implant became the first commercially approved invasive BCI, having booked zero implant revenue | Neuracle STAR Market IPO, Valve Steam Machine official pricing | Neuracle Technology, CITIC Securities | Does speed-to-approval predict speed-to-revenue in BCI, or is it a different, easier race that says nothing about the one that matters |
 | 23 | 24 Jun 2026 | Meta launches $299 house-brand smart glasses, undercutting its own Ray-Ban Meta line by $80, as wearables head Alex Himel concedes which tier of Apple's 2027 glasses actually competes with Meta today | Meta Adventurer/Fury/Starfire launch, Himel/Apple tier concession, DRAM-pricing counter-example | None new (Alex Himel as key person) | Where does your own read of Meta's roadmap put it relative to the display tier Himel just publicly ceded to Apple, and what would closing that gap cost Meta |
 | 24 | 25 Jun 2026 | European Parliament approves Digital Omnibus on AI, delaying the AI Act's Annex III high-risk deadline by 16 months (stand-alone) to 18 months (embedded) | EU AI Act Annex III deadline delay | None new | Who in Europe's BCI and wearable-AI field is already spending its extended compliance runway closing the gap, rather than just exhaling — and is that company on Angelo's list yet |
+| 25 | 26 Jun 2026 | European Commission reopens comment on its high-risk AI classification guidelines for four more weeks, separating "what counts as high-risk" from the deadline Parliament just moved | EU AI Act classification-guidance comment extension | None new | Which European BCI or wearable companies are filing technical submissions into the reopened comment window before 23 July, and is any of them someone Angelo should be talking to before the guidance is fixed |
 
 ---
 *Last updated: Edition 24 — 25 June 2026*
