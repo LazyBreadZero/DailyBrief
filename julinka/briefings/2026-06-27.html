@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Saturday, 27 June 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+    margin: 0 0 0 0;
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; }
+  h2.section-headline { font-family: 'Fraunces', Georgia, serif; font-size: 24px; font-weight: 700; color: #1F1B16; line-height: 1.25; margin-bottom: 12px; margin-top: 36px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .highlight-block { background: #F4E8C9; border-radius: 6px; padding: 18px 22px; margin: 24px 0; }
+  .highlight-block p { font-size: 16px; margin-bottom: 0; color: #4A4036; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-box .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .intel-grid { display: grid; grid-template-columns: 1fr; gap: 0; }
+  .intel-item { border-top: 1px solid #E5DAC4; padding: 18px 0; }
+  .intel-item:last-child { border-bottom: 1px solid #E5DAC4; }
+  .intel-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 5px; }
+  .intel-item p { font-size: 15.5px; line-height: 1.65; margin-bottom: 0; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Saturday, 27 June 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 23</span>
+    <span class="dateline-right">Venture &middot; Food &middot; Art &middot; Nature</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Nature &amp; Climate Finance</div>
+    <h1 class="lead-headline">Indonesia Ends Its Carbon-Credit Export Ban, Clearing the Way for the Largest Forestry-Credit Issuance on Record</h1>
+
+    <p>Indonesia&rsquo;s forestry minister, Raja Juli Antoni, told London Climate Action Week on 24 June that the country will issue more than 30 million tonnes of CO2-equivalent forestry carbon credits on 6 July &mdash; the largest single issuance in the voluntary carbon market&rsquo;s history &mdash; formally lifting an export ban Jakarta imposed in 2022 and had already begun loosening in late 2025.
+    <a href="https://www.argusmedia.com/en/news/2843606" target="_blank" class="source-badge badge-amber">Argus Media (7/10)</a>
+    <a href="https://en.antaranews.com/news/420515" target="_blank" class="source-badge badge-amber">Antara News (6/10)</a></p>
+
+    <p>The credits are tied to the Verra-listed Katingan Mentaya REDD+ project in Central Kalimantan, and a new national carbon registry, SRUK, launches three days after the issuance, on 9 July &mdash; giving Indonesia both a delivery date and a tracking system in the same fortnight, after four years in which the credits existed on paper but could not legally leave the country.</p>
+
+    <p>The EU's own nature-credits technical criteria, under development since its expert group's formation and carrying a mid-2026 mandate, are still unpublished. Indonesia took roughly eight months to go from announcing the ban's reversal to a dated issuance and a named registry; Brussels has spent longer than that simply defining the standard a credit would need to meet.</p>
+
+    <div class="divider" />
+
+    <div class="kicker">On The Radar &middot; Art &amp; Climate</div>
+    <p><b>A June heatwave is splitting Europe's museums into those that can afford climate resilience and those that can't.</b> Indoor temperatures hit 30&deg;C in Geneva, Brussels and Stuttgart; Paris's Musée Carnavalet closed most of its galleries; Frankfurt's Deutsches Architekturmuseum opened an exhibition, "TOO HOT: Scorching Cities, New Ideas," timed to the crisis it describes. A survey cited in the same report found more than half of museums surveyed lack climate-resilient buildings &mdash; a capital question sitting one layer beneath the Louvre's funding crisis Julinka has already been tracking.
+    <a href="https://www.theartnewspaper.com/2026/06/26/too-hot-to-handle-european-heatwave-exposes-museums-lack-of-preparedness-for-climate-extremes" target="_blank" class="source-badge badge-green">The Art Newspaper (9/10)</a></p>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <span class="angle-num">1</span>
+        <span class="angle-move-text">Indonesia just showed what a nature-credit market looks like once a government commits to a delivery date and a registry, against the EU framework Julinka has watched stall past its own deadline. Worth a short note testing whether speed-to-issuance, not market size, is the variable that should be screening jurisdictions for credibility &mdash; and whether any fund in Calm/Storm's nature-finance orbit is already positioned on the Katingan/Verra supply side.</span>
+      </div>
+      <div class="angle-move">
+        <span class="angle-num">2</span>
+        <span class="angle-move-text">The museum heatwave piece is a cheap, concrete instance of climate adaptation as a capital allocation problem in a sector she already follows for its own sake &mdash; worth one line in a future regenerative-ag or nature-credit memo as a non-agricultural example of the same underlying bet: who pays now for resilience that compounds later.</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

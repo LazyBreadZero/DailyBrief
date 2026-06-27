@@ -1012,6 +1012,47 @@ None new this edition
 
 ---
 
+## EDITION 23 — Saturday, 27 June 2026
+
+### Lead Story
+**Title:** Indonesia Ends Its Carbon-Credit Export Ban, Clearing the Way for the Largest Forestry-Credit Issuance on Record
+**Pillar:** Nature
+**Core argument:** Indonesia's forestry minister told London Climate Action Week on 24 June that the country will issue more than 30 million tonnes of CO2e forestry carbon credits on 6 July — the largest single issuance in the voluntary carbon market's history — formally lifting the 2022 export ban it had already begun loosening late last year. The credits sit on the Verra-listed Katingan Mentaya REDD+ project, and a new national registry, SRUK, launches three days after issuance. Indonesia took roughly eight months from announcing the ban's reversal to a dated issuance and a named registry; the EU's own nature-credits technical criteria, overdue against a mid-2026 mandate, are still unpublished.
+**Key entities introduced:** Raja Juli Antoni, London Climate Action Week, Katingan Mentaya REDD+ project, Verra, SRUK (Indonesia's national carbon registry)
+**Key concepts introduced:** Speed-to-issuance as a jurisdiction-credibility variable for nature credits
+**Sources used:** Argus Media (7/10): https://www.argusmedia.com/en/news/2843606 ; Antara News (6/10): https://en.antaranews.com/news/420515
+**Angle delivered:** Test whether speed-to-issuance, not market size, should be screening nature-credit jurisdictions for credibility; check whether any fund in Calm/Storm's nature-finance orbit is positioned on the Katingan/Verra supply side
+**Follow-up threads to watch:** The 6 July issuance itself; SRUK registry launch 9 July
+
+### Further items
+**European museums confront a climate-resilience capital gap.** A June heatwave pushed indoor temperatures to 30°C in Geneva, Brussels and Stuttgart; Paris's Musée Carnavalet closed most of its galleries, and Frankfurt's Deutsches Architekturmuseum opened an exhibition, "TOO HOT: Scorching Cities, New Ideas," timed to the crisis. A cited survey found more than half of museums surveyed lack climate-resilient buildings — a capital question one layer beneath the Louvre's own funding crisis.
+Source: The Art Newspaper (9/10): https://www.theartnewspaper.com/2026/06/26/too-hot-to-handle-european-heatwave-exposes-museums-lack-of-preparedness-for-climate-extremes
+
+Venture and Food were both checked and came up genuinely quiet this edition.
+
+### New concepts in Julinka's working vocabulary
+None new this edition
+
+### Running-thread tracker
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28, sale hearing July 30; no movement this edition
+- Formo IFT FIRST Chicago — July 13–16; no movement this edition
+- EU nature-credits technical criteria — still overdue against its mid-2026 mandate; no publication this edition
+- EU Biotech Act II — call for evidence closed June 10; outcome/next steps not yet published
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence (Standing Ovation + Planetary + AgZen) — ongoing, no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis — no movement this edition
+- Ingredion/Tate & Lyle takeover — shareholder vote, Court sanction and antitrust clearance still pending; completion expected H2 2027
+- New Forests GLO fund — launched June 15 targeting $707m; watch for named LPs or first close
+- Every/Huvepharma capacity expansion — agreed mid-June; watch for completion date or further retail expansion
+- Nestlé/Helaina infant-nutrition partnership — multi-year, no product timeline yet; watch for named product or market launch
+- Astral Systems first close — £23m first close, total raise past £28m; watch for round close, named further investors, or first isotope production (targeted early 2027)
+- Indonesia forestry-credit issuance (new, Ed 23) — 30m+ tonnes CO2e due 6 July; SRUK registry launches 9 July; watch both dates
+- European museum climate-resilience gap (new, Ed 23) — trend piece, not a discrete pending event; watch for a named funding response or capital commitment
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1038,6 +1079,7 @@ None new this edition
 | 20 | 23 Jun 2026 | EEA ties EU protein diversification to a 5% cut in farm emissions by 2035 and ranks plant/fermentation/cultivated-meat routes by current readiness; UPSIDE Foods' $50m bid for Believer Meats' plant prices that ranking in the market | EEA protein-diversification report, UPSIDE Foods/Believer Meats stalking-horse bid | European Environment Agency, EU Joint Research Centre | Tier protein-diversification bets by the EEA's readiness curve; publish the food-security case for nutrition/climate investing separately from the emissions case |
 | 21 | 24 Jun 2026 | Huvepharma quadruples capacity for Every's egg protein after 550% order growth; Nestlé/Helaina and Solar Foods/Ambrosia struck similar manufacturing and retail deals this month — precision fermentation financed by commercial partnerships, not new funding rounds | Every/Huvepharma capacity deal, Nestlé/Helaina infant-nutrition partnership, Solar Foods/Ambrosia US launch | The Every Company, Arturo Elizondo, Huvepharma/Biovet AD, Helaina, Laura Katz, Nestlé, Isabelle Bureau-Franz, Solar Foods, Ambrosia Collective | Screen the fermentation pipeline for manufacturing-partner dependency vs. funding-round assumption; write the early-life-nutrition prevention sub-thesis anchored to Nestlé/Helaina |
 | 22 | 25 Jun 2026 | Sotheby's sells the Lewis Collection for $392.6m, Europe's biggest single-owner auction, led by a record Modigliani and Magritte; Bristol's Astral Systems raises £23m for fusion-derived medical isotopes | Lewis Collection sale, Astral Systems fusion-isotope raise | Joe Lewis, Astral Systems, Mercia Ventures | Pressure-test the pipeline against the "unambiguous, proven story" bar both markets are rewarding; open a conversation with Speedinvest's healthtech team |
+| 23 | 27 Jun 2026 | Indonesia lifts its carbon-credit export ban and sets a 6 July date for the largest forestry-credit issuance on record; a June heatwave exposes a climate-resilience capital gap across European museums | Indonesia carbon-credit issuance, European museum climate-resilience gap | Raja Juli Antoni, Katingan Mentaya REDD+ project, SRUK | Test speed-to-issuance as a nature-credit jurisdiction-credibility screen; check Calm/Storm's orbit for Katingan/Verra supply-side exposure |
 
 ---
-*Last updated: Edition 22 — 25 June 2026*
+*Last updated: Edition 23 — 27 June 2026*
