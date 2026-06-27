@@ -1205,13 +1205,55 @@ Annex III deadline timing as separable from Annex III scope — a system can be 
 
 ---
 
+## EDITION 25 — Saturday, 27 June 2026
+
+### Lead Story
+**Title:** Apple Raises Vision Pro's Price by $200, and Names the AI Memory Shortage as the Reason
+**Category:** Spatial Computing / Hardware Economics
+**Core argument:** Apple raised prices on fourteen products on 25 June — including all three Vision Pro configurations, up $200 to $300 — and said so explicitly: "the rapid expansion of AI data centers has created an extraordinary surge in demand for memory and storage," the steepest component shock the company has named in years. Tim Cook had previewed this eight days earlier as a "hundred-year flood"; Microsoft confirmed the same mechanism the same week with its own Xbox price rise. Apple stock fell 6.1% on the news, its worst session since April 2025. This is the most extreme, most company-confirmed data point yet for the bill-of-materials-complexity thread tracked since Ed 21: three other spatial-computing devices (Snap Specs, XREAL AURA, Valve Steam Machine) priced up citing the same shortage, while Meta's display-free glasses, the one device without a costly compute-and-display stack, priced down the same week.
+**Key companies introduced:** None new (Apple, Microsoft already tracked)
+**Key people introduced:** None new (Tim Cook, Gene Munster, Mandeep Singh as commentary sources)
+**Key concepts introduced:** None new — strengthens, rather than introduces, the bill-of-materials-complexity axis
+**Sources used:** MacRumors (8/10): https://www.macrumors.com/2026/06/25/apple-explains-why-it-raised-prices/ ; Al Jazeera (8/10): https://www.aljazeera.com/economy/2026/6/26/apple-microsoft-hike-prices-over-surging-chip-costs ; MacRumors (8/10): https://www.macrumors.com/2026/06/17/apple-increasing-prices/ ; Yahoo Finance (7/10): https://finance.yahoo.com/markets/stocks/articles/apple-stock-just-dropped-6-172507432.html
+**Follow-up threads to watch:** Whether Apple's pricing power (absorbing the cost without demand destruction) actually distinguishes it from rivals without that power, per Bloomberg Intelligence's Singh; whether the next unpriced display-bearing device (Steam Frame, Samsung's rumoured glasses) also prices up, which would complete the pattern
+
+### Further items (if any)
+**On The Radar — Regulation:** Connecticut's amended privacy law classifies neural data as sensitive personal data requiring separate opt-in consent, effective 1 July 2026 — the third state to do this, after Colorado and California (both 2024). No structural news; included as the first deadline of its kind since the EU's own Annex III delay (Ed 24). Source: Hunton Andrews Kurth (8/10): https://www.hunton.com/privacy-and-cybersecurity-law-blog/connecticut-amends-the-connecticut-data-privacy-act
+A wide sweep across BCI clinical/regulatory, capital and platforms turned up nothing else clearing the bar this cycle.
+
+### New concepts in Angelo's working vocabulary
+None new this edition.
+
+### Provocation(s) posed this edition
+- Every cheaper headset this month let Angelo infer the AI memory shortage from a price tag; Apple just confirmed it in a written statement. Is spatial computing's hardware economics now hostage to a market it has zero influence over, or was a $3,699 headset already proof the category can absorb the cost, with Apple's pricing power the exception rather than the warning?
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, 25 editions; no update
+- Android XR Catalyst Programme — selection notification due mid-July; no update
+- Snap Specs stock — no further move reported since Ed 18; no update
+- XREAL AURA — still no final price beyond $1,500 ceiling; no update
+- Synchron pivotal trial — still no public start date; no update
+- Samsung Galaxy Glasses / Unpacked — still uncorroborated rumoured 22 July London date; not run
+- BCI implant census (~150 people, Vansteensel) — no update
+- Valve Steam Frame pricing — still unpriced as of today; no update
+- Neuracle STAR Market IPO — no update since filing
+- EU AI Act Annex III high-risk deadline — Council formal adoption still pending; no update
+- **New:** Connecticut neural-data privacy law — takes effect 1 July 2026; third state after Colorado and California (both 2024); watch for the next state to follow and for any enforcement action under any of the three
+- **Resolved into Thinking Ledger:** the bill-of-materials-complexity vs. category-wide DRAM-pricing question (Ed 21-23) — Apple's own statement, plus Microsoft's confirming Xbox move, is the strongest data point yet; folded into "Positions the evidence now implies" below
+
+### Thinking Ledger update
+- **Strengthened:** The bill-of-materials-complexity position (Ed 21-23) now has its strongest data point — Apple, the one company large enough and transparent enough about its own input costs to name the mechanism outright, took one of its largest-ever dollar price increases on its most display- and compute-dense device, while explicitly citing AI-datacenter memory demand rather than category-wide XR softness.
+- **New (position):** Pricing power, not category membership, may be what separates who absorbs a supply shock from who suffers demand destruction trying to pass it through — Apple's stock dropped 6.1% on the news, yet Munster called the move an overreaction precisely because Apple's brand can carry the increase in a way a smaller XR competitor's cannot.
+- No change to the other live questions (speed-to-approval vs. speed-to-revenue in BCI; OS-vs-middleware platform contest; checked-vs-repeated; who-can-audit; BCI five-axis structure) — today's evidence does not bear on them directly.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
 
 ### Open questions in play
 - **Does speed-to-regulatory-approval predict speed-to-commercial-revenue, or are the two decoupled?** (new, Ed 22) Neuracle won the global "first invasive BCI approved for commercial sale" race outright in March, then booked zero implant revenue in three years and is now seeking $370m from public markets. "First to approval" has been one of the five BCI architecture axes Angelo tracks; this is the first case testing whether winning it predicts anything about winning commercially.
-- **Is 2026 spatial-computing hardware pricing supply-constrained by category, or by bill-of-materials complexity specifically?** (Ed 21-22; sharpened Ed 23) Snap's Specs, XREAL's AURA and Valve's Steam Machine all priced up citing the DRAM shortage; Meta's display-free Adventurer/Fury glasses priced down the same week. The shortage may be hitting compute- and display-heavy hardware specifically rather than XR/smart-glasses as a category — testable against the next display-bearing device to price (Steam Frame, Samsung's rumoured glasses).
 - **Is the smart-glasses platform war actually two separate contests — OS/hardware vs. AI-agent middleware?** (new, Ed 20) Five editions tracked Android XR, Apple and Snap purely on hardware tiers, prices and launch windows. Nvidia's XR AI public beta (June 16) is explicitly OS-agnostic middleware, with partners spanning consumer, industrial, clinical and research use — the first concrete bet that the layer above the device, not the device itself, decides who controls smart glasses.
 - **"Checked vs. repeated" — is this the variable underlying both "who can audit" and "resource vs. rhetoric"?** (new, Ed 15; sharpened Ed 19) AWE's own exhibitor count disagreed with itself by 13x and remains uncorrected in the public record. Ed 19 adds a named instance: David Brandman is lead investigator on both the academic BrainGate2 ALS result and Paradromics' commercial Connect-One trial. "Independent validation" between the two may mean less than the word implies when one person sits on both sides of it.
 - **"Who can audit?" — is this the axis "consent" has been standing in for?** (Ed 14, enriched Ed 16) The three-tier smart-glasses taxonomy maps directly onto the audit-capacity question: Tier 1 (AI camera eyewear, most inconspicuous, highest bystander consent-risk) versus Tier 3 (Specs, most visible, audience self-selects). The UC Davis ALS study adds a BCI-specific dimension: the user cannot audit the accuracy of the neural decoder the way a sighted user can audit a camera's output. Himel's tier-conceding quote (Ed 23) is the first instance of an industry actor using the same taxonomy publicly, against himself.
@@ -1221,6 +1263,7 @@ Annex III deadline timing as separable from Annex III scope — a system can be 
 **Retired Ed 18:** "'First to approval' vs. 'biggest platform'" — no new evidence across four editions (Ed 13-17); folded into the BCI five-axis question below, where the same distinction already lives as one of the five axes. Also retired: the Android XR Catalyst Programme "no EU cohort" thread — the programme's official eligibility page shows no regional cohort structure at all; this was a tracking error, not a resolved news story.
 **Retired Ed 19:** "Are AWE's institutional layers one verdict or several disagreeing ones?" — the Auggie Awards' full winner list (published 18 June) closed the question without surfacing further disagreement: a routine 20-category list, no neurotech category, MetaNeural's win is for a content tool rather than its neuro branding. The layers didn't conflict; they just didn't intersect.
 **Retired Ed 23:** "Can Angelo state a more specific claim than 'Making Computing More Human'?" (Ed 16) and "Is 'the market doesn't get it yet' defensible?" (Ed 18) — seven and five editions respectively without new evidence; both fold into the standing blind-spot entries below rather than persisting as separate open questions. "Is 'translator' still the right word once the hardware routes around his market?" (Ed 17) also retires on the same no-new-evidence basis; the underlying observation (Europe sequenced behind other launch markets) stands as a blind spot, not a live question requiring fresh tracking.
+**Retired Ed 25:** "Is 2026 spatial-computing hardware pricing supply-constrained by category, or by bill-of-materials complexity specifically?" (Ed 21-22; sharpened Ed 23) — Apple's own statement confirms the mechanism by name (AI-datacenter memory demand) on its most display- and compute-dense device, with Microsoft's Xbox price rise as independent confirmation the constraint sits in the memory market generally; folds into "Positions the evidence now implies" below.
 
 ### Positions the evidence now implies (and whether his view has moved)
 - **The "consent vs. governance" question (Ed 11) was likely under-specified from the start.** "Who can audit" is the sharper axis. The three-tier smart-glasses taxonomy (Ed 16) maps consent-risk to Tier 1 (most inconspicuous, most risk) independently of any governance framework. The UC Davis ALS study adds: even the BCI user cannot audit the decoder's accuracy in the way that "consent" traditionally assumes the consenting party can.
@@ -1235,6 +1278,7 @@ Annex III deadline timing as separable from Annex III scope — a system can be 
 - **Winning the regulatory race is not the same evidence as winning the commercial one.** (New, Ed 22.) Neuracle's NEO became the first invasive BCI approved for commercial sale anywhere, and the company has booked zero revenue from it three years running, now seeking $370m from retail investors to bridge the gap. The architecture-spectrum-predicts-regulatory-speed position (Ed 13) holds; it should not be read as also predicting commercial success.
 - **A hardware price moving against the dominant trend is more informative than one moving with it.** (New, Ed 23.) Three devices priced up citing the DRAM shortage; Meta's display-free glasses priced down the same week. The exception, not the pattern, is what isolates the actual mechanism — bill-of-materials complexity, not category membership.
 - **Regulatory deadlines and regulatory scope move on separate clocks.** (New, Ed 24.) The EU delayed Annex III enforcement by sixteen months without narrowing what Annex III covers — a system can be classified high-risk years before it is actually required to comply with that classification. Worth weighing against the BCI five-axis structure the next time a European neurotech company's "regulatory readiness" claim is checked: readiness for what date, against what scope.
+- **The DRAM/memory shortage is a bill-of-materials story, not a category story — confirmed, not just inferred.** (New, Ed 25.) Apple named the mechanism outright (AI-datacenter memory demand) and took one of its largest-ever dollar increases on Vision Pro, its most display- and compute-dense device; Microsoft's Xbox price rise is independent confirmation. Pricing power may now be the variable that separates who absorbs the shock from who suffers demand destruction passing it through — worth checking the next time a company's price increase reads as a confidence signal rather than a supply-chain artefact (Ed 21's position, now sharpened).
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1279,6 +1323,7 @@ Annex III deadline timing as separable from Annex III scope — a system can be 
 | 22 | 23 Jun 2026 | Neuracle files for a $370m Shanghai IPO three months after its NEO implant became the first commercially approved invasive BCI, having booked zero implant revenue | Neuracle STAR Market IPO, Valve Steam Machine official pricing | Neuracle Technology, CITIC Securities | Does speed-to-approval predict speed-to-revenue in BCI, or is it a different, easier race that says nothing about the one that matters |
 | 23 | 24 Jun 2026 | Meta launches $299 house-brand smart glasses, undercutting its own Ray-Ban Meta line by $80, as wearables head Alex Himel concedes which tier of Apple's 2027 glasses actually competes with Meta today | Meta Adventurer/Fury/Starfire launch, Himel/Apple tier concession, DRAM-pricing counter-example | None new (Alex Himel as key person) | Where does your own read of Meta's roadmap put it relative to the display tier Himel just publicly ceded to Apple, and what would closing that gap cost Meta |
 | 24 | 25 Jun 2026 | European Parliament approves Digital Omnibus on AI, delaying the AI Act's Annex III high-risk deadline by 16 months (stand-alone) to 18 months (embedded) | EU AI Act Annex III deadline delay | None new | Who in Europe's BCI and wearable-AI field is already spending its extended compliance runway closing the gap, rather than just exhaling — and is that company on Angelo's list yet |
+| 25 | 27 Jun 2026 | Apple raises Vision Pro's price by $200-$300 and names the AI memory shortage as the reason, confirming the bill-of-materials-complexity mechanism tracked since Ed 21 | Apple 14-product price hike/Vision Pro, Microsoft Xbox price rise, Apple 6.1% stock drop, Connecticut neural-data privacy law | None new | Is spatial computing's hardware economics now hostage to a market it has zero influence over, or was a $3,699 headset already proof the category can absorb the cost, with Apple's pricing power the exception rather than the warning |
 
 ---
-*Last updated: Edition 24 — 25 June 2026*
+*Last updated: Edition 25 — 27 June 2026*
