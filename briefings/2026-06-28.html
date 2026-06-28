@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Frontier Intelligence — Sunday, 28 June 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #F0EDE4; font-family: 'Source Serif 4', Georgia, serif; color: #1a1a1a; }
+  .page { max-width: 760px; margin: 0 auto; background: #FAF8F2; padding: 0 0 60px; }
+  .top-rule { height: 8px; background: #8B1A1A; }
+  .masthead { padding: 32px 52px 0; }
+  .masthead-label { font-family: 'Source Serif 4', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #888; margin-bottom: 6px; }
+  .masthead-title { font-family: 'Playfair Display', Georgia, serif; font-size: 52px; font-weight: 900; color: #1a1a1a; letter-spacing: -1px; line-height: 1.0; }
+  .dateline { margin: 18px 52px 0; border-top: 1px solid #1a1a1a; border-bottom: 3px solid #1a1a1a; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #8B1A1A; font-weight: 600; font-family: 'Source Serif 4', sans-serif; }
+  .dateline-right { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #666; font-family: 'Source Serif 4', sans-serif; }
+  .content { padding: 0 52px; }
+  .kicker { font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #8B1A1A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; font-family: 'Source Serif 4', sans-serif; }
+  h1.lead-headline { font-family: 'Playfair Display', Georgia, serif; font-size: 34px; font-weight: 700; color: #1a1a1a; line-height: 1.18; margin-bottom: 18px; }
+  h2.section-headline { font-family: 'Playfair Display', Georgia, serif; font-size: 24px; font-weight: 700; color: #1a1a1a; line-height: 1.25; margin-bottom: 12px; margin-top: 36px; }
+  p { font-size: 17px; line-height: 1.72; color: #1a1a1a; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #ddd6c6; margin: 36px 0; }
+  .source-badge { display: inline-block; font-size: 11px; font-family: 'Source Serif 4', sans-serif; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F5EC; color: #1A5C2A; }
+  .badge-amber { background: #FFF3D6; color: #7A4A00; }
+  a { color: #8B1A1A; text-decoration: underline; }
+  a:hover { color: #5c1111; }
+  .angle-box { background: #1a1a1a; padding: 28px 32px; margin: 36px 0; border-radius: 3px; }
+  .angle-box .angle-label { font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #c8a882; font-weight: 600; margin-bottom: 10px; font-family: 'Source Serif 4', sans-serif; }
+  .angle-box p { color: #e8e4da; font-size: 16px; line-height: 1.7; margin-bottom: 0; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 38px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="top-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Personal Intelligence Briefing</div>
+    <div class="masthead-title">Frontier Intelligence</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 26 &middot; Sunday, 28 June 2026</span>
+    <span class="dateline-right">BCI &middot; Neural Decoding</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Brain-Computer Interfaces</div>
+    <h1 class="lead-headline">Caltech Pins Down Why Brain-Machine Interfaces Struggle to Sustain Slow Movement</h1>
+
+    <p>Richard Andersen&rsquo;s lab at Caltech published a result this week that complicates a working assumption behind most brain-machine interface decoders: that the motor cortex launches a movement and lets it unfold on its own. Recording from an implant in the posterior parietal cortex of two paralysed participants performing a cursor task, Fei Yin, Charles Guan, Tyson Aflalo and Andersen found that movements of different durations start from the same neural condition but diverge sharply afterward. Brief, fast movements can be decoded as a single autonomous burst; movements lasting several seconds at low velocity instead need continuous external input the whole way through, with the cortex&rsquo;s population activity effectively pausing and waiting until the goal is reached.
+    <a href="https://arxiv.org/abs/2511.04887" target="_blank" class="source-badge badge-green">Yin, Guan, Aflalo, Andersen et al., preprint (9/10)</a></p>
+
+    <p>The distinction sits exactly between what commercial BCIs already do and what none of them do yet. Existing systems are tuned for the movements this study does not describe &mdash; a single reach, a single click, a discrete cursor jump. The slow, continuously-corrected motion the Caltech team measured is closer to handwriting or freehand drawing: the kind of control a BCI needs if it is ever to be more than a faster way to point. A decoder built on the assumption that cortical dynamics unfold autonomously from a starting condition, the authors argue, will systematically misread the movements that naturalistic, fine-grained control actually depends on.</p>
+
+    <p>The result was posted as a preprint last November and has now cleared peer review, appearing in Communications Biology on June 27th &mdash; the kind of unglamorous validation step that rarely makes news on its own, but that decoder-design teams at Paradromics, Synchron and Neuralink will read closely, since it bears directly on whether their channel-count race is solving the problem that is actually limiting naturalistic control.</p>
+
+    <div class="angle-box">
+      <div class="angle-label">Angelo&rsquo;s Angle</div>
+      <p>Paradromics markets channel count &mdash; 1,684 and climbing &mdash; as its scaling story. This week&rsquo;s Caltech result says raw channel count doesn&rsquo;t explain why a decoder succeeds or fails at slow, controlled movement; what matters is whether anything keeps feeding the cortex instructions once the input dynamics, not the electrode array, take over. If decoder sophistication is the real constraint between today&rsquo;s point-and-click BCIs and tomorrow&rsquo;s handwriting ones, which axis you already track is doing the explanatory work, and which one have you been crediting on faith?</p>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

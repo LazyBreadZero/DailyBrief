@@ -1248,6 +1248,48 @@ None new this edition.
 
 ---
 
+## EDITION 26 — Sunday, 28 June 2026
+
+### Lead Story
+**Title:** Caltech Pins Down Why Brain-Machine Interfaces Struggle to Sustain Slow Movement
+**Category:** BCI / Neural Decoding
+**Core argument:** Richard Andersen's Caltech lab found that motor cortex dynamics during BMI control are not purely autonomous: brief, fast movements decode as a single self-contained burst, but movements lasting several seconds at low velocity require continuous external input throughout, with the cortex's activity pausing and waiting until the goal is reached. The result, posted as a preprint last November, cleared peer review this week (Communications Biology, 27 June) — a finding with direct stakes for whether commercial BCI decoders, tuned for discrete point-and-click control, can support the slower, continuously-corrected movement (handwriting, freehand drawing) that naturalistic control actually requires.
+**Key companies introduced:** None new (Paradromics, Synchron, Neuralink referenced as decoder-design stakeholders, already tracked)
+**Key people introduced:** Richard Andersen, Fei Yin, Charles Guan, Tyson Aflalo
+**Key concepts introduced:** Duration-modulated motor cortex dynamics — autonomous decoding (fast, brief movements) vs. sustained-input-dependent decoding (slow, prolonged movements) as a distinct axis from channel count/hardware
+**Sources used:** Yin, Guan, Aflalo, Andersen et al., arXiv preprint (9/10): https://arxiv.org/abs/2511.04887 ; publication venue confirmed via multiple independent secondary reports as Communications Biology (Nature), 27 June 2026 — not independently read behind the paywall, so cited by venue/date only, not by additional textual detail
+**Follow-up threads to watch:** Whether any commercial BCI company (Paradromics, Synchron, Neuralink, Precision Neuroscience) publicly addresses decoder architecture for sustained/slow movement in response; whether this becomes a named sixth dimension alongside the BCI five-axis structure already tracked
+
+### Further items (if any)
+None — a wide sweep across capital, clinical/regulatory, platforms and policy (Snap/Irenic activist-investor dispute, Samsung Unpacked date, XREAL AURA pricing, EU Council Digital Omnibus formal adoption, Connecticut privacy law) turned up nothing that moved since the last edition; all are noted below as unchanged.
+
+### New concepts in Angelo's working vocabulary
+Autonomous vs. input-driven motor cortex dynamics as a decoder-design axis distinct from electrode/channel count.
+
+### Provocation(s) posed this edition
+- Paradromics markets channel count as its scaling story; this week's evidence says decoder sophistication, not raw channel count, may be what actually separates point-and-click BCI from naturalistic control. Which axis is Angelo crediting on faith?
+- Contemplation left open: none this edition.
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, 26 editions; no update
+- Android XR Catalyst Programme — selection notification due mid-July; no update
+- Snap Specs stock — no further move reported since Ed 18; no update (Irenic Capital's March activist letter and Spiegel's mid-June public rejection remain the explanation behind that move, but nothing new occurred this cycle — not run as today's news)
+- XREAL AURA — still no final price beyond $1,500 ceiling; no update
+- Synchron pivotal trial — still no public start date; no update
+- Samsung Galaxy Glasses / Unpacked — still uncorroborated rumoured 22 July London date, still unconfirmed by Samsung; no update
+- BCI implant census (~150 people, Vansteensel) — no update
+- Valve Steam Frame pricing — already priced (Ed 22); no further move
+- Neuracle STAR Market IPO — no update since filing
+- EU AI Act Digital Omnibus — Council formal adoption expected 29 June 2026; still pending as of this edition
+- Connecticut neural-data privacy law — takes effect 1 July 2026; no update
+- **New:** Caltech decoder-dynamics finding (this edition) — watch for commercial BCI companies' response
+
+### Thinking Ledger update
+- **New (refinement to an existing position):** The BCI five-axis structure may need a named sixth dimension — decoder/algorithmic sophistication for sustained, continuously-corrected movement, distinct from electrode/channel count. Paradromics' channel-count framing (1,684 and climbing) is a hardware claim; Caltech's finding suggests the harder unsolved problem is whether a decoder can sustain naturalistic, slow movement at all, which channel count alone does not address.
+- No change to the other live questions (speed-to-approval vs. speed-to-revenue in BCI; OS-vs-middleware platform contest; checked-vs-repeated; who-can-audit; bill-of-materials-complexity/pricing-power) — today's evidence does not bear on them directly.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1279,6 +1321,7 @@ None new this edition.
 - **A hardware price moving against the dominant trend is more informative than one moving with it.** (New, Ed 23.) Three devices priced up citing the DRAM shortage; Meta's display-free glasses priced down the same week. The exception, not the pattern, is what isolates the actual mechanism — bill-of-materials complexity, not category membership.
 - **Regulatory deadlines and regulatory scope move on separate clocks.** (New, Ed 24.) The EU delayed Annex III enforcement by sixteen months without narrowing what Annex III covers — a system can be classified high-risk years before it is actually required to comply with that classification. Worth weighing against the BCI five-axis structure the next time a European neurotech company's "regulatory readiness" claim is checked: readiness for what date, against what scope.
 - **The DRAM/memory shortage is a bill-of-materials story, not a category story — confirmed, not just inferred.** (New, Ed 25.) Apple named the mechanism outright (AI-datacenter memory demand) and took one of its largest-ever dollar increases on Vision Pro, its most display- and compute-dense device; Microsoft's Xbox price rise is independent confirmation. Pricing power may now be the variable that separates who absorbs the shock from who suffers demand destruction passing it through — worth checking the next time a company's price increase reads as a confidence signal rather than a supply-chain artefact (Ed 21's position, now sharpened).
+- **The BCI five-axis structure may run on a sixth axis: decoder sophistication for sustained, naturalistic movement, separate from electrode/channel count.** (New, Ed 26.) Caltech's finding that slow, continuous movement requires ongoing external input rather than a single autonomous decode complicates any company's channel-count number as a stand-alone scaling claim — more channels do not by themselves solve the sustained-input problem.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1324,6 +1367,7 @@ None new this edition.
 | 23 | 24 Jun 2026 | Meta launches $299 house-brand smart glasses, undercutting its own Ray-Ban Meta line by $80, as wearables head Alex Himel concedes which tier of Apple's 2027 glasses actually competes with Meta today | Meta Adventurer/Fury/Starfire launch, Himel/Apple tier concession, DRAM-pricing counter-example | None new (Alex Himel as key person) | Where does your own read of Meta's roadmap put it relative to the display tier Himel just publicly ceded to Apple, and what would closing that gap cost Meta |
 | 24 | 25 Jun 2026 | European Parliament approves Digital Omnibus on AI, delaying the AI Act's Annex III high-risk deadline by 16 months (stand-alone) to 18 months (embedded) | EU AI Act Annex III deadline delay | None new | Who in Europe's BCI and wearable-AI field is already spending its extended compliance runway closing the gap, rather than just exhaling — and is that company on Angelo's list yet |
 | 25 | 27 Jun 2026 | Apple raises Vision Pro's price by $200-$300 and names the AI memory shortage as the reason, confirming the bill-of-materials-complexity mechanism tracked since Ed 21 | Apple 14-product price hike/Vision Pro, Microsoft Xbox price rise, Apple 6.1% stock drop, Connecticut neural-data privacy law | None new | Is spatial computing's hardware economics now hostage to a market it has zero influence over, or was a $3,699 headset already proof the category can absorb the cost, with Apple's pricing power the exception rather than the warning |
+| 26 | 28 Jun 2026 | Caltech finds slow, sustained BMI movement needs continuous external input, not a single autonomous decode, complicating channel-count as a stand-alone scaling claim | Andersen Lab/Caltech motor-cortex decoding study (Communications Biology) | None new | Paradromics markets channel count as its scaling story; this week's evidence says decoder sophistication may be the real constraint — which axis is Angelo crediting on faith |
 
 ---
-*Last updated: Edition 25 — 27 June 2026*
+*Last updated: Edition 26 — 28 June 2026*
