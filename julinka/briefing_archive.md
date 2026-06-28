@@ -1053,6 +1053,45 @@ None new this edition
 
 ---
 
+## EDITION 24 — Sunday, 28 June 2026
+
+### Lead Story
+**Title:** Prosus Leads a €480m Round in Alan, Valuing the French Health Insurer at €5.5 Billion
+**Pillar:** Venture Capital
+**Core argument:** Alan announced on 24 June a €480m Series G led by Prosus, with Index Ventures and Teachers' Venture Growth returning and Dara Holdings joining as a new investor, valuing the Paris-based health insurer at €5.5bn (up from €5bn in March). Alan posted over €800m in ARR in Q1 2026 (+53% YoY), 1.1m members, 37,000 businesses, and is profitable in France. Prosus framed the bet as AI-led healthcare transformation; Alan's pitch is structural — insurance, prevention and care delivery as one platform rather than three products.
+**Key entities introduced:** Alan, Jean-Charles Samuelian-Werve, Prosus, Fahd Beg, Dara Holdings
+**Key concepts introduced:** None new
+**Sources used:** Prosus official release (9/10): https://www.prosus.com/news-insights/2026/prosus-leads-euros-480-million-funding-round-in-alan-to-shape-the-future-of-ai-powered-healthcare ; Sifted (8/10): https://sifted.eu/articles/alan-prosus-raise-series-g-valuation-health-tech ; PR Newswire (7/10): https://www.prnewswire.com/news-releases/alan-announces-a-480-million-financing-round-to-make-prevention-insurance-the-new-global-standard-in-healthcare-302809870.html
+**Angle delivered:** Benchmark any Calm/Storm preventive-health pipeline company's ARR-per-member and growth rate against Alan's; pressure-test whether each preventive-health company's AI roadmap is doing product work or marketing work, against Prosus's "AI-led transformation" framing
+**Follow-up threads to watch:** Regulatory approvals still pending on the Alan/Prosus deal; whether Prosus makes further European health-insurtech investments
+
+### Further items
+None — Food, Art and Nature were all checked and came up genuinely quiet for the 26–28 June window (Art Basel closed 21 June and is now stale; no fresh EFSA novel-food decision, fermentation round or nature-credit/biodiversity item dated inside the window).
+
+### New concepts in Julinka's working vocabulary
+None new this edition
+
+### Running-thread tracker
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28, sale hearing July 30; no movement this edition
+- Formo IFT FIRST Chicago — July 13–16; no movement this edition
+- EU nature-credits technical criteria — still overdue against its mid-2026 mandate; no publication this edition
+- EU Biotech Act II — call for evidence closed June 10; outcome/next steps not yet published
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence (Standing Ovation + Planetary + AgZen) — ongoing, no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis — no movement this edition
+- Ingredion/Tate & Lyle takeover — shareholder vote, Court sanction and antitrust clearance still pending; completion expected H2 2027
+- New Forests GLO fund — launched June 15 targeting $707m; watch for named LPs or first close
+- Every/Huvepharma capacity expansion — agreed mid-June; watch for completion date or further retail expansion
+- Nestlé/Helaina infant-nutrition partnership — multi-year, no product timeline yet; watch for named product or market launch
+- Astral Systems first close — £23m first close, total raise past £28m; watch for round close, named further investors, or first isotope production (targeted early 2027)
+- Indonesia forestry-credit issuance — 30m+ tonnes CO2e due 6 July; SRUK registry launches 9 July; watch both dates
+- European museum climate-resilience gap — trend piece, not a discrete pending event; watch for a named funding response or capital commitment
+- Alan/Prosus Series G (new, Ed 24) — regulatory approvals pending; watch for close confirmation or further Prosus health-insurtech moves
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1080,6 +1119,7 @@ None new this edition
 | 21 | 24 Jun 2026 | Huvepharma quadruples capacity for Every's egg protein after 550% order growth; Nestlé/Helaina and Solar Foods/Ambrosia struck similar manufacturing and retail deals this month — precision fermentation financed by commercial partnerships, not new funding rounds | Every/Huvepharma capacity deal, Nestlé/Helaina infant-nutrition partnership, Solar Foods/Ambrosia US launch | The Every Company, Arturo Elizondo, Huvepharma/Biovet AD, Helaina, Laura Katz, Nestlé, Isabelle Bureau-Franz, Solar Foods, Ambrosia Collective | Screen the fermentation pipeline for manufacturing-partner dependency vs. funding-round assumption; write the early-life-nutrition prevention sub-thesis anchored to Nestlé/Helaina |
 | 22 | 25 Jun 2026 | Sotheby's sells the Lewis Collection for $392.6m, Europe's biggest single-owner auction, led by a record Modigliani and Magritte; Bristol's Astral Systems raises £23m for fusion-derived medical isotopes | Lewis Collection sale, Astral Systems fusion-isotope raise | Joe Lewis, Astral Systems, Mercia Ventures | Pressure-test the pipeline against the "unambiguous, proven story" bar both markets are rewarding; open a conversation with Speedinvest's healthtech team |
 | 23 | 27 Jun 2026 | Indonesia lifts its carbon-credit export ban and sets a 6 July date for the largest forestry-credit issuance on record; a June heatwave exposes a climate-resilience capital gap across European museums | Indonesia carbon-credit issuance, European museum climate-resilience gap | Raja Juli Antoni, Katingan Mentaya REDD+ project, SRUK | Test speed-to-issuance as a nature-credit jurisdiction-credibility screen; check Calm/Storm's orbit for Katingan/Verra supply-side exposure |
+| 24 | 28 Jun 2026 | Prosus leads a €480m Series G in Alan at a €5.5bn valuation, the French insurer's "prevention as the platform" model scaling to €800m ARR | Alan/Prosus Series G | Jean-Charles Samuelian-Werve, Fahd Beg, Dara Holdings | Benchmark Calm/Storm preventive-health pipeline against Alan's ARR-per-member and growth rate; test each company's AI roadmap against Prosus's "AI-led transformation" bar |
 
 ---
-*Last updated: Edition 23 — 27 June 2026*
+*Last updated: Edition 24 — 28 June 2026*
