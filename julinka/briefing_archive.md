@@ -1092,6 +1092,46 @@ None new this edition
 
 ---
 
+## EDITION 25 — Monday, 29 June 2026
+
+### Lead Story
+**Title:** France Sends Lactalis's Nutri-Score Challenge to the EU's Top Court
+**Pillar:** Food Regulation
+**Core argument:** France's Conseil d'État referred Lactalis's challenge to the revised Nutri-Score algorithm to the CJEU, isolating two questions of EU law: whether Article 35(2) of Regulation 1169/2011 permits a member state to recommend a graphic score blending nutrients and energy into one figure rather than expressing each separately, and whether that score may legally fold in elements the regulation never lists, such as fruit-and-vegetable proportion and added sweeteners. The referral targets the March 2025 decree that recalculated the score and reclassified milk and flavoured milk drinks as beverages rather than foods, pushing semi-skimmed milk from an A to a B and whole milk from a B to a C. A ruling against either point would unsettle Nutri-Score's legal basis not just in France but in the five other states using the same voluntary scheme (Belgium, Germany, the Netherlands, Spain, Luxembourg). Judgment expected in 18 months to two years.
+**Key entities introduced:** Lactalis, Conseil d'État, Court of Justice of the EU
+**Key concepts introduced:** None new
+**Sources used:** FoodNavigator (7/10): https://www.foodnavigator.com/Article/2026/06/25/lactalis-takes-nutri-score-to-court/ ; Bird & Bird (8/10): https://www.twobirds.com/en/insights/2026/eu-food-regulatory-case-law-update,-june-2026
+**Angle delivered:** Use the referral's two specific legal questions as a diligence checklist for any nutrition-tech portfolio company citing a Nutri-Score grade as third-party validation; use the legal-uncertainty window to publish a public, food-science-grounded view distinguishing Nutri-Score's scientifically defensible choices from its policy choices dressed as science
+**Follow-up threads to watch:** CJEU scheduling and eventual ruling (expected 18 months to two years out); whether other Nutri-Score states intervene in the case
+
+### Further items (if any)
+None — Venture, Art and Nature were all checked and came up genuinely quiet for the 26–29 June window (no fresh fermentation/preventive-health round, no post-Art Basel art-market item, no nature-credit or biodiversity-finance development dated inside the window).
+
+### New concepts in Julinka's working vocabulary
+None new this edition
+
+### Running-thread tracker
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28, sale hearing July 30; no movement this edition
+- Formo IFT FIRST Chicago — July 13–16; no movement this edition
+- EU nature-credits technical criteria — still overdue against its mid-2026 mandate; no publication this edition
+- EU Biotech Act II — call for evidence closed June 10; outcome/next steps not yet published
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence (Standing Ovation + Planetary + AgZen) — ongoing, no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis — no movement this edition
+- Ingredion/Tate & Lyle takeover — shareholder vote, Court sanction and antitrust clearance still pending; completion expected H2 2027
+- New Forests GLO fund — launched June 15 targeting $707m; watch for named LPs or first close
+- Every/Huvepharma capacity expansion — agreed mid-June; watch for completion date or further retail expansion
+- Nestlé/Helaina infant-nutrition partnership — multi-year, no product timeline yet; watch for named product or market launch
+- Astral Systems first close — £23m first close, total raise past £28m; watch for round close, named further investors, or first isotope production (targeted early 2027)
+- Indonesia forestry-credit issuance — 30m+ tonnes CO2e due 6 July; SRUK registry launches 9 July; watch both dates
+- European museum climate-resilience gap — trend piece, not a discrete pending event; watch for a named funding response or capital commitment
+- Alan/Prosus Series G — regulatory approvals pending; watch for close confirmation or further Prosus health-insurtech moves
+- Lactalis/Nutri-Score CJEU referral (new, Ed 25) — referred 25 June 2026, judgment expected 18 months to two years; watch for CJEU case scheduling or ruling
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1120,6 +1160,7 @@ None new this edition
 | 22 | 25 Jun 2026 | Sotheby's sells the Lewis Collection for $392.6m, Europe's biggest single-owner auction, led by a record Modigliani and Magritte; Bristol's Astral Systems raises £23m for fusion-derived medical isotopes | Lewis Collection sale, Astral Systems fusion-isotope raise | Joe Lewis, Astral Systems, Mercia Ventures | Pressure-test the pipeline against the "unambiguous, proven story" bar both markets are rewarding; open a conversation with Speedinvest's healthtech team |
 | 23 | 27 Jun 2026 | Indonesia lifts its carbon-credit export ban and sets a 6 July date for the largest forestry-credit issuance on record; a June heatwave exposes a climate-resilience capital gap across European museums | Indonesia carbon-credit issuance, European museum climate-resilience gap | Raja Juli Antoni, Katingan Mentaya REDD+ project, SRUK | Test speed-to-issuance as a nature-credit jurisdiction-credibility screen; check Calm/Storm's orbit for Katingan/Verra supply-side exposure |
 | 24 | 28 Jun 2026 | Prosus leads a €480m Series G in Alan at a €5.5bn valuation, the French insurer's "prevention as the platform" model scaling to €800m ARR | Alan/Prosus Series G | Jean-Charles Samuelian-Werve, Fahd Beg, Dara Holdings | Benchmark Calm/Storm preventive-health pipeline against Alan's ARR-per-member and growth rate; test each company's AI roadmap against Prosus's "AI-led transformation" bar |
+| 25 | 29 Jun 2026 | France's Conseil d'État refers Lactalis's Nutri-Score challenge to the CJEU, putting the scheme's EU legal basis formally in doubt | Lactalis/Nutri-Score CJEU referral | Lactalis, Conseil d'État, CJEU | Use the referral's two legal questions as a diligence checklist for portfolio companies citing Nutri-Score grades; publish a public view distinguishing Nutri-Score's defensible science from its policy choices |
 
 ---
 *Last updated: Edition 24 — 28 June 2026*
