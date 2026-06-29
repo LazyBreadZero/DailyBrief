@@ -1290,6 +1290,47 @@ Autonomous vs. input-driven motor cortex dynamics as a decoder-design axis disti
 
 ---
 
+## EDITION 27 — Monday, 29 June 2026
+
+### Lead Story
+**Title:** Samsung's Galaxy XR Reaches the UK; Germany and France Still Wait
+**Category:** Spatial Computing / Market Access
+**Core argument:** Samsung opened UK preorders for the Galaxy XR on 17 June, eight months after the headset launched in the US and South Korea (31 October 2025, $1,799). Shipping begins 8 July at £1,699, with demo units live at Samsung's KX flagship store in London plus three further London/Manchester locations. Germany and France — the EU's two largest economies and the markets Samsung itself has named as next — still have no release date. Set against the other two flagship XR launches this year (XREAL holding AURA back for a second wave behind five markets; Snap putting the UK and France inside Specs' day-one tier), Samsung has done neither: one non-EU market, eight months in, with the EU's two biggest economies named but undated.
+**Key companies introduced:** None new (Samsung, XREAL, Snap already tracked)
+**Key people introduced:** None new
+**Key concepts introduced:** UK-as-proxy-for-Europe — a post-Brexit market-access distinction where a UK retail launch is read as "Europe arriving" while the EU itself remains undated
+**Sources used:** 9to5Google (7/10): https://9to5google.com/2026/06/17/the-samsung-galaxy-xr-pre-orders-open-in-uk-available-july-8/ ; SamMobile (6/10): https://www.sammobile.com/news/samsung-galaxy-xr-launch-additional-countries-2026/
+**Follow-up threads to watch:** Whether Samsung names a Germany/France date before or after XREAL's AURA Wave 2 and Snap's next Specs market wave land
+
+### Further items (if any)
+None — a wide sweep across capital, clinical/regulatory and policy turned up nothing that cleared the bar today; single-story edition.
+
+### New concepts in Angelo's working vocabulary
+UK-as-proxy-for-Europe in spatial-computing market sequencing, distinct from genuine EU market access.
+
+### Provocation(s) posed this edition
+- Three different sequencing choices, one pattern: the UK keeps arriving first and standing in for "Europe" in the coverage, while the EU, Angelo's actual market, waits undated behind it. Has he been reading UK launches as evidence his own market is catching up, when the bloc he is actually in has had none of these three devices land yet?
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, 27 editions; no update
+- Android XR Catalyst Programme — selection notification due mid-July; no update
+- Snap Specs stock — no further move since Ed 18; no update
+- XREAL AURA — still no final price beyond $1,500 ceiling; no update
+- Synchron pivotal trial — still no public start date; no update
+- Samsung Galaxy Glasses / Unpacked — still uncorroborated rumoured 22 July London date; no update
+- BCI implant census (~150 people, Vansteensel) — no update
+- Neuracle STAR Market IPO — no update since filing
+- EU AI Act Digital Omnibus — Council formal adoption was expected 29 June 2026; could not be confirmed as completed from available sources as of this edition — still pending
+- Connecticut neural-data privacy law — takes effect 1 July 2026; no update
+- Caltech decoder-dynamics finding (Ed 26) — no commercial BCI company response yet
+- **Updated:** Samsung Galaxy XR — UK preorders opened, ships 8 July at £1,699; Germany/France still undated (this edition)
+
+### Thinking Ledger update
+- **Sharpens an existing blind spot (Ed 17):** "Treating global narration as equivalent to market access" now has a sharper, post-Brexit edge — a UK retail launch is not evidence of EU market access, yet three separate companies' coverage this year has let the UK stand in for "Europe" generally. Worth checking whether Angelo's own reading has conflated the two.
+- No change to the other live questions (speed-to-approval vs. speed-to-revenue in BCI; OS-vs-middleware platform contest; checked-vs-repeated; who-can-audit; sixth-axis decoder sophistication) — today's evidence does not bear on them directly.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1334,6 +1375,7 @@ Autonomous vs. input-driven motor cortex dynamics as a decoder-design axis disti
 - **New (Ed 21):** Reading a published price as a statement about a product, without checking what the price is made of — components, supply constraints, currency of guidance given months earlier.
 - **New (Ed 22):** Treating a regulatory or "first" milestone as if it already implies commercial traction, without checking the revenue line sitting right behind the headline.
 - **New (Ed 23):** Reading hardware prices as a single uniform trend (all up, all down) without checking whether the cases moving against the trend are the ones that actually isolate the mechanism.
+- **Sharpened (Ed 27):** Letting a UK retail launch stand in for "Europe arriving," when Angelo's actual market — the EU — remains undated behind it across three separate companies' 2026 XR launches.
 
 ---
 
@@ -1368,6 +1410,7 @@ Autonomous vs. input-driven motor cortex dynamics as a decoder-design axis disti
 | 24 | 25 Jun 2026 | European Parliament approves Digital Omnibus on AI, delaying the AI Act's Annex III high-risk deadline by 16 months (stand-alone) to 18 months (embedded) | EU AI Act Annex III deadline delay | None new | Who in Europe's BCI and wearable-AI field is already spending its extended compliance runway closing the gap, rather than just exhaling — and is that company on Angelo's list yet |
 | 25 | 27 Jun 2026 | Apple raises Vision Pro's price by $200-$300 and names the AI memory shortage as the reason, confirming the bill-of-materials-complexity mechanism tracked since Ed 21 | Apple 14-product price hike/Vision Pro, Microsoft Xbox price rise, Apple 6.1% stock drop, Connecticut neural-data privacy law | None new | Is spatial computing's hardware economics now hostage to a market it has zero influence over, or was a $3,699 headset already proof the category can absorb the cost, with Apple's pricing power the exception rather than the warning |
 | 26 | 28 Jun 2026 | Caltech finds slow, sustained BMI movement needs continuous external input, not a single autonomous decode, complicating channel-count as a stand-alone scaling claim | Andersen Lab/Caltech motor-cortex decoding study (Communications Biology) | None new | Paradromics markets channel count as its scaling story; this week's evidence says decoder sophistication may be the real constraint — which axis is Angelo crediting on faith |
+| 27 | 29 Jun 2026 | Samsung opens UK preorders for Galaxy XR; Germany and France, the EU's two largest economies, still have no release date | Samsung Galaxy XR UK launch, XREAL AURA / Snap Specs European sequencing comparison | None new | The UK keeps standing in for "Europe" across three 2026 XR launches while the EU, Angelo's actual market, waits undated behind it — has he been reading UK launches as evidence his own market is catching up |
 
 ---
 *Last updated: Edition 26 — 28 June 2026*
