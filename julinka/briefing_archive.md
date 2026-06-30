@@ -1132,6 +1132,47 @@ None new this edition
 
 ---
 
+## EDITION 26 — Tuesday, 30 June 2026
+
+### Lead Story
+**Title:** Indonesia Will Issue 30 Million Carbon Credits on 6 July — the Largest Government Forestry Supply Since the 2022 Export Ban
+**Pillar:** Nature Finance
+**Core argument:** Indonesia's forestry minister Raja Juli Antoni announced at the Net Zero Delivery Summit (London Climate Action Week) that he will sign a ministerial approval facilitating the issuance of more than 30 million tonnes of CO2e in REDD+ forestry credits on 6 July — the first major government issuance since the 2022 export ban was lifted at end-2025. The Katingan Mentaya REDD+ project (149,800ha peatland in Kalimantan) was among those frozen during the moratorium. Three days later (9 July), Indonesia launches its Carbon Unit Registry System (SRUK), a national infrastructure to record transactions and improve traceability. At stake: whether a sovereign registry confers credibility or concentrates political risk in a single institution — a question the voluntary carbon market will price in real time once credits move.
+**Key entities introduced:** Raja Juli Antoni (Indonesia forestry minister), SRUK (Carbon Unit Registry System)
+**Key concepts introduced:** Sovereign carbon registry as audit-internalization model; REDD+ export moratorium and lift mechanics
+**Sources used:** Argus Media (9/10), Carbon Pulse (9/10)
+**Angle delivered:** Check Calm/Storm LP/portfolio exposure to Indonesian REDD+ credits before 6 July; use SRUK registry as jurisdiction-credibility screen for nature-finance deals
+**Follow-up threads to watch:** 6 July issuance execution and spot-market price reaction; SRUK registry operational integrity and MRV framework; whether Calm/Storm portfolio companies hold Katingan/Verra credits
+
+### Further items
+**Art · Heritage Finance:** Louvre director Laurence des Cars told France's Senate the museum's buildings were "no longer watertight" and "running out of steam." A burst heating pipe over the Egyptian antiquities library drenched hundreds of documents, some from the late 19th century. CGT, CFDT, and Sud unions voted unanimously for a rolling strike. September 2026 renovation of the heating/ventilation system scheduled; no public capital commitment for the broader structural programme. Most named, most institutionally visible instance of the European museum climate-resilience gap to date.
+**Food · Cultivated Protein:** UPSIDE/Believer Meats — competing-bid deadline July 20, auction July 28, sale hearing July 30. Minimum qualifying bid: $52.25m. Believer's last funding valuation: $600m. UPSIDE's stalking-horse price ($50m) is 87.5% below that — the market's current mark for an idle cultivated-meat plant.
+
+### New concepts in Julinka's working vocabulary
+Sovereign carbon registry as audit-internalization model (SRUK); REDD+ export moratorium and lift mechanics.
+
+### Running-thread tracker
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28, sale hearing July 30; no new bids reported yet
+- Formo IFT FIRST Chicago — July 13–16; 13 days out; no movement this edition
+- EU nature-credits technical criteria — still overdue against its mid-2026 mandate; no publication this edition
+- EU Biotech Act II — call for evidence closed June 10; outcome/next steps not yet published
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence — ongoing; no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis — **UPDATED (Ed 26):** director told Senate buildings "no longer watertight"; burst pipe damages Egyptian antiquities archive; workers on rolling strike; September 2026 renovation scheduled; no capital commitment announced
+- Ingredion/Tate & Lyle takeover — shareholder vote, court sanction and antitrust clearance pending; completion expected H2 2027
+- New Forests GLO fund — launched June 15 targeting $707m; watch for named LPs or first close
+- Every/Huvepharma capacity expansion — agreed mid-June; watch for completion or further retail expansion
+- Nestlé/Helaina infant-nutrition partnership — watch for named product or market launch
+- Astral Systems first close — £23m first close; watch for round close or isotope production (early 2027)
+- Indonesia forestry-credit issuance — **6 JULY** issuance confirmed by minister at London Climate Action Week; SRUK registry 9 July; this edition covers the lead-up
+- European museum climate-resilience gap — **NAMED (Ed 26):** Louvre is now the most specific, most visible instance; watch for capital response from French culture ministry or EIB
+- Alan/Prosus Series G — regulatory approvals pending; watch for close confirmation
+- Lactalis/Nutri-Score CJEU referral — referred 25 June 2026; judgment expected 18 months to two years; watch for CJEU scheduling
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1161,6 +1202,7 @@ None new this edition
 | 23 | 27 Jun 2026 | Indonesia lifts its carbon-credit export ban and sets a 6 July date for the largest forestry-credit issuance on record; a June heatwave exposes a climate-resilience capital gap across European museums | Indonesia carbon-credit issuance, European museum climate-resilience gap | Raja Juli Antoni, Katingan Mentaya REDD+ project, SRUK | Test speed-to-issuance as a nature-credit jurisdiction-credibility screen; check Calm/Storm's orbit for Katingan/Verra supply-side exposure |
 | 24 | 28 Jun 2026 | Prosus leads a €480m Series G in Alan at a €5.5bn valuation, the French insurer's "prevention as the platform" model scaling to €800m ARR | Alan/Prosus Series G | Jean-Charles Samuelian-Werve, Fahd Beg, Dara Holdings | Benchmark Calm/Storm preventive-health pipeline against Alan's ARR-per-member and growth rate; test each company's AI roadmap against Prosus's "AI-led transformation" bar |
 | 25 | 29 Jun 2026 | France's Conseil d'État refers Lactalis's Nutri-Score challenge to the CJEU, putting the scheme's EU legal basis formally in doubt | Lactalis/Nutri-Score CJEU referral | Lactalis, Conseil d'État, CJEU | Use the referral's two legal questions as a diligence checklist for portfolio companies citing Nutri-Score grades; publish a public view distinguishing Nutri-Score's defensible science from its policy choices |
+| 26 | 30 Jun 2026 | Indonesia announces 30m+ CO2e REDD+ forestry credit issuance on 6 July; SRUK registry launches 9 July | Indonesia REDD+ issuance, SRUK registry, Louvre infrastructure crisis, UPSIDE/Believer Meats auction | Raja Juli Antoni, SRUK | Katingan/LP exposure check before 6 July; SRUK as jurisdiction-credibility screen for nature-finance deals |
 
 ---
-*Last updated: Edition 24 — 28 June 2026*
+*Last updated: Edition 26 — 30 June 2026*
