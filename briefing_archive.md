@@ -1331,6 +1331,49 @@ UK-as-proxy-for-Europe in spatial-computing market sequencing, distinct from gen
 
 ---
 
+## EDITION 28 — Tuesday, 30 June 2026
+
+### Lead Story
+**Title:** The EU's AI Compliance Deferral Is Now Law; Connecticut's Neural Privacy Rules Take Effect Tomorrow
+**Category:** Regulatory / Neural Privacy
+**Core argument:** The EU Council formally adopted the Digital Omnibus on AI on 29 June, completing the process from May provisional agreement to law. High-risk AI deadline shifts from 2 August 2026 to 2 December 2027 for standalone systems (18 months for embedded). The scope of what's classified as high-risk is unchanged — BCI software and clinical XR remain inside Annex III, just with a later compliance date. Simultaneously, Connecticut's amended Data Privacy Act takes effect 1 July, covering central-nervous-system data from BCI and EEG devices with no volume threshold. The two moves compress into one pattern: the EU defers its enforcement clock; a US state starts one with no minimum entry condition. Neither jurisdiction has operational audit infrastructure yet.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** No-threshold state neural-data regulation (Connecticut model); Annex III scope unchanged despite Omnibus timeline deferral
+**Sources used:** Consilium primary (10/10), Gibson Dunn (9/10), Bass Berry & Sims (9/10), Inside BCI (7/10), iubenda (7/10)
+**Angelo's Angle delivered:** The three candidate bodies for the first neural-data enforcement action (EU AI Office, state AG, FDA) each lack operational audit infrastructure; whoever builds it first writes the governance template
+**Follow-up threads to watch:** EU Omnibus publication in Official Journal; first enforcement action under Connecticut's neural-data provision; whether other US states adopt no-threshold neural-data rules
+
+### Further items
+**Android XR Catalyst Programme:** Application window closed today (30 June); notifications due 15 July. First concrete measure of developer-ecosystem depth behind fall 2026 Samsung/XREAL launches.
+**XREAL AURA:** 2,000 Founder Priority Passes sold out within 36 hours of June 16 reservations opening. Price ceiling confirmed at $1,500 before taxes. Fall 2026 launch across five markets: US, UK, Canada, South Korea, Japan. Europe remains Wave 2, undated. Thread resolved: XREAL AURA now has a confirmed price ceiling and reservation infrastructure.
+
+### New concepts in Angelo's working vocabulary
+No-threshold neural-data regulation (Connecticut model); Annex III high-risk scope as independent variable from Omnibus timeline deferral.
+
+### Provocation(s) posed this edition
+- Europe grants AI companies 16 more months to defer compliance; Connecticut grants BCI companies zero runway on neural data from tomorrow. When the first enforcement action lands — an EEG company, a consumer neurofeedback app with a Connecticut user — which of the three candidate bodies (EU AI Office, state AG, FDA) actually has the audit tools to adjudicate it?
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, 28 editions; no update
+- Android XR Catalyst Programme — applications CLOSED today (30 June); notifications due 15 July
+- Snap Specs stock — no further move this edition; no update
+- XREAL AURA — **RESOLVED:** price ceiling $1,500 confirmed; $99 reservations open; 2,000 Founder Passes sold out in 36 hours; fall 2026 launch US/UK/Canada/South Korea/Japan; Europe Wave 2 undated
+- Synchron pivotal trial — trade sources indicate enrollment has begun at multiple US sites in 2026; no formal press release found confirming start date; track for official announcement
+- Samsung Galaxy Glasses / Unpacked — still uncorroborated rumoured 22 July London date; no update
+- BCI implant census — no update
+- Neuracle STAR Market IPO — no update since filing
+- EU AI Act Digital Omnibus — **RESOLVED:** Council formally adopted 29 June 2026; Official Journal publication pending; high-risk standalone deadline now 2 December 2027
+- Connecticut neural-data privacy law — **TAKES EFFECT 1 JULY 2026 (tomorrow)**; covers central-nervous-system data; no volume threshold
+- Caltech decoder-dynamics finding — no commercial BCI company response yet
+- Samsung Galaxy XR — UK ships 8 July; Germany/France still undated; no update
+
+### Thinking Ledger update
+- **Sharpens Q4 ("who can audit"):** The EU Omnibus defers enforcement without narrowing Annex III; Connecticut imposes an immediate audit obligation with no technical apparatus behind it. The question now has three named candidate jurisdictions (EU AI Office, state AG, FDA) and zero of them have operational enforcement infrastructure for neural data. This is the sharpest the question has been.
+- No change to other live questions (speed-to-approval vs. speed-to-revenue; OS/hardware vs. AI-agent middleware; checked vs. repeated; BCI five-axis commercial structure; sixth-axis decoder sophistication) — today's evidence doesn't bear on them directly.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1339,7 +1382,7 @@ UK-as-proxy-for-Europe in spatial-computing market sequencing, distinct from gen
 - **Does speed-to-regulatory-approval predict speed-to-commercial-revenue, or are the two decoupled?** (new, Ed 22) Neuracle won the global "first invasive BCI approved for commercial sale" race outright in March, then booked zero implant revenue in three years and is now seeking $370m from public markets. "First to approval" has been one of the five BCI architecture axes Angelo tracks; this is the first case testing whether winning it predicts anything about winning commercially.
 - **Is the smart-glasses platform war actually two separate contests — OS/hardware vs. AI-agent middleware?** (new, Ed 20) Five editions tracked Android XR, Apple and Snap purely on hardware tiers, prices and launch windows. Nvidia's XR AI public beta (June 16) is explicitly OS-agnostic middleware, with partners spanning consumer, industrial, clinical and research use — the first concrete bet that the layer above the device, not the device itself, decides who controls smart glasses.
 - **"Checked vs. repeated" — is this the variable underlying both "who can audit" and "resource vs. rhetoric"?** (new, Ed 15; sharpened Ed 19) AWE's own exhibitor count disagreed with itself by 13x and remains uncorrected in the public record. Ed 19 adds a named instance: David Brandman is lead investigator on both the academic BrainGate2 ALS result and Paradromics' commercial Connect-One trial. "Independent validation" between the two may mean less than the word implies when one person sits on both sides of it.
-- **"Who can audit?" — is this the axis "consent" has been standing in for?** (Ed 14, enriched Ed 16) The three-tier smart-glasses taxonomy maps directly onto the audit-capacity question: Tier 1 (AI camera eyewear, most inconspicuous, highest bystander consent-risk) versus Tier 3 (Specs, most visible, audience self-selects). The UC Davis ALS study adds a BCI-specific dimension: the user cannot audit the accuracy of the neural decoder the way a sighted user can audit a camera's output. Himel's tier-conceding quote (Ed 23) is the first instance of an industry actor using the same taxonomy publicly, against himself.
+- **"Who can audit?" — is this the axis "consent" has been standing in for?** (Ed 14, enriched Ed 16, enriched Ed 28) The three-tier smart-glasses taxonomy maps directly onto the audit-capacity question: Tier 1 (AI camera eyewear, most inconspicuous, highest bystander consent-risk) versus Tier 3 (Specs, most visible, audience self-selects). The UC Davis ALS study adds a BCI-specific dimension: the user cannot audit the accuracy of the neural decoder the way a sighted user can audit a camera's output. Himel's tier-conceding quote (Ed 23) is the first instance of an industry actor using the same taxonomy publicly, against himself. Ed 28 adds: Connecticut's no-threshold neural-data law creates an immediate audit obligation with no technical apparatus behind it; the EU Omnibus defers the compliance clock without narrowing Annex III; the FDA has device jurisdiction but not data-protection authority. There are now three named candidate bodies for the first neural-data enforcement action — EU AI Office, state AG, FDA — and none has operational audit infrastructure. The question is now: which builds it first?
 - **Is BCI's commercial structure resolved into one axis, or does it run on several?** (Ed 10-14, updated Ed 16, Ed 19) UC Davis ALS adds "independent daily use" as an empirical benchmark for the reimbursement threshold; Paradromics' Connexus (Ed 19) adds channel count (1,684 max) and full wireless implantation as a fourth distinct architecture now in a human. Hardware/regulatory, algorithmic, software-defined scope, signal resolution, and architecture-spectrum/regulatory-race interaction: five axes still in play, now with a fourth live data point.
 
 **Retired Ed 16:** "Is spatial computing one market or several?" — AWE's three-tier taxonomy (Tier 1 AI camera eyewear / Tier 2 tethered AR / Tier 3 standalone AR computer) settles the structural question. Three products with different price points, capability ceilings, and consent-risk profiles. Residual questions about tier convergence or platform dominance are valid but more specific.
@@ -1363,6 +1406,7 @@ UK-as-proxy-for-Europe in spatial-computing market sequencing, distinct from gen
 - **Regulatory deadlines and regulatory scope move on separate clocks.** (New, Ed 24.) The EU delayed Annex III enforcement by sixteen months without narrowing what Annex III covers — a system can be classified high-risk years before it is actually required to comply with that classification. Worth weighing against the BCI five-axis structure the next time a European neurotech company's "regulatory readiness" claim is checked: readiness for what date, against what scope.
 - **The DRAM/memory shortage is a bill-of-materials story, not a category story — confirmed, not just inferred.** (New, Ed 25.) Apple named the mechanism outright (AI-datacenter memory demand) and took one of its largest-ever dollar increases on Vision Pro, its most display- and compute-dense device; Microsoft's Xbox price rise is independent confirmation. Pricing power may now be the variable that separates who absorbs the shock from who suffers demand destruction passing it through — worth checking the next time a company's price increase reads as a confidence signal rather than a supply-chain artefact (Ed 21's position, now sharpened).
 - **The BCI five-axis structure may run on a sixth axis: decoder sophistication for sustained, naturalistic movement, separate from electrode/channel count.** (New, Ed 26.) Caltech's finding that slow, continuous movement requires ongoing external input rather than a single autonomous decode complicates any company's channel-count number as a stand-alone scaling claim — more channels do not by themselves solve the sustained-input problem.
+- **Regulatory scope and regulatory timeline move on independent clocks — confirmed, not just inferred.** (New, Ed 28; sharpens Ed 24.) The EU Omnibus is now law, and it confirms exactly the split Ed 24 noted: the enforcement deadline extends 16 months; what is inside Annex III does not change. A BCI software product already classified as high-risk today remains classified as high-risk tomorrow — it simply has until December 2027 to comply rather than August 2026. Worth applying to the next "regulatory readiness" claim from a European neurotech company: readiness against what classification, on what clock?
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1411,6 +1455,7 @@ UK-as-proxy-for-Europe in spatial-computing market sequencing, distinct from gen
 | 25 | 27 Jun 2026 | Apple raises Vision Pro's price by $200-$300 and names the AI memory shortage as the reason, confirming the bill-of-materials-complexity mechanism tracked since Ed 21 | Apple 14-product price hike/Vision Pro, Microsoft Xbox price rise, Apple 6.1% stock drop, Connecticut neural-data privacy law | None new | Is spatial computing's hardware economics now hostage to a market it has zero influence over, or was a $3,699 headset already proof the category can absorb the cost, with Apple's pricing power the exception rather than the warning |
 | 26 | 28 Jun 2026 | Caltech finds slow, sustained BMI movement needs continuous external input, not a single autonomous decode, complicating channel-count as a stand-alone scaling claim | Andersen Lab/Caltech motor-cortex decoding study (Communications Biology) | None new | Paradromics markets channel count as its scaling story; this week's evidence says decoder sophistication may be the real constraint — which axis is Angelo crediting on faith |
 | 27 | 29 Jun 2026 | Samsung opens UK preorders for Galaxy XR; Germany and France, the EU's two largest economies, still have no release date | Samsung Galaxy XR UK launch, XREAL AURA / Snap Specs European sequencing comparison | None new | The UK keeps standing in for "Europe" across three 2026 XR launches while the EU, Angelo's actual market, waits undated behind it — has he been reading UK launches as evidence his own market is catching up |
+| 28 | 30 Jun 2026 | EU Council formally adopts AI Omnibus; Connecticut neural-data law takes effect tomorrow | EU Omnibus Council adoption, Connecticut neural-data law, Android XR Catalyst closes, XREAL AURA thread resolved | None new | Which jurisdiction builds neural-data audit capacity first — EU AI Office, state AG, or FDA |
 
 ---
-*Last updated: Edition 26 — 28 June 2026*
+*Last updated: Edition 28 — 30 June 2026*
