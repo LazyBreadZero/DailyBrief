@@ -1173,6 +1173,45 @@ Sovereign carbon registry as audit-internalization model (SRUK); REDD+ export mo
 
 ---
 
+## EDITION 27 — Wednesday, 1 July 2026
+
+### Lead Story
+**Title:** The EU Completes Its Biggest Food Biotech Deregulation in Two Decades
+**Pillar:** Food Regulation / Venture Capital
+**Core argument:** The European Parliament gave final approval to the new genomic techniques (NGT) regulation on 17 June 2026, completing a legislative process begun with a Council–Parliament provisional agreement in December 2025 and Council adoption on 21 April 2026. The regulation is the EU's first substantive food biotech deregulation since the GMO framework was set in 2001. It creates two regulatory tiers: Category 1 (NGT-1) plants — those whose genetic changes are equivalent to what conventional breeding could achieve — follow a simplified authorization pathway, and processed food and feed derived from NGT-1 crops does not require GMO labeling. Category 2 (NGT-2) plants, with modifications going beyond conventional-breeding equivalence, remain under the full GMO framework. The regulation enters into force 20 days after EU Official Journal publication; it applies two years after that (approximately mid-2028). Direct implications for the precision fermentation investment thesis: NGT-1-authorized legumes, cereals and oilseeds with improved amino acid profiles or higher protein density can now reach EU farmers and processors through a simplified pathway, creating competitive pressure on "better-than-conventional-plant-protein" premium claims. The EU Biotech Act II — call for evidence closed 10 June, outcome not yet published — covers fermentation-derived food ingredients; the NGT regulation's two-tier product-based logic is the likeliest template the Biotech Act II outcome follows. The two-year transition window is not just a compliance clock — it is the sourcing window for fermentation companies whose EU commercial case depends on Biotech Act II recognition before NGT-1 crop equivalents arrive on retail shelves.
+**Key entities introduced:** None new
+**Key concepts introduced:** NGT-1/NGT-2 two-tier regulatory system; product-based (vs. process-based) EU food biotech regulation as a structural shift completed in crops, pending for fermentation ingredients; EU Biotech Act II as the fermentation-sector counterpart to the NGT regulation
+**Sources used:** Consilium (10/10): https://www.consilium.europa.eu/en/press/press-releases/2026/04/21/new-genomic-techniques-council-adopts-new-rules-to-boost-sustainable-and-competitive-eu-food-systems/ ; USDA FAS (9/10): https://www.fas.usda.gov/data/gain/2026/06/european-union-european-parliament-passes-landmark-new-genomic-techniques-regulation ; ISAAA Crop Biotech Update (7/10): https://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=21861 ; npj Sustainable Agriculture/Nature (9/10): https://www.nature.com/articles/s44264-026-00154-9
+**Follow-up threads to watch:** EU Official Journal publication date for the NGT regulation (starts the two-year clock); EU Biotech Act II outcome publication, particularly whether it adopts a two-tier product-based framework for fermentation-derived food ingredients; any European fermentation company that publicly updates its competitive positioning in response to NGT-1
+
+### Further items
+**Indonesia REDD+ issuance.** Five days away (6 July). Prices for the Katingan Mentaya REDD+ project have already declined on anticipated supply. The SRUK registry launches 9 July. Covered as a lead in Edition 26; no new development this edition.
+
+### New concepts in Julinka's working vocabulary
+NGT-1/NGT-2 two-tier system — the EU's regulatory distinction between gene-edited crops equivalent to conventional breeding (simplified pathway, no GMO labeling required for processed food and feed) and crops with more complex modifications (retained GMO oversight, full traceability and labeling). Establishes product-based rather than process-based regulation as the EU's governing principle for new genomic techniques in crops.
+
+### Running-thread tracker
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28, sale hearing July 30; no movement this edition
+- Formo IFT FIRST Chicago — July 13–16; 12 days out; no movement this edition
+- EU nature-credits technical criteria — still overdue against its mid-2026 mandate; no publication this edition
+- EU Biotech Act II — call for evidence closed June 10; outcome/next steps not yet published; **UPDATED (Ed 27):** the NGT regulation (its crop-equivalent precursor) completed June 17; the two-tier product-based framework it established is the likeliest template for Biotech Act II's fermentation-product outcome
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence — ongoing; no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis — no movement this edition
+- Ingredion/Tate & Lyle takeover — shareholder vote, court sanction and antitrust clearance pending; completion expected H2 2027
+- New Forests GLO fund — launched June 15 targeting $707m; watch for named LPs or first close
+- Every/Huvepharma capacity expansion — agreed mid-June; watch for completion or further retail expansion
+- Nestlé/Helaina infant-nutrition partnership — watch for named product or market launch
+- Astral Systems first close — £23m first close; watch for round close or isotope production (early 2027)
+- Indonesia forestry-credit issuance — **6 JULY** in 5 days; Katingan prices already moving on anticipated supply; SRUK registry 9 July
+- European museum climate-resilience gap — watch for capital response from French culture ministry or EIB
+- Alan/Prosus Series G — regulatory approvals pending; watch for close confirmation
+- Lactalis/Nutri-Score CJEU referral — referred 25 June 2026; judgment expected 18 months to two years; watch for CJEU scheduling
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1203,6 +1242,7 @@ Sovereign carbon registry as audit-internalization model (SRUK); REDD+ export mo
 | 24 | 28 Jun 2026 | Prosus leads a €480m Series G in Alan at a €5.5bn valuation, the French insurer's "prevention as the platform" model scaling to €800m ARR | Alan/Prosus Series G | Jean-Charles Samuelian-Werve, Fahd Beg, Dara Holdings | Benchmark Calm/Storm preventive-health pipeline against Alan's ARR-per-member and growth rate; test each company's AI roadmap against Prosus's "AI-led transformation" bar |
 | 25 | 29 Jun 2026 | France's Conseil d'État refers Lactalis's Nutri-Score challenge to the CJEU, putting the scheme's EU legal basis formally in doubt | Lactalis/Nutri-Score CJEU referral | Lactalis, Conseil d'État, CJEU | Use the referral's two legal questions as a diligence checklist for portfolio companies citing Nutri-Score grades; publish a public view distinguishing Nutri-Score's defensible science from its policy choices |
 | 26 | 30 Jun 2026 | Indonesia announces 30m+ CO2e REDD+ forestry credit issuance on 6 July; SRUK registry launches 9 July | Indonesia REDD+ issuance, SRUK registry, Louvre infrastructure crisis, UPSIDE/Believer Meats auction | Raja Juli Antoni, SRUK | Katingan/LP exposure check before 6 July; SRUK as jurisdiction-credibility screen for nature-finance deals |
+| 27 | 1 Jul 2026 | EU adopts New Genomic Techniques regulation — biggest EU food biotech deregulation in decades | EU NGT regulation (NGT-1/NGT-2 two-tier), Indonesia REDD+ (5 days out) | None new | At IFT FIRST, ask fermentation founders whether they model NGT-1 plant proteins as competition; map Calm/Storm pipeline against Biotech Act II tiers |
 
 ---
-*Last updated: Edition 26 — 30 June 2026*
+*Last updated: Edition 27 — 1 July 2026*
