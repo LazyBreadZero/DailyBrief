@@ -1374,6 +1374,49 @@ No-threshold neural-data regulation (Connecticut model); Annex III high-risk sco
 
 ---
 
+## EDITION 29 — Wednesday, 1 July 2026
+
+### Lead Story
+**Title:** Samsung's Galaxy Glasses Get a Date and a City: London, 22 July
+**Category:** Smart Glasses / Spatial Computing
+**Core argument:** The July 22 London Unpacked date — tracked since Edition 19 as a single Korean trade press report that Samsung had not officially confirmed — is now corroborated by Engadget, Android Central and multiple major technology publications in sufficient depth to clear the archive's corroboration bar. Samsung will unveil Galaxy Glasses alongside the Z Fold 8, Z Flip 8 and Watch 9. Hardware: Snapdragon AR1, 12MP Sony IMX681 camera with autofocus, directional stereo speakers, Gemini AI on Android XR, photochromic lenses, approximately 50 grams, no heads-up display, $379–$499; eyewear partners Gentle Monster and Warby Parker, both demonstrated frames at Google I/O in May; a future Haean model with micro-LED display planned for 2027 at $600–$900. Samsung chose London — described internally as its most competitive foldable market — roughly two months ahead of Apple's expected fall foldable iPhone announcement. The London venue differs from the 2026 pattern: Galaxy XR headset (UK-only, ships July 8, Germany/France undated), XREAL AURA (fall 2026, Europe Wave 2 undated) and Snap Specs (US/UK/France only day one) all routed compute-and-display hardware through the UK first; the Galaxy Glasses are display-free and fashion-adjacent, and Samsung staged the global announcement — not merely a retail launch — in London.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** None new — sharpens the UK-as-proxy-vs.-genuine-EU-access distinction first named in Edition 27, applied to the display-free tier rather than the headset tier
+**Sources used:** Engadget (9/10): https://www.engadget.com/2202726/foldables-watches-and-glasses-could-be-on-the-way/ ; Android Central (8/10): https://www.androidcentral.com/wearables/samsung-smart-glasses-debut-next-galaxy-unpacked ; Gadget Hacks/Samsung (7/10, amber): https://samsung.gadgethacks.com/news/samsung-galaxy-glasses-launch-july-2026-features-privacy-and-tradeoffs/
+**Follow-up threads to watch:** Samsung formal press release before July 22; price confirmation at or within the $379–$499 supply-chain estimate; whether EU retail availability is day-one with the announcement or follows the UK-first pattern established by the XR headset
+
+### Further items (if any)
+**Android XR Developer Catalyst Programme.** Application window closed 30 June; Google notifies selected developers 15 July. First concrete measure of developer-ecosystem depth behind fall 2026 Samsung/XREAL launches.
+**Connecticut neural-data privacy law.** Took effect today, 1 July, as anticipated in Edition 28. No enforcement action reported.
+**Science Corp CE mark.** Mid-2026 guidance window formally elapsed; no approval announced. No update this edition; thread carried 29 editions.
+
+### New concepts in Angelo's working vocabulary
+None new this edition.
+
+### Provocation(s) posed this edition
+- Galaxy Unpacked in London on July 22 is the first spatial-computing product announcement staged in Angelo's time zone rather than reported from across the Atlantic. Before then: which specific European decision-maker, at which firm or institution, would get the most from a hands-on session with the Glasses before Apple's fall announcement crowds the category conversation?
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, 29 editions; mid-2026 window formally elapsed; no announcement
+- Android XR Catalyst Programme — notifications due 15 July; applications closed 30 June
+- Snap Specs stock — no further move since Ed 18; no update
+- XREAL AURA — price ceiling $1,500 confirmed; fall 2026 US/UK/Canada/South Korea/Japan; Europe Wave 2 undated; no update
+- Synchron pivotal trial — trade sources indicate enrollment under way at US sites; no official press release; no update
+- Samsung Galaxy Glasses / Unpacked — **MOVED (Ed 29):** date and venue confirmed by Engadget, Android Central and multiple major tech publications; Galaxy Unpacked July 22, London; Galaxy Glasses included; price $379–$499 (supply-chain estimate, not Samsung press release); EU retail sequencing vs. announcement date still unknown
+- Samsung Galaxy XR headset — UK ships July 8 (£1,699); Germany/France still undated; no update
+- BCI implant census (~150 people, Vansteensel) — no update
+- Neuracle STAR Market IPO — no update since filing
+- EU AI Act Digital Omnibus — Council adopted 29 June; Official Journal publication pending; no update
+- Connecticut neural-data privacy law — **TOOK EFFECT 1 JULY 2026** (today); no enforcement action reported
+- Caltech decoder-dynamics finding — no commercial BCI company response yet
+
+### Thinking Ledger update
+- **Sharpens an existing blind spot (Eds 17, 27):** Samsung is the first Tier 1 company in this cycle to stage the global announcement in London rather than route a UK retail launch ahead of Europe. The "UK-as-proxy-for-Europe" blind spot (Ed 27) may be product-category-specific rather than structural — Samsung itself is treating the display-free fashion-adjacent glasses tier differently from the compute-and-display headset tier. Worth checking whether Angelo's read of "Europe sequenced behind" has been consistently applied to the right product categories.
+- No change to the other live questions.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1420,6 +1463,7 @@ No-threshold neural-data regulation (Connecticut model); Annex III high-risk sco
 - **New (Ed 22):** Treating a regulatory or "first" milestone as if it already implies commercial traction, without checking the revenue line sitting right behind the headline.
 - **New (Ed 23):** Reading hardware prices as a single uniform trend (all up, all down) without checking whether the cases moving against the trend are the ones that actually isolate the mechanism.
 - **Sharpened (Ed 27):** Letting a UK retail launch stand in for "Europe arriving," when Angelo's actual market — the EU — remains undated behind it across three separate companies' 2026 XR launches.
+- **Sharpened (Ed 29):** Samsung staged its Galaxy Glasses global announcement in London — the same week its Galaxy XR headset is UK-only with Germany/France undated. Two products, one company, two sequencing logics: the display-free fashion tier may not follow the same UK-first pattern as the compute-display headset tier. The "UK-as-proxy" blind spot (Ed 27) may need to be applied product-category by product-category, not uniformly.
 
 ---
 
@@ -1456,6 +1500,7 @@ No-threshold neural-data regulation (Connecticut model); Annex III high-risk sco
 | 26 | 28 Jun 2026 | Caltech finds slow, sustained BMI movement needs continuous external input, not a single autonomous decode, complicating channel-count as a stand-alone scaling claim | Andersen Lab/Caltech motor-cortex decoding study (Communications Biology) | None new | Paradromics markets channel count as its scaling story; this week's evidence says decoder sophistication may be the real constraint — which axis is Angelo crediting on faith |
 | 27 | 29 Jun 2026 | Samsung opens UK preorders for Galaxy XR; Germany and France, the EU's two largest economies, still have no release date | Samsung Galaxy XR UK launch, XREAL AURA / Snap Specs European sequencing comparison | None new | The UK keeps standing in for "Europe" across three 2026 XR launches while the EU, Angelo's actual market, waits undated behind it — has he been reading UK launches as evidence his own market is catching up |
 | 28 | 30 Jun 2026 | EU Council formally adopts AI Omnibus; Connecticut neural-data law takes effect tomorrow | EU Omnibus Council adoption, Connecticut neural-data law, Android XR Catalyst closes, XREAL AURA thread resolved | None new | Which jurisdiction builds neural-data audit capacity first — EU AI Office, state AG, or FDA |
+| 29 | 1 Jul 2026 | Samsung Galaxy Glasses confirmed for July 22 London Unpacked | Samsung Glasses confirmed (Engadget/Android Central), Android XR Catalyst notifications July 15, Connecticut law effective, Science Corp CE mark window elapsed | None new | Name one specific European decision-maker for hands-on at or after London Unpacked before Apple's fall announcement |
 
 ---
-*Last updated: Edition 28 — 30 June 2026*
+*Last updated: Edition 29 — 1 July 2026*
