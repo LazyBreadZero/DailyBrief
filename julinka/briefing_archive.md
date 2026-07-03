@@ -1212,6 +1212,50 @@ NGT-1/NGT-2 two-tier system — the EU's regulatory distinction between gene-edi
 
 ---
 
+## EDITION 28 — Thursday, 3 July 2026
+
+### Lead Story
+**Title:** The EU's Biotech Sandboxes Are Open — But Not for Precision Fermentation
+**Pillar:** Food Regulation
+**Core argument:** The EU Biotech Act I (published December 2025) introduced regulatory sandboxes to accelerate biotech commercialisation — but explicitly excluded novel foods. GFI and EuropaBio issued a joint statement calling this a "missed opportunity for food innovation." Precision fermentation companies remain on the standard EFSA novel-food dossier track; Biotech Act I does expand pre-submission EFSA guidance (a genuine improvement), but the sandbox mechanism itself — iterative, regulator-observed product testing before formal dossier commitment — does not apply to novel foods. The distinction matters: the sandbox is the faster tool; the guidance is the better-than-nothing tool. Biotech Act II, due Q3 2026, is the last legislative correction window; the specific advocacy ask is that novel foods be named as a covered technology category. Context from Ed 27: the NGT regulation's two-tier product-based logic is the expected Biotech Act II template — the sandbox question is whether that template also brings process-acceleration tools. Formo's US commercial debut at IFT FIRST (July 13–16) sharpens the gap: GRAS-cleared casein is sampling with US customers while the EU novel-food clock has not started.
+**Key entities introduced:** None new
+**Key concepts introduced:** Regulatory sandbox (EU Biotech Act I) — iterative, regulator-observed product-testing mechanism explicitly excluded for novel foods; distinct from expanded pre-submission EFSA technical guidance (also in Biotech Act I, but less powerful). Biotech Act II as the novel-food sandbox correction window.
+**Sources used:** FoodBev/GFI (8/10): https://www.foodbev.com/news/eu-biotech-act-s-exclusion-of-novel-foods-from-regulatory-sandbox-is-a-missed-opportunity-for-food-innovation ; EuropaBio joint statement (9/10): https://www.europabio.org/joint-statement-on-regulatory-sandboxes-under-the-biotech-act-i-and-the-exclusion-of-novel-foods/ ; Food Ingredients First (7/10): https://www.foodingredientsfirst.com/news/eu-biotech-act-novel-foods-sandboxes.html ; FoodNavigator-USA (9/10): https://www.foodnavigator-usa.com/Article/2026/06/02/precision-fermented-casein-from-formo-advances-toward-us-market-after-fda-gras/
+**Follow-up threads to watch:** Biotech Act II publication (Q3 2026) and whether it names novel foods as a covered technology category; GFI/EuropaBio advocacy outcome; any European fermentation company that publicly adjusts its EU sequencing in response to the sandbox exclusion
+
+### Further items
+**Indonesia REDD+ issuance.** Three days away — Monday, 6 July. Backed by Forestry Regulations No. 6 and 7 of 2026. SRUK registry launches 9 July. Prices on Katingan Mentaya already moved down on anticipated supply. Covered as lead in Edition 26.
+**Formo at IFT FIRST.** Ten days away — July 13–16, Chicago. First commercial showing of GRAS-cleared precision-fermented casein. EU novel-food clock has not started.
+
+### New concepts in Julinka's working vocabulary
+Regulatory sandbox (EU Biotech Act I) — iterative, regulator-observed product-testing mechanism that explicitly excludes novel foods. Distinct from the expanded pre-submission EFSA technical guidance also included in Biotech Act I. The sandbox is the faster tool; the guidance is the better-than-nothing tool.
+
+### Julinka's Angles Issued — Track Completion
+- Before Biotech Act II publishes (Q3): map Calm/Storm pipeline companies against sandbox inclusion — identify which have EU commercialisation timelines that depend materially on sandbox access, and whether the NGT-1 clock from Ed 27 leaves them enough runway
+- Before Biotech Act II publishes (Q3): identify any Calm/Storm LP or portfolio company with a direct line to DG SANTE or DG GROW; the specific ask from the GFI/EuropaBio statement is narrow enough that a single targeted conversation this month could carry weight
+
+### Running-thread tracker
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28, sale hearing July 30; no movement this edition
+- Formo IFT FIRST Chicago — July 13–16; now 10 days out; no movement this edition
+- EU nature-credits technical criteria — still overdue against its mid-2026 mandate; no publication this edition
+- EU Biotech Act II — call for evidence closed June 10; outcome/next steps not yet published; **UPDATED (Ed 28):** GFI/EuropaBio joint statement names novel foods' exclusion from Biotech Act I sandboxes as the specific gap to correct; Q3 2026 publication is the correction window
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence — ongoing; no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis — no movement this edition
+- Ingredion/Tate & Lyle takeover — shareholder vote, court sanction and antitrust clearance pending; completion expected H2 2027
+- New Forests GLO fund — launched June 15 targeting $707m; watch for named LPs or first close
+- Every/Huvepharma capacity expansion — agreed mid-June; watch for completion or further retail expansion
+- Nestlé/Helaina infant-nutrition partnership — watch for named product or market launch
+- Astral Systems first close — £23m first close; watch for round close or isotope production (early 2027)
+- Indonesia forestry-credit issuance — **6 JULY in 3 days;** Katingan prices already declining on anticipated supply; SRUK registry 9 July; covered as lead in Edition 26
+- European museum climate-resilience gap — watch for capital response from French culture ministry or EIB
+- Alan/Prosus Series G — regulatory approvals pending; watch for close confirmation
+- Lactalis/Nutri-Score CJEU referral — referred 25 June 2026; judgment expected 18 months to two years; watch for CJEU scheduling
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1243,6 +1287,7 @@ NGT-1/NGT-2 two-tier system — the EU's regulatory distinction between gene-edi
 | 25 | 29 Jun 2026 | France's Conseil d'État refers Lactalis's Nutri-Score challenge to the CJEU, putting the scheme's EU legal basis formally in doubt | Lactalis/Nutri-Score CJEU referral | Lactalis, Conseil d'État, CJEU | Use the referral's two legal questions as a diligence checklist for portfolio companies citing Nutri-Score grades; publish a public view distinguishing Nutri-Score's defensible science from its policy choices |
 | 26 | 30 Jun 2026 | Indonesia announces 30m+ CO2e REDD+ forestry credit issuance on 6 July; SRUK registry launches 9 July | Indonesia REDD+ issuance, SRUK registry, Louvre infrastructure crisis, UPSIDE/Believer Meats auction | Raja Juli Antoni, SRUK | Katingan/LP exposure check before 6 July; SRUK as jurisdiction-credibility screen for nature-finance deals |
 | 27 | 1 Jul 2026 | EU adopts New Genomic Techniques regulation — biggest EU food biotech deregulation in decades | EU NGT regulation (NGT-1/NGT-2 two-tier), Indonesia REDD+ (5 days out) | None new | At IFT FIRST, ask fermentation founders whether they model NGT-1 plant proteins as competition; map Calm/Storm pipeline against Biotech Act II tiers |
+| 28 | 3 Jul 2026 | EU Biotech Act I sandboxes exclude novel foods; Biotech Act II Q3 2026 is the correction window | EU Biotech Act I sandbox exclusion, GFI/EuropaBio joint statement, Indonesia REDD+ (3 days), Formo IFT FIRST (10 days) | None new | Map Calm/Storm pipeline against Biotech Act II sandbox inclusion before Q3 publication; Indonesia SRUK registry as day-one governance test |
 
 ---
-*Last updated: Edition 27 — 1 July 2026*
+*Last updated: Edition 28 — 3 July 2026*
