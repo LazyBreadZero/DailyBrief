@@ -1459,6 +1459,48 @@ None new this edition.
 
 ---
 
+## Edition 31 — Thursday, 3 July 2026
+
+**Lead:** OpenAI's device slips to February 2027 — the middleware layer is the only live part of the stack
+**Category:** Platforms
+**Core argument:** OpenAI's first-party consumer device is confirmed for February 2027 (five-month slip from the H2 2026 Davos commitment) and will not ship as "io" — a trademark dispute with iYo, a hearing-aid startup, retired the name before launch. Two form factors remain in development under Ive, Hankey, Tang Tan, and Meade: a wearable earbud and a pen device; Foxconn contracted for 40–50 million units. Of the three layers in the Edition 30 stacking thesis (Merge Labs at neural input, OS-agnostic AI-agent middleware in public beta, and first-party device), the device is last to ship by a wide margin. The middleware is live and cross-platform today. The incumbents are not racing to beat a Q4 2026 product; they are building positions at the middleware layer during a window that runs at minimum through February 2027. Samsung Galaxy XR ships in the UK July 8; Galaxy Glasses announced in London July 22; Android XR Catalyst notifications July 15.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** Device layer of OpenAI's three-layer stack confirmed for February 2027; middleware layer is the only live element of the stack today
+**Sources used:** 9to5Mac (9/10): https://9to5mac.com/2026/02/10/jony-ives-ai-hardware-is-delayed-to-2027-and-wont-be-called-io/ ; Axios (9/10): https://www.axios.com/2026/01/19/openai-device-2026-lehane-jony-ive ; OpenAI Primary (10/10): https://openai.com/sam-and-jony/ ; Samsung Newsroom (9/10): https://news.samsung.com/uk/samsung-galaxy-xr-arrives-in-the-uk
+**Follow-up threads to watch:** Galaxy Glasses specs and EU retail sequencing at Unpacked July 22; Android XR Catalyst notifications July 15; Science Corp CE mark (still no announcement); OpenAI device form-factor confirmation before February 2027
+
+### Further items (if any)
+**Science Corp CE mark.** No announcement this edition. Mid-2026 guidance window fully elapsed. Thirty-one consecutive editions without a decision.
+
+### New concepts in Angelo's working vocabulary
+None new this edition.
+
+### Provocation(s) posed this edition
+- The device layer of OpenAI's three-layer stack is February 2027 — at least 19 months away. The middleware is live and cross-platform today. Which of Samsung, Apple, and Snap is building the strongest position at the layer that is already shipping? And is that position one the incumbent actually owns, or one it routes through Google Gemini — which also powers Snap's Specs and is the infrastructure OpenAI's cross-platform middleware competes against? Platform control is not the same as first-mover presence.
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, 31 editions; mid-2026 window fully elapsed; no announcement
+- OpenAI device — **UPDATED (Ed 31):** confirmed February 2027 (five-month slip from H2 2026 Davos commitment); "io" name retired due to trademark dispute with iYo hearing-aid startup; two form factors: wearable earbud and pen device; Foxconn contracted, 40–50M units planned; middleware layer (AI-agent software, in public beta across Android XR/Apple/Snap) is the only live layer of the three-layer stack today
+- Android XR Catalyst Programme — notifications due 15 July; no update
+- Snap Specs — no update since Ed 18
+- XREAL AURA — fall 2026 US/UK/Canada/South Korea/Japan; Europe Wave 2 undated; no update
+- Synchron pivotal trial — trade sources indicate enrollment under way at US sites; no official press release; no update
+- Samsung Galaxy Glasses / Unpacked — Galaxy Unpacked July 22, London; Galaxy Glasses included; price $379–$499 (supply-chain estimate); EU retail sequencing still unknown; no update
+- Samsung Galaxy XR headset — UK ships July 8 (£1,699); Germany/France still undated; no update
+- BCI implant census (~150 people, Vansteensel) — no update
+- Neuracle STAR Market IPO — no update since filing
+- EU AI Act Digital Omnibus — Council adopted 29 June; Official Journal publication pending; no update
+- Connecticut neural-data privacy law — in effect 1 July 2026; no enforcement action reported; no update
+- Caltech decoder-dynamics finding — no commercial BCI company response yet; no update
+- Apple smart glasses engineering leadership — Paul Meade departed for OpenAI (Ed 30); no successor named; no update
+
+### Thinking Ledger update
+- **Sharpens "which layer wins" (Ed 20, 30):** The device layer of OpenAI's three-layer stack is confirmed for February 2027, making the middleware layer the only live, cross-platform element of the stack today. The incumbents are not racing against a 2026 OpenAI device — they are building middleware positions during a 7-month window. Whether Samsung, Apple, or Snap can establish a proprietary AI-agent integration that OpenAI's middleware cannot simply overlay is testable from what is publicly shipping. The specific test: does Samsung's Galaxy Glasses API reveal at Unpacked July 22 that it routes AI through Google Gemini (which OpenAI's middleware also competes against), or that it owns a distinct, defensible layer?
+- No change to other live questions.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1493,6 +1535,7 @@ None new this edition.
 - **The BCI five-axis structure may run on a sixth axis: decoder sophistication for sustained, naturalistic movement, separate from electrode/channel count.** (New, Ed 26.) Caltech's finding that slow, continuous movement requires ongoing external input rather than a single autonomous decode complicates any company's channel-count number as a stand-alone scaling claim — more channels do not by themselves solve the sustained-input problem.
 - **Regulatory scope and regulatory timeline move on independent clocks — confirmed, not just inferred.** (New, Ed 28; sharpens Ed 24.) The EU Omnibus is now law, and it confirms exactly the split Ed 24 noted: the enforcement deadline extends 16 months; what is inside Annex III does not change. A BCI software product already classified as high-risk today remains classified as high-risk tomorrow — it simply has until December 2027 to comply rather than August 2026. Worth applying to the next "regulatory readiness" claim from a European neurotech company: readiness against what classification, on what clock?
 - **OpenAI's three-layer stacking makes the OS/hardware-vs.-middleware binary obsolete.** (New, Ed 30.) The standing question from Edition 20 assumed "device layer vs. middleware layer" were competing answers to where smart glasses are won. OpenAI holds Merge Labs (BCI input), OS-agnostic middleware in public beta across Android XR/Apple/Snap, and the Ive/Meade device programme simultaneously. The question shifts from "which layer wins" to "which incumbent has already locked a layer OpenAI cannot easily acquire" — and which has not.
+- **OpenAI's device layer is confirmed for February 2027 — the middleware layer is the only live element of the three-layer stack.** (New, Ed 31.) The "which layer wins" question from Ed 20/30 assumed both layers were approaching on a similar timeline. The device is 7+ months away; the middleware is cross-platform and in public beta today. Whether the incumbents can build a proprietary AI-agent position before the device arrives — or whether OpenAI's middleware simply overlays whatever position they build — is now testable from what is publicly shipping in the July 8 and July 22 Samsung launches.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1546,6 +1589,7 @@ None new this edition.
 | 28 | 30 Jun 2026 | EU Council formally adopts AI Omnibus; Connecticut neural-data law takes effect tomorrow | EU Omnibus Council adoption, Connecticut neural-data law, Android XR Catalyst closes, XREAL AURA thread resolved | None new | Which jurisdiction builds neural-data audit capacity first — EU AI Office, state AG, or FDA |
 | 29 | 1 Jul 2026 | Samsung Galaxy Glasses confirmed for July 22 London Unpacked | Samsung Glasses confirmed (Engadget/Android Central), Android XR Catalyst notifications July 15, Connecticut law effective, Science Corp CE mark window elapsed | None new | Name one specific European decision-maker for hands-on at or after London Unpacked before Apple's fall announcement |
 | 30 | 2 Jul 2026 | OpenAI adds Apple's Vision Pro chief; three-layer hardware stacking thesis | Paul Meade → OpenAI; Samsung Galaxy XR UK ships 8 July | None new (Paul Meade as key person) | Which of Samsung/Apple/Snap is most exposed to OpenAI stacking vs. which has already won a layer; settle before 22 July Unpacked |
+| 31 | 3 Jul 2026 | OpenAI device confirmed February 2027; middleware is the only live stack layer | OpenAI form factors/delay/io rebrand; Samsung Galaxy XR UK July 8; Galaxy Glasses London July 22; Catalyst notifications July 15; Science Corp CE mark 31 editions | None new | Which incumbent is building at the middleware layer right now — and does it own that layer, or route it through Gemini? |
 
 ---
-*Last updated: Edition 30 — 2 July 2026*
+*Last updated: Edition 31 — 3 July 2026*
