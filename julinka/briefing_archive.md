@@ -1256,6 +1256,46 @@ Regulatory sandbox (EU Biotech Act I) — iterative, regulator-observed product-
 
 ---
 
+## EDITION 29 — Saturday, 4 July 2026
+
+### Lead Story
+**Title:** Indonesia Locks In the Credibility Architecture for Monday's 30-Million-Tonne REDD+ Issuance
+**Pillar:** Nature Finance
+**Core argument:** Indonesia formalised a Verra agreement and approved four specific forestry projects for international carbon trading ahead of the largest-ever REDD+ issuance (30m+ tonnes CO2e, 6 July). SRUK national registry is in trial operation before its 9 July launch. Singapore and Indonesia are advancing a bilateral carbon-credit partnership — the first Article 6-adjacent bilateral channel for Indonesian forestry credits. The credibility stack: Verra verification + sovereign registry + bilateral trade channel. First week of SRUK operation is the governance test; whether the spot price recovers on launch is the voluntary carbon market's verdict on sovereign registries.
+**Key entities introduced:** None new
+**Key concepts introduced:** None new beyond previous editions
+**Sources used:** Fastmarkets (8/10): https://www.fastmarkets.com/insights/carbon-market-updates-indonesia-verra-agreement-unlocks-redd-potential-amid-carbon-market-constraints/ ; ANTARA (10/10): https://en.antaranews.com/news/420397/indonesia-set-to-enter-new-phase-of-credible-carbon-market-minister ; Ecobiz Asia (7/10): https://ecobiz.asia/indonesia-approves-four-forestry-carbon-projects-for-international-carbon-trading/ ; Argus Media (9/10): https://www.argusmedia.com/en/news-and-insights/latest-market-news/2843501-indonesia-to-issue-over-30mn-t-forestry-credits-in-july ; Carbon Herald (7/10): https://carbonherald.com/indonesia-opens-carbon-registry-trials-as-july-launch-date-approaches/ ; Ecobiz Asia (7/10): https://ecobiz.asia/singapore-indonesia-move-closer-to-bilateral-carbon-credit-partnership/
+**Angle delivered:** Map Calm/Storm LP/portfolio exposure to Indonesian REDD+ before SRUK opens 9 July; track Singapore bilateral as Article 6 template for COP17 (Yerevan, October 19–30) diligence
+**Follow-up threads to watch:** July 6 issuance execution and spot-market pricing; SRUK first-week operation as governance credibility test; Singapore bilateral completion timeline; COP17 Yerevan (Oct 19–30)
+
+### Further items (if any)
+None
+
+### New concepts in Julinka's working vocabulary
+None new this edition
+
+### Running-thread tracker
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28, sale hearing July 30; no movement this edition
+- Formo IFT FIRST Chicago — July 13–16; 9 days out; no movement this edition
+- EU nature-credits technical criteria — still overdue against its mid-2026 mandate; no publication this edition
+- EU Biotech Act II — call for evidence closed June 10; Q3 2026 publication is correction window; GFI/EuropaBio joint statement: novel foods' exclusion from Biotech Act I sandboxes is the specific gap; no movement this edition
+- Yield Lab Europe Fund 2 — €25M EIF commitment toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence — ongoing; no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis — no movement this edition
+- Ingredion/Tate & Lyle takeover — court sanction and antitrust clearance pending; completion expected H2 2027
+- New Forests GLO fund — launched June 15 targeting $707m; watch for named LPs or first close
+- Every/Huvepharma capacity expansion — agreed mid-June; watch for completion or further retail expansion
+- Nestlé/Helaina infant-nutrition partnership — watch for named product or market launch
+- Astral Systems first close — £23m first close; watch for round close or isotope production (early 2027)
+- Indonesia forestry-credit issuance — **UPDATED (Ed 29):** Verra agreement formalised; four specific projects approved for international trading; SRUK in trial operation before 9 July launch; Singapore bilateral carbon-credit partnership advancing; **6 JULY issuance is TOMORROW**
+- European museum climate-resilience gap — watch for capital response from French culture ministry or EIB
+- Alan/Prosus Series G — regulatory approvals pending; watch for close confirmation
+- Lactalis/Nutri-Score CJEU referral — referred 25 June 2026; judgment expected 18 months to two years; watch for CJEU scheduling
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1288,6 +1328,7 @@ Regulatory sandbox (EU Biotech Act I) — iterative, regulator-observed product-
 | 26 | 30 Jun 2026 | Indonesia announces 30m+ CO2e REDD+ forestry credit issuance on 6 July; SRUK registry launches 9 July | Indonesia REDD+ issuance, SRUK registry, Louvre infrastructure crisis, UPSIDE/Believer Meats auction | Raja Juli Antoni, SRUK | Katingan/LP exposure check before 6 July; SRUK as jurisdiction-credibility screen for nature-finance deals |
 | 27 | 1 Jul 2026 | EU adopts New Genomic Techniques regulation — biggest EU food biotech deregulation in decades | EU NGT regulation (NGT-1/NGT-2 two-tier), Indonesia REDD+ (5 days out) | None new | At IFT FIRST, ask fermentation founders whether they model NGT-1 plant proteins as competition; map Calm/Storm pipeline against Biotech Act II tiers |
 | 28 | 3 Jul 2026 | EU Biotech Act I sandboxes exclude novel foods; Biotech Act II Q3 2026 is the correction window | EU Biotech Act I sandbox exclusion, GFI/EuropaBio joint statement, Indonesia REDD+ (3 days), Formo IFT FIRST (10 days) | None new | Map Calm/Storm pipeline against Biotech Act II sandbox inclusion before Q3 publication; Indonesia SRUK registry as day-one governance test |
+| 29 | 4 Jul 2026 | Indonesia finalises REDD+ credibility architecture: Verra agreement, four projects approved, SRUK trials, Singapore bilateral ahead of Monday's 30m+ tonne issuance | Indonesia-Verra agreement, four forestry projects approved for international trading, SRUK registry trial operation, Singapore-Indonesia bilateral carbon credit partnership | None new | Map Calm/Storm LP/portfolio exposure to Indonesian REDD+ before SRUK opens 9 July; track Singapore bilateral as Article 6 template for COP17 diligence |
 
 ---
 *Last updated: Edition 28 — 3 July 2026*
