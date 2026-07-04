@@ -1501,6 +1501,48 @@ None new this edition.
 
 ---
 
+## Edition 32 — Saturday, 4 July 2026
+
+**Lead:** Samsung's Glasses Manager App Reveals a Four-Device System — Three Weeks Before Unpacked
+**Category:** Platforms & Product
+**Core argument:** A leaked Galaxy Glasses Manager companion app (circulated 30 June–1 July) confirms the device's full ecosystem architecture 18 days before its July 22 London Unpacked reveal. Galaxy Ring provides gesture input (code strings confirm start/stop functions via finger detection); Galaxy Watch hosts a dedicated Glasses Controller app; Galaxy Phone supplies compute. The four-device binding is Samsung's proprietary layer. Gemini AI runs across the top and is shared with Snap Specs and Google's own hardware. Samsung's answer to the middleware question is hardware-ecosystem lock, not AI-layer ownership.
+**Key companies introduced:** None new (Warby Parker noted as Galaxy Glasses frame design partner)
+**Key people introduced:** None new
+**Key concepts introduced:** Hardware-ecosystem lock — four-device binding (Ring → input, Watch → controller, Phone → compute, Glasses → output) as Samsung's proprietary layer; alternative to competing at the AI-agent middleware layer
+**Sources used:** Android Central (8/10): https://www.androidcentral.com/wearables/samsungs-galaxy-glasses-may-work-with-your-watch-and-ring-in-surprising-ways ; Tom's Guide (8/10): https://www.tomsguide.com/computing/smart-glasses/major-leak-reveals-samsung-galaxy-glasses-controls-pairing-modes-and-how-they-might-work-with-smart-watches-and-rings ; Android Headlines (7/10): https://www.androidheadlines.com/2026/06/samsung-galaxy-glasses-companion-app-leak.html ; Sammy Fans (7/10): https://www.sammyfans.com/2026/06/30/samsung-galaxy-glasses-app-leak/
+**Follow-up threads to watch:** Samsung Galaxy Unpacked July 22 — Galaxy Glasses formal specs and four-device API details on record; EU retail sequencing announcement; Samsung's stated account of target buyer overlap across four-device ecosystem
+
+### Further items (if any)
+**Science Corp CE mark:** no announcement; 32 editions since submission; mid-2026 guidance window fully elapsed.
+
+### New concepts in Angelo's working vocabulary
+**Hardware-ecosystem lock** — the four-device binding architecture (Galaxy Ring → gesture input; Galaxy Watch → wrist controller; Galaxy Phone → compute; Galaxy Glasses → output) as a proprietary layer owned by Samsung independently of whichever AI middleware layer runs across it.
+
+### Provocation(s) posed this edition
+- What fraction of the Samsung buyer who pays $400 for Tier 1 AI-camera glasses also owns a Galaxy Ring, a Galaxy Watch, and a recent Galaxy Phone? That is the actual market size of the hardware-lock strategy. If the intersection is small, the Galaxy Glasses ship as a premium Gemini speaker — into a market Meta entered at $299 six weeks ago. Settle the sizing estimate before 22 July.
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, **32 editions**; mid-2026 window fully elapsed; no announcement
+- OpenAI device — confirmed February 2027; two form factors (earbud + pen device); Foxconn contracted 40–50M units; middleware layer live cross-platform; no update since Ed 31
+- Android XR Catalyst Programme — notifications due 15 July; applications closed 30 June; no update
+- Snap Specs — no update since Ed 18
+- XREAL AURA — fall 2026 US/UK/Canada/South Korea/Japan; Europe Wave 2 undated; no update
+- Synchron pivotal trial — enrollment under way at US sites; no official press release; no update
+- Samsung Galaxy Glasses / Unpacked — **MOVED (Ed 32):** Galaxy Glasses Manager companion app leaked (30 June–1 July); confirms Galaxy Ring gesture control integration, Galaxy Watch Glasses Controller app, One UI XR branding, four-device ecosystem binding; camera on left frame, dual LED indicators, touch-sensitive right temple; ~50g; Gemini AI; $379–$499 (supply-chain estimate); Warby Parker frame design partnership; formal reveal July 22 London Unpacked
+- Samsung Galaxy XR headset — UK ships 8 July (£1,699); Germany/France still undated; no update
+- BCI implant census (~150 people, Vansteensel) — no update
+- Neuracle STAR Market IPO — no update since filing
+- EU AI Act Digital Omnibus — Council adopted 29 June; Official Journal publication pending; no update
+- Connecticut neural-data privacy law — in effect 1 July 2026; no enforcement action reported; no update
+- Caltech decoder-dynamics finding — no commercial BCI company response yet; no update
+- Apple smart glasses engineering leadership — Paul Meade departed for OpenAI (Ed 30); no successor named; no update
+
+### Thinking Ledger update
+- **Sharpens "which layer wins" (Ed 20, 30, 31):** The Samsung Galaxy Glasses Manager app leak answers the specific test set last edition. Samsung routes Gemini AI through Google — the AI-agent layer is not proprietary to Samsung. Samsung's answer to the middleware question is hardware-ecosystem binding: Galaxy Ring as gesture input, Galaxy Watch as wrist controller, Galaxy Phone as compute, Galaxy Glasses as output. The contest is now three-way rather than two-layer: AI middleware (cross-platform, owned by Google/OpenAI), OS/device hardware (owned by Samsung/Apple/Snap), or hardware ecosystem (Samsung's four-device binding, unique to Samsung's stack). The constraint on Samsung's answer is buyer overlap — the strategy works elegantly only for users who own all four Samsung devices. If that intersection is smaller than projected, Galaxy Glasses launch into Meta's $299 market at a premium Samsung cannot defend on AI features alone.
+- No change to other open questions.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1536,6 +1578,7 @@ None new this edition.
 - **Regulatory scope and regulatory timeline move on independent clocks — confirmed, not just inferred.** (New, Ed 28; sharpens Ed 24.) The EU Omnibus is now law, and it confirms exactly the split Ed 24 noted: the enforcement deadline extends 16 months; what is inside Annex III does not change. A BCI software product already classified as high-risk today remains classified as high-risk tomorrow — it simply has until December 2027 to comply rather than August 2026. Worth applying to the next "regulatory readiness" claim from a European neurotech company: readiness against what classification, on what clock?
 - **OpenAI's three-layer stacking makes the OS/hardware-vs.-middleware binary obsolete.** (New, Ed 30.) The standing question from Edition 20 assumed "device layer vs. middleware layer" were competing answers to where smart glasses are won. OpenAI holds Merge Labs (BCI input), OS-agnostic middleware in public beta across Android XR/Apple/Snap, and the Ive/Meade device programme simultaneously. The question shifts from "which layer wins" to "which incumbent has already locked a layer OpenAI cannot easily acquire" — and which has not.
 - **OpenAI's device layer is confirmed for February 2027 — the middleware layer is the only live element of the three-layer stack.** (New, Ed 31.) The "which layer wins" question from Ed 20/30 assumed both layers were approaching on a similar timeline. The device is 7+ months away; the middleware is cross-platform and in public beta today. Whether the incumbents can build a proprietary AI-agent position before the device arrives — or whether OpenAI's middleware simply overlays whatever position they build — is now testable from what is publicly shipping in the July 8 and July 22 Samsung launches.
+- **Samsung's Galaxy Glasses architecture reveals hardware-ecosystem binding as a third architecture in the platform contest.** (New, Ed 32.) Samsung routes Gemini AI through Google — the AI-agent middleware is not proprietary. Samsung's proprietary layer is the four-device binding: Galaxy Ring (gesture input), Galaxy Watch (wrist controller), Galaxy Phone (compute), Galaxy Glasses (output). The contest is now three-way rather than two-layer: AI middleware (cross-platform, owned by Google/OpenAI), OS/device hardware (owned by Samsung/Apple/Snap), and hardware ecosystem (Samsung's four-device binding, unique to the Galaxy stack). The constraint: hardware-ecosystem lock requires buyer ownership of all four Samsung devices — the market size of the strategy is bounded by that intersection.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1590,6 +1633,7 @@ None new this edition.
 | 29 | 1 Jul 2026 | Samsung Galaxy Glasses confirmed for July 22 London Unpacked | Samsung Glasses confirmed (Engadget/Android Central), Android XR Catalyst notifications July 15, Connecticut law effective, Science Corp CE mark window elapsed | None new | Name one specific European decision-maker for hands-on at or after London Unpacked before Apple's fall announcement |
 | 30 | 2 Jul 2026 | OpenAI adds Apple's Vision Pro chief; three-layer hardware stacking thesis | Paul Meade → OpenAI; Samsung Galaxy XR UK ships 8 July | None new (Paul Meade as key person) | Which of Samsung/Apple/Snap is most exposed to OpenAI stacking vs. which has already won a layer; settle before 22 July Unpacked |
 | 31 | 3 Jul 2026 | OpenAI device confirmed February 2027; middleware is the only live stack layer | OpenAI form factors/delay/io rebrand; Samsung Galaxy XR UK July 8; Galaxy Glasses London July 22; Catalyst notifications July 15; Science Corp CE mark 31 editions | None new | Which incumbent is building at the middleware layer right now — and does it own that layer, or route it through Gemini? |
+| 32 | 4 Jul 2026 | Samsung Galaxy Glasses Manager app reveals four-device ecosystem binding (Ring/Watch/Phone/Glasses), three weeks before Unpacked | Samsung Galaxy Glasses companion app leak, four-device system, Galaxy Ring gesture control, Galaxy Watch controller app, Science Corp CE mark 32 editions | None new | What fraction of the $400 Tier 1 buyer also owns a Galaxy Ring, Galaxy Watch, and flagship Galaxy Phone — that is the market size of Samsung's hardware-lock strategy |
 
 ---
-*Last updated: Edition 31 — 3 July 2026*
+*Last updated: Edition 32 — 4 July 2026*
