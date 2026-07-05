@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Sunday, 5 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .further-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .further-item { margin-bottom: 18px; padding-left: 16px; border-left: 2px solid #E7B43A; }
+  .further-item p { margin-bottom: 0; font-size: 15.5px; line-height: 1.65; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .radar-block { margin-top: 36px; border-top: 1px solid #E5DAC4; padding-top: 22px; }
+  .radar-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .radar-item { font-family: 'DM Sans', sans-serif; font-size: 14px; line-height: 1.6; color: #4A4036; margin-bottom: 8px; }
+  .radar-item:last-child { margin-bottom: 0; }
+  .radar-date { font-weight: 600; color: #1F1B16; }
+  .footer { padding: 32px 52px 0; border-top: 1px solid #E5DAC4; font-family: 'DM Sans', sans-serif; font-size: 11px; color: #928775; text-align: center; letter-spacing: 0.4px; margin-top: 36px; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Sunday, 5 July 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 30</span>
+    <span class="dateline-right">Food Science &middot; Nature Finance</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Food Science</div>
+    <h1 class="lead-headline">Formo&rsquo;s Precision-Fermented Casein Enters Active FDA Review; US Commercial Debut Is in Eight Days</h1>
+
+    <p>Formo, the Berlin-based precision fermentation company, has confirmed that its recombinant casein &mdash; co-developed with Belgian biotech Those Vegan Cowboys &mdash; is now under active FDA GRAS review, making it the first precision-fermented casein to reach this stage in the United States. The company expects a no-objection letter later in 2026. Formo has simultaneously launched a US subsidiary, Formo Foods Inc., appointed Rx Food Ingredients LLC as its US sales and go-to-market partner, and is already sampling with US food and nutrition customers ahead of a commercial debut at IFT FIRST in Chicago on 13&ndash;16 July.
+    <a href="https://vegconomist.com/ingredients/formos-precision-fermented-casein-enters-active-fda-gras-review/" target="_blank" class="source-badge badge-green">Vegconomist 8/10</a>
+    <a href="https://www.greenqueen.com.hk/formo-foods-precision-fermentation-casein-dairy-protein-self-gras-cheese/" target="_blank" class="source-badge badge-amber">Green Queen 7/10</a></p>
+
+    <p>Casein is where precision fermentation faces its hardest functional test in dairy. It is the dominant structural protein in cheese: its micelle behaviour governs texture, melt, and stretch in ways that plant-protein alternatives have consistently failed to replicate at commercial quality. Formo&rsquo;s recombinant casein is genetically identical to bovine casein but produced in microbial hosts without livestock. The FDA GRAS self-determination pathway allows Formo to file its own safety dossier; active review status means FDA has taken it up rather than leaving it in queue. If no-objection is issued, the company can commercialise in the US without waiting for formal agency approval &mdash; a materially faster route than European competitors face under the EU novel-food regulation, which the first Biotech Act of December 2025 explicitly left out of its new regulatory sandbox.
+    <a href="https://www.foodingredientsfirst.com/news/eu-biotech-act-novel-foods-sandboxes.html" target="_blank" class="source-badge badge-green">Food Ingredients First 8/10</a></p>
+
+    <p>IFT FIRST is the US food industry&rsquo;s largest annual trade event. Formo&rsquo;s decision to debut its casein applications there &mdash; rather than at a European venue &mdash; is deliberate: the US is its first commercial market, and the IFT FIRST audience (food scientists, ingredient buyers, R&amp;D leads at major manufacturers) is precisely the customer base for functional dairy-protein supply. The company already holds &euro;35 million in EIB debt financing for production expansion. The casein pipeline opens applications across hard cheese analogues, processed cheese formats, and high-protein nutrition &mdash; categories where functional parity with bovine casein, at competitive cost, has been the missing link.
+    <a href="https://www.eib.org/en/press/all/2025-008-eib-provides-eur35-million-to-formo-to-expand-production-of-cheese-alternatives-free-from-animal-products" target="_blank" class="source-badge badge-green">EIB 10/10</a></p>
+
+    <hr class="divider"/>
+    <div class="further-label">Further reporting</div>
+
+    <div class="further-item">
+      <p><strong>Indonesia&rsquo;s 30-million-tonne REDD+ tranche issues tomorrow.</strong> Indonesia will release more than 30 million tonnes of CO<sub>2</sub>e in forestry credits on 6 July &mdash; the country&rsquo;s largest-ever REDD+ issuance &mdash; with the Verra agreement and four internationally-approved projects in place and the national Carbon Unit Registry System (SRUK) launching on 9 July. Forestry minister Raja Juli Antoni confirmed the timeline at London Climate Action Week. Katingan Mentaya spot prices have declined on anticipated supply volume; the first week of SRUK operations will set the reference price for sovereign-registry REDD+ credits for the rest of 2026.
+      <a href="https://www.argusmedia.com/en/news-and-insights/latest-market-news/2843606-indonesia-to-issue-30mn-t-redd-credits-in-july-update" target="_blank" class="source-badge badge-green">Argus Media 9/10</a>
+      <a href="https://www.qcintel.com/carbon/article/indonesia-to-issue-30-million-forest-carbon-credits-on-6-july-67484.html" target="_blank" class="source-badge badge-green">QC Intel 8/10</a></p>
+    </div>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <span class="angle-num">1</span>
+        <span class="angle-move-text">Formo will be at IFT FIRST Chicago in eight days demonstrating prototype applications of its casein across cheese and nutrition categories. This is the first public commercial showing of precision-fermented casein in the US, and Rx Food Ingredients LLC is handling US customer conversations now. Request a meeting with the Formo team before July 13 &mdash; either through Rx Food Ingredients or directly via Formo&rsquo;s LinkedIn &mdash; to see which application categories are commercially ready versus still in development. If Calm/Storm is building a thesis on precision fermentation as a scalable dairy-protein platform, this is the moment to put a number on the functional gap the casein closes and who would buy it first.</span>
+      </div>
+      <div class="angle-move">
+        <span class="angle-num">2</span>
+        <span class="angle-move-text">Monday&rsquo;s Indonesia REDD+ issuance is the first real-world test of whether a sovereign national registry (SRUK) adds credibility premium to voluntary carbon prices or exposes political concentration risk. Watch the Katingan Mentaya price movement through 9 July. If prices recover on issuance, that is the market pricing sovereign governance as additive. If they continue to slide, the 30-million-tonne volume is simply overwhelming demand at current quality expectations. Either outcome tells you something concrete about where nature-credit buyers are placing their trust threshold &mdash; directly relevant to any LP conversation Calm/Storm is having on biodiversity finance.</span>
+      </div>
+    </div>
+
+    <div class="radar-block">
+      <div class="radar-label">On the Radar</div>
+      <div class="radar-item"><span class="radar-date">6 July</span> &mdash; Indonesia 30M-tonne REDD+ issuance; largest-ever sovereign forestry credit release.</div>
+      <div class="radar-item"><span class="radar-date">9 July</span> &mdash; SRUK public launch; Indonesia&rsquo;s national carbon registry goes live.</div>
+      <div class="radar-item"><span class="radar-date">13&ndash;16 July</span> &mdash; IFT FIRST, Chicago; Formo commercial debut for US precision-fermented casein.</div>
+      <div class="radar-item"><span class="radar-date">20 July</span> &mdash; Competing bids deadline in UPSIDE Foods&rsquo; $50M stalking-horse bid for Believer Meats&rsquo; Wilson, NC facility; auction 28 July.</div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <strong style="color:#1F1B16;">APPETITE</strong> &middot; Edition 30 &middot; Sunday, 5 July 2026<br/>
+    A personal briefing for Julinka Naomi Waesche &middot; Venture &middot; Food &middot; Art &middot; Nature
+  </div>
+</div>
+</body>
+</html>

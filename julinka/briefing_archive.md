@@ -1296,6 +1296,47 @@ None new this edition
 
 ---
 
+## EDITION 30 — Sunday, 5 July 2026
+
+### Lead Story
+**Title:** Formo's Precision-Fermented Casein Enters Active FDA Review; US Commercial Debut Is in Eight Days
+**Pillar:** Food Science
+**Core argument:** Formo's recombinant casein (co-developed with Those Vegan Cowboys) is now under active FDA GRAS review — the first precision-fermented casein to reach this stage in the US. A no-objection letter is expected later in 2026. Formo has launched Formo Foods Inc. (US subsidiary), appointed Rx Food Ingredients LLC as US sales partner, and will debut at IFT FIRST Chicago July 13–16. The FDA GRAS self-determination pathway is materially faster than the EU novel-food route, which Biotech Act I explicitly excluded from its regulatory sandbox.
+**Key entities introduced:** Formo Foods Inc. (US subsidiary of Formo); Rx Food Ingredients LLC (US sales and go-to-market partner); Those Vegan Cowboys (Belgian biotech, casein co-developer)
+**Key concepts introduced:** FDA GRAS self-determination — company files its own safety dossier; active review means FDA has accepted it; no-objection letter permits commercialisation without formal approval; faster than EU novel-food regulation
+**Sources used:** Vegconomist (8/10): https://vegconomist.com/ingredients/formos-precision-fermented-casein-enters-active-fda-gras-review/ ; Green Queen (7/10): https://www.greenqueen.com.hk/formo-foods-precision-fermentation-casein-dairy-protein-self-gras-cheese/ ; Food Ingredients First (8/10): https://www.foodingredientsfirst.com/news/eu-biotech-act-novel-foods-sandboxes.html ; EIB (10/10): https://www.eib.org/en/press/all/2025-008-eib-provides-eur35-million-to-formo-to-expand-production-of-cheese-alternatives-free-from-animal-products
+**Angle delivered:** Request a Formo/Rx Food Ingredients meeting before July 13 to see which casein application categories are commercially ready; track Indonesia SRUK opening price movement as sovereign-registry governance test
+**Follow-up threads to watch:** Formo no-objection letter (later 2026); IFT FIRST July 13–16 commercial debut outcome; EU Biotech Act II — whether novel foods are included in Q3 2026 publication
+
+### Further items
+**Indonesia REDD+ issuance (Nature Finance, 6 July):** 30M+ tonne forestry credit issuance confirmed for 6 July at London Climate Action Week by forestry minister Raja Juli Antoni; SRUK launches July 9. Katingan Mentaya spot prices declining on anticipated supply volume. First week of SRUK operation will set the reference price for sovereign-registry REDD+ credits for the rest of 2026. Argus Media (9/10): https://www.argusmedia.com/en/news-and-insights/latest-market-news/2843606-indonesia-to-issue-30mn-t-redd-credits-in-july-update ; QC Intel (8/10): https://www.qcintel.com/carbon/article/indonesia-to-issue-30-million-forest-carbon-credits-on-6-july-67484.html
+
+### New concepts in Julinka's working vocabulary
+- **FDA GRAS self-determination** — a company files its own safety dossier with the FDA; active review status means FDA has taken it up; no-objection letter (if issued) permits commercialisation without waiting for formal agency approval; contrast with EU novel-food authorisation, which requires a Commission decision
+- **Regulatory sequencing divergence** — the US FDA GRAS pathway now opens a materially faster commercial route for precision-fermented proteins than the EU, where novel foods remain outside the Biotech Act I regulatory sandbox
+
+### Running-thread tracker
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28, sale hearing July 30; no movement this edition
+- **Formo IFT FIRST Chicago — MOVED (Ed 30):** FDA GRAS active review confirmed; US subsidiary (Formo Foods Inc.) and sales partner (Rx Food Ingredients LLC) named; IFT FIRST commercial debut July 13–16; watch for casein application categories demonstrated and any named customer pilots
+- EU nature-credits technical criteria — still overdue against mid-2026 mandate; no publication this edition
+- EU Biotech Act II — Q3 2026 publication; novel-food sandbox exclusion from Biotech Act I confirmed; GFI/EuropaBio: sandbox exclusion is the specific gap; watch Q3 publication for inclusion or continued exclusion
+- Yield Lab Europe Fund 2 — €25M EIF toward €100M target; no movement this edition
+- Astanor cross-portfolio diligence — ongoing; no movement this edition
+- IUCN NL outreach — pending response
+- Calm/Storm Berlin/Copenhagen expansion — ongoing
+- Louvre infrastructure/funding crisis — no movement this edition
+- Ingredion/Tate & Lyle takeover — court sanction and antitrust clearance pending; completion H2 2027
+- New Forests GLO fund — launched June 15 targeting $707m; watch for named LPs or first close
+- Every/Huvepharma capacity expansion — agreed mid-June; watch for completion or further retail expansion
+- Nestlé/Helaina infant-nutrition partnership — watch for named product or market launch
+- Astral Systems first close — £23m; watch for round close or isotope production (early 2027)
+- **Indonesia forestry-credit issuance — MOVED (Ed 30):** Minister confirms July 6 date at London Climate Action Week; Katingan Mentaya prices declining on supply volume; SRUK launching July 9; watch first-week price movement as sovereign-registry governance test
+- European museum climate-resilience gap — no movement this edition
+- Alan/Prosus Series G — regulatory approvals pending; watch for close confirmation
+- Lactalis/Nutri-Score CJEU referral — referred 25 June 2026; judgment 18 months to two years; watch for CJEU scheduling
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1329,6 +1370,7 @@ None new this edition
 | 27 | 1 Jul 2026 | EU adopts New Genomic Techniques regulation — biggest EU food biotech deregulation in decades | EU NGT regulation (NGT-1/NGT-2 two-tier), Indonesia REDD+ (5 days out) | None new | At IFT FIRST, ask fermentation founders whether they model NGT-1 plant proteins as competition; map Calm/Storm pipeline against Biotech Act II tiers |
 | 28 | 3 Jul 2026 | EU Biotech Act I sandboxes exclude novel foods; Biotech Act II Q3 2026 is the correction window | EU Biotech Act I sandbox exclusion, GFI/EuropaBio joint statement, Indonesia REDD+ (3 days), Formo IFT FIRST (10 days) | None new | Map Calm/Storm pipeline against Biotech Act II sandbox inclusion before Q3 publication; Indonesia SRUK registry as day-one governance test |
 | 29 | 4 Jul 2026 | Indonesia finalises REDD+ credibility architecture: Verra agreement, four projects approved, SRUK trials, Singapore bilateral ahead of Monday's 30m+ tonne issuance | Indonesia-Verra agreement, four forestry projects approved for international trading, SRUK registry trial operation, Singapore-Indonesia bilateral carbon credit partnership | None new | Map Calm/Storm LP/portfolio exposure to Indonesian REDD+ before SRUK opens 9 July; track Singapore bilateral as Article 6 template for COP17 diligence |
+| 30 | 5 Jul 2026 | Formo's precision-fermented casein enters active FDA GRAS review; US commercial debut IFT FIRST July 13–16 | Indonesia REDD+ issuance confirmed for 6 July; SRUK July 9; Katingan Mentaya prices declining | Formo Foods Inc., Rx Food Ingredients LLC, Those Vegan Cowboys | Request Formo/Rx Food Ingredients meeting before July 13; track Indonesia SRUK first-week price as sovereign-registry governance test |
 
 ---
-*Last updated: Edition 28 — 3 July 2026*
+*Last updated: Edition 30 — 5 July 2026*
