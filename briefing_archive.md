@@ -1543,6 +1543,50 @@ None new this edition.
 
 ---
 
+## Edition 33 — Sunday, 5 July 2026
+
+### Lead Story
+**Title:** A Speech Implant Ran at Home for 3,800 Hours Without a Researcher in the Room
+**Category:** Science & Research
+**Core argument:** A Nature Medicine study (UC Davis/Brown/MGH) documents Casey Harrell, 47, with ALS, operating a BrainGate2 intracortical BCI independently at home for 3,800+ hours over nearly two years — 183,000+ sentences, 56 wpm, near-daily, without researcher involvement. The decoder required no daily recalibration. First peer-reviewed proof that an intracortical speech BCI functions as a durable personal device, not a lab protocol. Shifts the commercial question from patient capability to deployment infrastructure: who provides the support layer when the researcher steps back?
+**Key companies introduced:** None new
+**Key people introduced:** Casey Harrell (BrainGate2 participant, ALS; 47); David Brandman (UC Davis, lead investigator — note dual role: also leads Paradromics Connexus commercial trial, as introduced Ed 19)
+**Key concepts introduced:** Decoder stability (trained decoder requires no daily recalibration; patient manages via tablet); deployment infrastructure (commercial support model that replaces researcher involvement at scale)
+**Sources used:** Nature Medicine (10/10): https://www.nature.com/articles/s41591-026-04414-6 ; UC Davis Health (9/10): https://health.ucdavis.edu/news/headlines/brain-computer-interface-enables-independent-accurate-communication-for-man-living-with-als/2026/06
+**Follow-up threads to watch:** How Synchron, Neuralink, and Science Corp each answer the commercial support model question in public statements; any BrainGate2 enrollment update; first commercial deployment that names a support model
+
+### Further items
+**Meta Brain2Qwerty v2** (Science & Research, 1 July): Non-invasive neural-decoding system, 61% word accuracy versus ~8% for comparable non-invasive methods, trained on MEG signals. $2M scanner, non-portable. Open-source code published. Too imprecise for daily use today; signals Meta's long-term bet that non-invasive accuracy can eventually make implant-based BCIs a narrower clinical proposition. Road to VR (8/10): https://roadtovr.com/meta-brain-ai-telepathy-improved-bci/
+
+### New concepts in Angelo's working vocabulary
+- **Decoder stability** — a trained intracortical decoder that requires no daily recalibration and can be managed by the patient independently; the property that made Harrell's 3,800-hour home use possible
+- **Deployment infrastructure** — the commercial support model replacing the research team in a post-trial BCI device: who handles first-line support, who maintains the firmware, who manages decoder drift
+
+### Provocation(s) posed this edition
+- The BrainGate2 result settles patient capability — a speech BCI can run at home for years without a scientist — and makes the commercial support question unavoidable. Harrell's device still required "periodic software updates" from the research team. Write one paragraph — before your next piece on BCI deployment — on what first-line commercial BCI support looks like in year two: who does the user call, what are they authorised to adjust, and which of Neuralink, Synchron, or Science Corp has actually answered that question in public.
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, **33 editions**; mid-2026 window fully elapsed; no announcement
+- OpenAI device — confirmed February 2027; two form factors (earbud + pen); Foxconn 40–50M units; middleware live cross-platform; no update
+- Android XR Catalyst Programme — notifications due 15 July; applications closed 30 June; no update
+- Snap Specs — no update since Ed 18; ~$4.74 stock, 12-month low
+- XREAL AURA — fall 2026 US/UK/Canada/South Korea/Japan; Europe Wave 2 undated; no update
+- Synchron pivotal trial — enrollment under way at US sites; no official press release; no update
+- Samsung Galaxy Glasses / Unpacked — July 22 London; $379–$499 (supply-chain); Gentle Monster design, Warby Parker frame; Gemini AI; four-device ecosystem binding confirmed (Ed 32); no new update
+- Samsung Galaxy XR headset — UK ships 8 July (£1,699); Germany/France undated; no update
+- BCI implant census (~150 people, Vansteensel) — no update
+- Neuracle STAR Market IPO — no update since filing
+- EU AI Act Digital Omnibus — Council adopted 29 June; Official Journal pending; no update
+- Connecticut neural-data privacy law — in effect 1 July 2026; no enforcement action; no update
+- Caltech decoder-dynamics finding — no commercial BCI company response yet; no update
+- Apple smart glasses engineering leadership — Paul Meade at OpenAI; no successor named; no update
+
+### Thinking Ledger update
+- **Extends "independent daily use" benchmark (Ed 16) with peer-reviewed confirmation:** The UC Davis BrainGate2 ALS result, first introduced in Ed 16 from a press release context, is now published in Nature Medicine at full peer-review quality. 3,800+ hours, 183,000+ sentences, 56 wpm, near-daily, no researcher involvement. The benchmark is now primary literature, not a conference-circuit claim. Decoder stability (no daily recalibration) is the enabling property identified by the paper. The remaining unresolved question shifts from capability to commercial support infrastructure.
+- **New sub-question on BCI five-axis structure (carries into open questions):** Who provides the commercial support layer when a BCI device leaves the university? BrainGate2 used periodic remote software updates from the research team — not a commercial model. Neuralink's answer is an app platform; Synchron's is hospital partnership; Science Corp's PRIMA is ophthalmic-device retail. None has been tested at scale. This is the next testable question after capability.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1579,6 +1623,7 @@ None new this edition.
 - **OpenAI's three-layer stacking makes the OS/hardware-vs.-middleware binary obsolete.** (New, Ed 30.) The standing question from Edition 20 assumed "device layer vs. middleware layer" were competing answers to where smart glasses are won. OpenAI holds Merge Labs (BCI input), OS-agnostic middleware in public beta across Android XR/Apple/Snap, and the Ive/Meade device programme simultaneously. The question shifts from "which layer wins" to "which incumbent has already locked a layer OpenAI cannot easily acquire" — and which has not.
 - **OpenAI's device layer is confirmed for February 2027 — the middleware layer is the only live element of the three-layer stack.** (New, Ed 31.) The "which layer wins" question from Ed 20/30 assumed both layers were approaching on a similar timeline. The device is 7+ months away; the middleware is cross-platform and in public beta today. Whether the incumbents can build a proprietary AI-agent position before the device arrives — or whether OpenAI's middleware simply overlays whatever position they build — is now testable from what is publicly shipping in the July 8 and July 22 Samsung launches.
 - **Samsung's Galaxy Glasses architecture reveals hardware-ecosystem binding as a third architecture in the platform contest.** (New, Ed 32.) Samsung routes Gemini AI through Google — the AI-agent middleware is not proprietary. Samsung's proprietary layer is the four-device binding: Galaxy Ring (gesture input), Galaxy Watch (wrist controller), Galaxy Phone (compute), Galaxy Glasses (output). The contest is now three-way rather than two-layer: AI middleware (cross-platform, owned by Google/OpenAI), OS/device hardware (owned by Samsung/Apple/Snap), and hardware ecosystem (Samsung's four-device binding, unique to the Galaxy stack). The constraint: hardware-ecosystem lock requires buyer ownership of all four Samsung devices — the market size of the strategy is bounded by that intersection.
+- **The BrainGate2 Nature Medicine publication confirms patient capability and opens the commercial support question.** (New, Ed 33.) The UC Davis/Brown/MGH result is now published in full peer-reviewed form: 3,800+ hours, 183,000+ sentences, 56 wpm, near-daily, without researcher involvement, decoder requiring no daily recalibration. "Independent daily use" is no longer a press-release claim — it is primary literature. The remaining commercial question is not capability but infrastructure: who handles first-line support when a BCI device leaves the university, who maintains the firmware between approved updates, and who manages decoder drift over time? Neuralink, Synchron, and Science Corp have each named an architectural answer; none has been tested at scale.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1634,6 +1679,7 @@ None new this edition.
 | 30 | 2 Jul 2026 | OpenAI adds Apple's Vision Pro chief; three-layer hardware stacking thesis | Paul Meade → OpenAI; Samsung Galaxy XR UK ships 8 July | None new (Paul Meade as key person) | Which of Samsung/Apple/Snap is most exposed to OpenAI stacking vs. which has already won a layer; settle before 22 July Unpacked |
 | 31 | 3 Jul 2026 | OpenAI device confirmed February 2027; middleware is the only live stack layer | OpenAI form factors/delay/io rebrand; Samsung Galaxy XR UK July 8; Galaxy Glasses London July 22; Catalyst notifications July 15; Science Corp CE mark 31 editions | None new | Which incumbent is building at the middleware layer right now — and does it own that layer, or route it through Gemini? |
 | 32 | 4 Jul 2026 | Samsung Galaxy Glasses Manager app reveals four-device ecosystem binding (Ring/Watch/Phone/Glasses), three weeks before Unpacked | Samsung Galaxy Glasses companion app leak, four-device system, Galaxy Ring gesture control, Galaxy Watch controller app, Science Corp CE mark 32 editions | None new | What fraction of the $400 Tier 1 buyer also owns a Galaxy Ring, Galaxy Watch, and flagship Galaxy Phone — that is the market size of Samsung's hardware-lock strategy |
+| 33 | 5 Jul 2026 | BrainGate2 Nature Medicine — Casey Harrell 3,800h independent home BCI use; 183,000 sentences; 56 wpm; no researcher | Meta Brain2Qwerty v2 (non-invasive, 61% word accuracy, open-source, MEG) | None new (Casey Harrell as participant) | Write one paragraph on commercial BCI first-line support — who does the user call, what can they adjust, which company has answered it — before next deployment piece |
 
 ---
-*Last updated: Edition 32 — 4 July 2026*
+*Last updated: Edition 33 — 5 July 2026*
