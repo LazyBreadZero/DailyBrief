@@ -1337,6 +1337,43 @@ None new this edition
 
 ---
 
+## Edition 31 — Monday, 6 July 2026
+
+### Lead Story
+**Title:** Indonesia Issues 30 Million Tonnes of REDD+ Forestry Credits — the Largest Sovereign Forestry Issuance on Record
+**Pillar:** Nature
+**Core argument:** Indonesia issued 30M+ tonnes of CO2e in forestry credits on 6 July at London Climate Action Week — the largest single sovereign forestry credit issuance on record. Four projects (Katingan Mentaya, Sumatera Merang, Mayas, Bujang Raba) approved for international trading, underpinned by the Indonesia-Verra agreement. SRUK national registry launches 9 July; the first week of SRUK trading will set the governance credibility test: whether sovereign-registry registration trades at parity with Verra certification or at a discount.
+**Key entities introduced:** None new (Raja Juli Antoni, Katingan Mentaya, SRUK already tracked)
+**Key concepts introduced:** None new
+**Sources used:** Argus Media (9/10): https://www.argusmedia.com/en/news-and-insights/latest-market-news/2843606-indonesia-to-issue-30mn-t-redd-credits-in-july-update ; Ecobiz Asia (9/10): https://ecobiz.asia/indonesia-to-issue-largest-ever-forestry-carbon-credits-as-carbon-market-enters-implementation-phase/ ; Ecobiz Asia London Climate Action Week (9/10): https://ecobiz.asia/indonesia-promotes-innovative-conservation-finance-at-london-climate-action-week-2026/
+**Angle delivered:** Track the Katingan spot price vs. SRUK reference price through 9 July; the spread is the institutional governance premium/discount number for LP conversations.
+**Follow-up threads to watch:** SRUK first-week price movement; Katingan Verra-registered vs. SRUK-registered spread; institutional buyer flow pattern
+
+### Further items
+None this edition.
+
+### New concepts in Julinka's working vocabulary
+None new this edition.
+
+### Running-thread tracker
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28, sale hearing July 30; no movement this edition
+- Formo IFT FIRST Chicago — July 13–16; FDA GRAS active review confirmed; no new movement
+- EU nature-credits technical criteria — still overdue against mid-2026 mandate; no publication
+- EU Biotech Act II — Q3 2026 publication; no update
+- Yield Lab Europe Fund 2 — €25M EIF toward €100M target; no movement
+- Ingredion/Tate & Lyle takeover — court sanction and antitrust clearance pending; completion H2 2027
+- New Forests GLO fund — targeting $707m; watch for named LPs or first close
+- Every/Huvepharma capacity expansion — agreed mid-June; watch for completion
+- Nestlé/Helaina infant-nutrition partnership — watch for named product or market launch
+- Astral Systems first close — £23m; watch for isotope production (early 2027)
+- **Indonesia forestry-credit issuance — MOVED (Ed 31):** 30M+ tonne issuance executed 6 July; SRUK launches 9 July; watch first-week Katingan spot price vs. SRUK reference price as governance credibility test
+- Alan/Prosus Series G — regulatory approvals pending; watch for close confirmation
+- Lactalis/Nutri-Score CJEU referral — referred 25 June 2026; judgment 18 months to two years; watch for CJEU scheduling
+- Louvre infrastructure/funding crisis — no movement
+- Singapore-Indonesia bilateral carbon credit partnership — advancing; watch for Article 6 formalisation
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1371,6 +1408,7 @@ None new this edition
 | 28 | 3 Jul 2026 | EU Biotech Act I sandboxes exclude novel foods; Biotech Act II Q3 2026 is the correction window | EU Biotech Act I sandbox exclusion, GFI/EuropaBio joint statement, Indonesia REDD+ (3 days), Formo IFT FIRST (10 days) | None new | Map Calm/Storm pipeline against Biotech Act II sandbox inclusion before Q3 publication; Indonesia SRUK registry as day-one governance test |
 | 29 | 4 Jul 2026 | Indonesia finalises REDD+ credibility architecture: Verra agreement, four projects approved, SRUK trials, Singapore bilateral ahead of Monday's 30m+ tonne issuance | Indonesia-Verra agreement, four forestry projects approved for international trading, SRUK registry trial operation, Singapore-Indonesia bilateral carbon credit partnership | None new | Map Calm/Storm LP/portfolio exposure to Indonesian REDD+ before SRUK opens 9 July; track Singapore bilateral as Article 6 template for COP17 diligence |
 | 30 | 5 Jul 2026 | Formo's precision-fermented casein enters active FDA GRAS review; US commercial debut IFT FIRST July 13–16 | Indonesia REDD+ issuance confirmed for 6 July; SRUK July 9; Katingan Mentaya prices declining | Formo Foods Inc., Rx Food Ingredients LLC, Those Vegan Cowboys | Request Formo/Rx Food Ingredients meeting before July 13; track Indonesia SRUK first-week price as sovereign-registry governance test |
+| 31 | 6 Jul 2026 | Indonesia 30M+ tonne REDD+ issuance; SRUK launches 9 July | — | None new | Track Katingan spot vs. SRUK reference price through 9 July as governance credibility number |
 
 ---
-*Last updated: Edition 30 — 5 July 2026*
+*Last updated: Edition 31 — 6 July 2026*
