@@ -1587,6 +1587,48 @@ None new this edition.
 
 ---
 
+## Edition 34 — Monday, 6 July 2026
+
+### Lead Story
+**Title:** Samsung's Galaxy XR Headset Ships to the UK on Tuesday, Enterprise-Ready
+**Category:** Platforms & Product
+**Core argument:** Samsung begins UK fulfilment of Galaxy XR on 8 July at £1,699 — with Android Enterprise management, Samsung Knox security, zero-touch enrollment, and a five-year update commitment added in April, before the UK market opened. The enterprise software arrived on a separate schedule from launch reviews, signalling Samsung has already revised its Galaxy XR commercial target toward enterprise rather than consumer. Germany and France remain undated; UK-first-EU-undated sequencing now holds across three separate 2026 XR product lines.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** Zero-touch enrollment (enterprise XR device-management: IT deploys Galaxy XR headsets at scale without per-device configuration)
+**Sources used:** Samsung Newsroom UK (10/10): https://news.samsung.com/uk/samsung-galaxy-xr-arrives-in-the-uk ; Samsung Newsroom Global (10/10): https://news.samsung.com/global/samsung-galaxy-xr-evolves-work-in-the-ai-era-with-new-enterprise-capabilities-and-everyday-features
+**Follow-up threads to watch:** Galaxy Glasses reveal and pricing at Unpacked July 22; Android XR Catalyst notifications July 15 (developer ecosystem depth); Germany/France release dates
+
+### Further items
+**Android XR Catalyst notifications (Platforms & Product, 15 July):** Developer applicants to the Catalyst Programme (closed 30 June) will hear on 15 July which projects received Android XR hardware and access. First public read on developer ecosystem depth behind fall 2026 Android XR hardware. A wide, diverse selection indicates real developer commitment; a narrow one leaves autumn launches carrying thin software at exactly the moment launch reviews get written.
+
+### New concepts in Angelo's working vocabulary
+- **Zero-touch enrollment** — enterprise device-management capability allowing an IT department to deploy XR headsets at scale without per-device configuration; Samsung's inclusion of this in the Galaxy XR enterprise update signals corporate IT as the primary deployment context
+
+### Provocation(s) posed this edition
+- Samsung added Knox, zero-touch enrollment, and a five-year update promise before UK launch — evidence it already revised who the Galaxy XR is for. Before the Galaxy Glasses Unpacked on 22 July, which European enterprise buyer — a CIO, an IT director, a healthcare or manufacturing or training technology lead — is the conversation Angelo has not yet had?
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, **34 editions**; mid-2026 window fully elapsed; no announcement
+- OpenAI device — confirmed February 2027; two form factors; io rebrand; middleware cross-platform in public beta; no update
+- Android XR Catalyst Programme — notifications due 15 July; applications closed 30 June; no update
+- Snap Specs — ~$2,195; stock at 12-month low; no update since Ed 18
+- XREAL AURA — fall 2026 Wave 1 (US/UK/Canada/South Korea/Japan); Europe Wave 2 undated; no update
+- Synchron pivotal trial — enrollment under way at US sites; no official press release; no update
+- Samsung Galaxy Glasses / Unpacked — 22 July London; $379–$499 supply-chain estimate; Gentle Monster design; Gemini AI; four-device ecosystem binding confirmed; no update
+- Samsung Galaxy XR headset — **MOVED (Ed 34):** UK fulfilment begins 8 July at £1,699; Android Enterprise, Samsung Knox, zero-touch enrollment, five-year update commitment confirmed; Germany/France still undated
+- BCI implant census (~150 people, Vansteensel) — no update
+- Neuracle STAR Market IPO — no update since filing
+- EU AI Act Digital Omnibus — Council adopted 29 June; no update
+- Connecticut neural-data privacy law — in effect 1 July 2026; no enforcement action; no update
+- Caltech decoder-dynamics finding — no commercial BCI company response yet; no update
+- Apple smart glasses engineering leadership — Paul Meade at OpenAI; no successor named; no update
+
+### Thinking Ledger update
+- **Samsung Galaxy XR enterprise sequencing adds a data point on bifurcated XR commercial strategy (new, Ed 34):** Samsung pushed Knox, zero-touch enrollment, and a five-year update promise before the UK market opened — on a separate schedule, not in response to any UK or EU buyer feedback. If the Galaxy XR headset's primary commercial target is enterprise IT, then the Galaxy Glasses (consumer fashion, four-device binding, ~$400 target) represents a bifurcated commercial strategy inside Samsung's own XR line. The "hardware ecosystem binding" position from Ed 32 assumed the four-device stack as Samsung's single answer; it may apply differently across enterprise and consumer sub-markets. The Android XR Catalyst notifications on 15 July will add the first developer-ecosystem data point.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1624,6 +1666,7 @@ None new this edition.
 - **OpenAI's device layer is confirmed for February 2027 — the middleware layer is the only live element of the three-layer stack.** (New, Ed 31.) The "which layer wins" question from Ed 20/30 assumed both layers were approaching on a similar timeline. The device is 7+ months away; the middleware is cross-platform and in public beta today. Whether the incumbents can build a proprietary AI-agent position before the device arrives — or whether OpenAI's middleware simply overlays whatever position they build — is now testable from what is publicly shipping in the July 8 and July 22 Samsung launches.
 - **Samsung's Galaxy Glasses architecture reveals hardware-ecosystem binding as a third architecture in the platform contest.** (New, Ed 32.) Samsung routes Gemini AI through Google — the AI-agent middleware is not proprietary. Samsung's proprietary layer is the four-device binding: Galaxy Ring (gesture input), Galaxy Watch (wrist controller), Galaxy Phone (compute), Galaxy Glasses (output). The contest is now three-way rather than two-layer: AI middleware (cross-platform, owned by Google/OpenAI), OS/device hardware (owned by Samsung/Apple/Snap), and hardware ecosystem (Samsung's four-device binding, unique to the Galaxy stack). The constraint: hardware-ecosystem lock requires buyer ownership of all four Samsung devices — the market size of the strategy is bounded by that intersection.
 - **The BrainGate2 Nature Medicine publication confirms patient capability and opens the commercial support question.** (New, Ed 33.) The UC Davis/Brown/MGH result is now published in full peer-reviewed form: 3,800+ hours, 183,000+ sentences, 56 wpm, near-daily, without researcher involvement, decoder requiring no daily recalibration. "Independent daily use" is no longer a press-release claim — it is primary literature. The remaining commercial question is not capability but infrastructure: who handles first-line support when a BCI device leaves the university, who maintains the firmware between approved updates, and who manages decoder drift over time? Neuralink, Synchron, and Science Corp have each named an architectural answer; none has been tested at scale.
+- **Samsung's Galaxy XR enterprise update signals a bifurcated commercial strategy within Samsung's own XR line.** (New, Ed 34.) Knox, zero-touch enrollment, and a five-year update commitment arrived before the UK market opened — on a separate schedule, not in response to US launch reviews. If the Galaxy XR headset's primary commercial target is enterprise IT, the Galaxy Glasses (consumer fashion, four-device binding, ~$400 target) represents a different commercial bet within the same company's 2026 XR line. The "hardware ecosystem binding" position from Ed 32 assumed the four-device stack as Samsung's single answer to the platform question; it may need a consumer vs. enterprise axis added.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1680,6 +1723,7 @@ None new this edition.
 | 31 | 3 Jul 2026 | OpenAI device confirmed February 2027; middleware is the only live stack layer | OpenAI form factors/delay/io rebrand; Samsung Galaxy XR UK July 8; Galaxy Glasses London July 22; Catalyst notifications July 15; Science Corp CE mark 31 editions | None new | Which incumbent is building at the middleware layer right now — and does it own that layer, or route it through Gemini? |
 | 32 | 4 Jul 2026 | Samsung Galaxy Glasses Manager app reveals four-device ecosystem binding (Ring/Watch/Phone/Glasses), three weeks before Unpacked | Samsung Galaxy Glasses companion app leak, four-device system, Galaxy Ring gesture control, Galaxy Watch controller app, Science Corp CE mark 32 editions | None new | What fraction of the $400 Tier 1 buyer also owns a Galaxy Ring, Galaxy Watch, and flagship Galaxy Phone — that is the market size of Samsung's hardware-lock strategy |
 | 33 | 5 Jul 2026 | BrainGate2 Nature Medicine — Casey Harrell 3,800h independent home BCI use; 183,000 sentences; 56 wpm; no researcher | Meta Brain2Qwerty v2 (non-invasive, 61% word accuracy, open-source, MEG) | None new (Casey Harrell as participant) | Write one paragraph on commercial BCI first-line support — who does the user call, what can they adjust, which company has answered it — before next deployment piece |
+| 34 | 6 Jul 2026 | Samsung Galaxy XR UK launch — enterprise-ready (Knox, zero-touch enrollment, 5-year updates); Germany/France undated | Android XR Catalyst notifications July 15 | None new | Which European enterprise buyer — CIO, IT director, healthcare/training/manufacturing lead — is the key conversation before Galaxy Glasses Unpacked July 22 |
 
 ---
-*Last updated: Edition 33 — 5 July 2026*
+*Last updated: Edition 34 — 6 July 2026*
