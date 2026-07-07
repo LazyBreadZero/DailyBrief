@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Tuesday, 7 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .further-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .further-item { padding-left: 16px; border-left: 2px solid #E7B43A; margin-bottom: 22px; }
+  .further-item p { font-size: 16px; line-height: 1.65; margin-bottom: 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .radar-block { margin-top: 36px; border-top: 1px solid #E5DAC4; padding-top: 22px; }
+  .radar-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .radar-item { font-family: 'DM Sans', sans-serif; font-size: 14px; line-height: 1.6; color: #4A4036; margin-bottom: 8px; }
+  .radar-item:last-child { margin-bottom: 0; }
+  .radar-date { font-weight: 600; color: #1F1B16; }
+  .footer { padding: 32px 52px 0; border-top: 1px solid #E5DAC4; font-family: 'DM Sans', sans-serif; font-size: 11px; color: #928775; text-align: center; letter-spacing: 0.4px; margin-top: 36px; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Tuesday, 7 July 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 32</span>
+    <span class="dateline-right">Nature Finance &middot; Art</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Nature Finance</div>
+    <h1 class="lead-headline">Finland Publishes Voluntary Nature Credit Criteria and a State Registrar — the First EU Member to Build the Architecture Brussels Has Not Yet Defined</h1>
+
+    <p>Finland&rsquo;s government has published a framework for voluntary biodiversity markets, making it the first EU member state to establish state-set criteria, a verification system, and a national registry for voluntary nature credits, ahead of the EU&rsquo;s own expert group completing its technical standards. Prime Minister Petteri Orpo&rsquo;s government is backing multiple financial instruments for biodiversity, with the Ministry of Environment setting the architecture: what counts as a credible nature unit, how it is verified, and where it is registered.
+    <a href="https://valtioneuvosto.fi/en/-/1410903/framework-created-for-voluntary-nature-values-market-cooperation-started-to-boost-their-development" target="_blank" class="source-badge badge-green">Finnish Government 10/10</a>
+    <a href="https://ym.fi/en/front-page" target="_blank" class="source-badge badge-green">Ministry of Environment 10/10</a></p>
+
+    <p>The governance model is the decision worth studying. Where most voluntary carbon and nature credit schemes delegate criteria and registry functions to third-party bodies &mdash; Verra, Gold Standard, IUCN-affiliated pilots &mdash; Finland places the state in both roles simultaneously: criteria-setter and registrar. The Ministry of Environment has prepared the criteria; the national registry sits with government rather than a private standard-body. Three EU-aligned design lineages are now visible in practice: the Finnish model (state as criteria-setter and registrar), IUCN pilot projects in Croatia, the Netherlands, and Poland (third-party body sets standards, with national co-governance), and Green Assist-type approaches in France, Estonia, and Peru (private standard, no state registration). Finland&rsquo;s is the only one where both functions sit inside government.</p>
+
+    <p>That distinction maps directly onto the governance credibility question that the voluntary carbon market has spent two years failing to resolve. When Indonesia&rsquo;s SRUK registry opens on 9 July, the market will price whether sovereign-registry registration trades at parity with Verra certification or at a discount. Finland&rsquo;s architecture is a different answer to the same question: rather than running a sovereign registry alongside a third-party standard, it replaces the third-party standard with the state. The comparison across all three EU lineages &mdash; and the SRUK data starting this week &mdash; is the clearest read available on what institutional buyers actually charge for governance architecture, as opposed to underlying ecological quality.
+    <a href="https://www.environmentenergyleader.com/stories/finland-launches-voluntary-biodiversity-market-to-drive-private-sector-nature-investments,55516" target="_blank" class="source-badge badge-amber">E+E Leader 7/10</a></p>
+
+    <hr class="divider"/>
+    <div class="further-label">Further</div>
+
+    <div class="further-item">
+      <p><strong>London Old Masters clear $102 million &mdash; and the new buyers are from tech.</strong> Christie&rsquo;s and Sotheby&rsquo;s brought in approximately $102 million across their London Old Masters evening sales, up roughly 10 percent on the prior year. Sotheby&rsquo;s reported around 20 percent of buyers were new to the auction house and nearly a quarter of lots were purchased by collectors new to the category altogether. &ldquo;There&rsquo;s a new breed of collectors from a zeroes-and-ones background that want to focus on the classics,&rdquo; one art advisor told Artnet News. The mechanism behind NFT-era collector attrition has inverted: the same capital that was presumed lost to digital assets is surfacing in the highest-provenance, hardest-to-replicate end of the physical art market.
+      <a href="https://news.artnet.com/market/new-money-old-masters-2786051" target="_blank" class="source-badge badge-green">Artnet News 9/10</a>
+      <a href="https://www.artnews.com/art-news/market/london-sothebys-christies-old-masters-sales-1234791036/" target="_blank" class="source-badge badge-green">ARTnews 8/10</a></p>
+    </div>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <span class="angle-num">1</span>
+        <span class="angle-move-text">Use Finland&rsquo;s architecture as a Calm/Storm diligence skeleton. When a company or fund claims a nature credit is credible, ask which of the three EU design lineages the underlying scheme uses: state as criteria-setter and registrar (Finland), third-party body with national co-governance (IUCN pilots), or private standard with no state registration (Green Assist type). That classification maps onto governance risk as precisely as a Verra project rating maps onto carbon-accounting risk. The Finland framework is public; the criteria are the checklist. Pull one and apply it to the next biodiversity claim that crosses Calm/Storm&rsquo;s deal flow this month.</span>
+      </div>
+      <div class="angle-move">
+        <span class="angle-num">2</span>
+        <span class="angle-move-text">The Old Masters data point is a scarcity-and-provenance signal worth filing. Tech collectors, having exited NFTs, are entering the highest-provenance, hardest-to-replicate corner of the physical art market. The same mechanism applies to verified natural assets: governance architecture that is hard to replicate &mdash; state-backed, criteria-set, nationally registered &mdash; commands a premium over schemes any private body can issue. Finland&rsquo;s model is that premium in nature finance. Watch whether SRUK-registered credits trade at a discount to Verra this week; if they do, that discount measures exactly what &ldquo;governance architecture&rdquo; is worth numerically to institutional buyers &mdash; a figure directly usable in an LP conversation on biodiversity.</span>
+      </div>
+    </div>
+
+    <div class="radar-block">
+      <div class="radar-label">On the Radar</div>
+      <div class="radar-item"><span class="radar-date">9 July</span> &mdash; SRUK public launch; Indonesia&rsquo;s national carbon registry begins live operations. First read on whether sovereign-registry credits trade at parity with Verra.</div>
+      <div class="radar-item"><span class="radar-date">13&ndash;16 July</span> &mdash; IFT FIRST, Chicago; Formo commercial debut for US precision-fermented casein.</div>
+      <div class="radar-item"><span class="radar-date">20 July</span> &mdash; Competing bids deadline in UPSIDE Foods&rsquo; $50M stalking-horse bid for Believer Meats&rsquo; Wilson, NC facility; auction 28 July.</div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <strong style="color:#1F1B16;">APPETITE</strong> &middot; Edition 32 &middot; Tuesday, 7 July 2026<br/>
+    A personal briefing for Julinka Naomi Waesche &middot; Venture &middot; Food &middot; Art &middot; Nature
+  </div>
+</div>
+</body>
+</html>

@@ -1358,7 +1358,7 @@ None new this edition.
 ### Running-thread tracker
 - UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28, sale hearing July 30; no movement this edition
 - Formo IFT FIRST Chicago — July 13–16; FDA GRAS active review confirmed; no new movement
-- EU nature-credits technical criteria — still overdue against mid-2026 mandate; no publication
+- **EU nature-credits technical criteria — UPDATED (Ed 32):** Finland published state-backed voluntary nature credits framework ahead of EU expert group; EU criteria still overdue against mid-2026 mandate. Three EU design lineages now identified: Finland (state as criteria-setter and registrar), IUCN pilots (Croatia/Netherlands/Poland), Green Assist-type (France/Estonia/Peru). Watch EU expert group publication and whether Finland's model influences EU-level standards.
 - EU Biotech Act II — Q3 2026 publication; no update
 - Yield Lab Europe Fund 2 — €25M EIF toward €100M target; no movement
 - Ingredion/Tate & Lyle takeover — court sanction and antitrust clearance pending; completion H2 2027
@@ -1366,11 +1366,54 @@ None new this edition.
 - Every/Huvepharma capacity expansion — agreed mid-June; watch for completion
 - Nestlé/Helaina infant-nutrition partnership — watch for named product or market launch
 - Astral Systems first close — £23m; watch for isotope production (early 2027)
-- **Indonesia forestry-credit issuance — MOVED (Ed 31):** 30M+ tonne issuance executed 6 July; SRUK launches 9 July; watch first-week Katingan spot price vs. SRUK reference price as governance credibility test
+- **Indonesia SRUK — launches 9 July:** 30M+ tonne REDD+ issuance executed 6 July; SRUK national registry opens 9 July; watch first-week Katingan spot price vs. SRUK reference price as governance credibility number
 - Alan/Prosus Series G — regulatory approvals pending; watch for close confirmation
 - Lactalis/Nutri-Score CJEU referral — referred 25 June 2026; judgment 18 months to two years; watch for CJEU scheduling
 - Louvre infrastructure/funding crisis — no movement
 - Singapore-Indonesia bilateral carbon credit partnership — advancing; watch for Article 6 formalisation
+
+---
+
+## Edition 32 — Tuesday, 7 July 2026
+
+### Lead Story
+**Title:** Finland Publishes Voluntary Nature Credit Criteria and a State Registrar — the First EU Member to Build the Architecture Brussels Has Not Yet Defined
+**Pillar:** Nature Finance × Policy
+**Core argument:** Finland's government published a framework for voluntary biodiversity markets, becoming the first EU member state to set state criteria, a verification system, and a national registry for voluntary nature credits — ahead of the EU expert group publishing its own technical standards. The Ministry of Environment holds both functions (criteria-setter and registrar). Three EU design lineages now visible: Finland model (state as criteria-setter and registrar), IUCN pilots (Croatia/Netherlands/Poland, third-party with national co-governance), Green Assist-type (France/Estonia/Peru, private standard, no state registration).
+**Key entities introduced:** Finnish Ministry of Environment (criteria-setter and registrar), Prime Minister Petteri Orpo's government (backer)
+**Key concepts introduced:** State-as-criteria-setter-and-registrar model; three EU voluntary nature credit design lineages
+**Sources used:** Finnish Government (10/10): https://valtioneuvosto.fi/en/-/1410903/framework-created-for-voluntary-nature-values-market-cooperation-started-to-boost-their-development ; Ministry of Environment (10/10): https://ym.fi/en/front-page ; E+E Leader (7/10): https://www.environmentenergyleader.com/stories/finland-launches-voluntary-biodiversity-market-to-drive-private-sector-nature-investments,55516
+**Angle delivered:** Use Finland's three-lineage taxonomy as Calm/Storm biodiversity-claim diligence skeleton; link SRUK-vs-Verra first-week spread (from Ed 31 angle) to governance-architecture premium number.
+**Follow-up threads to watch:** EU expert group technical criteria publication; adoption of Finnish framework by other EU member states; SRUK first-week results (9 July) as proxy for governance-architecture premium
+
+### Further items
+**Title:** London Old Masters clear $102 million, up ~10% year-on-year; new buyers entering from tech
+**Pillar:** Art
+**Core argument:** Christie's and Sotheby's London Old Masters evening sales totaled ~$102M, up ~10% year-on-year. Sotheby's: ~20% of buyers new to the auction house, ~25% of lots sold to collectors new to the category. Art advisors cite tech/zeroes-and-ones background buyers entering Old Masters. NFT-era capital has reappeared at the highest-provenance, hardest-to-replicate end of the physical art market.
+**Sources used:** Artnet News (9/10): https://news.artnet.com/market/new-money-old-masters-2786051 ; ARTnews (8/10): https://www.artnews.com/art-news/market/london-sothebys-christies-old-masters-sales-1234791036/
+**Follow-up thread:** Whether this buyer cohort persists into the autumn Old Masters season
+
+### New concepts in Julinka's working vocabulary
+- State-as-criteria-setter-and-registrar model (vs. third-party-only or hybrid)
+- Three EU voluntary nature credit design lineages: Finland / IUCN pilots / Green Assist-type
+- Tech-collector entry into Old Masters (scarcity-and-provenance premium signal)
+
+### Running-thread tracker
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28; no movement
+- Formo IFT FIRST Chicago — July 13–16; no new movement
+- EU nature-credits technical criteria — see update above; Finland framework now published; EU criteria still overdue
+- EU Biotech Act II — Q3 2026 publication; no update
+- Yield Lab Europe Fund 2 — €25M EIF toward €100M target; no movement
+- Ingredion/Tate & Lyle takeover — court sanction and antitrust clearance pending; no movement
+- New Forests GLO fund — targeting $707m; no movement
+- Every/Huvepharma capacity expansion — no movement
+- Nestlé/Helaina infant-nutrition partnership — no movement
+- Astral Systems first close — £23m; no movement
+- Indonesia SRUK — launches 9 July; watch Katingan spot vs. SRUK reference price
+- Alan/Prosus Series G — regulatory approvals pending; no movement
+- Lactalis/Nutri-Score CJEU referral — no movement
+- Louvre infrastructure/funding crisis — no movement
+- Singapore-Indonesia bilateral carbon credit partnership — no movement
 
 ---
 
@@ -1409,6 +1452,7 @@ None new this edition.
 | 29 | 4 Jul 2026 | Indonesia finalises REDD+ credibility architecture: Verra agreement, four projects approved, SRUK trials, Singapore bilateral ahead of Monday's 30m+ tonne issuance | Indonesia-Verra agreement, four forestry projects approved for international trading, SRUK registry trial operation, Singapore-Indonesia bilateral carbon credit partnership | None new | Map Calm/Storm LP/portfolio exposure to Indonesian REDD+ before SRUK opens 9 July; track Singapore bilateral as Article 6 template for COP17 diligence |
 | 30 | 5 Jul 2026 | Formo's precision-fermented casein enters active FDA GRAS review; US commercial debut IFT FIRST July 13–16 | Indonesia REDD+ issuance confirmed for 6 July; SRUK July 9; Katingan Mentaya prices declining | Formo Foods Inc., Rx Food Ingredients LLC, Those Vegan Cowboys | Request Formo/Rx Food Ingredients meeting before July 13; track Indonesia SRUK first-week price as sovereign-registry governance test |
 | 31 | 6 Jul 2026 | Indonesia 30M+ tonne REDD+ issuance; SRUK launches 9 July | — | None new | Track Katingan spot vs. SRUK reference price through 9 July as governance credibility number |
+| 32 | 7 Jul 2026 | Finland state-backed voluntary nature credits framework (state criteria + national registrar); London Old Masters $102M — tech buyers entering | Finnish Government, Ministry of Environment, Artnet News, ARTnews | Finnish Ministry of Environment (as governance authority); three-lineage EU taxonomy | Use Finland's three-lineage taxonomy for Calm/Storm biodiversity diligence; track SRUK-vs-Verra spread from 9 July as governance-architecture premium number |
 
 ---
-*Last updated: Edition 31 — 6 July 2026*
+*Last updated: Edition 32 — 7 July 2026*
