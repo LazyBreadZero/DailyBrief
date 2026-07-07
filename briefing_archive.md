@@ -1629,6 +1629,47 @@ None new this edition.
 
 ---
 
+## Edition 35 — Tuesday, 7 July 2026
+
+### Lead Story
+**Title:** Galaxy Glasses Use the Same Chip as Meta Ray-Ban — Before 22 July, That Is the Most Honest Signal About What Samsung Is Building
+**Category:** Platforms & Product
+
+**Core argument:** Samsung Galaxy Glasses confirmed on Snapdragon AR1 — the same purpose-built, display-free chip as Meta Ray-Ban. AR1 integrates Kryo CPU, Hexagon AI processor, and dual ISPs for 12MP capture; it is not a spatial-display chip. Galaxy Glasses run Gemini via companion-device architecture offloading all substantial compute to a paired Galaxy Phone; the frame handles audio I/O, camera, and on-chip inference only. Price: $379–$499. Weight: ~50g. The AR1 choice positions Galaxy Glasses as a Meta Ray-Ban competitor, not a spatial extension of the Galaxy XR headset. XREAL Aura ($1,500 ceiling, 70° FOV, Snapdragon Reality Elite compute puck, under 95g, fall 2026; Founder Passes sold out in 36 hours; Best Buy confirmed as first US in-store retail partner) completes the three-tier Android XR hardware stack: audio frame (~$400) / display glasses ($1,500) / spatial headset (£1,699). All three sold under the same "Android XR" platform label.
+
+**Key concepts introduced:** Companion-device architecture (AR1 frame offloads compute to paired phone); Snapdragon AR1 as positioning proxy (chip choice reveals category intent before marketing does)
+
+**Sources:** TechTimes 7/10, Dymesty 7/10, VR.org 8/10, Road to VR 9/10
+
+**Angle:** Before July 22 Unpacked, name Gemini's differentiation in a display-free, audio-only frame that Meta AI doesn't already do — and check whether that claim is in Samsung's published spec sheet or will only be promised from a stage.
+
+### Further items
+- Android XR Catalyst notifications, 15 July — first public read on developer-ecosystem depth behind fall 2026 hardware launches
+
+### New concepts in Angelo's working vocabulary
+- Companion-device architecture (AR1 frame offloads all substantial compute to paired Galaxy Phone)
+- Snapdragon AR1 as positioning proxy: same chip as Meta Ray-Ban reveals category intent before product marketing admits it
+
+### Provocation
+Name Gemini's differentiation in a display-free, audio-only frame that Meta AI doesn't already do — and verify whether that claim is in Samsung's published spec sheet before 22 July Unpacked.
+
+### Running-thread tracker (key updates)
+- **XREAL AURA:** UPDATED — $1,500 price ceiling confirmed; Founder Passes sold out in 36 hours; Best Buy confirmed as first US in-store retail partner; fall 2026 ship date
+- **Samsung Galaxy Glasses:** UPDATED — Snapdragon AR1 chip confirmed; companion-device architecture confirmed; ~50g; 12MP camera; Gemini via paired Galaxy Phone; $379–$499; formal reveal July 22 Unpacked, London
+- **Android XR Catalyst Programme:** no change — notifications still July 15
+- **Samsung Galaxy XR:** no change — UK fulfilment July 8 (covered Ed 34)
+- Science Corp CE mark: 35 editions outstanding; no update
+- Neuracle STAR Market IPO: no update since filing
+- EU AI Act Digital Omnibus: no update
+- Connecticut neural-data privacy law: in effect 1 July 2026; no enforcement action; no update
+- Caltech decoder-dynamics: no update
+- Apple smart glasses (Paul Meade/OpenAI): no update
+
+### Thinking Ledger update
+- **AR1 chip confirms audio glasses contest is platform-not-silicon (new, Ed 35):** Samsung and Meta have chosen the same Snapdragon AR1. The chip cannot differentiate them. The audio-glasses race resolves at the software (Gemini vs. Meta AI), distribution (Samsung retail vs. EssilorLuxottica), and hardware-ecosystem binding (Samsung's four-device stack requires all four Samsung devices) layers. "Android XR" is now one platform label across three architecturally distinct products: Galaxy XR (XR2+ Gen 2, full spatial, enterprise), Galaxy Glasses (AR1, audio-only, consumer), and XREAL Aura (display AR, prosumer). The platform is one label on three different bets in three different markets.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1667,6 +1708,7 @@ None new this edition.
 - **Samsung's Galaxy Glasses architecture reveals hardware-ecosystem binding as a third architecture in the platform contest.** (New, Ed 32.) Samsung routes Gemini AI through Google — the AI-agent middleware is not proprietary. Samsung's proprietary layer is the four-device binding: Galaxy Ring (gesture input), Galaxy Watch (wrist controller), Galaxy Phone (compute), Galaxy Glasses (output). The contest is now three-way rather than two-layer: AI middleware (cross-platform, owned by Google/OpenAI), OS/device hardware (owned by Samsung/Apple/Snap), and hardware ecosystem (Samsung's four-device binding, unique to the Galaxy stack). The constraint: hardware-ecosystem lock requires buyer ownership of all four Samsung devices — the market size of the strategy is bounded by that intersection.
 - **The BrainGate2 Nature Medicine publication confirms patient capability and opens the commercial support question.** (New, Ed 33.) The UC Davis/Brown/MGH result is now published in full peer-reviewed form: 3,800+ hours, 183,000+ sentences, 56 wpm, near-daily, without researcher involvement, decoder requiring no daily recalibration. "Independent daily use" is no longer a press-release claim — it is primary literature. The remaining commercial question is not capability but infrastructure: who handles first-line support when a BCI device leaves the university, who maintains the firmware between approved updates, and who manages decoder drift over time? Neuralink, Synchron, and Science Corp have each named an architectural answer; none has been tested at scale.
 - **Samsung's Galaxy XR enterprise update signals a bifurcated commercial strategy within Samsung's own XR line.** (New, Ed 34.) Knox, zero-touch enrollment, and a five-year update commitment arrived before the UK market opened — on a separate schedule, not in response to US launch reviews. If the Galaxy XR headset's primary commercial target is enterprise IT, the Galaxy Glasses (consumer fashion, four-device binding, ~$400 target) represents a different commercial bet within the same company's 2026 XR line. The "hardware ecosystem binding" position from Ed 32 assumed the four-device stack as Samsung's single answer to the platform question; it may need a consumer vs. enterprise axis added.
+- **Galaxy Glasses' AR1 chip confirms the audio glasses market is platform-not-silicon.** (New, Ed 35.) Samsung and Meta chose the same Snapdragon AR1; the chip cannot differentiate them. Differentiation in the audio-glasses race is software (Gemini vs. Meta AI), distribution (Samsung retail vs. EssilorLuxottica), and hardware-ecosystem binding (Samsung's four-device stack, bounded by the intersection of buyers who own all four). "Android XR" now covers three architecturally distinct products — Galaxy XR (spatial), XREAL Aura (display AR), Galaxy Glasses (audio-only) — under one platform label. The constraint from Ed 32 holds: the four-device binding strategy's market size is bounded by buyers who own all four Samsung devices.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1724,6 +1766,7 @@ None new this edition.
 | 32 | 4 Jul 2026 | Samsung Galaxy Glasses Manager app reveals four-device ecosystem binding (Ring/Watch/Phone/Glasses), three weeks before Unpacked | Samsung Galaxy Glasses companion app leak, four-device system, Galaxy Ring gesture control, Galaxy Watch controller app, Science Corp CE mark 32 editions | None new | What fraction of the $400 Tier 1 buyer also owns a Galaxy Ring, Galaxy Watch, and flagship Galaxy Phone — that is the market size of Samsung's hardware-lock strategy |
 | 33 | 5 Jul 2026 | BrainGate2 Nature Medicine — Casey Harrell 3,800h independent home BCI use; 183,000 sentences; 56 wpm; no researcher | Meta Brain2Qwerty v2 (non-invasive, 61% word accuracy, open-source, MEG) | None new (Casey Harrell as participant) | Write one paragraph on commercial BCI first-line support — who does the user call, what can they adjust, which company has answered it — before next deployment piece |
 | 34 | 6 Jul 2026 | Samsung Galaxy XR UK launch — enterprise-ready (Knox, zero-touch enrollment, 5-year updates); Germany/France undated | Android XR Catalyst notifications July 15 | None new | Which European enterprise buyer — CIO, IT director, healthcare/training/manufacturing lead — is the key conversation before Galaxy Glasses Unpacked July 22 |
+| 35 | 7 Jul 2026 | Galaxy Glasses confirmed on Snapdragon AR1 (same chip as Meta Ray-Ban); XREAL Aura $1,500 ceiling; three-tier Android XR stack complete | XREAL Aura $1,500 / Best Buy / Founder Passes sold out; Catalyst notifications July 15; Galaxy XR UK July 8 | None new | Name Gemini's differentiation in a display-free, audio-only frame before 22 July Unpacked — and verify whether it's already in the spec sheet |
 
 ---
-*Last updated: Edition 34 — 6 July 2026*
+*Last updated: Edition 35 — 7 July 2026*
