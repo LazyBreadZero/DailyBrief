@@ -1670,6 +1670,48 @@ Name Gemini's differentiation in a display-free, audio-only frame that Meta AI d
 
 ---
 
+## Edition 36 — Wednesday, 8 July 2026
+
+### Lead Story
+**Title:** Samsung Ships Galaxy XR in the UK With an Enterprise Pitch and a Year's Worth of Software Updates
+**Category:** Platforms & Product
+**Core argument:** Samsung began UK fulfilment of Galaxy XR today at £1,699. Hardware is unchanged from the October 2025 US and South Korea launch — dual Micro-OLED displays, Snapdragon XR2+ Gen 2, 545g — but UK buyers receive a materially improved software product: a year of post-launch patches, plus an enterprise package (Android Enterprise management, Samsung Knox, zero-touch enrollment, five-year update commitment) added before the UK market opened. First-day UK coverage split immediately: T3 led with the World Cup; Expert Reviews and Neowin led with enterprise credentials. That split is the first observable market signal of whether Samsung's bifurcated commercial strategy (enterprise headset / consumer fashion glasses, Ed 34) is being received as designed. Enterprise fleet orders vs. consumer purchase receipts will answer it before Germany and France even have a release date.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** Enterprise/entertainment reception split — when the same device generates two coherent first-day narratives, the unresolved question is not which is true but which buyer converts
+**Sources used:** Samsung Newsroom UK (10/10): https://news.samsung.com/uk/samsung-galaxy-xr-arrives-in-the-uk ; Samsung Mobile Press (10/10): https://www.samsungmobilepress.com/articles/galaxy-xr-uk-launch ; Neowin (7/10): https://www.neowin.net/news/samsung-galaxy-xr-arrives-in-the-uk-with-new-ai-and-enterprise-features/ ; T3 (7/10): https://www.t3.com/tech/vr/i-watched-world-cup-football-in-the-samsung-galaxy-xr-and-it-blew-my-mind-im-now-sold-as-it-comes-to-the-uk
+**Follow-up threads to watch:** Android XR Catalyst notifications 15 July; Galaxy Glasses Unpacked 22 July London; Germany and France release dates; any named European enterprise institution (healthcare, retail, manufacturing) announcing a Galaxy XR deployment
+
+### Further items
+**Android XR Developer Catalyst notifications (Platforms & Product, 15 July):** First public read on developer ecosystem depth behind the enterprise and consumer use cases Samsung has named. A wide, diverse cohort strengthens both reads; a narrow one leaves the 22 July Unpacked facing reviews without the application depth either market requires.
+
+### New concepts in Angelo's working vocabulary
+- **Enterprise/entertainment reception split** — when the same device generates two coherent first-day narratives (enterprise IT pitch vs. entertainment experience), the unresolved question is not which is true but which buyer converts, measurable from fleet vs. consumer purchase data
+
+### Provocation
+Which of Samsung's three named enterprise use cases — healthcare, retail, manufacturing — has a named European institutional pilot with a deployment number attached? That is the use case Samsung has actually won. If one exists, the enterprise story is real. If none does, the enterprise pitch is still a pitch, and the device that sold in UK stores today is the one T3 reviewed.
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, **36 editions**; no update
+- OpenAI device — confirmed February 2027; io rebrand; middleware cross-platform in public beta; no update
+- Android XR Catalyst Programme — notifications due 15 July; no update
+- Snap Specs — ~$2,195; stock at 12-month low; no update since Ed 18
+- XREAL AURA — fall 2026 Wave 1 (US/UK/Canada/South Korea/Japan); Europe Wave 2 undated; no update
+- Synchron pivotal trial — enrollment under way at US sites; no official press release; no update
+- Samsung Galaxy Glasses / Unpacked — 22 July London; $379–$499 supply-chain estimate; Gentle Monster design; Gemini AI; four-device ecosystem binding confirmed; no update
+- **Samsung Galaxy XR headset — MOVED (Ed 36):** UK fulfilment begins today at £1,699; hardware unchanged from Oct 2025 US/South Korea launch; one year of post-launch software patches; enterprise package (Knox, zero-touch enrollment, five-year updates) confirmed; first-day UK media split enterprise/entertainment; demo units live at Samsung KX London, Westfield London, Westfield Stratford City, Manchester Trafford Centre; Germany/France still undated
+- BCI implant census (~150 people, Vansteensel) — no update
+- Neuracle STAR Market IPO — no update since filing
+- EU AI Act Digital Omnibus — Council adopted 29 June; no update
+- Connecticut neural-data privacy law — in effect 1 July 2026; no enforcement action; no update
+- Caltech decoder-dynamics finding — no commercial BCI company response yet; no update
+- Apple smart glasses engineering leadership — Paul Meade at OpenAI; no successor named; no update
+
+### Thinking Ledger update
+- **UK day-one coverage split adds first observable market signal for Samsung's bifurcated strategy (new, Ed 36):** T3 led with the World Cup; Expert Reviews and Neowin led with the IT dashboard. The same device generated two coherent first-day narratives without contradiction. The question from Ed 34 — whether Samsung's bifurcated strategy (enterprise headset / consumer fashion glasses) maps to two distinct buyer populations or one population Samsung is trying to position differently — is now at least falsifiable: enterprise fleet orders vs. consumer purchase receipts will answer it before Germany and France even have a release date. Catalyst notifications on 15 July add the developer-ecosystem data point.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1709,6 +1751,7 @@ Name Gemini's differentiation in a display-free, audio-only frame that Meta AI d
 - **The BrainGate2 Nature Medicine publication confirms patient capability and opens the commercial support question.** (New, Ed 33.) The UC Davis/Brown/MGH result is now published in full peer-reviewed form: 3,800+ hours, 183,000+ sentences, 56 wpm, near-daily, without researcher involvement, decoder requiring no daily recalibration. "Independent daily use" is no longer a press-release claim — it is primary literature. The remaining commercial question is not capability but infrastructure: who handles first-line support when a BCI device leaves the university, who maintains the firmware between approved updates, and who manages decoder drift over time? Neuralink, Synchron, and Science Corp have each named an architectural answer; none has been tested at scale.
 - **Samsung's Galaxy XR enterprise update signals a bifurcated commercial strategy within Samsung's own XR line.** (New, Ed 34.) Knox, zero-touch enrollment, and a five-year update commitment arrived before the UK market opened — on a separate schedule, not in response to US launch reviews. If the Galaxy XR headset's primary commercial target is enterprise IT, the Galaxy Glasses (consumer fashion, four-device binding, ~$400 target) represents a different commercial bet within the same company's 2026 XR line. The "hardware ecosystem binding" position from Ed 32 assumed the four-device stack as Samsung's single answer to the platform question; it may need a consumer vs. enterprise axis added.
 - **Galaxy Glasses' AR1 chip confirms the audio glasses market is platform-not-silicon.** (New, Ed 35.) Samsung and Meta chose the same Snapdragon AR1; the chip cannot differentiate them. Differentiation in the audio-glasses race is software (Gemini vs. Meta AI), distribution (Samsung retail vs. EssilorLuxottica), and hardware-ecosystem binding (Samsung's four-device stack, bounded by the intersection of buyers who own all four). "Android XR" now covers three architecturally distinct products — Galaxy XR (spatial), XREAL Aura (display AR), Galaxy Glasses (audio-only) — under one platform label. The constraint from Ed 32 holds: the four-device binding strategy's market size is bounded by buyers who own all four Samsung devices.
+- **UK day-one coverage split confirms Samsung's bifurcated strategy generates two coherent market narratives simultaneously.** (New, Ed 36.) T3 watched the World Cup; Expert Reviews and Neowin led with the IT dashboard. Neither narrative is wrong. The unresolved question is not which story is true but which buyer converts — and enterprise fleet orders vs. consumer purchase receipts will answer it before Germany and France even receive a release date. The Catalyst notifications on 15 July add the developer-ecosystem read: if the developer cohort is enterprise-skewed, the enterprise story has depth; if consumer-skewed, T3's read is the one that predicts the market.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1767,6 +1810,7 @@ Name Gemini's differentiation in a display-free, audio-only frame that Meta AI d
 | 33 | 5 Jul 2026 | BrainGate2 Nature Medicine — Casey Harrell 3,800h independent home BCI use; 183,000 sentences; 56 wpm; no researcher | Meta Brain2Qwerty v2 (non-invasive, 61% word accuracy, open-source, MEG) | None new (Casey Harrell as participant) | Write one paragraph on commercial BCI first-line support — who does the user call, what can they adjust, which company has answered it — before next deployment piece |
 | 34 | 6 Jul 2026 | Samsung Galaxy XR UK launch — enterprise-ready (Knox, zero-touch enrollment, 5-year updates); Germany/France undated | Android XR Catalyst notifications July 15 | None new | Which European enterprise buyer — CIO, IT director, healthcare/training/manufacturing lead — is the key conversation before Galaxy Glasses Unpacked July 22 |
 | 35 | 7 Jul 2026 | Galaxy Glasses confirmed on Snapdragon AR1 (same chip as Meta Ray-Ban); XREAL Aura $1,500 ceiling; three-tier Android XR stack complete | XREAL Aura $1,500 / Best Buy / Founder Passes sold out; Catalyst notifications July 15; Galaxy XR UK July 8 | None new | Name Gemini's differentiation in a display-free, audio-only frame before 22 July Unpacked — and verify whether it's already in the spec sheet |
+| 36 | 8 Jul 2026 | Samsung Galaxy XR UK Day 1 — enterprise pitch vs. entertainment first impression | UK fulfilment begins today at £1,699; improved software (year of patches); enterprise package confirmed (Knox, zero-touch, 5-year updates); first-day UK media split (T3 = World Cup; Expert Reviews/Neowin = enterprise); Catalyst notifications July 15; Unpacked July 22 | None new | Which of Samsung's three enterprise use cases (healthcare/retail/manufacturing) has a named European institutional pilot with deployment numbers? |
 
 ---
-*Last updated: Edition 35 — 7 July 2026*
+*Last updated: Edition 36 — 8 July 2026*

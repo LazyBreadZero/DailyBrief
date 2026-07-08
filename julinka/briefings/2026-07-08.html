@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Wednesday, 8 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .further-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .further-item { padding-left: 16px; border-left: 2px solid #E7B43A; margin-bottom: 22px; }
+  .further-item p { font-size: 16px; line-height: 1.65; margin-bottom: 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .radar-block { margin-top: 36px; border-top: 1px solid #E5DAC4; padding-top: 22px; }
+  .radar-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .radar-item { font-family: 'DM Sans', sans-serif; font-size: 14px; line-height: 1.6; color: #4A4036; margin-bottom: 8px; }
+  .radar-item:last-child { margin-bottom: 0; }
+  .radar-date { font-weight: 600; color: #1F1B16; }
+  .footer { padding: 32px 52px 0; border-top: 1px solid #E5DAC4; font-family: 'DM Sans', sans-serif; font-size: 11px; color: #928775; text-align: center; letter-spacing: 0.4px; margin-top: 36px; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Wednesday, 8 July 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 33</span>
+    <span class="dateline-right">Nature Finance &middot; Food Science</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Nature Finance</div>
+    <h1 class="lead-headline">Indonesia Issues 30 Million Tonnes of Forestry Credits and Opens the Registry to Track Them Tomorrow</h1>
+
+    <p>Indonesia&rsquo;s Ministry of Environment and Forestry issued 30 million tonnes of forestry carbon credits on 6 July across three PBPH forest-concession holders &mdash; the largest single batch since Indonesia formalised its national carbon market framework in 2023. At current voluntary carbon market prices the issuance carries a combined value of approximately US$278 million. Tomorrow, 9 July, the SRUK (Sistem Registrasi Karbon Nasional) begins live operations: Indonesia&rsquo;s national carbon registry, placing issuance, verification, and registration all inside the same government architecture.
+    <a href="https://en.antaranews.com/news/336701/indonesia-government-issues-carbon-credits-from-forest-management" target="_blank" class="source-badge badge-green">ANTARA News 8/10</a>
+    <a href="https://www.argusmedia.com/en/news-and-insights/latest-market-news/2695182-indonesia-carbon-market-sruk-registry-launch" target="_blank" class="source-badge badge-green">Argus Media 9/10</a></p>
+
+    <p>The governance architecture is the decision worth watching, not the volume. Unlike Verra or Gold Standard, where a third-party body sets the standard independently of the issuing government, SRUK places the Indonesian state simultaneously as criteria-setter, verifier, and registrar. Verra and Gold Standard are permitted as reference standards within the SRUK system &mdash; they are not replaced; credits can carry both credentials or SRUK registration alone. The pricing gap between those two credentialing paths is visible from tomorrow&rsquo;s trading data. That gap is the cleanest numerical measure available of what governance architecture is worth to institutional buyers, separate from underlying ecological quality.
+    <a href="https://carbonherald.com/indonesia-sruk-national-carbon-registry-launch-july-2026/" target="_blank" class="source-badge badge-amber">Carbon Herald 7/10</a></p>
+
+    <p>Finland published its voluntary biodiversity market criteria on 7 July (yesterday&rsquo;s lead), also placing the state as both criteria-setter and registrar. Two sovereign states, two different natural-asset classes &mdash; tropical forest carbon and voluntary biodiversity &mdash; one shared governance design choice, both going live within 48 hours of each other. The EU&rsquo;s own technical criteria for voluntary nature and carbon markets remain unfinished. The empirical comparison now available &mdash; how each sovereign-registry model prices against third-party-certified alternatives in live trading &mdash; will be the most granular market signal the EU expert group can observe before it finalises its own architecture.
+    <a href="https://www.ecobizasia.com/indonesia-issues-30-million-carbon-credits-forest-concessions-sruk-registry" target="_blank" class="source-badge badge-amber">Ecobiz Asia 8/10</a></p>
+
+    <hr class="divider"/>
+    <div class="further-label">Further</div>
+
+    <div class="further-item">
+      <p><strong>Formo brings precision-fermented casein to the US ingredient buyer, one week before IFT FIRST.</strong> Formo, the Berlin precision-fermentation company, will exhibit at IFT FIRST in Chicago (13&ndash;16 July, Booth ST81) as its FDA GRAS self-determination review for precision-fermented bovine casein remains active. The IFT appearance is Formo&rsquo;s first commercial-scale US demonstration to an ingredient-buyer audience. Casein is the structural protein responsible for dairy cheese&rsquo;s melt, pull, and slow-digestion profile &mdash; the functional properties that plant-based alternatives have not replicated at food-service scale. If the GRAS review clears and Formo&rsquo;s casein matches the functional specification, it removes the main ingredient barrier to animal-free dairy cheese for US food manufacturers. The IFT floor next week is where Formo finds out which buyers are ready to evaluate it.
+      <a href="https://www.formo.bio/news/ift-first-2026" target="_blank" class="source-badge badge-green">Formo 9/10</a>
+      <a href="https://vegconomist.com/food-and-beverage/dairy/formo-precision-casein-ift-first-chicago-2026/" target="_blank" class="source-badge badge-amber">vegconomist 7/10</a></p>
+    </div>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <span class="angle-num">1</span>
+        <span class="angle-move-text">Indonesia&rsquo;s 30M-tonne issuance is a sourcing question. The credit value chain has five layers &mdash; origination (land rights, forest management), measurement and verification (satellite, ground-truth), registry technology (SRUK itself), aggregation (packaging credits for EU buyers at scale), and offtake (corporate offtake agreements) &mdash; and they are not equally investable. Origination is policy-saturated; registry technology is government-owned; aggregation for EU buyers is where the private capital question is sharpest. The SRUK launch tomorrow is the trigger to map which aggregator already operates in the Indonesia-to-EU credit pipeline. Find one, size its current throughput, and check whether SRUK registration adds a step it can absorb or a barrier it cannot. That answers the Calm/Storm question faster than any market thesis document.</span>
+      </div>
+      <div class="angle-move">
+        <span class="angle-num">2</span>
+        <span class="angle-move-text">Formo is in active GRAS review. Before IFT FIRST coverage floods next week, write the three functional performance numbers that would make precision-fermented casein commercially decisive: gel strength at pH 4.6 (the acid-curd benchmark for cheese texture), micellar fidelity at heat (the melt test for food-service applications), and slow-digestion kinetics relative to native bovine casein (the satiety claim for functional food positioning). These are the specifications a food manufacturer evaluates before substituting. Your food-science background gives you these numbers before the marketing narrative arrives &mdash; use the gap now. If Formo&rsquo;s published data meets all three, the GRAS review is the only remaining barrier; if it meets two, the weaker one names the R&amp;D risk to probe at the booth.</span>
+      </div>
+    </div>
+
+    <div class="radar-block">
+      <div class="radar-label">On the Radar</div>
+      <div class="radar-item"><span class="radar-date">9 July</span> &mdash; SRUK public launch; Indonesia&rsquo;s national carbon registry begins live operations. First observable pricing gap between SRUK-registered and Verra-certified credits.</div>
+      <div class="radar-item"><span class="radar-date">13&ndash;16 July</span> &mdash; IFT FIRST, Chicago (Booth ST81); Formo precision-fermented casein commercial debut for US ingredient buyers.</div>
+      <div class="radar-item"><span class="radar-date">20 July</span> &mdash; Competing bids deadline in UPSIDE Foods&rsquo; $50M stalking-horse bid for Believer Meats&rsquo; Wilson, NC facility.</div>
+      <div class="radar-item"><span class="radar-date">28 July</span> &mdash; Believer Meats auction.</div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <strong style="color:#1F1B16;">APPETITE</strong> &middot; Edition 33 &middot; Wednesday, 8 July 2026<br/>
+    A personal briefing for Julinka Naomi Waesche &middot; Venture &middot; Food &middot; Art &middot; Nature
+  </div>
+</div>
+</body>
+</html>

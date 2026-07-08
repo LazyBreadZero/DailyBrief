@@ -1417,6 +1417,47 @@ None new this edition.
 
 ---
 
+## Edition 33 — Wednesday, 8 July 2026
+
+### Lead Story
+**Title:** Indonesia Issues 30 Million Tonnes of Forestry Credits and Opens the Registry to Track Them Tomorrow
+**Pillar:** Nature Finance
+**Core argument:** Indonesia's Ministry of Environment and Forestry issued 30 million tonnes of forestry carbon credits on 6 July across three PBPH forest-concession holders — the largest single batch since Indonesia formalised its national carbon market framework in 2023. Combined value approximately US$278 million at current voluntary carbon market prices. Tomorrow (9 July), the SRUK (Sistem Registrasi Karbon Nasional) begins live operations, placing the Indonesian state simultaneously as criteria-setter, verifier, and registrar. Verra and Gold Standard are permitted as reference standards within SRUK — not replaced — meaning credits can carry both credentials or SRUK registration alone. The pricing gap between those two paths from tomorrow's data is the cleanest available measure of what governance architecture is numerically worth to institutional buyers. Finland published its state-led voluntary biodiversity framework yesterday (Ed 32). Two sovereign-registry architectures across two natural-asset classes go live within 48 hours; the EU's own criteria remain unfinished.
+**Key entities introduced:** None new (SRUK, PBPH holders, Indonesia Ministry of Environment all introduced in prior editions)
+**Key concepts introduced:** Indonesia/SRUK dual-credentialing model (SRUK registration + Verra certification permitted simultaneously vs. SRUK registration alone)
+**Sources used:** ANTARA News (8/10): https://en.antaranews.com/news/336701/indonesia-government-issues-carbon-credits-from-forest-management ; Argus Media (9/10): https://www.argusmedia.com/en/news-and-insights/latest-market-news/2695182-indonesia-carbon-market-sruk-registry-launch ; Carbon Herald (7/10): https://carbonherald.com/indonesia-sruk-national-carbon-registry-launch-july-2026/ ; Ecobiz Asia (8/10): https://www.ecobizasia.com/indonesia-issues-30-million-carbon-credits-forest-concessions-sruk-registry
+**Angle delivered:** Map Indonesia credit-aggregation layer for EU buyers (origination/verification/registry all state-owned; aggregation = private-capital entry point; SRUK launch tomorrow is the trigger); track SRUK vs. Verra price spread as governance-architecture premium number.
+**Follow-up threads to watch:** SRUK first-week spot pricing vs. Katingan Mentaya / Verra reference; which aggregator operating in the Indonesia-to-EU credit pipeline can handle SRUK-registered volume; Singapore-Indonesia bilateral Article 6 formalisation as template for COP17
+
+### Further items
+**Title:** Formo's Precision-Fermented Casein Gets Its First US Commercial Debut at IFT FIRST Next Week
+**Pillar:** Food Science
+**Core argument:** Formo exhibiting at IFT FIRST Chicago (13–16 July, Booth ST81) as FDA GRAS self-determination review for precision-fermented bovine casein remains active. First commercial-scale US demonstration to ingredient buyers. Casein's functional properties (melt, pull, slow-digestion profile) are the specification dairy-free cheese alternatives have not replicated at food-service scale. GRAS clearance removes the main ingredient barrier to animal-free dairy at manufacturer scale; the IFT floor is where Formo determines which buyers are ready to evaluate.
+**Sources used:** Formo (9/10): https://www.formo.bio/news/ift-first-2026 ; vegconomist (7/10): https://vegconomist.com/food-and-beverage/dairy/formo-precision-casein-ift-first-chicago-2026/
+**Follow-up thread:** GRAS clearance date; IFT FIRST buyer response; any named food manufacturer announcing trials of Formo's casein
+
+### New concepts in Julinka's working vocabulary
+- **SRUK dual-credentialing model** — Indonesia permits credits to carry both SRUK registration and Verra/Gold Standard certification simultaneously; the price spread between dual-credentialed and SRUK-only credits measures governance-architecture premium numerically
+
+### Running-thread tracker
+- **Indonesia REDD+ / SRUK — MOVED (Ed 33):** 30M tonnes issued 6 July across three PBPH holders; ~US$278M at market prices; SRUK registry launches 9 July; Verra/Gold Standard permitted as reference standards within SRUK; watch Katingan spot vs. SRUK reference price from tomorrow
+- **Formo IFT FIRST** — no new movement; IFT FIRST still July 13–16, Booth ST81; GRAS review active; see further item above
+- UPSIDE Foods/Believer Meats auction — competing bids due 20 July; auction 28 July; no movement
+- EU nature-credits technical criteria — still overdue from mid-2026 expert group mandate; Finland framework now live (Ed 32); no EU update
+- EU Biotech Act II — Q3 2026 publication; no update
+- Yield Lab Europe Fund 2 — €25M EIF toward €100M target; no movement
+- Ingredion/Tate & Lyle takeover — court sanction and antitrust clearance pending; no movement
+- New Forests GLO fund — targeting $707m; no movement
+- Every/Huvepharma capacity expansion — no movement
+- Nestlé/Helaina infant-nutrition partnership — no movement
+- Astral Systems first close — £23m; no movement
+- Alan/Prosus Series G — regulatory approvals pending; no movement
+- Lactalis/Nutri-Score CJEU referral — referred 25 June 2026; judgment 18–24 months; no movement
+- Louvre infrastructure/funding crisis — no movement
+- Singapore-Indonesia bilateral carbon credit partnership — advancing; watch for Article 6 formalisation
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1453,6 +1494,7 @@ None new this edition.
 | 30 | 5 Jul 2026 | Formo's precision-fermented casein enters active FDA GRAS review; US commercial debut IFT FIRST July 13–16 | Indonesia REDD+ issuance confirmed for 6 July; SRUK July 9; Katingan Mentaya prices declining | Formo Foods Inc., Rx Food Ingredients LLC, Those Vegan Cowboys | Request Formo/Rx Food Ingredients meeting before July 13; track Indonesia SRUK first-week price as sovereign-registry governance test |
 | 31 | 6 Jul 2026 | Indonesia 30M+ tonne REDD+ issuance; SRUK launches 9 July | — | None new | Track Katingan spot vs. SRUK reference price through 9 July as governance credibility number |
 | 32 | 7 Jul 2026 | Finland state-backed voluntary nature credits framework (state criteria + national registrar); London Old Masters $102M — tech buyers entering | Finnish Government, Ministry of Environment, Artnet News, ARTnews | Finnish Ministry of Environment (as governance authority); three-lineage EU taxonomy | Use Finland's three-lineage taxonomy for Calm/Storm biodiversity diligence; track SRUK-vs-Verra spread from 9 July as governance-architecture premium number |
+| 33 | 8 Jul 2026 | Indonesia issues 30M tonne REDD+ forestry credits (6 July); SRUK launches tomorrow (9 July) | ANTARA News, Argus Media, Carbon Herald (lead); Formo/vegconomist (further) | None new | Map Indonesia credit-aggregation layer for EU buyers before SRUK opens; write Formo casein functional-performance spec before IFT FIRST coverage floods |
 
 ---
-*Last updated: Edition 32 — 7 July 2026*
+*Last updated: Edition 33 — 8 July 2026*
