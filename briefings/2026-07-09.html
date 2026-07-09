@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Frontier Intelligence — Thursday, 9 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #F0EDE5;
+    font-family: 'Source Serif 4', Georgia, serif;
+    color: #1A1714;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrapper {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 32px 16px 64px;
+  }
+  /* Red top rule */
+  .top-rule {
+    height: 6px;
+    background: #8B1A1A;
+    border-radius: 2px 2px 0 0;
+  }
+  .card {
+    background: #FAF8F2;
+    border-radius: 0 0 10px 10px;
+    padding: 0 0 40px;
+    box-shadow: 0 2px 16px rgba(26,23,20,0.07);
+  }
+
+  /* Masthead */
+  .masthead {
+    padding: 28px 40px 0;
+    text-align: center;
+    border-bottom: 2px solid #1A1714;
+    padding-bottom: 14px;
+  }
+  .masthead-overline {
+    font-family: 'Source Serif 4', serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .masthead-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #1A1714;
+    line-height: 1.05;
+  }
+  .masthead-tagline {
+    font-family: 'Source Serif 4', serif;
+    font-size: 13px;
+    font-style: italic;
+    color: #5A5047;
+    margin-top: 6px;
+  }
+
+  /* Dateline */
+  .dateline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 40px;
+    border-bottom: 1px solid #D8D0C4;
+    font-family: 'Source Serif 4', serif;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #5A5047;
+  }
+  .dateline-left { color: #8B1A1A; font-weight: 600; }
+
+  /* Section kicker */
+  .kicker {
+    font-family: 'Source Serif 4', serif;
+    font-size: 10.5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  /* Lead */
+  .lead-section {
+    padding: 28px 40px 0;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #1A1714;
+    line-height: 1.2;
+    margin-bottom: 14px;
+  }
+  .lead-body p {
+    font-size: 16px;
+    line-height: 1.65;
+    color: #2A2420;
+    margin-bottom: 14px;
+  }
+  .lead-body p:last-child { margin-bottom: 0; }
+
+  /* Source badge */
+  .source-block {
+    margin-top: 18px;
+    padding-top: 14px;
+    border-top: 1px solid #E0D8CE;
+  }
+  .source-label {
+    font-family: 'Source Serif 4', serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8B8070;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  .source-item {
+    font-size: 13px;
+    line-height: 1.55;
+    margin-bottom: 4px;
+    color: #2A2420;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 10.5px;
+    font-weight: 600;
+    padding: 1px 7px;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-family: 'Source Serif 4', serif;
+    letter-spacing: 0.3px;
+    vertical-align: baseline;
+  }
+  .badge-green { background: #E8F5EC; color: #1A5C2A; }
+  .badge-amber { background: #FFF3D6; color: #7A4A00; }
+  .source-item a { color: #8B1A1A; text-decoration: none; }
+  .source-item a:hover { text-decoration: underline; }
+
+  /* Section divider */
+  .divider {
+    border: none;
+    border-top: 1px solid #D8D0C4;
+    margin: 26px 40px;
+  }
+
+  /* Angelo's Angle */
+  .angle-section {
+    margin: 0 40px;
+    background: #1A1714;
+    border-radius: 8px;
+    padding: 22px 26px;
+  }
+  .angle-label {
+    font-family: 'Source Serif 4', serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .angle-body {
+    font-family: 'Source Serif 4', serif;
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: #E8E0D4;
+  }
+  .angle-body p { margin-bottom: 10px; }
+  .angle-body p:last-child { margin-bottom: 0; }
+
+  /* Footer */
+  .footer {
+    margin-top: 32px;
+    padding: 18px 40px 0;
+    border-top: 1px solid #D8D0C4;
+    font-family: 'Source Serif 4', serif;
+    font-size: 11px;
+    color: #8B8070;
+    text-align: center;
+    line-height: 1.7;
+    letter-spacing: 0.3px;
+  }
+
+  @media (max-width: 520px) {
+    .masthead, .lead-section, .angle-section, .footer,
+    .dateline { padding-left: 20px; padding-right: 20px; }
+    .divider { margin-left: 20px; margin-right: 20px; }
+    .angle-section { margin-left: 20px; margin-right: 20px; }
+    .masthead-title { font-size: 32px; }
+    .lead-headline { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="top-rule"></div>
+  <div class="card">
+
+    <!-- Masthead -->
+    <div class="masthead">
+      <div class="masthead-overline">Personal intelligence for Angelo Gunther &middot; Thursday, 9 July 2026</div>
+      <div class="masthead-title">Frontier Intelligence</div>
+      <div class="masthead-tagline">XR &middot; Spatial Computing &middot; BCI &middot; Consciousness Tech</div>
+    </div>
+
+    <!-- Dateline bar -->
+    <div class="dateline">
+      <span class="dateline-left">Edition 37 &middot; Clinical &amp; Regulatory</span>
+      <span>Thursday, 9 July 2026</span>
+    </div>
+
+    <!-- Lead -->
+    <div class="lead-section">
+      <div class="kicker">Lead &middot; Brain-Computer Interface</div>
+      <h1 class="lead-headline">Synchron's Pivotal Trial Is Enrolling at Four US Sites — and the First FDA PMA for a Permanently Implanted BCI Is Now in Sight</h1>
+
+      <div class="lead-body">
+        <p>Synchron's COMMAND pivotal trial, funded by a $200 million Series D raised specifically for this purpose in November, is now enrolling patients across four or more US clinical sites — the clearest step yet toward filing the first Pre-Market Approval (PMA) application for a permanently implanted communication brain-computer interface. No permanently implanted BCI aimed at restoring speech or cursor control has ever received full FDA premarket approval. Synchron is first in line to change that.</p>
+
+        <p>The device, the Stentrode, is implanted endovascularly — threaded through the jugular vein and positioned on the surface of the motor cortex without opening the skull. That path earned it a 6/6 safety record in the COMMAND early feasibility study, with zero serious adverse events and 100% successful deployment across all six patients. The endovascular approach means a neurosurgeon is not required; a trained interventional cardiologist or vascular surgeon can place it, which is a structural advantage at every hospital that wants to offer the procedure without standing up a full neurosurgical programme.</p>
+
+        <p>The pivotal study's primary endpoint is safety, with efficacy data collected as secondary outcomes for communication tasks: point-and-click computer control, browsing, text messaging. Synchron has always scoped itself around communication rather than fine motor restoration — a deliberate choice that simplifies both the decoder problem and the FDA's risk-benefit calculation. The Caltech finding published in late June (Communications Biology) demonstrated that slow, sustained movement needs continuous external input that a standard autonomous decode cannot provide. Synchron's calibrated communication scope sidesteps that constraint, at the cost of a narrower commercial ceiling than what Neuralink is pursuing.</p>
+
+        <p>Three companies are approaching the commercial-support inflection point by three different routes. Synchron deploys through hospital partnerships. Neuralink routes maintenance through its app and its R1 surgical robot, targeting high-volume production this year. Precision Neuroscience has partnered with Medtronic for distribution of its thin-film Layer 7 cortical interface. The question all three must eventually answer is the same one the BrainGate2 ALS result made concrete in June: who is responsible for first-line support when the device is operating in someone's home in year two, and who is authorised to adjust the decoder between approved software updates?</p>
+
+        <p>PMA filing sequence matters commercially. The first company to file a PMA for a permanently implanted communication BCI does not simply win a regulatory race — it writes the initial pricing code and reimbursement terms that Medicare and commercial insurers anchor to. Subsequent PMA applicants are then benchmarked against that precedent. If Synchron files first on a communication-task indication, it may own the category's commercial definition for longer than its own product lifespan, even if Neuralink's broader capabilities eventually surpass its own.</p>
+
+        <div class="source-block">
+          <div class="source-label">Sources</div>
+          <div class="source-item">
+            <span class="badge badge-amber">7/10</span>
+            <a href="https://www.techtimes.com/articles/317929/20260606/synchron-brain-implant-targets-2026-pivotal-trial-first-fda-approved-bci.htm" target="_blank" rel="noopener">TechTimes, 6 June 2026 — Synchron Brain Implant Targets 2026 Pivotal Trial</a>
+          </div>
+          <div class="source-item">
+            <span class="badge badge-amber">7/10</span>
+            <a href="https://theroboticsmedia.com/article/synchron-stentrode-pivotal-trial-2026-fda-pma-bci-200-million-series-d" target="_blank" rel="noopener">The Robotics Media — Synchron Preps 2026 Stentrode Pivotal Trial For First BCI PMA</a>
+          </div>
+          <div class="source-item">
+            <span class="badge badge-green">8/10</span>
+            <a href="https://insights.citeline.com/medtech-insight/business/financing/synchron-secures-200m-series-d-plans-new-brain-interface-with-potentially-more-applications-U6MRTIDOVRHXXGDHGHUD35SA5Q/" target="_blank" rel="noopener">Medtech Insight / Citeline — Synchron Secures $200M Series D, Plans New Brain Interface</a>
+          </div>
+          <div class="source-item">
+            <span class="badge badge-amber">7/10</span>
+            <a href="https://beyondtmrw.org/article/brain-computer-interface-clinical-trials-accelerate-in-2026" target="_blank" rel="noopener">Beyond Tomorrow — Brain Computer Interface Clinical Trial 2026: FDA Paths Compared</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Angelo's Angle -->
+    <div class="angle-section">
+      <div class="angle-label">Angelo&rsquo;s Angle</div>
+      <div class="angle-body">
+        <p>Synchron is first in line for the PMA that writes the category's reimbursement rules. Before it files, name the specific Medicare question its hospital-partnership model answers that Neuralink's platform model doesn't — and vice versa. The BrainGate2 result showed home use is feasible for 3,800 hours without a researcher; neither company has publicly stated who the decoder's "authorised adjuster" is once the device is live in a patient's home. That answer is the reimbursement conversation. Which company has actually thought it through?</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <strong>FRONTIER INTELLIGENCE</strong> &middot; Edition 37 &middot; Thursday, 9 July 2026<br />
+      Personal briefing for Angelo Gunther &middot; XR &middot; Spatial Computing &middot; BCI &middot; Consciousness Tech
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
