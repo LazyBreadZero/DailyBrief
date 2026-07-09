@@ -1458,6 +1458,41 @@ None new this edition.
 
 ---
 
+## Edition 34 — Thursday, 9 July 2026
+
+### Lead Story
+**Title:** SRUK Is Operational — Indonesia's National Carbon Registry Opens as Thirty-One Million Forest Credits Find Their Government Ledger
+**Pillar:** Nature Finance
+**Core argument:** Indonesia's SRUK (Sistem Registri Unit Karbon), established under Presidential Regulation 110/2025, opened for live operations today — three days after the Ministry of Environment and Forestry issued 31 million tonnes of forestry carbon credits across three PBPH concession holders. The registry is designed for interoperability with Verra, Gold Standard, Article 6.2, and IDX Carbon; credits may carry SRUK registration alongside existing third-party verification or SRUK registration alone. The governance architecture is the decision worth watching: unlike Verra or Gold Standard, SRUK places the Indonesian state as simultaneously criteria-setter, verifier, and registrar (same design choice Finland made for voluntary biodiversity credits this week). The spread between SRUK-only and dual-certified credits, visible in this week's trading data, is the cleanest proxy for what governance architecture is numerically worth to institutional buyers. For European corporate buyers under CSRD, SRUK registration eliminates the "no traceable registry" objection for Indonesian REDD+ credits but does not substitute for ecological quality assessment (additionality, permanence, leakage methodology), which remains with the third-party verifier.
+**Key entities introduced:** None new (SRUK, Ministry of Environment and Forestry, PBPH, Verra all previously introduced)
+**Key concepts introduced:** CSRD traceability gap (SRUK registration addresses the "no traceable registry" objection — a necessary but not sufficient condition for CSRD-compliant institutional purchase; the sufficient conditions remain with the third-party verifier); Indonesia-to-EU credit aggregation layer (the investable private-capital entry point now that origination is policy-saturated and registry technology is government-owned)
+**Sources used:** Argus Media (9/10): https://www.argusmedia.com/en/news-and-insights/latest-market-news/2695182-indonesia-carbon-market-sruk-registry-launch ; ANTARA News (8/10): https://en.antaranews.com/news/336701/indonesia-government-issues-carbon-credits-from-forest-management ; Carbon Herald (7/10): https://carbonherald.com/indonesia-sruk-national-carbon-registry-launch-july-2026/ ; Ecobiz Asia (8/10): https://www.ecobizasia.com/indonesia-issues-30-million-carbon-credits-forest-concessions-sruk-registry
+**Angles delivered:** (1) Registry-check which aggregator in the Indonesia-to-EU pipeline is SRUK-registered today — that is the private-capital entry point; (2) Write one paragraph on what SRUK registration does and does not do for a CSRD buyer — necessary condition (traceability), not sufficient condition (ecological quality assessment); mechanism before marketing
+**Follow-up threads to watch:** SRUK-vs-Verra first-week price spread as governance-architecture premium number; Katingan Mentaya spot vs. SRUK reference price; which aggregator in Indonesia-to-EU pipeline handles SRUK-registered volume; Singapore-Indonesia bilateral Article 6 formalisation as COP17 template
+
+### New concepts in Julinka's working vocabulary
+- **CSRD traceability gap** — SRUK registration eliminates the "no traceable registry" objection for Indonesian REDD+ credits under European CSRD disclosure requirements; it is a necessary but not sufficient condition for compliant institutional purchase; additionality, permanence, and leakage audit remain with the third-party verifier
+- **Indonesia-to-EU credit aggregation layer** — the private-capital entry point in the Indonesian voluntary carbon credit value chain; origination is policy-saturated, registry technology is government-owned; aggregation (navigating dual certification, connecting Indonesian credits to European corporate buyers at scale) is where the investable question sits for Calm/Storm's climate mandate
+
+### Running-thread tracker
+- **Indonesia REDD+ / SRUK — MOVED (Ed 34):** SRUK operational as of today (9 July); 31M tonnes issued 6 July across three PBPH holders; interoperability with Verra, Gold Standard, Article 6.2, IDX Carbon confirmed; dual-credentialing permitted; CSRD traceability objection eliminated; watch first-week SRUK-vs-Verra price spread as governance-architecture premium number
+- UPSIDE Foods/Believer Meats auction — competing bids due 20 July; auction 28 July; no movement
+- Formo IFT FIRST Chicago — July 13–16, Booth ST81; no new movement
+- EU nature-credits technical criteria — still overdue from mid-2026 expert group mandate; Finland framework live (Ed 32); EU criteria still pending
+- EU Biotech Act II — Q3 2026 publication; no update
+- Yield Lab Europe Fund 2 — €25M EIF toward €100M target; no movement
+- Ingredion/Tate & Lyle takeover — court sanction and antitrust clearance pending; no movement
+- New Forests GLO fund — targeting $707m; no movement
+- Every/Huvepharma capacity expansion — no movement
+- Nestlé/Helaina infant-nutrition partnership — no movement
+- Astral Systems first close — £23m; no movement
+- Alan/Prosus Series G — regulatory approvals pending; no movement
+- Lactalis/Nutri-Score CJEU referral — referred 25 June 2026; judgment 18–24 months; no movement
+- Louvre infrastructure/funding crisis — no movement
+- Singapore-Indonesia bilateral carbon credit partnership — advancing; watch for Article 6.2 formalisation
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1495,6 +1530,7 @@ None new this edition.
 | 31 | 6 Jul 2026 | Indonesia 30M+ tonne REDD+ issuance; SRUK launches 9 July | — | None new | Track Katingan spot vs. SRUK reference price through 9 July as governance credibility number |
 | 32 | 7 Jul 2026 | Finland state-backed voluntary nature credits framework (state criteria + national registrar); London Old Masters $102M — tech buyers entering | Finnish Government, Ministry of Environment, Artnet News, ARTnews | Finnish Ministry of Environment (as governance authority); three-lineage EU taxonomy | Use Finland's three-lineage taxonomy for Calm/Storm biodiversity diligence; track SRUK-vs-Verra spread from 9 July as governance-architecture premium number |
 | 33 | 8 Jul 2026 | Indonesia issues 30M tonne REDD+ forestry credits (6 July); SRUK launches tomorrow (9 July) | ANTARA News, Argus Media, Carbon Herald (lead); Formo/vegconomist (further) | None new | Map Indonesia credit-aggregation layer for EU buyers before SRUK opens; write Formo casein functional-performance spec before IFT FIRST coverage floods |
+| 34 | 9 Jul 2026 | SRUK operational today — Indonesia's national carbon registry opens; 31M forest credits find government ledger | SRUK launch (lead); CSRD traceability gap; dual-credentialing model; Indonesia-to-EU aggregation layer as investable entry point | None new | Registry-check SRUK-registered aggregator today (20 minutes, not a thesis); write CSRD necessary-vs-sufficient paragraph before IFT FIRST conversations |
 
 ---
-*Last updated: Edition 33 — 8 July 2026*
+*Last updated: Edition 34 — 9 July 2026*
