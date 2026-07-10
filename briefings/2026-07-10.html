@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Frontier Intelligence — Friday, 10 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 18px; }
+  body {
+    background: #FAF8F2;
+    color: #1A1208;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    padding: 0;
+  }
+  .page { max-width: 740px; margin: 0 auto; padding: 48px 28px 80px; }
+
+  /* Nameplate */
+  .nameplate {
+    border-top: 4px solid #8B1A1A;
+    border-bottom: 2px solid #8B1A1A;
+    text-align: center;
+    padding: 22px 0 18px;
+    margin-bottom: 6px;
+  }
+  .pub-name {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #8B1A1A;
+    letter-spacing: -1px;
+    line-height: 1;
+  }
+  .pub-tag {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-size: 0.78rem;
+    color: #5A3A1A;
+    letter-spacing: 0.5px;
+    margin-top: 6px;
+  }
+
+  /* Dateline bar */
+  .dateline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C8B89A;
+    padding: 7px 0 7px;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #5A3A1A;
+    margin-bottom: 38px;
+  }
+  .dateline .ed { font-weight: 600; color: #8B1A1A; }
+
+  /* Lead kicker */
+  .kicker {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    margin-bottom: 10px;
+  }
+
+  /* Headlines */
+  h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1A1208;
+    line-height: 1.18;
+    margin-bottom: 16px;
+  }
+  h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #1A1208;
+    margin: 36px 0 10px;
+    border-top: 2px solid #E8DCC8;
+    padding-top: 22px;
+  }
+  h3 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    margin: 34px 0 10px;
+  }
+
+  /* Body */
+  p { margin-bottom: 1.1em; }
+  p:last-child { margin-bottom: 0; }
+
+  /* Rule */
+  .rule { border: none; border-top: 1px solid #C8B89A; margin: 32px 0; }
+  .rule-heavy { border: none; border-top: 2px solid #8B1A1A; margin: 36px 0; }
+
+  /* Source badges */
+  .source-badge {
+    display: inline-block;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 3px;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  .badge-green { background: #E8F5EC; color: #1A5C2A; }
+  .badge-amber { background: #FFF3D6; color: #7A4A00; }
+
+  /* Angelo's Angle box */
+  .angle-box {
+    background: #F2EBD9;
+    border-left: 4px solid #8B1A1A;
+    padding: 22px 26px;
+    margin: 36px 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .angle-box .angle-label {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    margin-bottom: 12px;
+  }
+  .angle-box p {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.94rem;
+    line-height: 1.65;
+    color: #2A1A08;
+  }
+
+  /* On the Radar */
+  .radar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .radar-list li {
+    font-size: 0.9rem;
+    padding: 7px 0;
+    border-bottom: 1px solid #E8DCC8;
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+  }
+  .radar-list li:last-child { border-bottom: none; }
+  .radar-date {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    white-space: nowrap;
+    min-width: 68px;
+  }
+
+  /* Footer */
+  .footer {
+    border-top: 2px solid #8B1A1A;
+    margin-top: 56px;
+    padding-top: 18px;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.72rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #8B6A3A;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    html { font-size: 16px; }
+    .page { padding: 28px 18px 60px; }
+    .pub-name { font-size: 2.2rem; }
+    h1 { font-size: 1.7rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Nameplate -->
+  <div class="nameplate">
+    <div class="pub-name">Frontier Intelligence</div>
+    <div class="pub-tag">Human-experience technology · Vienna · For Angelo Gunther</div>
+  </div>
+
+  <!-- Dateline -->
+  <div class="dateline">
+    <span class="ed">Edition 37</span>
+    <span>Friday, 10 July 2026</span>
+    <span>Platforms &amp; Product</span>
+  </div>
+
+  <!-- Lead -->
+  <div class="kicker">Today's Lead · Platforms &amp; Product</div>
+  <h1>Meta puts a price on smart glasses software, pricing Conversation Focus at $19.99 a month</h1>
+
+  <p>Meta introduced its first software subscription for the Ray-Ban smart glasses on 2 July. "Meta One Premium," priced at $19.99 a month, raises the monthly cap on Conversation Focus — a live audio-amplification feature that uses the glasses' microphones to lift the voice of the person in front of the wearer — from three hours to fifteen. Core AI assistant features, and basic use of Conversation Focus, remain free.
+  <a href="https://about.meta.com/technologies/ray-ban-meta-smart-glasses/" target="_blank" rel="noopener" class="source-badge badge-green">Meta ↗ 9/10</a>
+  <a href="https://9to5google.com/2026/07/02/meta-one-premium-ray-ban-glasses-subscription/" target="_blank" rel="noopener" class="source-badge badge-amber">9to5Google ↗ 7/10</a></p>
+
+  <p>The subscription's architecture is where it gets interesting. Conversation Focus runs on-device processing — the hardware does not require a cloud round-trip to amplify and relay audio in the wearer's field of hearing. Meta's justification, that the premium tier reflects broader AI-infrastructure costs, sits awkwardly with a feature that does not obviously cross a server. The pricing is better understood as a calibration exercise: how much will glasses users accept as a monthly charge, and for what category of feature?</p>
+
+  <p>The commercial logic underneath that question is worth stating directly. Ray-Ban smart glasses are priced between $299 and $499 — at those volumes, likely below long-run unit margin. The hardware has functioned as customer acquisition. Meta One Premium is the first explicit proposal for what the revenue side of that platform model looks like. Three hours of Conversation Focus a month is enough to establish the habit; fifteen hours is enough to depend on it. A $19.99 monthly charge on a base of several million Ray-Ban users is a different-category revenue line from glasses hardware margin — if users accept it.</p>
+
+  <p>The competitive landscape has no direct analogue yet. Samsung's Galaxy Glasses, with Unpacked set for 22 July, are structured around a four-device Galaxy ecosystem lock-in; no subscription has been announced. Google's Android XR tier does not have a disclosed subscription model, though Gemini Advanced ($19.99/month, notable coincidence of price) is already adjacent in the Android ecosystem. Apple has not released smart glasses. Meta is establishing the category norm before the others have a product to defend.</p>
+
+  <p>The subscription's narrowness — one feature, accessibility-adjacent, with a generous free tier — makes it legible as a test rather than a strategy. The more consequential question is whether this is a proof-of-concept for a subscription relationship with glasses users broadly, or a feature-specific charge that will never generalise. That distinction matters because the platform that secures the recurring software relationship first, across a daily-use feature, has a different kind of leverage than the one that sells better hardware.</p>
+
+  <!-- Angelo's Angle -->
+  <div class="angle-box">
+    <div class="angle-label">Angelo's Angle</div>
+    <p>Samsung's Unpacked is twelve days away. Before it arrives, settle this for yourself: is Meta One Premium a subscription <em>for a feature</em>, or evidence that glasses users will accept a recurring software charge at all? The gap matters. If it is the latter, the platform that captures daily willingness-to-pay first owns the subscription relationship — and the others will follow within eighteen months. Which of Samsung, Google, and Apple is best-positioned to build the feature most likely to clear that bar, given that Meta has the installed base, Google has the AI integration depth, Samsung has the ecosystem binding, and Apple has a decade of services margin precedent? Write a paragraph with a view. See if it survives Unpacked.</p>
+  </div>
+
+  <!-- On the Radar -->
+  <hr class="rule" />
+  <h3>On the Radar</h3>
+  <ul class="radar-list">
+    <li>
+      <span class="radar-date">15 Jul</span>
+      <span>Android XR Catalyst partner notifications — Google confirms which developers receive early-access hardware and platform support.</span>
+    </li>
+    <li>
+      <span class="radar-date">22 Jul</span>
+      <span>Samsung Galaxy Glasses Unpacked — pricing, ecosystem requirements, and whether a software subscription model is announced.</span>
+    </li>
+  </ul>
+
+  <!-- Footer -->
+  <div class="footer">
+    Frontier Intelligence · Edition 37 · Friday, 10 July 2026<br />
+    A personal briefing for Angelo Gunther · XR · BCI · Spatial Computing · Neurotech
+  </div>
+
+</div>
+</body>
+</html>

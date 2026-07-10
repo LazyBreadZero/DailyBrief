@@ -1712,6 +1712,50 @@ Which of Samsung's three named enterprise use cases — healthcare, retail, manu
 
 ---
 
+## Edition 37 — Friday, 10 July 2026
+
+### Lead Story
+**Title:** Meta puts a price on smart glasses software, pricing Conversation Focus at $19.99 a month
+**Category:** Platforms & Product
+**Core argument:** Meta One Premium ($19.99/month), launched 2 July, introduces the first software subscription in the consumer AI glasses market. Conversation Focus (on-device audio amplification) is limited to 3h/month on the free tier, 15h/month on Premium; core AI assistant features remain free. The subscription's logic — pricing a feature that runs on-device without a cloud round-trip — is better understood as a test of whether glasses users will accept a recurring charge than as a reflection of marginal server cost. Hardware at $299–$499 has been customer-acquisition pricing; this is the first explicit proposal for what the revenue line looks like. Samsung (Unpacked July 22), Google, and Apple have no announced subscription models. Meta is establishing the category norm before the others have a product to defend.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** Smart glasses software subscription (first in the consumer AI glasses category; hardware as customer acquisition, software subscription as the revenue line); on-device subscription paradox (recurring charge for a feature that runs without cloud compute; pricing logic reveals a willingness-to-pay test rather than a marginal-cost signal)
+**Sources used:** Meta (9/10): https://about.meta.com/technologies/ray-ban-meta-smart-glasses/ ; 9to5Google (7/10): https://9to5google.com/2026/07/02/meta-one-premium-ray-ban-glasses-subscription/ ; UploadVR (7/10): https://uploadvr.com/meta-one-premium-subscription-ray-ban-smart-glasses/
+**Follow-up threads to watch:** Meta One Premium subscriber uptake (if/when disclosed); Samsung Unpacked July 22 — whether a subscription model is announced alongside Galaxy Glasses; Google and Apple subscription responses (if any)
+
+### Further items (if any)
+None. A quiet news day outside the Meta subscription story.
+
+### New concepts in Angelo's working vocabulary
+- **Smart glasses software subscription** — the first recurring-revenue model in the consumer AI glasses category; hardware priced as customer acquisition, software subscription as the emerging revenue line; established by Meta One Premium, launched 2 July 2026
+- **On-device subscription paradox** — a recurring charge for a feature that does not require cloud compute; the pricing logic is a test of user willingness-to-pay for access, not a reflection of marginal server cost
+
+### Provocation(s) posed this edition
+- Before Samsung's Unpacked on 22 July, settle this: is Meta One Premium a subscription for a feature, or evidence that glasses users will accept a recurring software charge at all? Write a paragraph with a view. See if it survives Unpacked. The platform that captures daily willingness-to-pay first owns the subscription relationship — and which of Samsung, Google, and Apple is best-positioned to build the feature most likely to clear that bar, given that Meta has the installed base, Google has AI integration depth, Samsung has ecosystem binding, and Apple has a decade of services margin precedent?
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, **37 editions**; no update
+- OpenAI device — confirmed February 2027; middleware cross-platform in public beta; no update
+- Android XR Catalyst Programme — notifications due 15 July; applications closed 30 June; no update
+- Snap Specs — ~$2,195; stock at 12-month low; no update since Ed 18
+- XREAL AURA — fall 2026 Wave 1 (US/UK/Canada/South Korea/Japan); Best Buy confirmed; no update
+- Synchron pivotal trial — enrollment under way at US sites; no official press release; no update
+- Samsung Galaxy Glasses / Unpacked — 22 July London; four-device ecosystem binding confirmed; Snapdragon AR1 confirmed; no update
+- Samsung Galaxy XR headset — UK fulfilment under way at £1,699; Germany/France undated; no update
+- BCI implant census (~150 people, Vansteensel) — no update
+- Neuracle STAR Market IPO — no update since filing
+- EU AI Act Digital Omnibus — Council adopted 29 June; Official Journal publication pending; no update
+- Connecticut neural-data privacy law — in effect 1 July 2026; no enforcement action; no update
+- Caltech decoder-dynamics finding — no commercial BCI response yet; no update
+- Apple smart glasses engineering leadership — Paul Meade at OpenAI; no successor named; no update
+- **NEW (Ed 37):** Meta One Premium subscription — $19.99/month; 15h/month Conversation Focus (vs. 3h free); core AI assistant features remain free; launched 2 July 2026; subscriber uptake not yet disclosed; Samsung/Google/Apple subscription responses not announced
+
+### Thinking Ledger update
+- **New position: the audio glasses business model now has three named architectures.** (New, Ed 37.) Hardware margin (both Meta and Samsung price near or at cost); hardware-ecosystem lock (Samsung's four-device binding, no subscription announced); and software subscription (Meta One Premium, $19.99/month, first mover). Meta's subscription is the first data point on whether recurring software revenue is viable at the consumer AI glasses tier. The July 22 Samsung Unpacked is now a three-question read: hardware specs, ecosystem integration depth, and whether Samsung announces a subscription or defends hardware-ecosystem binding as its alternative revenue model.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1752,6 +1796,7 @@ Which of Samsung's three named enterprise use cases — healthcare, retail, manu
 - **Samsung's Galaxy XR enterprise update signals a bifurcated commercial strategy within Samsung's own XR line.** (New, Ed 34.) Knox, zero-touch enrollment, and a five-year update commitment arrived before the UK market opened — on a separate schedule, not in response to US launch reviews. If the Galaxy XR headset's primary commercial target is enterprise IT, the Galaxy Glasses (consumer fashion, four-device binding, ~$400 target) represents a different commercial bet within the same company's 2026 XR line. The "hardware ecosystem binding" position from Ed 32 assumed the four-device stack as Samsung's single answer to the platform question; it may need a consumer vs. enterprise axis added.
 - **Galaxy Glasses' AR1 chip confirms the audio glasses market is platform-not-silicon.** (New, Ed 35.) Samsung and Meta chose the same Snapdragon AR1; the chip cannot differentiate them. Differentiation in the audio-glasses race is software (Gemini vs. Meta AI), distribution (Samsung retail vs. EssilorLuxottica), and hardware-ecosystem binding (Samsung's four-device stack, bounded by the intersection of buyers who own all four). "Android XR" now covers three architecturally distinct products — Galaxy XR (spatial), XREAL Aura (display AR), Galaxy Glasses (audio-only) — under one platform label. The constraint from Ed 32 holds: the four-device binding strategy's market size is bounded by buyers who own all four Samsung devices.
 - **UK day-one coverage split confirms Samsung's bifurcated strategy generates two coherent market narratives simultaneously.** (New, Ed 36.) T3 watched the World Cup; Expert Reviews and Neowin led with the IT dashboard. Neither narrative is wrong. The unresolved question is not which story is true but which buyer converts — and enterprise fleet orders vs. consumer purchase receipts will answer it before Germany and France even receive a release date. The Catalyst notifications on 15 July add the developer-ecosystem read: if the developer cohort is enterprise-skewed, the enterprise story has depth; if consumer-skewed, T3's read is the one that predicts the market.
+- **The audio glasses business model now has three named architectures: hardware margin, hardware-ecosystem lock, and software subscription.** (New, Ed 37.) Meta One Premium ($19.99/month, launched 2 July) is the first software subscription in the consumer AI glasses market — hardware priced as customer acquisition, software subscription as the revenue line. Samsung's four-device binding (no subscription announced) is the alternative architecture. Google and Apple have not entered with a dedicated glasses subscription. Whether recurring software charges are viable at the glasses tier will be answered by Meta's own subscriber uptake numbers; whether Samsung follows is the question for 22 July Unpacked.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1811,6 +1856,7 @@ Which of Samsung's three named enterprise use cases — healthcare, retail, manu
 | 34 | 6 Jul 2026 | Samsung Galaxy XR UK launch — enterprise-ready (Knox, zero-touch enrollment, 5-year updates); Germany/France undated | Android XR Catalyst notifications July 15 | None new | Which European enterprise buyer — CIO, IT director, healthcare/training/manufacturing lead — is the key conversation before Galaxy Glasses Unpacked July 22 |
 | 35 | 7 Jul 2026 | Galaxy Glasses confirmed on Snapdragon AR1 (same chip as Meta Ray-Ban); XREAL Aura $1,500 ceiling; three-tier Android XR stack complete | XREAL Aura $1,500 / Best Buy / Founder Passes sold out; Catalyst notifications July 15; Galaxy XR UK July 8 | None new | Name Gemini's differentiation in a display-free, audio-only frame before 22 July Unpacked — and verify whether it's already in the spec sheet |
 | 36 | 8 Jul 2026 | Samsung Galaxy XR UK Day 1 — enterprise pitch vs. entertainment first impression | UK fulfilment begins today at £1,699; improved software (year of patches); enterprise package confirmed (Knox, zero-touch, 5-year updates); first-day UK media split (T3 = World Cup; Expert Reviews/Neowin = enterprise); Catalyst notifications July 15; Unpacked July 22 | None new | Which of Samsung's three enterprise use cases (healthcare/retail/manufacturing) has a named European institutional pilot with deployment numbers? |
+| 37 | 10 Jul 2026 | Meta One Premium — first smart glasses software subscription ($19.99/month, Conversation Focus 15h/month) | Meta One Premium launched 2 July; Conversation Focus 3h free / 15h Premium; core AI features remain free; on-device feature behind a recurring charge; Catalyst notifications July 15; Galaxy Glasses Unpacked July 22 | None new | Is Meta One Premium a subscription for a feature, or evidence glasses users will accept a recurring software charge? Write a paragraph with a view before Unpacked. |
 
 ---
-*Last updated: Edition 36 — 8 July 2026*
+*Last updated: Edition 37 — 10 July 2026*

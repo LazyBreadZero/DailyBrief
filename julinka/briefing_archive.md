@@ -1458,6 +1458,56 @@ None new this edition.
 
 ---
 
+## Edition 34 — Friday, 10 July 2026
+
+### Lead Story
+**Title:** The EU authorises the first whole-food mycelium ingredient, and The Protein Brewery raises €18M to bring it to market
+**Pillar:** Food Science & Venture Capital
+**Core argument:** The European Commission on 17 June adopted the implementing regulation authorising Rhizomucor pusillus mycelium (Fermotein) as a novel food — the first whole-fungal mycelium body cleared under EU Novel Foods Regulation 2015/2283. The Protein Brewery (Breda, Netherlands) then closed a €18M Series B extension (ABN AMRO Sustainable Impact Fund leading; Invest-NL, Novo Holdings, Madeli, Brabant Development Agency returning), bringing the Series B to €48.2M and total funding past €70M. EU commercial launch targeted Q3 2026; facility scaling from 600 MT/year toward 2,500 MT. Novo Holdings' return in the extension signals confidence in the longevity and active-nutrition clinical investment the company is now funding alongside the commercial launch — the regulatory moat is set; the clinical layer is what determines whether Fermotein enters the therapeutic-nutrition category or stays in ingredients.
+**Key entities introduced:** ABN AMRO Sustainable Impact Fund (new investor in this round); The Protein Brewery, Fermotein, Novo Holdings, Invest-NL introduced from Ed 4
+**Key concepts introduced:** Whole-food mycelium authorization (first EU Novel Foods approval of intact mycelium body, not an isolate or extract; covers protein powders, bars, dairy alternatives, meat analogues, supplements); clinical-vs-regulatory moat (authorization = cleared for sale; clinical data on longevity/satiety/metabolic endpoints = what determines therapeutic-nutrition category)
+**Sources used:** The Protein Brewery (9/10): https://www.theproteinbrewery.nl/news/fermotein-eu-authorization ; FoodNavigator (8/10): https://www.foodnavigator.com/Article/2026/06/25/fermotein-eu-novel-food-authorization ; EFSA (10/10): https://www.efsa.europa.eu/en/efsajournal/pub/9214 ; The Protein Brewery Series B extension (9/10): https://www.theproteinbrewery.nl/news/series-b-extension ; Sifted (7/10): https://sifted.eu/articles/the-protein-brewery-series-b-extension
+**Angle delivered:** Request Protein Brewery longevity/active-nutrition clinical research pipeline — specific endpoints and trial partners — before Q3 EU launch establishes new valuation floor; map Novo Holdings complementary portfolio bets in longevity nutrition for co-investment signal.
+**Follow-up threads to watch:** Protein Brewery EU Q3 launch — first named retailer or food manufacturer placing an order; longevity/active-nutrition clinical trial publication; FDA GRAS clearance status (noted setback in recent research); any expansion of authorized product categories
+
+### Further items
+**Title:** SRUK Carbon Registry Launches — Indonesia's Dual-Credentialing Model Now Live
+**Pillar:** Nature Finance
+**Core argument:** SRUK launched formally on 9 July with a ministerial ceremony. The 30M tonne REDD+ issuance from 6 July is now registered and tradeable. First-week price spread between dual-credentialled (Verra + SRUK) and SRUK-only credits is the governance credibility number.
+**Source:** Reuters (9/10): https://www.reuters.com/sustainability/indonesia-carbon-registry-sruk-launch-2026-07-09/
+**Follow-up thread:** Katingan spot vs. SRUK reference price through week one; aggregator capacity for SRUK-registered volume; Singapore-Indonesia Article 6 bilateral as COP17 template
+
+**Title:** Stenon Raises €18M Series B for Real-Time Soil Nitrogen Analysis
+**Pillar:** Nature & Food / Venture Capital
+**Core argument:** Stenon (Germany) closed €18M Series B on 1 July, led by Pymwymic; DeepTech & Climate Fonds and TIME Ventures (Marc Benioff) participating. FarmLab provides real-time spectroscopic soil and nitrogen analysis; trial data shows 20–40% reduction in synthetic nitrogen fertilizer with a 2–8% yield increase. Soil health, precision agriculture, and food-production efficiency converging into a single investable commercial category.
+**Sources:** Stenon (9/10): https://www.stenon.io/press/series-b ; Sifted (7/10)
+**Follow-up thread:** Commercial adoption rate in Europe; Pymwymic cross-portfolio overlap with Calm/Storm's nature mandate
+
+### New concepts in Julinka's working vocabulary
+- **Whole-food mycelium authorization** — EU Novel Foods first for an intact mycelium body (Rhizomucor pusillus/Fermotein), as distinct from an isolate or extract; June 17, 2026 Commission Implementing Regulation
+- **Clinical-vs-regulatory moat** — the distinction between novel-food authorization (cleared for sale in a jurisdiction) and clinical evidence of health endpoints (longevity, satiety, metabolic markers); the second layer determines whether an ingredient enters the therapeutic-nutrition market or stays in commodity ingredients
+
+### Running-thread tracker
+- **Fermotein EU Novel Food approval — CLOSED (Ed 34):** Commission Implementing Regulation adopted June 17, 2026; Rhizomucor pusillus mycelium authorized; Protein Brewery closes €18M extension; EU launch Q3 2026; thread retired — next state change is longevity clinical data or named retailer/manufacturer order
+- **SRUK — MOVED (Ed 34):** Registry launched July 9; 30M REDD+ tonnes now tradeable; dual-credentialing model live; watch Katingan spot vs. SRUK reference price through week one
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20, auction July 28; no movement
+- Formo IFT FIRST Chicago — July 13–16, Booth ST81; FDA GRAS active review; no movement
+- EU nature-credits technical criteria — still overdue from mid-2026 mandate; no update
+- EU Biotech Act II — Q3 2026 publication; no update
+- Yield Lab Europe Fund 2 — €25M EIF toward €100M target; no movement
+- Ingredion/Tate & Lyle takeover — court sanction and antitrust clearance pending; no movement
+- New Forests GLO fund — targeting $707m; no movement
+- Every/Huvepharma capacity expansion — no movement
+- Nestlé/Helaina infant-nutrition partnership — no movement
+- Astral Systems first close — £23m; no movement
+- Alan/Prosus Series G — regulatory approvals pending; no movement
+- Lactalis/Nutri-Score CJEU referral — referred 25 June 2026; judgment 18–24 months; no movement
+- Louvre infrastructure/funding crisis — no movement
+- Singapore-Indonesia bilateral carbon credit partnership — advancing; no update
+- **NEW (Ed 34):** Stenon €18M Series B (Pymwymic, DTCF, TIME Ventures) — real-time soil/nitrogen analysis; watch commercial adoption rate in Europe and Pymwymic cross-portfolio overlap with Calm/Storm mandate
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1495,6 +1545,7 @@ None new this edition.
 | 31 | 6 Jul 2026 | Indonesia 30M+ tonne REDD+ issuance; SRUK launches 9 July | — | None new | Track Katingan spot vs. SRUK reference price through 9 July as governance credibility number |
 | 32 | 7 Jul 2026 | Finland state-backed voluntary nature credits framework (state criteria + national registrar); London Old Masters $102M — tech buyers entering | Finnish Government, Ministry of Environment, Artnet News, ARTnews | Finnish Ministry of Environment (as governance authority); three-lineage EU taxonomy | Use Finland's three-lineage taxonomy for Calm/Storm biodiversity diligence; track SRUK-vs-Verra spread from 9 July as governance-architecture premium number |
 | 33 | 8 Jul 2026 | Indonesia issues 30M tonne REDD+ forestry credits (6 July); SRUK launches tomorrow (9 July) | ANTARA News, Argus Media, Carbon Herald (lead); Formo/vegconomist (further) | None new | Map Indonesia credit-aggregation layer for EU buyers before SRUK opens; write Formo casein functional-performance spec before IFT FIRST coverage floods |
+| 34 | 10 Jul 2026 | Fermotein EU Novel Food approval (first whole-food mycelium, June 17); Protein Brewery €18M Series B extension (ABN AMRO Sustainable Impact Fund) | SRUK launched July 9 (further); Stenon €18M Series B — Pymwymic/DTCF/TIME Ventures (further) | ABN AMRO Sustainable Impact Fund | Request Protein Brewery's longevity clinical research pipeline before Q3 EU launch sets new valuation floor; map Novo Holdings' complementary portfolio bets in longevity nutrition |
 
 ---
-*Last updated: Edition 33 — 8 July 2026*
+*Last updated: Edition 34 — 10 July 2026*
