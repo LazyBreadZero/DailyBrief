@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Friday, 10 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;0,9..144,900;1,9..144,700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 18px; }
+  body {
+    background: #FBF9F3;
+    color: #1F1B16;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 1rem;
+    line-height: 1.72;
+    padding: 0;
+  }
+  .page { max-width: 740px; margin: 0 auto; padding: 44px 28px 80px; }
+
+  /* Nameplate */
+  .nameplate {
+    text-align: center;
+    padding-bottom: 16px;
+  }
+  .pub-eyebrow {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #A8761A;
+    margin-bottom: 8px;
+  }
+  .pub-name {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 3.4rem;
+    font-weight: 900;
+    color: #1F1B16;
+    letter-spacing: -1.5px;
+    line-height: 1;
+  }
+  .pub-tag {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-size: 0.82rem;
+    color: #4A4036;
+    margin-top: 7px;
+  }
+
+  /* Gingham rule */
+  .gingham-rule {
+    height: 6px;
+    background: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #F4E8C9 6px, #F4E8C9 12px
+    );
+    border-radius: 2px;
+    margin: 14px 0 0;
+  }
+
+  /* Dateline */
+  .dateline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D8CDB8;
+    padding: 8px 0;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 0.68rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #4A4036;
+    margin-bottom: 38px;
+  }
+  .dateline .ed {
+    font-weight: 600;
+    color: #A8761A;
+  }
+
+  /* Lead kicker */
+  .kicker {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #A8761A;
+    margin-bottom: 10px;
+  }
+
+  /* Headlines */
+  h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #1F1B16;
+    line-height: 1.15;
+    margin-bottom: 16px;
+  }
+  h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1F1B16;
+    margin: 38px 0 10px;
+    border-top: 2px solid #E7B43A;
+    padding-top: 20px;
+  }
+  h3 {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8761A;
+    margin: 32px 0 10px;
+  }
+
+  /* Body */
+  p { margin-bottom: 1.1em; }
+  p:last-child { margin-bottom: 0; }
+  strong { font-weight: 600; }
+
+  /* Rules */
+  .rule { border: none; border-top: 1px solid #D8CDB8; margin: 30px 0; }
+
+  /* Source badges */
+  .source-badge {
+    display: inline-block;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 0.64rem;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 3px;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+
+  /* Highlight block (pale gold) */
+  .highlight-block {
+    background: #F4E8C9;
+    border-radius: 6px;
+    padding: 18px 22px;
+    margin: 22px 0;
+    font-size: 0.94rem;
+    color: #3A2E1A;
+    line-height: 1.6;
+  }
+  .highlight-block strong { color: #A8761A; }
+
+  /* Julinka's Angle box */
+  .angle-box {
+    background: #211C16;
+    border-radius: 8px;
+    padding: 26px 28px;
+    margin: 36px 0;
+  }
+  .angle-box .angle-label {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #E7B43A;
+    margin-bottom: 14px;
+  }
+  .angle-box .angle-move {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 16px;
+    align-items: flex-start;
+  }
+  .angle-box .angle-move:last-child { margin-bottom: 0; }
+  .angle-box .angle-num {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #E7B43A;
+    min-width: 20px;
+    line-height: 1.5;
+    flex-shrink: 0;
+  }
+  .angle-box .angle-text {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.9rem;
+    color: #D8CDB8;
+    line-height: 1.6;
+  }
+
+  /* Further items */
+  .further-item {
+    padding: 18px 0;
+    border-bottom: 1px solid #E8DCC8;
+  }
+  .further-item:last-child { border-bottom: none; }
+  .further-kicker {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8761A;
+    margin-bottom: 6px;
+  }
+  .further-item p {
+    font-size: 0.92rem;
+    line-height: 1.65;
+    color: #4A4036;
+    margin-bottom: 0;
+  }
+
+  /* On the Radar */
+  .radar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .radar-list li {
+    font-size: 0.9rem;
+    padding: 7px 0;
+    border-bottom: 1px solid #E8DCC8;
+    display: flex;
+    gap: 14px;
+    align-items: baseline;
+    color: #4A4036;
+  }
+  .radar-list li:last-child { border-bottom: none; }
+  .radar-date {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 0.66rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #A8761A;
+    white-space: nowrap;
+    min-width: 68px;
+  }
+
+  /* Footer */
+  .footer {
+    border-top: 2px solid #E7B43A;
+    margin-top: 52px;
+    padding-top: 18px;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 0.68rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #928775;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    html { font-size: 16px; }
+    .page { padding: 28px 18px 60px; }
+    .pub-name { font-size: 2.5rem; }
+    h1 { font-size: 1.65rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Nameplate -->
+  <div class="nameplate">
+    <div class="pub-eyebrow">Your Morning Brief · Friday, 10 July 2026</div>
+    <div class="pub-name">Appetite</div>
+    <div class="pub-tag">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+  <div class="gingham-rule"></div>
+
+  <!-- Dateline -->
+  <div class="dateline">
+    <span class="ed">Edition 34</span>
+    <span>Venture · Food · Art · Nature</span>
+  </div>
+
+  <!-- Lead -->
+  <div class="kicker">Today's Lead · Food Science &amp; Venture Capital</div>
+  <h1>The EU authorises the first whole-food mycelium ingredient, and The Protein Brewery raises €18M to bring it to market</h1>
+
+  <p>The European Commission on 17 June issued the implementing regulation authorising <strong>Rhizomucor pusillus</strong> mycelium as a novel food under EU Regulation 2015/2283 — the first time a whole-body fungal mycelium has been cleared for sale in European food products.
+  <a href="https://www.theproteinbrewery.nl/news/fermotein-eu-authorization" target="_blank" rel="noopener" class="source-badge badge-green">The Protein Brewery ↗ 9/10</a>
+  <a href="https://www.foodnavigator.com/Article/2026/06/25/fermotein-eu-novel-food-authorization" target="_blank" rel="noopener" class="source-badge badge-green">FoodNavigator ↗ 8/10</a></p>
+
+  <p>The authorization covers <strong>Fermotein</strong>, produced by the Dutch company <strong>The Protein Brewery</strong>. Unlike mycelium protein isolates or extracted fungal concentrates — already in the market — Fermotein is the intact mycelium body: 35–40% complete protein, high in dietary fiber, beta-glucans, and natural umami compounds. The permitted applications span protein powders, nutrition bars, dairy alternatives, meat analogues, and food supplements. The company's Breda facility runs at 600 metric tonnes a year; commercial scale target is 2,500 MT.</p>
+
+  <p>The regulatory sequence is worth noting: EFSA issued its positive safety opinion in December 2025; the EU Standing Committee ratified it in May 2026; the Commission adopted the implementing regulation in June. The approval took roughly three years from dossier submission. It is also not the first jurisdiction: Fermotein holds novel-food status in Singapore and a GRAS determination in the United States. The EU authorization opens the largest regulated food market it did not yet have.
+  <a href="https://www.efsa.europa.eu/en/efsajournal/pub/9214" target="_blank" rel="noopener" class="source-badge badge-green">EFSA ↗ 10/10</a></p>
+
+  <p>Two weeks after the authorization, The Protein Brewery closed a <strong>€18M Series B extension</strong>, led by <strong>ABN AMRO Sustainable Impact Fund</strong>, with <strong>Invest-NL</strong>, <strong>Novo Holdings</strong>, Madeli, and Brabant Development Agency returning. The extension brings the Series B to €48.2M and total funding past €70M. The stated use of proceeds is the EU commercial launch (Q3 2026), investment in active-nutrition and longevity clinical research, and scale-up toward the 2,500 MT production target.
+  <a href="https://www.theproteinbrewery.nl/news/series-b-extension" target="_blank" rel="noopener" class="source-badge badge-green">The Protein Brewery ↗ 9/10</a>
+  <a href="https://sifted.eu/articles/the-protein-brewery-series-b-extension" target="_blank" rel="noopener" class="source-badge badge-amber">Sifted ↗ 7/10</a></p>
+
+  <div class="highlight-block">
+    <strong>Why the investor structure matters:</strong> Novo Holdings — the investment arm of the Novo Nordisk Foundation, one of Europe's largest endowments — is returning in the extension. Novo's health mandate and the longevity/active-nutrition research The Protein Brewery is now funding suggest the next investment story here is clinical, not just regulatory. The FDA GRAS status and the EU authorization are the regulatory moat; what clinical data emerges on protein quality, satiety, and longevity biomarkers will determine whether Fermotein enters the therapeutic-nutrition market or stays in the food-ingredients tier.
+  </div>
+
+  <!-- Julinka's Angle -->
+  <div class="angle-box">
+    <div class="angle-label">Julinka's Angle</div>
+    <div class="angle-move">
+      <div class="angle-num">1</div>
+      <div class="angle-text">The Protein Brewery is raising growth capital for an EU launch in the next quarter. Before the launch establishes a new valuation floor, request their longevity and active-nutrition clinical research pipeline — specifically what endpoints they're targeting and which trial partners they're using. Calm/Storm's prevention thesis needs the clinical science, not just the regulatory clearance. The question to answer: does Fermotein have a clinical profile that puts it in the functional-nutrition category, or is it still a commodity-protein ingredient competing on cost per gram?</div>
+    </div>
+    <div class="angle-move">
+      <div class="angle-num">2</div>
+      <div class="angle-text">Novo Holdings returned in this round. That signals confidence in the health story, not just the food-tech one. Map which other Novo portfolio companies intersect with Fermotein's target applications — if Novo is building a complementary bet in longevity nutrition, the co-investment logic may point to where the commercial pipeline is heading, and whom to meet at the intersection.</div>
+    </div>
+  </div>
+
+  <!-- Further items -->
+  <hr class="rule" />
+  <h3>Further</h3>
+
+  <div class="further-item">
+    <div class="further-kicker">Nature · Carbon Finance</div>
+    <p><strong>Indonesia's national carbon registry, SRUK, launched formally on 9 July</strong> with a ministerial ceremony in Jakarta. The 30 million tonnes of REDD+ forestry credits issued on 6 July across three PBPH concession holders are now tradeable on the primary market. The dual-credentialing model — Verra or Gold Standard standards permitted alongside SRUK — was designed to reassure international buyers accustomed to established verification bodies. The first-week price data is the governance test: a tight spread between SRUK-only and dual-credentialled credits signals that buyers accept the registry's standalone authority; a wide spread signals they do not. Projects currently trading around $5.8B projected green investment remain at the demonstration stage; whether institutional buyers follow is what the next few weeks will reveal.
+    <a href="https://www.reuters.com/sustainability/indonesia-carbon-registry-sruk-launch-2026-07-09/" target="_blank" rel="noopener" class="source-badge badge-green">Reuters ↗ 9/10</a></p>
+  </div>
+
+  <div class="further-item">
+    <div class="further-kicker">Nature &amp; Food · Venture Capital</div>
+    <p><strong>Stenon raised €18M in a Series B</strong> (1 July), led by impact specialist <strong>Pymwymic</strong>, with DeepTech &amp; Climate Fonds (DTCF) and Marc Benioff's <strong>TIME Ventures</strong> participating. Stenon's FarmLab platform provides real-time soil and nitrogen analysis using near-infrared spectroscopy, without lab delay, and its trial data shows a 20–40% reduction in synthetic nitrogen fertilizer application with a 2–8% yield increase. The round is notable for what it demonstrates about nature-finance investor appetite: Pymwymic's portfolio already spans food, agriculture, and biodiversity; TIME Ventures signals US capital following European precision-agriculture impact. Stenon sits where soil health, food production efficiency, and nature restoration overlap — three separate investment narratives that are becoming one commercial category.
+    <a href="https://sifted.eu/articles/stenon-series-b-2026" target="_blank" rel="noopener" class="source-badge badge-amber">Sifted ↗ 7/10</a>
+    <a href="https://www.stenon.io/press/series-b" target="_blank" rel="noopener" class="source-badge badge-green">Stenon ↗ 9/10</a></p>
+  </div>
+
+  <!-- On the Radar -->
+  <hr class="rule" />
+  <h3>On the Radar</h3>
+  <ul class="radar-list">
+    <li>
+      <span class="radar-date">13–16 Jul</span>
+      <span>IFT FIRST, Chicago — Formo presenting fermentation-derived dairy; FDA GRAS review active.</span>
+    </li>
+    <li>
+      <span class="radar-date">20 Jul</span>
+      <span>UPSIDE/Believer Meats auction — initial bids due; stalking horse bid from Believer's consortium.</span>
+    </li>
+    <li>
+      <span class="radar-date">28 Jul</span>
+      <span>UPSIDE/Believer Meats — auction date.</span>
+    </li>
+  </ul>
+
+  <!-- Footer -->
+  <div class="footer">
+    Appetite · Edition 34 · Friday, 10 July 2026<br />
+    A personal briefing for Julinka Naomi Waesche · Venture · Food · Art · Nature
+  </div>
+
+</div>
+</body>
+</html>
