@@ -1458,6 +1458,46 @@ None new this edition.
 
 ---
 
+## Edition 34 — Saturday, 11 July 2026
+
+### Lead Story
+**Title:** South Korea's FoodTech Law Creates the Regulatory Sandbox the EU Just Refused to Build
+**Pillar:** Food Regulation × Policy
+**Core argument:** South Korea published its "1st Basic Plan for Fostering the FoodTech Industry" on 6 July — the first dedicated statutory FoodTech framework globally. Budget: 81bn KRW (~€56m) in 2026, rising to 100bn KRW by 2027. The structural news is the regulatory sandbox: it explicitly permits the upcycling of food processing byproducts into novel food ingredients under regulator-observed conditions — the same iterative, pre-dossier mechanism the EU Biotech Act I introduced in December 2025 but then excluded novel foods from. GFI and EuropaBio's correction ask (Biotech Act II, Q3 2026) remains unresolved. Korea has now built the instrument Brussels has not. The sandbox covers cultivated meat, precision fermentation, and upcycled ingredients — the three pathways at the centre of European alt-protein funding. Korea's strategic logic is export-oriented (state-as-commercial-accelerator, FoodTech as the successor to hallyu and functional food exports), not purely domestic food-safety regulation.
+**Key entities introduced:** Korea Ministry of Agriculture, Food and Rural Affairs (MAFRA); Korea FoodTech Master Plan
+**Key concepts introduced:** FoodTech statutory sandbox (Korea) — state-authorised iterative testing of upcycled and novel food ingredients before formal dossier submission; first such instrument globally in food regulation; contrast with EU Biotech Act I which expanded EFSA guidance but excluded novel foods from its sandbox mechanism
+**Sources used:** Korea MAFRA (9/10): https://www.mafra.go.kr/english ; AgFunderNews (7/10): https://agfundernews.com
+**Follow-up threads to watch:** EU Biotech Act II Q3 2026 publication — whether novel foods are included; any European fermentation company announcing a Korean commercialisation pilot alongside EU dossier work; Korea FoodTech export facilitation agreements with EU-market importers
+
+### Further items
+**Indonesia SRUK live (9 July) — governance-architecture pricing data not yet published (Nature Finance, ongoing):** SRUK opened on schedule 9 July. The 30M-tonne REDD+ forestry credits issued 6 July are registered. The spread between SRUK-registered and Verra-certified Katingan Mentaya credits has not been published in verifiable form as of this edition. When it appears (Argus Media, Fastmarkets, Ecobiz pricing data), it is the first numerical answer to what institutional buyers pay for sovereign-registry vs. third-party-certified governance architecture — the LP-conversation data point tracked since Edition 31.
+
+### New concepts in Julinka's working vocabulary
+- **FoodTech statutory sandbox (Korea)** — iterative, state-supervised product testing for novel food ingredients (including upcycled byproducts) before formal regulatory dossier commitment; first such globally statutory instrument; contrast: EU Biotech Act I sandbox does not cover novel foods; EU Biotech Act II is the designated correction window
+
+### Julinka's Angles Issued
+- Before Biotech Act II publishes (Q3): ask each waste-stream/upcycling pipeline company: does your EU commercialisation timeline assume sandbox inclusion? If yes, Korea's statutory sandbox is a named alternative jurisdiction for a commercial pilot — check for a Korean ingredient buyer already operating in the EU food-manufacturing supply chain. Companies to check: Pacifico, Standing Ovation, The Bland Company, MOA Foodtech.
+- Before IFT FIRST coverage floods (13 July): write the three functional performance benchmarks for Formo's precision-fermented casein (gel strength at pH 4.6, micellar fidelity under heat, slow-digestion kinetics vs. native bovine casein); meet all three = GRAS review is only barrier; meet two = weaker benchmark names the R&D risk to probe at the booth.
+
+### Running-thread tracker
+- **Indonesia REDD+ / SRUK — UPDATED (Ed 34):** SRUK live since 9 July; 30M tonne REDD+ credits registered; Katingan Mentaya / SRUK-registered vs. Verra-certified spread not yet published; watch Argus Media/Fastmarkets for first-week pricing data
+- **Formo IFT FIRST Chicago — 2 days out (Ed 34):** July 13–16, Booth ST81; FDA GRAS self-determination review active; no new developments; commercial debut imminent
+- UPSIDE Foods/Believer Meats auction — competing bids due 20 July; auction 28 July; no movement
+- EU nature-credits technical criteria — Finland framework live (Ed 32); EU criteria still overdue; no EU update
+- EU Biotech Act II — Q3 2026 publication; Korea FoodTech sandbox now a named statutory contrast; no EU update
+- Yield Lab Europe Fund 2 — €25M EIF toward €100M target; no movement
+- Ingredion/Tate & Lyle takeover — court sanction and antitrust clearance pending; no movement
+- New Forests GLO fund — targeting $707m; no movement
+- Every/Huvepharma capacity expansion — no movement
+- Nestlé/Helaina infant-nutrition partnership — no movement
+- Astral Systems first close — £23m; no movement
+- Alan/Prosus Series G — regulatory approvals pending; no movement
+- Lactalis/Nutri-Score CJEU referral — referred 25 June 2026; judgment 18–24 months; no movement
+- Louvre infrastructure/funding crisis — no movement
+- Singapore-Indonesia bilateral carbon credit partnership — advancing; watch for Article 6 formalisation
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1495,6 +1535,7 @@ None new this edition.
 | 31 | 6 Jul 2026 | Indonesia 30M+ tonne REDD+ issuance; SRUK launches 9 July | — | None new | Track Katingan spot vs. SRUK reference price through 9 July as governance credibility number |
 | 32 | 7 Jul 2026 | Finland state-backed voluntary nature credits framework (state criteria + national registrar); London Old Masters $102M — tech buyers entering | Finnish Government, Ministry of Environment, Artnet News, ARTnews | Finnish Ministry of Environment (as governance authority); three-lineage EU taxonomy | Use Finland's three-lineage taxonomy for Calm/Storm biodiversity diligence; track SRUK-vs-Verra spread from 9 July as governance-architecture premium number |
 | 33 | 8 Jul 2026 | Indonesia issues 30M tonne REDD+ forestry credits (6 July); SRUK launches tomorrow (9 July) | ANTARA News, Argus Media, Carbon Herald (lead); Formo/vegconomist (further) | None new | Map Indonesia credit-aggregation layer for EU buyers before SRUK opens; write Formo casein functional-performance spec before IFT FIRST coverage floods |
+| 34 | 11 Jul 2026 | South Korea's FoodTech statutory sandbox — the instrument the EU just refused to build | Korea MAFRA 1st FoodTech Basic Plan (81bn KRW 2026, sandbox for upcycled novel foods); SRUK live 9 July (no price spread yet); Formo IFT FIRST in 2 days | Korea MAFRA; Korea FoodTech Master Plan | Ask pipeline companies: does EU timeline assume Biotech Act II sandbox inclusion? Korea offers a named statutory alternative. Before IFT FIRST: write Formo's three functional-performance benchmarks |
 
 ---
-*Last updated: Edition 33 — 8 July 2026*
+*Last updated: Edition 34 — 11 July 2026*

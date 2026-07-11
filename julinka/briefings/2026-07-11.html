@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Saturday, 11 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .further-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .further-item { padding-left: 16px; border-left: 2px solid #E7B43A; margin-bottom: 22px; }
+  .further-item p { font-size: 16px; line-height: 1.65; margin-bottom: 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .radar-block { margin-top: 36px; border-top: 1px solid #E5DAC4; padding-top: 22px; }
+  .radar-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .radar-item { font-family: 'DM Sans', sans-serif; font-size: 14px; line-height: 1.6; color: #4A4036; margin-bottom: 8px; }
+  .radar-item:last-child { margin-bottom: 0; }
+  .radar-date { font-weight: 600; color: #1F1B16; }
+  .footer { padding: 32px 52px 0; border-top: 1px solid #E5DAC4; font-family: 'DM Sans', sans-serif; font-size: 11px; color: #928775; text-align: center; letter-spacing: 0.4px; margin-top: 36px; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Saturday, 11 July 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 34</span>
+    <span class="dateline-right">Food Regulation &middot; Nature Finance</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Food Regulation</div>
+    <h1 class="lead-headline">South Korea&rsquo;s FoodTech law creates the regulatory sandbox the EU just refused to build</h1>
+
+    <p>South Korea published its &ldquo;1st Basic Plan for Fostering the FoodTech Industry&rdquo; on 6 July &mdash; the first dedicated statutory framework for FoodTech anywhere. The plan commits 81 billion KRW (approximately &euro;56 million) in 2026, rising to 100 billion KRW by 2027, across R&amp;D, commercialisation infrastructure, and a regulatory sandbox. The sandbox is the structural news: it explicitly permits the upcycling of food processing byproducts into novel food ingredients under regulator-observed conditions &mdash; the same iterative, pre-dossier mechanism the EU Biotech Act I introduced in December 2025 and then, under GFI and EuropaBio pressure, was found to have excluded novel foods from entirely.
+    <a href="https://www.mafra.go.kr/english" target="_blank" class="source-badge badge-green">Korea MAFRA 9/10</a>
+    <a href="https://agfundernews.com" target="_blank" class="source-badge badge-amber">AgFunderNews 7/10</a></p>
+
+    <p>The contrast with the EU is precise, not rhetorical. The EU Biotech Act I expanded pre-submission EFSA technical guidance &mdash; a genuine improvement &mdash; but the sandbox mechanism itself, which allows iterative product testing before formal dossier commitment, does not apply to novel foods. Biotech Act II, expected Q3 2026, is the designated correction window; GFI and EuropaBio have named novel-food sandbox inclusion as the specific ask. Korea has now built the instrument Brussels has not. A precision fermentation company or waste-stream ingredient startup that can service a Korean retail or ingredient buyer today faces a materially shorter regulatory path than a European-only commercialisation sequence.</p>
+
+    <p>Korea&rsquo;s strategic intent reads clearly in the plan&rsquo;s structure: FoodTech is treated as an export-ready industrial category, not a domestic food-safety matter. The sandbox covers cultivated meat, precision fermentation, and upcycled ingredients &mdash; the three production pathways at the centre of European alt-protein funding &mdash; and pairs them with dedicated commercialisation support, including export facilitation. That is not an accident: K-food&rsquo;s global expansion over the past decade was built on the same state-as-commercial-accelerator logic, applied first to hallyu and then to functional food exports. FoodTech is the next category in that sequence.</p>
+
+    <hr class="divider"/>
+    <div class="further-label">Further</div>
+
+    <div class="further-item">
+      <p><strong>SRUK is live &mdash; the governance test has started, but the pricing data has not yet arrived.</strong> Indonesia&rsquo;s national carbon registry (SRUK) opened on schedule on 9 July. The 30 million tonnes of REDD+ forestry credits issued on 6 July are now registered. The spread between SRUK-registered credits and Verra-certified Katingan Mentaya credits &mdash; the governance-architecture premium number tracked since Edition 31 &mdash; has not been published in verifiable form as of this morning. When it appears in Argus Media, Fastmarkets, or Ecobiz pricing data, it is the first numerical answer to what institutional buyers will pay for a sovereign registry versus a third-party standard. That number matters for LP conversations about any nature-finance deal where governance architecture is a stated diligence criterion.
+      <a href="https://www.argusmedia.com" target="_blank" class="source-badge badge-green">Argus Media 9/10</a></p>
+    </div>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <span class="angle-num">1</span>
+        <span class="angle-move-text">Before Biotech Act II publishes (Q3 2026), ask each Calm/Storm pipeline company whose EU commercialisation thesis rests on a waste-stream or upcycling ingredient pathway one question: does your timeline assume the EU sandbox will cover you? The answer tells you whether the company is running on a regulation that exists (EU Biotech Act I expanded EFSA guidance &mdash; real, slower) or one that is still being negotiated (Biotech Act II sandbox inclusion &mdash; named as the correction but not yet law). If the answer is &ldquo;yes, we need the sandbox,&rdquo; Korea&rsquo;s statutory framework is now a named alternative jurisdiction for a commercial pilot. That does not require a full Korea market entry: it requires identifying one Korean ingredient buyer or distributor already operating in the EU food-manufacturing supply chain. Pacifico, Standing Ovation, The Bland Company, and MOA Foodtech are the four companies in the waste-stream cluster worth checking first.</span>
+      </div>
+      <div class="angle-move">
+        <span class="angle-num">2</span>
+        <span class="angle-move-text">Formo&rsquo;s IFT FIRST commercial debut opens in two days (13&ndash;16 July, Chicago, Booth ST81). Before the floor coverage floods on Monday, write the three functional performance numbers that define whether precision-fermented casein is commercially decisive for a dairy-free cheese manufacturer: gel strength at pH 4.6 (acid-curd texture benchmark), micellar fidelity under heat (melt specification for food-service), and slow-digestion kinetics against native bovine casein (satiety claim for functional food positioning). Your ETH fermentation training gives you these benchmarks before the marketing narrative arrives. If Formo&rsquo;s published or presented data meets all three, the GRAS review is the only remaining barrier; if it meets two, the weaker benchmark names the R&amp;D risk to probe at the booth.</span>
+      </div>
+    </div>
+
+    <div class="radar-block">
+      <div class="radar-label">On the Radar</div>
+      <div class="radar-item"><span class="radar-date">13&ndash;16 July</span> &mdash; IFT FIRST, Chicago (Booth ST81); Formo precision-fermented casein commercial debut for US ingredient buyers. FDA GRAS self-determination review active.</div>
+      <div class="radar-item"><span class="radar-date">20 July</span> &mdash; Competing bids deadline in UPSIDE Foods&rsquo; $50M stalking-horse bid for Believer Meats&rsquo; Wilson, NC facility.</div>
+      <div class="radar-item"><span class="radar-date">28 July</span> &mdash; Believer Meats auction.</div>
+      <div class="radar-item"><span class="radar-date">Q3 2026</span> &mdash; EU Biotech Act II publication. Whether novel foods are named as a covered category is the single most consequential EU food-regulatory question for the fermentation pipeline.</div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <strong style="color:#1F1B16;">APPETITE</strong> &middot; Edition 34 &middot; Saturday, 11 July 2026<br/>
+    A personal briefing for Julinka Naomi Waesche &middot; Venture &middot; Food &middot; Art &middot; Nature
+  </div>
+</div>
+</body>
+</html>
