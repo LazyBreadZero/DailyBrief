@@ -1712,6 +1712,48 @@ Which of Samsung's three named enterprise use cases — healthcare, retail, manu
 
 ---
 
+## Edition 37 — Saturday, 11 July 2026
+
+### Lead Story
+**Title:** Samsung Galaxy Glasses pair with iPhones — and the ecosystem-lock thesis needs revising before Unpacked
+**Category:** Platforms & Product · Smart Glasses
+**Core argument:** Google confirmed at I/O 2026 that Galaxy Glasses will pair with iPhones as well as Android phones when they launch at Samsung Unpacked in London on July 22. iOS users get the full Gemini AI assistant experience; Samsung-ecosystem users additionally get Ring gesture control and Watch integration. The four-device stack delivers incremental features, not a gated product. This collapses the constraint identified in Ed 32: the hardware-ecosystem-binding strategy's market size was bounded by buyers who own all four Samsung devices simultaneously. The addressable market is now cross-platform-first — anyone with a $400 budget and a phone — with ecosystem depth as an upgrade tier, not an entry requirement. The competitive frame shifts to the Meta Ray-Ban contest: two cross-platform, AI-first, fashion-forward audio glasses in the $299–$499 band; Gemini vs. Meta AI; Gentle Monster/Warby Parker vs. EssilorLuxottica; identical Snapdragon AR1 underneath. The battle resolves at AI quality, brand, and retail presence — not ecosystem architecture.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** Cross-platform-first audio glasses — iOS compatibility means the market is not bounded by the four-device Samsung stack; ecosystem depth becomes an upgrade tier, not a gated entry requirement
+**Sources used:** VR.org (7/10): https://vr.org/articles/galaxy-unpacked-july-22-galaxy-glasses-android-xr-developer-watch-2026 ; Samsung Newsroom UK (9/10): https://news.samsung.com/uk/samsung-galaxy-xr-arrives-in-the-uk
+**Follow-up threads to watch:** Unpacked keynote July 22 — companion app simultaneous Play Store/App Store launch; Android XR SDK update same week; Galaxy Glasses sample project day of event; Catalyst notifications July 15
+
+### Further items
+**Galaxy XR UK Explorer Pack — £665 of Google software in the box (Platforms & Product, July 10):** Every Galaxy XR sold in the UK ships with an Explorer Pack worth £665 in subscriptions (Google AI Pro, YouTube Premium, Google Play Pass, Project Pulsar by Adobe, Calm Premium) through October 2027. The bundle is Google's mechanism for establishing Gemini as the default AI habit before Samsung, Microsoft, or third-party middleware can build a competing position. Android XR is a platform play; the Explorer Pack is Google's bid to win the AI-layer contest at point-of-sale, not in the app store after purchase.
+
+### New concepts in Angelo's working vocabulary
+- **Cross-platform-first audio glasses** — Galaxy Glasses pair with iPhone (full Gemini experience) as well as Android (adds Ring/Watch integration); ecosystem depth is now an upgrade tier, not a gated entry requirement; the bounded-market constraint from Ed 32 no longer holds
+
+### Provocation
+The four-device ecosystem-binding position said Samsung's market size was bounded by buyers who own a Galaxy Ring, Galaxy Watch, Galaxy Phone, and Galaxy Glasses simultaneously. The iOS confirmation collapses that constraint: Galaxy Glasses are a cross-platform product with an ecosystem-depth tier for loyalists. Before July 22, write one sentence identifying the durable thing Samsung owns in the Galaxy Glasses bet that a competing Android XR partner, making the same glasses on the same chip with the same AI, could not replicate.
+
+### Running-thread tracker
+- Science Corp CE mark — still pending, **37 editions**; no update
+- OpenAI device — confirmed February 2027; middleware in public beta; no update
+- Android XR Catalyst Programme — notifications due 15 July; no update
+- Snap Specs — ~$2,195; no update since Ed 18
+- XREAL AURA — fall 2026 Wave 1; Europe Wave 2 undated; no update
+- Synchron pivotal trial — enrollment under way; no update
+- **Samsung Galaxy Glasses / Unpacked — MOVED (Ed 37):** iOS compatibility confirmed (full Gemini); four-device binding is an upgrade tier, not entry requirement; three developer signals to watch July 22 (companion app dual-store launch, Android XR SDK update same week, sample project day of event); price estimate $379–$499; Gentle Monster and Warby Parker frames
+- Samsung Galaxy XR headset (UK) — £1,699; enterprise package confirmed; Germany/France undated; no update since Ed 36
+- BCI implant census (~150 people, Vansteensel) — no update
+- Neuracle STAR Market IPO — no update since filing
+- EU AI Act Digital Omnibus — Council adopted 29 June; no update
+- Connecticut neural-data privacy law — in effect 1 July 2026; no enforcement action; no update
+- Caltech decoder-dynamics finding — no update
+- Apple smart glasses engineering leadership — Paul Meade at OpenAI; no successor named; no update
+
+### Thinking Ledger update
+- **iOS compatibility collapses the Ed 32 hardware-ecosystem-binding constraint (new, Ed 37):** The bounded-market thesis from Ed 32 held that Samsung's Galaxy Glasses strategy was limited to buyers who own all four devices (Ring, Watch, Phone, Glasses). iOS confirmation removes that intersection: full Gemini experience on iPhone. Samsung's proprietary position reduces to distribution (retail partnerships with Gentle Monster and Warby Parker), design execution, and the Unpacked machine. Gemini is Google's; Android XR is Google's; the chip is Qualcomm's. Whether distribution alone is a durable moat against a competing Android XR partner with the same chip and AI is the open question — testable July 22 onward.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1752,6 +1794,7 @@ Which of Samsung's three named enterprise use cases — healthcare, retail, manu
 - **Samsung's Galaxy XR enterprise update signals a bifurcated commercial strategy within Samsung's own XR line.** (New, Ed 34.) Knox, zero-touch enrollment, and a five-year update commitment arrived before the UK market opened — on a separate schedule, not in response to US launch reviews. If the Galaxy XR headset's primary commercial target is enterprise IT, the Galaxy Glasses (consumer fashion, four-device binding, ~$400 target) represents a different commercial bet within the same company's 2026 XR line. The "hardware ecosystem binding" position from Ed 32 assumed the four-device stack as Samsung's single answer to the platform question; it may need a consumer vs. enterprise axis added.
 - **Galaxy Glasses' AR1 chip confirms the audio glasses market is platform-not-silicon.** (New, Ed 35.) Samsung and Meta chose the same Snapdragon AR1; the chip cannot differentiate them. Differentiation in the audio-glasses race is software (Gemini vs. Meta AI), distribution (Samsung retail vs. EssilorLuxottica), and hardware-ecosystem binding (Samsung's four-device stack, bounded by the intersection of buyers who own all four). "Android XR" now covers three architecturally distinct products — Galaxy XR (spatial), XREAL Aura (display AR), Galaxy Glasses (audio-only) — under one platform label. The constraint from Ed 32 holds: the four-device binding strategy's market size is bounded by buyers who own all four Samsung devices.
 - **UK day-one coverage split confirms Samsung's bifurcated strategy generates two coherent market narratives simultaneously.** (New, Ed 36.) T3 watched the World Cup; Expert Reviews and Neowin led with the IT dashboard. Neither narrative is wrong. The unresolved question is not which story is true but which buyer converts — and enterprise fleet orders vs. consumer purchase receipts will answer it before Germany and France even receive a release date. The Catalyst notifications on 15 July add the developer-ecosystem read: if the developer cohort is enterprise-skewed, the enterprise story has depth; if consumer-skewed, T3's read is the one that predicts the market.
+- **Samsung's Galaxy Glasses market is cross-platform-first; the Ed 32 hardware-ecosystem-binding constraint no longer bounds the addressable market.** (New, Ed 37.) Google's I/O 2026 confirmation of iPhone pairing means the market is anyone with $400 and a phone — not buyers who own all four Samsung devices simultaneously. The four-device binding remains, but as an upgrade tier: iOS users get full Gemini; Samsung-stack users add Ring gesture and Watch integration. Samsung's proprietary position, once the chip (Qualcomm), AI (Google), and OS (Google) are removed, is distribution (Gentle Monster, Warby Parker, Samsung retail) and design execution. Whether distribution alone constitutes a durable moat against a competing Android XR partner running the same hardware and AI is the open question before July 22 Unpacked.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1811,6 +1854,7 @@ Which of Samsung's three named enterprise use cases — healthcare, retail, manu
 | 34 | 6 Jul 2026 | Samsung Galaxy XR UK launch — enterprise-ready (Knox, zero-touch enrollment, 5-year updates); Germany/France undated | Android XR Catalyst notifications July 15 | None new | Which European enterprise buyer — CIO, IT director, healthcare/training/manufacturing lead — is the key conversation before Galaxy Glasses Unpacked July 22 |
 | 35 | 7 Jul 2026 | Galaxy Glasses confirmed on Snapdragon AR1 (same chip as Meta Ray-Ban); XREAL Aura $1,500 ceiling; three-tier Android XR stack complete | XREAL Aura $1,500 / Best Buy / Founder Passes sold out; Catalyst notifications July 15; Galaxy XR UK July 8 | None new | Name Gemini's differentiation in a display-free, audio-only frame before 22 July Unpacked — and verify whether it's already in the spec sheet |
 | 36 | 8 Jul 2026 | Samsung Galaxy XR UK Day 1 — enterprise pitch vs. entertainment first impression | UK fulfilment begins today at £1,699; improved software (year of patches); enterprise package confirmed (Knox, zero-touch, 5-year updates); first-day UK media split (T3 = World Cup; Expert Reviews/Neowin = enterprise); Catalyst notifications July 15; Unpacked July 22 | None new | Which of Samsung's three enterprise use cases (healthcare/retail/manufacturing) has a named European institutional pilot with deployment numbers? |
+| 37 | 11 Jul 2026 | Galaxy Glasses × iOS — cross-platform-first; Ed 32 ecosystem-binding thesis revised | Galaxy Glasses iOS compatibility (full Gemini on iPhone); four-device binding becomes upgrade tier; Explorer Pack £665 Google software at point-of-sale; three developer signals to watch July 22 | None new | Write one sentence on what Samsung durably owns in the Galaxy Glasses bet that a competing Android XR partner couldn't replicate — before July 22 |
 
 ---
-*Last updated: Edition 36 — 8 July 2026*
+*Last updated: Edition 37 — 11 July 2026*
