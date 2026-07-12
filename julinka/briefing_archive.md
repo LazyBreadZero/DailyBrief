@@ -1458,6 +1458,46 @@ None new this edition.
 
 ---
 
+## EDITION 34 — Sunday, 12 July 2026
+
+### Lead Story
+**Title:** The Protein Brewery Closes an €18 Million Series B Extension on the Back of the EU's First Novel Food Approval for a Whole-Mycelium Ingredient
+**Pillar:** Food Science & Venture Capital
+**Core argument:** The Protein Brewery closed an €18m extension to its Series B at end of June, bringing the round to €48.2m and cumulative funding past €70m, led by ABN AMRO Sustainable Impact Fund with Novo Holdings returning. The trigger was EU Novel Food authorisation for Fermotein (Rhizomucor pusillus) — the first whole-mycelium ingredient to clear Regulation (EU) 2015/2283. EU commercial launch targeted post-summer 2026; US FDA GRAS not yet cleared.
+**Key entities introduced:** ABN AMRO Sustainable Impact Fund, Invest-NL, Madeli, Brabant Development Agency (new co-investors in the extension)
+**Key concepts introduced:** None new (EU Novel Food pathway, whole-mycelium vs. isolated-extract distinction already in vocabulary)
+**Sources used:** FoodBev (9/10): https://www.foodbev.com/news/the-protein-brewery-closes-18m-series-b-extension-following-landmark-eu-novel-food-approval ; NutraIngredients (9/10): https://www.nutraingredients.com/Article/2026/06/30/the-protein-brewery-raises-482m-in-series-b-funding-sets-sights-on-active-nutrition-and-longevity/ ; Green Queen (8/10): https://www.greenqueen.com.hk/the-protein-brewery-series-b-funding-fermotein-mycoprotein-eu-launch/ ; AgFunder News (9/10): https://agfundernews.com/the-protein-brewery-says-fda-gras-setback-wont-derail-us-plans-as-it-raises-20-5m-series-b-extension
+**Angle delivered:** Contact Protein Brewery commercial team on ingredient pricing and minimum order volumes in active-nutrition channel before post-summer EU launch; track Katingan SRUK vs. Verra price spread for governance-architecture premium signal
+**Follow-up threads to watch:** Post-summer EU commercial launch and first named food manufacturer trial; US FDA GRAS resolution; Novo Holdings longevity/clinical research programme milestones; Canada/Australia-NZ/India filing progress
+
+### Further items
+**Indonesia SRUK launched July 9; Katingan Mentaya returns with dual AA ratings (Nature Finance):** SRUK live as planned; Katingan Mentaya 20M tonnes (2021–2023 monitoring period) dual-credentialed under Verra VCS + CCBS and SRUK, with AA from both BeZero Carbon and Sylvera. First-week SRUK vs. Verra price spread not yet confirmed in public data. Sources: Ecobiz Asia (8/10): https://ecobiz.asia/katingan-mentaya-project-returns-to-carbon-market-with-20-million-high-rated-carbon-credits/ ; ANTARA (8/10): https://en.antaranews.com/news/422063/indonesia-launches-carbon-registry-to-accelerate-carbon-trading. Follow-up: first published Katingan SRUK-only vs. dual-credentialed price spread (Argus Media, Carbon Pulse).
+**EC Protein Action Plan July 7 — 35% domestic protein target, fermentation without dedicated funding (Food Policy):** Commission plan targets 35% EU protein from domestically grown crops within a decade; fermentation not a named funded category. Dutch coalition (Mosa Meat, Protein Brewery, Vivici, Those Vegan Cowboys) filed IPCEI letter requesting minimum €200M for biobased food and feed. Sources: FoodBev (9/10): https://www.foodbev.com/news/european-commission-publishes-protein-action-plan-and-livestock-strategy-to-boost-resilience ; Green Queen (8/10). Follow-up: Biotech Act II and IPCEI response.
+
+### New concepts in Julinka's working vocabulary
+None new this edition
+
+### Running-thread tracker
+- **Fermotein EU Novel Food + Protein Brewery Series B extension — MOVED (Ed 34):** €18M extension closed end June; total Series B €48.2M; cumulative >€70M; EU Novel Food approval for Fermotein confirmed; EU launch post-summer 2026; US FDA GRAS not yet cleared; watch for first named EU food manufacturer trial and Novo Holdings clinical programme announcement
+- **Indonesia REDD+ / SRUK — MOVED (Ed 34):** SRUK live as of 9 July; Katingan Mentaya 20M tonnes in market with dual AA from BeZero Carbon and Sylvera; first-week SRUK vs. Verra price spread not yet public; watch Argus Media and Carbon Pulse
+- **Formo IFT FIRST** — starts tomorrow July 13; Booth ST81; GRAS self-affirmation active; watch for named food manufacturer evaluation announcements post-show
+- UPSIDE Foods/Believer Meats auction — competing bids due July 20; auction July 28; no movement this edition
+- EU nature-credits technical criteria — still overdue from mid-2026 mandate; no update
+- EU Biotech Act II — Q3 2026 publication; no update
+- Yield Lab Europe Fund 2 — €25M EIF toward €100M target; no movement
+- Ingredion/Tate & Lyle takeover — court sanction and antitrust clearance pending; no movement
+- New Forests GLO fund — targeting $707M; no movement
+- Every/Huvepharma capacity expansion — no movement
+- Nestlé/Helaina infant-nutrition partnership — no movement
+- Astral Systems first close — £23M; no movement
+- Alan/Prosus Series G — regulatory approvals pending; no movement
+- Lactalis/Nutri-Score CJEU referral — referred 25 June 2026; judgment 18–24 months; no movement
+- Louvre infrastructure/funding crisis — no movement
+- Singapore-Indonesia bilateral carbon credit partnership — advancing; watch for Article 6 formalisation
+- EC Protein Action Plan (new, Ed 34) — published 7 July; Dutch IPCEI €200M request filed; watch for Biotech Act II outcome and IPCEI mechanism activation
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1495,6 +1535,7 @@ None new this edition.
 | 31 | 6 Jul 2026 | Indonesia 30M+ tonne REDD+ issuance; SRUK launches 9 July | — | None new | Track Katingan spot vs. SRUK reference price through 9 July as governance credibility number |
 | 32 | 7 Jul 2026 | Finland state-backed voluntary nature credits framework (state criteria + national registrar); London Old Masters $102M — tech buyers entering | Finnish Government, Ministry of Environment, Artnet News, ARTnews | Finnish Ministry of Environment (as governance authority); three-lineage EU taxonomy | Use Finland's three-lineage taxonomy for Calm/Storm biodiversity diligence; track SRUK-vs-Verra spread from 9 July as governance-architecture premium number |
 | 33 | 8 Jul 2026 | Indonesia issues 30M tonne REDD+ forestry credits (6 July); SRUK launches tomorrow (9 July) | ANTARA News, Argus Media, Carbon Herald (lead); Formo/vegconomist (further) | None new | Map Indonesia credit-aggregation layer for EU buyers before SRUK opens; write Formo casein functional-performance spec before IFT FIRST coverage floods |
+| 34 | 12 Jul 2026 | Protein Brewery Fermotein EU Novel Food approval + €18M Series B extension (first whole-mycelium clearance in EU) | SRUK live July 9; Katingan Mentaya dual AA from BeZero+Sylvera; EC Protein Action Plan July 7 with no fermentation funding | ABN AMRO Sustainable Impact Fund, Invest-NL, Madeli, Brabant Development Agency | Contact Protein Brewery on ingredient pricing before post-summer EU launch; track Katingan SRUK vs. Verra spread as governance-architecture premium |
 
 ---
-*Last updated: Edition 33 — 8 July 2026*
+*Last updated: Edition 34 — 12 July 2026*

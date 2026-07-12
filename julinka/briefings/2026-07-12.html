@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Sunday, 12 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .further-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .further-item { padding-left: 16px; border-left: 2px solid #E7B43A; margin-bottom: 22px; }
+  .further-item p { font-size: 16px; line-height: 1.65; margin-bottom: 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .radar-block { margin-top: 36px; border-top: 1px solid #E5DAC4; padding-top: 22px; }
+  .radar-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .radar-item { font-family: 'DM Sans', sans-serif; font-size: 14px; line-height: 1.6; color: #4A4036; margin-bottom: 8px; }
+  .radar-item:last-child { margin-bottom: 0; }
+  .radar-date { font-weight: 600; color: #1F1B16; }
+  .footer { padding: 32px 52px 0; border-top: 1px solid #E5DAC4; font-family: 'DM Sans', sans-serif; font-size: 11px; color: #928775; text-align: center; letter-spacing: 0.4px; margin-top: 36px; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Sunday, 12 July 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 34</span>
+    <span class="dateline-right">Food Science &middot; Nature Finance</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Food Science &amp; Venture Capital</div>
+    <h1 class="lead-headline">The Protein Brewery Closes an &euro;18 Million Series B Extension on the Back of the EU&rsquo;s First Novel Food Approval for a Whole-Mycelium Ingredient</h1>
+
+    <p>The Protein Brewery, a Netherlands-based biomass fermentation company, closed an &euro;18 million extension to its Series B at the end of June, bringing the round to &euro;48.2 million and cumulative funding past &euro;70 million. The extension was led by ABN AMRO Sustainable Impact Fund with Novo Holdings, Invest-NL, Madeli, and Brabant Development Agency co-investing. Novo Holdings had joined the original &euro;30 million tranche in June, making this a double-down from a life-sciences funder with a specific preventive-health and longevity thesis on the ingredient.
+    <a href="https://www.foodbev.com/news/the-protein-brewery-closes-18m-series-b-extension-following-landmark-eu-novel-food-approval" target="_blank" class="source-badge badge-green">FoodBev 9/10</a>
+    <a href="https://www.nutraingredients.com/Article/2026/06/30/the-protein-brewery-raises-482m-in-series-b-funding-sets-sights-on-active-nutrition-and-longevity/" target="_blank" class="source-badge badge-green">NutraIngredients 9/10</a></p>
+
+    <p>The trigger for the extension was a regulatory milestone the company had been working toward for years: EU Novel Food approval for Fermotein. Fermotein is a whole-food mycoprotein ingredient derived from <em>Rhizomucor pusillus</em>, a filamentous fungus in the Mucoromycota phylum, containing approximately 50% protein (complete essential amino acid profile) and 30% dietary fibre. It is the first whole-mycelium ingredient to receive EU Novel Food authorisation under Regulation (EU) 2015/2283 &mdash; the regulatory threshold that clears an ingredient for commercial sale to food manufacturers across the European Single Market. Previous EU Novel Food clearances in the fermentation space had covered biomass fermentation products, but none at the whole-mycelium (intact fungal cell structure) level. The distinction matters for functionality: the intact cell wall carries the fibre fraction, which influences satiety signalling and glycaemic response independently of the protein content.
+    <a href="https://www.greenqueen.com.hk/the-protein-brewery-series-b-funding-fermotein-mycoprotein-eu-launch/" target="_blank" class="source-badge badge-green">Green Queen 8/10</a></p>
+
+    <p>Commercial launch in Europe is targeted for post-summer 2026. US 2026 production capacity is already sold to US customers. Priority channels in both markets are active nutrition &mdash; ready-to-drink protein powders, bars, functional beverages &mdash; followed by functional foods more broadly. A longevity and clinical research programme is planned as a second phase, which explains why Novo Holdings (whose food portfolio is strongly oriented toward functional nutrition and health-outcome claims) has now invested twice. The company has filed for regulatory recognition in Canada, Australia and New Zealand, and India; these are the secondary clocks behind the European launch.
+    <a href="https://agfundernews.com/the-protein-brewery-says-fda-gras-setback-wont-derail-us-plans-as-it-raises-20-5m-series-b-extension" target="_blank" class="source-badge badge-green">AgFunder News 9/10</a></p>
+
+    <p>The FDA GRAS pathway for Fermotein in the United States has not been completed; AgFunder reported a setback on that front around the time of the close. The EU clearance therefore does the immediate commercial work, and the post-summer European launch is the commercial inflection point to watch. For the EU biomass fermentation investment thesis, Fermotein&rsquo;s Novel Food approval is the first confirmed regulatory exit on a whole-mycelium ingredient. It answers the question that has sat under every biomass fermentation deal in the past three years: <em>can a structurally complex fungal ingredient clear EFSA?</em> It can. The follow-on question is how long it takes the next dossier to reach the same outcome, and whether the approval narrows the genus-species range EFSA will consider or opens it.</p>
+
+    <hr class="divider"/>
+    <div class="further-label">Further</div>
+
+    <div class="further-item">
+      <p><strong>Indonesia&rsquo;s carbon registry opened on 9 July; Katingan Mentaya returned to market with dual AA ratings from BeZero Carbon and Sylvera.</strong> SRUK (Sistem Registrasi Karbon Nasional) began live operations as planned following the 30-million-tonne forestry credit issuance on 6 July. Among the credits now circulating: 20 million tonnes from the Katingan Mentaya REDD+ project covering the 2021&ndash;2023 monitoring period, dual-certified under Verra VCS, Climate, Community and Biodiversity Standard, and now also SRUK-registered. BeZero Carbon and Sylvera have each assigned an AA rating to the project, the highest integrity tier both agencies apply. The pricing gap between SRUK-registered-only and dual-credentialed credits is the governance-architecture premium in a live number; Argus Media and Carbon Pulse are the right outlets to watch for it this week. The figure did not appear in public data before this edition went to press.
+      <a href="https://ecobiz.asia/katingan-mentaya-project-returns-to-carbon-market-with-20-million-high-rated-carbon-credits/" target="_blank" class="source-badge badge-green">Ecobiz Asia 8/10</a>
+      <a href="https://en.antaranews.com/news/422063/indonesia-launches-carbon-registry-to-accelerate-carbon-trading" target="_blank" class="source-badge badge-green">ANTARA 8/10</a></p>
+    </div>
+
+    <div class="further-item">
+      <p><strong>The European Commission published a Protein Action Plan on 7 July with a 35% domestic protein target and no dedicated fermentation funding.</strong> The Commission&rsquo;s plan targets sourcing 35% of EU protein from domestically grown oilseeds and protein crops within a decade, with EU Giant Leaps &mdash; a 35-member, 17-country, &euro;10.3 million Horizon Europe project &mdash; as the stated implementation vehicle. Precision fermentation and biomass fermentation are not named as funded categories in the plan. The same week, a coalition of Dutch alt-protein companies including Mosa Meat, The Protein Brewery, Vivici, and Those Vegan Cowboys published an open letter urging the government to deploy a minimum &euro;200 million through the EU&rsquo;s IPCEI (Important Project of Common European Interest) mechanism for biobased food and feed. IPCEI is the relevant instrument: it unlocks state-aid exemptions and allows coordinated national co-funding at a scale well above any individual R&amp;D grant programme. The Protein Action Plan sets the decade&rsquo;s ambition; the IPCEI push is the attempt to attach capital to it before Biotech Act II closes the Q3 2026 legislative window.
+      <a href="https://www.foodbev.com/news/european-commission-publishes-protein-action-plan-and-livestock-strategy-to-boost-resilience" target="_blank" class="source-badge badge-green">FoodBev 9/10</a>
+      <a href="https://www.greenqueen.com.hk/ipcei-netherlands-biobased-food-and-feed-ingredients-alternative-protein-funding/" target="_blank" class="source-badge badge-green">Green Queen 8/10</a></p>
+    </div>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <span class="angle-num">1</span>
+        <span class="angle-move-text">Fermotein is the first EU Novel Food clearance for a whole-mycelium ingredient, with a commercial European launch set for after the summer. Before that launch, contact The Protein Brewery&rsquo;s commercial team and ask for the ingredient pricing structure and minimum order volume for the active-nutrition channel. Novo Holdings invested twice; the longevity and clinical research roadmap is named. The commercial question for any Calm/Storm portfolio company in RTD protein or functional food is not whether Fermotein works &mdash; EFSA answered that &mdash; but whether it works at a price a food manufacturer will pay relative to pea protein concentrate or yeast biomass. Get the number before the autumn launch generates its own narrative.</span>
+      </div>
+      <div class="angle-move">
+        <span class="angle-num">2</span>
+        <span class="angle-move-text">The Katingan Mentaya AA-from-both-BeZero-and-Sylvera stack is the integrity benchmark for Indonesian REDD+ credits this week. Watch Argus Media and Carbon Pulse for the first published spread between SRUK-registered-only credits and dual-credentialed credits from the same project. If the spread is positive and sustained, SRUK registration adds real market value on top of Verra; if it collapses to zero, dual-credentialing is a label, not a price signal. That number is the diligence floor for any Calm/Storm portfolio company or LP with Indonesian REDD+ exposure, and it is only observable in the first week of live SRUK trading.</span>
+      </div>
+    </div>
+
+    <div class="radar-block">
+      <div class="radar-label">On the Radar</div>
+      <div class="radar-item"><span class="radar-date">13&ndash;16 July</span> &mdash; IFT FIRST, McCormick Place, Chicago (Booth ST81); Formo&rsquo;s precision-fermented casein commercial debut for US ingredient buyers. Watch for any named food manufacturer announcing evaluation trials after the show.</div>
+      <div class="radar-item"><span class="radar-date">20 July</span> &mdash; UPSIDE Foods/Believer Meats competing-bid deadline; minimum qualifying bid $52.25m. First indication of whether any non-UPSIDE buyer &mdash; strategic food corporate or infrastructure fund &mdash; has entered the auction.</div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <strong style="color:#1F1B16;">APPETITE</strong> &middot; Edition 34 &middot; Sunday, 12 July 2026<br/>
+    A personal briefing for Julinka Naomi Waesche &middot; Venture &middot; Food &middot; Art &middot; Nature
+  </div>
+
+</div>
+</body>
+</html>
