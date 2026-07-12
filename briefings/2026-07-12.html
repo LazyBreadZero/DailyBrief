@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Frontier Intelligence — Sunday, 12 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"/>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #E6E2D6; font-family: 'Source Serif 4', Georgia, serif; color: #1a1a1a; }
+  .page { max-width: 700px; margin: 40px auto; background: #FAF8F2; border: 1px solid #ddd6c6; }
+  .accent-bar { height: 6px; background: #8B1A1A; }
+  .masthead { padding: 32px 48px 12px; border-bottom: 3px solid #1a1a1a; }
+  .masthead-label { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #888; }
+  .masthead-title { font-family: 'Playfair Display', Georgia, serif; font-size: 48px; font-weight: 700; color: #1a1a1a; line-height: 1; margin-top: 6px; }
+  .dateline { padding: 8px 48px; border-bottom: 1px solid #ddd6c6; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #8B1A1A; font-weight: bold; }
+  .dateline-right { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #666; }
+  .content { padding: 36px 48px 48px; }
+  .kicker { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #8B1A1A; font-weight: bold; margin-bottom: 10px; }
+  h1 { font-family: 'Playfair Display', Georgia, serif; font-size: 28px; font-weight: 700; line-height: 1.2; margin-bottom: 14px; }
+  h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 22px; font-weight: 700; line-height: 1.25; margin-bottom: 12px; }
+  p { font-size: 16px; line-height: 1.65; margin-bottom: 16px; }
+  .rule { border: none; border-top: 1px solid #ddd6c6; margin: 28px 0; }
+  .section-label { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #8B1A1A; font-weight: bold; margin-bottom: 14px; }
+  .further-item { padding-left: 16px; border-left: 2px solid #8B1A1A; margin-bottom: 24px; }
+  .further-item p { margin-bottom: 8px; }
+  .further-item p:last-child { margin-bottom: 0; }
+  .angle-block { background: #1a1a1a; color: #d8d4cc; padding: 24px 28px; margin-top: 32px; border-radius: 3px; }
+  .angle-label { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #8B1A1A; font-weight: bold; margin-bottom: 10px; }
+  .angle-block p { color: #d8d4cc; font-size: 15px; line-height: 1.65; margin-bottom: 12px; }
+  .angle-block p:last-child { margin-bottom: 0; }
+  .radar-block { margin-top: 28px; padding: 18px 22px; border: 1px solid #ddd6c6; border-radius: 3px; }
+  .radar-label { font-family: Arial, sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #8B1A1A; font-weight: bold; margin-bottom: 10px; }
+  .radar-item { font-size: 14px; line-height: 1.5; color: #333; margin-bottom: 6px; font-family: Arial, sans-serif; }
+  .radar-item:last-child { margin-bottom: 0; }
+  .radar-date { font-weight: bold; color: #1a1a1a; }
+  .source-badge { display: inline-block; font-family: Arial, sans-serif; font-size: 10px; padding: 2px 6px; border-radius: 2px; font-weight: bold; text-decoration: none; margin-left: 4px; }
+  .badge-green { background: #E8F5EC; color: #1A5C2A; }
+  .badge-amber { background: #FFF3D6; color: #7A4A00; }
+  a { color: #8B1A1A; }
+  .footer { padding: 20px 48px 30px; border-top: 1px solid #ddd6c6; font-family: Arial, sans-serif; font-size: 10px; color: #999; text-align: center; letter-spacing: 0.5px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="accent-bar"></div>
+  <div class="masthead">
+    <div class="masthead-label">Personal Intelligence Briefing</div>
+    <div class="masthead-title">Frontier Intelligence</div>
+  </div>
+  <div class="dateline">
+    <div class="dateline-left">Edition 37 &middot; Sunday, 12 July 2026</div>
+    <div class="dateline-right">XR &middot; BCI &middot; Spatial Computing</div>
+  </div>
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Platforms &amp; Policy</div>
+    <h1>Meta Pushed a Firmware Update Killing Modified Ray-Ban Cameras. The FT Reports a Prototype That Does What Those Modifications Did.</h1>
+
+    <p>On 7 July, Meta distributed an over-the-air firmware update to Ray-Ban Meta smart glasses that targeted a specific class of user modifications: units whose camera hardware had been physically altered to defeat the privacy LED. The LED on Ray-Ban Meta is designed to illuminate when the camera is active; a community of hardware tinkerers had learned to remove or bypass it, allowing capture without the indicator. Meta&rsquo;s update detected the modification and disabled camera function on those units permanently. <a href="https://9to5google.com/2026/07/07/meta-ray-ban-modified-camera-firmware/" target="_blank" class="source-badge badge-green">9to5Google 8/10</a></p>
+
+    <p>Two days later, on 9 July, the <em>Financial Times</em> reported that Meta has an internal hardware prototype it calls &ldquo;super sensing.&rdquo; As described by people familiar with the project and corroborated by Fortune on 11 July, the device is a glasses-form-factor AI camera eyewear product engineered for always-on environmental capture. The LED is not a privacy safeguard on this prototype; it is not engaged during capture. The disclosure mechanism the Ray-Ban Meta provides &mdash; and the one the modders were defeating &mdash; is absent from the design rather than removed from a device that otherwise has it. <a href="https://fortune.com/2026/07/11/meta-super-sensing-glasses-prototype/" target="_blank" class="source-badge badge-green">Fortune 9/10</a></p>
+
+    <p>The two events read together are not contradictory: Meta&rsquo;s enforcement capacity over hardware modifications and its internal product roadmap are unrelated programmes at the company. But the structural relationship between them is worth stating plainly. Meta&rsquo;s firmware update demonstrates the company can detect physical alterations to its privacy architecture and neutralise them at the software layer. The &ldquo;super sensing&rdquo; prototype designs the privacy disclosure layer out of the capture sequence entirely, not as a modification but as the original architecture. The modders who removed the LED were building, without Meta&rsquo;s authorisation, a device that the company&rsquo;s own engineers are reportedly building with it.</p>
+
+    <p>The enforcement action establishes that Meta treats unauthorised circumvention of its privacy hardware as a terms violation serious enough to brick the camera. Whether the company would apply an equivalent standard to an internal product that achieves the same functional result through authorised design is a question regulators have not yet posed publicly. The three candidate enforcement bodies for privacy in camera-equipped AI eyewear &mdash; the EU AI Office under the AI Act&rsquo;s Annex III high-risk classification, the Federal Trade Commission, and state attorneys general under Connecticut&rsquo;s neural-data law &mdash; are each at a different posture: one deferred its enforcement clock by sixteen months, one is not moving on AI hardware, and one is enforcing a statute without yet naming a target.</p>
+
+    <hr class="rule"/>
+
+    <div class="kicker">Also</div>
+    <h2>Samsung Display Ends the G-VR Project, Closing the Near-Term Path to a Cheaper Vision Pro</h2>
+
+    <p>Samsung Display has terminated its G-VR micro-OLED panel project, according to The Elec, with formal programme closure scheduled for September 2026. G-VR was Samsung Display&rsquo;s development effort to produce a lower-cost micro-OLED panel that would supply a more affordable Apple Vision Pro successor. Micro-OLED&rsquo;s cost has been the primary hardware barrier between the Vision Pro&rsquo;s current price point and mass-market spatial computing: the displays account for a substantial fraction of the device&rsquo;s bill of materials, and a cheaper Samsung Display alternative would have opened a path Apple&rsquo;s own supply chain could not reach. <a href="https://www.macrumors.com/2026/07/08/samsung-display-cancels-g-vr-project/" target="_blank" class="source-badge badge-amber">MacRumors / The Elec 7/10</a></p>
+
+    <p>The cancellation forecloses a specific supply-chain option, not every option: Sony remains Apple&rsquo;s current micro-OLED supplier, and alternative display technologies including tandem OLED could reach a Vision Pro successor on a different timeline. But the G-VR termination is the clearest market signal yet that a Vision Pro at a materially lower price point is not arriving through the Samsung Display route in the 2026&ndash;2027 window. Samsung Galaxy Glasses &mdash; also confirmed for Snapdragon AR1 and launching at Unpacked on 22 July &mdash; takes a different approach to the price problem: audio-only, no display, targeting $379&ndash;$499. The two Samsung products represent two different bets on where the market resolves, being made within the same company the same month.</p>
+
+    <hr class="rule"/>
+
+    <div class="section-label">Further</div>
+
+    <div class="further-item">
+      <p><strong>Even Realities raises $150 million at a $1 billion valuation for camera-free smart glasses.</strong> The Beijing-based company closed a $150m round at a $1bn post-money valuation, backed by Tencent and Meituan, with CNBC reporting the deal on 6 July. Founder and CEO Will Wang was previously a hardware engineer on the Apple Watch and iPhone programmes. Even Realities&rsquo; glasses carry an AR display and audio capability but are architecturally camera-free by design &mdash; privacy through hardware omission rather than software policy or LED signalling. The round was announced in the same week that Meta&rsquo;s Ray-Ban modifications attracted firmware enforcement. That timing is coincidental; the investment thesis is not. A segment of buyers, at unicorn-validated scale, will pay for device-layer privacy rather than relying on whatever the software layer provides. <a href="https://www.cnbc.com/2026/07/06/even-realities-raises-150-million-at-1-billion-valuation.html" target="_blank" class="source-badge badge-green">CNBC 9/10</a></p>
+    </div>
+
+    <div class="angle-block">
+      <div class="angle-label">Angelo&rsquo;s Angle</div>
+      <p>Meta&rsquo;s firmware detected and disabled a hardware modification designed to suppress a single LED. The &ldquo;super sensing&rdquo; prototype, as reported, builds a device for which no LED suppression would be needed &mdash; the disclosure mechanism is not part of the capture architecture. The enforcement apparatus looks for the unauthorised removal of a feature. The prototype removes the requirement for that feature from the design specification.</p>
+      <p>The three regulatory candidates you have been tracking &mdash; EU AI Office, state AG, FDA &mdash; each have an enforcement posture, but the &ldquo;who can audit&rdquo; question was always asked against devices that have a capture event with a detectable signature. What is the audit target when the capture is continuous and the activation event is architecturally absent? Before the next enforcement announcement, settle this in your own notes: which body, under which existing legal authority, could require Meta to disclose the capture behaviour of a shipping consumer device that has no LED to trigger?</p>
+    </div>
+
+    <div class="radar-block">
+      <div class="radar-label">On the Radar</div>
+      <div class="radar-item"><span class="radar-date">15 July</span> &mdash; Android XR Developer Catalyst notifications; first public read on developer-ecosystem depth behind fall 2026 Android XR hardware.</div>
+      <div class="radar-item"><span class="radar-date">22 July</span> &mdash; Samsung Galaxy Unpacked, London; Galaxy Glasses formal reveal, pricing, and software differentiation claim versus Meta Ray-Ban on the same Snapdragon AR1 chip.</div>
+    </div>
+
+    <hr class="rule"/>
+    <p style="font-size:13px; color:#888; font-family:Arial,sans-serif;">Sources: <a href="https://9to5google.com/2026/07/07/meta-ray-ban-modified-camera-firmware/" target="_blank" class="source-badge badge-green">9to5Google 8/10</a> <a href="https://fortune.com/2026/07/11/meta-super-sensing-glasses-prototype/" target="_blank" class="source-badge badge-green">Fortune 9/10</a> <a href="https://www.macrumors.com/2026/07/08/samsung-display-cancels-g-vr-project/" target="_blank" class="source-badge badge-amber">MacRumors / The Elec 7/10</a> <a href="https://www.cnbc.com/2026/07/06/even-realities-raises-150-million-at-1-billion-valuation.html" target="_blank" class="source-badge badge-green">CNBC 9/10</a></p>
+
+  </div>
+  <div class="footer">
+    <strong style="color:#1a1a1a;">FRONTIER INTELLIGENCE</strong> &middot; Edition 37 &middot; Sunday, 12 July 2026<br/>
+    Personal briefing for Angelo Gunther &middot; XR &middot; BCI &middot; Spatial Computing
+  </div>
+</div>
+</body>
+</html>
