@@ -1458,6 +1458,52 @@ None new this edition.
 
 ---
 
+## Edition 34 — Monday, 13 July 2026
+
+### Lead story
+**Formo Opens Its US Commercial Debut at IFT FIRST Today with the First Precision-Fermented Casein in Active FDA Review**
+
+**Category:** Food Science & Ingredients  
+**Source tiers:** Formo / IFT FIRST page (9/10); FoodNavigator-USA (9/10); Vegconomist (7/10 — amber)
+
+Formo (Berlin) opened Booth ST81 in the Startup Pavilion at IFT FIRST Chicago today — its first direct commercial engagement with US food and nutrition manufacturers and the first public showcase of its precision-fermented casein, co-developed with Belgian biotech Those Vegan Cowboys. The FDA has the company's GRAS self-determination notification under active scientific review, making it the only precision-fermented casein in that review pipeline in the United States. A "no questions" letter is expected later this year; it is not a prerequisite for commercial sale under US law, where GRAS self-determination alone permits the market.
+
+Casein accounts for 80% of dairy's protein mass and carries the functional properties — gelation, emulsification, thickening, foaming — that plant-based and fermentation-derived dairy alternatives have spent a decade failing to replicate convincingly. Formo's version is produced via fermentation of a single, characterised protein fraction: batch-consistent, fully traceable, decoupled from dairy-supply variability. Target categories: GLP-1 and metabolic health, performance nutrition, high-protein RTD formats.
+
+The EU regulatory path is separate and on a separate clock. Under US law, commercial sale can begin immediately after self-determined GRAS. EU novel-food authorisation from EFSA requires a mandatory pre-market dossier that typically takes two to three years to clear. Formo has not publicly disclosed a live EFSA submission date. The company can build US commercial momentum now; European commercial availability requires a separate authorisation process that has not yet publicly started.
+
+### Further items
+1. **Nature / Carbon Markets:** Indonesia's SRUK carbon unit registry opened 9 July, with the Katingan Mentaya Project in Central Kalimantan among the four forestry concessions first approved for international trading. The government issued 30 million tonnes of REDD+ credits on 6 July; SRUK connects to the Verra registry via API and blockchain for end-to-end traceability. The registry has been live four days, and the first bid-ask spread on SRUK-issued Katingan credits is beginning to form. Whether institutional buyers price Katingan units at parity with Verra-registered ones is the market's first verdict on the dual-credentialing model. Sources: Argus Media (9/10); Ecobiz Asia (8/10)
+
+2. **Venture Capital / Food Manufacturing:** Polysense (Ghent, Belgium) raised $10.7 million in an oversubscribed seed round led by Felix Capital on 8 July. Real-time computer vision and synthetic data inspect every product on a food production line continuously, adjusting machine parameters automatically. Results to date: 45% reduction in peeling time at a European potato processor; yield improvement in bakery via automatic oven-temperature optimisation. Sources: Polysense (10/10); Tech.eu (8/10)
+
+### New concepts this edition
+- **GRAS pathway vs. EU novel-food pathway:** US self-determination permits commercial sale before a "no questions" letter; EU novel-food authorisation requires a mandatory pre-market EFSA dossier before any commercial sale — two separate regulatory clocks for the same ingredient, neither substituting for the other
+- **Dual-credentialing model (SRUK/Verra):** Indonesian registry permitting simultaneous SRUK registration and Verra/Gold Standard certification; the price spread between dual-credentialed and SRUK-only units prices the governance-architecture premium numerically
+
+### Provocation posed (Julinka's Angle)
+1. Before any sourcing thesis on precision-fermented casein for Calm/Storm, establish whether Formo has a live EFSA novel-food dossier and at what stage. A company with active FDA review but no EU dossier in train is commercially a US story. If the EU dossier does not yet exist, the investable European timeline is 2029 at the earliest.
+2. SRUK has been live four days. Katingan Mentaya is one of the most-watched REDD+ assets in the world precisely because its price history under Verra is public. If IDXCarbon shows bid-ask data on SRUK-issued Katingan units this week, compare it directly to the Verra spot. A parity price confirms the dual-credentialing model works; a discount reveals what the market actually charges for Indonesian registry risk — and that spread is where a rigorous nature-finance fund finds its edge.
+
+### Running-thread tracker
+- **Formo IFT FIRST — MOVED (Ed 34):** Booth ST81 open today through Wednesday 15 July; FDA GRAS review active; "no questions" letter expected later this year; EFSA dossier status unknown — this is the key diligence question before any EU sourcing thesis
+- **SRUK / Katingan — MOVED (Ed 34):** Registry live since 9 July; four projects approved for international trading; Verra/Gold Standard API connection confirmed; first bid-ask spread forming this week — watch IDXCarbon data vs. Verra spot
+- UPSIDE Foods/Believer Meats auction — competing bids due 20 July; auction 28 July; no movement
+- EU nature-credits technical criteria — still overdue from mid-2026 expert group mandate; no update
+- EU Biotech Act II — Q3 2026 publication; no update
+- Yield Lab Europe Fund 2 — no movement
+- Ingredion/Tate & Lyle takeover — court sanction and antitrust clearance pending; no movement
+- New Forests GLO fund — targeting $707m; no movement
+- Every/Huvepharma capacity expansion — no movement
+- Nestlé/Helaina infant-nutrition partnership — no movement
+- Astral Systems first close — no movement
+- Alan/Prosus Series G — regulatory approvals pending; no movement
+- Lactalis/Nutri-Score CJEU referral — referred 25 June 2026; judgment 18–24 months; no movement
+- Louvre infrastructure/funding crisis — no movement
+- Singapore-Indonesia bilateral carbon credit partnership — advancing; no update
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1495,6 +1541,7 @@ None new this edition.
 | 31 | 6 Jul 2026 | Indonesia 30M+ tonne REDD+ issuance; SRUK launches 9 July | — | None new | Track Katingan spot vs. SRUK reference price through 9 July as governance credibility number |
 | 32 | 7 Jul 2026 | Finland state-backed voluntary nature credits framework (state criteria + national registrar); London Old Masters $102M — tech buyers entering | Finnish Government, Ministry of Environment, Artnet News, ARTnews | Finnish Ministry of Environment (as governance authority); three-lineage EU taxonomy | Use Finland's three-lineage taxonomy for Calm/Storm biodiversity diligence; track SRUK-vs-Verra spread from 9 July as governance-architecture premium number |
 | 33 | 8 Jul 2026 | Indonesia issues 30M tonne REDD+ forestry credits (6 July); SRUK launches tomorrow (9 July) | ANTARA News, Argus Media, Carbon Herald (lead); Formo/vegconomist (further) | None new | Map Indonesia credit-aggregation layer for EU buyers before SRUK opens; write Formo casein functional-performance spec before IFT FIRST coverage floods |
+| 34 | 13 Jul 2026 | Formo opens US commercial debut at IFT FIRST — first precision-fermented casein in active FDA GRAS review | Formo/IFT FIRST Booth ST81 (lead); SRUK/Katingan first week live; Polysense $10.7M seed Felix Capital | Polysense | Before sourcing thesis on precision-fermented casein: confirm whether Formo has a live EFSA novel-food dossier; watch SRUK/Katingan bid-ask data this week vs. Verra spot |
 
 ---
-*Last updated: Edition 33 — 8 July 2026*
+*Last updated: Edition 34 — 13 July 2026*
