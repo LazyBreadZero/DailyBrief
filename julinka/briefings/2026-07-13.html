@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appetite — Monday, 13 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #EFE9DC;
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    color: #1F1B16;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page-wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 44px 28px 72px;
+    background: #FBF9F3;
+  }
+
+  /* Gold accent bar */
+  .top-rule {
+    height: 8px;
+    background: #E7B43A;
+    margin-bottom: 30px;
+  }
+
+  /* Masthead */
+  .masthead-eyebrow {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    color: #A8761A;
+    margin-bottom: 6px;
+  }
+  .masthead-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #1F1B16;
+    letter-spacing: -1.5px;
+    line-height: 1.0;
+    margin-bottom: 10px;
+  }
+  .masthead-tagline {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #4A4036;
+    margin-bottom: 20px;
+  }
+
+  /* Gingham rule */
+  .gingham-rule {
+    height: 6px;
+    margin-bottom: 18px;
+    background-image:
+      repeating-linear-gradient(90deg, #E7B43A 0, #E7B43A 4px, transparent 4px, transparent 8px),
+      repeating-linear-gradient(180deg, #E7B43A 0, #E7B43A 3px, transparent 3px, transparent 6px);
+    opacity: 0.7;
+  }
+
+  /* Dateline */
+  .dateline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #1F1B16;
+    border-bottom: 2px solid #1F1B16;
+    padding: 8px 0;
+    margin-bottom: 40px;
+  }
+  .dateline-left {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #A8761A;
+  }
+  .dateline-right {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #4A4036;
+  }
+
+  /* Kicker */
+  .kicker {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8761A;
+    margin-bottom: 12px;
+  }
+
+  h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1F1B16;
+    line-height: 1.18;
+    margin-bottom: 22px;
+  }
+
+  p {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 16.5px;
+    line-height: 1.72;
+    color: #1F1B16;
+    margin-bottom: 18px;
+  }
+
+  /* Source badges */
+  .sources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    align-items: center;
+    margin: 26px 0 44px;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    color: #928775;
+  }
+  .badge {
+    display: inline-block;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 9px;
+    border-radius: 4px;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 1.5;
+  }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+
+  /* Section divider */
+  .rule {
+    border: none;
+    border-top: 1px solid #E5DAC4;
+    margin: 38px 0;
+  }
+
+  /* Further items */
+  .further-label {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8761A;
+    margin-bottom: 22px;
+  }
+  .further-item {
+    margin-bottom: 28px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #E5DAC4;
+  }
+  .further-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .further-kicker {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #A8761A;
+    margin-bottom: 6px;
+  }
+  .further-item p {
+    font-size: 15.5px;
+    margin-bottom: 10px;
+  }
+  .further-item p:last-of-type { margin-bottom: 0; }
+
+  /* Julinka's Angle */
+  .angle-box {
+    background: #211C16;
+    border-radius: 10px;
+    padding: 28px 32px;
+    margin: 40px 0 48px;
+  }
+  .angle-label {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #E7B43A;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .angle-item {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 20px;
+  }
+  .angle-item:last-child { margin-bottom: 0; }
+  .angle-num {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #E7B43A;
+    line-height: 1.0;
+    flex-shrink: 0;
+    margin-top: 2px;
+    min-width: 22px;
+  }
+  .angle-text {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 15px;
+    line-height: 1.65;
+    color: #D8CFC4;
+  }
+
+  /* Footer */
+  .footer {
+    border-top: 1px solid #E5DAC4;
+    padding-top: 22px;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    color: #928775;
+    text-align: center;
+    line-height: 1.9;
+    letter-spacing: 0.4px;
+  }
+
+  @media (max-width: 600px) {
+    .masthead-title { font-size: 44px; }
+    h1 { font-size: 26px; }
+    .page-wrap { padding: 28px 18px 56px; }
+    .dateline { flex-direction: column; align-items: flex-start; gap: 4px; }
+  }
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <div class="top-rule"></div>
+
+  <div class="masthead-eyebrow">Your Morning Brief &middot; Monday, 13 July 2026</div>
+  <div class="masthead-title">Appetite</div>
+  <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  <div class="gingham-rule"></div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 34</span>
+    <span class="dateline-right">Venture &middot; Food &middot; Art &middot; Nature</span>
+  </div>
+
+  <!-- Lead story -->
+  <div class="kicker">Today&rsquo;s Lead &middot; Food Science &amp; Ingredients</div>
+  <h1>Formo Opens Its US Commercial Debut at IFT FIRST Today with the First Precision-Fermented Casein in Active FDA Review</h1>
+
+  <p>Formo, the Berlin-based precision-fermentation company, opened Booth ST81 in the Startup Pavilion at IFT FIRST Chicago this morning. The booth marks its first direct commercial engagement with US food and nutrition manufacturers and the first public showcase of its precision-fermented casein — a recombinant dairy protein co-developed with Belgian biotech Those Vegan Cowboys. The FDA has the company's self-determination notification under active scientific review, making it the only precision-fermented casein in that review pipeline in the United States.</p>
+
+  <p>The protein's significance is structural. Casein accounts for 80% of dairy's protein mass and carries the functional properties — gelation, emulsification, thickening, foaming — that plant-based and fermentation-derived dairy alternatives have spent a decade failing to replicate convincingly. Formo's version is produced via fermentation of a single, characterised protein fraction: batch-consistent, fully traceable, and decoupled from dairy-supply variability. The company is targeting the categories where those functional properties and the protein density matter most: GLP-1 and metabolic health, performance nutrition, and high-protein RTD formats. The IFT FIRST floor contains the ingredient buyers who decide which proteins go into the next generation of those products.</p>
+
+  <p>The regulatory path Formo has taken illuminates a gap that matters for European investors. Under US law, a company may market an ingredient once it has self-determined GRAS status — Formo made that determination in December 2025 and notified the FDA, which is now reviewing the notification. A "no questions" letter from the agency, which the company expects later this year, provides additional assurance but is not a prerequisite for commercial sale. The EU path is different: novel-food authorisation from EFSA requires a mandatory pre-market dossier that typically takes two to three years to clear. Formo has not publicly disclosed a live EFSA submission date. The company can build commercial momentum in the US now; the EU market will require a separate authorisation process on a separate clock. IFT FIRST runs through Wednesday.</p>
+
+  <div class="sources">
+    <span>Sources:</span>
+    <a href="https://formo.bio/ift-first-2026/" target="_blank" class="badge badge-green">Formo / IFT FIRST&nbsp;page 9/10</a>
+    <a href="https://www.foodnavigator-usa.com/Article/2026/06/02/precision-fermented-casein-from-formo-advances-toward-us-market-after-fda-gras/" target="_blank" class="badge badge-green">FoodNavigator-USA 9/10</a>
+    <a href="https://vegconomist.com/ingredients/formos-precision-fermented-casein-enters-active-fda-gras-review/" target="_blank" class="badge badge-amber">Vegconomist 7/10</a>
+  </div>
+
+  <hr class="rule">
+
+  <!-- Further items -->
+  <div class="further-label">Also in this edition</div>
+
+  <div class="further-item">
+    <div class="further-kicker">Nature &middot; Carbon Markets</div>
+    <p>Indonesia's SRUK carbon unit registry opened on 9 July, with the Katingan Mentaya Project in Central Kalimantan among the four forestry concessions first approved for international trading. The government issued 30 million tonnes of REDD+ credits on 6 July; SRUK will connect to the Verra registry via API and blockchain to provide end-to-end unit traceability. The system has been live for four days, which means the first bid-ask spread on SRUK-issued credits is beginning to form. Whether institutional buyers price Katingan units at parity with Verra-registered ones is the market's first verdict on the dual-credentialing model.</p>
+    <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:12px;">
+      <a href="https://www.argusmedia.com/en/news-and-insights/latest-market-news/2843606-indonesia-to-issue-30mn-t-redd-credits-in-july-update" target="_blank" class="badge badge-green">Argus Media 9/10</a>
+      <a href="https://ecobiz.asia/indonesia-becomes-first-country-to-implement-global-carbon-data-standard-in-national-registry/" target="_blank" class="badge badge-green">Ecobiz Asia 8/10</a>
+    </div>
+  </div>
+
+  <div class="further-item">
+    <div class="further-kicker">Venture Capital &middot; Food Manufacturing</div>
+    <p>Polysense, a Belgian startup based in Ghent, raised $10.7 million in an oversubscribed seed round led by Felix Capital on 8 July. The company's platform uses real-time computer vision and synthetic data to inspect every product on a food production line continuously, adjusting machine parameters automatically — it has reduced peeling time by 45% at one European potato processor and improved yield for bakery clients by automatically optimising oven temperatures. The round adds a manufacturing-efficiency AI layer to the European food-tech deal map alongside the ingredient and protein bets further upstream.</p>
+    <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:12px;">
+      <a href="https://www.polysense.ai/blog/polysense-raises-107-million-seed-round-food-manufacturing" target="_blank" class="badge badge-green">Polysense 10/10</a>
+      <a href="https://tech.eu/2026/07/08/polysense-raises-107m-to-scale-ai-quality-control-for-food-manufacturers/" target="_blank" class="badge badge-green">Tech.eu 8/10</a>
+    </div>
+  </div>
+
+  <hr class="rule">
+
+  <!-- Julinka's Angle -->
+  <div class="angle-box">
+    <div class="angle-label">Julinka&rsquo;s Angle</div>
+    <div class="angle-item">
+      <div class="angle-num">1</div>
+      <div class="angle-text">Formo is at Booth ST81 today through Wednesday. The GRAS active review clears the US path — it doesn't touch the EU one. Before any sourcing thesis on precision-fermented casein for Calm/Storm, find out whether Formo has a live EFSA novel-food dossier and, if so, at what stage. A company with active FDA review but no EU authorisation in train is commercially a US story. If the EU dossier doesn't exist yet, the investable European timeline is 2029 at the earliest.</div>
+    </div>
+    <div class="angle-item">
+      <div class="angle-num">2</div>
+      <div class="angle-text">SRUK has been open four days. The Katingan Mentaya Project is one of the most-watched REDD+ assets in the world precisely because its price history under Verra is public. If IDXCarbon shows any bid-ask data on SRUK-issued Katingan units this week, compare it directly to the Verra spot. A parity price confirms the dual-credentialing model works. A discount reveals what the market actually charges for Indonesian registry risk — and that spread is where a rigorous nature-finance fund finds its edge.</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <strong style="color:#1F1B16;">APPETITE</strong> &middot; Edition 34 &middot; Monday, 13 July 2026<br>
+    A personal briefing for Julinka Naomi Waesche &middot; Venture &middot; Food &middot; Art &middot; Nature
+  </div>
+
+</div>
+</body>
+</html>
