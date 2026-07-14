@@ -1712,6 +1712,51 @@ Which of Samsung's three named enterprise use cases — healthcare, retail, manu
 
 ---
 
+## Edition 37 — Monday, 14 July 2026
+
+### Lead Story
+**Title:** Neuralink Completes Its First Surgery Through the Intact Dura
+**Category:** BCI
+
+**Core argument:** In May 2026, Neuralink performed its first BCI implantation through an intact dura mater at Toronto Western Hospital, part of the CAN-PRIME study led by neurosurgeon Andres Lozano. Electrode threads — thinner than a human hair — were placed through the brain's protective membrane using a redesigned precision needle; the surgical robot actively mapped blood vessels to avoid them. The patient was controlling a cursor within an hour of surgery. Neuralink announced the milestone on 30 June. The durectomy — opening or removing part of the dura — had been the most manually demanding step in Neuralink's implantation procedure since its first human surgery in January 2024. Eliminating it reduces infection risk, shortens recovery time, and makes the procedure more compatible with the robotic automation Neuralink committed to for 2026. Elon Musk described the advance as "a real path to scaling" — from the roughly twelve participants implanted across commercial BCI trials industry-wide toward the thousands the company has publicly targeted. The surgical question has an answer; the support question does not. The BrainGate2 Nature Medicine paper (Ed 33) documented 3,800 hours of home BCI use across two years without a researcher present, but periodic software updates from the research team were still required. Surgery scales through automation. What follows surgery does not scale the same way.
+
+**Key companies introduced:** None new (CAN-PRIME / Toronto Western Hospital as new institutional name)
+**Key people introduced:** Andres Lozano (neurosurgeon, Toronto Western Hospital; lead CAN-PRIME study)
+**Key concepts introduced:** Transdural implantation (BCI electrode placement through intact dura mater without durectomy); surgical automation gap vs. patient support gap as distinct scalability axes
+**Sources used:** Neuralink YouTube (9/10): https://www.youtube.com/watch?v=F8p2MamNBgE ; Musk/X (9/10): https://x.com/elonmusk/status/2006513491105165411 ; Road to VR (7/10): https://roadtovr.com/elon-musk-brain-neuralink-transdural-implant/ ; Glitchwire (7/10): https://glitchwire.com/news/neuralink-completes-first-transdural-implant-eliminating-one-of-brain-surgerys-m/
+**Follow-up threads to watch:** CAN-PRIME trial expansion; Neuralink/Synchron/Science Corp named patient support model documented at scale; first commercial BCI post-surgery support infrastructure built and tested
+
+### Further items
+**Android XR Developer Catalyst — notifications due tomorrow (15 July):** First public read on developer ecosystem depth behind the fall 2026 hardware launches. Whether the cohort skews enterprise or consumer will signal how Google and Samsung expect the market to break.
+
+**Samsung Galaxy Unpacked, London — 22 July:** Full Galaxy Glasses reveal expected. Snapdragon AR1 chip, Gemini AI via companion-phone architecture, Gentle Monster design, iOS compatible, ~$379–$499 supply-chain estimate. Galaxy Z Fold 8 and Galaxy Watch 9 also announced.
+
+### New concepts in Angelo's working vocabulary
+- **Transdural implantation** — BCI electrode placement through intact dura mater without durectomy; removes the most manually variable step in robotic surgical automation
+- **Surgical automation gap vs. patient support gap** — two distinct scalability axes for commercial BCI; the transdural step closes the former; the BrainGate2 home-use result shows the latter remains open
+
+### Provocation
+Name one commercial BCI company that has built patient support infrastructure rather than assumed a hospital partner handles it, and state specifically what they have built.
+
+### Running-thread tracker (key updates)
+- **Neuralink CAN-PRIME / transdural — MOVED (Ed 37):** First transdural BCI implant completed May 2026 at Toronto Western Hospital (Lozano); announced 30 June; durectomy step eliminated; surgical automation gap now closed; patient support question remains open; not previously tracked (last Neuralink coverage Ed 12)
+- **Android XR Catalyst Programme — notifications due tomorrow (15 July)**
+- Samsung Galaxy Glasses / Unpacked — 22 July London; $379–$499 supply-chain estimate; Gentle Monster design; Gemini AI; four-device ecosystem binding confirmed; no update
+- Science Corp CE mark — still pending, **37 editions**; no update
+- OpenAI device — confirmed February 2027; middleware cross-platform in public beta; no update
+- Synchron pivotal trial — enrollment under way at US sites; no update
+- BCI implant census (~150 people, Vansteensel) — no update
+- Neuracle STAR Market IPO — no update since filing
+- EU AI Act Digital Omnibus — Council adopted 29 June; no update
+- Connecticut neural-data privacy law — in effect 1 July 2026; no enforcement action; no update
+- Caltech decoder-dynamics — no commercial BCI company response yet; no update
+- Apple smart glasses engineering leadership — Paul Meade at OpenAI; no successor named; no update
+
+### Thinking Ledger update
+- **Transdural step closes the surgical automation gap, not the patient support gap (new, Ed 37):** Neuralink's robot can now place electrodes through intact dura — the most manually variable step in the implantation procedure is automatable at scale. The BrainGate2 Nature Medicine result (Ed 33) established that independent home use is possible but required periodic software updates from the research team even without daily researcher presence. Two scalability axes — surgical placement (now automatable) and ongoing patient support (not automatable the same way) — have been conflated in every commercial BCI scaling claim to date. Surgery scales through robots; patient support scales through infrastructure, liability coverage, and trained people. None of the three commercial BCI companies has answered that question in documentation tested at scale. The question from Ed 33 ("who handles first-line support when a BCI device leaves the university") now has a named surgical answer and a still-unanswered support answer.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1752,6 +1797,7 @@ Which of Samsung's three named enterprise use cases — healthcare, retail, manu
 - **Samsung's Galaxy XR enterprise update signals a bifurcated commercial strategy within Samsung's own XR line.** (New, Ed 34.) Knox, zero-touch enrollment, and a five-year update commitment arrived before the UK market opened — on a separate schedule, not in response to US launch reviews. If the Galaxy XR headset's primary commercial target is enterprise IT, the Galaxy Glasses (consumer fashion, four-device binding, ~$400 target) represents a different commercial bet within the same company's 2026 XR line. The "hardware ecosystem binding" position from Ed 32 assumed the four-device stack as Samsung's single answer to the platform question; it may need a consumer vs. enterprise axis added.
 - **Galaxy Glasses' AR1 chip confirms the audio glasses market is platform-not-silicon.** (New, Ed 35.) Samsung and Meta chose the same Snapdragon AR1; the chip cannot differentiate them. Differentiation in the audio-glasses race is software (Gemini vs. Meta AI), distribution (Samsung retail vs. EssilorLuxottica), and hardware-ecosystem binding (Samsung's four-device stack, bounded by the intersection of buyers who own all four). "Android XR" now covers three architecturally distinct products — Galaxy XR (spatial), XREAL Aura (display AR), Galaxy Glasses (audio-only) — under one platform label. The constraint from Ed 32 holds: the four-device binding strategy's market size is bounded by buyers who own all four Samsung devices.
 - **UK day-one coverage split confirms Samsung's bifurcated strategy generates two coherent market narratives simultaneously.** (New, Ed 36.) T3 watched the World Cup; Expert Reviews and Neowin led with the IT dashboard. Neither narrative is wrong. The unresolved question is not which story is true but which buyer converts — and enterprise fleet orders vs. consumer purchase receipts will answer it before Germany and France even receive a release date. The Catalyst notifications on 15 July add the developer-ecosystem read: if the developer cohort is enterprise-skewed, the enterprise story has depth; if consumer-skewed, T3's read is the one that predicts the market.
+- **Transdural implantation closes the surgical automation gap in BCI — and exposes the patient support gap as the separate, unresolved axis.** (New, Ed 37.) Neuralink's robot can now place electrodes through intact dura; the most manually variable step in the implantation procedure is automatable. The BrainGate2 Nature Medicine result (Ed 33) established that independent home use is possible but required periodic software updates from the research team even without daily researcher presence. Two scalability axes — surgical placement (now automatable) and ongoing patient support (not automatable the same way) — have been conflated in every commercial BCI scaling claim to date. Surgery scales through robots; patient support scales through infrastructure, liability coverage, and trained people. None of the three commercial BCI companies has answered that question in public documentation tested at scale.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1811,6 +1857,7 @@ Which of Samsung's three named enterprise use cases — healthcare, retail, manu
 | 34 | 6 Jul 2026 | Samsung Galaxy XR UK launch — enterprise-ready (Knox, zero-touch enrollment, 5-year updates); Germany/France undated | Android XR Catalyst notifications July 15 | None new | Which European enterprise buyer — CIO, IT director, healthcare/training/manufacturing lead — is the key conversation before Galaxy Glasses Unpacked July 22 |
 | 35 | 7 Jul 2026 | Galaxy Glasses confirmed on Snapdragon AR1 (same chip as Meta Ray-Ban); XREAL Aura $1,500 ceiling; three-tier Android XR stack complete | XREAL Aura $1,500 / Best Buy / Founder Passes sold out; Catalyst notifications July 15; Galaxy XR UK July 8 | None new | Name Gemini's differentiation in a display-free, audio-only frame before 22 July Unpacked — and verify whether it's already in the spec sheet |
 | 36 | 8 Jul 2026 | Samsung Galaxy XR UK Day 1 — enterprise pitch vs. entertainment first impression | UK fulfilment begins today at £1,699; improved software (year of patches); enterprise package confirmed (Knox, zero-touch, 5-year updates); first-day UK media split (T3 = World Cup; Expert Reviews/Neowin = enterprise); Catalyst notifications July 15; Unpacked July 22 | None new | Which of Samsung's three enterprise use cases (healthcare/retail/manufacturing) has a named European institutional pilot with deployment numbers? |
+| 37 | 14 Jul 2026 | Neuralink completes first transdural BCI implant (CAN-PRIME, Lozano, May 2026, announced 30 June) | Android XR Catalyst notifications 15 July (tomorrow); Samsung Unpacked 22 July | Andres Lozano (neurosurgeon, Toronto Western Hospital) | Name one commercial BCI company that has built patient support infrastructure at scale — not assumed a hospital partner handles it |
 
 ---
-*Last updated: Edition 36 — 8 July 2026*
+*Last updated: Edition 37 — 14 July 2026*
