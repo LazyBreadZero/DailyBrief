@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Monday, 14 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; text-wrap: balance; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .live-tag { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; background: #D64E26; color: #FBF9F3; padding: 3px 8px; border-radius: 3px; vertical-align: middle; margin-right: 6px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .further-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .further-item { padding-left: 16px; border-left: 2px solid #E7B43A; margin-bottom: 22px; }
+  .further-item p { font-size: 16px; line-height: 1.65; margin-bottom: 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .radar-block { margin-top: 36px; border-top: 1px solid #E5DAC4; padding-top: 22px; }
+  .radar-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .radar-item { font-family: 'DM Sans', sans-serif; font-size: 14px; line-height: 1.6; color: #4A4036; margin-bottom: 8px; }
+  .radar-item:last-child { margin-bottom: 0; }
+  .radar-date { font-weight: 600; color: #1F1B16; }
+  .footer { padding: 32px 52px 0; border-top: 1px solid #E5DAC4; font-family: 'DM Sans', sans-serif; font-size: 11px; color: #928775; text-align: center; letter-spacing: 0.4px; margin-top: 36px; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Monday, 14 July 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 34</span>
+    <span class="dateline-right">Food Science &middot; Venture Capital &middot; Art &middot; Nature</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Food Science &mdash; <span class="live-tag">Live</span> IFT FIRST, Chicago</div>
+    <h1 class="lead-headline">Precision Fermentation&rsquo;s First Commercial Reckoning: Three Companies, Three GRAS Caseins, One Trade Floor</h1>
+
+    <p>IFT FIRST 2026 opened yesterday in Chicago. For the first time, three companies with self-affirmed GRAS clearances for precision-fermented casein are on the trade floor simultaneously &mdash; Formo (Berlin, Booth ST81), Those Vegan Cowboys (Ghent), and New Culture &mdash; each pitching real procurement leads rather than pilot programme participants. The scientific milestone arrived quietly in late 2025; the commercial reckoning is happening this week. Formo has set up a US subsidiary, partnered with RxFood Ingredients on distribution, and is sampling its enhanced casein &mdash; engineered for foam stability, heat resilience, and slow-digestion profile &mdash; with US food and nutrition buyers right now. An FDA &ldquo;no questions&rdquo; letter is expected later this year, but sales can begin before it arrives.
+    <a href="https://formo.bio/ift-first-2026/" target="_blank" class="source-badge badge-green">Formo 9/10</a>
+    <a href="https://www.greenqueen.com.hk/formo-foods-precision-fermentation-casein-dairy-protein-self-gras-cheese/" target="_blank" class="source-badge badge-green">Green Queen 7/10</a></p>
+
+    <p>Those Vegan Cowboys is showing Margaret&rsquo;s Finest alongside its alpha-s1 casein ingredient at the same show, having raised &euro;6.25M to commercialise and also self-affirmed GRAS for its own recombinant casein &mdash; sourced at lab scale from sheep, goats, buffaloes, and llamas as well as bovines. Meanwhile Vivici, the Dutch precision fermentation joint venture between Fonterra and DSM-Firmenich, is not at the IFT booth but made this week&rsquo;s trade press with DairyReporter&rsquo;s 8 July piece, &ldquo;Precision-fermented lactoferrin moves into mainstream nutrition,&rdquo; following the February 2026 GRAS self-affirmation of its Vivitein LF ingredient and a &euro;12.5M EIC Accelerator grant in June.
+    <a href="https://www.greenqueen.com.hk/those-vegan-cowboys-animal-free-casein-precision-fermentation-protein-discovery/" target="_blank" class="source-badge badge-amber">Green Queen 7/10</a>
+    <a href="https://www.dairyreporter.com/Article/2026/07/08/precision-fermented-lactoferrin-moves-into-mainstream-nutrition/" target="_blank" class="source-badge badge-green">DairyReporter 8/10</a></p>
+
+    <p>The question the IFT floor is answering this week has nothing to do with science. The science cleared. The question is whether ingredient buyers for US sports nutrition, RTD dairy, and high-protein consumer brands have internal budget lines for precision-fermented inputs at current price points, and whether their formulation teams can evaluate a novel protein matrix without a multi-month R&amp;D delay. That answer will be visible in the procurement conversations Formo and Those Vegan Cowboys are having in Booths ST81 and adjacent &mdash; not in any press release this week.
+    <a href="https://www.foodnavigator-usa.com/Article/2026/06/25/why-next-gen-alt-protein-startups-will-be-built-on-access-not-just-science/" target="_blank" class="source-badge badge-amber">FoodNavigator-USA 8/10</a></p>
+
+    <hr class="divider"/>
+    <div class="further-label">Further</div>
+
+    <div class="further-item">
+      <p><strong>Believer Meats auction: six days to the bid deadline, no named competing bidders yet.</strong> UPSIDE Foods&rsquo; $50M stalking-horse bid for the Wilson, North Carolina cultivated meat facility remains the only public offer on the table. Competing bids must exceed $52.25M (the purchase price plus breakup fees) and land by 20 July; the auction follows on 28 July if qualifying bids arrive. The assets include large-format bioreactors, processing equipment, and permits that would otherwise take years to licence and build new &mdash; the strategic logic for any serious cultivated meat company that needs manufacturing infrastructure without the capital expenditure clock. UPSIDE is effectively buying time as much as steel.
+      <a href="https://agfundernews.com/exclusive-upside-foods-submits-50m-stalking-horse-bid-for-believer-meats-us-cultivated-meat-facility" target="_blank" class="source-badge badge-green">AgFunderNews 9/10</a></p>
+    </div>
+
+    <div class="further-item">
+      <p><strong>SRUK&rsquo;s first week: Indonesia issued 30 million tonnes and became the first sovereign state to deploy the CDSCC data standard.</strong> The 30 million tonnes of REDD+ forestry credits issued on 6 July across three concession-scale PBPH holders represent the largest single batch in Indonesia&rsquo;s carbon market history. SRUK launched as scheduled on 9 July, and Indonesia immediately became the first country to implement the Climate Data Steering Committee&rsquo;s Common Carbon Credit Data Model within a national registry &mdash; meaning credit metadata can be queried by external institutional systems without bespoke data translation. Argus Media reported that Katingan REDD+ credit prices fell in the weeks before the bulk issuance, as the market priced anticipated supply. Specific Katingan spot prices for the first week of SRUK operations remain paywalled; the pricing gap between SRUK-only credentials and dual Verra/SRUK credentials is the figure to watch.
+      <a href="https://en.antaranews.com/news/422063/indonesia-launches-carbon-registry-to-accelerate-carbon-trading" target="_blank" class="source-badge badge-amber">ANTARA News 7/10</a>
+      <a href="https://www.argusmedia.com/en/news-and-insights/latest-market-news/2843606-indonesia-to-issue-30mn-t-redd-credits-in-july-update" target="_blank" class="source-badge badge-green">Argus Media 9/10</a>
+      <a href="https://ecobiz.asia/indonesia-becomes-first-country-to-implement-global-carbon-data-standard-in-national-registry/" target="_blank" class="source-badge badge-amber">Ecobiz Asia 7/10</a></p>
+    </div>
+
+    <div class="further-item">
+      <p><strong>EU Biotech Act II: Call for Evidence closed, publication now expected Q4 2026.</strong> The European Commission&rsquo;s Call for Evidence on Biotech Act II &mdash; covering industrial biotechnology and biomanufacturing, the half of the regulatory reform most directly relevant to precision fermentation scale-up &mdash; closed on 10 June 2026. The indicative Commission timetable has shifted from Q3 to Q4 2026 for the full legislative proposal. Critically, the already-published Biotech Act I has confirmed the exclusion of novel foods from the new regulatory sandboxes, with the stated rationale being that some novel foods &ldquo;trigger ethical or cultural concerns.&rdquo; GFI called this &ldquo;a missed opportunity.&rdquo; The average EFSA novel food review still runs 2.56 years. Act II is the next legislative window for addressing that bottleneck.
+      <a href="https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-european-biotech-act-ii" target="_blank" class="source-badge badge-green">EU Legislative Train 9/10</a>
+      <a href="https://www.foodbev.com/news/eu-biotech-act-s-exclusion-of-novel-foods-from-regulatory-sandbox-is-a-missed-opportunity-for-food" target="_blank" class="source-badge badge-amber">FoodBev Media 7/10</a></p>
+    </div>
+
+    <div class="further-item">
+      <p><strong>EU NGT status check: implementation clock running, mid-2028 application date firm.</strong> The European Parliament&rsquo;s June 17 vote gave final approval to the New Genomic Techniques regulation; the Council had formally adopted it on April 21. The two-year implementation period for secondary legislation and implementing acts places application at mid-2028. The two-tier framework &mdash; Category 1 (equivalent to conventionally bred, simplified pathway) and Category 2 (existing GMO framework) &mdash; is now settled legislation. No implementation news this week; the clock is running.
+      <a href="https://www.fas.usda.gov/data/gain/2026/06/european-union-european-parliament-passes-landmark-new-genomic-techniques-regulation" target="_blank" class="source-badge badge-green">USDA FAS 9/10</a>
+      <a href="https://www.consilium.europa.eu/en/press/press-releases/2026/04/21/new-genomic-techniques-council-adopts-new-rules-to-boost-sustainable-and-competitive-eu-food-systems/" target="_blank" class="source-badge badge-green">EU Council 9/10</a></p>
+    </div>
+
+    <div class="further-item">
+      <p><strong>Louvre: new director says the museum is &ldquo;running out of steam&rdquo; with &euro;1.15 billion renovation beginning September.</strong> Christophe Leribault, appointed after the October 2025 Apollo Gallery heist (88 million euros in jewels, eight minutes), told a Senate committee in June that the Louvre is physically and financially overstretched. Two pipe-burst incidents &mdash; December 2025 (300+ Egyptian antiquities volumes damaged) and February 2026 (Denon wing, adjacent to the Mona Lisa) &mdash; compounded ticket fraud losses estimated at &euro;10 million. The renovation plan carries a &euro;1.15B price tag, a timeline of up to a decade, and repairs are scheduled to begin in September 2026. The infrastructure crisis is now also a governance story: the Culture Ministry proposed additional funding and staffing in early 2026; unions rejected the proposals as inadequate.
+      <a href="https://www.france24.com/en/france/20260617-france-s-louvre-museum-running-out-of-steam-new-director-says" target="_blank" class="source-badge badge-green">France 24 8/10</a>
+      <a href="https://www.artandobject.com/news/louvre-reckons-fraud-floods-and-failing-infrastructure" target="_blank" class="source-badge badge-amber">Art &amp; Object 7/10</a></p>
+    </div>
+
+    <div class="further-item">
+      <p><strong>Art Basel Paris: October 20&ndash;25, Grand Palais, first edition under new director Karim Crippa.</strong> Art Basel has released its 2026 Paris exhibitor list: 200+ galleries from 41 countries and territories across three sectors &mdash; Galeries (181 galleries, slight increase from 177 last year), Emergence, and Premise. The Avant-Premi&egrave;re returns October 20 for gallery principals; public vernissage October 22; public days through October 25. Programme highlights include Edward Enninful as guest curator of a Conversations conference day and Loïc Prigent&rsquo;s &ldquo;Oh La La!&rdquo; fashion-film initiative. The June Basel edition closed strong: 90,000 visitors, 290 galleries from 43 countries, broad sales across price points.
+      <a href="https://www.artbasel.com/stories/art-basel-paris-2026-gallery-list-announcement" target="_blank" class="source-badge badge-green">Art Basel 9/10</a>
+      <a href="https://news.artnet.com/market/art-basel-paris-2026-exhibitors-2776749" target="_blank" class="source-badge badge-green">Artnet 8/10</a></p>
+    </div>
+
+    <div class="further-item">
+      <p><strong>New Forests GLO: A$1 billion global natural capital fund open for institutional investment.</strong> New Forests has launched the Global Landscape Opportunities (GLO) strategy, its first fund to invest across forestry, agriculture, carbon, and biodiversity markets simultaneously. The A$1 billion (approx. USD $700M) target is split 60&ndash;80% developed markets (US, Canada, Europe, UK, Australia, New Zealand), up to 30% developed Latin America, up to 20% Southeast Asia and Africa. Open to pension funds, insurance, family offices, and endowments. The fund is the largest single private capital vehicle combining forestry with explicit biodiversity and carbon credit co-investment to date.
+      <a href="https://www.esgtoday.com/new-forests-launches-a1-billion-global-natural-capital-fund/" target="_blank" class="source-badge badge-green">ESG Today 8/10</a></p>
+    </div>
+
+    <div class="further-item">
+      <p><strong>IUCN nature credits pilot: 330 hectares, three EU member states, corporate finance secured.</strong> The IUCN has launched an EU-funded pilot project to explore nature credit frameworks in Croatia, the Netherlands, and Poland &mdash; providing national authorities with evidence ahead of the European Commission&rsquo;s own Nature Credits Roadmap process. Separately, approximately 330 hectares of voluntary European biodiversity credit projects have already secured corporate financing for certification. The EC Expert Group on Nature Credits held its inaugural session in December 2025; IUCN Europe sits on it. The estimated EU biodiversity funding gap is &euro;47 billion per year.
+      <a href="https://iucn.org/news/202606/iucn-launches-eu-funded-project-explore-potential-nature-credits-three-eu-member-states" target="_blank" class="source-badge badge-green">IUCN 9/10</a>
+      <a href="https://carbon-pulse.com/522438/" target="_blank" class="source-badge badge-green">Carbon Pulse 8/10</a></p>
+    </div>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <span class="angle-num">1</span>
+        <span class="angle-move-text">The IFT floor this week is the first real data point on commercial readiness for precision-fermented casein &mdash; not scientific readiness, which cleared last year. The three functional numbers that determine whether an ingredient buyer places an evaluation order are: gel strength at pH&nbsp;4.6 (the acid-curd benchmark that governs cheese texture and melt pull), micellar heat stability (the melt test for food-service applications, where dairy cheese outperforms every plant-based substitute), and slow-digestion kinetics relative to native bovine casein (the satiety claim for functional food positioning). Formo and Those Vegan Cowboys each have published or pre-published data on at least two of those three. Your food-science background lets you read the specification sheet before the marketing narrative arrives. If you can get to the Formo booth data before the trade press round-up this week, the functional spec gap &mdash; if any exists &mdash; is a cleaner investment signal than any commercial announcement.</span>
+      </div>
+      <div class="angle-move">
+        <span class="angle-num">2</span>
+        <span class="angle-move-text">Calm/Storm launched Fund II at &euro;30M in March 2026, already deployed into 25 companies, with 4 investments in 2026 (SquareMind, Oska Health, and two others). The fund&rsquo;s stated focus is HealthTech, digital health, and overlooked chronic conditions &mdash; not food ingredients. But precision fermentation casein&rsquo;s commercial moment is a signal that lands inside that mandate via the food-as-medicine channel: high-protein satiety, women&rsquo;s nutrition (lactoferrin for iron), sports and recovery formulations. The enabler layer &mdash; bioreactor software, formulation services, flavour and texture masking, regulatory consulting for novel ingredient GRAS filings &mdash; is where seed-stage European companies exist and where Fund II&rsquo;s cheque size fits. If the IFT floor this week generates named buyer interest in precision-fermented casein from US food brands, the enabler window in Europe tightens meaningfully before Q3 closes.</span>
+      </div>
+      <div class="angle-move">
+        <span class="angle-num">3</span>
+        <span class="angle-move-text">The Believer Meats auction on 28 July is a two-sided signal. If UPSIDE wins uncontested at $50M, it confirms that the North Carolina bioreactor infrastructure is valued at approximately $50M by the only party willing to acquire it &mdash; a floor for comparable cultivated meat manufacturing assets in the US. If a second bidder emerges above $52.25M, it reveals a strategic competitor UPSIDE did not want visible. Either way, the 20 July deadline is worth a calendar entry: who else bid is the first question, before the auction outcome is the second.</span>
+      </div>
+    </div>
+
+    <div class="radar-block">
+      <div class="radar-label">On the Radar</div>
+      <div class="radar-item"><span class="radar-date">13&ndash;16 July (now)</span> &mdash; IFT FIRST, Chicago. Formo (Booth ST81) and Those Vegan Cowboys on the floor with precision-fermented casein. Day 2 today.</div>
+      <div class="radar-item"><span class="radar-date">20 July</span> &mdash; Believer Meats competing bid deadline. Minimum qualifying offer: $52.25M.</div>
+      <div class="radar-item"><span class="radar-date">28 July</span> &mdash; Believer Meats auction (if qualifying bids received). Sale hearing 30 July.</div>
+      <div class="radar-item"><span class="radar-date">Q4 2026</span> &mdash; EU Biotech Act II publication expected. The legislative window for addressing novel food approval timelines and precision fermentation scale-up.</div>
+      <div class="radar-item"><span class="radar-date">20&ndash;25 October</span> &mdash; Art Basel Paris, Grand Palais. First edition under Karim Crippa. Avant-Premi&egrave;re 20 Oct; public vernissage 22 Oct.</div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <strong style="color:#1F1B16;">APPETITE</strong> &middot; Edition 34 &middot; Monday, 14 July 2026<br/>
+    A personal briefing for Julinka Naomi Waesche &middot; Venture &middot; Food &middot; Art &middot; Nature
+  </div>
+</div>
+</body>
+</html>

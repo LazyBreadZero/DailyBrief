@@ -1458,6 +1458,68 @@ None new this edition.
 
 ---
 
+## Edition 34 — Monday, 14 July 2026
+
+### Lead Story
+**Title:** Precision Fermentation's First Commercial Reckoning: Three Companies, Three GRAS Caseins, One Trade Floor
+**Pillar:** Food Science
+
+**Core argument:** IFT FIRST 2026 opened Sunday in Chicago. For the first time, three companies with self-affirmed GRAS clearances for precision-fermented casein are on the trade floor simultaneously — Formo (Berlin, Booth ST81), Those Vegan Cowboys (Ghent), and New Culture — pitching real procurement leads rather than pilot-programme participants. Formo has set up a US subsidiary (Formo Foods Inc.), partnered with Rx Food Ingredients on distribution, and is sampling its enhanced casein — engineered for foam stability, heat resilience, and slow-digestion profile — with US food and nutrition buyers right now. An FDA "no questions" letter is expected later this year, but sales can begin before it arrives. Those Vegan Cowboys is showing Margaret's Finest alongside its alpha-s1 casein ingredient, having raised €6.25M and self-affirmed GRAS for recombinant casein sourced from sheep, goats, buffaloes, llamas and bovines. Vivici (Fonterra/DSM-Firmenich JV) is absent from the IFT floor but made trade press this week: Vivitein LF (precision-fermented lactoferrin, GRAS self-affirmed February 2026, €12.5M EIC Accelerator June 2026) is now in mainstream nutrition press. The question the IFT floor is answering has nothing to do with science. The science cleared. The question is whether ingredient buyers for US sports nutrition, RTD dairy, and high-protein consumer brands have internal budget lines for precision-fermented inputs at current price points — visible only in procurement conversations, not in press releases this week.
+
+**Key entities introduced:** None new (Formo/Those Vegan Cowboys/New Culture/Vivici all previously tracked)
+**Key concepts introduced:** None new (precision-fermented casein / GRAS self-determination tracked since Ed 6)
+**Sources used:** Formo (9/10): https://formo.bio/ift-first-2026/ ; DairyReporter (8/10): https://www.dairyreporter.com/Article/2026/07/08/precision-fermented-lactoferrin-moves-into-mainstream-nutrition/ ; Green Queen (7/10): https://www.greenqueen.com.hk/formo-foods-precision-fermentation-casein-dairy-protein-self-gras-cheese/ ; FoodNavigator-USA (8/10): https://www.foodnavigator-usa.com/Article/2026/06/25/why-next-gen-alt-protein-startups-will-be-built-on-access-not-just-science/
+**Follow-up threads to watch:** IFT FIRST buyer response; named food manufacturer announcing Formo or TVC casein trials; Formo FDA no-questions letter; any GRAS clearance update from New Culture
+
+### Further items
+**Believer Meats auction: six days to bid deadline, no named competing bidders yet (Venture Capital).** UPSIDE Foods' $50M stalking-horse bid remains the only public offer. Competing bids must exceed $52.25M and land by 20 July; auction 28 July; sale hearing 30 July. The North Carolina facility includes large-format bioreactors, processing equipment, and permits that would otherwise take years to licence and build new.
+
+**SRUK's first week: Indonesia issued 30 million tonnes, first CDSCC data-standard implementation (Nature).** SRUK launched 9 July; Indonesia became the first country to implement the CDSCC Common Carbon Credit Data Model within a national registry. Argus Media reported Katingan REDD+ prices fell before the bulk issuance on anticipated supply. First-week Katingan spot prices vs. SRUK reference prices remain paywalled; that spread is the governance-architecture premium number to watch.
+
+**EU Biotech Act II: Call for Evidence closed; publication now expected Q4 2026 (Policy).** Indicative timetable shifted from Q3 to Q4 2026. Biotech Act I confirmed exclusion of novel foods from regulatory sandboxes ("ethical or cultural concerns" rationale). Average EFSA novel-food review: 2.56 years. Act II is the next correction window.
+
+**EU NGT: implementation clock running, mid-2028 application firm (Policy).** European Parliament final approval June 17; Council adopted April 21. Two-year implementation period for secondary legislation places application at mid-2028. Two-tier framework (Category 1 simplified pathway / Category 2 GMO framework) settled.
+
+**Louvre: €1.15B renovation begins September; new director cites physical and financial overstretch (Art).** Christophe Leribault told a Senate committee the museum is "running out of steam." Two pipe-burst incidents (Dec 2025 / Feb 2026), Apollo Gallery heist (Oct 2025, €88M, 8 minutes), estimated €10M ticket fraud. Renovation: €1.15B, up to a decade, starting September 2026.
+
+**Art Basel Paris: October 20–25, Grand Palais; 200+ galleries from 41 countries (Art).** First edition under Karim Crippa. 181 galleries in Galeries section; Emergence and Premise also open. Avant-Première October 20; public vernissage October 22; public days through October 25.
+
+**New Forests GLO: A$1B global natural capital fund open for institutional investment (Nature).** 60–80% developed markets (US, Canada, Europe, UK, Australia, New Zealand); up to 30% developed Latin America; up to 20% Southeast Asia and Africa. Open to pension funds, insurance, family offices, endowments.
+
+**IUCN nature credits pilot: 330 hectares, three EU member states, corporate finance secured (Nature).** Croatia, Netherlands, Poland EU-funded pilot launched. ~330 hectares of voluntary European biodiversity credit projects have secured corporate financing. EC Expert Group on Nature Credits: inaugural session December 2025; IUCN Europe participating.
+
+### New concepts in Julinka's working vocabulary
+None new this edition (all precision-fermentation and GRAS concepts established in prior editions).
+
+### Julinka's Angle
+1. **Read the Formo functional spec from the IFT floor before the trade press round-up arrives.** The three functional numbers that determine whether an ingredient buyer places an evaluation order are gel strength at pH 4.6 (acid-curd benchmark for cheese texture and melt pull), micellar heat stability (food-service melt test), and slow-digestion kinetics relative to native bovine casein (satiety claim for functional food positioning). Formo and Those Vegan Cowboys each have published or pre-published data on at least two of the three. The functional spec gap — if any — is a cleaner investment signal than any commercial announcement.
+
+2. **Connect the casein commercial moment to Calm/Storm Fund II's enabler layer.** Precision fermentation casein at commercial demonstration hits Fund II's mandate via the food-as-medicine channel (high-protein satiety, women's nutrition via lactoferrin, sports and recovery formulations). The enabler layer — bioreactor software, formulation services, flavour and texture masking, regulatory consulting for novel-ingredient GRAS filings — is where seed-stage European companies exist and where Fund II's cheque size fits. If IFT FIRST generates named buyer interest in precision-fermented casein from US food brands, the European enabler window tightens before Q3 closes.
+
+3. **Believer Meats auction as two-sided manufacturing-asset signal.** If UPSIDE wins uncontested at $50M, that is the floor for comparable cultivated meat manufacturing assets in the US. If a second bidder emerges above $52.25M, it reveals a strategic competitor UPSIDE did not want visible. The 20 July deadline is worth a calendar entry: who else bid is the first question before the auction outcome is the second.
+
+### Running-thread tracker (key updates)
+- **Formo IFT FIRST — MOVED (Ed 34):** On the floor now (13–16 July, Booth ST81); Those Vegan Cowboys and New Culture simultaneously on floor with GRAS caseins; commercial readiness question for ingredient buyers visible in procurement conversations this week; not in press releases
+- **Indonesia SRUK — MOVED (Ed 34):** SRUK launched 9 July as scheduled; first CDSCC data-standard implementation in a national registry; first-week Katingan spot pricing vs. SRUK reference paywalled; watch the spread for governance-architecture premium signal
+- **EU Biotech Act II — UPDATED (Ed 34):** Publication timetable shifted from Q3 to Q4 2026; novel-food sandbox exclusion from Biotech Act I confirmed with stated rationale ("ethical or cultural concerns")
+- **Louvre infrastructure/funding crisis — MOVED (Ed 34):** Director confirmed "running out of steam" to Senate committee; pipe bursts (Dec 2025/Feb 2026) and Apollo Gallery heist (Oct 2025) documented; €1.15B renovation begins September 2026
+- **Art Basel Paris — MOVED (Ed 34):** Gallery list published; 200+ galleries from 41 countries; October 20–25, Grand Palais; Karim Crippa as new director; confirmed
+- **New Forests GLO fund — MOVED (Ed 34):** A$1B target; open for institutional investment across four natural asset classes; developed markets 60–80%
+- **IUCN nature credits pilot — MOVED (Ed 34):** ~330 hectares European biodiversity credits have secured corporate financing; three EU member states (Croatia/NL/Poland); EC Expert Group inaugural session December 2025, IUCN Europe participating
+- UPSIDE Foods/Believer Meats auction — competing bids due 20 July; auction 28 July; sale hearing 30 July; no named competing bidders yet
+- EU NGT regulation — mid-2028 application; two-tier framework settled; no update
+- EU nature-credits technical criteria — Finland framework live (Ed 32); EU expert group criteria still overdue; no update
+- Yield Lab Europe Fund 2 — €25M EIF toward €100M target; no movement
+- Ingredion/Tate & Lyle takeover — court sanction and antitrust clearance pending; completion H2 2027; no movement
+- Every/Huvepharma capacity expansion — agreed mid-June; no movement
+- Nestlé/Helaina infant-nutrition partnership — no movement
+- Astral Systems first close — £23m; no movement
+- Alan/Prosus Series G — regulatory approvals pending; no movement
+- Lactalis/Nutri-Score CJEU referral — referred 25 June; judgment 18–24 months; no movement
+- Singapore-Indonesia bilateral carbon credit partnership — advancing; no movement
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1495,6 +1557,7 @@ None new this edition.
 | 31 | 6 Jul 2026 | Indonesia 30M+ tonne REDD+ issuance; SRUK launches 9 July | — | None new | Track Katingan spot vs. SRUK reference price through 9 July as governance credibility number |
 | 32 | 7 Jul 2026 | Finland state-backed voluntary nature credits framework (state criteria + national registrar); London Old Masters $102M — tech buyers entering | Finnish Government, Ministry of Environment, Artnet News, ARTnews | Finnish Ministry of Environment (as governance authority); three-lineage EU taxonomy | Use Finland's three-lineage taxonomy for Calm/Storm biodiversity diligence; track SRUK-vs-Verra spread from 9 July as governance-architecture premium number |
 | 33 | 8 Jul 2026 | Indonesia issues 30M tonne REDD+ forestry credits (6 July); SRUK launches tomorrow (9 July) | ANTARA News, Argus Media, Carbon Herald (lead); Formo/vegconomist (further) | None new | Map Indonesia credit-aggregation layer for EU buyers before SRUK opens; write Formo casein functional-performance spec before IFT FIRST coverage floods |
+| 34 | 14 Jul 2026 | IFT FIRST Chicago: three precision-fermented GRAS caseins on the trade floor simultaneously (Formo, Those Vegan Cowboys, New Culture) | Believer Meats auction (bid deadline 20 July), Indonesia SRUK first week, EU Biotech Act II Q4 shift, EU NGT clock, Louvre September renovation, Art Basel Paris October, New Forests GLO A$1B, IUCN nature-credits pilot 330ha | None new | Read Formo functional spec before trade-press round-up; connect casein commercial moment to Calm/Storm Fund II enabler layer; Believer auction 20 July as two-sided manufacturing-asset signal |
 
 ---
-*Last updated: Edition 33 — 8 July 2026*
+*Last updated: Edition 34 — 14 July 2026*
