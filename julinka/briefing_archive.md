@@ -1520,6 +1520,51 @@ None new this edition (all precision-fermentation and GRAS concepts established 
 
 ---
 
+## Edition 35 — Wednesday, 15 July 2026
+
+### Lead Story
+**Title:** Auction Houses Post Their Strongest First Half Since 2022; London Sales Rise 131%
+**Pillar:** Art
+**Core argument:** Global auction sales at Christie's, Sotheby's, and Phillips reached $6.8 billion in H1 2026 — up 70% year-on-year — the strongest first-half performance since the post-pandemic peak, per ArtTactic's H1 2026 report published 10 July. Christie's $3.4B (+71%), Sotheby's $2.8B (+71%), Phillips $505.4M (+59%). London was the outlier at $1.42B (+131%), nearly matching 2022 volumes. Global sell-through: 91%. Online lots rose 22% to 33,474. The recovery is mid-market led: the $50,000–$500,000 band, most compressed in 2023–24, is showing the strongest growth. Supply is part of the explanation — collectors who withheld during the downturn have returned, and major single-owner sales in late 2025 reset the floor for confident marketing. Stock markets +~10% in H1 provided a parallel wealth-tailwind insulating buyers from other economic headwinds.
+**Key entities introduced:** ArtTactic (market-data and advisory firm; H1 2026 report the source of all headline figures); no new auction house entities
+**Key concepts introduced:** None new (mid-market $50K–$500K band and sell-through rate established in prior auction coverage)
+**Sources used:** The Art Newspaper (9/10): https://www.theartnewspaper.com/2026/07/10/auction-houses-made-significant-recoveries-in-2026-arttactic-report-finds ; ArtTactic (9/10): https://arttactic.com/reports/global-art-market-outlook-2026
+**Angle delivered:** Identify one LP or investor in Calm/Storm's network at the intersection of art collecting and impact investing before Art Basel Paris (October 20–25). The right conversation at the Grand Palais is with someone whose portfolio spans a nature position and a collection; the ArtTactic numbers — $6.8B global, +70%, London +131%, mid-market leading — are the right data point to open with. Ask one Calm/Storm LP or LBO-adjacent contact whether their ESG team has started mapping biodiversity credit exposure, before the EU expert group publishes.
+**Follow-up threads to watch:** Art Basel Paris (October 20–25, first edition under Karim Crippa, 200+ galleries from 41 countries); H2 2026 auction performance vs. H1; which LP in Calm/Storm's network is identifiable at the art/impact intersection
+
+### Further items
+**Title:** Voluntary Biodiversity Credits: First Observable Market Data
+**Pillar:** Nature
+**Core argument:** Voluntary biodiversity credit sales reached $119,000 in June across 82 transactions globally — the first reported monthly market figure for the asset class, per Carbon Pulse's Nature & Biodiversity Pulse (8 July). Finland published the EU's first state-backed voluntary nature credits framework in early July (state as criteria-setter and registrar); EU expert group's own technical criteria remain overdue from their mid-2026 mandate. The global reference price is still being discovered, not observed. The first institutional buyer to commit a long-dated, scaled purchase will set that reference rather than find one.
+**Sources used:** Carbon Pulse (9/10): https://carbon-pulse.com/529475/
+**Follow-up thread:** EU expert group criteria publication; first institutional long-dated biodiversity credit commitment; any Calm/Storm LP ESG mapping of biodiversity credit exposure
+
+### New concepts in Julinka's working vocabulary
+None new this edition (art market and biodiversity credit concepts all established in prior editions).
+
+### Running-thread tracker
+- **ArtTactic H1 2026 — NEW (Ed 35):** Global auction sales $6.8B (+70%); Christie's $3.4B (+71%), Sotheby's $2.8B (+71%), Phillips $505.4M (+59%); London $1.42B (+131%); sell-through 91%; mid-market ($50K–$500K) leading recovery; strongest first half since 2022; Art Basel Paris October context now in hand
+- **Voluntary biodiversity credits — NEW (Ed 35):** $119,000 in June across 82 transactions globally; first monthly market data for the asset class; EU expert group criteria still overdue; Finland framework published as first state-backed model
+- **UPSIDE Foods/Believer Meats auction — APPROACHING (Ed 35):** Competing bids due 20 July (5 days); UPSIDE's $50M stalking-horse remains the only public offer; auction 28 July; sale hearing 30 July
+- **Formo IFT FIRST — CLOSED (Ed 35):** IFT FIRST Chicago closed 15 July; no named procurement announcements surfaced; FDA "no questions" letter still pending; buyer response to watch via trade press
+- **Indonesia SRUK — MOVED (Ed 34):** First-week Katingan spot pricing vs. SRUK reference paywalled; CDSCC first national-registry implementation confirmed; governance-architecture premium number to watch
+- **Art Basel Paris — CONFIRMED (Ed 34/35):** October 20–25, Grand Palais; Karim Crippa director; 200+ galleries from 41 countries; H1 2026 recovery context now established for preparation
+- **EU nature-credits technical criteria:** Finland framework live (Ed 32); EU expert group criteria still overdue from mid-2026 mandate; $119K June biodiversity credit market data is the first monthly figure for the asset class
+- **EU Biotech Act II — UPDATED (Ed 34):** Publication shifted to Q4 2026; novel-food sandbox exclusion from Act I confirmed
+- **EU NGT regulation:** Mid-2028 application; two-tier framework settled; no update
+- **Yield Lab Europe Fund 2:** €25M EIF toward €100M target; no movement
+- **Ingredion/Tate & Lyle takeover:** Court sanction and antitrust clearance pending; no movement
+- **New Forests GLO fund:** A$1B target; open for institutional investment; no movement
+- **Every/Huvepharma capacity expansion:** No movement
+- **Nestlé/Helaina infant-nutrition partnership:** No movement
+- **Astral Systems first close:** £23m; no movement
+- **Alan/Prosus Series G:** Regulatory approvals pending; no movement
+- **Lactalis/Nutri-Score CJEU referral:** Referred 25 June; judgment 18–24 months; no movement
+- **Louvre infrastructure/funding crisis:** €1.15B renovation begins September 2026; no movement
+- **Singapore-Indonesia bilateral carbon credit partnership:** Advancing; no movement
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1558,6 +1603,7 @@ None new this edition (all precision-fermentation and GRAS concepts established 
 | 32 | 7 Jul 2026 | Finland state-backed voluntary nature credits framework (state criteria + national registrar); London Old Masters $102M — tech buyers entering | Finnish Government, Ministry of Environment, Artnet News, ARTnews | Finnish Ministry of Environment (as governance authority); three-lineage EU taxonomy | Use Finland's three-lineage taxonomy for Calm/Storm biodiversity diligence; track SRUK-vs-Verra spread from 9 July as governance-architecture premium number |
 | 33 | 8 Jul 2026 | Indonesia issues 30M tonne REDD+ forestry credits (6 July); SRUK launches tomorrow (9 July) | ANTARA News, Argus Media, Carbon Herald (lead); Formo/vegconomist (further) | None new | Map Indonesia credit-aggregation layer for EU buyers before SRUK opens; write Formo casein functional-performance spec before IFT FIRST coverage floods |
 | 34 | 14 Jul 2026 | IFT FIRST Chicago: three precision-fermented GRAS caseins on the trade floor simultaneously (Formo, Those Vegan Cowboys, New Culture) | Believer Meats auction (bid deadline 20 July), Indonesia SRUK first week, EU Biotech Act II Q4 shift, EU NGT clock, Louvre September renovation, Art Basel Paris October, New Forests GLO A$1B, IUCN nature-credits pilot 330ha | None new | Read Formo functional spec before trade-press round-up; connect casein commercial moment to Calm/Storm Fund II enabler layer; Believer auction 20 July as two-sided manufacturing-asset signal |
+| 35 | 15 Jul 2026 | ArtTactic H1 2026: global auction sales $6.8B (+70%), London +131% to $1.42B — strongest first half since 2022 | Voluntary biodiversity credits: $119,000 in June across 82 transactions globally (Carbon Pulse) | The Art Newspaper, ArtTactic (lead); Carbon Pulse (further) | Identify one LP/investor at intersection of art collecting and impact investing for Art Basel Paris conversation; ask Calm/Storm LP network about biodiversity credit exposure mapping |
 
 ---
-*Last updated: Edition 34 — 14 July 2026*
+*Last updated: Edition 35 — 15 July 2026*

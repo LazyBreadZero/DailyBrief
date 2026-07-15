@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Wednesday, 15 July 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #FBF9F3;
+    color: #1F1B16;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.65;
+    padding: 0 0 60px;
+  }
+  a { color: #A8761A; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .accent-bar { height: 7px; background: #E7B43A; }
+
+  .wrapper {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* Masthead */
+  .masthead {
+    padding: 32px 0 16px;
+  }
+  .masthead-sup {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    color: #A8761A;
+    margin-bottom: 4px;
+  }
+  .masthead-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .sun-motif {
+    font-size: 28px;
+    line-height: 1;
+    color: #E7B43A;
+    flex-shrink: 0;
+  }
+  .masthead-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 56px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    line-height: 1;
+    color: #1F1B16;
+  }
+  .masthead-tagline {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #4A4036;
+    margin-top: 8px;
+  }
+
+  /* Gingham rule */
+  .gingham-rule {
+    height: 8px;
+    margin: 16px 0;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 8px,
+      #F4E8C9 8px, #F4E8C9 16px
+    );
+    border-radius: 1px;
+  }
+
+  /* Dateline */
+  .dateline {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 9px 0 10px;
+    border-bottom: 2px solid #1F1B16;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #6B5B4E;
+  }
+  .dateline-edition { color: #A8761A; font-weight: 600; }
+
+  /* Section kicker */
+  .section-kicker {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #A8761A;
+    font-weight: 600;
+    margin: 34px 0 10px;
+  }
+
+  /* Headlines */
+  h2.story-hed {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.22;
+    color: #1F1B16;
+    margin-bottom: 16px;
+  }
+  h3.further-hed {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.28;
+    color: #1F1B16;
+    margin-bottom: 8px;
+  }
+
+  /* Body text */
+  .body-text p {
+    margin-bottom: 18px;
+    font-size: 17.5px;
+    color: #1F1B16;
+  }
+
+  /* Rules */
+  .rule { border: none; border-top: 1px solid #D8CFBC; margin: 28px 0; }
+
+  /* Source badge */
+  .badge {
+    display: inline-block;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10.5px;
+    font-weight: 500;
+    padding: 2px 7px;
+    border-radius: 3px;
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+
+  /* Julinka's Angle */
+  .angle-block {
+    background: #211C16;
+    color: #FBF9F3;
+    border-radius: 8px;
+    padding: 26px 28px;
+    margin: 34px 0 28px;
+  }
+  .angle-label {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #E7B43A;
+    margin-bottom: 12px;
+  }
+  .angle-block p {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #F0EBE0;
+    margin-bottom: 14px;
+  }
+  .angle-block p:last-child { margin-bottom: 0; }
+  .angle-num {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #E7B43A;
+    margin-right: 6px;
+  }
+
+  /* On the Radar */
+  .radar-block {
+    background: #F4E8C9;
+    border-radius: 6px;
+    padding: 18px 22px;
+    margin: 28px 0;
+  }
+  .radar-label {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #A8761A;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .radar-block ul { list-style: none; padding: 0; }
+  .radar-block li {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 14.5px;
+    color: #3A2E24;
+    padding: 5px 0;
+    border-bottom: 1px solid #D8CFBC;
+  }
+  .radar-block li:last-child { border-bottom: none; }
+  .radar-date { font-weight: 600; color: #A8761A; }
+
+  /* Footer */
+  .footer {
+    margin-top: 48px;
+    padding-top: 18px;
+    border-top: 1px solid #D8CFBC;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    color: #928775;
+    letter-spacing: 0.5px;
+    line-height: 1.9;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="accent-bar"></div>
+
+<div class="wrapper">
+
+  <!-- Masthead -->
+  <div class="masthead">
+    <div class="masthead-sup">Julinka Naomi Waesche · Your Morning Brief · Wednesday, 15 July 2026</div>
+    <div class="masthead-row">
+      <span class="sun-motif">☀</span>
+      <div class="masthead-title">Appetite</div>
+    </div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <!-- Gingham rule -->
+  <div class="gingham-rule"></div>
+
+  <!-- Dateline -->
+  <div class="dateline">
+    <span class="dateline-edition">Edition 35</span>
+    <span>Wednesday, 15 July 2026</span>
+    <span>Art · Nature</span>
+  </div>
+
+  <!-- Lead -->
+  <div class="section-kicker">Today's Lead &middot; Art Market</div>
+
+  <h2 class="story-hed">Auction Houses Post Their Strongest First Half Since 2022; London Sales Rise 131%</h2>
+
+  <div class="body-text">
+    <p>Global auction sales at Christie's, Sotheby's, and Phillips reached $6.8 billion in the first half of 2026 — up 70% from $4 billion in the same period of 2025 — the strongest first-half performance since the post-pandemic peak, according to ArtTactic's H1 2026 report published on 10 July. Christie's reported $3.4 billion (up 71%), Sotheby's $2.8 billion (up 71%), and Phillips $505.4 million (up 59%). London was the outlier: regional sales rose 131% to $1.42 billion, nearly matching 2022 volumes. The global sell-through rate across all three houses stood at 91%. (<a href="https://www.theartnewspaper.com/2026/07/10/auction-houses-made-significant-recoveries-in-2026-arttactic-report-finds" target="_blank">The Art Newspaper, 10 Jul</a><span class="badge badge-green">9/10</span> · <a href="https://arttactic.com/reports/global-art-market-outlook-2026" target="_blank">ArtTactic</a><span class="badge badge-green">9/10</span>)</p>
+
+    <p>The recovery is not a trophy-market story. ArtTactic's chief executive cited the return of confidence "to the market's middle core" — the $50,000 to $500,000 band, the segment most compressed in 2023 and 2024, now showing the most robust growth. Online lots reached 33,474, a 22% rise from last year's five-year low, and the houses ran 131 white-glove auctions. Supply is part of the explanation: collectors who withheld works during the downturn have returned, and major single-owner sales in late 2025 reset the floor for what the houses could market confidently. Stock markets up roughly 10% in the first half provided a parallel tailwind that insulated wealthy buyers from other economic headwinds.</p>
+
+    <p>For Julinka's context: Art Basel Paris opens 20 October at the Grand Palais — the first edition under director Karim Crippa, 200 galleries from 41 countries. The H1 numbers indicate a buyer class arriving with recovered confidence, not the cautious, measured posture that characterised Basel 2026 in June. A London market up 131% going into the autumn season is a different calibration than the year prior, and the mid-market recovery means the galleries Julinka is most likely to meet at the Grand Palais — not the nine-figure rooms, but the serious mid-tier — are the ones with the wind at their backs.</p>
+  </div>
+
+  <hr class="rule" />
+
+  <!-- Further items -->
+  <div class="section-kicker">Also Noted</div>
+
+  <h3 class="further-hed">Voluntary Biodiversity Credits: First Observable Market Data</h3>
+  <div class="body-text">
+    <p>Voluntary biodiversity credit sales reached $119,000 in June across 82 transactions globally, according to Carbon Pulse's Nature &amp; Biodiversity Pulse published 8 July — the first reported monthly market figure for the asset class. The number is small by design: Finland published the EU's first state-backed voluntary nature credits framework in early July (state as criteria-setter and registrar), and the EU expert group's own technical criteria remain overdue from their mid-2026 mandate. At $119,000 across 82 transactions, the global reference price is still being discovered rather than observed. The first institutional buyer to commit a long-dated, scaled purchase will set that reference rather than find one. (<a href="https://carbon-pulse.com/529475/" target="_blank">Carbon Pulse, 8 Jul</a><span class="badge badge-green">9/10</span>)</p>
+  </div>
+
+  <!-- Julinka's Angle -->
+  <div class="angle-block">
+    <div class="angle-label">Julinka's Angle</div>
+    <p><span class="angle-num">1.</span> The ArtTactic H1 numbers give a specific data point to bring to Art Basel Paris: $6.8 billion global, +70%, London +131%, with the $50K–$500K middle market leading the recovery — not the trophy tier. Before October, identify one LP or investor contact in Calm/Storm's network who sits at the intersection of art collecting and impact investing. The right conversation at the Grand Palais is with someone whose portfolio already spans a nature position and a collection, and the right number to open with is ArtTactic's: strongest first half since 2022, mid-market leading.</p>
+    <p><span class="angle-num">2.</span> The $119,000 June biodiversity credit figure is more useful than it looks. Voluntary carbon markets were also embryonic before institutional buyers arrived; the question was always who would structure the first credible long-dated commitment. Ask one Calm/Storm LP or LBO-adjacent contact whether their ESG team has started mapping biodiversity credit exposure. That conversation — before the EU expert group publishes — is the right moment to frame how Calm/Storm's portfolio companies think about natural capital.</p>
+  </div>
+
+  <!-- On the Radar -->
+  <div class="radar-block">
+    <div class="radar-label">On the Radar</div>
+    <ul>
+      <li><span class="radar-date">20 July</span> &nbsp;·&nbsp; Believer Meats auction — competing bids due; UPSIDE Foods' $50M stalking-horse is the only public offer</li>
+      <li><span class="radar-date">20–25 October</span> &nbsp;·&nbsp; Art Basel Paris, Grand Palais — first edition under Karim Crippa, 200+ galleries</li>
+      <li><span class="radar-date">Q4 2026</span> &nbsp;·&nbsp; EU Biotech Act II — novel-food sandbox correction window; publication expected Q4</li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <strong>APPETITE</strong> &nbsp;·&nbsp; Edition 35 &nbsp;·&nbsp; Wednesday, 15 July 2026<br />
+    A personal briefing for Julinka Naomi Waesche &nbsp;·&nbsp; Venture · Food · Art · Nature
+  </div>
+
+</div><!-- /wrapper -->
+</body>
+</html>
