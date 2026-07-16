@@ -1520,6 +1520,51 @@ None new this edition (all precision-fermentation and GRAS concepts established 
 
 ---
 
+## Edition 35 — Thursday, 16 July 2026
+
+### Lead Story
+**Title:** Europe's New Genomics Law Takes Effect — Opening a Two-Tier Path for Plant Breeding That Skips the GMO Track
+**Category:** Food Science & Regulation
+
+**Core argument:** The EU New Genomic Techniques (NGT) Regulation enters into force today, 16 July 2026. NGT-1 — plant varieties produced by targeted mutagenesis or cisgenesis with no more than 20 genomic modifications — are classified as equivalent to conventionally bred varieties. They escape GMO labelling, traceability requirements, and EFSA novel-food review entirely. NGT-2 remains under the existing GMO framework with a streamlined risk assessment. The regulation covers plants only; animals, microorganisms, and precision-fermented ingredients remain on the EFSA track (currently averaging 2.56 years). The Commission has committed to convening an expert group within 12 months to address patent access — specifically whether NGT-1 varieties remain freely accessible to plant breeders or can be locked behind intellectual property. That question is not settled in the text; it is deferred. Implementation clock: mid-2028 for secondary legislation and notification databases. Companies with disclosed European NGT-1 pipelines include Yield10 Bioscience (camelina), Tropic Biosciences (banana, coffee), and Meijer Seeds (vegetables). Near-term NGT-1 commercial categories include disease-resistant wheat and barley, drought-tolerant maize, and high-oleic sunflower — all within the 20-edit ceiling. No company has named a specific EU commercial launch date.
+
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** NGT-1 (plants with ≤20 genomic modifications via targeted mutagenesis or cisgenesis, exempt from GMO framework); NGT-2 (more complex genomic edits, streamlined GMO framework retained); patent-access expert group (Commission-mandated, 12-month remit on NGT-1 variety access)
+**Sources used:** EU Official Journal/EUR-Lex (10/10): https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_2025_1234 ; EFSA (9/10): https://www.efsa.europa.eu/en/news/ngt-regulation-enters-force-efsa-mandate ; Euractiv (7/10): https://www.euractiv.com/section/agriculture-food/news/eu-ngt-regulation-in-force-industry-reactions/
+**Follow-up threads to watch:** Expert group timeline and patent-access mandate resolution; first NGT-1 notification filings; whether any Calm/Storm pipeline or screened universe company discloses an NGT-1 commercial programme; mid-2028 implementing acts
+
+### Further items
+**Christie's and Sotheby's post their strongest H1 since 2021 — trophy-lot driven, not broad market (Art).** Christie's $4.5 billion total sales (+71% auctions YoY); Sotheby's $4.4 billion (+59%). Lewis Collection London $392.6 million — most expensive single-owner collection ever auctioned in Europe. Jackson Pollock $181.2 million, Brancusi $107.6 million. 47% of new Christie's clients in H1 are Millennial or Gen Z. The Art Newspaper published figures 15 July. Both houses rely on a small number of eight- and nine-figure lots; mid-market has not recovered at the same rate. The 47% Millennial/Gen Z new-client figure is the number with structural implications — a collector cohort shift, not an auction anomaly.
+
+**Katingan REDD+ credits at $9.90/tCO2e — first concrete price signal since SRUK launched (Nature).** Credits from the Katingan Mentaya REDD+ project (Central Kalimantan) trading at approximately $9.90/tCO2e at time of reporting, down from ~$11.60 in April 2026. The decline preceded SRUK's 9 July launch as the market priced anticipated supply from Indonesia's 30-million-tonne bulk issuance. SRUK simultaneously became the first country-level implementation of the CDSCC Common Carbon Credit Data Model. The spread between SRUK-only and dual Verra/SRUK credentials remains paywalled — that figure is the governance-architecture premium to track.
+
+### New concepts in Julinka's working vocabulary
+- **NGT-1** — EU regulatory category for plants with no more than 20 genomic modifications via targeted mutagenesis or cisgenesis; exempt from GMO labelling and EFSA novel-food review under the NGT Regulation from 16 July 2026; implementation from mid-2028
+- **Patent-access expert group** — Commission-mandated group with 12-month remit to address whether NGT-1 plant varieties remain freely accessible to breeders; central unresolved question in the regulation's practical impact
+
+### Julinka's Angle
+1. The NGT implementation clock starts today. The NGT-1 pathway is most commercially relevant to plant varieties, but the fund's nutrition mandate overlaps at the crop-input layer — high-oleic sunflower, disease-resistant wheat, drought-tolerant maize. Map which companies in Calm/Storm's screened universe or deal pipeline have European NGT-1 crop programmes; note whether any are seeking financing before the mid-2028 application date creates a commercial milestone that resets valuations.
+
+2. Christie's reports 47% of its new H1 clients are Millennial or Gen Z buyers. Art Basel Paris is 14 weeks away (20–25 October). Calm/Storm sits at the intersection of impact investing and health — a profile that resonates with exactly that cohort. Before Art Basel Paris, identify one portfolio company founder or LP target who is likely to be there and for whom a culturally fluent introduction — from someone who can speak both Bauhaus and biotech — is the meeting they are not already scheduled to have.
+
+### Running-thread tracker (key updates)
+- **EU NGT Regulation — MOVED (Ed 35):** Enters into force today, 16 July 2026; NGT-1 exempt from GMO framework (labelling, EFSA review); plants only; patent-access expert group mandate 12 months; mid-2028 secondary legislation clock; no company has named a specific EU commercial launch date; EU Council (10/10), EFSA (9/10)
+- **Formo IFT FIRST — UPDATED (Ed 35):** IFT FIRST concludes today (July 16); US commercial debut complete; Booth ST81; no specific named-buyer deal announcement in trade press; tracking silently pending any named buyer partnership or contract announcement
+- **Christie's/Sotheby's H1 2026 — NEW THREAD (Ed 35):** Christie's $4.5B (+71% auctions YoY); Sotheby's $4.4B (+59%); strongest H1 since 2021; Lewis Collection $392.6M (most expensive single-owner sale in European auction history); Jackson Pollock $181.2M; Brancusi $107.6M; 47% new Christie's clients Millennial/Gen Z; Art Newspaper 15 July; trophy-lot driven not broad-market recovery
+- **Katingan REDD+ price — UPDATED (Ed 35):** $9.90/tCO2e at time of reporting; down from ~$11.60 April; market priced anticipated supply before SRUK July 9 launch; SRUK-vs-Verra credential spread still paywalled; first concrete price data post-SRUK
+- UPSIDE/Believer Meats auction — bid deadline 20 July; no named competing bidders; tracking silently
+- Art Basel Paris — 20–25 October Grand Palais; no update
+- EU Biotech Act II — Q4 2026 publication; no update
+- Alan/Prosus Series G — regulatory approval pending; no update
+- Lactalis/Nutri-Score CJEU — judgment 18–24 months; no update
+- Louvre renovation — starts September 2026; no update
+- EU nature-credits technical criteria — no update
+- Singapore-Indonesia Article 6 bilateral — advancing; no update
+- Yield Lab Europe Fund 2 — €25M EIF committed; no update
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1558,6 +1603,7 @@ None new this edition (all precision-fermentation and GRAS concepts established 
 | 32 | 7 Jul 2026 | Finland state-backed voluntary nature credits framework (state criteria + national registrar); London Old Masters $102M — tech buyers entering | Finnish Government, Ministry of Environment, Artnet News, ARTnews | Finnish Ministry of Environment (as governance authority); three-lineage EU taxonomy | Use Finland's three-lineage taxonomy for Calm/Storm biodiversity diligence; track SRUK-vs-Verra spread from 9 July as governance-architecture premium number |
 | 33 | 8 Jul 2026 | Indonesia issues 30M tonne REDD+ forestry credits (6 July); SRUK launches tomorrow (9 July) | ANTARA News, Argus Media, Carbon Herald (lead); Formo/vegconomist (further) | None new | Map Indonesia credit-aggregation layer for EU buyers before SRUK opens; write Formo casein functional-performance spec before IFT FIRST coverage floods |
 | 34 | 14 Jul 2026 | IFT FIRST Chicago: three precision-fermented GRAS caseins on the trade floor simultaneously (Formo, Those Vegan Cowboys, New Culture) | Believer Meats auction (bid deadline 20 July), Indonesia SRUK first week, EU Biotech Act II Q4 shift, EU NGT clock, Louvre September renovation, Art Basel Paris October, New Forests GLO A$1B, IUCN nature-credits pilot 330ha | None new | Read Formo functional spec before trade-press round-up; connect casein commercial moment to Calm/Storm Fund II enabler layer; Believer auction 20 July as two-sided manufacturing-asset signal |
+| 35 | 16 Jul 2026 | EU NGT Regulation enters into force today (plants, two-tier: NGT-1 exempt from GMO; NGT-2 streamlined GMO; mid-2028 application) | Christie's + Sotheby's strongest H1 since 2021 (trophy-lot driven; Lewis Collection $392.6M; 47% new clients Millennial/Gen Z); Katingan credits $9.90/tCO2e first price post-SRUK | None new | Map Calm/Storm NGT-1-aligned crop pipeline before mid-2028 creates commercial milestone; identify Art Basel Paris contact from 47% Millennial/Gen Z buyer shift |
 
 ---
-*Last updated: Edition 34 — 14 July 2026*
+*Last updated: Edition 35 — 16 July 2026*

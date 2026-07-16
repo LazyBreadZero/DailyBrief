@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Thursday, 16 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; text-wrap: balance; }
+  h2.further-headline { font-family: 'Fraunces', Georgia, serif; font-size: 18px; font-weight: 600; color: #1F1B16; line-height: 1.25; margin-bottom: 10px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .live-tag { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; background: #D64E26; color: #FBF9F3; padding: 3px 8px; border-radius: 3px; vertical-align: middle; margin-right: 6px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .further-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .further-item { padding-left: 16px; border-left: 2px solid #E7B43A; margin-bottom: 22px; }
+  .further-item p { font-size: 16px; line-height: 1.65; margin-bottom: 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .radar-block { margin-top: 36px; border-top: 1px solid #E5DAC4; padding-top: 22px; }
+  .radar-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .radar-item { font-family: 'DM Sans', sans-serif; font-size: 14px; line-height: 1.6; color: #4A4036; margin-bottom: 8px; }
+  .radar-item:last-child { margin-bottom: 0; }
+  .radar-date { font-weight: 600; color: #1F1B16; }
+  .footer { padding: 32px 52px 0; border-top: 1px solid #E5DAC4; font-family: 'DM Sans', sans-serif; font-size: 11px; color: #928775; text-align: center; letter-spacing: 0.4px; margin-top: 36px; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Thursday, 16 July 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 35</span>
+    <span class="dateline-right">Food Science &middot; Venture Capital &middot; Art &middot; Nature</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Food Science &amp; Regulation &mdash; <span class="live-tag">In force today</span></div>
+    <h1 class="lead-headline">Europe&rsquo;s New Genomics Law Takes Effect&thinsp;&mdash;&thinsp;Opening a Two-Tier Path for Plant Breeding That Skips the GMO Track</h1>
+
+    <p>The EU&rsquo;s New Genomic Techniques (NGT) Regulation enters into force today, 16 July 2026. After three years of negotiation, the Parliament&rsquo;s final vote on 17 June and the Council&rsquo;s formal adoption on 21 April, the regulation is now law. The practical clock starts here: member states and the Commission have until mid-2028 to publish implementing acts, establish the notification database, and train EFSA on the new assessment criteria. Plants developed using targeted mutagenesis or cisgenesis that result in no more than 20 genomic modifications&thinsp;&mdash;&thinsp;NGT-1&thinsp;&mdash;&thinsp;are classified as equivalent to conventionally bred varieties. They escape GMO labelling, traceability requirements, and the EFSA novel-food review track entirely. Everything else falls into NGT-2 and remains under the existing GMO framework, with a streamlined risk assessment.
+    <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_2025_1234" target="_blank" class="source-badge badge-green">EU Official Journal 10/10</a>
+    <a href="https://www.efsa.europa.eu/en/news/ngt-regulation-enters-force-efsa-mandate" target="_blank" class="source-badge badge-amber">EFSA 9/10</a></p>
+
+    <p>Two structural points matter for anyone underwriting European agri-food or agtech positions. First, the regulation covers plants only. Animals, microorganisms, and the precision-fermented ingredients that have dominated the EU novel-food pipeline since 2020 are outside scope and remain on the EFSA track, which currently runs 2.56 years on average. Second, the Commission has committed to convening an expert group within 12 months to address patent access&thinsp;&mdash;&thinsp;specifically whether NGT-1 plant varieties remain freely accessible to plant breeders or whether they can be locked behind intellectual property. That question is not settled in the text; it is deferred. How it resolves will determine whether the NGT-1 pathway actually lowers barriers for European plant breeders, or creates a new monopoly layer above them.</p>
+
+    <p>The companies most immediately positioned are those that had already moved their European breeding programmes toward targeted mutagenesis techniques in anticipation of the legal shift. Yield10 Bioscience (camelina, disease resistance), Tropic Biosciences (banana, coffee), and Meijer Seeds (vegetables) have each disclosed European NGT research pipelines. The crop categories most ready for near-term commercial NGT-1 application are disease-resistant wheat and barley (fusarium, powdery mildew), drought-tolerant maize, and high-oleic sunflower&thinsp;&mdash;&thinsp;all fitting within 20 edits. No company has named a specific EU commercial launch date; the mid-2028 implementation clock is the constraint now, not the science.
+    <a href="https://www.euractiv.com/section/agriculture-food/news/eu-ngt-regulation-in-force-industry-reactions/" target="_blank" class="source-badge badge-amber">Euractiv 7/10</a></p>
+
+    <hr class="divider"/>
+    <div class="further-label">Further</div>
+
+    <div class="further-item">
+      <p><strong>Christie&rsquo;s and Sotheby&rsquo;s post their strongest first half since 2021&thinsp;&mdash;&thinsp;but the recovery is narrower than the headline numbers suggest.</strong> Christie&rsquo;s reported $4.5 billion in total sales for H1 2026 (+71% on auctions year-on-year); Sotheby&rsquo;s reported $4.4 billion (+59%). The Art Newspaper published both sets of figures on 15 July. The headline drivers are almost entirely trophy lots: a Jackson Pollock sold for $181.2 million in May; a Brancusi for $107.6 million. The Lewis Collection sale in London achieved $392.6 million&thinsp;&mdash;&thinsp;the most expensive single-owner collection ever auctioned in Europe. Christie&rsquo;s also noted that 47% of new clients in H1 were Millennial or Gen Z buyers. The figure worth noting alongside the totals: both houses rely on a handful of eight- and nine-figure lots to move their aggregate numbers; the mid-market has not recovered at the same rate, and the breadth of recovery matters more than the top-line for anyone reading this as a cultural-capital signal rather than an auction anomaly.
+      <a href="https://www.theartnewspaper.com/2026/07/15/christies-sothebys-auction-results-h1-2026" target="_blank" class="source-badge badge-green">The Art Newspaper 9/10</a></p>
+    </div>
+
+    <div class="further-item">
+      <p><strong>Katingan carbon credits at $9.90/tCO2e&thinsp;&mdash;&thinsp;the first price signal since Indonesia&rsquo;s SRUK registry launched.</strong> REDD+ credits from the Katingan Mentaya REDD+ project in Central Kalimantan have been trading at around $9.90/tCO2e, down from approximately $11.60 in April 2026. The decline preceded SRUK&rsquo;s 9 July launch, likely as the market priced anticipated supply from Indonesia&rsquo;s bulk 30-million-tonne issuance. SRUK&thinsp;&mdash;&thinsp;Indonesia&rsquo;s new national carbon registry, which simultaneously became the first country-level implementation of the Climate Data Steering Committee&rsquo;s Common Carbon Credit Data Model&thinsp;&mdash;&thinsp;creates for the first time a queryable, standardised data layer above Indonesian credits. The spread between SRUK-only and dual Verra/SRUK credentials is the next pricing figure to track; it will reveal how much institutional buyers are paying for the legacy third-party verification premium on top of sovereign issuance.
+      <a href="https://www.argusmedia.com/en/news-and-insights/latest-market-news/2843606-indonesia-to-issue-30mn-t-redd-credits-in-july-update" target="_blank" class="source-badge badge-green">Argus Media 9/10</a></p>
+    </div>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <span class="angle-num">1</span>
+        <div class="angle-move-text">The two-year NGT implementation clock starts today. The NGT-1 pathway is most commercially relevant to plant varieties, not precision fermentation&thinsp;&mdash;&thinsp;but the fund&rsquo;s nutrition mandate overlaps at the crop-input layer: high-oleic sunflower, disease-resistant wheat, and drought-tolerant maize are all NGT-1 candidates, and several European seed companies have been positioning for exactly this moment. Map which companies in Calm/Storm&rsquo;s screened universe or deal pipeline have European NGT-1 crop programmes, and note whether any are seeking their next financing round before the mid-2028 application date creates a commercial milestone that resets valuations.</div>
+      </div>
+      <div class="angle-move">
+        <span class="angle-num">2</span>
+        <div class="angle-move-text">Christie&rsquo;s reports that 47% of its new H1 clients are Millennial or Gen Z buyers. That is a collector demographic shift, not just an auction anomaly. Art Basel Paris is 14 weeks away (20&ndash;25 October). Calm/Storm sits at the intersection of impact investing and health&thinsp;&mdash;&thinsp;a profile that resonates with exactly that buyer cohort. Before Art Basel Paris, identify one portfolio company founder or LP target who is likely to be there and for whom a culturally fluent introduction&thinsp;&mdash;&thinsp;from someone who can speak both Bauhaus and biotech&thinsp;&mdash;&thinsp;is the meeting they are not already scheduled to have.</div>
+      </div>
+    </div>
+
+    <div class="radar-block">
+      <div class="radar-label">On the Radar</div>
+      <div class="radar-item"><span class="radar-date">20 July</span> &mdash; UPSIDE/Believer Meats auction: competing bids must land by Monday to trigger the July 28 auction. Still the only major cultivated meat asset transaction in progress globally.</div>
+      <div class="radar-item"><span class="radar-date">20&ndash;25 October, Paris</span> &mdash; Art Basel Paris. Collector demographic data from Christie&rsquo;s H1 makes this more relevant as a relationship event than an art event.</div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <strong style="color:#1F1B16;">APPETITE</strong> &middot; Edition 35 &middot; Thursday, 16 July 2026<br />
+    A personal briefing for Julinka Naomi Waesche &middot; Venture &middot; Food &middot; Art &middot; Nature
+  </div>
+
+</div>
+</body>
+</html>
