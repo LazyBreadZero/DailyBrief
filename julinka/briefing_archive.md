@@ -1565,6 +1565,45 @@ None new this edition (all precision-fermentation and GRAS concepts established 
 
 ---
 
+
+## Edition 36 — Thursday, 17 July 2026
+
+### Lead Story
+**Title:** Novonesis Takes an Exclusive on TurtleTree's Cow-Free Lactoferrin
+**Pillar:** Food Science & Venture
+**Core argument:** Novonesis (world's largest biosolutions company, formed by Novozymes-Chr. Hansen merger 2024) invested in TurtleTree (Singapore, precision fermentation lactoferrin) and signed an exclusive commercialisation agreement — Novonesis will manufacture and sell TurtleTree's ingredient through its existing B2B network while TurtleTree retains the IP. Lactoferrin trades at $200–300/kg; Vivici and TurtleTree are the only two companies with commercial precision-fermented lactoferrin demonstrations. The exclusive structure (not a minority hedge) is the telling detail: Novonesis chose one partner and built its route to market around it.
+**Key entities introduced:** Novonesis (Danish biosolutions company, post Novozymes-Chr. Hansen merger; world's largest enzyme/cultures company)
+**Key concepts introduced:** Exclusive commercialisation structure in precision fermentation (incumbent manufacturer takes B2B distribution rights, startup retains IP — cf. Every/Huvepharma, Solar Foods/Ambrosia as parallel architecture)
+**Sources used:** AgFunderNews (8/10); TurtleTree official release (9/10)
+**Angle delivered:** Check Delaware bankruptcy docket before 20 July for any UPSIDE/Believer competing bid above $52.25M threshold — answer reveals whether cultivated meat manufacturing assets have strategic acquirers beyond the cultivated-meat sector.
+**Follow-up threads to watch:** Novonesis/TurtleTree customer conversion timeline (infant formula, sports nutrition, pharma ingredient buyers); EFSA and FDA regulatory clearance status for TurtleTree lactoferrin; UPSIDE/Believer Meats bid deadline 20 July and auction 28 July; Japan 2040 roadmap implementation (Cabinet Office, public-private co-investment vehicle)
+
+### Further items
+**Japan cabinet 2040 new-foods roadmap — Food Science & Policy.** Japan's cabinet published a public-private roadmap committing 900 billion yen (~$6.2B) to "smart proteins" and new food technologies by 2040. First named cabinet-level budget commitment from Asia's third-largest food import market. Signals public co-investment, procurement incentives, and regulatory prioritisation within Japan's formal industrial policy. Japan Cabinet Office (9/10). Thread: watch implementation mechanism (co-investment vehicle, procurement policy, regulatory timeline); first company to name Japan as primary market post-roadmap.
+
+### New concepts in Julinka's working vocabulary
+- **Exclusive commercialisation structure** — incumbent manufacturer (Novonesis, Huvepharma) takes B2B distribution rights for a precision-fermented ingredient while the startup retains IP; absorbs commercial risk the startup cannot carry; three confirmed instances in 2026 (Every/Huvepharma, Solar Foods/Ambrosia, TurtleTree/Novonesis)
+
+### Julinka's Angle
+1. Check the Delaware bankruptcy court docket before 20 July for any bid above $52.25M on the Believer Meats plant. A second bid from a strategic acquirer (food manufacturer, contract manufacturer, ingredient company) reveals whether cultivated meat manufacturing assets have buyers outside the surviving cultivated-meat companies. The answer is a capex-diligence input for Calm/Storm Fund II before the next manufacturing-dependent deal comes across the desk.
+
+### Running-thread tracker (key updates)
+- **TurtleTree/Novonesis lactoferrin deal — NEW THREAD (Ed 36):** Novonesis invested (undisclosed) and signed exclusive commercialisation agreement with TurtleTree; lactoferrin $200–300/kg; TurtleTree retains IP; Novonesis takes B2B distribution to infant formula/sports nutrition/pharma customers; third "incumbent-takes-distribution" deal in 2026 alongside Every/Huvepharma and Solar Foods/Ambrosia; EFSA/FDA clearance still gating factor for EU/US markets
+- **Japan 2040 new-foods roadmap — NEW THREAD (Ed 36):** Cabinet published roadmap committing ¥900B (~$6.2B) to smart proteins/novel food tech by 2040; first named cabinet-level budget from Asia's third-largest food import market; implementation mechanism TBD; watch for co-investment vehicle and regulatory prioritisation
+- UPSIDE/Believer Meats auction — bid deadline 20 July; auction 28 July; sale hearing 30 July; no named competing bidders yet; track Delaware docket
+- EU NGT regulation — mid-2028 application; two-tier framework settled; no update
+- Art Basel Paris — 20–25 October Grand Palais; no update
+- EU Biotech Act II — Q4 2026 publication; no update
+- Katingan REDD+/SRUK price spread — paywalled; no update
+- Formo IFT FIRST — concluded 16 July; named-buyer deal announcement pending
+- Christie's/Sotheby's H1 2026 — $4.5B/$4.4B; no update
+- Alan/Prosus Series G — regulatory approval pending; no update
+- EU nature-credits technical criteria — no update
+- Ingredion/Tate & Lyle — antitrust clearance pending; no update
+- Louvre renovation — starts September 2026; no update
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1604,6 +1643,7 @@ None new this edition (all precision-fermentation and GRAS concepts established 
 | 33 | 8 Jul 2026 | Indonesia issues 30M tonne REDD+ forestry credits (6 July); SRUK launches tomorrow (9 July) | ANTARA News, Argus Media, Carbon Herald (lead); Formo/vegconomist (further) | None new | Map Indonesia credit-aggregation layer for EU buyers before SRUK opens; write Formo casein functional-performance spec before IFT FIRST coverage floods |
 | 34 | 14 Jul 2026 | IFT FIRST Chicago: three precision-fermented GRAS caseins on the trade floor simultaneously (Formo, Those Vegan Cowboys, New Culture) | Believer Meats auction (bid deadline 20 July), Indonesia SRUK first week, EU Biotech Act II Q4 shift, EU NGT clock, Louvre September renovation, Art Basel Paris October, New Forests GLO A$1B, IUCN nature-credits pilot 330ha | None new | Read Formo functional spec before trade-press round-up; connect casein commercial moment to Calm/Storm Fund II enabler layer; Believer auction 20 July as two-sided manufacturing-asset signal |
 | 35 | 16 Jul 2026 | EU NGT Regulation enters into force today (plants, two-tier: NGT-1 exempt from GMO; NGT-2 streamlined GMO; mid-2028 application) | Christie's + Sotheby's strongest H1 since 2021 (trophy-lot driven; Lewis Collection $392.6M; 47% new clients Millennial/Gen Z); Katingan credits $9.90/tCO2e first price post-SRUK | None new | Map Calm/Storm NGT-1-aligned crop pipeline before mid-2028 creates commercial milestone; identify Art Basel Paris contact from 47% Millennial/Gen Z buyer shift |
+| 36 | 17 Jul 2026 | Novonesis takes exclusive commercialisation deal for TurtleTree's precision-fermented lactoferrin | Japan 2040 new-foods roadmap ($6.2B / ¥900B) | Novonesis (as acquirer/partner) | Check Delaware docket before 20 July for UPSIDE/Believer competing bid above $52.25M |
 
 ---
-*Last updated: Edition 35 — 16 July 2026*
+*Last updated: Edition 36 — 17 July 2026*

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Thursday, 17 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; text-wrap: balance; }
+  h2.further-headline { font-family: 'Fraunces', Georgia, serif; font-size: 18px; font-weight: 600; color: #1F1B16; line-height: 1.25; margin-bottom: 10px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .further-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .further-item { padding-left: 16px; border-left: 2px solid #E7B43A; margin-bottom: 22px; }
+  .further-item p { font-size: 16px; line-height: 1.65; margin-bottom: 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .radar-block { margin-top: 36px; border-top: 1px solid #E5DAC4; padding-top: 22px; }
+  .radar-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .radar-item { font-family: 'DM Sans', sans-serif; font-size: 14px; line-height: 1.6; color: #4A4036; margin-bottom: 8px; }
+  .radar-item:last-child { margin-bottom: 0; }
+  .radar-date { font-weight: 600; color: #1F1B16; }
+  .footer { padding: 32px 52px 0; border-top: 1px solid #E5DAC4; font-family: 'DM Sans', sans-serif; font-size: 11px; color: #928775; text-align: center; letter-spacing: 0.4px; margin-top: 36px; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Thursday, 17 July 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 36</span>
+    <span class="dateline-right">Food Science &middot; Venture Capital &middot; Nature</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Food Science &amp; Venture</div>
+    <h1 class="lead-headline">Novonesis Takes an Exclusive on TurtleTree&rsquo;s Cow-Free Lactoferrin</h1>
+
+    <p>Novonesis&thinsp;&mdash;&thinsp;the world&rsquo;s largest biosolutions company, formed by the 2024 merger of Novozymes and Chr. Hansen&thinsp;&mdash;&thinsp;has invested an undisclosed amount in TurtleTree and signed an exclusive commercialisation agreement to bring the Singapore company&rsquo;s precision-fermented lactoferrin to market. Novonesis will manufacture and sell TurtleTree&rsquo;s ingredient under its existing B2B distribution network; TurtleTree retains the fermentation IP.
+    <a href="https://www.agfundernews.com/novonesis-turtletree-lactoferrin-deal" target="_blank" class="source-badge badge-green">AgFunderNews 8/10</a></p>
+
+    <p>Lactoferrin is the category that has attracted the most capital in precision-fermented dairy ingredients precisely because it trades at $200&ndash;$300 per kilogram in bovine extract form. It occurs in colostrum at roughly 2 grams per litre, making conventional extraction costly and supply volume-constrained. Vivici&rsquo;s Vivitein LF self-affirmed GRAS earlier this year; TurtleTree has held equivalent clearance in Singapore and is pursuing FDA and EFSA pathways. The two companies are the only precision-fermented lactoferrin products with commercial demonstrations. Now one has Novonesis behind its commercial apparatus.
+    <a href="https://www.turtletree.com/press/novonesis-partnership" target="_blank" class="source-badge badge-green">TurtleTree 9/10</a></p>
+
+    <p>The deal structure is what distinguishes it from a standard strategic minority stake. An exclusive commercialisation agreement means Novonesis is not hedging; it is choosing a single precision-fermented lactoferrin partner and building its route to market around it. Novonesis&rsquo;s existing customer base spans infant formula manufacturers, sports nutrition brands, and pharmaceutical ingredient buyers&thinsp;&mdash;&thinsp;exactly the three end-markets where lactoferrin commands its highest price. The deal does not require TurtleTree to build its own sales infrastructure or validate its ingredient against each buyer independently. Novonesis already has those relationships. The operative question is whether Novonesis&rsquo;s customers order evaluation batches immediately, or whether regulatory clearance in their target markets (EU, US) remains the gating factor.</p>
+
+    <p>For the precision fermentation sector, this is the most commercially consequential partnership since Huvepharma agreed to quadruple capacity for Every&rsquo;s egg protein on the back of 550% order growth. Both deals share the same architecture: an incumbent manufacturer with an existing B2B customer base takes on distribution of a precision-fermented ingredient, absorbing the commercial risk that a startup cannot carry alone. The ingredient company keeps the IP; the partner takes the route to market. Whether that structure becomes a template for other precision-fermented ingredient companies depends on how quickly Novonesis converts its customer relationships into volume orders.</p>
+
+    <hr class="divider" />
+
+    <div class="further-label">Further Reporting</div>
+
+    <div class="further-item">
+      <h2 class="further-headline">Japan Sets a $6.2B Target for New Foods by 2040</h2>
+      <p>Japan&rsquo;s cabinet published a public-private roadmap this week committing 900 billion yen&thinsp;&mdash;&thinsp;approximately $6.2 billion at current rates&thinsp;&mdash;&thinsp;to &ldquo;smart proteins&rdquo; and new food technologies by 2040, including alternative proteins, cultivated meat, and fermentation-derived ingredients. Japan is the world&rsquo;s third-largest food import market and has historically been cautious on alternative proteins at the commercial scale. A cabinet-level commitment with a named budget is a different signal to watch lists and industry consortia: it implies public co-investment, procurement incentives, and regulatory prioritisation within the government&rsquo;s formal industrial policy. The 2040 horizon is long, but the 900 billion yen figure is the first time Japan has named a specific budget for the category.
+      <a href="https://www.cao.go.jp/en/smart-protein-roadmap-2040" target="_blank" class="source-badge badge-green">Japan Cabinet Office 9/10</a></p>
+    </div>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <div class="angle-num">1</div>
+        <div class="angle-move-text">UPSIDE Foods&rsquo; bid deadline for the Believer Meats manufacturing plant is Monday 20 July. The $50M stalking-horse bid has been the only public offer since it was filed. Check the Delaware bankruptcy docket before Monday: whether a second bid above the $52.25M minimum overbid threshold was submitted tells you whether any strategic acquirer&thinsp;&mdash;&thinsp;a food manufacturer, a contract manufacturer, an ingredient company&thinsp;&mdash;&thinsp;sees a $150M cultivated meat facility as a manufacturing asset worth owning, or whether UPSIDE is the only buyer in the room. The answer shapes how you value capex in cultivated meat bids that come across the desk at Calm/Storm.</div>
+      </div>
+    </div>
+
+    <div class="radar-block">
+      <div class="radar-label">On the Radar</div>
+      <div class="radar-item"><span class="radar-date">20 July &mdash;</span> UPSIDE Foods/Believer Meats: competing bid deadline. Check Delaware docket for any bid above $52.25M.</div>
+      <div class="radar-item"><span class="radar-date">28 July &mdash;</span> UPSIDE Foods/Believer Meats: auction date (if competing bids filed).</div>
+      <div class="radar-item"><span class="radar-date">20&ndash;25 October &mdash;</span> Art Basel Paris, Grand Palais.</div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    APPETITE &middot; Edition 36 &middot; Thursday, 17 July 2026<br />
+    A personal briefing for Julinka Naomi Waesche &middot; Venture &middot; Food &middot; Art &middot; Nature
+  </div>
+
+</div>
+</body>
+</html>
