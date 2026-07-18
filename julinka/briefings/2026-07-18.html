@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Saturday, 18 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; text-wrap: balance; }
+  h2.further-headline { font-family: 'Fraunces', Georgia, serif; font-size: 18px; font-weight: 600; color: #1F1B16; line-height: 1.25; margin-bottom: 10px; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .further-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .further-item { padding-left: 16px; border-left: 2px solid #E7B43A; margin-bottom: 22px; }
+  .further-item p { font-size: 16px; line-height: 1.65; margin-bottom: 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .radar-block { margin-top: 36px; border-top: 1px solid #E5DAC4; padding-top: 22px; }
+  .radar-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .radar-item { font-family: 'DM Sans', sans-serif; font-size: 14px; line-height: 1.6; color: #4A4036; margin-bottom: 8px; }
+  .radar-item:last-child { margin-bottom: 0; }
+  .radar-date { font-weight: 600; color: #1F1B16; }
+  .footer { padding: 32px 52px 0; border-top: 1px solid #E5DAC4; font-family: 'DM Sans', sans-serif; font-size: 11px; color: #928775; text-align: center; letter-spacing: 0.4px; margin-top: 36px; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Saturday, 18 July 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 37</span>
+    <span class="dateline-right">Art &middot; Food Science &middot; Venture</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Art Market</div>
+    <h1 class="lead-headline">Art Basel Paris Publishes Its Full Programme: 206 Galleries, 12 Joint Booths, and a New Sector for Early-Career Work</h1>
+
+    <p>Art Basel has published the full programme structure for its Paris edition, running 20&ndash;25 October at the Grand Palais. The fair will present 206 galleries from 41 countries. Twenty-eight exhibitors are showing for the first time, among them Empty Gallery (Hong Kong), Green Art Gallery (Dubai), ChertL&uuml;dde (Berlin), and Pace Di Donna Schrader (New York) &mdash; a first-timer list that reads as a calibrated geographic expansion, adding institutional weight from the Gulf and East Asia without displacing the European core.
+    <a href="https://www.artbasel.com/paris/galleries" target="_blank" class="source-badge badge-green">Art Basel 10/10</a>
+    <a href="https://news.artnet.com/art-world/art-basel-paris-2026-programme-exhibitors" target="_blank" class="source-badge badge-green">Artnet News 9/10</a></p>
+
+    <p>The structural addition this year is Emergence: 16 presentations, 12 of them from first-time exhibitors, focused on galleries and artists at the beginning of their international presence. It is a distinct sector rather than a curated subsection &mdash; an institutional signal that the fair is building a pipeline function into its programme architecture, not merely rotating which galleries get wall space. Twelve joint booth presentations will take place, the highest count in the fair&rsquo;s history. Joint booths have moved from an exception to a recurring structural feature of how the world&rsquo;s leading galleries use this fair.
+    <a href="https://www.artforum.com/news/art-basel-paris-2026-programme-announcement" target="_blank" class="source-badge badge-green">Artforum 9/10</a></p>
+
+    <p>Oh La La! &mdash; the outdoor public programme at the Grand Palais &mdash; returns on 23&ndash;24 October with a collaborator from outside the art world not yet announced. The Avant-Pr&eacute;mi&egrave;re opens on 20 October, followed by preview days 21&ndash;22 October before public opening on 23 October.</p>
+
+    <p>This is the first full programme designed by director Karim Crippa, who took the role after Marc Spiegler&rsquo;s departure. The Emergence sector and record joint booth count together suggest Crippa is positioning the fair as both a market for established galleries and an entry platform for the next institutional tier &mdash; a structure that concentrates the fair&rsquo;s sourcing function for collectors and investors who want to meet the emerging gallerists before they move to the main section.</p>
+
+    <hr class="divider" />
+
+    <div class="further-label">Further Reporting</div>
+
+    <div class="further-item">
+      <h2 class="further-headline">Business Finland Commits &euro;77.8M to Solar Foods&rsquo; Factory 02</h2>
+      <p>Business Finland, the Finnish state innovation agency, has committed &euro;77.8 million in grants to Solar Foods for Factory 02 &mdash; the company&rsquo;s planned commercial-scale production facility for Solein, a single-cell protein produced from carbon dioxide, water, and renewable electricity through gas fermentation. Factory 02 would be the first commercial-scale production plant of its kind globally. The grant removes the largest barrier to Solein&rsquo;s commercial viability: the company has demonstrated the biology at pilot scale but has needed institutional co-financing to justify the step to commercial volumes that ingredient buyers require for supply agreements. Business Finland&rsquo;s commitment brings the total public and private capital behind Factory 02 to a level where contract manufacturing conversations with food industry customers become credible. For European alternative-protein investors, this is the largest single public-sector commitment to a precision-fermentation production asset in the region to date.
+      <a href="https://solarfoods.com/press/factory-02-business-finland-grant/" target="_blank" class="source-badge badge-green">Solar Foods 9/10</a>
+      <a href="https://www.agfundernews.com/solar-foods-business-finland-factory-02" target="_blank" class="source-badge badge-green">AgFunderNews 8/10</a></p>
+    </div>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <div class="angle-num">1</div>
+        <div class="angle-move-text">Before the Avant-Pr&eacute;mi&egrave;re on 20 October, identify one founder or LP in Calm/Storm&rsquo;s orbit who will be at Art Basel Paris and for whom a meeting with someone who speaks both Bauhaus craft and biotech underwriting is the conversation they are not already scheduled to have. The record 12 joint booths &mdash; gallerists from different geographies sharing a single stand as normal institutional practice &mdash; make cross-institutional partnership the fair&rsquo;s structural logic. A cross-pillar introduction is the same move.</div>
+      </div>
+    </div>
+
+    <div class="radar-block">
+      <div class="radar-label">On the Radar</div>
+      <div class="radar-item"><span class="radar-date">20 July &mdash;</span> UPSIDE Foods/Believer Meats: competing bid deadline, Delaware bankruptcy court. The answer to whether any strategic acquirer entered above $52.25M arrives Monday.</div>
+      <div class="radar-item"><span class="radar-date">28 July &mdash;</span> UPSIDE Foods/Believer Meats: auction date (if competing bids filed).</div>
+      <div class="radar-item"><span class="radar-date">20&ndash;25 October &mdash;</span> Art Basel Paris, Grand Palais. Avant-Pr&eacute;mi&egrave;re 20 October. Preview 21&ndash;22 October.</div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    APPETITE &middot; Edition 37 &middot; Saturday, 18 July 2026<br />
+    A personal briefing for Julinka Naomi Waesche &middot; Venture &middot; Food &middot; Art &middot; Nature
+  </div>
+
+</div>
+</body>
+</html>

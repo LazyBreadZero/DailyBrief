@@ -1604,6 +1604,46 @@ None new this edition (all precision-fermentation and GRAS concepts established 
 
 ---
 
+
+## Edition 37 — Saturday, 18 July 2026
+
+### Lead Story
+**Title:** Art Basel Paris Publishes Its Full Programme: 206 Galleries, 12 Joint Booths, and a New Sector for Early-Career Work
+**Pillar:** Art
+**Core argument:** Art Basel published the full programme for its Paris October edition: 206 galleries from 41 countries; 28 first-time exhibitors including Empty Gallery (Hong Kong), Green Art Gallery (Dubai), ChertLüdde (Berlin), and Pace Di Donna Schrader (New York); a new Emergence sector (16 presentations, 12 from first-time exhibitors, focused on galleries at the beginning of their international presence); record 12 joint booth presentations; Oh La La! public programme returns 23–24 October with collaborator not yet announced; Avant-Première 20 October. This is the first full programme designed by director Karim Crippa (post-Marc Spiegler), positioning the fair as both established-gallery market and entry platform for the next institutional tier.
+**Key entities introduced:** Karim Crippa (director, Art Basel Paris, succeeding Marc Spiegler); Emergence sector (new Art Basel Paris programme sector); Empty Gallery (Hong Kong, first-timer); Green Art Gallery (Dubai, first-timer); ChertLüdde (Berlin, first-timer); Pace Di Donna Schrader (New York, first-timer)
+**Key concepts introduced:** Emergence sector as institutional pipeline function (structural entry pathway built into fair architecture, not a curated subsection); joint booth as structural feature of world-leading gallery practice at Art Basel Paris (12 booths, record count)
+**Sources used:** Art Basel official programme (10/10): https://www.artbasel.com/paris/galleries ; Artnet News (9/10): https://news.artnet.com/art-world/art-basel-paris-2026-programme-exhibitors ; Artforum (9/10): https://www.artforum.com/news/art-basel-paris-2026-programme-announcement
+**Follow-up threads to watch:** Karim Crippa's inaugural full-programme reception at the fair in October; Oh La La! collaborator identity announcement; Emergence sector conversion rate to main section in future editions; whether any Calm/Storm-adjacent founder or LP will be at Art Basel Paris
+
+### Further items
+**Solar Foods secures €77.8M Business Finland grant for Factory 02 — first commercial-scale Solein plant globally (Food Science & Venture).** Business Finland (Finnish state innovation agency) committed €77.8 million in grants to Solar Foods for Factory 02, the planned commercial-scale production facility for Solein — a single-cell protein produced from carbon dioxide, water, and renewable electricity through gas fermentation. Factory 02 would be the first commercial-scale plant of this kind globally. The grant removes the largest barrier to Solein's commercial viability: the company demonstrated the biology at pilot scale but needed institutional co-financing to justify the step to commercial volumes that ingredient buyers require for supply agreements. Business Finland's commitment brings total public and private capital behind Factory 02 to a level where contract manufacturing conversations with food industry customers become credible. Largest single public-sector commitment to a precision-fermentation production asset in Europe to date. Sources: Solar Foods (9/10); AgFunderNews (8/10).
+
+### New concepts in Julinka's working vocabulary
+- **Emergence sector** — Art Basel Paris's new structural entry platform (16 presentations, 12 from first-time exhibitors) for galleries at the beginning of their international presence; a pipeline function built into fair architecture rather than a curated subsection
+- **Gas fermentation commercial scale** — Solar Foods Factory 02 represents the step from pilot to commercial-volume Solein (CO2 + water + renewable electricity → single-cell protein via gas fermentation); public co-financing via Business Finland grant is the unlocking mechanism
+
+### Julinka's Angle
+1. Before the Avant-Première on 20 October, identify one founder or LP in Calm/Storm's orbit who will be at Art Basel Paris and for whom a meeting with someone who speaks both Bauhaus craft and biotech underwriting is the conversation they are not already scheduled to have. The record 12 joint booths — gallerists from different geographies sharing a single stand as normal institutional practice — make cross-institutional partnership the fair's structural logic. A cross-pillar introduction is the same move.
+
+### Running-thread tracker (key updates)
+- **Art Basel Paris — MOVED (Ed 37):** Full programme published; 206 galleries from 41 countries; 28 first-timers (Empty Gallery HK, Green Art Gallery Dubai, ChertLüdde Berlin, Pace Di Donna Schrader NY); Emergence sector (16 presentations, 12 from first-time exhibitors); record 12 joint booths; Oh La La! 23–24 October (collaborator TBA); Avant-Première 20 October; Preview 21–22 October; public opening 23 October; Karim Crippa's first full programme as director; Art Basel (10/10); Artnet News (9/10); Artforum (9/10)
+- **Solar Foods Factory 02 — NEW THREAD (Ed 37):** Business Finland grants €77.8M for Factory 02 (commercial-scale Solein, gas fermentation); first commercial-scale CO2-to-protein plant globally; largest single public-sector commitment to a precision-fermentation production asset in Europe to date; Solar Foods (9/10); AgFunderNews (8/10); watching: customer supply-agreement announcements, Factory 02 construction milestones
+- UPSIDE/Believer Meats — bid deadline 20 July; auction 28 July (if bids filed); no competing bid named; tracking Delaware docket
+- TurtleTree/Novonesis lactoferrin — exclusive commercialisation deal; no update
+- Japan 2040 new-foods roadmap — ¥900B ($6.2B) committed; no update
+- EU NGT regulation — mid-2028 application; two-tier framework; no update
+- EU Biotech Act II — Q4 2026 publication; no update
+- Christie's/Sotheby's H1 2026 — $4.5B/$4.4B; no update
+- Katingan REDD+/SRUK price spread — paywalled; no update
+- Formo IFT FIRST — concluded 16 July; named-buyer deal announcement pending
+- Alan/Prosus Series G — regulatory approval pending; no update
+- EU nature-credits technical criteria — no update
+- Ingredion/Tate & Lyle — antitrust clearance pending; no update
+- Louvre renovation — starts September 2026; no update
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1644,6 +1684,7 @@ None new this edition (all precision-fermentation and GRAS concepts established 
 | 34 | 14 Jul 2026 | IFT FIRST Chicago: three precision-fermented GRAS caseins on the trade floor simultaneously (Formo, Those Vegan Cowboys, New Culture) | Believer Meats auction (bid deadline 20 July), Indonesia SRUK first week, EU Biotech Act II Q4 shift, EU NGT clock, Louvre September renovation, Art Basel Paris October, New Forests GLO A$1B, IUCN nature-credits pilot 330ha | None new | Read Formo functional spec before trade-press round-up; connect casein commercial moment to Calm/Storm Fund II enabler layer; Believer auction 20 July as two-sided manufacturing-asset signal |
 | 35 | 16 Jul 2026 | EU NGT Regulation enters into force today (plants, two-tier: NGT-1 exempt from GMO; NGT-2 streamlined GMO; mid-2028 application) | Christie's + Sotheby's strongest H1 since 2021 (trophy-lot driven; Lewis Collection $392.6M; 47% new clients Millennial/Gen Z); Katingan credits $9.90/tCO2e first price post-SRUK | None new | Map Calm/Storm NGT-1-aligned crop pipeline before mid-2028 creates commercial milestone; identify Art Basel Paris contact from 47% Millennial/Gen Z buyer shift |
 | 36 | 17 Jul 2026 | Novonesis takes exclusive commercialisation deal for TurtleTree's precision-fermented lactoferrin | Japan 2040 new-foods roadmap ($6.2B / ¥900B) | Novonesis (as acquirer/partner) | Check Delaware docket before 20 July for UPSIDE/Believer competing bid above $52.25M |
+| 37 | 18 Jul 2026 | Art Basel Paris full programme published (206 galleries, Emergence sector, 12 joint booths) | Solar Foods Factory 02 €77.8M Business Finland grant | Karim Crippa (director, Art Basel Paris); Emergence sector | Identify one cross-pillar founder/LP for Art Basel Paris Avant-Première 20 October |
 
 ---
-*Last updated: Edition 36 — 17 July 2026*
+*Last updated: Edition 37 — 18 July 2026*
