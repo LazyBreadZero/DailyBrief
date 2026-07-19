@@ -1872,6 +1872,43 @@ Added to "Positions the evidence now implies": Meta's Conversation Focus subscri
 
 ---
 
+
+## EDITION 41 — Sunday, 19 July 2026
+
+### Lead Story
+**Title:** Samsung's Leaked Two-Tier Roadmap Reframes the Audio-Only Question Three Days Before Unpacked
+**Category:** Platforms & Product · XR
+**Core argument:** Leaked code inside Samsung's One UI software update names two distinct Galaxy Glasses models: Jinju (SM-O200J), audio-only at $379–$499 for autumn 2026, and Haean (SM-O200P), a micro-LED display-equipped successor estimated at $600–$900 targeting 2027. If confirmed at Tuesday's London Unpacked, the Jinju's audio-only premium changes from an unexplained capability claim to a deliberate ecosystem entry-fee strategy — four-device binding (Galaxy Ring, Watch, Phone, Glasses) ahead of the Haean display tier. Meta's $299 undercut becomes a direct attack on Samsung's lock-in window rather than a hardware differentiation play. Separately, Samsung's dual indicator LEDs (automatic photochromic lenses plus two recording LEDs) and Meta's removal of LED indicators from Aperol/Bellini represent opposite hardware calls on camera disclosure made within the same market window, with differing bets on EU regulatory risk.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** "Haean" (SM-O200P) — Samsung's 2027 display Galaxy Glasses model with micro-LED overlay, identified in One UI leak, not yet confirmed in official Samsung materials. Ecosystem entry-fee pricing — premium at audio-only tier designed to lock buyers into the four-device stack before a display tier absorbs the higher-margin segment.
+**Sources used:** VR.org (7/10): vr.org/articles/samsung-galaxy-glasses-leak-jinju-haean-one-ui-android-xr; Korea Times (8/10): koreatimes.co.kr/business/tech-science/20260717/pricing-matters-for-samsungs-entry-into-meta-led-smart-glasses-market; LEDInside (7/10): ledinside.com/node/view/36024.html; Samsung Gadget Hacks (7/10): samsung.gadgethacks.com/news/samsung-galaxy-glasses-leak-specs-price-and-2027-roadmap/; Samsung Gadget Hacks (7/10): samsung.gadgethacks.com/news/samsung-galaxy-glasses-launch-july-2026-features-privacy-and-tradeoffs/
+**Follow-up threads to watch:** Unpacked 22 July — does Samsung confirm the Haean roadmap officially? If yes, the audio-only premium debate is structurally answered. If not, the leak remains unendorsed and the premium still unexplained in Samsung's own product narrative.
+
+### Further items
+- Android XR SDK cross-form-factor test (Galaxy XR headset at 545g vs Galaxy Glasses at ~50g): Unpacked Tuesday is the first commercial test of whether the unified-platform SDK claim holds cleanly across a 10× weight/form-factor gap. Separate developer tools or capability restrictions at the glasses tier would require revision of the Android XR platform framing. Android XR Catalyst cohort developers (notified privately 15 July) are the audience most likely to report SDK behaviour quickly after the event.
+
+### New concepts in Angelo's working vocabulary
+- "Haean" (SM-O200P): Samsung's 2027 display Galaxy Glasses model, carrying micro-LED overlay, identified in One UI software leak. Not yet confirmed in official Samsung materials as of 19 July.
+- Ecosystem entry-fee pricing: a deliberate premium at an entry-level hardware tier designed to lock buyers into an ecosystem stack before the higher-margin tier arrives. Distinct from a capability premium.
+
+### Provocation(s) posed this edition
+- Before Tuesday, find one piece of Samsung's official published materials — an investor presentation, a carrier partner filing, a Samsung Newsroom post, a product-page URL that went live before this weekend — that names Haean or references a 2027 display Galaxy Glasses. If the commitment exists in Samsung's own filings, the Jinju price is a stated two-year retention play and the audio-only-premium debate has its answer. If it doesn't, the roadmap is a leak Samsung has not endorsed. Harder question: what does Meta's $299 undercut reveal about its assessment of how sticky Samsung's four-device binding actually is — not hardware features, not Gemini capabilities, just price?
+
+### Running-thread tracker
+- Samsung Galaxy Glasses Unpacked — 22 July, London. Now carries the Haean two-tier question: does Samsung confirm a 2027 display successor officially?
+- Android XR SDK cross-form-factor test — Unpacked Tuesday. Watch for separate developer tools or capability restrictions at the glasses tier.
+- Android XR three-tier architecture — Galaxy XR (£1,699, spatial), XREAL Aura ($1,500 ceiling, display AR), Galaxy Glasses ($379–$499, audio-only). Three separate markets under one platform label.
+- Meta Conversation Focus subscription — $19.99/month, live August 2026. Watch Samsung's Unpacked response.
+- Science Corp CE mark — awaited; no state change.
+- XREAL a01+ ($299, Micro-OLED display, available 15 July) — track post-Unpacked positioning.
+- China NMPA BCI classification guidelines — watch implementation timeline and first applications.
+
+### Thinking Ledger update
+Added to "Positions the evidence now implies": The Jinju audio-only premium may be an ecosystem entry-fee by design — a deliberate pricing strategy to lock buyers into the four-device Samsung stack ahead of the Haean display tier. If confirmed at Unpacked, the audio-only-premium question from Ed 39 is structurally answered. Added: Samsung's dual indicator LEDs vs. Meta's LED removal represent divergent hardware architectures on camera disclosure in the same market window — two companies making opposite regulatory bets, with Samsung's design reading as anticipating EU compliance requirements and Meta calculating that disclosure friction costs more than regulatory risk in the current enforcement vacuum.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1916,6 +1953,8 @@ Added to "Positions the evidence now implies": Meta's Conversation Focus subscri
 
 - **The audio-only smart-glasses premium needs a product argument, not just a platform label.** (New, Ed 39.) XREAL's a01+ at $299 with Micro-OLED display went on sale 15 July — five days before Samsung confirms Galaxy Glasses pricing at $379–499 with no display, Gemini-only. If the Gemini capabilities in Galaxy Glasses are already accessible via the paired Samsung phone screen, the premium is brand and form-factor, not capability. The first concrete test of whether AI-in-ear commands a premium over display AR will be answered by Samsung's published spec sheet on or before 22 July.
 - **AI glasses features can carry standalone subscription revenue, independent of hardware margin.** (New, Ed 40.) Meta's Conversation Focus subscription ($19.99/month, August 2026) is the first test of this model at scale from a major hardware manufacturer. The rate-limit is a pricing decision, not an infrastructure constraint — the feature runs on-device. The platform contest gains a new axis: whether AI glasses features price as hardware attributes (bundled) or software products (recurring). Samsung's answer to this at Unpacked is as commercially significant as its hardware specification.
+- **The Jinju audio-only premium is most plausibly an ecosystem entry-fee, not a capability claim — pending official confirmation at Unpacked.** (New, Ed 41.) Samsung's One UI leak names a 2027 display successor (Haean) already designed, which changes the product logic: the $379–$499 Jinju is priced to establish Android XR four-device lock-in before the higher-margin Haean display tier arrives. If Samsung confirms this roadmap on 22 July, the Ed 39 audio-only-premium question is structurally answered. If it doesn't, the leak is unendorsed and the premium still unexplained.
+- **Samsung and Meta made opposite hardware calls on camera disclosure in the same market window, reflecting opposite regulatory bets.** (New, Ed 41.) Samsung ships dual recording indicator LEDs (photochromic lenses plus two LEDs); Meta removed the LED from Aperol/Bellini entirely. Neither company has stated its regulatory reasoning publicly. Samsung's design reads as pre-complying with potential EU disclosure requirements; Meta calculated that disclosure friction costs more than regulatory risk in the current enforcement vacuum. Two products, same category, same month, opposite architectures on the same question.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -1981,6 +2020,7 @@ Added to "Positions the evidence now implies": Meta's Conversation Focus subscri
 | 38 | 16 Jul 2026 | EU wearables battery exemption (delegated act, 14 Jul); Meta Aperol/Bellini LED removal | OpenAI device = screenless pocket AI companion ($200–300, Feb 2027, not a wearable); Android XR Catalyst notifications sent 15 Jul (private, no public announcement) | None new | Name the EU institution with enforcement mandate over what a sealed wearable captures in real time — before data leaves the device |
 | 39 | 17 Jul 2026 | XREAL a01+ ($299 display) on sale 5 days before Samsung Galaxy Glasses ($379–499 audio-only) | China NMPA BCI classification guidelines (June 2026, reported 16 Jul) | None new | Check Samsung spec sheet before 22 July — does Gemini audio-only justify the premium over XREAL's $299 display? |
 | 40 | 18 Jul 2026 | Meta paywalls Conversation Focus at $19.99/month — first AI glasses subscription model | Samsung Unpacked 4 days away; subscription-layer economics vs. bundled Gemini | None new | Find Samsung's public commitment on Gemini pricing before Unpacked — bundled or deferred? |
+| 41 | 19 Jul 2026 | Samsung leaked two-tier roadmap (Jinju audio-only 2026 + Haean micro-LED display 2027) reframes audio-only premium | Android XR SDK cross-form-factor test at Unpacked; Samsung dual-LED vs Meta LED-removal camera disclosure divergence | None new | Find official Samsung materials naming Haean before Unpacked; interrogate what Meta's $299 undercut reveals about Samsung's lock-in window |
 
 ---
-*Last updated: Edition 40 — 18 July 2026*
+*Last updated: Edition 41 — 19 July 2026*

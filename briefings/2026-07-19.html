@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,400&display=swap" rel="stylesheet" />
+<title>Frontier Intelligence — Sunday, 19 July 2026</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #E8E4DA; font-family: 'Source Serif 4', Georgia, serif; color: #1a1a1a; }
+  .page { max-width: 780px; margin: 36px auto; background: #FAF8F2; border: 1px solid #ddd6c6; padding: 0 0 48px; }
+  .accent-bar { height: 7px; background: #8B1A1A; }
+  .masthead { text-align: center; padding: 32px 48px 10px; border-bottom: 3px solid #1a1a1a; }
+  .masthead-label { font-family: Arial, Helvetica, sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #888; }
+  .masthead-title { font-family: 'Playfair Display', Georgia, serif; font-size: 52px; font-weight: 900; color: #1a1a1a; letter-spacing: -1px; line-height: 1; padding-top: 6px; }
+  .dateline { padding: 0 48px; }
+  .dateline-inner { display: flex; justify-content: space-between; align-items: baseline; border-top: 1px solid #1a1a1a; padding: 7px 0; margin-top: 12px; }
+  .edition-tag { font-family: Arial, Helvetica, sans-serif; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #8B1A1A; font-weight: bold; }
+  .category-tag { font-family: Arial, Helvetica, sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #666; }
+  .article { padding: 32px 48px 0; }
+  .kicker { font-family: Arial, Helvetica, sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #8B1A1A; font-weight: bold; margin-bottom: 10px; }
+  .headline { font-family: 'Playfair Display', Georgia, serif; font-size: 34px; font-weight: 700; color: #1a1a1a; line-height: 1.18; margin-bottom: 18px; }
+  .body-text { font-family: 'Source Serif 4', Georgia, serif; font-size: 16.5px; color: #1a1a1a; line-height: 1.68; }
+  .body-text p { margin-bottom: 1.1em; }
+  .rule { height: 1px; background: #ccc5b5; margin: 28px 48px; }
+  .further-header { font-family: Arial, Helvetica, sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #8B1A1A; font-weight: bold; margin-bottom: 14px; padding: 0 48px; }
+  .further-item { padding: 0 48px 20px; }
+  .further-item-title { font-family: 'Playfair Display', Georgia, serif; font-size: 18px; font-weight: 700; color: #1a1a1a; margin-bottom: 8px; }
+  .further-item-body { font-family: 'Source Serif 4', Georgia, serif; font-size: 15.5px; color: #333; line-height: 1.62; }
+  .angle-block { margin: 28px 48px 0; background: #1a1a1a; padding: 24px 28px; }
+  .angle-label { font-family: Arial, Helvetica, sans-serif; font-size: 9px; letter-spacing: 3px; text-transform: uppercase; color: #8B1A1A; margin-bottom: 10px; }
+  .angle-text { font-family: 'Source Serif 4', Georgia, serif; font-size: 15.5px; color: #e8e4da; line-height: 1.62; }
+  .angle-text p { margin-bottom: 0.9em; }
+  .angle-text p:last-child { margin-bottom: 0; }
+  .sources-block { padding: 28px 48px 0; }
+  .sources-label { font-family: Arial, Helvetica, sans-serif; font-size: 9px; letter-spacing: 2.5px; text-transform: uppercase; color: #888; margin-bottom: 10px; }
+  .source-item { font-family: Arial, Helvetica, sans-serif; font-size: 11.5px; color: #444; line-height: 1.7; }
+  .source-item a { color: #8B1A1A; text-decoration: none; }
+  .source-item a:hover { text-decoration: underline; }
+  .badge { display: inline-block; font-size: 9.5px; font-weight: bold; padding: 1px 6px; border-radius: 3px; margin-left: 5px; vertical-align: middle; }
+  .badge-green { background: #E8F5EC; color: #1A5C2A; }
+  .badge-amber { background: #FFF3D6; color: #7A4A00; }
+  .footer { padding: 28px 48px 0; border-top: 1px solid #ddd6c6; margin: 32px 48px 0; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #999; letter-spacing: 0.5px; line-height: 1.8; }
+  @media (max-width: 620px) {
+    .page { margin: 0; border: none; }
+    .masthead, .dateline, .article, .rule, .further-header, .further-item,
+    .angle-block, .sources-block, .footer { padding-left: 20px; padding-right: 20px; }
+    .rule { margin-left: 20px; margin-right: 20px; }
+    .angle-block { margin-left: 20px; margin-right: 20px; }
+    .sources-block { padding-left: 20px; }
+    .footer { margin-left: 20px; margin-right: 20px; }
+    .masthead-title { font-size: 36px; }
+    .headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="accent-bar"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Personal Intelligence Briefing</div>
+    <div class="masthead-title">Frontier Intelligence</div>
+  </div>
+
+  <div class="dateline">
+    <div class="dateline-inner">
+      <span class="edition-tag">Edition 41 &middot; Sunday, 19 July 2026</span>
+      <span class="category-tag">Platforms &amp; Product &middot; XR</span>
+    </div>
+  </div>
+
+  <!-- Lead Article -->
+  <div class="article">
+    <div class="kicker">Today&rsquo;s Lead &middot; Smart Glasses Platform Strategy</div>
+    <h1 class="headline">Samsung&rsquo;s Leaked Two-Tier Roadmap Reframes the Audio-Only Question Three Days Before Unpacked</h1>
+    <div class="body-text">
+      <p>Leaked code inside Samsung&rsquo;s One UI software update, confirmed independently by the company&rsquo;s own Android XR filings, names two distinct Galaxy Glasses models: Jinju (SM-O200J), the audio-only device expected at $379&ndash;$499 this autumn, and Haean (SM-O200P), a display-equipped successor carrying a micro-LED visual overlay and estimated pricing of $600&ndash;$900, targeting 2027. Samsung has not confirmed this roadmap in official public communications as of Saturday evening. The confirmation, if it arrives at Tuesday&rsquo;s London Unpacked, would make the Jinju launch something other than what the past three weeks of coverage has framed it as.</p>
+      <p>The audio-only premium question&mdash;why does Samsung&rsquo;s display-free Jinju cost $80&ndash;$200 more than XREAL&rsquo;s $299 Micro-OLED a01+?&mdash;changes shape if Samsung has a display tier already designed. The Jinju at $379&ndash;$499 is then not priced to claim that Gemini-in-ear commands a permanent structural advantage over display AR. It is priced to establish Android XR ecosystem lock-in&mdash;four-device binding with Galaxy Ring, Galaxy Watch, and Galaxy Phone&mdash;before the Haean display tier arrives and absorbs the higher-margin buyer who wants visual overlay. That is a different product argument entirely: the premium is an ecosystem entry fee, not a capability premium. Meta&rsquo;s $299 house-brand glasses make more sense in this frame: Meta priced to volume, betting that two million units at thin margin builds the platform before Haean arrives and Samsung claims the display tier it vacated this autumn.</p>
+      <p>What the leak also confirms is that Samsung made a deliberate choice on camera disclosure. The Jinju ships with photochromic lenses that auto-darken outdoors and two dedicated recording indicator LEDs. Meta&rsquo;s Aperol and Bellini, announced 14 July and covered last week, removed the LED indicator entirely. Two products in the same market, releasing within roughly the same month, making opposite hardware calls on the same question. Samsung&rsquo;s dual-LED design reads as anticipating the scrutiny the EU Battery Regulation&rsquo;s sealed-device normalisation created: if an EU institution eventually mandates visible capture indicators, Samsung ships compliant hardware from day one. Meta calculated the opposite: disclosure friction costs sales more than regulatory risk does, at least in the current enforcement vacuum. Neither company has stated this reasoning publicly. The hardware choices state it for them.</p>
+    </div>
+  </div>
+
+  <div class="rule"></div>
+
+  <!-- Further Reporting -->
+  <div class="further-header">Further Reporting</div>
+
+  <div class="further-item">
+    <div class="further-item-title">Android XR&rsquo;s SDK faces its first cross-form-factor test at Unpacked</div>
+    <div class="further-item-body">Samsung and Google positioned Android XR as a unified platform SDK from headset to glasses&mdash;the same developer tools that target the Galaxy XR headset at 545 grams should run on Galaxy Glasses at roughly 50 grams. Tuesday is the first commercial test of that claim. If the SDK holds cleanly across the form-factor gap, Android XR becomes a genuinely scalable platform rather than a hardware-specific framework. If Samsung announces separate developer tools or capability restrictions at the glasses tier, the &ldquo;unified platform&rdquo; framing requires revision. Developers watching from the Android XR Catalyst cohort&mdash;notified privately on 15 July&mdash;are the audience most likely to report the SDK behaviour quickly after the event.</div>
+  </div>
+
+  <!-- Angelo's Angle -->
+  <div class="angle-block">
+    <div class="angle-label">Angelo&rsquo;s Angle</div>
+    <div class="angle-text">
+      <p>Before Tuesday, find one piece of Samsung&rsquo;s official published materials&mdash;an investor presentation, a carrier partner filing, a Samsung Newsroom post, a product-page URL that went live before this weekend&mdash;that names Haean or references a 2027 display Galaxy Glasses. If the commitment exists in Samsung&rsquo;s own filings, the Jinju price is a stated two-year retention play and the audio-only-premium debate has its answer: ecosystem entry fee, not a capability claim. If it doesn&rsquo;t exist officially, the roadmap is a leak Samsung has not endorsed, and the premium is still unaccounted for in Samsung&rsquo;s own product narrative.</p>
+      <p>The harder question under both answers: Meta priced audio-only glasses at $299 and Samsung priced them at $379&ndash;$499. If Samsung&rsquo;s strategy is ecosystem lock-in ahead of the Haean upgrade, Meta&rsquo;s $299 undercut is a direct attack on the lock-in window. What does Meta know about the stickiness of Android XR&rsquo;s four-device binding that led it to conclude a $80&ndash;$200 price gap is the right attack vector&mdash;not hardware features, not Gemini capabilities, just price?</p>
+    </div>
+  </div>
+
+  <!-- Sources -->
+  <div class="sources-block">
+    <div class="sources-label">Sources</div>
+    <div class="source-item">
+      <a href="https://vr.org/articles/samsung-galaxy-glasses-leak-jinju-haean-one-ui-android-xr" target="_blank">VR.org &mdash; Samsung Galaxy Glasses Jinju/Haean One UI leak</a>
+      <span class="badge badge-amber">7/10</span>
+    </div>
+    <div class="source-item">
+      <a href="https://samsung.gadgethacks.com/news/samsung-galaxy-smart-glasses-leak-specs-price-and-2027-roadmap/" target="_blank">Samsung Gadget Hacks &mdash; 2027 roadmap and Haean specs</a>
+      <span class="badge badge-amber">7/10</span>
+    </div>
+    <div class="source-item">
+      <a href="https://www.koreatimes.co.kr/business/tech-science/20260717/pricing-matters-for-samsungs-entry-into-meta-led-smart-glasses-market" target="_blank">Korea Times &mdash; Samsung vs. Meta pricing dynamics</a>
+      <span class="badge badge-green">8/10</span>
+    </div>
+    <div class="source-item">
+      <a href="https://m.ledinside.com/node/view/36024.html" target="_blank">LEDInside &mdash; Samsung micro-LED display version 2027</a>
+      <span class="badge badge-amber">7/10</span>
+    </div>
+    <div class="source-item">
+      <a href="https://vr.org/articles/galaxy-unpacked-july-22-galaxy-glasses-android-xr-developer-watch-2026" target="_blank">VR.org &mdash; Galaxy Unpacked July 22 Android XR developer watch</a>
+      <span class="badge badge-amber">7/10</span>
+    </div>
+    <div class="source-item">
+      <a href="https://samsung.gadgethacks.com/news/samsung-galaxy-glasses-launch-july-2026-features-privacy-and-tradeoffs/" target="_blank">Samsung Gadget Hacks &mdash; Jinju features and privacy tradeoffs</a>
+      <span class="badge badge-amber">7/10</span>
+    </div>
+  </div>
+
+  <div class="footer">
+    <strong style="color:#1a1a1a;">FRONTIER INTELLIGENCE</strong> &middot; Edition 41 &middot; Sunday, 19 July 2026<br />
+    Personal briefing for Angelo Gunther &middot; BCI &middot; XR &middot; Spatial Computing
+  </div>
+</div>
+</body>
+</html>
