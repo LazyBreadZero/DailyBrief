@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Sunday, 19 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #EFE9DC; font-family: 'Source Serif 4', Georgia, serif; color: #1F1B16; }
+  .page { max-width: 760px; margin: 0 auto; background: #FBF9F3; padding: 0 0 60px; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(31,27,22,0.08); }
+  .gold-rule { height: 8px; background: #E7B43A; }
+  .gingham-rule {
+    height: 6px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+  }
+  .masthead { padding: 30px 52px 0; text-align: center; }
+  .masthead-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #A8761A; margin-bottom: 6px; }
+  .sun { font-size: 22px; color: #E7B43A; display: block; margin-bottom: 4px; }
+  .masthead-title { font-family: 'Fraunces', Georgia, serif; font-size: 60px; font-weight: 900; color: #1F1B16; letter-spacing: -2px; line-height: 1.0; }
+  .masthead-tagline { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; font-size: 13.5px; color: #4A4036; margin-top: 8px; }
+  .dateline { margin: 18px 52px 0; border-top: 2px solid #1F1B16; border-bottom: 2px solid #1F1B16; padding: 7px 0; display: flex; justify-content: space-between; align-items: center; }
+  .dateline-left { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; }
+  .dateline-right { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #4A4036; }
+  .content { padding: 0 52px; }
+  .kicker { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-top: 32px; margin-bottom: 8px; }
+  h1.lead-headline { font-family: 'Fraunces', Georgia, serif; font-size: 34px; font-weight: 700; color: #1F1B16; line-height: 1.18; margin-bottom: 18px; text-wrap: balance; }
+  p { font-size: 17px; line-height: 1.72; color: #1F1B16; margin-bottom: 16px; }
+  .divider { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+  .source-badge { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 11px; padding: 2px 7px; border-radius: 3px; margin-left: 4px; font-weight: 600; vertical-align: middle; text-decoration: none; }
+  .badge-green { background: #E8F1E4; color: #3A6B2A; }
+  .badge-amber { background: #F4E8C9; color: #7A5A12; }
+  a { color: #A8761A; text-decoration: underline; }
+  a:hover { color: #7A5412; }
+  .angle-box { background: #211C16; padding: 28px 32px; margin: 36px 0; border-radius: 8px; }
+  .angle-box .angle-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #E7B43A; font-weight: 600; margin-bottom: 12px; }
+  .angle-num { font-family: 'Fraunces', serif; font-size: 28px; color: #E7B43A; font-weight: 700; float: left; margin-right: 12px; line-height: 1.1; }
+  .angle-move { display: flex; align-items: flex-start; margin-bottom: 18px; }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-move-text { font-family: 'Source Serif 4', serif; font-size: 16px; color: #E8E4DA; line-height: 1.68; }
+  .radar-block { margin-top: 36px; border-top: 1px solid #E5DAC4; padding-top: 22px; }
+  .radar-label { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #A8761A; font-weight: 600; margin-bottom: 14px; }
+  .radar-item { font-family: 'DM Sans', sans-serif; font-size: 14px; line-height: 1.6; color: #4A4036; margin-bottom: 8px; }
+  .radar-item:last-child { margin-bottom: 0; }
+  .radar-date { font-weight: 600; color: #1F1B16; }
+  .footer { padding: 32px 52px 0; border-top: 1px solid #E5DAC4; font-family: 'DM Sans', sans-serif; font-size: 11px; color: #928775; text-align: center; letter-spacing: 0.4px; margin-top: 36px; }
+  @media (max-width: 600px) {
+    .masthead, .content { padding-left: 22px; padding-right: 22px; }
+    .dateline { margin-left: 22px; margin-right: 22px; }
+    .masthead-title { font-size: 44px; }
+    h1.lead-headline { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="gold-rule"></div>
+  <div class="gingham-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Your Morning Brief &middot; Sunday, 19 July 2026</div>
+    <span class="sun">&#9728;</span>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="dateline">
+    <span class="dateline-left">Edition 38</span>
+    <span class="dateline-right">Food Science &middot; Venture</span>
+  </div>
+
+  <div class="content">
+
+    <div class="kicker">Today&rsquo;s Lead &middot; Food Science &amp; Venture</div>
+    <h1 class="lead-headline">StrainX Bioworks&rsquo; $13M Raise Adds India to the Precision Fermentation Production Map</h1>
+
+    <p>StrainX Bioworks, a Bengaluru-based deep-tech company, has raised $13 million and exited stealth. The round, announced in May 2026, was led by Prime Venture Partners and Leo Capital with participation from Good Startup, Sparrow Capital, Sun Icon Ventures, Dholakia Ventures, and WindT Angels (an IIT Delhi alumni fund). The company has built 10,000-litre fermentation capacity at a dedicated facility in Bhopal, has obtained US GRAS determination for its initial ingredients, and employs more than 100 scientists, engineers and operators including 15 PhDs. Its model is full-stack: own strain development, own process scale-up, own manufacturing, own commercialisation.
+    <a href="https://agfundernews.com/strainx-bioworks-nets-13m-to-scale-biomanufacturing-platform-india-is-going-to-be-the-fermentation-capital-of-the-world" target="_blank" class="source-badge badge-green">AgFunderNews 9/10</a></p>
+
+    <p>The production-geography argument is more significant than the funding number. India&rsquo;s existing fermentation infrastructure is pharmaceutical in origin &mdash; the downstream and process requirements for food-grade precision fermentation ingredients differ materially, which means established pharma capacity does not transfer cleanly to this application. StrainX is building for non-pharma fermentation from the ground up in a geography where that gap creates the opportunity. Its Bhopal facility is modular and designed to scale toward 100,000 litres &mdash; the threshold at which ingredient buyers begin substantive supply conversations, as the Formo IFT FIRST floor story confirmed. A company running that same progression in central India is operating against a cost structure that does not resemble Germany, the Netherlands, Denmark, Switzerland, or Finland.</p>
+
+    <p>The brief has tracked European precision fermentation across six geographies across thirty-seven editions. Japan&rsquo;s 2040 roadmap (Edition 36) added Asia as a demand-side signal. StrainX is the first company in this archive to represent Asia as a <em>production-side</em> play. Its US GRAS clearance and stated ambition for global ingredient partnerships place the primary buyer target as multinational food manufacturers &mdash; not domestic Indian consumption. That puts StrainX in direct competition, at the ingredient-sales layer, with the European companies this brief has been tracking since June.</p>
+
+    <div class="angle-box">
+      <div class="angle-label">Julinka&rsquo;s Angle</div>
+      <div class="angle-move">
+        <div class="angle-num">1</div>
+        <div class="angle-move-text">Before the next manufacturing-dependent fermentation company comes across the Calm/Storm desk, map the portfolio against one axis: is the company&rsquo;s moat in its IP and strain library &mdash; portable, geography-independent &mdash; or in its cost-of-manufacture advantage, which is location-dependent? StrainX is building toward 100,000-litre capacity in Bhopal at a cost structure that differs materially from any comparable European facility. A European company whose moat is manufacturing cost rather than IP now has India as a named reference point on what it faces when a global ingredient buyer puts both quotes on the table.</div>
+      </div>
+    </div>
+
+    <div class="radar-block">
+      <div class="radar-label">On the Radar</div>
+      <div class="radar-item"><span class="radar-date">20 July &mdash;</span> UPSIDE Foods/Believer Meats: competing bid deadline, Delaware bankruptcy court. The answer to whether a strategic acquirer entered above $52.25M arrives tomorrow.</div>
+      <div class="radar-item"><span class="radar-date">28 July &mdash;</span> UPSIDE Foods/Believer Meats: auction date (if competing bids were filed).</div>
+      <div class="radar-item"><span class="radar-date">20&ndash;25 October &mdash;</span> Art Basel Paris, Grand Palais. Avant-Pr&eacute;mi&egrave;re 20 October. Preview 21&ndash;22 October.</div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    APPETITE &middot; Edition 38 &middot; Sunday, 19 July 2026<br />
+    A personal briefing for Julinka Naomi Waesche &middot; Venture &middot; Food &middot; Art &middot; Nature
+  </div>
+
+</div>
+</body>
+</html>
