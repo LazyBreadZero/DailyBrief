@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Frontier Intelligence — Monday, 20 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #F0EDE3;
+    font-family: 'Source Serif 4', Georgia, serif;
+    color: #1a1a1a;
+    line-height: 1.65;
+    padding: 0 0 60px;
+  }
+  .wrapper {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #FAF8F2;
+    padding: 0 0 48px;
+  }
+  .top-rule { height: 6px; background: #8B1A1A; }
+  .masthead {
+    padding: 36px 48px 0;
+    text-align: center;
+  }
+  .masthead-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #888;
+  }
+  .masthead-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 52px;
+    font-weight: 900;
+    color: #1a1a1a;
+    letter-spacing: -0.5px;
+    line-height: 1.0;
+    padding-top: 6px;
+  }
+  .dateline {
+    padding: 18px 48px 0;
+  }
+  .dateline-inner {
+    border-top: 1px solid #1a1a1a;
+    border-bottom: 3px solid #1a1a1a;
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dateline-left {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: bold;
+  }
+  .dateline-right {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666;
+  }
+  .article { padding: 32px 48px 0; }
+  .kicker {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1a1a1a;
+    margin-bottom: 14px;
+  }
+  .deck {
+    font-size: 17px;
+    font-weight: 300;
+    color: #3a3a3a;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    border-left: 3px solid #8B1A1A;
+    padding-left: 16px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #222;
+    margin-bottom: 18px;
+  }
+  .source-badge {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 4px;
+  }
+  .badge-green {
+    background: #E8F5EC;
+    color: #1A5C2A;
+  }
+  .badge-amber {
+    background: #FFF3D6;
+    color: #7A4A00;
+  }
+  .source-cite {
+    font-size: 13px;
+    font-style: italic;
+    color: #666;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  .section-rule {
+    border: none;
+    border-top: 1px solid #d8d4ca;
+    margin: 36px 48px;
+  }
+  .angle-block {
+    margin: 0 48px;
+    background: #1a1a1a;
+    color: #FAF8F2;
+    padding: 24px 28px;
+    border-radius: 4px;
+  }
+  .angle-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #c8a882;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  .angle-block p {
+    color: #e8e4dc;
+    font-size: 15px;
+    line-height: 1.65;
+    margin-bottom: 14px;
+  }
+  .angle-block p:last-child { margin-bottom: 0; }
+  .footer {
+    padding: 32px 48px 0;
+    text-align: center;
+    border-top: 1px solid #e0dccf;
+    margin-top: 40px;
+  }
+  .footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #999;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+    margin-bottom: 0;
+  }
+  @media (max-width: 680px) {
+    .masthead { padding: 28px 24px 0; }
+    .masthead-title { font-size: 38px; }
+    .dateline { padding: 16px 24px 0; }
+    .article { padding: 28px 24px 0; }
+    .section-rule { margin: 28px 24px; }
+    .angle-block { margin: 0 24px; }
+    .footer { padding: 28px 24px 0; }
+    h1 { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+  <div class="top-rule"></div>
+
+  <div class="masthead">
+    <div class="masthead-label">Personal Intelligence Briefing</div>
+    <div class="masthead-title">Frontier Intelligence</div>
+  </div>
+
+  <div class="dateline">
+    <div class="dateline-inner">
+      <span class="dateline-left">Edition 42 &middot; Monday, 20 July 2026</span>
+      <span class="dateline-right">Smart Glasses &middot; XR &middot; Policy</span>
+    </div>
+  </div>
+
+  <div class="article">
+    <div class="kicker">Today's Lead &middot; Smart Glasses &middot; Policy</div>
+    <h1>New York Bars Camera Glasses from Every State Courthouse</h1>
+    <p class="deck">Two days before Samsung launches the Galaxy Glasses at London Unpacked, New York's Unified Court System bans all camera-equipped eyewear from 1,240 courthouses — the first statewide institutional restriction on the category in the US, and an institutional shortcut around a regulatory question the industry has been debating for months.</p>
+
+    <p>New York's Unified Court System barred camera- and microphone-equipped eyewear from all 1,240 of its courthouses today. The rule covers state, county, city, town, and village courts in all 62 counties; applies to attorneys, staff, and members of the public alike; and requires those carrying smart glasses to surrender them to uniformed court officers at the door. Prescription eyewear with embedded recording capability is included. <a href="https://www.govtech.com/policy/new-york-will-ban-smart-glasses-from-all-courthouses" target="_blank" class="source-badge badge-green">govtech.com 8/10</a> <a href="https://nystateofpolitics.com/state-of-politics/new-york/politics/2026/07/16/ny-unified-court-smart-glasses-ban" target="_blank" class="source-badge badge-amber">NY State of Politics 7/10</a></p>
+
+    <p>New York already prohibits recording in its courts; that law has not changed. What has changed is how the prohibition is enforced: the court system has moved from behavioral regulation — "do not record" — to hardware exclusion — "do not bring the device." Rather than determining in real time whether a given pair of glasses is capturing, it has opted to remove the category from the equation. Multiple legal-industry reports describe it as the first ban of its kind to cover an entire US state's judicial infrastructure. <a href="https://nydailyrecord.com/2026/07/15/smart-glasses-banned-in-court-facilities/" target="_blank" class="source-badge badge-amber">NY Daily Record 7/10</a></p>
+
+    <p>The timing has a specific texture. Samsung reveals its Galaxy Glasses at London Unpacked on Tuesday — 48 hours from now — and that device carries a 12-megapixel Sony camera embedded in 50-gram frames. Meta's Ray-Ban camera glasses, already on sale at $299, fall under the same rule from today. The Galaxy Glasses will be banned from New York's courtrooms before they exist as a publicly available object. <a href="https://www.glassesradar.app/threat-intel/new-york-bans-smart-glasses-courthouses-2026" target="_blank" class="source-badge badge-amber">GlassesRadar 7/10</a></p>
+
+    <p>What the ban sidesteps is the disclosure debate that has preoccupied manufacturers. The smart glasses industry has spent months debating LED indicator design: Samsung ships dual recording LEDs with its Galaxy Glasses; Meta removed the camera indicator from its upcoming Aperol and Bellini models; the Financial Times reported in early July that Meta's "super sensing" prototype — continuous audio capture, a photograph every few seconds, AI-queried metadata — is designed to operate with no LED illumination at all. <a href="https://www.forbes.com/sites/cortneyharding/2026/07/13/new-yorks-smartglasses-ban-sets-a-dangerous-precedent/" target="_blank" class="source-badge badge-green">Forbes 8/10</a> New York's court system has determined that no disclosure design solves the underlying problem: it cannot audit what a camera is doing in real time. It has removed the hardware from the building instead.</p>
+
+    <p>Courts are a narrow institutional category, already legally distinct — recording was already banned there. But the audit-incapacity logic that produced today's rule applies to other institutional environments: hospitals, secure financial operations, certain government facilities. Each has its own administrative policy apparatus, faster than any legislative timetable. The EU's three candidate enforcement bodies — the Commission, the AI Office, and national data-protection authorities — have not resolved which holds enforcement mandate over what a sealed wearable captures in real time. New York has not resolved it either; it has bypassed the question. The precedent is not a legal one so much as an administrative one: when audit capacity is absent, exclusion is simpler than oversight.</p>
+  </div>
+
+  <hr class="section-rule" />
+
+  <div class="angle-block">
+    <div class="angle-label">Angelo's Angle</div>
+    <p>New York has chosen the simplest solution to the LED-disclosure debate: remove the camera from the room. The working hypothesis has been that the "who can audit?" question resolves through a regulatory framework — EU AI Office, GDPR enforcement, eventually legislation. New York's court system concluded the problem is not solvable in real time and moved to categorical exclusion instead.</p>
+    <p>The question is not whether this logic applies in courtrooms, where it clearly does. The question is how far it travels. Samsung's Galaxy Glasses will be banned from 1,240 courtrooms before they go on sale. The same audit-incapacity argument could be made by hospital administrators, by employers in regulated workplaces, by schools. Each of those institutions can act on the same logic independently, without waiting for a framework. How many category-specific institutional bans accumulate before smart glasses acquire a structural ceiling in regulated environments set by administrative decisions rather than consumer demand — and which of the use cases you are actually translating require access to exactly those environments?</p>
+  </div>
+
+  <div class="footer">
+    <p><strong style="color:#1a1a1a;">FRONTIER INTELLIGENCE</strong> &middot; Edition 42 &middot; Monday, 20 July 2026<br />
+    Personal briefing for Angelo Gunther &middot; BCI &middot; XR &middot; Spatial Computing</p>
+  </div>
+
+</div>
+</body>
+</html>
