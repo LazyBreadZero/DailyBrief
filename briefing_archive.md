@@ -1909,6 +1909,43 @@ Added to "Positions the evidence now implies": The Jinju audio-only premium may 
 
 ---
 
+## EDITION 42 — Monday, 21 July 2026
+
+### Lead Story
+**Title:** Apple kills Vision Air at the component level — a supplier has stopped display work
+**Category:** Platforms & Strategy
+**Core argument:** A supply-chain partner has ended display engineering work for Apple Vision Air, converting the June CEO/analyst-level cancellation into a supply-chain fact that does not reverse. Apple's remaining post-Vision Pro roadmap: audio-only glasses (late 2027) and waveguide AR (2029), with a two-year gap in which the category's primary non-specialist narrative anchor is absent.
+**Key companies introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** Supply-chain-level vs. CEO/analyst-level cancellation — component engineering work stopping is the irreversibility marker
+**Sources used:** Bloomberg via The Apple Post (7/10): https://www.theapplepost.com/2026/07/08/70950/apple-supplier-reportedly-ending-work-on-displays-for-rumored-low-cost-vision-headset/ ; 9to5Mac (8/10): https://9to5mac.com/2026/05/31/apple-glasses-launching-late-2027-with-vision-air-to-follow-by-2029/ ; MacRumors/Kuo (9/10): https://www.macrumors.com/2026/06/03/kuo-vision-pro-successors-nixed/
+**Follow-up threads to watch:** Apple N50 audio glasses (late 2027) — supply chain and specification signals; Apple waveguide AR (2029) — any engineering updates; Samsung Unpacked 22 July — official Galaxy Glasses pricing and Haean roadmap confirmation
+
+### Further items (if any)
+None — quiet edition.
+
+### New concepts in Angelo's working vocabulary
+- Supply-chain-level cancellation as the irreversibility threshold: when component engineering stops, no CEO announcement reverses the trajectory
+
+### Provocation(s) posed this edition
+- What is the one-sentence claim about smart glasses — not XR or spatial computing, but the specific category of $300–$500 audio-and-camera frames — that is concrete enough to defend in a conversation with a CFO who has never worn a pair? Not what they will eventually become; what they demonstrably do for a named decision-making problem, right now.
+- Open tension: Angelo's positioning has relied partly on Vision Pro's visibility as proof the category matters. With no headset successor for two years, what carries that narrative weight?
+
+### Running-thread tracker
+- Science Corp CE mark — awaited; no state change (Ed 1–42)
+- Android XR three-tier architecture — Galaxy XR (£1,699, spatial), XREAL Aura ($1,500, display AR), Galaxy Glasses ($379–$499, audio-only, Snapdragon AR1, Gemini). Samsung Unpacked 22 July: watch for official pricing, Gemini bundling vs. subscription, Haean roadmap confirmation
+- Meta Conversation Focus subscription — $19.99/month, live August 2026; Samsung Unpacked response is the next event
+- Samsung dual-LED vs. Meta LED removal — Samsung hardware ships with dual LEDs; Meta v26 firmware (July 7–9) disables camera when LED is physically tampered with on current hardware; Meta Aperol/Bellini (next-gen) removes LED entirely. Three approaches on the same regulatory question
+- China NMPA BCI classification guidelines — watch implementation timeline and first applications
+- Apple Vision Air — MOVED (Ed 42): supply-chain cancellation confirmed; display supplier ended engineering work (Bloomberg via The Apple Post, July 8). No headset before late 2028–2029 at earliest. Remaining roadmap: audio-only glasses (late 2027), waveguide AR (2029)
+- Neuralink PRIME/VOICE trials — 26 patients enrolled as of July 2026; international expansion UAE, UK, Canada; watch next patient milestone and any published outcomes
+- XREAL a01+ ($299, Micro-OLED, available 15 July) — confirmed in market; positioned $80–200 below Samsung Galaxy Glasses with display vs. audio trade-off
+
+### Thinking Ledger update
+Added to "Positions the evidence now implies": Apple's Vision Air cancellation has reached the supply-chain layer (component engineering stopped, July 8), confirming that Vision Pro's successor will not arrive before late 2027 at the audio-glasses tier or 2029 at the display tier. Vision Pro was doing narrative work for non-specialists — the "Apple bet $3,499 on this" shorthand — that will not be replaced by any device in the near term. The question this opens for Angelo's positioning: whether his translations depend on that anchor being live and visible, or whether the glasses-tier devices already shipping are sufficient examples for the conversations he has.
+
+---
+
 ## THINKING LEDGER (living — read and update every run; supersedes the old task-tracker from Edition 9)
 
 *Tracks the evolution of Angelo's thinking, not his task completion. Keep ~4–6 live questions. Retire a question when the news resolves it or a sharper one replaces it — never by nagging.*
@@ -1955,6 +1992,7 @@ Added to "Positions the evidence now implies": The Jinju audio-only premium may 
 - **AI glasses features can carry standalone subscription revenue, independent of hardware margin.** (New, Ed 40.) Meta's Conversation Focus subscription ($19.99/month, August 2026) is the first test of this model at scale from a major hardware manufacturer. The rate-limit is a pricing decision, not an infrastructure constraint — the feature runs on-device. The platform contest gains a new axis: whether AI glasses features price as hardware attributes (bundled) or software products (recurring). Samsung's answer to this at Unpacked is as commercially significant as its hardware specification.
 - **The Jinju audio-only premium is most plausibly an ecosystem entry-fee, not a capability claim — pending official confirmation at Unpacked.** (New, Ed 41.) Samsung's One UI leak names a 2027 display successor (Haean) already designed, which changes the product logic: the $379–$499 Jinju is priced to establish Android XR four-device lock-in before the higher-margin Haean display tier arrives. If Samsung confirms this roadmap on 22 July, the Ed 39 audio-only-premium question is structurally answered. If it doesn't, the leak is unendorsed and the premium still unexplained.
 - **Samsung and Meta made opposite hardware calls on camera disclosure in the same market window, reflecting opposite regulatory bets.** (New, Ed 41.) Samsung ships dual recording indicator LEDs (photochromic lenses plus two LEDs); Meta removed the LED from Aperol/Bellini entirely. Neither company has stated its regulatory reasoning publicly. Samsung's design reads as pre-complying with potential EU disclosure requirements; Meta calculated that disclosure friction costs more than regulatory risk in the current enforcement vacuum. Two products, same category, same month, opposite architectures on the same question.
+- **Apple's Vision Air cancellation has reached the supply-chain layer — Vision Pro's narrative function is now two years vacant.** (New, Ed 42.) A display supplier has ended engineering work for Vision Air (Bloomberg, July 8), converting the June "on ice" language into a supply-chain fact. The remaining Apple post-screen roadmap is audio-only glasses (late 2027) and waveguide AR (2029). For the two years between now and the next Apple device in this category, Vision Pro's role as a non-specialist narrative anchor — the "Apple bet $3,499 on this" shorthand — has no replacement.
 
 ### Blind spots he keeps circling
 - Reaching for the **softer or more familiar word, or the cleaner narrative**, when the harder or messier framing is where the argument lives. Ed 16 version: "human-centric computing" may be the softer phrase for a more specific claim Angelo hasn't yet committed to in writing.
@@ -2021,6 +2059,7 @@ Added to "Positions the evidence now implies": The Jinju audio-only premium may 
 | 39 | 17 Jul 2026 | XREAL a01+ ($299 display) on sale 5 days before Samsung Galaxy Glasses ($379–499 audio-only) | China NMPA BCI classification guidelines (June 2026, reported 16 Jul) | None new | Check Samsung spec sheet before 22 July — does Gemini audio-only justify the premium over XREAL's $299 display? |
 | 40 | 18 Jul 2026 | Meta paywalls Conversation Focus at $19.99/month — first AI glasses subscription model | Samsung Unpacked 4 days away; subscription-layer economics vs. bundled Gemini | None new | Find Samsung's public commitment on Gemini pricing before Unpacked — bundled or deferred? |
 | 41 | 19 Jul 2026 | Samsung leaked two-tier roadmap (Jinju audio-only 2026 + Haean micro-LED display 2027) reframes audio-only premium | Android XR SDK cross-form-factor test at Unpacked; Samsung dual-LED vs Meta LED-removal camera disclosure divergence | None new | Find official Samsung materials naming Haean before Unpacked; interrogate what Meta's $299 undercut reveals about Samsung's lock-in window |
+| 42 | 21 Jul 2026 | Apple Vision Air component cancellation | Apple supply-chain Vision Air display component halt confirmed; remaining roadmap: audio glasses late 2027, waveguide AR 2029 | None new | Name the non-Apple narrative anchor for smart glasses; specific claim defensible to a CFO |
 
 ---
-*Last updated: Edition 41 — 19 July 2026*
+*Last updated: Edition 42 — 21 July 2026*

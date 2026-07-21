@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Frontier Intelligence — Monday, 21 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #FAF8F2;
+    color: #1a1a1a;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.72;
+    padding: 0 0 60px;
+  }
+  .page { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+
+  /* Nameplate */
+  .nameplate {
+    padding: 40px 0 0;
+    text-align: center;
+    border-bottom: 3px solid #1a1a1a;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+  }
+  .nameplate-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 8px;
+  }
+  .nameplate-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -1px;
+    line-height: 1.0;
+  }
+
+  /* Dateline bar */
+  .dateline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .dateline-left { color: #8B1A1A; font-weight: bold; }
+  .dateline-right { color: #666; }
+
+  /* Kicker */
+  .kicker {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  /* Headlines */
+  h1.lead-hed {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1a1a1a;
+    margin-bottom: 14px;
+  }
+  h2.section-hed {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 36px 0 12px;
+    padding-top: 28px;
+    border-top: 1px solid #ddd;
+  }
+
+  /* Body copy */
+  .story p {
+    margin-bottom: 18px;
+  }
+  .story p:last-child { margin-bottom: 0; }
+
+  /* Source badges */
+  .source-badge {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 7px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+  .badge-green {
+    background: #E8F5EC;
+    color: #1A5C2A;
+  }
+  .badge-amber {
+    background: #FFF3D6;
+    color: #7A4A00;
+  }
+
+  /* Divider */
+  .rule { border: none; border-top: 1px solid #d9d3c4; margin: 32px 0; }
+  .rule-thick { border: none; border-top: 3px solid #1a1a1a; margin: 0 0 32px; }
+
+  /* Angelo's Angle block */
+  .angle-block {
+    background: #1a1a1a;
+    color: #d8d4cc;
+    padding: 28px 32px;
+    margin: 40px 0;
+    border-radius: 2px;
+  }
+  .angle-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .angle-block p {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 15px;
+    line-height: 1.65;
+    color: #d8d4cc;
+    margin-bottom: 14px;
+  }
+  .angle-block p:last-child { margin-bottom: 0; }
+  .angle-question {
+    color: #c8a882;
+    font-style: italic;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #d9d3c4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #999;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 1.8;
+  }
+  .footer strong { color: #1a1a1a; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Nameplate -->
+  <div class="nameplate">
+    <div class="nameplate-label">Personal Intelligence Briefing · BCI · XR · Spatial Computing</div>
+    <div class="nameplate-title">Frontier Intelligence</div>
+  </div>
+
+  <!-- Dateline -->
+  <div class="dateline">
+    <span class="dateline-left">Edition 42 &nbsp;·&nbsp; Monday, 21 July 2026</span>
+    <span class="dateline-right">NeuroTech · XR · Spatial Computing · BCI</span>
+  </div>
+
+  <!-- Lead -->
+  <div class="story">
+    <div class="kicker">Today's Lead &nbsp;·&nbsp; Platforms &amp; Strategy</div>
+    <h1 class="lead-hed">Apple kills Vision Air at the component level — a supplier has stopped display work</h1>
+
+    <p>An Apple supply-chain partner has ended engineering work on the display components intended for Vision Air, Bloomberg reports,
+    <a href="https://www.theapplepost.com/2026/07/08/70950/apple-supplier-reportedly-ending-work-on-displays-for-rumored-low-cost-vision-headset/" target="_blank" class="source-badge badge-amber">The Apple Post 7/10</a>
+    converting what had been a CEO announcement and an analyst report into a supply-chain fact.
+    Cancellations that reach the component layer do not reverse. The question is no longer whether Vision Air will arrive — it will not, at least not in any recognisable form — but what Apple's post-Vision Pro map actually contains.</p>
+
+    <p>The answer: two products, neither of them a headset, on a long horizon. Audio-only smart glasses — display-free, AI voice, camera, no spatial operating system — are targeting late 2027 mass production, running custom low-power silicon derived from Apple Watch architecture rather than the M-series chips in Vision Pro. Waveguide AR with a genuine display sits in 2029 at the earliest. Between now and late 2027 is a gap, and Apple is filling it with nothing: Vision Pro remains on sale at $3,499 with no near-term successor and no clear demand argument.
+    <a href="https://9to5mac.com/2026/05/31/apple-glasses-launching-late-2027-with-vision-air-to-follow-by-2029/" target="_blank" class="source-badge badge-green">9to5Mac 8/10</a>
+    <a href="https://www.macrumors.com/2026/06/03/kuo-vision-pro-successors-nixed/" target="_blank" class="source-badge badge-green">MacRumors 9/10</a></p>
+
+    <p>Vision Pro launched in February 2024 with a promise it was the "beginning" of something. Forty months later, the beginning has ended without a second chapter on schedule. The gap matters structurally. Vision Pro served as a narrative anchor — for journalists, for investors, for the category's broader public intelligibility. When the FT or the Economist wrote about spatial computing, they could point to a device. When Angelo describes the "post-screen human interface," the most vivid demonstration his audience can hold has no credible follow-up product for two years. Samsung Galaxy Glasses, Meta's glasses line, and XREAL Aura are real products in the same direction, but they are less obviously transformative — smaller form factors, less immersive, harder to make visibly compelling to an audience that hasn't worn them.</p>
+
+    <p>The practical consequence is a category in a holding pattern. Genuine adoption data, commercial developer incentives, and enterprise use cases are accumulating at the glasses tier — Neuralink's now-26 active trial participants
+    <a href="https://neuralink.com/updates/" target="_blank" class="source-badge badge-green">Neuralink 9/10</a>
+    in BCI, and Samsung's Galaxy XR rolling out in UK enterprise with Knox certification, show adjacent tiers advancing — but the flagship narrative device that could draw non-specialist investment and attention into the category is on a two-year break.</p>
+  </div>
+
+  <!-- Angelo's Angle -->
+  <div class="angle-block">
+    <div class="angle-label">Angelo's Angle</div>
+    <p>Vision Pro was doing work for Angelo that he may not have fully noticed: it made the category legible to people who would otherwise require a lengthy explanation. When a CFO or a policy lead asked "why does this matter?", the answer was partly "because Apple bet $3,499 that it does." That argument is now two years away from having a successor. The glasses that will exist in that gap — Samsung's, Meta's, Apple's own eventual audio frame — are more modest and require a more specific argument.</p>
+    <p class="angle-question">What is the one-sentence claim about smart glasses — not XR, not spatial computing, not the "post-screen interface," but this specific category of $300–$500 audio-and-camera frames — that is concrete enough to defend in a conversation with a CFO who has never worn a pair? Not what they will eventually become. What they can demonstrably do for a named decision-making problem, right now.</p>
+  </div>
+
+  <div class="footer">
+    <strong>FRONTIER INTELLIGENCE</strong> · Edition 42 · Monday, 21 July 2026<br />
+    Personal briefing for Angelo Gunther · BCI · XR · Spatial Computing<br />
+    Sources: Bloomberg (via The Apple Post) · 9to5Mac · MacRumors · Neuralink
+  </div>
+
+</div>
+</body>
+</html>
