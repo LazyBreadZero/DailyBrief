@@ -1681,6 +1681,37 @@ Map Calm/Storm portfolio companies against one axis before the next manufacturin
 
 ---
 
+## EDITION 39 — Monday, 21 July 2026
+
+**Lead:** Neko Health raises $700 million at $7 billion — Europe's preventive-health unit-economics benchmark is set
+
+**Further items:**
+- EFSA issues its first positive opinion on CBD as a novel food (Chanelle McCoy Health dossier)
+- Believer Meats bid deadline passed — UPSIDE Foods' $50M likely to prevail pending July 30 court approval
+
+**Sources used:** TechCrunch · Neko Health press release · NutraIngredients · Cannabis Health News · AgFunderNews
+
+**Running-thread tracker:**
+- Neko Health (NEW) — $700M Series C at $7B valuation, 100,000 members, clinic-level profitable, Lightspeed-led, US clinics announced; this is the sharpest European preventive-health benchmark in the archive
+- UPSIDE/Believer Meats (MOVED) — bid deadline 20 July passed with no public competing bid above $52.25M confirmed; if no qualifying bid filed, UPSIDE prevails at court hearing 30 July; if qualifying bid was filed, auction 28 July; IP held by Israeli entity Future Meat Technologies is excluded
+- CBD/EFSA novel food (NEW) — Chanelle McCoy Health draft positive opinion from EFSA, first such opinion after multiple category rejections; Commission decision still to follow; draft positive opinions have not been reversed in CBD applications to date
+- TurtleTree/Novonesis lactoferrin — no update
+- Japan 2040 new-foods roadmap — no update
+- Solar Foods Factory 02 — no update
+- Art Basel Paris — 20–25 October; no update
+- EU NGT Regulation — no update
+- EU Biotech Act II — Q4 2026 publication; no update
+- Christie's/Sotheby's H1 2026 — no update
+- Katingan REDD+/SRUK price spread — no update
+- Alan/Prosus Series G — no update
+- Louvre renovation — starts September 2026; no update
+
+**Julinka's Angle:**
+1. Before the next Calm/Storm portfolio review, ask each preventive-health company at what member or patient volume the unit becomes profitable at the clinic or service level. Neko Health's answer is 100,000 members and clinic-level profitability before Series C. That is the benchmark. If a company cannot name the number, it has not modelled the business.
+2. Map the EU novel food register for companies rejected once that absorbed the EFSA feedback and are preparing a revised dossier — those applications are the closest things the novel food pipeline has to pre-priced regulatory options. Identify one Calm/Storm-adjacent food-ingredient company in this position before the next EFSA opinion batch.
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1723,6 +1754,7 @@ Map Calm/Storm portfolio companies against one axis before the next manufacturin
 | 36 | 17 Jul 2026 | Novonesis takes exclusive commercialisation deal for TurtleTree's precision-fermented lactoferrin | Japan 2040 new-foods roadmap ($6.2B / ¥900B) | Novonesis (as acquirer/partner) | Check Delaware docket before 20 July for UPSIDE/Believer competing bid above $52.25M |
 | 37 | 18 Jul 2026 | Art Basel Paris full programme published (206 galleries, Emergence sector, 12 joint booths) | Solar Foods Factory 02 €77.8M Business Finland grant | Karim Crippa (director, Art Basel Paris); Emergence sector | Identify one cross-pillar founder/LP for Art Basel Paris Avant-Première 20 October |
 | 38 | 19 Jul 2026 | StrainX Bioworks $13M adds India to precision fermentation production map | — | StrainX Bioworks; Prime Venture Partners; Leo Capital | Map Calm/Storm portfolio: IP moat vs. cost-of-manufacture moat; India as reference cost for global ingredient buyers |
+| 39 | 21 Jul 2026 | Neko Health $700M Series C at $7B — Europe's preventive-health unit-economics benchmark | EFSA first positive CBD novel food opinion; UPSIDE/Believer bid deadline passed | None new | Ask each Calm/Storm preventive-health company at what volume unit economics break even; map EFSA-rejected dossiers preparing revised applications |
 
 ---
-*Last updated: Edition 38 — 19 July 2026*
+*Last updated: Edition 39 — 21 July 2026*

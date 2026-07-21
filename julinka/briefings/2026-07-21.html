@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Monday, 21 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #FBF9F3;
+    color: #1F1B16;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.72;
+    padding: 0 0 60px;
+  }
+  .page { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+
+  /* Nameplate */
+  .nameplate {
+    padding: 40px 0 20px;
+    text-align: center;
+  }
+  .nameplate-eyebrow {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #A8761A;
+    margin-bottom: 10px;
+  }
+  .nameplate-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #1F1B16;
+    letter-spacing: -1.5px;
+    line-height: 1.0;
+  }
+  .nameplate-sub {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #4A4036;
+    margin-top: 10px;
+  }
+
+  /* Gingham rule (Vichy-style) */
+  .gingham-rule {
+    height: 6px;
+    background: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+    margin: 16px 0;
+    border-radius: 1px;
+  }
+
+  /* Dateline bar */
+  .dateline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-top: 2px solid #1F1B16;
+    border-bottom: 2px solid #1F1B16;
+    margin-bottom: 36px;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .dateline-left { color: #A8761A; font-weight: 600; }
+  .dateline-right { color: #4A4036; }
+
+  /* Kicker */
+  .kicker {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8761A;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  /* Headlines */
+  h1.lead-hed {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1F1B16;
+    margin-bottom: 16px;
+  }
+  h2.section-hed {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #1F1B16;
+    margin: 0 0 12px;
+  }
+
+  /* Body copy */
+  .story p {
+    margin-bottom: 18px;
+    color: #1F1B16;
+  }
+  .story p:last-child { margin-bottom: 0; }
+
+  /* Source badges */
+  .source-badge {
+    display: inline-block;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+  .badge-green {
+    background: #E8F1E4;
+    color: #3A6B2A;
+  }
+  .badge-amber {
+    background: #F4E8C9;
+    color: #7A5A12;
+  }
+
+  /* Section divider */
+  .rule { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+
+  /* Further items block */
+  .further-label {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8761A;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  .further-item {
+    margin-bottom: 32px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #E5DAC4;
+  }
+  .further-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  /* Julinka's Angle block */
+  .angle-block {
+    background: #211C16;
+    color: #e8e0d2;
+    padding: 28px 32px;
+    margin: 40px 0;
+    border-radius: 8px;
+  }
+  .angle-label {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #E7B43A;
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+  .angle-item {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+  .angle-item:last-child { margin-bottom: 0; }
+  .angle-num {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #E7B43A;
+    line-height: 1.2;
+    min-width: 28px;
+    flex-shrink: 0;
+  }
+  .angle-text {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 15px;
+    line-height: 1.65;
+    color: #e8e0d2;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #E5DAC4;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    color: #928775;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 1.8;
+  }
+  .footer strong { color: #1F1B16; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Nameplate -->
+  <div class="nameplate">
+    <div class="nameplate-eyebrow">Your Morning Brief · Monday, 21 July 2026</div>
+    <div class="nameplate-title">Appetite</div>
+    <div class="nameplate-sub">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="gingham-rule"></div>
+
+  <!-- Dateline -->
+  <div class="dateline">
+    <span class="dateline-left">Edition 39</span>
+    <span class="dateline-right">Venture &nbsp;·&nbsp; Food &nbsp;·&nbsp; Art &nbsp;·&nbsp; Nature</span>
+  </div>
+
+  <!-- Lead -->
+  <div class="story">
+    <div class="kicker">Today's Lead &nbsp;·&nbsp; Venture Capital</div>
+    <h1 class="lead-hed">Neko Health raises $700 million at $7 billion — Europe's preventive-health unit-economics benchmark is set</h1>
+
+    <p>Daniel Ek's full-body health scanning company Neko Health closed a $700 million Series C on 15 July, valuing the business at roughly $7 billion — up fourfold from its $1.7 billion Series B of January 2025.
+    <a href="https://techcrunch.com/2026/07/15/daniel-eks-body-scanning-startup-neko-health-raises-another-700m/" target="_blank" class="source-badge badge-green">TechCrunch 9/10</a>
+    <a href="https://www.nekohealth.com/us/en/press/neko-health-raises-usd700m-series-c-ahead-of-us-launch" target="_blank" class="source-badge badge-green">Neko Health 10/10</a>
+    Lightspeed Venture Partners led; Atomico, General Catalyst, and Lakestar participated as existing investors; Liberty City Ventures, Positive Sum, and BDT &amp; MSD Partners came in new. Capital goes to the first US clinics and European network expansion.</p>
+
+    <p>The company has 100,000 members across its current European clinic network and is profitable at the individual clinic level before this round. The model: a roughly two-hour full-body scan appointment covering MRI, blood biomarkers, cardiovascular screening, and metabolic markers, with AI-powered analysis and a subscription structure. Prevention is not a stated aspiration here — it is the product design. Members pay to detect disease before it presents symptoms, and the company makes money doing it.</p>
+
+    <p>The fourfold valuation move from Series B to C ($1.7B → $7B) in eighteen months, on a base of 100,000 members and unit-level profitability, establishes the most specific comp available in Europe for Calm/Storm's preventive-health thesis. Alan's Series G (€480M, €5.5B valuation, Ed. 24) is the health-insurance version of the same thesis; Neko Health is the diagnostics version. Together they define the range: at what point a European preventive-health company should be profitable at the unit level, and what a defensible valuation looks like against that. Neko Health's answer is: 100,000 members and a demonstrated cost-per-scan below the subscription revenue line before raising Series C. The valuation then prices the US expansion, not the current European base.</p>
+
+    <p>The US launch is the next test. European preventive health companies tend to scale in markets where employer benefits, health consciousness, and a co-pay culture intersect. Whether those parameters reproduce in the US — where Neko will compete against established concierge medicine and the MDVIP/One Medical primary-care category — is the open question. Lightspeed's involvement is a US-distribution signal; BDT &amp; MSD's is a healthcare-systems integration signal. Neither answers whether a $100/month or $150/month subscription translates.</p>
+  </div>
+
+  <div class="rule"></div>
+
+  <!-- Further items -->
+  <div class="further-label">Further Items</div>
+
+  <div class="further-item">
+    <div class="kicker">Food Science &amp; Regulation</div>
+    <h2 class="section-hed">EFSA issues its first positive opinion on CBD as a novel food</h2>
+    <div class="story">
+      <p>The European Food Safety Authority issued a draft positive scientific opinion on Chanelle McCoy Health's novel food application for cannabidiol on 15 July — the first CBD application to clear EFSA's safety assessment after a run of category-wide rejections.
+      <a href="https://cannabishealthnews.co.uk/2026/07/15/chanelle-mccoy-health-claims-first-positive-efsa-opinion-on-cbd-novel-food-application/" target="_blank" class="source-badge badge-amber">Cannabis Health News 7/10</a>
+      <a href="https://www.nutraingredients.com/Article/2026/07/17/mid-year-regulatory-round-up-updates-from-europe/" target="_blank" class="source-badge badge-green">NutraIngredients 8/10</a>
+      EFSA has rejected multiple CBD isolated, synthetic, and broad-spectrum extract applications this year; by mid-year the tally stands at 15 novel food authorisations and 21 rejections across all categories. The Chanelle McCoy opinion is still a draft — a Commission authorisation decision follows — but a draft positive opinion from EFSA has not been reversed in any CBD application to date.</p>
+      <p>The structural signal is narrow but specific: a persistent, well-constructed dossier eventually moves EFSA even in a category it has repeatedly rejected. That is the same logic that carried Formo's FDA GRAS process and Ingredion's Benicaros acquisition (Ed. 16) — pay ahead of certainty, because the regulatory outcome is directionally visible before it is official.</p>
+    </div>
+  </div>
+
+  <div class="further-item">
+    <div class="kicker">Venture · Food</div>
+    <h2 class="section-hed">Believer Meats bid deadline passed — UPSIDE likely to prevail</h2>
+    <div class="story">
+      <p>The deadline for competing bids to exceed UPSIDE Foods' $50 million stalking-horse offer for Believer Meats' shuttered Wilson, North Carolina cultivated-meat facility passed yesterday (20 July).
+      <a href="https://agfundernews.com/exclusive-upside-foods-submits-50m-stalking-horse-bid-for-believer-meats-us-cultivated-meat-facility" target="_blank" class="source-badge badge-green">AgFunderNews 9/10</a>
+      No qualifying competing bid above $52.25 million has been publicly confirmed. If none were filed, UPSIDE's offer becomes the effective transaction, pending court approval at the 30 July sale hearing. If a qualifying competing bid did clear the threshold, an auction proceeds on 28 July. Either way, the Wilson facility — bioreactors, process tanks, centrifuges, automation systems — changes hands before the end of July. The intellectual property held by the Israeli entity Future Meat Technologies is excluded from the sale.</p>
+      <p>The outcome matters as a two-sided signal: UPSIDE acquiring a shuttered competitor's manufacturing asset for 87.5% below its estimated build cost is the consolidation read; the absence of a competing bid (if confirmed) is the caution read — no other cultivated-meat company was willing to pay even the $52.25M floor for a ready-built facility, which says something about the sector's current access to capital.</p>
+    </div>
+  </div>
+
+  <!-- Julinka's Angle -->
+  <div class="angle-block">
+    <div class="angle-label">Julinka's Angle</div>
+    <div class="angle-item">
+      <div class="angle-num">1</div>
+      <div class="angle-text">Before the next Calm/Storm portfolio review, ask each preventive-health company one specific question: at what member or patient volume does the unit become profitable at the clinic or service level — not when the fund expects profitability, but where the unit economics break even on their own. Neko Health's answer is 100,000 members and clinic-level profitability before Series C. That is the benchmark. If a company cannot name the number, it has not modelled the business; if it can, you have a diligence anchor that no pitch deck supplies.</div>
+    </div>
+    <div class="angle-item">
+      <div class="angle-num">2</div>
+      <div class="angle-text">The EFSA CBD opinion confirms a pattern worth mapping across the novel food register: companies that were rejected once, absorbed the EFSA feedback, and are preparing a revised dossier. Those applications are the closest things the novel food pipeline has to pre-priced regulatory options — EFSA's first positive opinion on CBD took until July 2026, but the directional signal was present in the rejection letters. Identify one Calm/Storm-adjacent food-ingredient company in this position before the next EFSA opinion batch drops.</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <strong>APPETITE</strong> · Edition 39 · Monday, 21 July 2026<br />
+    A personal briefing for Julinka Naomi Waesche · Venture · Food · Art · Nature<br />
+    Sources: TechCrunch · Neko Health · NutraIngredients · Cannabis Health News · AgFunderNews
+  </div>
+
+</div>
+</body>
+</html>
