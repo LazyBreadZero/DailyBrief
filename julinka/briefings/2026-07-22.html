@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Wednesday, 22 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #FBF9F3;
+    color: #1F1B16;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.72;
+    padding: 0 0 60px;
+  }
+  .page { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+
+  /* Nameplate */
+  .nameplate {
+    padding: 40px 0 20px;
+    text-align: center;
+  }
+  .nameplate-eyebrow {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #A8761A;
+    margin-bottom: 10px;
+  }
+  .nameplate-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #1F1B16;
+    letter-spacing: -1.5px;
+    line-height: 1.0;
+  }
+  .nameplate-sub {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #4A4036;
+    margin-top: 10px;
+  }
+
+  /* Gingham rule (Vichy-style) */
+  .gingham-rule {
+    height: 6px;
+    background: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 6px,
+      #FBF9F3 6px, #FBF9F3 12px
+    );
+    margin: 16px 0;
+    border-radius: 1px;
+  }
+
+  /* Dateline bar */
+  .dateline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-top: 2px solid #1F1B16;
+    border-bottom: 2px solid #1F1B16;
+    margin-bottom: 36px;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .dateline-left { color: #A8761A; font-weight: 600; }
+  .dateline-right { color: #4A4036; }
+
+  /* Kicker */
+  .kicker {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8761A;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  /* Headlines */
+  h1.lead-hed {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1F1B16;
+    margin-bottom: 16px;
+  }
+  h2.section-hed {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #1F1B16;
+    margin: 0 0 12px;
+  }
+
+  /* Body copy */
+  .story p {
+    margin-bottom: 18px;
+    color: #1F1B16;
+  }
+  .story p:last-child { margin-bottom: 0; }
+
+  /* Source badges */
+  .source-badge {
+    display: inline-block;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+  .badge-green {
+    background: #E8F1E4;
+    color: #3A6B2A;
+  }
+  .badge-amber {
+    background: #F4E8C9;
+    color: #7A5A12;
+  }
+
+  /* Section divider */
+  .rule { border: none; border-top: 1px solid #E5DAC4; margin: 36px 0; }
+
+  /* Further items block */
+  .further-label {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8761A;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  .further-item {
+    margin-bottom: 32px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #E5DAC4;
+  }
+  .further-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  /* Julinka's Angle block */
+  .angle-block {
+    background: #211C16;
+    color: #e8e0d2;
+    padding: 28px 32px;
+    margin: 40px 0;
+    border-radius: 8px;
+  }
+  .angle-label {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #E7B43A;
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+  .angle-item {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+  .angle-item:last-child { margin-bottom: 0; }
+  .angle-num {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #E7B43A;
+    line-height: 1.2;
+    min-width: 28px;
+    flex-shrink: 0;
+  }
+  .angle-text {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 15px;
+    line-height: 1.65;
+    color: #e8e0d2;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #E5DAC4;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    color: #928775;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 1.8;
+  }
+  .footer strong { color: #1F1B16; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Nameplate -->
+  <div class="nameplate">
+    <div class="nameplate-eyebrow">Your Morning Brief · Wednesday, 22 July 2026</div>
+    <div class="nameplate-title">Appetite</div>
+    <div class="nameplate-sub">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="gingham-rule"></div>
+
+  <!-- Dateline -->
+  <div class="dateline">
+    <span class="dateline-left">Edition 40</span>
+    <span class="dateline-right">Venture &nbsp;·&nbsp; Food &nbsp;·&nbsp; Art &nbsp;·&nbsp; Nature</span>
+  </div>
+
+  <!-- Lead -->
+  <div class="story">
+    <div class="kicker">Today's Lead &nbsp;·&nbsp; Food Science &amp; Venture</div>
+    <h1 class="lead-hed">ADM will manufacture OvoPro at its Iowa corn complex — precision fermentation reaches the commodity-processor layer</h1>
+
+    <p>ADM will manufacture The EVERY Company's OvoPro — recombinant ovalbumin, PDCAAS 1.0, no fat or cholesterol, already stocked at Walmart and Target — at its Clinton, Iowa corn-processing complex from H2 2027, scaling production fivefold on the earlier Huvepharma arrangement confirmed in June.
+    <a href="https://www.foodnavigator.com/Article/2026/07/14/the-every-company-partners-with-adm-to-scale-ovopro-protein-supply-chain/" target="_blank" class="source-badge badge-green">FoodNavigator 9/10</a>
+    <a href="https://www.foodingredientsfirst.com/news/adm-every-scale-fermented-egg-protein.html" target="_blank" class="source-badge badge-green">FoodIngredients First 9/10</a>
+    ADM's Clinton complex is one of the world's largest corn wet-milling operations; the decision to run a precision-fermented protein through it is a manufacturing-infrastructure commitment, not a product launch.</p>
+
+    <p>The ADM arrangement answers a question that has been implicit in the fermentation archive since the Planetary and Protein Brewery rounds: whether commodity-scale infrastructure would accept precision-fermented proteins without building dedicated facilities. ADM's answer is yes — and the mechanism is the same one that moved fermentation-derived chymosin from a specialty ingredient to 80% of US cheese production over the past two decades. Chymosin replaced calf rennet through existing dairy-processor infrastructure, not through new facilities. OvoPro is attempting the same route through the same category of partner. The difference is timescale: chymosin's transition took roughly a decade; ADM's involvement signals that the current generation of precision-fermented proteins expects a shorter industrial on-ramp.</p>
+
+    <p>For European precision fermentation companies, the ADM model separates two strategic questions that are often conflated. The fermentation platform — organism, strain library, process IP — is the moat. The factory is a balance sheet decision, and ADM has now demonstrated that a commodity ingredient processor will absorb it. The companies in this archive that have adopted versions of this logic are Planetary (BioBlocks licensing, no reactor ownership), The Protein Brewery (third-party scale-up for ingredient buyers), and Standing Ovation (Ajinomoto manufacturing partnership). Those that own or intend to own their production assets — MATR Foods, Solar Foods Factory 02 — are making a different bet on whether proprietary infrastructure generates a durable margin advantage. ADM's move does not resolve that debate, but it prices the alternative.</p>
+
+    <p>The European angle is specific. EVERY Company's second manufacturing partnership in six weeks (Huvepharma in June, ADM now) demonstrates a capital-light, partner-led production strategy that concentrates investment in R&amp;D rather than capex. That strategy depends on finding commodity processors willing to accept precision fermentation loads, which ADM's commitment confirms is now a real option at industrial scale. Ask any European fermentation company what their ADM equivalent is. Some will have a named answer. The ones that do not have modelled their scale-up against an assumption the market has just tested and confirmed.</p>
+  </div>
+
+  <hr class="rule" />
+
+  <!-- Further items -->
+  <div class="further-label">Further Items</div>
+
+  <div class="further-item">
+    <div class="kicker">Food Science &amp; Venture</div>
+    <h2 class="section-hed">Savor raises $32M with AAK as strategic partner — CO₂-derived fats enter commercial development</h2>
+    <div class="story">
+      <p>Savor closed $32 million with AAK as a strategic investor and signed a two-year co-development agreement covering dairy-alternative and bakery applications. Savor's process produces saturated fats directly from CO₂ via biomass fermentation — bypassing agricultural feedstocks entirely — and claims up to 98% lower carbon emissions and around 1,000 times less land use than conventional fats.
+      <a href="https://www.greenqueen.com.hk/savor-carbon-butter-fats-oils-funding-aak-dairy-alternatives-baked-goods/" target="_blank" class="source-badge badge-green">Green Queen 8/10</a>
+      <a href="https://www.fooddive.com/news/aak-savor-butter-carbon-fats-ingredients-bakery/825054/" target="_blank" class="source-badge badge-green">Food Dive 8/10</a>
+      AAK will blend and structure Savor's carbon-derived saturated fats alongside its plant-based oils to match the melt-profile and mouthfeel that commercial bakeries require before they will switch an input.</p>
+      <p>AAK works with more than 700 food manufacturers; its co-development model typically precedes ingredient launch into that customer base. The structural logic is the same as the EVERY/ADM arrangement above: a commodity-layer processor absorbing a novel input through an existing supply relationship rather than requiring the ingredient company to build its own routes to market. The technology vector is distinct — gas fermentation targeting fats rather than proteins — and the feedstock is CO₂ rather than a biological waste stream, placing Savor closer to Solar Foods' Solein approach than to the waste-stream fermentation companies tracked since June. A named commercial launch from this partnership is the signal to watch.</p>
+    </div>
+  </div>
+
+  <div class="further-item">
+    <div class="kicker">Nature &amp; Finance</div>
+    <h2 class="section-hed">EU nature-credits technical criteria have slipped from mid-2026 to at least September</h2>
+    <div class="story">
+      <p>The third expert group meeting on nature credits under COM(2025)374 took place on 18 May; no technical criteria document has been published. Written expert feedback is now due 21 August; the fourth meeting is tentatively set for September 2026.
+      <a href="https://eu.bellona.org/2026/06/29/takeaways-from-the-3rd-expert-group-meeting-on-nature-credits/" target="_blank" class="source-badge badge-green">Bellona EU 8/10</a>
+      The group's working position so far: the Ecosystem Condition Index, aligned with the SEEA-EA framework, is the right architecture, but satellite data alone cannot capture all ecologically relevant variables, and aggregating diverse metrics into a single index risks masking trade-offs between biodiversity dimensions. These are methodology debates, not political ones — the expert group is not divided on whether to build the market.</p>
+      <p>The delay is now running at least two quarters behind the mid-2026 expectation stated in the roadmap. Bellona EU, participating in the process, has publicly opposed using biodiversity credits for offsetting — compensating for losses elsewhere — arguing that the instrument should support additionality rather than substitute for avoiding harm. That is a governance-of-scope question, not a metrics question, and the Commission has not yet resolved it. For investment theses that depend on EU-certified nature credits being available by end-2026, the timeline is materially wrong. The more realistic anchor is 2027, contingent on the September meeting producing a finalised criteria framework.</p>
+    </div>
+  </div>
+
+  <!-- Julinka's Angle -->
+  <div class="angle-block">
+    <div class="angle-label">Julinka's Angle</div>
+    <div class="angle-item">
+      <div class="angle-num">1</div>
+      <div class="angle-text">Before the next fermentation deal closes at Calm/Storm, ask the founder one specific question: is the commercial-scale manufacturing plan built around a partnership with an existing commodity processor, or does it assume a dedicated facility? ADM taking on OvoPro — and Ajinomoto taking on Standing Ovation's casein — shows that commodity processors will absorb precision-fermented proteins through existing infrastructure. The companies that know this have a capital-light path to volume; the ones that don't are pricing a capex assumption the market has just made optional. A named co-development or tolling agreement with a tier-one ingredient processor is now a diligence checkpoint, not a nice-to-have.</div>
+    </div>
+    <div class="angle-item">
+      <div class="angle-num">2</div>
+      <div class="angle-text">The EU nature-credits criteria delay is a planning input for any nature-finance deal in the pipeline. If a company's investment thesis or exit assumes EU-certified credits are tradeable by end-2026, that assumption is wrong — September is the next substantive milestone, and finalised criteria in 2027 is the realistic base case. That is not a reason to pass; it is a reason to ask what the deal looks like without EU credit certification in the near term, and whether the business model survives on voluntary or bilateral standards in the interim. The Finnish state framework and the Indonesia-Verra bilateral model (tracked since July) are the available reference points for what a functioning nature-credit market looks like before EU criteria arrive.</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <strong>APPETITE</strong> · Edition 40 · Wednesday, 22 July 2026<br />
+    A personal briefing for Julinka Naomi Waesche · Venture · Food · Art · Nature<br />
+    Sources: FoodNavigator · FoodIngredients First · Green Queen · Food Dive · Bellona EU
+  </div>
+
+</div>
+</body>
+</html>

@@ -1712,6 +1712,48 @@ Map Calm/Storm portfolio companies against one axis before the next manufacturin
 
 ---
 
+## EDITION 40 — Wednesday, 22 July 2026
+
+### Lead Story
+**Title:** ADM will manufacture OvoPro at its Iowa corn complex — precision fermentation reaches the commodity-processor layer
+**Pillar:** Food Science × Venture Capital
+**Core argument:** ADM will run The EVERY Company's OvoPro (recombinant ovalbumin, PDCAAS 1.0, retail-cleared at Walmart and Target) through its Clinton, Iowa corn-processing complex from H2 2027, scaling production fivefold on the Huvepharma arrangement. ADM's commitment answers the structural question open since the early fermentation rounds: whether commodity-scale infrastructure would accept precision-fermented proteins without dedicated facilities. It does, via the same route fermentation-derived chymosin used to take 80% of US cheese production — through existing processors rather than new builds. The ADM deal separates fermentation moat (IP and strain library) from manufacturing, and prices the alternative to capex ownership.
+**Key entities introduced:** ADM (as commodity-layer manufacturing partner for precision fermentation); OvoPro (The EVERY Company's recombinant ovalbumin, commercial-scale H2 2027 via ADM); ADM Clinton, Iowa corn-processing complex
+**Key concepts introduced:** Commodity-processor adoption of precision fermentation (vs. dedicated-facility ownership); chymosin historical analogy as adoption template; named commodity-layer partner as a diligence checkpoint
+**Sources used:** FoodNavigator (9/10): https://www.foodnavigator.com/Article/2026/07/14/the-every-company-partners-with-adm-to-scale-ovopro-protein-supply-chain/ ; FoodIngredients First (9/10): https://www.foodingredientsfirst.com/news/adm-every-scale-fermented-egg-protein.html
+**Angle delivered:** Ask each precision fermentation company in the Calm/Storm orbit whether commercial-scale manufacturing plan assumes commodity-processor partnership or dedicated facility; named co-development or tolling agreement is now a diligence checkpoint
+**Follow-up threads to watch:** Named buyer or supply contract post-ADM announcement; whether European commodity ingredient processors (DSM-Firmenich, Cargill, Corbion) publicly follow with equivalent fermentation partnerships; ADM Clinton commissioning timeline H2 2027
+
+### Further items
+**Savor + AAK $32M — CO₂-derived fats enter commercial development (Food/Venture, July 9):** Savor closed $32M with AAK as strategic investor and signed a two-year co-development agreement covering dairy-alternative and bakery applications. Savor's biomass fermentation process produces saturated fats from CO₂ directly, claiming 98% lower carbon emissions and 1,000x less land use than conventional fats. AAK (700+ food manufacturer customers) will blend Savor's carbon-derived fats alongside plant-based oils for commercial bakery melt-profile requirements. AAK co-development model typically precedes ingredient launch into its full customer base. Sources: Green Queen (8/10); Food Dive (8/10). Follow-up: named commercial launch; whether a European AAK equivalent adopts comparable CO₂-fermentation partnership.
+
+**EU nature-credits technical criteria slipped — next milestone August 21 written feedback (Nature/Policy):** Third expert group meeting (18 May) produced no criteria document. Expert consensus: Ecosystem Condition Index (SEEA-EA-aligned) is right architecture, but satellite data alone insufficient and single-index aggregation risks masking trade-offs. Written expert feedback due 21 August; 4th meeting tentative September. Timeline now running at least two quarters behind mid-2026 COM(2025)374 expectation. Bellona EU publicly opposes using credits for offsetting. Source: Bellona EU (8/10): https://eu.bellona.org/2026/06/29/takeaways-from-the-3rd-expert-group-meeting-on-nature-credits/. Follow-up: 4th meeting September; whether Commission engages Bellona/additionality objection before COP17.
+
+### New concepts in Julinka's working vocabulary
+- **ADM as commodity-processor fermentation partner:** ADM Clinton, Iowa corn-processing complex manufacturing OvoPro from H2 2027 at commercial scale; the template is fermentation-derived chymosin (80% of US cheese via existing dairy processors); commodity-layer adoption removes largest single capex barrier
+- **Savor / CO₂-to-fat biomass fermentation:** distinct technology vector from protein-focused fermentation companies in archive; bypasses agricultural feedstocks entirely; AAK co-development model as commercial-entry signal
+- **EU nature-credits timeline:** mid-2026 criteria delivery has slipped; 4th expert group meeting September 2026; realistic finalised criteria anchor now 2027
+
+### Running-thread tracker
+- **EVERY Company / ADM — NEW (Ed 40):** ADM manufacturing OvoPro at Clinton, Iowa from H2 2027; fivefold volume increase on Huvepharma arrangement; watching named buyer/supply contract
+- UPSIDE/Believer Meats — bid deadline 20 July passed; court approval hearing 30 July (if no qualifying bid) or auction 28 July (if qualifying bid filed); no public competing bid confirmed above $52.25M
+- Formo casein — IFT FIRST debut completed; named buyer/supply contract announcement still pending
+- EU nature-credits technical criteria — slipped from mid-2026; written feedback August 21; 4th meeting September; 2027 now realistic anchor for finalised criteria
+- Ingredion/Tate & Lyle — Tate & Lyle shareholder scheme vote July 28; antitrust multi-jurisdiction; close H2 2027
+- Alan/Prosus Series G — ACPR regulatory approval pending; no close confirmed
+- Solar Foods Factory 02 — €77.8M Business Finland grant confirmed; final investment decision targeted 2026; no construction start yet
+- Art Basel Paris — October 20–25; Oh La La! (Loïc Prigent, October 23–24); Edward Enninful fashion-world partnership; 206 galleries from 41 countries; no further programme update
+- EFSA CBD/Chanelle McCoy Health — draft positive opinion received (July 15); final EFSA opinion still under embargo; Commission authorisation decision still to follow
+- TurtleTree/Novonesis lactoferrin — no update
+- Japan 2040 new-foods roadmap — no update
+- EU NGT Regulation — mid-2028 application; no update
+- EU Biotech Act II — Q4 2026 publication; no update
+- Christie's/Sotheby's H1 2026 — no update
+- Katingan REDD+/SRUK price spread — no update
+- Louvre renovation — starts September 2026; no update
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1755,6 +1797,7 @@ Map Calm/Storm portfolio companies against one axis before the next manufacturin
 | 37 | 18 Jul 2026 | Art Basel Paris full programme published (206 galleries, Emergence sector, 12 joint booths) | Solar Foods Factory 02 €77.8M Business Finland grant | Karim Crippa (director, Art Basel Paris); Emergence sector | Identify one cross-pillar founder/LP for Art Basel Paris Avant-Première 20 October |
 | 38 | 19 Jul 2026 | StrainX Bioworks $13M adds India to precision fermentation production map | — | StrainX Bioworks; Prime Venture Partners; Leo Capital | Map Calm/Storm portfolio: IP moat vs. cost-of-manufacture moat; India as reference cost for global ingredient buyers |
 | 39 | 21 Jul 2026 | Neko Health $700M Series C at $7B — Europe's preventive-health unit-economics benchmark | EFSA first positive CBD novel food opinion; UPSIDE/Believer bid deadline passed | None new | Ask each Calm/Storm preventive-health company at what volume unit economics break even; map EFSA-rejected dossiers preparing revised applications |
+| 40 | 22 Jul 2026 | ADM will manufacture OvoPro at Iowa corn complex — commodity-processor layer enters precision fermentation | Savor + AAK $32M (CO₂-derived fats, two-year co-development); EU nature-credits criteria slipped to September | ADM (as precision fermentation manufacturing partner); Savor; AAK | Ask each fermentation deal whether commercial-scale plan names a commodity-processor partner or assumes dedicated facility; adjust nature-finance thesis timelines to 2027 |
 
 ---
-*Last updated: Edition 39 — 21 July 2026*
+*Last updated: Edition 40 — 22 July 2026*
