@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Frontier Intelligence — Wednesday, 22 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #FAF8F2;
+    color: #1a1a1a;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.72;
+    padding: 0 0 60px;
+  }
+  .page { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+
+  /* Nameplate */
+  .nameplate {
+    padding: 40px 0 0;
+    text-align: center;
+    border-bottom: 3px solid #1a1a1a;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+  }
+  .nameplate-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 8px;
+  }
+  .nameplate-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -1px;
+    line-height: 1.0;
+  }
+
+  /* Dateline bar */
+  .dateline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .dateline-left { color: #8B1A1A; font-weight: bold; }
+  .dateline-right { color: #666; }
+
+  /* Kicker */
+  .kicker {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  /* Headlines */
+  h1.lead-hed {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1a1a1a;
+    margin-bottom: 14px;
+  }
+  h2.section-hed {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 36px 0 12px;
+    padding-top: 28px;
+    border-top: 1px solid #ddd;
+  }
+  h3.item-hed {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+  }
+
+  /* Body copy */
+  .story p {
+    margin-bottom: 18px;
+  }
+  .story p:last-child { margin-bottom: 0; }
+
+  /* Source badges */
+  .source-badge {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 7px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+  .badge-green {
+    background: #E8F5EC;
+    color: #1A5C2A;
+  }
+  .badge-amber {
+    background: #FFF3D6;
+    color: #7A4A00;
+  }
+
+  /* Divider */
+  .rule { border: none; border-top: 1px solid #d9d3c4; margin: 32px 0; }
+
+  /* Angelo's Angle block */
+  .angle-block {
+    background: #1a1a1a;
+    color: #d8d4cc;
+    padding: 28px 32px;
+    margin: 40px 0;
+    border-radius: 2px;
+  }
+  .angle-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .angle-block p {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 15px;
+    line-height: 1.65;
+    color: #d8d4cc;
+    margin-bottom: 14px;
+  }
+  .angle-block p:last-child { margin-bottom: 0; }
+  .angle-question {
+    color: #c8a882;
+    font-style: italic;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #d9d3c4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #999;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 1.8;
+  }
+  .footer strong { color: #1a1a1a; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Nameplate -->
+  <div class="nameplate">
+    <div class="nameplate-label">Personal Intelligence Briefing · BCI · XR · Spatial Computing</div>
+    <div class="nameplate-title">Frontier Intelligence</div>
+  </div>
+
+  <!-- Dateline -->
+  <div class="dateline">
+    <span class="dateline-left">Edition 43 &nbsp;·&nbsp; Wednesday, 22 July 2026</span>
+    <span class="dateline-right">XR · Platforms · BCI</span>
+  </div>
+
+  <!-- Lead -->
+  <div class="story">
+    <div class="kicker">Today's Lead &nbsp;·&nbsp; XR &amp; Platforms</div>
+    <h1 class="lead-hed">Samsung reveals Galaxy Glasses at London Unpacked — and leaves the subscription question for the keynote</h1>
+
+    <p>Samsung opens its first Unpacked outside Seoul or New York at 2pm BST today, in London, with Galaxy Glasses as the centrepiece. The device's hardware is settled in advance: Qualcomm Snapdragon AR1 (the same chip in Meta's Ray-Ban Meta glasses), a 12-megapixel Sony IMX681 camera with autofocus, approximately 50 grams, dual LED camera indicators, photochromic lenses, Bluetooth 5.3 and Wi-Fi, no cellular. Frame designs from Gentle Monster and Warby Parker were shown at Google I/O in May.
+    <a href="https://news.samsung.com/global/invitation-galaxy-unpacked-july-2026-a-new-shape-unfolds" target="_blank" class="source-badge badge-green">Samsung Newsroom 10/10</a>
+    <a href="https://www.androidauthority.com/samsung-google-android-xr-glasses-warby-parker-gentle-monster-google-io-2026-3668380/" target="_blank" class="source-badge badge-green">Android Authority 8/10</a>
+    Supply-chain sources have consistently placed the price at $379–$499; pre-orders open today, with general availability in select markets this autumn.</p>
+
+    <p>The autofocus separates Samsung from its most immediate competitor in ways the marketing has not yet made explicit. Meta's Ray-Ban Meta glasses use a fixed-focus camera; beyond a few metres, text and labels become unreadable. Samsung's autofocus corrects that: the glasses can read a product label across a counter, a sign down a corridor, a menu at distance. This is the one capability the phone in a pocket cannot replicate in real time. Samsung's promotional language has led with Gemini and "AI companion." Whether today's keynote argues the camera is notable.
+    <a href="https://www.digitbin.com/samsung-galaxy-glasses-gemini-no-display/" target="_blank" class="source-badge badge-amber">Digitbin 7/10</a>
+    <a href="https://samsung.gadgethacks.com/news/samsung-galaxy-glasses-launch-july-2026-features-privacy-and-tradeoffs/" target="_blank" class="source-badge badge-amber">Samsung Gadget Hacks 7/10</a></p>
+
+    <p>The commercial question Samsung has not committed to in any published material before today is whether Gemini access is bundled with the device or priced separately. Meta set the category's first subscription precedent when Conversation Focus moved to $19.99 a month in August — an on-device feature, rate-limited by a pricing decision, not an infrastructure constraint. Samsung matching that model validates it as a category norm. Samsung countering with free bundled access attacks Meta's emerging software margin and positions Galaxy AI as a hardware attribute. Samsung deferring the announcement — no committed pricing, no timeline — leaves the most commercially significant question in the category unresolved on the day it commands the largest possible audience. All three outcomes are on the table this afternoon.</p>
+
+    <p>One other strand closes today. Samsung's One UI code, leaked in mid-July, identified a second Galaxy Glasses model codenamed Haean: a 2027 successor with a micro-LED display overlay, estimated at $600–$900. Samsung has made no official statement about Haean in any published material. Whether the company endorses the two-tier roadmap today — or stays silent — determines whether the Jinju audio-only price is officially framed as an ecosystem entry-point ahead of a display successor, or remains a capability claim for which the main visible argument is still autofocus.</p>
+  </div>
+
+  <hr class="rule" />
+
+  <!-- Further Reporting -->
+  <div class="story">
+    <h2 class="section-hed">Further Reporting</h2>
+
+    <h3 class="item-hed">Neuracle completes first commercial brain implant in China</h3>
+    <p>A patient at Huashan Hospital in Shanghai received the first commercially approved brain-computer interface implant in China this month. Neuracle's NEO — coin-sized, eight surface electrodes, placed on the brain's outer sensorimotor cortex without penetrating tissue — was approved by China's NMPA in March 2026. The patient, who lost hand function in a spinal cord injury a decade ago, controlled a robotic glove using thought alone; local health insurance covered the procedure. Four months separated commercial regulatory approval from the first paying patient — a faster approval-to-deployment gap than any prior invasive BCI commercialisation pipeline. The company reported zero implant revenue at the time of its $370 million IPO filing in June. One patient is not revenue at scale, but the gap between regulatory approval and first deployment is now closed.
+    <a href="https://thenextweb.com/news/china-first-commercial-brain-implant-neuracle-neo" target="_blank" class="source-badge badge-green">The Next Web 8/10</a>
+    <a href="https://www.scmp.com/tech/big-tech/article/3360684/china-completes-worlds-first-commercial-brain-computer-interface-implant" target="_blank" class="source-badge badge-green">SCMP 8/10</a></p>
+  </div>
+
+  <!-- Angelo's Angle -->
+  <div class="angle-block">
+    <div class="angle-label">Angelo's Angle</div>
+    <p>Samsung's autofocus 12MP camera is the most specific, falsifiable hardware argument in the smart-glasses category today, and Samsung appears not to be making it. Meta's fixed-focus camera cannot reliably read text at distance; Samsung's can — live visual search while the phone stays in a pocket is a concrete, nameable capability with a concrete, nameable buyer. The alternative to leading with "Gemini AI companion" is leading with the camera. Samsung's keynote tonight is the clearest possible signal of which argument Samsung believes its buyers respond to.</p>
+    <p class="angle-question">Before today's presentation ends, find the sentence in Samsung's keynote or product page where they argue the autofocus camera as a specific capability advantage, not a spec on a bullet list. If that sentence doesn't exist, you have found the gap between what this product can do and what the company believes it can sell. Angelo's version of that argument — written in one sentence that names a specific buyer problem the autofocus solves — is the translation job Edition 42 asked for, and this device is today's clearest test of whether the answer is ready.</p>
+  </div>
+
+  <div class="footer">
+    <strong>FRONTIER INTELLIGENCE</strong> · Edition 43 · Wednesday, 22 July 2026<br />
+    Personal briefing for Angelo Gunther · BCI · XR · Spatial Computing<br />
+    Sources: Samsung Newsroom · Android Authority · The Next Web · SCMP · Digitbin · Samsung Gadget Hacks
+  </div>
+
+</div>
+</body>
+</html>
