@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appetite — Wednesday, 23 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #EFE9DC;
+    font-family: 'Source Serif 4', Georgia, serif;
+    color: #1F1B16;
+    padding: 32px 16px 64px;
+  }
+  .page {
+    max-width: 740px;
+    margin: 0 auto;
+    background: #FBF9F3;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(31,27,22,0.10);
+  }
+
+  /* ── Gold top rule ── */
+  .gold-rule {
+    height: 8px;
+    background: #E7B43A;
+  }
+
+  /* ── Masthead ── */
+  .masthead {
+    padding: 32px 52px 0;
+    text-align: center;
+  }
+  .masthead-sup {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #A8761A;
+    margin-bottom: 10px;
+  }
+  .sun-motif {
+    margin: 0 auto 10px;
+    display: block;
+  }
+  .masthead-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: #1F1B16;
+    letter-spacing: -2px;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  .masthead-tagline {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #4A4036;
+    margin-bottom: 20px;
+  }
+
+  /* ── Gingham rule ── */
+  .gingham-rule {
+    height: 8px;
+    margin: 0 52px;
+    background-image:
+      repeating-linear-gradient(90deg, #E7B43A 0px, #E7B43A 4px, transparent 4px, transparent 8px),
+      repeating-linear-gradient(180deg, #E7B43A 0px, #E7B43A 4px, transparent 4px, transparent 8px);
+    background-size: 8px 8px;
+    background-color: #FBF9F3;
+    opacity: 0.55;
+  }
+
+  /* ── Dateline bar ── */
+  .dateline-wrap {
+    padding: 0 52px;
+  }
+  .dateline-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-top: 2px solid #1F1B16;
+    border-bottom: 2px solid #1F1B16;
+    padding: 7px 0;
+    margin-top: 14px;
+  }
+  .dateline-left {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #A8761A;
+    font-weight: 700;
+  }
+  .dateline-right {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #4A4036;
+  }
+
+  /* ── Body area ── */
+  .content {
+    padding: 0 52px 48px;
+  }
+
+  /* ── Lead ── */
+  .lead-kicker {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #A8761A;
+    font-weight: 700;
+    padding-top: 28px;
+    padding-bottom: 8px;
+  }
+  h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1F1B16;
+    margin-bottom: 10px;
+  }
+  .deck {
+    font-size: 17px;
+    color: #4A4036;
+    line-height: 1.65;
+    font-weight: 300;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #E5DAC4;
+    padding-bottom: 24px;
+  }
+  p {
+    margin-bottom: 18px;
+    font-size: 16.5px;
+    line-height: 1.72;
+    color: #1F1B16;
+  }
+
+  /* ── Section dividers ── */
+  .section-rule {
+    border: none;
+    border-top: 1px solid #E5DAC4;
+    margin: 32px 0 28px;
+  }
+  .section-kicker {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #A8761A;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1F1B16;
+    line-height: 1.25;
+    margin-bottom: 12px;
+  }
+
+  /* ── Source badge ── */
+  .source-badge {
+    display: inline-block;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 4px;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+  .badge-green {
+    background: #E8F1E4;
+    color: #3A6B2A;
+  }
+  .badge-amber {
+    background: #F4E8C9;
+    color: #7A5A12;
+  }
+  a.source-badge:hover { opacity: 0.8; }
+
+  /* ── Further items ── */
+  .further-item {
+    padding: 20px 0;
+    border-top: 1px solid #E5DAC4;
+  }
+  .further-item:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  /* ── On the Radar ── */
+  .radar-block {
+    background: #F4E8C9;
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin-top: 32px;
+  }
+  .radar-label {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #A8761A;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .radar-block p {
+    font-size: 14.5px;
+    color: #4A4036;
+    margin-bottom: 6px;
+    line-height: 1.6;
+  }
+  .radar-block p:last-child { margin-bottom: 0; }
+
+  /* ── Julinka's Angle ── */
+  .angle-block {
+    background: #211C16;
+    color: #E8E0D0;
+    padding: 26px 30px;
+    border-radius: 10px;
+    margin-top: 36px;
+  }
+  .angle-label {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #E7B43A;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .angle-move {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+  .angle-move:last-child { margin-bottom: 0; }
+  .angle-num {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #E7B43A;
+    line-height: 1.3;
+    flex-shrink: 0;
+    width: 28px;
+  }
+  .angle-text {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 15.5px;
+    color: #E8E0D0;
+    line-height: 1.65;
+  }
+
+  /* ── Footer ── */
+  .footer {
+    border-top: 1px solid #E5DAC4;
+    margin: 36px 52px 0;
+    padding: 18px 0 30px;
+    text-align: center;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    color: #928775;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 12px 8px 40px; }
+    .masthead, .dateline-wrap, .content, .footer { padding-left: 24px; padding-right: 24px; }
+    .gingham-rule { margin: 0 24px; }
+    .masthead-title { font-size: 42px; }
+    h1 { font-size: 22px; }
+    .angle-num { font-size: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <div class="gold-rule"></div>
+
+  <!-- Masthead -->
+  <div class="masthead">
+    <div class="masthead-sup">Your Morning Brief &middot; Wednesday, 23 July 2026</div>
+    <!-- Sun motif -->
+    <svg class="sun-motif" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="18" cy="18" r="7" stroke="#E7B43A" stroke-width="1.5" fill="none"/>
+      <line x1="18" y1="2" x2="18" y2="7" stroke="#E7B43A" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="18" y1="29" x2="18" y2="34" stroke="#E7B43A" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="2" y1="18" x2="7" y2="18" stroke="#E7B43A" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="29" y1="18" x2="34" y2="18" stroke="#E7B43A" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="5.7" y1="5.7" x2="9.2" y2="9.2" stroke="#E7B43A" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="26.8" y1="26.8" x2="30.3" y2="30.3" stroke="#E7B43A" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="30.3" y1="5.7" x2="26.8" y2="9.2" stroke="#E7B43A" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="9.2" y1="26.8" x2="5.7" y2="30.3" stroke="#E7B43A" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+    <div class="masthead-title">Appetite</div>
+    <div class="masthead-tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+
+  <div class="gingham-rule"></div>
+
+  <div class="dateline-wrap">
+    <div class="dateline-bar">
+      <span class="dateline-left">Edition 41</span>
+      <span class="dateline-right">Venture &middot; Food &middot; Art &middot; Nature</span>
+    </div>
+  </div>
+
+  <div class="content">
+
+    <!-- Lead -->
+    <div class="lead-kicker">Today's Lead &middot; Food Science &times; Venture</div>
+    <h1>Believer Meats' factory and its IP are going to two separate buyers — and three patent families attracted "vast interest"</h1>
+    <div class="deck">The Israeli trustee managing Future Meat Technologies' intellectual property has extended the bid deadline from 22 July to 5 August, citing extraordinary interest from cultivated meat companies, investment funds, and "other entities." The IP covers cell lines, media formulations, and scale-up know-how — and whoever wins UPSIDE Foods' $50 million North Carolina factory bid does not automatically get any of it.</div>
+
+    <p>When UPSIDE Foods placed its $50 million stalking-horse bid on Believer Meats' shuttered North Carolina facility, the asset on offer was a building and its contents: 20,000-litre bioreactors, media and process tanks, centrifuges, freezing systems, automation, wastewater infrastructure, and permits. Not the biology. The cell lines, media formulations, bioreactor operating procedures, perfusion strategies, centrifuge integration protocols, automation recipes, and harvest procedures — three patent families covering the core of how Believer actually grew meat — are held separately by insolvent Israeli entity Future Meat Technologies Ltd, managed by court-appointed trustee Yoel Freilich of Tel Aviv law firm Gissin &amp; Co. Freilich is explicit on the point: "whoever purchases the plant in North Carolina does not get the IP or the know-how of the company and doesn't have permission to use it unless he buys it from FML."</p>
+
+    <p>The IP auction was originally scheduled to close 22 July. Freilich extended it to 5 August, citing "the vast interest shown in the technology from cultivated meat companies, investment funds, and other entities, and the complexity of the due diligence process." He did not name bidders. The extension is itself the signal: at least some parties are running diligence serious enough to need more than three weeks.</p>
+
+    <p>On the US facility side, UPSIDE's $52.25 million qualifying threshold passed on 20 July with no public confirmation of a competing bid above it. The North Carolina Business Court sale hearing is set for 30 July; if a qualifying bid did materialise, an auction proceeds on 28 July. The two processes — Israeli IP, US factory — move on independent timelines and will likely produce two different buyers. Believer Meats raised approximately $400 million from ADM Ventures, Tyson Ventures, and others before ceasing operations in December 2025.</p>
+
+    <p>What the "vast interest" confirms: cultivated meat's commercial failure has not extinguished demand for cultivated meat technology. Cell lines and scale-up know-how are scarce enough that an insolvent company's patents attract a global auction with complex due diligence. The biology commands a price the business never did.</p>
+
+    <div style="margin: 8px 0 24px; font-size: 13px; font-family: 'DM Sans', Arial, sans-serif; color: #928775;">
+      Sources:
+      <a href="https://agfundernews.com/believer-meats-trustee-sets-august-5-deadline-for-cultivated-meat-ip-auction" target="_blank" class="source-badge badge-green">AgFunderNews 9/10</a>
+      <a href="https://agfundernews.com/exclusive-upside-foods-submits-50m-stalking-horse-bid-for-believer-meats-us-cultivated-meat-facility" target="_blank" class="source-badge badge-green">AgFunderNews 9/10</a>
+      <a href="https://www.greenqueen.com.hk/believer-meats-debt-bankruptcy-filing-funding-approval/" target="_blank" class="source-badge badge-amber">Green Queen 8/10</a>
+    </div>
+
+    <!-- Further items -->
+    <hr class="section-rule">
+    <div class="section-kicker">Further Reporting</div>
+
+    <div class="further-item">
+      <h2>Japan and Korea name their food-tech numbers — and a Japanese strategic is already inside the precision fermentation supply chain</h2>
+      <p>Japan's ¥9.7 trillion ($59.6 billion) food-tech investment outlook through 2040, confirmed by the Cabinet last month, now has operating structure. Two new working groups under the Food Tech Public-Private Council launched this week: one for freshness preservation technologies, one for fermentation-derived foods. Agriculture Minister Suzuki confirmed that public support will be selective — companies must demonstrate "technological capabilities, management strength, international focus, and personal networks." ¥1 trillion ($6.15 billion) is allocated specifically to novel foods including alternative proteins and functional nutrition. A separate July 22 analysis in Food Manufacture positioned Japan and Korea as direct competitors: Korea's Food Tech Industry Promotion Act and its L.E.A.P. framework target KRW 100 billion ($67.9 million) annually in agri-food innovation clusters by 2027, under a permissive "negative regulation" model — permitted by default unless explicitly prohibited.</p>
+      <p>The Japan angle intersects directly with the TurtleTree/Novonesis lactoferrin deal: 321Catalyst Ventures, a corporate venture vehicle of Mitsui Chemicals (Tokyo), co-invested alongside Novonesis. Mitsui is Japan's dominant chemical and fermentation materials company. A Japanese strategic is already at the cap table of the precision fermentation deal most closely aligned to Japan's 2040 demand-side nutrition priorities — and positioned for Japan market access if Novonesis scales LF+ into the region.</p>
+      <div style="margin-top: 8px; font-size: 13px; font-family: 'DM Sans', Arial, sans-serif; color: #928775;">
+        Sources:
+        <a href="https://www.foodmanufacture.co.uk/Article/2026/07/22/japan-korea-pour-billions-into-bid-for-food-tech-dominance/" target="_blank" class="source-badge badge-green">Food Manufacture 8/10</a>
+        <a href="https://www.greenqueen.com.hk/japan-growth-strategy-public-private-investment-roadmap-new-foods/" target="_blank" class="source-badge badge-amber">Green Queen 8/10</a>
+        <a href="https://www.novonesis.com/en/news/novonesis-and-turtletree-enter-partnership-support-commercialization-lactoferrin" target="_blank" class="source-badge badge-green">Novonesis press release 10/10</a>
+      </div>
+    </div>
+
+    <div class="further-item">
+      <h2>Lloyds Bank and Wildfarmed stack payments from banks, utilities, and insurers to reach regenerative farmers — £1.3 million in year one</h2>
+      <p>Lloyds Banking Group and Wildfarmed — a UK regenerative grain company whose flour supplies restaurants, bakeries, and pizza chains — launched a Food &amp; Nature Resilience Fund on 11 July targeting measurable improvements in biodiversity, soil health, water quality, and carbon. Initial backers include Severn Trent Water, Affinity Water, and AXA XL. The mechanism stacks payments from multiple categories of beneficiary — a bank's relationship value, a water company's pollution-reduction savings, an insurer's risk-reduction premium — and routes them to farmers who hit measurable natural-capital thresholds. Eighty-nine participating farms across 50,000 acres are already in Wildfarmed's supply chain. The fund targets £1.3 million in year one with a design to scale as additional partners join. Ninety-two percent of UK farmers surveyed by Wildfarmed cited financial barriers as the primary obstacle to transitioning to regenerative practices.</p>
+      <div style="margin-top: 8px; font-size: 13px; font-family: 'DM Sans', Arial, sans-serif; color: #928775;">
+        Sources:
+        <a href="https://www.thegrocer.co.uk/news/wildfarmed-launches-food-and-nature-resilience-fund/720683.article" target="_blank" class="source-badge badge-green">The Grocer 8/10</a>
+        <a href="https://www.esgtoday.com/lloyds-wildfarmed-launch-fund-to-help-farmers-adopt-sustainable-farming-practices/" target="_blank" class="source-badge badge-amber">ESG Today 7/10</a>
+      </div>
+    </div>
+
+    <!-- On the Radar -->
+    <div class="radar-block">
+      <div class="radar-label">On the Radar</div>
+      <p><strong>28 July</strong> — Believer Meats NC facility auction (if qualifying competing bid received above $52.25M)</p>
+      <p><strong>28 July</strong> — Ingredion/Tate &amp; Lyle shareholder vote</p>
+      <p><strong>30 July</strong> — Believer Meats sale hearing (NC Business Court)</p>
+      <p><strong>5 August</strong> — Believer Meats IP bid deadline (Israeli trustee; Future Meat Technologies Ltd)</p>
+      <p><strong>20–25 October</strong> — Art Basel Paris (Grand Palais); Avant-Première 20 October</p>
+    </div>
+
+    <!-- Julinka's Angle -->
+    <div class="angle-block">
+      <div class="angle-label">Julinka's Angle</div>
+      <div class="angle-move">
+        <div class="angle-num">1</div>
+        <div class="angle-text">Before the next Calm/Storm diligence on any capital-intensive food-tech company, establish two independent valuations: the facility replacement cost and the standalone IP value. Believer's precedent now prices these separately — $50 million for the factory, and a separate auction for three patent families covering cell lines, media formulations, and scale-up know-how that attracted "vast interest" from investment funds and cultivated meat companies. Ask every capital-intensive food-tech founder: if the business failed tomorrow, what would the IP attract at auction, independent of the equipment?</div>
+      </div>
+      <div class="angle-move">
+        <div class="angle-num">2</div>
+        <div class="angle-text">Mitsui Chemicals' corporate VC (321Catalyst) is already inside the TurtleTree/Novonesis lactoferrin deal — a Japanese industrial fermentation strategic with a co-investment alongside the world's largest biosolutions company. Before building any Japan-market thesis for precision fermentation portfolio companies, check who Mitsui's food-ingredients CVC has already backed. A strategic this well-positioned tends to be placing in more than one deal.</div>
+      </div>
+    </div>
+
+  </div><!-- /content -->
+
+  <div class="footer">
+    <strong style="color: #1F1B16;">APPETITE</strong> &middot; Edition 41 &middot; Wednesday, 23 July 2026<br>
+    A personal briefing for Julinka Naomi Waesche &middot; Venture &middot; Food &middot; Art &middot; Nature
+  </div>
+
+</div><!-- /page -->
+
+</body>
+</html>

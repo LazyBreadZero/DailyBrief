@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frontier Intelligence — Wednesday, 23 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #EDE9DF;
+    font-family: 'Source Serif 4', Georgia, serif;
+    color: #1a1a1a;
+    padding: 32px 16px 64px;
+    font-size: 18px;
+    line-height: 1.65;
+  }
+  .page {
+    max-width: 740px;
+    margin: 0 auto;
+    background: #FAF8F2;
+    border: 1px solid #d8d0c0;
+    border-radius: 4px;
+  }
+
+  /* ── Masthead ── */
+  .masthead {
+    padding: 36px 52px 0;
+    border-bottom: 3px solid #1a1a1a;
+  }
+  .masthead-sup {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 6px;
+  }
+  .masthead-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+  .dateline-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 6px 0 8px;
+    border-top: 1px solid #1a1a1a;
+  }
+  .dateline-left {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: 700;
+  }
+  .dateline-right {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666;
+  }
+
+  /* ── Body area ── */
+  .content {
+    padding: 0 52px 48px;
+  }
+
+  /* ── Lead ── */
+  .lead-kicker {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: 700;
+    padding-top: 32px;
+    padding-bottom: 8px;
+  }
+  h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+  }
+  .deck {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #ddd8cc;
+    padding-bottom: 24px;
+  }
+  p {
+    margin-bottom: 18px;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #1a1a1a;
+  }
+
+  /* ── Section dividers ── */
+  .section-rule {
+    border: none;
+    border-top: 1px solid #ddd8cc;
+    margin: 32px 0 28px;
+  }
+  .section-kicker {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.25;
+    margin-bottom: 12px;
+  }
+
+  /* ── Source badge ── */
+  .source-badge {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 4px;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+  .badge-green {
+    background: #E8F5EC;
+    color: #1A5C2A;
+  }
+  .badge-amber {
+    background: #FFF3D6;
+    color: #7A4A00;
+  }
+  a.source-badge:hover { opacity: 0.8; }
+
+  /* ── Further items ── */
+  .further-item {
+    padding: 20px 0;
+    border-top: 1px solid #ddd8cc;
+  }
+  .further-item:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  /* ── Angelo's Angle ── */
+  .angle-block {
+    background: #1a1a1a;
+    color: #d8d4cc;
+    padding: 24px 28px;
+    border-radius: 4px;
+    margin-top: 36px;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+  .angle-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #c8a882;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .angle-block p {
+    color: #d8d4cc;
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+  .angle-block p:last-child { margin-bottom: 0; }
+
+  /* ── Footer ── */
+  .footer {
+    border-top: 1px solid #ddd8cc;
+    margin: 48px 52px 0;
+    padding: 20px 0 32px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #999;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 12px 8px 40px; font-size: 16px; }
+    .masthead, .content, .footer { padding-left: 24px; padding-right: 24px; }
+    .masthead-title { font-size: 38px; }
+    h1 { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- Masthead -->
+  <div class="masthead">
+    <div class="masthead-sup">Personal Intelligence Briefing</div>
+    <div class="masthead-title">Frontier Intelligence</div>
+    <div class="dateline-bar">
+      <span class="dateline-left">Edition 44 &middot; Wednesday, 23 July 2026</span>
+      <span class="dateline-right">Clinical &amp; Regulatory</span>
+    </div>
+  </div>
+
+  <div class="content">
+
+    <!-- Lead -->
+    <div class="lead-kicker">Today's Lead &middot; BCI / Medical Devices</div>
+    <h1>Science Corp wins EU approval for PRIMA — the first treatment shown to restore reading vision in geographic atrophy</h1>
+    <div class="deck">After forty-three months of tracking, Science Corp received a CE mark from DEKRA on 22 July covering 30 European countries for PRIMA, its subretinal photovoltaic implant. The clinical evidence, published in the <em>New England Journal of Medicine</em>, is the strongest in the company's history.</div>
+
+    <p>PRIMA works by replacing the function of damaged photoreceptors in geographic atrophy — the advanced, untreatable form of age-related macular degeneration that destroys central vision. A subretinal photovoltaic array converts light into electrical impulses that stimulate the remaining inner retinal neurons; a pair of specialised glasses projects near-infrared images onto the implant. The patient sees through the device rather than around it. In a 38-patient pivotal trial across 17 sites in five countries, 84 percent of subjects recovered the ability to read letters, numbers, and words. Mean improvement was 25.5 letters on the ETDRS chart — more than five full lines.</p>
+
+    <p>The CE mark, granted under the EU Medical Device Regulation, authorises commercial sale across 30 European countries. Science Corp expects the first paid implant to take place in Germany, where the pivotal sites were concentrated, as country-specific reimbursement applications and clinical site activations proceed across Europe. PRIMA carries FDA Breakthrough Device and Humanitarian Use Device designations in the United States; Science Corp is working with FDA on a US approval pathway and STAT News reported a possible 2027 US launch date, though no formal filing has been made.</p>
+
+    <p>CEO Max Hodak has been explicit about what the CE mark enables beyond ophthalmology. Science Corp is developing a biohybrid brain sensor for direct neural recording in collaboration with Yale Medical School's Murat Günel — but Hodak has stated that the brain-level programme depends on PRIMA becoming a revenue-generating business first. The retinal implant is not a stepping stone to a BCI business; it is the commercial foundation without which the BCI work does not proceed. That dependency is now one step closer to resolution.</p>
+
+    <p>Geographic atrophy affects an estimated five million people in Europe. There is no approved treatment that slows its progression; PRIMA is the first shown to restore rather than preserve vision. Science Corp has raised approximately $490 million in total, including a $230 million Series C in March 2026.</p>
+
+    <div style="margin: 8px 0 24px; font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #555;">
+      Sources:
+      <a href="https://science.xyz/news/ce-mark/" target="_blank" class="source-badge badge-green">Science Corp press release 10/10</a>
+      <a href="https://www.statnews.com/2026/07/22/prima-retinal-implant-for-macular-degeneration-us-timeline/" target="_blank" class="source-badge badge-green">STAT News 9/10</a>
+      <a href="https://techcrunch.com/2026/07/22/science-corporations-vision-restoring-chip-wins-eu-approval/" target="_blank" class="source-badge badge-green">TechCrunch 9/10</a>
+      <a href="https://www.biospace.com/press-releases/science-corp-announces-european-commercial-launch-of-prima-the-only-treatment-to-restore-functional-central-vision-to-patients-with-geographic-atrophy-caused-by-age-related-macular-degeneration-a-leading-cause-of-blindness" target="_blank" class="source-badge badge-green">BioSpace/Business Wire 10/10</a>
+      <a href="https://www.massdevice.com/science-corp-launches-prima-bci-europe/" target="_blank" class="source-badge badge-green">MassDevice 9/10</a>
+    </div>
+
+    <!-- Further items -->
+    <hr class="section-rule">
+    <div class="section-kicker">Further Reporting</div>
+
+    <div class="further-item">
+      <h2>Samsung showed its smart glasses at London Unpacked — without pricing, a Gemini commitment, or a launch date</h2>
+      <p>Samsung unveiled "Intelligent Eyewear" on the Unpacked stage on 22 July — confirmed hardware: Snapdragon AR1 Gen 1, 12MP Sony IMX681 with autofocus, nine hours battery, Gentle Monster and Warby Parker frames, Android XR with Gemini. One feature demonstration stood out: pointed at a whiteboard, the camera reads and summarises the content into Samsung Notes. That is the autofocus argument, dressed as an AI capability — a named workplace problem (reading a presentation while your hands are free) solved by a specific hardware differentiator Meta's fixed-focus Ray-Ban camera cannot match at distance. Samsung's keynote did not name autofocus or make the comparison.</p>
+      <p>No price was given. Samsung executive James Choi described the positioning as "premium, but not crazy expensive"; leaked supply-chain estimates put the audio-only tier at $379–$499. Gemini subscription terms were not announced. The Haean 2027 display-tier roadmap was not mentioned on stage. Launch: "fall 2026 in select markets." The full commercial story — price, AI economics, availability — is deferred to the autumn.</p>
+      <div style="margin-top: 8px; font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #555;">
+        Sources:
+        <a href="https://news.samsung.com/global/samsung-brings-galaxy-ecosystem-into-everyday-eyewear" target="_blank" class="source-badge badge-green">Samsung Newsroom 10/10</a>
+        <a href="https://www.digitaltrends.com/wearables/samsung-enters-the-ai-glasses-race-with-gemini-powered-intelligent-eyewear-and-android-xr-support/" target="_blank" class="source-badge badge-green">Digital Trends 8/10</a>
+        <a href="https://vr.org/articles/samsung-intelligent-eyewear-unpacked-reveal-no-price-2026" target="_blank" class="source-badge badge-amber">VR.org 7/10</a>
+      </div>
+    </div>
+
+    <div class="further-item">
+      <h2>New York bans smart glasses from all 1,240 state courts, effective 20 July</h2>
+      <p>New York's Office of Court Administration issued a statewide prohibition on recording-capable eyewear in every courthouse in the state, covering any eyewear or headwear containing a camera, microphone, computer, or other recording technology — prescription or non-prescription. The ban cites New York's Civil Rights Law. Samsung's glasses were shown at Unpacked two days after the ban took effect. Neither Samsung nor Google has published a data policy governing what Gemini does with footage the glasses capture; Meta is defending a federal class-action over the same gap.</p>
+      <div style="margin-top: 8px; font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #555;">
+        Sources:
+        <a href="https://webfiles.nycourts.gov/public/2026-07/amendedprohibitionagainstsmartglassesmemo.pdf" target="_blank" class="source-badge badge-green">NY Courts Admin memo 10/10</a>
+        <a href="https://gizmodo.com/smart-glasses-banned-in-new-york-courtrooms-statewide-2000782399" target="_blank" class="source-badge badge-green">Gizmodo 8/10</a>
+        <a href="https://www.govtech.com/policy/new-york-will-ban-smart-glasses-from-all-courthouses" target="_blank" class="source-badge badge-green">GovTech 8/10</a>
+      </div>
+    </div>
+
+    <!-- Angelo's Angle -->
+    <div class="angle-block">
+      <div class="angle-label">Angelo's Angle</div>
+      <p>Science Corp's press release says the brain-level BCI programme "depends on PRIMA becoming a revenue-generating business first." That sentence is the brief's oldest question made concrete. He now has two 2026 approval-to-revenue sequences in the same calendar year: Neuracle's NMPA approval came in March; its first insurance-covered patient arrived in July, four months later, one patient, one centre, zero disclosed revenue programme. Science Corp's CE mark arrived yesterday; its first commercial implant in Germany is "expected soon," with country-specific reimbursement applications underway across Europe — a process that moves on individual HTA clocks, not a single national insurance decision.</p>
+      <p>Two approvals. Two different reimbursement systems. Two different deployment gaps. The structure is now in place for a 400-word essay: not "does approval predict revenue?" — that is the question the evidence now shows is under-specified — but "what is the mechanism that governs the gap?" Write a first draft before the next BCI company announces its regulatory filing.</p>
+    </div>
+
+  </div><!-- /content -->
+
+  <div class="footer">
+    <strong style="color: #1a1a1a;">FRONTIER INTELLIGENCE</strong> &middot; Edition 44 &middot; Wednesday, 23 July 2026<br>
+    Personal briefing for Angelo Gunther &middot; BCI &middot; XR &middot; Spatial Computing
+  </div>
+
+</div><!-- /page -->
+
+</body>
+</html>

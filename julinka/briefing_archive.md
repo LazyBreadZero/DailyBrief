@@ -1754,6 +1754,49 @@ Map Calm/Storm portfolio companies against one axis before the next manufacturin
 
 ---
 
+## EDITION 41 — Wednesday, 23 July 2026
+
+### Lead Story
+**Title:** Believer Meats' factory and its IP are going to two separate buyers — and three patent families attracted "vast interest"
+**Pillar:** Food Science × Venture Capital
+**Core argument:** Israeli trustee Yoel Freilich (Gissin & Co) extended Believer Meats' IP bid deadline from 22 July to 5 August due to "vast interest from cultivated meat companies, investment funds, and other entities, and the complexity of the due diligence process." The IP covers cell lines, media formulations, and scale-up know-how for cultivated meat (bioreactor operation, perfusion strategy, centrifuge integration, automation recipes, harvest/wash procedures). Freilich was explicit: "whoever purchases the plant in North Carolina does not get the IP or the know-how of the company and doesn't have permission to use it unless he buys it from FML." UPSIDE's $50M bid on the NC facility (bid deadline July 20, sale hearing July 30 or auction July 28) acquires infrastructure only. The IP/facility separation prices technology and physical infrastructure independently, confirming that cultivated meat know-how retains value even after the business fails.
+**Key entities introduced:** Future Meat Technologies Ltd / FML (Israeli IP entity, insolvent parent company); Yoel Freilich / Gissin & Co (Israeli trustee); BDO Consulting Group (US facility marketing agent)
+**Key concepts introduced:** IP/facility separation in food-tech liquidation — cell lines, media formulations, and scale-up know-how bid separately from the physical plant; technology value independent of business model viability
+**Sources used:** AgFunderNews (9/10): agfundernews.com/believer-meats-trustee-sets-august-5-deadline-for-cultivated-meat-ip-auction ; AgFunderNews (9/10): agfundernews.com/exclusive-upside-foods-submits-50m-stalking-horse-bid-for-believer-meats-us-cultivated-meat-facility ; Green Queen (8/10): greenqueen.com.hk/believer-meats-debt-bankruptcy-filing-funding-approval/
+**Angle delivered:** Separate IP valuation from facility valuation in Calm/Storm food-tech diligence; ask every capital-intensive food-tech founder for the standalone IP value independent of equipment; check 321Catalyst/Mitsui Chemicals for further precision fermentation positions
+**Follow-up threads to watch:** Believer NC facility auction July 28 (if qualifying bid received) or sale hearing July 30; IP auction closes August 5; who the IP buyer is and whether it is a cultivated meat company, an ingredient company, or an investment fund
+
+### Further items
+**Japan/Korea food-tech rivalry — Japan's ¥9.7T roadmap now has working groups; 321Catalyst/Mitsui inside TurtleTree/Novonesis (Food/Venture, July 22):** Japan Food Tech Public-Private Council launched two working groups (freshness preservation; fermentation-derived foods) under the confirmed ¥9.7T ($59.6B) food tech investment plan through 2040, including ¥1T ($6.15B) for novel foods. Agriculture Minister Suzuki confirmed selective support criteria. Korea: Food Tech Industry Promotion Act + L.E.A.P. framework; KRW 100B ($67.9M) annually by 2027 in permissive-regulation innovation clusters. 321Catalyst Ventures (Mitsui Chemicals CVC, Tokyo) co-invested in TurtleTree/Novonesis alongside Novonesis — a Japanese industrial fermentation strategic already inside the precision-fermented lactoferrin deal that targets Japan's early-life nutrition market. Sources: Food Manufacture (8/10): foodmanufacture.co.uk/Article/2026/07/22/japan-korea-pour-billions-into-bid-for-food-tech-dominance/ ; Green Queen (8/10); Novonesis press release (10/10): novonesis.com/en/news/novonesis-and-turtletree-enter-partnership-support-commercialization-lactoferrin. Follow-up: 321Catalyst other food-tech positions; Japan fermentation working group outputs.
+
+**Lloyds + Wildfarmed Food & Nature Resilience Fund — blended finance for regen farmers (Nature × Food, July 11):** Lloyds Banking Group and Wildfarmed (UK regen grain company) launched a fund stacking payments from a bank, water utilities (Severn Trent Water, Affinity Water), and an insurer (AXA XL) to reward measurable biodiversity, soil, water, and carbon improvements across 89 farms/50,000 acres. Target: £1.3M year one, designed to scale with additional partners. The mechanism does not take land out of food production. 92% of UK farmers cited financial barriers as the primary obstacle to regen adoption. Sources: The Grocer (8/10): thegrocer.co.uk/news/wildfarmed-launches-food-and-nature-resilience-fund/720683.article ; ESG Today (7/10): esgtoday.com/lloyds-wildfarmed-launch-fund-to-help-farmers-adopt-sustainable-farming-practices/. Follow-up: named additional partners joining; farm-level payment amounts; whether model reaches Continental Europe.
+
+### New concepts in Julinka's working vocabulary
+- **IP/facility separation in food-tech liquidation:** cell lines, media formulations, and scale-up know-how are separate assets from the physical plant; the Believer/Future Meat Technologies precedent prices them independently; a facility buyer does not automatically acquire the right to use the process secrets
+- **Blended-finance stacking for regenerative agriculture:** Wildfarmed/Lloyds model stacks payments from bank, water utility, and insurer to reach farmers without taking land out of production; financial barriers are the dominant obstacle, not technical ones
+
+### Running-thread tracker
+- **UPSIDE/Believer Meats — MOVED (Ed 41):** Israeli IP (Future Meat Technologies/FML) auction separated from NC facility; trustee Yoel Freilich (Gissin & Co) extended IP bid deadline to 5 August (from 22 July) due to "vast interest." NC facility (UPSIDE $50M stalking-horse): bid deadline 20 July passed; no confirmed public competing bid above $52.25M; court approval hearing 30 July (or auction 28 July if qualifying bid). Purchasing NC plant does not confer IP rights.
+- **Japan 2040 roadmap — MOVED (Ed 41):** ¥9.7T total food tech through 2040; ¥1T ($6.15B) for novel foods; two working groups confirmed (freshness preservation; fermentation-derived foods); Agriculture Minister Suzuki: selective criteria. 321Catalyst (Mitsui Chemicals CVC) co-invested in TurtleTree/Novonesis.
+- **Wildfarmed/Lloyds Food & Nature Resilience Fund — NEW (Ed 41):** July 11, 2026; £1.3M target year one; 89 farms/50,000 acres; Severn Trent Water + Affinity Water + AXA XL; blended-finance stacking mechanism.
+- Neko Health — $700M Series C at $7B; 100,000 members; clinic-level profitable; US clinics announced; no update
+- EVERY Company/ADM — ADM manufacturing OvoPro at Clinton, Iowa from H2 2027; watching named buyer/supply contract; no update
+- Savor/AAK — $32M; two-year co-development agreement (dairy-alt/bakery fats from CO₂); no update
+- Formo casein — IFT FIRST debut completed; named buyer/supply contract still pending
+- EU nature-credits technical criteria — slipped from mid-2026; 4th expert group meeting September; written feedback August 21; 2027 now realistic anchor
+- EFSA CBD/Chanelle McCoy Health — draft positive opinion received July 15; final EFSA opinion and Commission authorisation to follow
+- Ingredion/Tate & Lyle — shareholder scheme vote July 28; antitrust multi-jurisdiction; close H2 2027
+- TurtleTree/Novonesis lactoferrin — exclusive commercialisation deal; Mitsui CVC co-invested; no further update
+- Solar Foods Factory 02 — €77.8M Business Finland grant confirmed; final investment decision targeted 2026; no construction start
+- Art Basel Paris — October 20–25; Karim Crippa director; 206 galleries; Emergence sector; no further programme update
+- EU NGT Regulation — in force; mid-2028 first application window; no update
+- EU Biotech Act II — Q4 2026 expected publication; no update
+- Katingan REDD+/SRUK — no update
+- Alan/Prosus Series G — ACPR regulatory approval pending; no close confirmed
+- Louvre renovation — starts September 2026; no update
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1798,6 +1841,7 @@ Map Calm/Storm portfolio companies against one axis before the next manufacturin
 | 38 | 19 Jul 2026 | StrainX Bioworks $13M adds India to precision fermentation production map | — | StrainX Bioworks; Prime Venture Partners; Leo Capital | Map Calm/Storm portfolio: IP moat vs. cost-of-manufacture moat; India as reference cost for global ingredient buyers |
 | 39 | 21 Jul 2026 | Neko Health $700M Series C at $7B — Europe's preventive-health unit-economics benchmark | EFSA first positive CBD novel food opinion; UPSIDE/Believer bid deadline passed | None new | Ask each Calm/Storm preventive-health company at what volume unit economics break even; map EFSA-rejected dossiers preparing revised applications |
 | 40 | 22 Jul 2026 | ADM will manufacture OvoPro at Iowa corn complex — commodity-processor layer enters precision fermentation | Savor + AAK $32M (CO₂-derived fats, two-year co-development); EU nature-credits criteria slipped to September | ADM (as precision fermentation manufacturing partner); Savor; AAK | Ask each fermentation deal whether commercial-scale plan names a commodity-processor partner or assumes dedicated facility; adjust nature-finance thesis timelines to 2027 |
+| 41 | 23 Jul 2026 | Believer Meats IP/facility split — "vast interest" confirms cultivated meat technology retains value | Japan/Korea food-tech rivalry (Japan ¥9.7T / ¥1T novel foods, working groups; Korea KRW 100B/year by 2027); Wildfarmed + Lloyds blended-finance regen fund (£1.3M year one) | Future Meat Technologies Ltd / FML (IP entity); Yoel Freilich / Gissin & Co (trustee); 321Catalyst Ventures | Separate IP valuation from facility valuation in Calm/Storm food-tech diligence; check 321Catalyst/Mitsui for further precision fermentation positions |
 
 ---
-*Last updated: Edition 40 — 22 July 2026*
+*Last updated: Edition 41 — 23 July 2026*
