@@ -1797,6 +1797,46 @@ Map Calm/Storm portfolio companies against one axis before the next manufacturin
 
 ---
 
+## EDITION 42 — Saturday, 8 August 2026
+
+### Lead Story
+**Title:** Tate & Lyle shareholders back Ingredion's £2.7 billion takeover with 98.6% of votes cast
+**Pillar:** Venture Capital × Food Science
+**Core argument:** At the court-convened general meeting on 28 July, Tate & Lyle shareholders voted 98.64% in favour of Ingredion's all-cash offer of 595 pence per share — a 59% premium to the 13 May closing price. The shareholder vote secures the deal's approval leg; completion remains subject to antitrust clearances across the UK, EU, United States, and several other jurisdictions, plus UK High Court sanction. The companies continue to expect the transaction to close in the second half of 2027. The combined group targets US$130 million in annual cost synergies by 2030. For food-tech investors, the deal creates a new structural fact: the combined Ingredion-T&L entity will be the single largest specialty-ingredients supplier in the categories most food-technology startups use to formulate products at scale — from texturisers in plant-based meat to modified starches in functional nutrition. Whether consolidation narrows or simplifies supply access for early-stage companies depends on what the antitrust processes require to be divested.
+**Key entities introduced:** None new
+**Key people introduced:** None new
+**Key concepts introduced:** Specialty-ingredients consolidation — when the two largest specialty-starch and texturiser suppliers merge, the combined entity becomes the dominant counterparty for food-technology startups sourcing in those categories; antitrust divestitures of overlapping product lines to a strategic buyer create a secondary market in the ingredient technology itself.
+**Sources used:** FoodNavigator (9/10): foodnavigator.com/Article/2026/07/28/tate-lyle-shareholders-back-27bn-ingredion-takeover/ ; Globe Newswire (9/10): globenewswire.com/news-release/2026/07/28/3334763/ ; MLex (9/10): mlex.com/mlex/mergers-acquisitions/articles/2509424
+**Follow-up threads to watch:** Antitrust filings — UK CMA, European Commission, US DOJ/FTC; remedy scope in specialty-starch/texturiser categories; UK High Court sanction; deal close (H2 2027 target); buyer landscape for any divested ingredient product lines
+
+### Further items
+**SCiFi Foods auction clears August 6–8; Believer Meats NC facility sale pending August 20 (Food Science, early August 2026):** An online auction for the assets of San Leandro-based cultivated meat startup SCiFi Foods ran August 6–8, with equipment and intellectual property up for sale following the company's wind-down. The Believer Meats NC production facility sale hearing is scheduled for August 20 (or August 17 auction if qualifying bids above UPSIDE Foods' $50 million stalking-horse bid were received by the August 5 deadline). The Israeli IP auction, run separately by trustee Yoel Freilich (Gissin & Co) for Future Meat Technologies Ltd's cell lines, media formulations, and process know-how, closed August 5 after attracting "vast interest from cultivated meat companies, investment funds, and other entities." Results on both the FML IP and the NC facility sale remain to be confirmed at time of publication. SCiFi Foods and Believer Meats together raised over $700 million. What is being auctioned is infrastructure and IP — the technology itself attracted bidders even after both businesses failed. That is not a verdict on the science; it is a verdict on the business models that tried to commercialise it. The buyers of the IP and equipment will be the ones who attempt the next model. Sources: AgFunderNews (9/10): agfundernews.com/brief-scifi-foods-assets-up-for-sale-in-online-auction-august-6-8 ; AgFunderNews (9/10): agfundernews.com/believer-meats-trustee-sets-august-5-deadline-for-cultivated-meat-ip-auction.
+
+### New concepts in Julinka's working vocabulary
+- **Specialty-ingredients consolidation effect on food-tech startups:** when the two largest suppliers in a formulation category merge, strategic exit routes narrow (fewer potential acquirers) and commercial dependency concentrates (fewer independent suppliers); antitrust divestitures create a secondary market in the ingredient technology, which can open new acquisition paths for companies the combined entity divests.
+
+### Running-thread tracker
+- **Ingredion/Tate & Lyle — MOVED (Ed 42):** Shareholder vote 28 July: 98.64% in favour of 595p all-cash offer. Shareholder leg complete. Remaining conditions: UK CMA, European Commission, US DOJ/FTC antitrust clearances; UK High Court sanction. Companies target close H2 2027. US$130M cost synergies target by 2030. Track: EU Commission phase 1/phase 2 filing; remedy scope in specialty-starch/texturiser; High Court sanction hearing.
+- **UPSIDE/Believer Meats — MOVED (Ed 42):** FML IP auction closed 5 August ("vast interest," buyer TBD). NC facility: qualifying bid deadline passed 5 August; sale hearing 20 August (or auction 17 August if qualifying bid received). SCiFi Foods asset auction ran 6–8 August; results pending. Track: FML IP buyer identity; NC facility sale outcome 20 August; SCiFi auction results.
+- Wildfarmed/Lloyds Food & Nature Resilience Fund — £1.3M year-one target; no update
+- Japan 2040 roadmap — working groups confirmed; no update
+- Neko Health — $700M Series C; no update
+- EVERY Company/ADM — watching named buyer/supply contract; no update
+- Savor/AAK — two-year co-development; no update
+- Formo casein — named buyer/supply contract still pending
+- EU nature-credits technical criteria — August 21 written feedback deadline; September expert group meeting
+- EFSA CBD/Chanelle McCoy Health — draft positive opinion received; final opinion pending
+- TurtleTree/Novonesis lactoferrin — exclusive commercialisation deal; no update
+- Solar Foods Factory 02 — €77.8M Business Finland grant confirmed; FID targeted 2026; no update
+- Art Basel Paris — October 20–25; no further programme update
+- EU NGT Regulation — in force; mid-2028 first application window; no update
+- EU Biotech Act II — Q4 2026 expected; no update
+- Katingan REDD+/SRUK — no update
+- Alan/Prosus Series G — ACPR regulatory approval pending; no update
+- Louvre renovation — starts September 2026; no update
+
+---
+
 ## EDITION LOG SUMMARY TABLE
 
 | Edition | Date | Lead Topic | Stories Covered | New Entities | Actions Issued |
@@ -1842,6 +1882,7 @@ Map Calm/Storm portfolio companies against one axis before the next manufacturin
 | 39 | 21 Jul 2026 | Neko Health $700M Series C at $7B — Europe's preventive-health unit-economics benchmark | EFSA first positive CBD novel food opinion; UPSIDE/Believer bid deadline passed | None new | Ask each Calm/Storm preventive-health company at what volume unit economics break even; map EFSA-rejected dossiers preparing revised applications |
 | 40 | 22 Jul 2026 | ADM will manufacture OvoPro at Iowa corn complex — commodity-processor layer enters precision fermentation | Savor + AAK $32M (CO₂-derived fats, two-year co-development); EU nature-credits criteria slipped to September | ADM (as precision fermentation manufacturing partner); Savor; AAK | Ask each fermentation deal whether commercial-scale plan names a commodity-processor partner or assumes dedicated facility; adjust nature-finance thesis timelines to 2027 |
 | 41 | 23 Jul 2026 | Believer Meats IP/facility split — "vast interest" confirms cultivated meat technology retains value | Japan/Korea food-tech rivalry (Japan ¥9.7T / ¥1T novel foods, working groups; Korea KRW 100B/year by 2027); Wildfarmed + Lloyds blended-finance regen fund (£1.3M year one) | Future Meat Technologies Ltd / FML (IP entity); Yoel Freilich / Gissin & Co (trustee); 321Catalyst Ventures | Separate IP valuation from facility valuation in Calm/Storm food-tech diligence; check 321Catalyst/Mitsui for further precision fermentation positions |
+| 42 | 8 Aug 2026 | Tate & Lyle shareholders back Ingredion's £2.7bn takeover with 98.6% of votes cast | SCiFi Foods auction August 6–8; Believer Meats NC facility sale hearing August 20 pending; FML IP auction closed August 5 ("vast interest," buyer TBD) | None new | Map Calm/Storm pipeline against combined Ingredion-T&L entity: customer, competitor, or acquirer in a five-year exit scenario |
 
 ---
-*Last updated: Edition 41 — 23 July 2026*
+*Last updated: Edition 42 — 8 August 2026*

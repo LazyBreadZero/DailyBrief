@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Frontier Intelligence — Saturday, 8 August 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #FAF8F2;
+    color: #1a1a1a;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.7;
+    padding: 0;
+  }
+  .page { max-width: 740px; margin: 0 auto; padding: 40px 24px 80px; }
+
+  /* Nameplate */
+  .nameplate {
+    border-top: 4px solid #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
+    padding: 18px 0 14px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .nameplate .sup {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #888;
+    display: block;
+    margin-bottom: 6px;
+  }
+  .nameplate h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 52px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 1;
+    color: #1a1a1a;
+  }
+
+  /* Dateline bar */
+  .dateline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #1a1a1a;
+    padding: 7px 0;
+    margin-bottom: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .dateline .edition { color: #8B1A1A; font-weight: bold; }
+  .dateline .cats { color: #555; }
+
+  /* Kicker */
+  .kicker {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  /* Lead headline */
+  .lead-headline {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.18;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+  }
+
+  /* Body text */
+  .body-text p {
+    margin-bottom: 18px;
+    color: #222;
+  }
+
+  /* Section rule */
+  .section-rule {
+    border: none;
+    border-top: 1px solid #c8c0b0;
+    margin: 36px 0 28px;
+  }
+
+  /* Further section heading */
+  .further-hed {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  /* Further item */
+  .further-item { margin-bottom: 30px; }
+  .further-item h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+  }
+  .further-item p { margin-bottom: 12px; color: #333; }
+
+  /* Angle block */
+  .angle-block {
+    background: #1a1a1a;
+    color: #d8d4cc;
+    padding: 26px 30px;
+    margin-top: 36px;
+    border-radius: 3px;
+  }
+  .angle-block .angle-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8B1A1A;
+    font-weight: bold;
+    margin-bottom: 12px;
+    display: block;
+  }
+  .angle-block p {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 15.5px;
+    line-height: 1.65;
+    color: #d8d4cc;
+    margin-bottom: 12px;
+  }
+  .angle-block p:last-child { margin-bottom: 0; }
+
+  /* Source badges */
+  .source-badge {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 7px;
+    border-radius: 3px;
+    margin-left: 4px;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+  .badge-green {
+    background: #E8F5EC;
+    color: #1A5C2A;
+  }
+  .badge-amber {
+    background: #FFF3D6;
+    color: #7A4A00;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 60px;
+    border-top: 1px solid #d8d0c0;
+    padding-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.5px;
+    color: #999;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+  }
+  .footer strong { color: #444; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Nameplate -->
+  <div class="nameplate">
+    <span class="sup">Personal Intelligence Briefing</span>
+    <h1>Frontier Intelligence</h1>
+  </div>
+
+  <!-- Dateline -->
+  <div class="dateline">
+    <span class="edition">Edition 45 &middot; Saturday, 8 August 2026</span>
+    <span class="cats">BCI &middot; Platforms &middot; Clinical</span>
+  </div>
+
+  <!-- Lead -->
+  <div class="kicker">Today&rsquo;s Lead &middot; Brain-Computer Interfaces</div>
+  <h2 class="lead-headline">Science Corp names August for its first commercial PRIMA patient in Germany</h2>
+
+  <div class="body-text">
+    <p>Max Hodak confirmed to Bloomberg that the first paying patient will receive a PRIMA retinal implant in Germany this month, converting the company&rsquo;s CE mark — issued by DEKRA on 22 July covering 30 European countries — into a treatment programme. The company intends to complete dozens of implantations before year-end and scale to approximately 200 procedures in 2027. A US FDA application is expected to follow next year; Breakthrough Device and Humanitarian Use Device designations are already in place.</p>
+
+    <p>PRIMA is a subretinal photovoltaic chip, about the size of a grain of rice, that works with a paired pair of specialised glasses. The glasses project near-infrared light onto the implant; the chip converts it to electrical stimulation, bypassing the dead photoreceptors in geographic atrophy — an advanced, untreatable form of age-related macular degeneration. In the pivotal trial published in the <em>New England Journal of Medicine</em>, 26 of 32 patients (84%) regained functional reading ability, with a mean improvement of 25.5 letters on the ETDRS chart. <a class="source-badge badge-green" href="https://science.xyz/news/ce-mark/" target="_blank">Science Corp 10/10</a> <a class="source-badge badge-green" href="https://www.biospace.com/press-releases/science-corp-announces-european-commercial-launch-of-prima-the-only-treatment-to-restore-functional-central-vision-to-patients-with-geographic-atrophy-caused-by-age-related-macular-degeneration-a-leading-cause-of-blindness" target="_blank">BioSpace 9/10</a></p>
+
+    <p>The cochlear implant analogy is increasingly apt. Cochlear implants proved the model: a regulated device with an external processor, a well-defined patient population, reimbursed through national health systems one country at a time, eventually reaching millions of patients across decades. PRIMA&rsquo;s EU commercialisation will follow the same country-by-country HTA logic — Germany first, then each member state on its own reimbursement clock. <a class="source-badge badge-green" href="https://www.advisory.com/daily-briefing/2026/08/03/retinal-implant" target="_blank">Advisory.com 8/10</a></p>
+
+    <p>The first Germany implantation matters specifically because Hodak has been explicit about the sequencing: PRIMA revenue funds the brain-level biohybrid brain sensor programme developed with Yale&rsquo;s Murat Günel. The company is simultaneously a commercial medical device business and a pre-human BCI research programme — but only in sequence, with the retinal device generating the revenue that makes the BCI horizon possible. The first paying patient is the first data point on whether that sequencing actually works. <a class="source-badge badge-green" href="https://www.mobihealthnews.com/news/science-corp-launches-vision-restoring-prima-implant-europe" target="_blank">MobiHealthNews 9/10</a></p>
+
+    <p>Two 2026 approval-to-commercial-deployment timelines now run in parallel. Neuracle (NMPA March &rarr; first insurance-covered patient July, four months, one patient, one centre) and Science Corp (CE mark July 22 &rarr; first commercial patient August, two weeks, Germany, then 29 more countries on individual HTA clocks). The structural difference is not speed — it is architecture. Neuracle navigated one national insurance decision; Science Corp faces a separate HTA process for each of the 30 countries covered by the CE mark. Germany is not the end of the commercial deployment question. It is the opening move.</p>
+  </div>
+
+  <hr class="section-rule" />
+
+  <!-- Further reporting -->
+  <div class="further-hed">Further reporting</div>
+
+  <div class="further-item">
+    <h3>Meta reverses the Conversation Focus paywall three weeks after launch</h3>
+    <p>On 1 July, Meta applied rate limits to Conversation Focus — the Ray-Ban glasses feature that uses on-device AI and the built-in microphones to help wearers better hear a conversation partner. The free tier: three hours per month. Extended use: $20 per month via the Meta One Premium subscription. The first AI-glasses subscription model from a major hardware manufacturer had arrived. By early August, it had been withdrawn. A Meta spokesperson told Engadget: &ldquo;We heard the feedback so we&rsquo;re pausing its subscription tests for now. Conversation Focus will remain available for free through our Early Access Program while we work on a better approach.&rdquo; The subscription has not been ruled out permanently. <a class="source-badge badge-green" href="https://www.engadget.com/2223212/meta-walks-back-rate-limits-for-smart-glasses-conversation-focus/" target="_blank">Engadget 9/10</a> <a class="source-badge badge-amber" href="https://techdirt.com/2026/08/05/meta-backs-off-sloppy-gambit-to-nickel-and-dime-ai-glasses-customers/" target="_blank">Techdirt 7/10</a></p>
+
+    <p>The proximate cause of the backlash was the feature Meta chose to paywall. Conversation Focus is an accessibility function — hearing assistance, not entertainment or productivity. Paywalling it drew immediate and disproportionate criticism from accessibility advocates. Whether the reversal signals a product-value problem (consumers don&rsquo;t yet believe AI glasses features justify a monthly fee at all) or a framing problem (Meta picked the wrong first feature) will be answered by the next attempt. Samsung&rsquo;s Galaxy Glasses, launching this autumn with Gemini integration and no publicly confirmed pricing model for AI features, will make the next attempt by another name.</p>
+  </div>
+
+  <!-- Angelo's Angle -->
+  <div class="angle-block">
+    <span class="angle-label">Angelo&rsquo;s Angle</span>
+    <p>The Meta reversal runs directly against a position the evidence implied after the Conversation Focus launch: that AI glasses features can carry standalone subscription revenue, independent of hardware margin. Three weeks of live market testing has paused that hypothesis — not refuted it, but paused it with a specific failure mode visible. The failure was arguably category (accessibility), not concept (subscription). If Meta had started with a less charged feature — navigation, real-time translation, a productivity function — the outcome may have been different.</p>
+    <p>Before Samsung prices Gemini on its autumn glasses, answer this in one sentence: is Meta&rsquo;s reversal evidence that the AI-glasses subscription model fails on product value, or that it fails only when applied to accessibility? The sentence matters because it predicts whether Samsung&rsquo;s first subscription attempt will look like wisdom from watching Meta&rsquo;s mistake, or like a second version of the same mistake with different branding. State the position, then ask which Samsung exec would most forcefully disagree with it — and whether you know their counterargument.</p>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <strong>FRONTIER INTELLIGENCE</strong> &middot; Edition 45 &middot; Saturday, 8 August 2026<br />
+    Personal briefing for Angelo Gunther &middot; BCI &middot; XR &middot; Spatial Computing
+  </div>
+
+</div>
+</body>
+</html>
