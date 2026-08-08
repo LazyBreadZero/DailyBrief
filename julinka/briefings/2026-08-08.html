@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Appetite — Saturday, 8 August 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #FBF9F3;
+    color: #1F1B16;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.72;
+    padding: 0;
+  }
+  .page { max-width: 740px; margin: 0 auto; padding: 40px 24px 80px; }
+
+  /* Masthead */
+  .masthead {
+    text-align: center;
+    padding-bottom: 18px;
+  }
+  .masthead .sup {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #A8761A;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .masthead h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 62px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 1;
+    color: #1F1B16;
+  }
+  .masthead .tagline {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #4A4036;
+    margin-top: 8px;
+  }
+
+  /* Gingham rule */
+  .gingham {
+    height: 6px;
+    background: repeating-linear-gradient(
+      90deg,
+      #E7B43A 0px, #E7B43A 8px,
+      #FBF9F3 8px, #FBF9F3 16px
+    );
+    margin: 14px 0 0;
+    border-radius: 1px;
+  }
+
+  /* Dateline */
+  .dateline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #1F1B16;
+    border-bottom: 2px solid #1F1B16;
+    padding: 7px 0;
+    margin: 16px 0 32px;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .dateline .edition { color: #A8761A; font-weight: 600; }
+  .dateline .cats { color: #4A4036; }
+
+  /* Kicker */
+  .kicker {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #A8761A;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  /* Lead headline */
+  .lead-headline {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.18;
+    color: #1F1B16;
+    margin-bottom: 18px;
+  }
+
+  /* Body text */
+  .body-text p {
+    margin-bottom: 18px;
+    color: #2A2420;
+  }
+
+  /* Section rule */
+  .section-rule {
+    border: none;
+    border-top: 1px solid #d4c9b4;
+    margin: 36px 0 28px;
+  }
+
+  /* Further section heading */
+  .further-hed {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #A8761A;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  /* Further item */
+  .further-item { margin-bottom: 30px; }
+  .further-item h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    color: #1F1B16;
+  }
+  .further-item p { margin-bottom: 12px; color: #333; }
+
+  /* Angle block */
+  .angle-block {
+    background: #211C16;
+    padding: 26px 30px;
+    margin-top: 36px;
+    border-radius: 8px;
+  }
+  .angle-block .angle-label {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #E7B43A;
+    font-weight: 600;
+    margin-bottom: 14px;
+    display: block;
+  }
+  .angle-block p {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 15.5px;
+    line-height: 1.65;
+    color: #d8d4cc;
+    margin-bottom: 12px;
+  }
+  .angle-block p:last-child { margin-bottom: 0; }
+
+  /* Source badges */
+  .source-badge {
+    display: inline-block;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 4px;
+    margin-left: 4px;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+  .badge-green {
+    background: #E8F1E4;
+    color: #3A6B2A;
+  }
+  .badge-amber {
+    background: #F4E8C9;
+    color: #7A5A12;
+  }
+
+  /* Tracker note */
+  .thread-note {
+    background: #F4E8C9;
+    border-left: 3px solid #E7B43A;
+    padding: 14px 18px;
+    margin-top: 28px;
+    border-radius: 0 6px 6px 0;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 13px;
+    color: #4A4036;
+    line-height: 1.55;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 60px;
+    border-top: 1px solid #d4c9b4;
+    padding-top: 18px;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10.5px;
+    color: #928775;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+  }
+  .footer strong { color: #1F1B16; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Masthead -->
+  <div class="masthead">
+    <span class="sup">Your Morning Brief &middot; Saturday, 8 August 2026</span>
+    <h1>Appetite</h1>
+    <div class="tagline">Curiosity, innovation &amp; a healthy appetite for projects with range.</div>
+  </div>
+  <div class="gingham"></div>
+
+  <!-- Dateline -->
+  <div class="dateline">
+    <span class="edition">Edition 42</span>
+    <span class="cats">Venture &middot; Food &middot; Art &middot; Nature</span>
+  </div>
+
+  <!-- Lead -->
+  <div class="kicker">Today&rsquo;s Lead &middot; Venture Capital &times; Food Science</div>
+  <h2 class="lead-headline">Tate &amp; Lyle shareholders back Ingredion&rsquo;s £2.7 billion takeover with 98.6% of votes cast</h2>
+
+  <div class="body-text">
+    <p>At the court-convened general meeting on 28 July, Tate &amp; Lyle shareholders voted 98.64% in favour of Ingredion&rsquo;s all-cash offer of 595 pence per share — a 59% premium to the May 13 closing price. The vote effectively secures the deal&rsquo;s shareholder leg. Completion remains subject to antitrust clearances across the UK, EU, United States, and several other jurisdictions, plus UK High Court sanction; the companies continue to expect the transaction to close in the second half of 2027. <a class="source-badge badge-green" href="https://www.foodnavigator.com/Article/2026/07/28/tate-lyle-shareholders-back-27bn-ingredion-takeover/" target="_blank">FoodNavigator 9/10</a> <a class="source-badge badge-green" href="https://www.globenewswire.com/news-release/2026/07/28/3334763/0/en/ingredion-s-595-pence-all-cash-offer-to-acquire-tate-lyle-accepted-by-their-shareholders.html" target="_blank">Globe Newswire 9/10</a></p>
+
+    <p>The combined group would unite Ingredion&rsquo;s starch-derived specialty ingredients with Tate &amp; Lyle&rsquo;s sweeteners and texturising systems, targeting US$130 million in annual cost synergies by 2030. Ingredion&rsquo;s CEO Jim Zallie said antitrust filings are &ldquo;on track.&rdquo; The EU and US legs are the substantive risks: the combined entity would hold dominant positions in several specialty-starch and texturiser categories where both companies compete and sell to the same food manufacturers. <a class="source-badge badge-green" href="https://www.mlex.com/mlex/mergers-acquisitions/articles/2509424" target="_blank">MLex 9/10</a></p>
+
+    <p>For food-tech investors, the deal creates a new structural fact: the combined Ingredion-T&amp;L entity will be the single largest specialty-ingredients supplier in the categories most food-technology startups use to formulate products at scale — from texturisers in plant-based meat to modified starches in functional nutrition. Whether the consolidation narrows or simplifies supply access for early-stage companies in those categories depends on what the antitrust processes require to be divested. In prior large ingredient-company mergers, the remedy has typically been divesting overlapping product lines to a strategic buyer, which creates its own secondary market for ingredient technology.</p>
+
+    <p>The vote also advances the deal&rsquo;s logic that has run through the archive since May: Ingredion has repeatedly &ldquo;paid ahead of certainty&rdquo; — the Benicaros novel-food dossier acquisition before Commission authorisation landed, the T&amp;L offer before any antitrust review was complete. The 98.6% shareholder approval confirms that Ingredion&rsquo;s board and investors believe the premium is worth the regulatory uncertainty ahead. Antitrust is now the only remaining variable that can stop it.</p>
+  </div>
+
+  <hr class="section-rule" />
+
+  <!-- Further reporting -->
+  <div class="further-hed">Further reporting</div>
+
+  <div class="further-item">
+    <h3>SCiFi Foods auction clears August 6&ndash;8; Believer Meats NC facility sale pending August 20</h3>
+    <p>An online auction for the assets of San Leandro-based cultivated meat startup SCiFi Foods ran August 6&ndash;8, with equipment and intellectual property up for sale following the company&rsquo;s wind-down. The Believer Meats NC production facility sale hearing is scheduled for August 20 (or August 17 auction if qualifying bids above UPSIDE Foods&rsquo; $50 million stalking-horse bid were received by the August 5 deadline); the Israeli IP auction, run separately by trustee Yoel Freilich (Gissin &amp; Co) for Future Meat Technologies Ltd&rsquo;s cell lines, media formulations, and process know-how, closed August 5 after attracting &ldquo;vast interest from cultivated meat companies, investment funds, and other entities.&rdquo; Results on both the FML IP and the NC facility sale remain to be confirmed at time of publication. <a class="source-badge badge-green" href="https://agfundernews.com/brief-scifi-foods-assets-up-for-sale-in-online-auction-august-6-8" target="_blank">AgFunderNews 9/10</a> <a class="source-badge badge-green" href="https://agfundernews.com/believer-meats-trustee-sets-august-5-deadline-for-cultivated-meat-ip-auction" target="_blank">AgFunderNews 9/10</a></p>
+
+    <p>Two separate liquidations resolving in the same week frame the current state of the cultivated meat sector more plainly than any funding report can. SCiFi Foods and Believer Meats (formerly Future Meat Technologies) together raised over $700 million. What is being auctioned is infrastructure and IP — the technology itself attracted bidders even after both businesses failed. That is not a verdict on the science; it is a verdict on the business models that tried to commercialise it. The buyers of the IP and equipment will be the ones who attempt the next model.</p>
+  </div>
+
+  <div class="thread-note">
+    <strong>Watching:</strong> Believer Meats NC facility sale hearing August 20; FML IP buyer identity; whether any European precision fermentation company or corporate strategic acquires the Believer/SCiFi process know-how.
+  </div>
+
+  <!-- Julinka's Angle -->
+  <div class="angle-block">
+    <span class="angle-label">Julinka&rsquo;s Angle</span>
+    <p>The Ingredion-T&amp;L deal is now one regulatory hearing from closing. Before the EU antitrust filing produces its remedies list, map the Calm/Storm food-tech pipeline against one question for each company: does the combined Ingredion-T&amp;L entity appear as a customer, a competitor, or a potential acquirer in a five-year exit scenario? A specialty-ingredients consolidation of this scale changes the buyer landscape for ingredient-dependent companies and narrows the number of strategic acquirers in the texturiser and specialty-starch space. If any Calm/Storm portfolio company&rsquo;s commercial plan has Tate &amp; Lyle or Ingredion as a named strategic partner or route-to-market, the deal&rsquo;s antitrust outcome is a material variable in that company&rsquo;s next funding narrative.</p>
+    <p>Separately: whoever buys the Believer or SCiFi cultivated meat IP is worth tracking. The technology retained value even after the businesses failed. If a European precision fermentation company or corporate strategic — not UPSIDE, which is a direct US cultivated meat competitor — acquires the process know-how, that is a signal about where consolidation capital sees residual option value in the sector.</p>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <strong>APPETITE</strong> &middot; Edition 42 &middot; Saturday, 8 August 2026<br />
+    A personal briefing for Julinka Naomi Waesche &middot; Venture &middot; Food &middot; Art &middot; Nature
+  </div>
+
+</div>
+</body>
+</html>
